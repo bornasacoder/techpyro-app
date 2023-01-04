@@ -16,38 +16,43 @@ const ImageContainer = styled("div")({
 
 })
 const Image = styled("img")({
-    width:"170px",
-    height:"200px",
+    width:"250px",
+    height:"250px",
     objectFit:"cover",
     margin:"10px",
+    '&:hover':{
+        transform:[{scaleX:"5px"}],
+        backgroundColor:"white"
+
+    },
     '@media(maxWidth: 768px)':{
         width:"150px",
         height:"150px"
     }
 })
-const Head = styled("h3")({
-    fontSize: "16px",
-    fontWeight:"500",
-    textAlign:"center",
-    marginBottom:"5px",
-    "@media (max-width: 600px)": {
-       fontSize: "13px",
-       },
-})
-const Para = styled("p")({
-    fontSize:"14px",
-    fontWeight:"600",
-    "@media (max-width: 600px)": {
-        fontSize: "12px",
-        },
-})
+// const Head = styled("h3")({
+//     fontSize: "16px",
+//     fontWeight:"500",
+//     textAlign:"center",
+//     marginBottom:"5px",
+//     "@media (max-width: 600px)": {
+//        fontSize: "13px",
+//        },
+// })
+// const Para = styled("p")({
+//     fontSize:"14px",
+//     fontWeight:"600",
+//     "@media (max-width: 600px)": {
+//         fontSize: "12px",
+//         },
+// })
  const SliderItem = ({posterLinks}) => {
   return (
        <SliderContainer>
         <ImageContainer>
-            <Image src={posterLinks.url} />
-            <Head>{posterLinks.name}</Head>
-            <Para>{posterLinks.Price}</Para>
+            <Image src={posterLinks} />
+
+            
         </ImageContainer>
        </SliderContainer>
   )
