@@ -6,11 +6,11 @@ import { StylesProvider } from '@mui/styles';
 export const ThemeContext = createContext((_themeName) => {});
 
 const ThemeProviderWrapper = (props) => {
-  const [themeName, _setThemeName] = useState('DarkSpacesTheme');
+  const [themeName, _setThemeName] = useState('PureLightTheme');
 
   useEffect(() => {
     const curThemeName =
-      window.localStorage.getItem('appTheme') || 'DarkSpacesTheme';
+      window.localStorage.getItem('appTheme') || 'PureLightTheme';
     _setThemeName(curThemeName);
   }, []);
 
