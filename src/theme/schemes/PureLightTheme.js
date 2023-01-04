@@ -246,9 +246,9 @@ export const PureLightTheme = createTheme({
   },
   header: {
     height: '80px',
-    background: colors.alpha.white[100],
+    background: colors.primary.main,
     boxShadow: colors.shadows.cardSm,
-    textColor: colors.secondary.main
+    textColor: colors.alpha.white[100]
   },
   spacing: 9,
   palette: {

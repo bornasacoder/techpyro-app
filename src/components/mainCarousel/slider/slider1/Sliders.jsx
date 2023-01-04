@@ -3,18 +3,19 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { styled } from '@mui/styles';
-import SliderItem from '../sliderItem/SliderItem';
+import SliderItem from './sliderItem/SliderItem';
 import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
+import SliderHeader from './sliderhead/SliderHeader';
+import "./slider.css";
+
 const SliderContainer = styled('div')({
-width:"99.1%",
+width:"99%",
 height:"auto",
 margin:"2% 0.3%",
 overflow:"hidden",
-backgroundColor:"#171A29",
 boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
 "@media (max-width: 1490px)": {
  margin:"2% -1.5%"
-
 
 },
 "@media (max-width: 1200px)": {
@@ -30,7 +31,7 @@ const SliderInnerContainer = styled('div')({
   justifyContent:"space-between",
   flexDirection:"column",
   boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-  padding:"20px 40px"
+  padding:"0px 40px",
 })
 
 
@@ -54,15 +55,15 @@ const NextBtn = (props) =>{
 }
 
 
-const SwiggySlider = (props) => {
+const Sliders = (props) => {
   
   const settings = {
     dots: false,
     arrows:true,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToShow: 6,
+    slidesToScroll: 5,
     autoplay: false,
     autoplaySpeed: 2000,
     cssEase: "linear",
@@ -120,18 +121,17 @@ const SwiggySlider = (props) => {
   return (
     <>
     <SliderContainer>         
-       <SliderInnerContainer>
-    <Slider {...settings}>
-     { props.sliderData.map((item)=>(
-      <SliderItem posterLinks={item} />
-      ))}
-    </Slider>
+      <SliderInnerContainer>
+        <SliderHeader sliderH={props.sliderData.category}/>
+        <Slider {...settings}>
+        { props.sliderData.data.map((item)=>(
+        <SliderItem posterLinks={item} />
+        ))}
+        </Slider>
       </SliderInnerContainer>  
     </SliderContainer>
-
-      
     </>
   )
 }
 
-export default SwiggySlider
+export default Sliders

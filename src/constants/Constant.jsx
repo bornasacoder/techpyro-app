@@ -149,9 +149,9 @@ export const bannerData = [
 
 export const sliderData = [
   {
-    type: [
-      {
-        website: [
+    website:{
+    category:'website',
+    data: [
           {
             url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
             name: "Education Templates",
@@ -200,8 +200,11 @@ name: "Education Templates",
             name: "Education Templates",
             Price: "Rs 500/-"
           },
-        ],
-        app: [
+        ]
+      },
+      app:{
+        category:'app',
+        data:[
           {
             url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
             name: "Education Templates",
@@ -246,10 +249,13 @@ name: "Education Templates",
             name: "Education Templates",
             Price: "Rs 500/-"
           },
-        ],
+        ]
+      },
 
-       uiux: [
-          {
+       uiux:{
+        category:'uiux',
+        data:[
+        {
             url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
             name: "Education Templates",
             Price: "Rs 500/-"
@@ -293,100 +299,11 @@ name: "Education Templates",
             name: "Education Templates",
             Price: "Rs 500/-"
           },
-        ],
-        digital: [
-          {
-            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
-            name: "Education Templates",
-            Price: "Rs 500/-"
-          },
-          {
-            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
-            name: "Education Templates",
-            Price: "Rs 500/-"
-          },   {
-            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
-            name: "Education Templates",
-            Price: "Rs 500/-"
-          },
-          {
-            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
-            name: "Education Templates",
-            Price: "Rs 500/-"
-          },
-          {
-            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
-            name: "Education Templates",
-            Price: "Rs 500/-"
-          },
-          {
-            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
-            name: "Education Templates",
-            Price: "Rs 500/-"
-          },
-          {
-            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
-            name: "Education Templates",
-            Price: "Rs 500/-"
-          },
-          {
-            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
-            name: "Education Templates",
-            Price: "Rs 500/-"
-          },
-          {
-            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
-            name: "Education Templates",
-            Price: "Rs 500/-"
-          },
-        ],
-        graphics: [
-          {
-            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
-            name: "Education Templates",
-            Price: "Rs 500/-"
-          },
-          {
-            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
-            name: "Education Templates",
-            Price: "Rs 500/-"
-          },
-          {
-            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
-            name: "Education Templates",
-            Price: "Rs 500/-"
-          },   {
-            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
-            name: "Education Templates",
-            Price: "Rs 500/-"
-          },
-          {
-            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
-            name: "Education Templates",
-            Price: "Rs 500/-"
-          },
-          {
-            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
-            name: "Education Templates",
-            Price: "Rs 500/-"
-          },
-          {
-            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
-            name: "Education Templates",
-            Price: "Rs 500/-"
-          },
-          {
-            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
-            name: "Education Templates",
-            Price: "Rs 500/-"
-          },
-          {
-            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
-            name: "Education Templates",
-            Price: "Rs 500/-"
-          },
-        ],
-        logo: [
+        ]
+      },
+      digital:{
+        category:'digital',
+        data:[
           {
             url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
             name: "Education Templates",
@@ -431,8 +348,60 @@ name: "Education Templates",
             name: "Education Templates",
             Price: "Rs 500/-"
           },
-        ],
-        videoediting: [
+        ]
+      },
+        graphics: {
+          category:'graphics',
+          data:[
+            {
+            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
+            name: "Education Templates",
+            Price: "Rs 500/-"
+          },
+          {
+            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
+            name: "Education Templates",
+            Price: "Rs 500/-"
+          },
+          {
+            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
+            name: "Education Templates",
+            Price: "Rs 500/-"
+          },   {
+            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
+            name: "Education Templates",
+            Price: "Rs 500/-"
+          },
+          {
+            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
+            name: "Education Templates",
+            Price: "Rs 500/-"
+          },
+          {
+            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
+            name: "Education Templates",
+            Price: "Rs 500/-"
+          },
+          {
+            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
+            name: "Education Templates",
+            Price: "Rs 500/-"
+          },
+          {
+            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
+            name: "Education Templates",
+            Price: "Rs 500/-"
+          },
+          {
+            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
+            name: "Education Templates",
+            Price: "Rs 500/-"
+          },
+        ]
+      },
+        logo:{
+          category:'logo',
+          data:[
           {
             url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
             name: "Education Templates",
@@ -477,8 +446,11 @@ name: "Education Templates",
             name: "Education Templates",
             Price: "Rs 500/-"
           },
-        ],
-        presentation: [
+        ]
+      },
+        videoediting: {
+          category:'videoediting',
+          data:[
           {
             url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
             name: "Education Templates",
@@ -523,8 +495,60 @@ name: "Education Templates",
             name: "Education Templates",
             Price: "Rs 500/-"
           },
-        ],
-        contentwriting: [
+        ]
+      },
+        presentation: {
+          category:'presentation',
+          data:[
+          {
+            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
+            name: "Education Templates",
+            Price: "Rs 500/-"
+          },
+          {
+            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
+            name: "Education Templates",
+            Price: "Rs 500/-"
+          },   {
+            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
+            name: "Education Templates",
+            Price: "Rs 500/-"
+          },
+          {
+            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
+            name: "Education Templates",
+            Price: "Rs 500/-"
+          },
+          {
+            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
+            name: "Education Templates",
+            Price: "Rs 500/-"
+          },
+          {
+            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
+            name: "Education Templates",
+            Price: "Rs 500/-"
+          },
+          {
+            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
+            name: "Education Templates",
+            Price: "Rs 500/-"
+          },
+          {
+            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
+            name: "Education Templates",
+            Price: "Rs 500/-"
+          },
+          {
+            url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
+            name: "Education Templates",
+            Price: "Rs 500/-"
+          },
+        ]
+      },
+        contentwriting:{
+          category:'contentwriting',
+          data: [
           {
             url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
             name: "Education Templates",
@@ -570,8 +594,11 @@ name: "Education Templates",
             name: "Education Templates",
             Price: "Rs 500/-"
           },
-        ],
-        others: [
+        ]
+      },
+        others: {
+          category:'others',
+          data:[
           {
             url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
             name: "Education Templates",
@@ -620,11 +647,12 @@ name: "Education Templates",
             name: "Education Templates",
             Price: "Rs 500/-"
           },
-        ],
+        ]
+      },
       }
     ]
-  }
-]
+  
+
 // #### Featured Brand Links #######
 
 export const featuredBrandLinks = {

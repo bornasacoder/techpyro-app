@@ -1,9 +1,10 @@
 import React from 'react'
 import Carousel from "react-material-ui-carousel"
 import {styled} from "@mui/styles"
-import "../carousel/maincarousel.css"
+import "./maincarousel.css"
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
+import { Box } from '@mui/material';
 
 const Item = styled('div')({
   width: '100vw',
@@ -20,6 +21,7 @@ const Img = styled("img")({
 const MainCarousel = () => {
 
   return (
+    <Box sx={{marginTop:'100px'}}>
     <Carousel
     autoplay="true"
     pauseOnHover="true"
@@ -45,7 +47,7 @@ const MainCarousel = () => {
    <Item> <Img src='/images/category/bg-6.jpg' />  </Item>
      <Item><Img src='/images/category/bg-7.jpg' /> </Item>
   </Carousel>
-
+  </Box>
 
   )
 }
