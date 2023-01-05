@@ -28,7 +28,7 @@ const MoreButton = styled(Box)(({theme}) => ({
     height: '64px',
     display: 'flex',
     justifyContent: 'space-between',
-    alignItems: 'center',
+    // alignItems: 'center',
     // [theme.breakpoints.down('sm')]: {
     //     display: 'none'
     // },
@@ -38,6 +38,7 @@ const MoreButton = styled(Box)(({theme}) => ({
 }));
 
 const LoginButton = styled(Button)(({theme}) => ({
+  
    background: theme.header.textColor,
     // width: '100%',
     textTransform: 'none',
@@ -63,9 +64,10 @@ const theme = useTheme();
   return (
     <CustomButton >
       <Box  sx={{
-                alignItems: 'center',
+                // alignItems: 'center',
                 cursor:'pointer',
                 display:'flex',
+               position:'realative',
                 "&:hover .MuiBox-root": { display:{md:'flex'}},
                 "& Button:hover": { backgroundColor: {md: `${theme.header.textColor}`}}}}>
         <LoginButton>
@@ -75,11 +77,11 @@ const theme = useTheme();
           sx={{
             display: 'none',
             flexDirection: "column",
-            width: "15%",
+            width: "180px",
             backgroundColor: `${theme.header.textColor}`,
             position: "absolute",
             color: `${theme.header.textColor}`,
-            margin: "248px 0 0 -75px",
+            margin: "53px 0 0 -55px",
             zIndex: "100",
             boxShadow: `${theme.header.boxShadow}`
           }}
@@ -111,7 +113,7 @@ const theme = useTheme();
           </List>
         </Box>
       </Box>
-      <MoreButton sx={{ cursor:'pointer',"&:hover .MuiBox-root": { display:'flex'}, "&:hover .MuiSvgIcon-root": { transform: 'rotate(180deg)'}}}>
+      <MoreButton sx={{paddingTop:'18px' ,cursor:'pointer',"&:hover .MuiBox-root": { display:'flex'}, "&:hover .MuiSvgIcon-root": { transform: 'rotate(180deg)'}}}>
         <Typography sx={{fontSize:'18px'}}>More</Typography>
         <Badge>
           <ExpandMoreIcon />
@@ -120,11 +122,11 @@ const theme = useTheme();
           sx={{
             display: 'none',
             flexDirection: "column",
-            width: "15%",
+            width: "180px",
             bgcolor: "background.paper",
             position: "absolute",
             color: "red",
-            margin: "248px 0 0 -68px",
+            margin: "45px 0 0 -55px",
             zIndex: "100"
           }}
         >

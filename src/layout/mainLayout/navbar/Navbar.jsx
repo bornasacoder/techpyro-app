@@ -35,9 +35,11 @@ import Siderbar from '../sideBar/Siderbar';
         display:'flex',
         alignItems:'center',
         justifyContent:'space-between',
-        flex: '1',
+        flex: '2',
         color: theme.header.textColor,
-        
+        [theme.breakpoints.down('md')]: {
+            flex:'1',
+        } 
   }));
 
   const Logo = styled(Box)(({theme}) => ({
@@ -53,13 +55,16 @@ import Siderbar from '../sideBar/Siderbar';
 
   const NavLeft = styled(Box)(({theme}) => ({
 
-      flex:'3',
+      flex:'4',
       display: 'flex',
       gap:'10px',
      justifyContent: 'space-between',
       alignItems: 'center',
       [theme.breakpoints.down('sm')]: {
         height: '50px',
+    },
+      [theme.breakpoints.down('md')]: {
+        flex:'3',
     }
   }));
 
@@ -102,11 +107,11 @@ export default function Navbar() {
             <NavLeft>
                 <Logo >
                     <Typography  component="div" sx={{fontSize: {md:'30px',xs:'20px'}}}>
-                        WorkLess
+                        TechPyro
                     </Typography>
-                    <Typography component="div" sx={{fontSize:{md:'13px',xs:'10px'}, fontWeight:100}}>
+                    {/* <Typography component="div" sx={{fontSize:{md:'13px',xs:'10px'}, fontWeight:100}}>
                         Make a simple Bussiness
-                    </Typography>
+                    </Typography> */}
                 </Logo>
                 <SearchBar/>
                 {/* <Badge sx={{display:{sm:'block',md:'none'}, left:'48px'}}>

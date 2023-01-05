@@ -1,8 +1,8 @@
 export const navData = [
   {
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpUdyyGoiuz2xtroCUZQYkuZvMuMRvECr_Ew&usqp=CAU",
-    text: "Mobiles",
-    href: "mobiles",
+    text: "Websites",
+    href: "websites",
   },
   {
     url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG-3uBcqW7w339owEfoctJhr2K369yxOasqv-mjvOkpAKlQvy-WokIPC6uKs-Im8g9PNw&usqp=CAU",

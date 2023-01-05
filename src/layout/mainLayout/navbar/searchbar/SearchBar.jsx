@@ -11,6 +11,7 @@ const Search = styled(Box)(({theme}) => ({
     width: '55%',
     backgroundColor: theme.colors.alpha.white[100],
     display: 'flex',
+    position:'relative',
     [theme.breakpoints.down('sm')]: {
         width: '98vw',
         position: 'absolute',
@@ -64,10 +65,11 @@ export default function SearchBar() {
     },}} onClick={searchHandler} ref={catMenu}></SearchField>
         <SearchList color='secondary' sx={{display: showSearch,
             flexDirection:'column', 
-            width: {md:'41.25%', sm:'39%'},
             marginTop: '36px',
             bgcolor: '#fff',
             position: 'absolute',
+            left:'0',
+            right:'0',
             zIndex: "100"}} component="nav" aria-label="mailbox folders" ref={catMenu}>
             <StyledListItem button>
                 <ListItemText primary="Inbox" />

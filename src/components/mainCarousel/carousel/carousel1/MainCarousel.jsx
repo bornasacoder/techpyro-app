@@ -21,7 +21,7 @@ const Img = styled("img")({
 const MainCarousel = () => {
 
   return (
-    <Box sx={{marginTop:'100px'}}>
+    <Box>
     <Carousel
     autoplay="true"
     pauseOnHover="true"
