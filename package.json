@@ -2,6 +2,10 @@
   "name": "doworkless-userapp",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16.0.0",
+    "npm": "8.5.5"
+  },
   "dependencies": {
     "@mui/icons-material": "^5.10.16",
     "@mui/lab": "^5.0.0-alpha.114",
