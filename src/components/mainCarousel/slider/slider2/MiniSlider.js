@@ -8,21 +8,20 @@ import SliderItem from '../slider2/sliderItem/SliderItem';
 import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
 
 const SliderContainer = styled('div')({
-width:"99%",
-height:"auto",
-margin:"2% 0.3%",
+width:"100%",
+// height:"auto",
+margin:"67px 0 8px 0px",
 overflow:"hidden",
 boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-"@media (max-width: 1490px)": {
- margin:"2% -1.5%"
+// "@media (max-width: 1490px)": {
+//  margin:"2% -1.5%"
+// },
 
-},
-"@media (max-width: 1200px)": {
-  width:"95%",
-  margin:"1% 1rem"
+"@media (max-width: 600px)": {
+  // width:"95%",
+  margin:"100px 0 8px 0px",
  
  },
-
 
 })
 const SliderInnerContainer = styled('div')({
@@ -30,51 +29,56 @@ const SliderInnerContainer = styled('div')({
   justifyContent:"space-between",
   flexDirection:"column",
   boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-  padding:"0px 40px"
+  padding:"0px 40px",
+  "@media (max-width: 600px)": {
+    // width:"95%",
+    padding:"0px 5px",
+   
+   },
 })
 
 
-const PreviousBtn = (props) =>{
-  const {className,onClick} = props;
+// const PreviousBtn = (props) =>{
+//   const {className,onClick} = props;
   
-   return (
-         <div className={className} onClick={onClick}>
-          <ChevronLeftOutlined style={{color:'black',zIndex:'10',fontSize:'2.5rem' }} />
-         </div>  
-   )
-}
+//    return (
+//          <div className={className} onClick={onClick}>
+//           <ChevronLeftOutlined style={{color:'black',zIndex:'10',fontSize:'2.5rem' }} />
+//          </div>  
+//    )
+// }
 
-const NextBtn = (props) =>{
-   const {className,onClick} = props;
-   return (
-     <div  className={className} onClick={onClick}>
-       <ChevronRightOutlined style={{color:'black',  zIndex:'10',fontSize:'2.5rem'}} />
-     </div>
-   )
-}
+// const NextBtn = (props) =>{
+//    const {className,onClick} = props;
+//    return (
+//      <div  className={className} onClick={onClick}>
+//        <ChevronRightOutlined style={{color:'black',  zIndex:'10',fontSize:'2.5rem'}} />
+//      </div>
+//    )
+// }
 
 
 const MiniSlider = (props) => {
   
   const settings = {
     dots: false,
-    arrows:true,
-    infinite: true,
+    arrows:false,
+    infinite: false,
     speed: 500,
     slidesToShow: 9,
-    slidesToScroll: 5,
+    // slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 2000,
     cssEase: "linear",
     initialSlide:0,
-    prevArrow:<PreviousBtn />,
-    nextArrow:<NextBtn />,
+    // prevArrow:<PreviousBtn />,
+    // nextArrow:<NextBtn />,
       responsive: [
         {
           breakpoint: 1200,
           settings: {
             slidesToShow: 7,
-            slidesToScroll: 5,
+            slidesToScroll: 2,
             speed: 300,
             arrows:true,
           },
@@ -82,8 +86,9 @@ const MiniSlider = (props) => {
          {
           breakpoint: 980,
           settings: {
-            slidesToShow: 5,
-            slidesToScroll: 3,
+            slidesToShow: 6,
+            swipeToSlide: true,
+            // slidesToScroll: 1,
             speed: 300,
             arrows:false,
           },
@@ -91,8 +96,9 @@ const MiniSlider = (props) => {
         {
           breakpoint: 800,
           settings: {
-            slidesToShow: 4,
-            slidesToScroll: 3,
+            slidesToShow: 6,
+            swipeToSlide: true,
+            // slidesToScroll: 1,
             speed: 300,
             arrows:false,
           },
@@ -100,8 +106,9 @@ const MiniSlider = (props) => {
         {
           breakpoint: 680,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 2,
+            slidesToShow: 5,
+            swipeToSlide: true,
+            // slidesToScroll: 1,
             speed: 300,
             arrows:false,
           },
@@ -109,8 +116,9 @@ const MiniSlider = (props) => {
         {
           breakpoint: 500,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
+            slidesToShow: 5,
+            swipeToSlide: true,
+            // slidesToScroll: 1,
             speed: 300,
             arrows:false,
           },
@@ -122,7 +130,7 @@ const MiniSlider = (props) => {
     <SliderContainer>         
        <SliderInnerContainer>
     <Slider {...settings}>
-     { props.sliderData.map((item)=>(
+     { props.navData.map((item)=>(
       <SliderItem posterLinks={item} />
       ))}
     </Slider>

@@ -2,7 +2,7 @@ import React from 'react'
 import { styled } from '@mui/styles'
 
 const SliderContainer = styled("div")({
-width:"85%",
+width:"100%",
 height:"auto",
 
 
@@ -12,33 +12,43 @@ const ImageContainer = styled("div")({
     alignItems:"center",
     justifyContent:"center",
     flexDirection:"column",
-    margin:"10px 20px"
+    // margin:"10px 20px"
 
 })
 const Image = styled("img")({
-    width:"250px",
-    height:"250px",
+    width:"50px",
+    height:"50px",
     objectFit:"cover",
+    borderRadius:'10px',
     margin:"10px",
     '&:hover':{
         transform:[{scaleX:"5px"}],
         backgroundColor:"white"
 
     },
-    '@media(maxWidth: 768px)':{
-        width:"150px",
-        height:"150px"
+    '@media(maxWidth: 960px)':{
+        width:"30px",
+        height:"30px",
+        margin:"7px"
+    },
+    '@media(maxWidth: 600px)':{
+        width:"15px",
+        height:"15px",
+        margin:"4px"
     }
 })
-// const Head = styled("h3")({
-//     fontSize: "16px",
-//     fontWeight:"500",
-//     textAlign:"center",
-//     marginBottom:"5px",
-//     "@media (max-width: 600px)": {
-//        fontSize: "13px",
-//        },
-// })
+const Head = styled("h3")({
+    fontSize: "13px",
+    fontWeight:"500",
+    textAlign:"center",
+    marginBottom:"5px",
+    "@media (max-width: 600px)": {
+        fontSize: "7px!important",
+        },
+     "@media (max-width: 960px)": {
+        fontSize: "10px!important",
+        },
+})
 // const Para = styled("p")({
 //     fontSize:"14px",
 //     fontWeight:"600",
@@ -50,9 +60,8 @@ const Image = styled("img")({
   return (
        <SliderContainer>
         <ImageContainer>
-            <Image src={posterLinks} />
-
-            
+            <Image src={posterLinks.url} />
+            <Head>{posterLinks.text}</Head>
         </ImageContainer>
        </SliderContainer>
   )

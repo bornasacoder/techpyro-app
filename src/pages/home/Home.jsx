@@ -1,20 +1,17 @@
-import MainCarousel from 'components/mainCarousel/carousel/carousel1/MainCarousel'
-import Sliders from 'components/mainCarousel/slider/slider1/Sliders'
+import MainCarousel from '../../components/mainCarousel/carousel/carousel1/MainCarousel'
+import Sliders from '../../components/mainCarousel/slider/slider1/Sliders'
 import React from 'react'
-import {  navData, sliderData } from 'constants/Constant'
-import Content from 'components/content/Content'
-// import PageHeader from 'components/pageHeader/PageHeader'
-import Navbar from 'layout/mainLayout/navbar/Navbar'
-import MiniSlider from 'components/mainCarousel/slider/slider2/MiniSlider'
+import {  navData, sliderData } from '../../constants/Constant'
+import Content from '../../components/content/Content'
+import Navbar from '../../layout/mainLayout/navbar/Navbar'
+import MiniSlider from '../../components/mainCarousel/slider/slider2/MiniSlider'
 
 const Home = () => {
 
   return (
     <div>
       <Navbar/>
-      {/* <PageHeader navData={navData} key={navData}/> */}
-
-      <MiniSlider sliderData={navData}/>
+      <MiniSlider navData={navData}/>
       <MainCarousel/>
       <Sliders key={sliderData} sliderData={sliderData[0].website}/>
       <Sliders key={sliderData} sliderData={sliderData[0].app}   /> 

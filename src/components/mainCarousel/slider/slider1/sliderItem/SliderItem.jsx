@@ -15,16 +15,25 @@ const ImageContainer = styled("div")({
     margin:"10px 20px"
 
 })
-const Image = styled("img")({
+const Image = styled("img")(({ theme }) => ({
+   
     width:"170px",
     height:"200px",
     objectFit:"cover",
     margin:"10px",
-    '@media(maxWidth: 768px)':{
+    [theme.breakpoints.down('md')]: {
         width:"150px",
-        height:"150px"
-    }
-})
+        height:"160px",
+    },
+    [theme.breakpoints.down('sm')]: {
+        width:"130px",
+        height:"140px",
+    },
+    [theme.breakpoints.down('xs')]: {
+        width:"100px",
+        height:"120px",
+    },
+}));
 const Head = styled("h3")({
     fontSize: "16px",
     fontWeight:"500",

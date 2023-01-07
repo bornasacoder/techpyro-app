@@ -20,16 +20,16 @@ const HeaderContainer = styled(Box)(({theme})=>({
         height:"50px",
         objectFit:"cover",
         margin:"10px",
-        // '@media(maxWidth: 960px)':{
-        //     width:"30px",
-        //     height:"30px",
-        //     margin:"7px"
-        // },
-        // '@media(maxWidth: 600px)':{
-        //     width:"20px",
-        //     height:"20px",
-        //     margin:"4px"
-        // }
+        '@media(maxWidth: 960px)':{
+            width:"30px",
+            height:"30px",
+            margin:"7px"
+        },
+        '@media(maxWidth: 600px)':{
+            width:"20px",
+            height:"20px",
+            margin:"4px"
+        }
     }));
     const Head = styled(Typography)(({theme})=>({
         fontSize: "12px!important",
@@ -37,12 +37,12 @@ const HeaderContainer = styled(Box)(({theme})=>({
         textAlign:"center",
         color: 'black',
         marginBottom:"5px",
-        // "@media (max-width: 600px)": {
-        //    fontSize: "7px!important",
-        //    },
-        // "@media (max-width: 960px)": {
-        //    fontSize: "10px!important",
-        //    },
+        "@media (max-width: 600px)": {
+           fontSize: "7px!important",
+           },
+        "@media (max-width: 960px)": {
+           fontSize: "10px!important",
+           },
     }));
 
 export default function PageHeaderItem({links}) {
