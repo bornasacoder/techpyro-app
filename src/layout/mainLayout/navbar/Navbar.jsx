@@ -23,6 +23,7 @@ import Siderbar from '../sideBar/Siderbar';
       alignItems: 'center',
       position: 'relative',
       
+      
 
         [theme.breakpoints.down('sm')]: {
             height: '100px',
@@ -81,7 +82,7 @@ import Siderbar from '../sideBar/Siderbar';
 }));
 
   const NavBar = styled(AppBar)(({ theme }) => ({
-    backgroundColor: theme.header.background,
+    backgroundColor:  theme.header.background,
 }));
 
 

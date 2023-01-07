@@ -22,16 +22,16 @@ const Image = styled("img")(({ theme }) => ({
     objectFit:"cover",
     margin:"10px",
     [theme.breakpoints.down('md')]: {
-        width:"150px",
-        height:"160px",
+        width:"140px",
+        height:"150px",
     },
     [theme.breakpoints.down('sm')]: {
-        width:"130px",
-        height:"140px",
+        width:"110px",
+        height:"115px",
     },
     [theme.breakpoints.down('xs')]: {
-        width:"100px",
-        height:"120px",
+        width:"80px",
+        height:"85px",
     },
 }));
 const Head = styled("h3")({

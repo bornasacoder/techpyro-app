@@ -32,7 +32,7 @@ const colors = {
     green1: 'linear-gradient(135deg, #FFF720 0%, #3CD500 100%)',
     green2: 'linear-gradient(to bottom, #00b09b, #96c93d)',
     black1: 'linear-gradient(100.66deg, #434343 6.56%, #000000 93.57%)',
-    black2: 'linear-gradient(60deg, #29323c 0%, #485563 100%)'
+    black2: 'linear-gradient(60deg, #29323c 0%, #485563 100%)',
   },
   shadows: {
     success:
@@ -150,7 +150,7 @@ export const PureLightTheme = createTheme({
       green1: colors.gradients.green1,
       green2: colors.gradients.green2,
       black1: colors.gradients.black1,
-      black2: colors.gradients.black2
+      black2: colors.gradients.black2,
     },
     shadows: {
       success: colors.shadows.success,
@@ -246,7 +246,7 @@ export const PureLightTheme = createTheme({
   },
   header: {
     height: '80px',
-    background: colors.primary.main,
+    background: 'teal',
     boxShadow: colors.shadows.cardSm,
     textColor: colors.alpha.white[100]
   },

@@ -12,7 +12,13 @@ const ImageContainer = styled("div")({
     alignItems:"center",
     justifyContent:"center",
     flexDirection:"column",
-    // margin:"10px 20px"
+    "@media (min-width: 960px)": {
+        cursor:'pointer'
+    },
+    "@media (max-width: 960px)": {
+        cursor:'none'
+    },
+    // "& hover: "
 
 })
 const Image = styled("img")({
@@ -48,6 +54,10 @@ const Head = styled("h3")({
      "@media (max-width: 960px)": {
         fontSize: "10px!important",
         },
+     "@media (min-width: 960px)": {
+        
+
+     },
 })
 // const Para = styled("p")({
 //     fontSize:"14px",

@@ -107,24 +107,24 @@ const Sliders = (props) => {
             arrows:false,
           },
         },
-        {
-          breakpoint: 500,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            speed: 300,
-            arrows:false,
-          },
-        },
-        {
-          breakpoint: 365,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 2,
-            speed: 300,
-            arrows:false,
-          },
-        },
+        // {
+        //   breakpoint: 500,
+        //   settings: {
+        //     slidesToShow: 3,
+        //     slidesToScroll: 2,
+        //     speed: 300,
+        //     arrows:false,
+        //   },
+        // },
+        // {
+        //   breakpoint: 365,
+        //   settings: {
+        //     slidesToShow: 3,
+        //     slidesToScroll: 2,
+        //     speed: 300,
+        //     arrows:false,
+        //   },
+        // },
     ]
   };
   return (
