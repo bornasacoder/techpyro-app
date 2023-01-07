@@ -1,5 +1,5 @@
-import { BorderBottom } from '@mui/icons-material'
-import { Box, Container, createTheme, Typography } from '@mui/material'
+
+import { Box, Typography } from '@mui/material'
 import React from 'react'
 
 const Content = () => {

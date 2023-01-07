@@ -116,6 +116,15 @@ const Sliders = (props) => {
             arrows:false,
           },
         },
+        {
+          breakpoint: 365,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 2,
+            speed: 300,
+            arrows:false,
+          },
+        },
     ]
   };
   return (

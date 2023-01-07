@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import { styled } from '@mui/styles';
 import "../slider2/minislider.css"
 import SliderItem from '../slider2/sliderItem/SliderItem';
-import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
 
 const SliderContainer = styled('div')({
 width:"100%",
@@ -36,26 +35,6 @@ const SliderInnerContainer = styled('div')({
    
    },
 })
-
-
-// const PreviousBtn = (props) =>{
-//   const {className,onClick} = props;
-  
-//    return (
-//          <div className={className} onClick={onClick}>
-//           <ChevronLeftOutlined style={{color:'black',zIndex:'10',fontSize:'2.5rem' }} />
-//          </div>  
-//    )
-// }
-
-// const NextBtn = (props) =>{
-//    const {className,onClick} = props;
-//    return (
-//      <div  className={className} onClick={onClick}>
-//        <ChevronRightOutlined style={{color:'black',  zIndex:'10',fontSize:'2.5rem'}} />
-//      </div>
-//    )
-// }
 
 
 const MiniSlider = (props) => {
@@ -127,7 +106,7 @@ const MiniSlider = (props) => {
   };
   return (
     <>
-    <SliderContainer>         
+    <SliderContainer>       
        <SliderInnerContainer>
     <Slider {...settings}>
      { props.navData.map((item)=>(

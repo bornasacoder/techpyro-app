@@ -2,8 +2,6 @@ import React from 'react'
 import Carousel from "react-material-ui-carousel"
 import {styled} from "@mui/styles"
 import "./maincarousel.css"
-import { useTheme } from '@mui/material/styles';
-import useMediaQuery from '@mui/material/useMediaQuery';
 import { Box } from '@mui/material';
 
 const Item = styled('div')({
