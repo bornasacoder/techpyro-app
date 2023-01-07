@@ -6,7 +6,7 @@ import { pizza } from 'constants/slider'
 import Content from 'components/content/Content'
 // import MiniSlider from 'components/slider/minislider/MiniSlider'
 // import BigSlider from "components/slider/bigslider/BigSlider"
-import SwiggySlider from 'components/slider/swiggyslider/SwiggySlider'
+import SwiggySlider from 'components/allcarousel/carousel/carousel2/SwiggySlider'
 const Home = () => {
 
   return (
