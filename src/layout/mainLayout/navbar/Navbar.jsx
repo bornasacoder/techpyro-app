@@ -11,7 +11,7 @@ import {
     Drawer,
     IconButton,
     useTheme
-  } from "@mui/material";
+} from "@mui/material";
 
 import { ShoppingCart, Menu,} from '@mui/icons-material';
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -44,6 +44,9 @@ import Siderbar from '../sideBar/Siderbar';
 
   const Logo = styled(Box)(({theme}) => ({
         color: theme.header.textColor,
+        [theme.breakpoints.down('md')]:{
+            paddingBottom:'5px',
+        }
 }));
 
   const CartButton = styled(Box)`

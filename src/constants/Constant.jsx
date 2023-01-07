@@ -20,7 +20,7 @@ export const navData = [
     href: "digital-marketing",
   },
   {
-    url: "https://cdn.imgbin.com/0/117imgbin-logo-graphic-designer-graphic-combination-graphic-designing-text-LyvSFmRRPa3vuyrmhyK7wqfbk.jpg",
+    url: "https://www.pngitem.com/pimgs/m/124-1247079_seo-digital-marketing-transparent-background-hd-png-download.png",
     text: "Graphics Designing",
     href: "graphics-designing",
   },
