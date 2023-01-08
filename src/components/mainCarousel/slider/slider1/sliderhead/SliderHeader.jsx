@@ -11,16 +11,16 @@ const SliderHead = styled("div")({
   const Head = styled('span')({
   fontSize:"24px",
   fontWeight:"600",
+  paddingLeft:'10px',
   })
 const SliderHeader = (props) => {
 // console.log(head)
   return (
     <Box>
-<SliderHead>  
-
-    <Head>{props.sliderH}</Head>
-<Button color="primary" variant="contained" endIcon={<East/>} size="small" sx={{margin:"10px 10px 0px 0"}} >View More  </Button>
-</SliderHead>
+      <SliderHead>  
+        <Head>{props.sliderH}</Head>
+        <Button color="primary" variant="contained" endIcon={<East/>} size="small" sx={{margin:"10px 10px 0px 0"}} >View More  </Button>
+      </SliderHead>
     </Box>
   )
 }

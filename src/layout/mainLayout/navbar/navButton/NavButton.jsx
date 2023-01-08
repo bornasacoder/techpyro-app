@@ -40,6 +40,7 @@ const MoreButton = styled(Box)(({theme}) => ({
 const LoginButton = styled(Button)(({theme}) => ({
   
    background: theme.header.textColor,
+   color: theme.header.background,
     // width: '100%',
     textTransform: 'none',
     [theme.breakpoints.down('sm')]: {

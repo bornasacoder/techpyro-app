@@ -6,7 +6,41 @@
         display: none;
     }
 } */
-
-.css-ohwg9z:hover .css-1lyta4o-MuiButtonBase-root-MuiIconButton-root {
+/* .css-i4bv87-MuiSvgIcon-root{
+    width: 1rem;
+} */
+/* .css-1lyta4o-MuiButtonBase-root-MuiIconButton-root{
+    width: 3.5rem;
+    height: 3.5rem;
+    color: black!important;
+    background: #fff!important;
+    border-radius: 50%!important;
+    opacity: 1!important;
+} */
+/* .css-ohwg9z:hover .css-1lyta4o-MuiButtonBase-root-MuiIconButton-root {
     opacity: 0.6!important;
+} */
+
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next{
+    width: 3.5rem!important;
+    height: 3.5rem!important;
+    background: #fff!important;
+    border-radius: 50%!important;
+    opacity: 1!important;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: none; */
 }
+.slick-arrow.slick-prev{
+    margin: 68px 0 0 62px;
+}
+.slick-arrow.slick-next{
+    margin: 68px 62px 0 0;
+}
+.css-i4bv87-MuiSvgIcon-root{
+    color: black!important;
+}
+

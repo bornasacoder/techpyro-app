@@ -1,5 +1,5 @@
 
-import { styled, TextField, Box, List, ListItem, ListItemText, Divider } from '@mui/material'
+import { styled, TextField, Box, List, ListItem, ListItemText, Divider,useTheme } from '@mui/material'
 import React,{useRef, useState} from 'react'
 
 import SearchIcon from '@mui/icons-material/Search';
@@ -45,6 +45,7 @@ const SearchList = styled(List)(({theme}) => ({
 
 export default function SearchBar() {
     const [showSearch, setShowSearch] = useState('none')
+    const theme = useTheme();
 
     const catMenu = useRef(null)
     const searchHandler = ()=>{
@@ -59,7 +60,7 @@ export default function SearchBar() {
     document.addEventListener('mousedown',closeOpenMenus);
   return (
     <Search sx={{height:36}}>
-        <SearchIcon color = 'primary' sx={{fontSize:'100', marginTop:'6px',marginLeft:'10px'}}/>
+        <SearchIcon sx={{fontSize:'100', marginTop:'6px',marginLeft:'10px', color: `${theme.header.background}`}}/>
         <SearchField placeholder='search anything... ' sx={{ "& fieldset": { border: 'none' }, '& .MuiInputBase-input': {
       padding: "8px",
     },}} onClick={searchHandler} ref={catMenu}></SearchField>

@@ -11,28 +11,30 @@ import "./slider.css";
 const SliderContainer = styled('div')({
 width:"99%",
 height:"auto",
-margin:"2% 0.3%",
+margin:"10px 2px",
 overflow:"hidden",
-boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-"@media (max-width: 1490px)": {
- margin:"2% -1.5%"
+// boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+// "@media (max-width: 1490px)": {
+//  margin:"2% -1.5%"
 
-},
-"@media (max-width: 1200px)": {
-  width:"95%",
-  margin:"1% 1rem"
+// },
+// "@media (max-width: 1200px)": {
+//   width:"95%",
+//   margin:"1% 1rem"
  
- },
-
+//  },
 
 })
-const SliderInnerContainer = styled('div')({
+const SliderInnerContainer = styled('div')(({ theme }) => ({
   display: "flex",
   justifyContent:"space-between",
   flexDirection:"column",
   boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-  padding:"0px 40px",
-})
+  padding:"0 10px 0 20px",
+  [theme.breakpoints.down('sm')]: {
+    padding:"0 0 0 4px",
+},
+}));
 
 
 const PreviousBtn = (props) =>{
@@ -60,10 +62,10 @@ const Sliders = (props) => {
   const settings = {
     dots: false,
     arrows:true,
-    infinite: true,
+    infinite: false,
     speed: 500,
-    slidesToShow: 6,
-    slidesToScroll: 5,
+    slidesToShow: 4.5,
+    slidesToScroll: 3,
     autoplay: false,
     autoplaySpeed: 2000,
     cssEase: "linear",
@@ -74,16 +76,16 @@ const Sliders = (props) => {
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 5,
-            slidesToScroll: 5,
+            slidesToShow: 4.5,
+            slidesToScroll: 3,
             speed: 300,
             arrows:false,
           },
         },
          {
-          breakpoint: 980,
+          breakpoint: 960,
           settings: {
-            slidesToShow: 4,
+            slidesToShow: 3.5,
             slidesToScroll: 3,
             speed: 300,
             arrows:false,
@@ -92,17 +94,17 @@ const Sliders = (props) => {
         {
           breakpoint: 800,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToShow: 3.5,
+            slidesToScroll: 2,
             speed: 300,
             arrows:false,
           },
         },
         {
-          breakpoint: 680,
+          breakpoint: 600,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 2,
+            slidesToShow: 2.3,
+            slidesToScroll: 1,
             speed: 300,
             arrows:false,
           },
