@@ -77,12 +77,16 @@ const MainCarousel = () => {
     nextArrow:<NextBtn />,
     responsive: [
         {
+          // eslint-disable-next-line
           breakpoint: 1200,
-          settings: {
+          // eslint-disable-next-line
+          settings1: {
             arrows:false
           },
+          // eslint-disable-next-line
           breakpoint: 600,
-          settings: {
+          // eslint-disable-next-line
+          settings1: {
             arrows:false,
             centerPadding: "20px",
           },
