@@ -1,10 +1,12 @@
 import React from 'react'
 import { styled } from '@mui/styles'
+import zIndex from '@mui/material/styles/zIndex'
 
 const SliderContainer = styled("div")({
-width:"85%",
+width:"100%",
 height:"auto",
-
+paddingLeft:"px",
+// zIndex:"1"
 
 })
 const ImageContainer = styled("div")({
@@ -12,23 +14,38 @@ const ImageContainer = styled("div")({
     alignItems:"center",
     justifyContent:"center",
     flexDirection:"column",
-    margin:"10px 20px"
+    // margin:"10px 20px"
 
 })
 const Image = styled("img")({
-    width:"250px",
+    width:"260px",
     height:"250px",
     objectFit:"cover",
-    margin:"10px",
-    '&:hover':{
-        transform:[{scaleX:"5px"}],
-        backgroundColor:"white"
-
-    },
-    '@media(maxWidth: 768px)':{
-        width:"150px",
-        height:"150px"
-    }
+    margin:"40px",
+    zIndex:"1",
+    "@media (max-width: 960px)": {
+       width:'200px',
+       height:'230px',
+       
+       },
+       "@media (max-width: 770px)": {
+        width:'160px',
+        height:'200px',
+        
+        },
+        "@media (max-width: 600px)": {
+            width:'120px',
+            height:'170px',
+            
+            },
+            "@media (max-width: 480px)": {
+                width:'320px',
+                height:'120px',
+                margin:'0',
+                padding:'0',
+                gap:'20px'
+                
+                },
 })
 // const Head = styled("h3")({
 //     fontSize: "16px",
@@ -47,10 +64,13 @@ const Image = styled("img")({
 //         },
 // })
  const SliderItem = ({posterLinks}) => {
+    console.log(posterLinks)
   return (
        <SliderContainer>
         <ImageContainer>
-            <Image src={posterLinks} />
+            <Image src={posterLinks.image} />
+
+          
 
             
         </ImageContainer>

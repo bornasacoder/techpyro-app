@@ -102,12 +102,13 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
 }));
 
 const NavBar = styled(AppBar)(({theme}) =>({
-    backgroundColor:theme.colors.alpha.white[50],
+    backgroundColor:theme.colors.alpha.white[100],
     color:theme.colors.alpha.black[100],
     justifyContent:"space-evenly",
     width:'100%',
     margin:"0",
-    padding:'0'
+    padding:'0',
+    zIndex:'300'
     
 }));
 
@@ -127,7 +128,7 @@ export default function Navbar() {
 
     
   return (
-      <NavBar position="static" >
+      <NavBar position="sticky" >
         <StyleToolbar  >
         <NavLeft >
             <MenuButton onClick={handleOpen}>

@@ -1,68 +1,6 @@
-export const pizza = {
-  category:"Pizza",
-   data:[ 
+export const pizza = [
     {
-        shopname:"Ram Ji ",
-        price: {
-              mrp: "Rs~499 for two",
-              discount: "50% OFF",
-              cost: "299"
-          },
-          category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Life's too short for boring food",
-          image: "https://images.pexels.com/photos/708587/pexels-photo-708587.jpeg?auto=compress&cs=tinysrgb&w=600",
-          rating:"*4.3",
-      },
-      {
-        shopname:"Ram Ji ",
-        price: {
-              mrp:"Rs~499 for two",
-              discount: "50% OFF",
-              cost: "299"
-          },
-          category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Life's too short for boring food",
-          image: "https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600",
-          rating:"*4.3",
-      },
-      {
-        shopname:"Ram Ji ",
-        price: {
-              mrp: "Rs~499 for two",
-              discount:"50% OFF",
-              cost: "299"
-          },
-         image: "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&w=600",
-          category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Life's too short for boring food",
-          rating:"*4.3",
-      },
-      {
-        shopname:"Ram Ji",
-        price: {
-              mrp:"Rs~499 for two",
-              discount: "50% OFF",
-              cost: "299"
-          },
-          category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Life's too short for boring food",
-        image: "https://images.pexels.com/photos/367915/pexels-photo-367915.jpeg?auto=compress&cs=tinysrgb&w=600",
-          rating:"*4.3",
-      },
-      {
-        shopname:"Ram Ji",
-        price: {
-              mrp:"Rs~499 for two",
-              discount: "50% OFF",
-              cost: "299"
-          },
-          category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Life's too short for boring food",
-        image:"https://images.pexels.com/photos/1166120/pexels-photo-1166120.jpeg?auto=compress&cs=tinysrgb&w=600",
-          rating:"4.3",
-      },
-      {
-        shopname:"Ram Ji ",
+        shopname:"Ram Ji bhojnalaya",
         price: {
               mrp: "500",
               discount: "201",
@@ -70,23 +8,83 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Life's too short for boring food",
-       image: "https://images.pexels.com/photos/1435903/pexels-photo-1435903.jpeg?auto=compress&cs=tinysrgb&w=600",
+          image: "https://images.pexels.com/photos/479628/pexels-photo-479628.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
           rating:"4.3",
       },
       {
-        shopname:"Ram Ji",
+        shopname:"Ram Ji bhojnalaya",
         price: {
               mrp: "500",
               discount: "201",
               cost: "299"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-        image :"https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?auto=compress&cs=tinysrgb&w=600",
+          tagline: "Life's too short for boring food",
+          image: "https://images.pexels.com/photos/3915857/pexels-photo-3915857.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          rating:"4.3",
+      },
+      {
+        shopname:"Ram Ji bhojnalaya",
+        price: {
+              mrp: "500",
+              discount: "201",
+              cost: "299"
+          },
+         image: "https://images.pexels.com/photos/2260200/pexels-photo-2260200.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+          category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Life's too short for boring food",
           rating:"4.3",
       },
       {
-        shopname:"Ram Ji ",
+        shopname:"Ram Ji bhojnalaya",
+        price: {
+              mrp: "500",
+              discount: "201",
+              cost: "299"
+          },
+          category:["Pizza","California Pizza","Detroit Pizza"],
+          tagline: "Life's too short for boring food",
+        image: "https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+          rating:"4.3",
+      },
+      {
+        shopname:"Ram Ji bhojnalaya",
+        price: {
+              mrp: "500",
+              discount: "201",
+              cost: "299"
+          },
+          category:["Pizza","California Pizza","Detroit Pizza"],
+          tagline: "Life's too short for boring food",
+        image:"https://images.pexels.com/photos/1435907/pexels-photo-1435907.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+          rating:"4.3",
+      },
+      {
+        shopname:"Ram Ji bhojnalaya",
+        price: {
+              mrp: "500",
+              discount: "201",
+              cost: "299"
+          },
+          category:["Pizza","California Pizza","Detroit Pizza"],
+          tagline: "Life's too short for boring food",
+       iamge: "https://images.pexels.com/photos/7813578/pexels-photo-7813578.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+          rating:"4.3",
+      },
+      {
+        shopname:"Ram Ji bhojnalaya",
+        price: {
+              mrp: "500",
+              discount: "201",
+              cost: "299"
+          },
+          category:["Pizza","California Pizza","Detroit Pizza"],
+        image :"https://images.pexels.com/photos/5907902/pexels-photo-5907902.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+          tagline: "Life's too short for boring food",
+          rating:"4.3",
+      },
+      {
+        shopname:"Ram Ji bhojnalaya",
         price: {
               mrp: "500",
               discount: "201",
@@ -96,9 +94,8 @@ export const pizza = {
           tagline: "Life's too short for boring food",
           image: "https://images.pexels.com/photos/326278/pexels-photo-326278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
           rating:"4.3",
-      }
-    ]
-    }
+      },
+]
 
 
 

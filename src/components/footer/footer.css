@@ -1,0 +1,4 @@
+.myFooter{
+    display: flex;
+    justify-content: space-evenly;
+}

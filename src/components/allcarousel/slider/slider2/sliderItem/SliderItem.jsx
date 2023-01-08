@@ -1,8 +1,9 @@
 import React from 'react'
 import { styled } from '@mui/styles'
+import { Box, Typography } from '@mui/material'
 
 const SliderContainer = styled("div")({
-width:"85%",
+width:"100%",
 height:"auto",
 
 
@@ -16,19 +17,30 @@ const ImageContainer = styled("div")({
 
 })
 const Image = styled("img")({
-    width:"250px",
-    height:"250px",
+    width:"150px",
+    height:"150px",
     objectFit:"cover",
     margin:"10px",
-    '&:hover':{
-        transform:[{scaleX:"5px"}],
-        backgroundColor:"white"
-
-    },
-    '@media(maxWidth: 768px)':{
-        width:"150px",
-        height:"150px"
-    }
+    "@media (max-width: 960px)": {
+        width:'200px',
+        height:'230px',
+        
+        },
+        "@media (max-width: 770px)": {
+         width:'160px',
+         height:'160px',
+         
+         },
+         "@media (max-width: 600px)": {
+             width:'120px',
+             height:'120px',
+             
+             },
+             "@media (max-width: 480px)": {
+                 width:'60px',
+                 height:'60px',
+                 
+                 },
 })
 // const Head = styled("h3")({
 //     fontSize: "16px",
@@ -48,13 +60,15 @@ const Image = styled("img")({
 // })
  const SliderItem = ({posterLinks}) => {
   return (
+    <>
+   
        <SliderContainer>
         <ImageContainer>
-            <Image src={posterLinks} />
-
-            
+           
+            <Image src={posterLinks.image} />
         </ImageContainer>
        </SliderContainer>
+       </>
   )
 }
 

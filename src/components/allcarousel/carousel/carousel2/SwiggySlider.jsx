@@ -3,23 +3,23 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { styled } from '@mui/styles';
-import SliderItem from '../sliderItem/SliderItem';
-import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
+import "./swiggyslider.css"
+import SliderItem from '../../carousel/carousel2/sliderItem/SliderItem';
+import {  ArrowCircleLeftOutlined, ArrowCircleRightOutlined, } from '@mui/icons-material';
 const SliderContainer = styled('div')({
-width:"99.1%",
+width:"100%",
 height:"auto",
-margin:"2% 0.3%",
+// margin:"2% 0.3%",
 overflow:"hidden",
 backgroundColor:"#171A29",
 boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
 "@media (max-width: 1490px)": {
- margin:"2% -1.5%"
+//  margin:"2% -1.5%"
 
 
 },
-"@media (max-width: 1200px)": {
-  width:"95%",
-  margin:"1% 1rem"
+"@media (max-width: 480px)": {
+    backgroundColor:'white'
  
  },
 
@@ -39,7 +39,7 @@ const PreviousBtn = (props) =>{
   
    return (
          <div className={className}   onClick={onClick}>
-          <ChevronLeftOutlined style={{color:'black',zIndex:'10',fontSize:'2.5rem' }} />
+          <ArrowCircleLeftOutlined style={{color:'white',zIndex:'100',fontSize:'3rem' }} />
          </div>  
    )
 }
@@ -48,7 +48,7 @@ const NextBtn = (props) =>{
    const {className,onClick} = props;
    return (
      <div  className={className}  onClick={onClick}>
-       <ChevronRightOutlined style={{color:'black',  zIndex:'10',fontSize:'2.5rem'}} />
+       <ArrowCircleRightOutlined style={{color:'white',  zIndex:'20',fontSize:'3rem'}} />
      </div>
    )
 }
@@ -73,46 +73,51 @@ const SwiggySlider = (props) => {
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 5,
-            slidesToScroll: 5,
+            slidesToShow: 3,
+            slidesToScroll: 1,
             speed: 300,
-            arrows:false,
+            arrows:true,
           },
         },
          {
-          breakpoint: 980,
-          settings: {
-            slidesToShow: 4,
-            slidesToScroll: 3,
-            speed: 300,
-            arrows:false,
-          },
-        },
-        {
-          breakpoint: 800,
+          breakpoint: 960,
           settings: {
             slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToScroll: 1,
             speed: 300,
             arrows:false,
+            autoplay:true,
           },
         },
         {
-          breakpoint: 680,
+          breakpoint: 770,
           settings: {
             slidesToShow: 3,
-            slidesToScroll: 2,
+            slidesToScroll: 1,
             speed: 300,
             arrows:false,
+            autoplay:true,
           },
         },
         {
-          breakpoint: 500,
+          breakpoint: 600,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
+            slidesToShow: 3,
+            slidesToScroll: 1,
             speed: 300,
             arrows:false,
+            autoplay:true,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            speed: 300,
+            arrows:false,
+            autoplay:true,
+            dots: true,
           },
         },
     ]

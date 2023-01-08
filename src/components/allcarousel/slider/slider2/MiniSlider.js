@@ -3,9 +3,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { styled } from '@mui/styles';
-import "../minislider/minislider.css"
-import SliderItem from '../sliderItem/SliderItem';
+import "./minislider.css"
+import SliderItem from './sliderItem/SliderItem';
 import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
+import { Box, Typography } from '@mui/material';
 
 const SliderContainer = styled('div')({
 width:"99%",
@@ -61,8 +62,8 @@ const MiniSlider = (props) => {
     arrows:true,
     infinite: true,
     speed: 500,
-    slidesToShow: 9,
-    slidesToScroll: 5,
+    slidesToShow: 6,
+    slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 2000,
     cssEase: "linear",
@@ -73,56 +74,65 @@ const MiniSlider = (props) => {
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 7,
-            slidesToScroll: 5,
+            slidesToShow: 3,
+            slidesToScroll: 1,
             speed: 300,
             arrows:true,
           },
         },
          {
-          breakpoint: 980,
-          settings: {
-            slidesToShow: 5,
-            slidesToScroll: 3,
-            speed: 300,
-            arrows:false,
-          },
-        },
-        {
-          breakpoint: 800,
+          breakpoint: 960,
           settings: {
             slidesToShow: 4,
-            slidesToScroll: 3,
+            slidesToScroll: 1,
             speed: 300,
             arrows:false,
+            autoplay:false,
           },
         },
         {
-          breakpoint: 680,
+          breakpoint: 770,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 2,
+            slidesToShow: 4,
+            slidesToScroll: 1,
             speed: 300,
             arrows:false,
+            autoplay:false,
           },
         },
         {
-          breakpoint: 500,
+          breakpoint: 600,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
+            slidesToShow: 4,
+            slidesToScroll: 1,
             speed: 300,
             arrows:false,
+            autoplay:false,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            speed: 300,
+            arrows:false,
+            autoplay:false,
           },
         },
     ]
   };
   return (
     <>
-    <SliderContainer>         
+    <SliderContainer> 
+           
        <SliderInnerContainer>
+        <Box sx={{display:'flex', justifyContent:'space-between'}}>
+       <Typography variant='h3' sx={{fontSize: {xs:'15px',sm:'20px',md:'30px'},fontFamily:'inherit'}}>Fast Food</Typography> 
+       <Typography variant='h3' sx={{fontSize: {xs:'15px',sm:'20px',md:'30px'},fontFamily:'inherit'}}>View More</Typography> 
+       </Box>  
     <Slider {...settings}>
-     { props.sliderData.map((item)=>(
+     { props.sliderData.data.map((item)=>(
       <SliderItem posterLinks={item} />
       ))}
     </Slider>

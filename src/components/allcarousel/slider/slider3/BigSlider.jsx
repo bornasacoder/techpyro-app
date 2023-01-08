@@ -3,8 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { styled } from '@mui/styles';
-import "../minislider/minislider.css"
-import SliderItem from '../sliderItem/SliderItem';
+// import "../minislider/minislider.css"
+import SliderItem from './sliderItem/SliderItem';
 import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
 // import { createTheme } from '@mui/material';
 
@@ -64,7 +64,7 @@ const MiniSlider = (props) => {
     arrows:true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 2000,
@@ -76,7 +76,7 @@ const MiniSlider = (props) => {
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 4,
             slidesToScroll:1,
             speed: 300,
             arrows:false,
@@ -125,7 +125,7 @@ const MiniSlider = (props) => {
     <SliderContainer>         
        <SliderInnerContainer>
     <Slider {...settings}>
-     { props.sliderData.map((item)=>(
+     { props.sliderData.data.map((item)=>(
       <SliderItem posterLinks={item} />
       ))}
     </Slider>

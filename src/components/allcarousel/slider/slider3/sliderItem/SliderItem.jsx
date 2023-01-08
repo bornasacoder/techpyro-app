@@ -15,6 +15,23 @@ const ImageContainer = styled("div")({
     margin:"10px 20px"
 
 })
+const Head = styled("h3")({
+    fontFamily:'serif',
+    fontSize: "30px",
+    // paddingLeft:'30px',
+    // fontWeight:"500",
+    // textAlign:"center",
+    // marginBottom:"5px",
+    "@media (max-width: 1250px)": {
+        fontSize: "20px",
+        },
+    "@media (max-width: 900px)": {
+        fontSize: "15px",
+        },
+    "@media (max-width: 480px)": {
+       fontSize: "7px",
+       },
+})
 const Image = styled("img")({
     width:"250px",
     height:"250px",
@@ -25,10 +42,26 @@ const Image = styled("img")({
         backgroundColor:"white"
 
     },
-    '@media(maxWidth: 768px)':{
-        width:"150px",
-        height:"150px"
-    }
+    "@media (max-width: 960px)": {
+        width:'200px',
+        height:'230px',
+        
+        },
+        "@media (max-width: 770px)": {
+         width:'160px',
+         height:'160px',
+         
+         },
+         "@media (max-width: 600px)": {
+             width:'120px',
+             height:'120px',
+             
+             },
+             "@media (max-width: 480px)": {
+                 width:'60px',
+                 height:'90px',
+                 
+                 },
 })
 // const Head = styled("h3")({
 //     fontSize: "16px",
@@ -50,8 +83,8 @@ const Image = styled("img")({
   return (
        <SliderContainer>
         <ImageContainer>
-            <Image src={posterLinks} />
-
+            <Image src={posterLinks.image} />
+            <Head>{posterLinks.name}</Head>
             
         </ImageContainer>
        </SliderContainer>
