@@ -653,6 +653,25 @@ name: "Education Templates",
     ]
   
 
+// #### Card Links #######
+
+export const CardLinks ={
+  links1:[
+    {
+      url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
+      name: "Upto 40% Off",
+      para: "This is Awesome"
+    },
+    {
+      url: "https://bootstrapmade.com/content/templatefiles/Arsha/Arsha-bootstrap-website-template-md.png",
+      name: "Upto 50% Off",
+      para: "This is Okay"
+    }
+  ]
+}
+
+
+
 // #### Featured Brand Links #######
 
 export const featuredBrandLinks = {

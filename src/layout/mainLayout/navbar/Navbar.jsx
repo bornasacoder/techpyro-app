@@ -105,8 +105,8 @@ export default function Navbar() {
             <MenuButton onClick={handleOpen}>
                 <Menu/>
             </MenuButton>
-            <Drawer open={open} onClose={handleClose} sx={{position:'absolute',}}>
-                <Siderbar/>
+            <Drawer anchor='left' open={open} onClose={handleClose} transitionDuration={{enter:400 , exit:400}} ModalProps={{sx:{position:'absolute'}}}>
+                <Siderbar />
             </Drawer>
             <NavLeft>
                 <Logo >
