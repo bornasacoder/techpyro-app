@@ -11,7 +11,7 @@ import "./slider.css";
 const SliderContainer = styled('div')({
 width:"99%",
 height:"auto",
-margin:"10px 2px",
+margin:"0 2px 10px 2px",
 overflow:"hidden",
 // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
 // "@media (max-width: 1490px)": {

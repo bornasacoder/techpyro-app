@@ -4,9 +4,10 @@
 }
 
 .slick-prev{
-    top: 35%;
+    top: 40%;
+    color: #fff!important;
 }
 .slick-next{
-    top: 35%;
+    top: 40%;
     width:4.7vw;
 }

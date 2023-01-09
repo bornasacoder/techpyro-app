@@ -10,6 +10,7 @@ const SideBar = styled(Box)(({ theme }) => ({
     height: '100%',
     alignItems: 'center',
     gap: '5px',
+    transition: 'all 5s',
     background: theme.sidebar.background,
     [theme.breakpoints.down('md')]: {
         width: '50vw',
