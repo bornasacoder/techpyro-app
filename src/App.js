@@ -1,3 +1,4 @@
+import Navbar from "components/navbar/Navbar";
 import Home from "pages/home/Home";
 import {
   BrowserRouter as Router,
@@ -8,7 +9,9 @@ import {
 function App() {
 
   return (
+    
     <Router>
+      {/* <Navbar/> */}
       <Routes>
         <Route exact path="/" element={<Home/>} />
       </Routes>

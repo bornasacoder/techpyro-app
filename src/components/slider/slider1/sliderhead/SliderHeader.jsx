@@ -17,7 +17,7 @@ const SliderHeader = () => {
     <Box>
 <SliderHead>  
 
-    <Head>Websites</Head>
+    <Head>Foods</Head>
 <Button color="primary" variant="contained" endIcon={<East/>} size="small" sx={{margin:"10px 10px 0px 0"}} >View More  </Button>
 </SliderHead>
     </Box>

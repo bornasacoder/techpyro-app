@@ -1,25 +1,27 @@
-import MainCarousel from 'components/carousel/MainCarousel'
-import Sliders from 'components/slider/Sliders'
+// import MainCarousel from 'components/carousel/MainCarousel'
+import Sliders from 'components/slider/slider1/Sliders'
 import React from 'react'
-import {  sliderData } from 'constants/Constant'
-import Content from 'components/content/Content'
+import MiniSlider from 'components/slider/slider2/MiniSlider';
+import {pizza} from "../../constants/slider/pizza";
+import {thali} from "../../constants/slider/thali";
+import {fastFood} from "../../constants/slider/fastfood";
+import {other} from "../../constants/slider/other";
+import Navbar from 'components/navbar/Navbar';
+import MiddleContent from 'components/middlecontent/MiddleContent';
+import Footer from 'components/footer/Footer';
+
 
 const Home = () => {
-
   return (
     <div>
-    <MainCarousel/>
-    <Sliders sliderData={sliderData[0].type[0].website}   />
-    <Sliders sliderData={sliderData[0].type[0].app}   /> 
-    <Sliders sliderData={sliderData[0].type[0].uiux}  />
-    <Sliders sliderData={sliderData[0].type[0].digital} /> 
-    <Sliders sliderData={sliderData[0].type[0].graphics}  />
-    <Sliders sliderData={sliderData[0].type[0].logo} />
-    <Sliders sliderData={sliderData[0].type[0].contentwriting} />
-    <Sliders sliderData={sliderData[0].type[0].presentation} />
-    <Sliders sliderData={sliderData[0].type[0].videoediting} />
-    <Sliders sliderData={sliderData[0].type[0].others}/> 
-    <Content/>
+    <Navbar/>
+    <MiddleContent/>
+    {/* <MainCarousel/> */}
+     <Sliders sliderData={pizza}   />
+     <MiniSlider sliderData = {fastFood}/>
+     <Sliders sliderData={thali}   />
+     <Sliders sliderData={other}   />
+    <Footer/>
 
 
     </div>

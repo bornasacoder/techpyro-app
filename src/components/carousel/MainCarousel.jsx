@@ -4,12 +4,15 @@ import {styled} from "@mui/styles"
 import "../carousel/maincarousel.css"
 import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
+import { Box } from '@mui/material';
+import {mainCarousel} from "../../constants/mainCarousel"
 
 const Item = styled('div')({
   width: '100vw',
   height: '400px'
   
 });
+
 const Img = styled("img")({
   objectFit: "cover",
   width:"100%",
@@ -20,6 +23,8 @@ const Img = styled("img")({
 const MainCarousel = () => {
 
   return (
+    <Box>
+
     <Carousel
     autoplay="true"
     pauseOnHover="true"
@@ -31,22 +36,25 @@ const MainCarousel = () => {
   //      display:"none"
   //   },
   //   '& .css-1abc02a':{
-  //     display: "none"
-  //   },
-  // }}
+    //     display: "none"
+    //   },
+    // }}
 >
+      {mainCarousel.map((item)=>(
       <Item>
-    <Img src='/images/category/bg-1.jpg' />
+        <Img src={item} />
     </Item>
-    <Item><Img src='/images/category/bg-2.jpg' /></Item>
-    <Item><Img src='/images/category/bg-3.jpg' /></Item>
+      ))}
+    {/* <Item><Img src='/images/category/bg-2.jpg' /></Item> */}
+    {/* <Item><Img src='/images/category/bg-3.jpg' /></Item>
     <Item><Img src='/images/category/bg-4.jpg' /></Item>
     <Item><Img src='/images/category/bg-5.jpg' /> </Item>
    <Item> <Img src='/images/category/bg-6.jpg' />  </Item>
-     <Item><Img src='/images/category/bg-7.jpg' /> </Item>
+     <Item><Img src='/images/category/bg-7.jpg' /> </Item> */}
   </Carousel>
 
 
+  </Box>
   )
 }
 

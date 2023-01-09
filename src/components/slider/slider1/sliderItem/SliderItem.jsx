@@ -45,9 +45,8 @@ const Para = styled("p")({
   return (
        <SliderContainer>
         <ImageContainer>
-            <Image src={posterLinks.url} />
-            <Head>{posterLinks.name}</Head>
-            <Para>{posterLinks.Price}</Para>
+            <Image src={posterLinks} />
+      
         </ImageContainer>
        </SliderContainer>
   )
