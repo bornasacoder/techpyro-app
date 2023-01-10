@@ -13,6 +13,12 @@ import {
   IconButton,
   Select,
   MenuItem,
+  Button,
+  ListItemText,
+  ListItemButton,
+  ListItemIcon,
+  Collapse,
+  List,
 } from "@mui/material";
 
 import {
@@ -21,6 +27,8 @@ import {
   Padding,
   GetApp,
   Title,
+  ExpandMore,
+  ExpandLess,
 } from "@mui/icons-material";
 import MenuButtons from "./menuButtons/MenuButtons";
 import MainCarousel from "components/carousel/MainCarousel";
@@ -28,8 +36,12 @@ import MainCarousel from "components/carousel/MainCarousel";
 const StyleToolbar = styled(Toolbar)(({ theme }) => ({
   display: "flex",
   justifyContent: "space-between",
-  position: "relative",
+  alignItems:"center",
+  // position: "relative",
   overflow: "hidden",
+  position: "sticky",
+  backgroundColor: "#AC7AF7",
+  color: "#fff",
 
   [theme.breakpoints.down("sm")]: {
     height: "100px",
@@ -47,11 +59,12 @@ const CartButton = styled(Box)`
   justify-content: flex-end;
 `;
 const NavLeft = styled(Box)(({ theme }) => ({
-  flex: "3",
+  flex: 2,
+  gap: "60px",
   display: "flex",
-  justifyContent: "space-between",
+  justifyContent: "flex-start",
   alignItems: "center",
-  marginLeft: "100px",
+  marginLeft: "40px",
   marginTop: "20px",
   [theme.breakpoints.down("sm")]: {
     height: "50px",
@@ -59,14 +72,15 @@ const NavLeft = styled(Box)(({ theme }) => ({
 }));
 const NavRight = styled(Box)(({ theme }) => ({
   display: "flex",
-  gap: "30px",
-  marginRight: "100px",
+  flex: 3,
+  gap: "20px",
+  alignItems: "center",
+  marginRight: "40px",
   marginTop: "20px",
 
   [theme.breakpoints.down("sm")]: {
     height: "50px",
     gap: "15px",
-    
   },
 }));
 const MenuButton = styled(IconButton)(({ theme }) => ({
@@ -81,20 +95,22 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
 const NavBar = styled(AppBar)(({ theme }) => ({
   background: theme.header.background,
   color: theme.colors.alpha.black[100],
-  height: "450px",
+  // height: "450px",
+  position: "sticky",
   width: "100%",
   color: "#fff",
-  position: "static",
-  background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)
-  ),url(${"/images/category/header.jpg"}) 
-   center/cover no-repeat`,
+  zIndex:2
+  // position: "static",
+  // background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+  // ),url(${"/images/category/header.jpg"})
+  //  center/cover no-repeat`,
 }));
 
 export default function Navbar() {
-  const [open, setOpen] = useState(false);
-  const handleOpen = () => {
-    setOpen(true);
-  };
+  // const [open, setOpen] = useState(false);
+  // const handleOpen = () => {
+  //   setOpen(true);
+  // };
 
   const handleClose = () => {
     setOpen(false);
@@ -103,116 +119,75 @@ export default function Navbar() {
   const updatevalue = (e, vel) => {
     setLocation(e.target.value);
   };
+  const [open, setOpen] = React.useState(true);
+
+  const handleClick = () => {
+    setOpen(!open);
+  };
   return (
     <NavBar>
       <StyleToolbar>
-        <MenuButton onClick={handleOpen}>
-          <Menu sx={{ margin: "25px 50px 0px " }} />
-        </MenuButton>
-        <Select
-          value={location}
-          displayEmpty
-          onChange={updatevalue}
-          sx={{
-            "& fieldset": { border: "none" },
-            color: "#fff",
-            display: { md: "none" },
-            fontSize: "15px",
-            marginTop: { xs: "20px", sm: "20px " },
-          }}
-        >
-          <MenuItem value="">Select location</MenuItem>
-          <MenuItem value={1}>Haridwar</MenuItem>
-          <MenuItem value={2}>Delhi</MenuItem>
-          <MenuItem value={3}>Punjab</MenuItem>
-          <MenuItem value={4}>Bihar</MenuItem>
-        </Select>
-        <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
-          <MenuButtons sx={{marginTop:{sm:"20px",sx:"20px"}}} />
-        </Drawer>
         <NavLeft>
-          <Box sx={{ display: { xs: "none", md: "flex" }, gap: "2" }}>
+          {/* <MenuButton/> */}
+          <Box gap={2}>
+          <Typography variant="h1" color="#000">
+            Onfleet
+          </Typography>
+          </Box>
+          <Box>
+          <NavButton/>
+          </Box>
+           {/* <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
+          <MenuButtons sx={{marginTop:{sm:"20px",sx:"20px"}}} />
+        </Drawer> */}
+          
+          {/* <List
+      sx={{ width: '100%', maxWidth: 100,color:"#000", marginTop:'20px'}}
+     >
+      <ListItemButton onClick={handleClick}>
+        <ListItemText>Product</ListItemText>
+        {open ? <ExpandLess /> : <ExpandMore />}
+      </ListItemButton>
+      <Collapse in={open} timeout="auto" unmountOnExit>
+        <List component="div" color="#000">
+            <ListItemText></ListItemText>
+            <ListItemText>Features</ListItemText>
+            <ListItemText>Features</ListItemText>
+            <ListItemText>Features</ListItemText>
+            <ListItemText>Features</ListItemText>
+        </List>
+      </Collapse>
+    </List> */}
+          {/* <Box sx={{ display: { xs: "none", md: "flex" }, gap: "2" }}>
             <GetApp fontSize="medium" />
             <Typography component="h1">Get the App</Typography>
-          </Box>
-          <NavButton />
+          </Box> */}
+          {/* <NavButton /> */}
         </NavLeft>
         <Box display="flex">
           <NavRight>
-            <Typography
-              component="h1"
-              style={{ fontSize: "18px" }}
-              sx={{
-                display: { xs: "none", sm: "none", md: "block" },
-                fontSize: { xs: "5px", sm: "none" },
-              }}
-            >
-              Investor Relation
-            </Typography>
-            <Typography
-              component="h1"
-              style={{ fontSize: "18px" }}
-              sx={{ display: { xs: "none", sm: "none", md: "block" } }}
-            >
-              Add Restaurant
-            </Typography>
-            <Typography
-              component="h1"
-              sx={{
-                fontSize: { md: "18px", xs: "15px" },
-                display: { xs: "none", sm: "none", md: "block" },
-              }}
+            <Button
+              variant="contained"
+              sx={{ color: "#AC78F6", bgcolor: "white",
+              padding: "0px 10px", }}
             >
               Sign up
-            </Typography>
-            <Typography
-              component="h1"
+            </Button>
+            <Button
+              variant="contained"
               sx={{
-                fontSize: { md: "18px", xs: "15px" },
-                display: { xs: "none", sm: "none", md: "block" },
+                color: "#fff",
+                bgcolor: "transparent",
+                border: "1px solid white",
+               
+                padding: "0px 10px",
               }}
             >
               Log in
-            </Typography>
+            </Button>
           </NavRight>
         </Box>
       </StyleToolbar>
-
-      <Box
-        style={{
-          height: "100px",
-          display: "flex",
-          justifyContent: "center",
-          paddingTop: "50px",
-        }}
-      >
-        <Typography sx={{ fontSize: { md: "50px", sm: "40px", xs: "35px" } }}>
-          SweetCart
-        </Typography>
-      </Box>
-      <Box
-        style={{
-          height: "100px",
-          display: "flex",
-          justifyContent: "center",
-          paddingTop: "30px",
-        }}
-      >
-        <Typography sx={{ fontSize: { md: "26px", sm: "20px", xs: "15px" } }}>
-          Discover the best food & drinks in Haridwar
-        </Typography>
-      </Box>
-      <Box
-        style={{
-          height: "110px",
-          display: "flex",
-          justifyContent: "center",
-          paddingTop: "30px",
-          marginBottom: "100px",
-        }}
-      >
-        <SearchBar flex={3} />
-      </Box>
     </NavBar>
   );
 }

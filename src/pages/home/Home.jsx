@@ -14,14 +14,14 @@ import Footer from 'components/footer/Footer';
 const Home = () => {
   return (
     <div>
-    <Navbar/>
+    <Navbar />
     <MiddleContent/>
     {/* <MainCarousel/> */}
-     <Sliders sliderData={pizza}   />
+     {/* <Sliders sliderData={pizza}   />
      <MiniSlider sliderData = {fastFood}/>
      <Sliders sliderData={thali}   />
-     <Sliders sliderData={other}   />
-    <Footer/>
+     <Sliders sliderData={other}   /> */}
+    {/* <Footer/> */}
 
 
     </div>

@@ -17,6 +17,7 @@ const CustomButton = styled(Box)`
   // width: 19%;
   height: 64px;
   display: flex;
+  
   gap: 50px;
   justify-content: space-between;
   align-items: center;
@@ -26,6 +27,7 @@ const MoreButton = styled(Box)(({theme}) => ({
     // width: '19%',
     height: '64px',
     display: 'flex',
+    position:'relative',
     justifyContent: 'space-between',
     alignItems: 'center',
     // [theme.breakpoints.down('sm')]: {
@@ -38,6 +40,7 @@ const MoreButton = styled(Box)(({theme}) => ({
 
 const LoginButton = styled(Button)(({theme}) => ({
     background: '#fff',
+    border:"none",
     // width: '100%',
     textTransform: 'none',
     [theme.breakpoints.down('sm')]: {
@@ -58,13 +61,13 @@ export default function NavButton() {
 
   return (
     <CustomButton >
-      <Box  sx={{width:'50%', height: '64px',
+      {/* <Box  sx={{width:'50%', height: '64px',
                 alignItems: 'center',
                 cursor:'pointer',
                 display:'flex', "& Button:hover": { backgroundColor: "#fff" }, "&:hover .MuiBox-root": { display:'flex'}}}>
-        {/* <LoginButton>
+        <LoginButton>
           Login
-        </LoginButton> */}
+        </LoginButton>
         <Box
           sx={{
             display: 'none',
@@ -103,24 +106,40 @@ export default function NavButton() {
             </ListItem>
           </List>
         </Box>
-      </Box>
-      {/* <MoreButton sx={{ cursor:'pointer',"&:hover .MuiBox-root": { display:'flex'}, "&:hover .MuiSvgIcon-root": { transform: 'rotate(180deg)'}}}>
-        <Typography sx={{fontSize:'18px',marginRight:'100px'}}>More</Typography>
+      </Box> */}
+      
+      <MoreButton sx={{ cursor:'pointer',"&:hover .MuiBox-root": { display:'flex'}, "&:hover .MuiSvgIcon-root": { transform: 'rotate(180deg)'}}}>
+        <Typography sx={{fontSize:'18px'}}>More</Typography>
         <Badge>
           <ExpandMoreIcon />
         </Badge>
-        <Box
+      <Box
           sx={{
-            display: 'none',
-            flexDirection: "column",
-            width: "15%",
+            display: 'flex!important',
+            flexDirection: "column!important",
+            // width: "15%",
+            left:'0!important',
+            right:'!important',
             bgcolor: "background.paper",
-            position: "absolute",
+            position: "absolute!important",
             color: "red",
-            margin: "275px 0 0 -68px",
-            zIndex:'100'
+            margin: "250px 0 0 0px",
+            zIndex:'1000!important'
           }}
         >
+        {/* <Typography sx={{fontSize:'18px'}}>More</Typography>
+        <Badge>
+          <ExpandMoreIcon />
+        </Badge>
+        <Typography sx={{fontSize:'18px'}}>More</Typography>
+        <Badge>
+          <ExpandMoreIcon />
+        </Badge>
+        <Typography sx={{fontSize:'18px'}}>More</Typography>
+      <Badge>
+          <ExpandMoreIcon />
+        </Badge> */}
+       
           <Box
             sx={{
               width: "100%",
@@ -128,8 +147,10 @@ export default function NavButton() {
               backgroundColor: "#FFFFFF",
               clipPath: "polygon(50% 0, 46% 100%, 54% 100%)",
               margin: "-13px 0 0 0",
+              zIndex:"210"
             }}
-          ></Box>
+            >
+              </Box>
           <List component="nav" aria-label="mailbox folders">
             <ListItem button>
               <ListItemText primary="Inbox" />
@@ -146,8 +167,9 @@ export default function NavButton() {
               <ListItemText primary="Spam" />
             </ListItem>
           </List>
-        </Box>
-      </MoreButton> */}
+ 
+      </Box>
+      </MoreButton>
     </CustomButton>
   );
 }
