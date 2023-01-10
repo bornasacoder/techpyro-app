@@ -1,29 +1,56 @@
 
+import { LocationCityOutlined, LocationCitySharp } from '@mui/icons-material';
 import { styled, TextField, Box, List, ListItem, ListItemText, Divider } from '@mui/material'
 import React,{useRef, useState} from 'react'
 
 const Search = styled(Box)(({theme}) => ({
 
-    // border-radius: 5px;
+    // border:'1px solid black',
     // margin-left: 10px;
-    width: '55%',
+    width: '40%',
+    // height:'10%', 
+    
     backgroundColor: '#fff',
     display: 'flex',
     [theme.breakpoints.down('sm')]: {
-        width: '98vw',
-        position: 'absolute',
-        top : '80px',
-        right: '4.5px',
+        width: '100%',
+        // position: 'absolute',
+        // top : '80px',
+        // right: '4.5px',
+        position:'sticky'
+
+    },
+    [theme.breakpoints.up('sm')]: {
+        width: '100%',
+        // position: 'absolute',
+        // top : '80px',
+        // right: '4.5px',
+
+    },
+    [theme.breakpoints.up('md')]: {
+        width: '40%',
+        // position: 'absolute',
+        // top : '80px',
+        // right: '4.5px',
 
     }
 }))
 ;
 const SearchField = styled(TextField)(({theme}) => ({
-    // height:40px;
+    // height:'10%',
     // padding: 8.5px 21px;
     fontSize: 'unset',
-    // padding-left: 20px,
+    // paddingLeft:'px',
     width:'100%' ,
+    [theme.breakpoints.down('sm')]: {
+        width: '100%',
+        padding:'0'
+        // position: 'absolute',
+        // top : '80px',
+        // right: '4.5px',
+
+    }
+    
 }),
 );
 
@@ -54,9 +81,10 @@ export default function SearchBar() {
     }
     document.addEventListener('mousedown',closeOpenMenus);
   return (
-    <Search sx={{height:36}}>
-        <SearchField placeholder='search anything... ' sx={{ '& .MuiInputBase-input': {
-      padding: "6px",
+    <Search>
+       
+        <SearchField   placeholder= 'Enter delievery address... ' sx={{ '& .MuiInputBase-input': {paddingLeft:{xs:'0px',sm:'0px',md:'66px'},
+     height:{xs:'25px',sm:'25px',md:'20px'}
     },}} onClick={searchHandler} ref={catMenu}></SearchField>
         <SearchList sx={{display: showSearch,
             flexDirection:'column', 
