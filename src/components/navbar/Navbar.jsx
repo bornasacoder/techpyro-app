@@ -30,7 +30,7 @@ import {
   ExpandMore,
   ExpandLess,
 } from "@mui/icons-material";
-import MenuButtons from "./menuButtons/MenuButtons";
+// import MenuButtons from "./menuButtons/MenuButtons";
 import MainCarousel from "components/carousel/MainCarousel";
 
 const StyleToolbar = styled(Toolbar)(({ theme }) => ({
@@ -39,8 +39,8 @@ const StyleToolbar = styled(Toolbar)(({ theme }) => ({
   alignItems:"center",
   // position: "relative",
   overflow: "hidden",
-  position: "sticky",
-  backgroundColor: "#AC7AF7",
+  position: "relative",
+  backgroundColor: "transparent",
   color: "#fff",
 
   [theme.breakpoints.down("sm")]: {
@@ -48,20 +48,27 @@ const StyleToolbar = styled(Toolbar)(({ theme }) => ({
     top: "-21px",
   },
 }));
+const MenuButtons = styled(IconButton)(({theme})=>({
+  display:'none',
+  color:theme.colors.alpha.white[100],
+  [theme.breakpoints.down('md')]:{
+    display:'block',
+    left:'12px'
+  },
+}));
+// const Cart = styled(Box)`
+//   flex: 1;
+// `;
 
-const Cart = styled(Box)`
-  flex: 1;
-`;
-
-const CartButton = styled(Box)`
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-`;
+// const CartButton = styled(Box)`
+//   display: flex;
+//   align-items: center;
+//   justify-content: flex-end;
+// `;
 const NavLeft = styled(Box)(({ theme }) => ({
-  flex: 2,
   gap: "60px",
   display: "flex",
+  // border:"2px solid black",
   justifyContent: "flex-start",
   alignItems: "center",
   marginLeft: "40px",
@@ -72,8 +79,9 @@ const NavLeft = styled(Box)(({ theme }) => ({
 }));
 const NavRight = styled(Box)(({ theme }) => ({
   display: "flex",
-  flex: 3,
+
   gap: "20px",
+  // border:"2px solid black",
   alignItems: "center",
   marginRight: "40px",
   marginTop: "20px",
@@ -83,21 +91,19 @@ const NavRight = styled(Box)(({ theme }) => ({
     gap: "15px",
   },
 }));
-const MenuButton = styled(IconButton)(({ theme }) => ({
-  display: "none",
-  color: "#fff",
-  [theme.breakpoints.down("md")]: {
-    display: "block",
-    right: "12px",
-  },
-}));
+
 
 const NavBar = styled(AppBar)(({ theme }) => ({
-  background: theme.header.background,
+  // background: theme.header.background,
+  background:"#A873F5",
   color: theme.colors.alpha.black[100],
   // height: "450px",
-  position: "sticky",
-  width: "100%",
+  display: "flex",
+  justifyContent: "space-between",
+  flexDirection:"row",
+  alignItems:"center",
+
+  // width: "100%",
   color: "#fff",
   zIndex:2
   // position: "static",
@@ -107,10 +113,10 @@ const NavBar = styled(AppBar)(({ theme }) => ({
 }));
 
 export default function Navbar() {
-  // const [open, setOpen] = useState(false);
-  // const handleOpen = () => {
-  //   setOpen(true);
-  // };
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => {
+    setOpen(true);
+  };
 
   const handleClose = () => {
     setOpen(false);
@@ -119,27 +125,25 @@ export default function Navbar() {
   const updatevalue = (e, vel) => {
     setLocation(e.target.value);
   };
-  const [open, setOpen] = React.useState(true);
+  // const [open, setOpen] = React.useState(true);
 
-  const handleClick = () => {
-    setOpen(!open);
-  };
+  // const handleClick = () => {
+  //   setOpen(!open);
+  // };
   return (
     <NavBar>
-      <StyleToolbar>
+      {/* <StyleToolbar> */}
         <NavLeft>
-          {/* <MenuButton/> */}
-          <Box gap={2}>
-          <Typography variant="h1" color="#000">
+         
+          <Box gap={5} sx={{display:"flex", justifyContent:"center", alignItems:"center"}} >
+          <Typography variant="h1" fontSize="26px">
             Onfleet
           </Typography>
-          </Box>
-          <Box>
           <NavButton/>
           </Box>
-           {/* <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
+           <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
           <MenuButtons sx={{marginTop:{sm:"20px",sx:"20px"}}} />
-        </Drawer> */}
+        </Drawer>
           
           {/* <List
       sx={{ width: '100%', maxWidth: 100,color:"#000", marginTop:'20px'}}
@@ -164,12 +168,13 @@ export default function Navbar() {
           </Box> */}
           {/* <NavButton /> */}
         </NavLeft>
-        <Box display="flex">
+       
           <NavRight>
+          
             <Button
               variant="contained"
               sx={{ color: "#AC78F6", bgcolor: "white",
-              padding: "0px 10px", }}
+              padding: "0px 10px",display:{xs:"none",md:"block",sm:"block"} }}
             >
               Sign up
             </Button>
@@ -180,14 +185,17 @@ export default function Navbar() {
                 bgcolor: "transparent",
                 border: "1px solid white",
                
-                padding: "0px 10px",
+                padding: "0px 10px",display:{xs:"none",md:"block",sm:"block"}
               }}
             >
               Log in
             </Button>
-          </NavRight>
-        </Box>
-      </StyleToolbar>
+            <MenuButtons onClick={handleOpen}>
+            <Menu/>
+            </MenuButtons>
+            </NavRight>
+   
+      {/* </StyleToolbar> */}
     </NavBar>
   );
 }

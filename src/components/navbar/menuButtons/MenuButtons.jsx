@@ -13,13 +13,22 @@ import {
 
 export default function MenuButtons() {
   return (
-    <List component="nav" aria-label="mailbox folders" sx={{margin:'10px',padding:'20px'}}>
+    
+    <List component="nav" aria-label="mailbox folders" sx={{margin:'10px',padding:'20px',width:'19%'}}>
       <ListItem button>
-        <ListItemText primary=" Investor Relation" />
+        <ListItemText primary="Product" />
+      </ListItem>
+      <Divider />
+      <ListItem button>
+        <ListItemText primary="Company" />
+      </ListItem>
+      <Divider />
+      <ListItem button>
+        <ListItemText primary="Support" />
       </ListItem>
       <Divider />
       <ListItem button divider>
-        <ListItemText primary="Add Restaurant" />
+        <ListItemText primary="Resources" />
       </ListItem>
       <ListItem button>
         <ListItemText primary="Log in" />

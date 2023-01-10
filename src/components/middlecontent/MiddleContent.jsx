@@ -8,19 +8,19 @@ import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   padding: "80px 60px",
   background: `url(${"/images/category/middle.jpg"})
-  center/cover no-repeat`,
+  center/cover no-repeat fixed`,
+  // position:"relative",
+
+  zIndex:"0",
   
 }));
 export default function MiddleContent() {
   return (
     <StyleToolbar>
-      <Box sx={{ display: "flex", flexDirection: "column", width: "50%" }}>
-        <Box paddingBottom="32px">
-          <Typography variant="span" sx={{ fontWeight: 600, fontSize: "54px",color:"#fff"}}>
+      <Box sx={{ display: "flex", flexDirection: "column",gap:2.5, width:{md:"60%",sm:"100%",xs:"100%"} ,alignItems:{md:"start",sm:"flex-start",xs:"flex-start"}}}>
+          <Typography variant="span" sx={{ fontWeight: 600,marginTop:"50px", fontSize:{md:'54px',sm:"48px",xs:"30px"},color:"#fff",justifyContent:{sm:"center",xs:"center"}}}>
             Power Your Deliveries
           </Typography>
-        </Box>
-        <Box paddingBottom="32px">
           <Typography
             variant="p"
             sx={{
@@ -34,23 +34,25 @@ export default function MiddleContent() {
             Delight customers, scale operations, and boost efficiency with the
             world's most advanced logistics software.
           </Typography>
-        </Box>
-        <Box sx={{ display: "flex", gap: 2, position: "relative" }}>
-          <Box>
+       
+        <Box sx={{ display: "flex",justifyContent:"flex-start",alignItems:"center", gap: 2, position: "relative",flexDirection:{xs:'column',md:"row",sm:"row"},paddingLeft:{xs:"0px"} }}>
+          
             <Button
               variant="contained"
               endIcon={<ArrowForwardIosOutlined />}
               sx={{
                 color: "#AC78F6",
                 bgcolor: "white",
-               
+                fontSize:{md:"14px",sm:"14px",xs:"10px"},
+                width:{md:"200px",sm:"180px",xs:"130px"},
+                
               }}
             >
               Start free trial
             </Button>
             {/* <ArrowForwardIosOutlined sx={{position:'absolute'}}/> */}
-          </Box>
-          <Box>
+         
+          
             <Button
               variant="contained"
               endIcon={<Send />}
@@ -58,11 +60,12 @@ export default function MiddleContent() {
                 color: "#fff",
                 bgcolor: "transparent",
                 border: "1px solid white",
+                fontSize:{md:"14px",sm:"14px",xs:"10px"},
+                width:{md:"200px",sm:"180px",xs:"130px"}
               }}
             >
               Contact sales
             </Button>
-          </Box>
         </Box>
       </Box>
      
