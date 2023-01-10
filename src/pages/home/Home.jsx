@@ -5,7 +5,8 @@ import {  navData, sliderData } from '../../constants/Constant'
 import Content from '../../components/content/Content'
 import Navbar from '../../layout/mainLayout/navbar/Navbar'
 import MiniSlider from '../../components/mainCarousel/slider/slider2/MiniSlider'
-// import Card2 from '../../components/card/card2/card2'
+import Grid1 from '../../components/grids/grid1/Grid1'
+import Slider3 from '../../components/mainCarousel/slider/slider3/Slider3'
 // import Card3 from '../../components/card/card3/card3'
 // import { Box } from '@mui/system'
 
@@ -21,8 +22,10 @@ const Home = () => {
         <Card3 CardLinks={CardLinks}/>
       </Box> */}
       <Sliders key={sliderData} sliderData={sliderData[0].website}/>
+      <Slider3 key={sliderData} sliderData={sliderData[0].website}/>
       <Sliders key={sliderData} sliderData={sliderData[0].app}   /> 
       <Sliders key={sliderData} sliderData={sliderData[0].uiux}  />
+      <Grid1/>
       <Sliders key={sliderData} sliderData={sliderData[0].digital} /> 
       <Sliders key={sliderData} sliderData={sliderData[0].graphics}  />
       <Sliders key={sliderData} sliderData={sliderData[0].logo} />

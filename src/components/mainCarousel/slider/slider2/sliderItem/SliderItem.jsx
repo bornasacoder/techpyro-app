@@ -1,13 +1,14 @@
 import React from 'react'
 import { styled } from '@mui/styles'
+import { Box , useTheme} from '@mui/material'
 
-const SliderContainer = styled("div")({
+const SliderContainer = styled(Box)({
 width:"100%",
 height:"auto",
 
 
 })
-const ImageContainer = styled("div")({
+const ImageContainer = styled(Box)({
     display:"flex",
     alignItems:"center",
     justifyContent:"center",
@@ -18,8 +19,6 @@ const ImageContainer = styled("div")({
     "@media (max-width: 960px)": {
         cursor:'none'
     },
-    // "& hover: "
-
 })
 const Image = styled("img")({
     width:"50px",
@@ -67,9 +66,12 @@ const Head = styled("h3")({
 //         },
 // })
  const SliderItem = ({posterLinks}) => {
+
+    const theme = useTheme();
+
   return (
        <SliderContainer>
-        <ImageContainer>
+        <ImageContainer sx={{"&:hover": {color:`${theme.header.background}`}}}>
             <Image src={posterLinks.url} />
             <Head>{posterLinks.text}</Head>
         </ImageContainer>
