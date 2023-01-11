@@ -7,34 +7,46 @@ import Navbar from '../../layout/mainLayout/navbar/Navbar'
 import MiniSlider from '../../components/mainCarousel/slider/slider2/MiniSlider'
 import Grid1 from '../../components/grids/grid1/Grid1'
 import Slider3 from '../../components/mainCarousel/slider/slider3/Slider3'
+import Divider1 from '../../contents/home/divider1/Divider1'
 // import Card3 from '../../components/card/card3/card3'
 // import { Box } from '@mui/system'
+import PageHeader from '../../contents/home/pageHeader/PageHeader' 
+import Block1 from '../../contents/home/block1/Block1' 
+import Block2 from '../../contents/home/block2/Block2' 
+import Block3 from '../../contents/home/block3/Block3' 
+import Block4 from '../../contents/home/block4/Block4' 
+import Block5 from '../../contents/home/block5/Block5' 
+import Block6 from '../../contents/home/block6/Block6' 
+import Block7 from '../../contents/home/block7/Block7' 
+import Block8 from '../../contents/home/block8/Block8' 
+import Block9 from '../../contents/home/block9/Block9' 
+import Block10 from '../../contents/home/block10/Block10' 
 
 const Home = () => {
 
   return (
     <div>
       <Navbar/>
-      <MiniSlider navData={navData}/>
-      <MainCarousel/>
-      {/* <Box sx={{display:'flex'}}>
-        <Card2 CardLinks={CardLinks}/>
-        <Card3 CardLinks={CardLinks}/>
-      </Box> */}
-      <Sliders key={sliderData} sliderData={sliderData[0].website}/>
-      <Slider3 key={sliderData} sliderData={sliderData[0].website}/>
-      <Sliders key={sliderData} sliderData={sliderData[0].app}   /> 
-      <Sliders key={sliderData} sliderData={sliderData[0].uiux}  />
-      <Grid1/>
-      <Sliders key={sliderData} sliderData={sliderData[0].digital} /> 
-      <Sliders key={sliderData} sliderData={sliderData[0].graphics}  />
+      <PageHeader navData={navData}/>
+      <Block1/>
+      <Block2 key={sliderData} sliderData={sliderData[0].website}/>
+      <Block3 key={sliderData} sliderData={sliderData[0].website}/>
+      <Block4 /> 
+      <Divider1/>
+      <Block5 key={sliderData} sliderData={sliderData[0].app}   /> 
+      <Block6 key={sliderData} sliderData={sliderData[0].uiux}  />
+      <Block7/>
+      <Divider1/>
+      <Block8 key={sliderData} sliderData={sliderData[0].digital} /> 
+      <Block9 key={sliderData} sliderData={sliderData[0].graphics}  />
+      <Block10/>
+      <Divider1/>
       <Sliders key={sliderData} sliderData={sliderData[0].logo} />
       <Sliders key={sliderData} sliderData={sliderData[0].contentwriting} />
       <Sliders key={sliderData} sliderData={sliderData[0].presentation} />
       <Sliders key={sliderData} sliderData={sliderData[0].videoediting} />
       <Sliders key={sliderData} sliderData={sliderData[0].others}/> 
       <Content/>
-      
     </div>
   )
 }

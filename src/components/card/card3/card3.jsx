@@ -1,9 +1,9 @@
 import { Box, Card, Typography } from '@mui/material'
 import React from 'react'
 
-export default function card3({CardLinks}) {
+export default function Card3({CardLinks}) {
   return (
-    <Card sx={{ width:'230px', height:'300px',position:'relative', margin:'5px 10px'}}>
+    <Card sx={{ width:'250px', height:'300px',position:'relative', margin:'5px 10px'}}>
         <img style={{width:'100%', height:'100%'}} src={'/images/blog-1.jpg'} alt="card"/>
         <Box sx={{position:'absolute', top:'82%' , paddingLeft:'26px',background:'#fff',opacity:'0.7', left: 0,right:0 ,width:'100%',height:'18%'}}>
         </Box>   
