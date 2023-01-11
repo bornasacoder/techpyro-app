@@ -14,11 +14,13 @@ import {
     InputBase,
     Autocomplete,
     TextField,
+    List,
+    ListItemText,
     
     
   } from "@mui/material";
 
-import { Help, LocationCityRounded, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  ShoppingBag, ShoppingCart} from '@mui/icons-material';
+import { AccountCircle, Call, Help, LocationCityRounded, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  ShoppingBag, ShoppingCart} from '@mui/icons-material';
 
 import MenuButtons from 'components/menuButtons/MenuButtons';
 
@@ -49,8 +51,9 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
             //   marginLeft:'30px',
             //   marginRight:'30px'
           },
-        // marginLeft:'150px',
-        // marginRight:'150px'
+        marginLeft:'150px',
+        marginRight:'150px',
+        color:theme.header.background,
     }));
     
     const Cart = styled(Box)`
@@ -62,9 +65,9 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         
         // flex:'3',
         display: 'flex',
-        gap:'30px', 
+        // gap:'30px', 
         //   justifyContent: 'space-between',
-        paddingLeft:'30px',
+        // paddingLeft:'30px',
         alignItems: 'center',
         [theme.breakpoints.down('md')]: {
             gap:"10px"
@@ -80,7 +83,7 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         // flex:'3',
         display: 'flex',
          gap:'10px',
-        paddingRight:'30px',
+        // paddingRight:'30px',
         //    flexDirection:"column",
         alignItems: 'center',
         // [theme.breakpoints.down('md')]: {
@@ -95,9 +98,9 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         }));
         const Login = styled(Button)(({theme}) => ({
           
-          backgroundColor:theme.header.background,
-        color:theme.header.textColor,
-        boxShadow:theme.header.boxShadow,
+          backgroundColor:theme.header.textColor,
+        color:theme.header.background,
+        // boxShadow:theme.header.boxShadow,
         ":hover":{
           backgroundColor:theme.header.textColor,
           color:theme.header.background,
@@ -106,25 +109,47 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         alignItems:'center'
           
       }));
-      const Signup = styled(Button)(({theme}) => ({
+      // const Signup = styled(Button)(({theme}) => ({
         
-        backgroundColor:theme.header.textColor,
-        boxShadow:theme.header.boxShadow,
-        ":hover":{
-          backgroundColor:theme.header.background,
-          color:theme.header.textColor,
-          boxShadow:theme.header.boxShadow,
-        }
+      //   backgroundColor:theme.header.textColor,
+      //   boxShadow:theme.header.boxShadow,
+      //   ":hover":{
+      //     backgroundColor:theme.header.background,
+      //     color:theme.header.textColor,
+      //     boxShadow:theme.header.boxShadow,
+      //   }
           
-      }));
+      // }));
       
 
 const MenuButton = styled(IconButton)(({ theme }) => ({
     fontSize:'50px',
-    color:'#333',
-    
+    color:theme.header.background,
+    margin:"0",
+    padding:'0',
         
     }
+));
+const Ram = styled(Box)(({ theme }) => ({
+  height:'750px',
+  width:'100%',
+    backgroundImage: `url(${"/images/category/bgdimg7.jpg"})`,
+   backgroundSize:'cover',
+  position:'sticky',
+      
+  }
+));
+const Downnav = styled(Box)(({ theme }) => ({
+  height:'680px',
+  width:'100%',
+  display:'flex',
+  justifyContent:'center',
+  alignItems:'center',
+  flexDirection:'column',
+  backgroundColor:'transparent',
+  
+      
+  }
 ));
 
 const NavBar = styled(AppBar)(({theme}) =>({
@@ -132,12 +157,12 @@ const NavBar = styled(AppBar)(({theme}) =>({
     color:theme.header.textColor,
     // justifyContent:"space-evenly",
     width:'100%',
-    height:'750px',
+    // height:'750px',
     margin:"0",
     padding:'0',
     zIndex:'0',
-    backgroundImage: `url(${"/images/category/rstnt6.jpeg"})`,
-   backgroundSize:'cover',
+  //   backgroundImage: `url(${"/images/category/bgdimg3.jpeg"})`,
+  //  backgroundSize:'cover',
 position:'static'
 
 }));
@@ -158,21 +183,29 @@ export default function Navbar() {
 
     
   return (
+    <Ram>
       <NavBar >
-        <Box sx={{position:{xs:'none',sm:'none',md:'fixed'},width:'100%',alignItems:'center',backgroundColor:{xs:'none',sm:'none',md:`${theme.header.background}`},zIndex:'100',height:'100px',display:'flex'}}>
+        <Box sx={{position:{xs:'none',sm:'none',md:'fixed'},width:'100%',alignItems:'center',backgroundColor:`${theme.header.textColor}`,zIndex:'100',height:'70px',display:'flex'}}>
         <StyleToolbar  >
         <NavLeft >
             <MenuButton onClick={handleOpen}>
-                <Menu color='black'sx={{fontSize: {xs:'30px',sm:'35px'}}}/>
+                <Menu color='black'sx={{display: {xs:'block',sm:'block',md:'none'}}}/>
             </MenuButton>
             <Drawer open={open} onClose={handleClose} sx={{position:'absolute'}}>
                 <MenuButtons/>
             </Drawer>
            
                 <Box  >
-                    <Typography  component="div" sx={{fontSize: {xs:'25px',sm:'25px',md:'40px'},fontFamily:'revert-layer',color:`${theme.header.textColor}`}}>
+                  <List sx={{display:{xs:'none',sm:'none',md:'flex'},gap:'25px',fontSize:'30px'}}>
+                  <ListItemText  primary={`HOME`}/>
+                    <ListItemText primary={`ORDER ONLINE`}/>
+                    <ListItemText primary={`MENU`}/>
+                    <ListItemText primary={`ABOUT`}/>
+                    <ListItemText primary={`CONTACT`}/>
+                  </List>
+                    {/* <Typography  component="div" sx={{fontSize: {xs:'25px',sm:'25px',md:'40px'},fontFamily:'revert-layer',color:`${theme.header.textColor}`}}>
                         Uber Eats
-                    </Typography>
+                    </Typography> */}
                     {/* <Typography component="div" sx={{fontSize:{md:'13px',xs:'10px'}, fontWeight:100}}>
                         Make a simple Bussiness
                     </Typography> */}
@@ -184,38 +217,31 @@ export default function Navbar() {
                 {/* <NavButton/> */}
             </NavLeft >
             <NavRight > 
+              <Box sx={{display:'flex',paddingRight:'20px'}}>
+              <Call sx={{fontSize:'30px'}}/>
+              <Typography sx={{fontSize:'20px'}}>+91-9999999999</Typography>
+              </Box>
+            <AccountCircle sx={{fontSize:'40px'}}/>
+               <Login variant='contained' sx={{borderRadius:'30px',fontSize:'18px' ,display:{xs:'none',sm:'none',md:'block'},alignItems:'center'}}>Log in</Login>
               
-               <Login variant='contained' sx={{borderRadius:'30px',fontSize:'20px' ,display:{xs:'none',sm:'none',md:'block'},alignItems:'center'}}><Person3Outlined />Log in</Login>
-              <Person3Outlined sx={{fontSize:'30px',backgroundColor:`${theme.header.background}`,boxShadow:`${theme.header.boxShadow}`,
-            borderRadius:'50px',width:'40px',height:'30px',display:{md:'none'}}}/>
                
-               <Signup variant='contained' sx={{borderRadius:'30px',fontSize:{xs:'10px',sm:'15px',md:'20px'}}}>Sign up</Signup>
+               {/* <Signup variant='contained' sx={{borderRadius:'30px',fontSize:{xs:'10px',sm:'15px',md:'20px'}}}>Sign up</Signup> */}
               
             </NavRight>
         </StyleToolbar>
         </Box>
-        <Box sx={{paddingTop:{xs:'30px',sm:'100px',md:'250px'}}} paddingLeft={"30px"}>
-          <Typography sx={{fontSize: {xs:'40px',sm:'45px',md:'50px'},fontWeight:'700'}}>Order Food To Your Door</Typography>
-        </Box>
-        <Box display={'flex'} gap={{xs:'20px',sm:'50px',md:'10px'}} paddingTop={'40px'}flexDirection={{xs:'column',sm:'column',md:'row'}}
-    marginLeft={ {xs:'15px',sm:'25px'}} marginRight={ {xs:'15px',sm:'25px'}} position={'static'}>
-        <SearchBar />
-        <Autocomplete  sx={{height:{xs:'55px',sm:'40px'}}}  
-        disablePortal
-        options={arr}
-        getOptionLabel={(option) => option.name}
-        renderInput = {(params) => (
-            <TextField 
-            sx={{ fontSize:'15px',width:{xs:'100%',sm:'100%',md:'200px'},backgroundColor:`${theme.header.background}`}}
-            {...params}
-            label='Deliever now'
-            />
-        )}
-        />
-        <Signup variant='contained' sx={{borderRadius:'10px',fontSize:'15px',height:{xs:'50px',sm:'50px'}}}>Find Food</Signup>
-        </Box>
-        <Typography sx={{paddingLeft:'30px',fontWeight:'700',paddingTop:'20px'}}>Sign in for your recent addresses</Typography>
-      </NavBar>
+        </NavBar>
+        <Downnav>
+          <Typography sx={{fontSize:{xs:'100px',sm:'150px',md:'200px'},fontWeight:'1000',height:{xs:'110px',sm:'170px',md:'230px'},color:`${theme.header.background}`}}>
+            Coffee.
+            
+          </Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},color:`${theme.header.background}`}}>It's the Simple Pleasure in Life</Typography>
+        </Downnav>
+        </Ram>
+        
+       
+     
     
   )
 }

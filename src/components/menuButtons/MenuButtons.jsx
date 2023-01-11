@@ -15,18 +15,22 @@ export default function MenuButtons() {
   return (
     <List component="nav" aria-label="mailbox folders">
       <ListItem button>
-        <ListItemText primary="Inbox" />
+        <ListItemText primary="HOME" />
       </ListItem>
       <Divider />
       <ListItem button divider>
-        <ListItemText primary="Drafts" />
+        <ListItemText primary="ORDER ONLINE" />
       </ListItem>
       <ListItem button>
-        <ListItemText primary="Trash" />
+        <ListItemText primary="MENU" />
       </ListItem>
       <Divider light />
       <ListItem button>
-        <ListItemText primary="Spam" />
+        <ListItemText primary="CONTACT" />
+      </ListItem>
+      <Divider light />
+      <ListItem button>
+        <ListItemText primary="ABOUT" />
       </ListItem>
     </List>
   )
