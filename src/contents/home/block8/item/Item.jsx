@@ -7,23 +7,23 @@ const SliderContainer = styled("div")({
     // height:"auto",
 })
 const ImageContainer = styled(Card)(({ theme }) => ({
-    width:'20vw',
-    height:'400px',
+    width:'15.5vw',
+    height:'320px',
     display:"flex",
     // alignItems:"center",
     justifyContent:'center',
     flexDirection:"column",
     margin:"10px 10px",
     "@media (max-width: 1200px)": {
-        width:"20vw",
-        height:"330px",
+        width:"18vw",
+        height:"290px",
     },
     [theme.breakpoints.down('md')]: {
-        width:"25vw",
-        height:"310px",
+        width:"20vw",
+        height:"270px",
     },
-    "@media (max-width: 780px)": {
-        width:"26vw",
+    "@media (max-width: 800px)": {
+        width:"23vw",
         height:"250px",
     },
     [theme.breakpoints.down('sm')]: {
@@ -59,10 +59,14 @@ const Head = styled("h3")({
     marginBottom:"5px",
     "@media (max-width: 600px)": {
        fontSize: "10px",
-       },
+       paddingTop:'0px',
+        marginBottom:"2px",
+    },
     "@media (max-width: 980px)": {
        fontSize: "13px",
-       },
+        paddingTop:'2px',
+        marginBottom:"3px",
+    },
 })
 const Para = styled("p")({
     fontSize:"14px",
@@ -71,16 +75,18 @@ const Para = styled("p")({
     paddingBottom:'10px',
     "@media (max-width: 600px)": {
         fontSize: "10px",
+        paddingBottom:'2px',
         },
     "@media (max-width: 980px)": {
         fontSize: "13px",
+        paddingBottom:'5px',
         },
 })
 
 export default function Item({posterLinks}) {
   return (
     <SliderContainer>
-        <ImageContainer>
+        <ImageContainer sx={{borderRadius:'8px'}}>
             <Image src={posterLinks.url} />
             <Head>{posterLinks.name}</Head>
             <Para>{posterLinks.Price}</Para>

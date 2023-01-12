@@ -85,7 +85,7 @@ export default function Block2(props) {
               breakpoint: 960,
               settings: {
                 slidesToShow: 3.5,
-                slidesToScroll: 3,
+                slidesToScroll: 2,
                 speed: 300,
                 arrows:false,
               },

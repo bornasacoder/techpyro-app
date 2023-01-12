@@ -26,7 +26,7 @@ const Item = styled(Card)(({theme}) => ({
 },
 }));
 const Img = styled("img")(({theme}) => ({
-  objectFit: "cover",
+  // objectFit: "cover",
   width:"100%",
   height: "400px",
   [theme.breakpoints.down('sm')]: {
@@ -113,31 +113,31 @@ export default function Block1() {
     <>
     <Slider {...settings1}>
       <Item>
-        <Img src='/images/category/bg-1.jpg' />
+        <Img src='/images/category/carousel/bg-1.png' />
         <Head>upto 40% off</Head>
       </Item>
     <Item>
-      <Img src='/images/category/bg-2.jpg' />
+      <Img src='/images/category/carousel/bg-2.png' />
       <Head>upto 40% off</Head>
     </Item>
     <Item>
-      <Img src='/images/category/bg-3.jpg' />
+      <Img src='/images/category/carousel/bg-3.png' />
       <Head>upto 40% off</Head>
     </Item>
     <Item>
-      <Img src='/images/category/bg-4.jpg' />
+      <Img src='/images/category/carousel/bg-4.png' />
       <Head>upto 40% off</Head>
     </Item>
     <Item>
-      <Img src='/images/category/bg-5.jpg' />
+      <Img src='/images/category/carousel/bg-5.png' />
       <Head>upto 40% off</Head>
      </Item>
     <Item> 
-      <Img src='/images/category/bg-6.jpg' />
+      <Img src='/images/category/carousel/bg-6.png' />
       <Head>upto 40% off</Head>
     </Item>
      <Item>
-      <Img src='/images/category/bg-7.jpg' />
+      <Img src='/images/category/carousel/bg-7.png' />
       <Head>upto 40% off</Head>
     </Item>
   </Slider>

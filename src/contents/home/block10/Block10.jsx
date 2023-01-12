@@ -5,10 +5,10 @@ import Item from './card/Item'
 
 export default function Block4() {
   return (
-    <Box sx={{margin:'20px'}}>
+    <Box sx={{margin:{sm:'20px',xs:'20px'},}}>
         <Grid container spacing={2}>
-            {Array.from(Array(6)).map((item, index) => (
-            <Grid item xs={12} sm={6} md={4} lg={4} key={index}>
+            {Array.from(Array(1)).map((item, index) => (
+            <Grid item xs={12} sm={12} md={12} lg={12} key={index}>
                 <Item CardLinks={CardLinks}/>
             </Grid>
          ))}

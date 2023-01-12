@@ -63,8 +63,8 @@ export default function Block2(props) {
         arrows:true,
         infinite: false,
         speed: 500,
-        slidesToShow: 4.5,
-        slidesToScroll: 3,
+        slidesToShow: 5.5,
+        slidesToScroll: 4,
         autoplay: false,
         autoplaySpeed: 2000,
         cssEase: "linear",
@@ -75,7 +75,7 @@ export default function Block2(props) {
             {
               breakpoint: 1200,
               settings: {
-                slidesToShow: 4.5,
+                slidesToShow: 5,
                 slidesToScroll: 3,
                 speed: 300,
                 arrows:false,
@@ -84,7 +84,7 @@ export default function Block2(props) {
              {
               breakpoint: 960,
               settings: {
-                slidesToShow: 3.5,
+                slidesToShow: 4.5,
                 slidesToScroll: 3,
                 speed: 300,
                 arrows:false,
@@ -93,7 +93,7 @@ export default function Block2(props) {
             {
               breakpoint: 800,
               settings: {
-                slidesToShow: 3.5,
+                slidesToShow: 4,
                 slidesToScroll: 2,
                 speed: 300,
                 arrows:false,

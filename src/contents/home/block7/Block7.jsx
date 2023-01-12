@@ -7,8 +7,8 @@ export default function Block4() {
   return (
     <Box sx={{margin:'20px'}}>
         <Grid container spacing={2}>
-            {Array.from(Array(6)).map((item, index) => (
-            <Grid item xs={12} sm={6} md={4} lg={4} key={index}>
+            {Array.from(Array(2)).map((item, index) => (
+            <Grid item xs={12} sm={6} md={6} lg={6} key={index}>
                 <Item CardLinks={CardLinks}/>
             </Grid>
          ))}

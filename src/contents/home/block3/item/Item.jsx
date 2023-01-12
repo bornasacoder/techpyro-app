@@ -1,19 +1,11 @@
 import React from 'react'
 import { styled } from '@mui/styles'
-import { Card } from '@mui/material';
+import { Box, Card, Typography } from '@mui/material';
 
-const SliderContainer = styled("div")({
-    width:"85%",
-    // height:"auto",
-})
 const ImageContainer = styled(Card)(({ theme }) => ({
     width:'20vw',
     height:'400px',
-    display:"flex",
-    // alignItems:"center",
-    justifyContent:'center',
-    flexDirection:"column",
-    margin:"10px 10px",
+
     "@media (max-width: 1200px)": {
         width:"20vw",
         height:"330px",
@@ -22,7 +14,7 @@ const ImageContainer = styled(Card)(({ theme }) => ({
         width:"25vw",
         height:"310px",
     },
-    "@media (max-width: 780px)": {
+    "@media (max-width: 800px)": {
         width:"26vw",
         height:"250px",
     },
@@ -32,59 +24,17 @@ const ImageContainer = styled(Card)(({ theme }) => ({
     },
 
 }));
-const Image = styled("img")(({ theme }) => ({
-   
-    width:"100%",
-    height:"87%",
-    objectFit:"cover",
-    [theme.breakpoints.down('md')]: {
-        width:"100%",
-        height:"90%",
-    },
-    [theme.breakpoints.down('sm')]: {
-        width:"100%",
-        height:"95%",
-    },
-    // [theme.breakpoints.down('xs')]: {
-    //     width:"70px",
-    //     height:"75px",
-    // },
-}));
-const Head = styled("h3")({
-    fontSize: "16px",
-    fontWeight:"500",
-    paddingLeft:'15px',
-    paddingTop:'10px',
-    // textAlign:"center",
-    marginBottom:"5px",
-    "@media (max-width: 600px)": {
-       fontSize: "10px",
-       },
-    "@media (max-width: 980px)": {
-       fontSize: "13px",
-       },
-})
-const Para = styled("p")({
-    fontSize:"14px",
-    fontWeight:"600",
-    paddingLeft:'15px',
-    paddingBottom:'10px',
-    "@media (max-width: 600px)": {
-        fontSize: "10px",
-        },
-    "@media (max-width: 980px)": {
-        fontSize: "13px",
-        },
-})
 
 export default function Item({posterLinks}) {
   return (
-    <SliderContainer>
-        <ImageContainer>
-            <Image src={posterLinks.url} />
-            <Head>{posterLinks.name}</Head>
-            <Para>{posterLinks.Price}</Para>
-        </ImageContainer>
-    </SliderContainer>
+    <ImageContainer sx={{position:'relative', margin:'5px 10px', borderRadius:'5px'}}>
+        <img style={{width:'100%', height:'100%', objectFit:'cover'}} src={'/images/pic3.jpg'} alt="card"/>
+        <Box sx={{position:'absolute', top:{md:'85%',xs:'80%'} , paddingLeft:'26px',background:'#fff',opacity:'0.5', left: 0,right:0 ,width:'100%',height:{md:'15%',xs:'20%'}}}>
+        </Box>   
+        <Box sx={{position:'absolute', top:{md:'86%',sm:'83%',xs:'81%'} , paddingLeft:'26px', left: 0,right:0 ,width:'100%'}}>
+            <Typography sx={{fontSize:{md:'16px',sm:'14px',xs:'13px'}, fontWeight: 500, }}>{posterLinks.name}</Typography>
+            <Typography sx={{fontSize:{md:'16px',sm:'14px',xs:'13px'}, fontWeight: 500,}}>{posterLinks.Price}</Typography>
+        </Box>   
+    </ImageContainer>
   )
 }
