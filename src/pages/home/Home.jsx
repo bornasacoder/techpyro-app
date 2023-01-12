@@ -13,13 +13,9 @@ const Home = () => {
     <div>
     
         <Navbar />
-        <Block1 />
-        <Block2 />
-        <Footer />
-        {/* <Card2 />
-        <Block1 />
-         <Footer /> */}
-      
+       <Block2 />
+      <Block1 />
+      <Footer />
     
 </div>
     

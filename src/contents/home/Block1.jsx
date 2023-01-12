@@ -1,5 +1,6 @@
 import * as React from 'react';
 import {Card, CardMedia, Typography, Box,useTheme,styled, Button} from '@mui/material';
+import { ChatBubbleOutlineRounded, FavoriteBorder } from '@mui/icons-material';
 
 export default function Card1() {
   const theme = useTheme();
@@ -7,8 +8,9 @@ export default function Card1() {
   display:'flex',
   flexDirection:'column',
   width:'300px',
-  height:'400px',
-  
+  height:'200px',
+  borderRadius:'0px',
+  gap:'20px',
   [theme.breakpoints.down('lg')]: {
     width:'100vw',
     height:'400px',
@@ -27,12 +29,18 @@ export default function Card1() {
 }))
   return ( 
     <>
-    <Typography sx={{fontSize:{xs:'30px',sm:'30px',md:'40px'},display:'flex',justifyContent:'center',padding:{xs:'30px',sm:'50px',md:'80'}}}>Fresh from Oven to Your Door Step</Typography>
-    <Box sx={{display:'flex',justifyContent:'center',gap:{xs:'0px',sm:'50px',md:'80px'},flexDirection:{xs:'column',sm:'column',md:'row'}}}>
+  <Box sx={{display:'flex',flexDirection:'column',alignItems:'center',padding:{xs:'100px 30px',sm:'100px 50px',md:'100px'}}}>
+       
+       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'35px'},fontWeight:'700'}}>Latest From our Blog</Typography>
+
+       <Typography>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</Typography>
+       <Typography>dolore magna aliqua.</Typography>
+       </Box>
+    <Box sx={{display:'flex',justifyContent:'center',gap:{xs:'0px',sm:'50px',md:'30px'},flexDirection:{xs:'column',sm:'column',md:'row'}}}>
    <Box sx={{padding:{xs:'30px',sm:'50px',md:'0'}}}>
       <CardBox >
 
-        <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'}}}>
+        <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'},}}>
         <CardMedia
         sx={{height:'100%'}}
           component="img"
@@ -44,8 +52,16 @@ export default function Card1() {
       
 
       </CardBox>
-      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'row',background:'#F6F7FB',justifyContent:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Burger</Typography>
+      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px'}}>
+        <Typography></Typography>
+        <Typography>12-01-2023</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'700'}}>Cooking of perfect chicken Burger in minutes</Typography>
+        <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
+        <Box sx={{display:'flex',justifyContent:'space-between'}}>
+          <Typography><FavoriteBorder sx={{fontSize:'15px'}}/>10 likes</Typography>
+          <Typography><ChatBubbleOutlineRounded sx={{fontSize:'15px'}}/>comments</Typography>
+        </Box>
+        
         {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
        </Box>
       </Box>
@@ -64,8 +80,15 @@ export default function Card1() {
       
 
       </CardBox>
-      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'row',background:'#F6F7FB',justifyContent:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Coffee</Typography>
+      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px'}}>
+        <Typography></Typography>
+      <Typography>12-01-2023</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Secret of making yummy Coffee.</Typography>
+        <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
+        <Box sx={{display:'flex',justifyContent:'space-between'}}>
+          <Typography><FavoriteBorder sx={{fontSize:'15px'}}/>10 likes</Typography>
+          <Typography><ChatBubbleOutlineRounded sx={{fontSize:'15px'}}/>comments</Typography>
+        </Box>
         {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
        </Box>
       </Box>
@@ -84,8 +107,43 @@ export default function Card1() {
       
 
       </CardBox>
-      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'row',background:'#F6F7FB',justifyContent:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Ice Cream</Typography>
+      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px'}}>
+        <Typography></Typography>
+      <Typography>12-01-2023</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Best desert avaialble here for you.</Typography>
+        <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
+        <Box sx={{display:'flex',justifyContent:'space-between'}}>
+          <Typography><FavoriteBorder sx={{fontSize:'15px'}}/>10 likes</Typography>
+          <Typography><ChatBubbleOutlineRounded sx={{fontSize:'15px'}}/>comments</Typography>
+        </Box>
+        {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
+       </Box>
+      </Box>
+      
+      <Box sx={{padding:{xs:'30px',sm:'50px',md:'0'}}}>
+      <CardBox >
+
+        <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'}}}>
+        <CardMedia
+        sx={{height:'100%'}}
+          component="img"
+          image="/images/category/blockimg5.webp"
+          alt="green iguana"
+        />
+       </Box>
+   
+      
+
+      </CardBox>
+      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px'}}>
+        <Typography></Typography>
+      <Typography>12-01-2023</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Secret of making yummy Coffee.</Typography>
+        <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
+        <Box sx={{display:'flex',justifyContent:'space-between'}}>
+          <Typography><FavoriteBorder sx={{fontSize:'15px'}}/>10 likes</Typography>
+          <Typography><ChatBubbleOutlineRounded sx={{fontSize:'15px'}}/>comments</Typography>
+        </Box>
         {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
        </Box>
       </Box>

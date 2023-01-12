@@ -29,7 +29,7 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
   height:'auto',
   width:'100%',
     display: 'flex',
-    justifyContent: 'space-between',
+    justifyContent:'space-evenly',
     alignItems: 'center',
     position: 'sticky',
     [theme.breakpoints.down('md')]: {
@@ -48,8 +48,9 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         [theme.breakpoints.down('sm')]: {
           height: '70px',
           // marginTop:'20px'
-            //   marginLeft:'30px',
-            //   marginRight:'30px'
+              marginLeft:'20px',
+              marginRight:'30px',
+              justifyContent:'space-between'
           },
         marginLeft:'150px',
         marginRight:'150px',
@@ -81,7 +82,7 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
     const NavRight = styled(Box)(({theme}) => ({
        
         // flex:'3',
-        display: 'flex',
+        display: 'none',
          gap:'10px',
         // paddingRight:'30px',
         //    flexDirection:"column",
@@ -91,6 +92,7 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
             // },
             [theme.breakpoints.down('sm')]: {
                paddingRight:'0px',
+               display:'block',
                 
             },
             
@@ -133,7 +135,7 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
 const Ram = styled(Box)(({ theme }) => ({
   height:'750px',
   width:'100%',
-    backgroundImage: `url(${"/images/category/bgdimg7.jpg"})`,
+    backgroundImage: `url(${"/images/category/bgdimg9.jpeg"})`,
    backgroundSize:'cover',
   position:'sticky',
       
@@ -144,10 +146,14 @@ const Downnav = styled(Box)(({ theme }) => ({
   width:'100%',
   display:'flex',
   justifyContent:'center',
-  alignItems:'center',
+  // alignItems:'center',
   flexDirection:'column',
   backgroundColor:'transparent',
-  
+  paddingLeft:'200px',
+  [theme.breakpoints.down('sm')]: {
+    paddingLeft:'10px',
+     gap:'30px'
+ },
       
   }
 ));
@@ -185,22 +191,19 @@ export default function Navbar() {
   return (
     <Ram>
       <NavBar >
-        <Box sx={{position:{xs:'none',sm:'none',md:'fixed'},width:'100%',alignItems:'center',backgroundColor:`${theme.header.textColor}`,zIndex:'100',height:'70px',display:'flex'}}>
+        <Box sx={{position:{xs:'fixed',sm:'fixed',md:'fixed'},width:'100%',alignItems:'center',backgroundColor:`${theme.header.textColor}`,zIndex:'100',height:'70px',display:'flex'}}>
         <StyleToolbar  >
         <NavLeft >
-            <MenuButton onClick={handleOpen}>
-                <Menu color='black'sx={{display: {xs:'block',sm:'block',md:'none'}}}/>
-            </MenuButton>
-            <Drawer open={open} onClose={handleClose} sx={{position:'absolute'}}>
-                <MenuButtons/>
-            </Drawer>
+           
            
                 <Box  >
-                  <List sx={{display:{xs:'none',sm:'none',md:'flex'},gap:'25px',fontSize:'30px'}}>
+                  <List sx={{display:{xs:'none',sm:'none',md:'flex'},gap:'30px',fontSize:'30px'}}>
                   <ListItemText  primary={`HOME`}/>
-                    <ListItemText primary={`ORDER ONLINE`}/>
-                    <ListItemText primary={`MENU`}/>
                     <ListItemText primary={`ABOUT`}/>
+                    <ListItemText primary={`GALLERY`}/>
+                    <ListItemText primary={`MENU`}/>
+                    <ListItemText primary={`BLOG`}/>
+                    <ListItemText primary={`PAGES`}/>
                     <ListItemText primary={`CONTACT`}/>
                   </List>
                     {/* <Typography  component="div" sx={{fontSize: {xs:'25px',sm:'25px',md:'40px'},fontFamily:'revert-layer',color:`${theme.header.textColor}`}}>
@@ -215,14 +218,27 @@ export default function Navbar() {
                     <ShoppingCart/>
                 </Badge> */}
                 {/* <NavButton/> */}
+                <Box>
+                <List sx={{display:{xs:'block',sm:'block',md:'none'},gap:'30px',fontSize:'30px'}}>
+                 
+                    <ListItemText primary={`MENU`}/>
+                    
+                  </List>
+                </Box>
             </NavLeft >
             <NavRight > 
-              <Box sx={{display:'flex',paddingRight:'20px'}}>
+            <MenuButton onClick={handleOpen}>
+                <Menu color='black'sx={{display: {xs:'block',sm:'block',md:'none'}}}/>
+            </MenuButton>
+            <Drawer open={open} onClose={handleClose} sx={{position:'absolute'}}>
+                <MenuButtons/>
+            </Drawer>
+              {/* <Box sx={{display:'flex',paddingRight:'20px'}}>
               <Call sx={{fontSize:'30px'}}/>
               <Typography sx={{fontSize:'20px'}}>+91-9999999999</Typography>
               </Box>
             <AccountCircle sx={{fontSize:'40px'}}/>
-               <Login variant='contained' sx={{borderRadius:'30px',fontSize:'18px' ,display:{xs:'none',sm:'none',md:'block'},alignItems:'center'}}>Log in</Login>
+               <Login variant='contained' sx={{borderRadius:'30px',fontSize:'18px' ,display:{xs:'none',sm:'none',md:'block'},alignItems:'center'}}>Log in</Login> */}
               
                
                {/* <Signup variant='contained' sx={{borderRadius:'30px',fontSize:{xs:'10px',sm:'15px',md:'20px'}}}>Sign up</Signup> */}
@@ -232,11 +248,19 @@ export default function Navbar() {
         </Box>
         </NavBar>
         <Downnav>
-          <Typography sx={{fontSize:{xs:'100px',sm:'150px',md:'200px'},fontWeight:'1000',height:{xs:'110px',sm:'170px',md:'230px'},color:`${theme.header.background}`}}>
-            Coffee.
+          <Box sx={{gap:'20px'}}>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},color:`${theme.header.background}`}}>WIDE OPTIONS OF CHOICE</Typography>
+          <Typography sx={{fontSize:{xs:'40px',sm:'40px',md:'50px'},fontWeight:'700',color:`${theme.header.background}`}}>
+            Delicious Recepies.
             
           </Typography>
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},color:`${theme.header.background}`}}>It's the Simple Pleasure in Life</Typography>
+          <Box sx={{color:`${theme.header.background}`}}>inappropriate behavior is often laughed off as “boys will be boys,” women</Box>
+          <Box sx={{color:`${theme.header.background}`}}>face higher conduct standards especially in the workplace. That’s why it’s</Box>
+          <Box sx={{color:`${theme.header.background}`}}>crucial that, as women.</Box>
+          <Box sx={{paddingTop:'30px'}}>
+          <Button variant='contained' sx={{borderRadius:'0'}}>CHECK OUR MENU</Button>
+          </Box>
+          </Box>
         </Downnav>
         </Ram>
         
