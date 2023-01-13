@@ -1,5 +1,6 @@
 
 import Home from "./pages/home/Home";
+import Category from "./pages/category/category/Category";
 import {
   BrowserRouter as Router,
   Routes,
@@ -12,6 +13,7 @@ function App() {
     <Router>
       <Routes>
         <Route exact path="/" element={<Home/>} />
+        <Route exact path="/websites" element={<Category/>} />
       </Routes>
     </Router>
   );

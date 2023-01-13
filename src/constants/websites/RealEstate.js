@@ -1,4 +1,4 @@
-export const RealEstate = [
+export const RealEstateProducts = [
     {
         title: {
             shortTitle: 'Restaurant website templates',

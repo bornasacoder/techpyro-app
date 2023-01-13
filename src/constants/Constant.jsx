@@ -10,6 +10,11 @@ export const navData = [
     href: "apps",
   },
   {
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG-3uBcqW7w339owEfoctJhr2K369yxOasqv-mjvOkpAKlQvy-WokIPC6uKs-Im8g9PNw&usqp=CAU",
+    text: "Dashboards",
+    href: "Dashboards",
+  },
+  {
     url: "https://www.bluepixeltech.com/assets/front/img/services-img/UI_UX.png",
     text: "UI/UX Designs",
     href: "ui_ux_designs",

@@ -57,7 +57,7 @@ const NextBtn = (props) =>{
    )
 }
 
-export default function Block5(props) {
+export default function Block6(props) {
 
   const settings = {
     dots: false,

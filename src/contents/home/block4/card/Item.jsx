@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Item({CardLinks}) {
   return (
-    <Card sx={{height:{md:'300px',sm:'250px',xs:'200px',boxShadow:'none'}}}>
+    <Card sx={{height:{sm:'250px',xs:'200px',boxShadow:'none'}}}>
       <Box sx={{height:{sm:'75%',xs:'70%'}}}>
         <img style={{height:'100%',width:'100%'}} src={'/images/4.png'} alt="card"/>
       </Box>

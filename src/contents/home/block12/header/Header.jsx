@@ -14,7 +14,7 @@ const SliderHead = styled("div")({
   paddingLeft:'10px',
   })
 
-export default function Header() {
+export default function Header(props) {
   return (
     <Box>
       <SliderHead>  

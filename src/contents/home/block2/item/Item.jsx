@@ -80,7 +80,7 @@ const Para = styled("p")({
 export default function Item({posterLinks}) {
   return (
     <SliderContainer>
-        <ImageContainer>
+        <ImageContainer sx={{borderRadius:'8px'}}>
             <Image src={posterLinks.url} />
             <Head>{posterLinks.name}</Head>
             <Para>{posterLinks.Price}</Para>

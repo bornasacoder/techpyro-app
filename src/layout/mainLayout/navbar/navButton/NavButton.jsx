@@ -43,18 +43,28 @@ const LoginButton = styled(Button)(({theme}) => ({
    color: theme.header.background,
     // width: '100%',
     textTransform: 'none',
+
+    [theme.breakpoints.down('md')]: {
+      background: theme.header.background,
+      color: theme.header.textColor,
+      marginRight: '-50px',
+      cursor:'none'
+  },
+
     [theme.breakpoints.down('sm')]: {
       background: theme.header.background,
       color: theme.header.textColor,
       marginRight: '-40px',
       cursor:'none'
   },
-    [theme.breakpoints.down('md')]: {
-      background: theme.header.background,
-      color: theme.header.textColor,
-      marginRight: '-50px',
-      cursor:'none'
-  }
+
+  "@media (max-width: 500px)": {
+    background: theme.header.background,
+    color: theme.header.textColor,
+    marginRight: '-30px',
+    cursor:'none'
+  },
+
 }));
 
 export default function NavButton() {
@@ -71,7 +81,7 @@ const theme = useTheme();
                position:'realative',
                 "&:hover .MuiBox-root": { display:{md:'flex'}},
                 "& Button:hover": { backgroundColor: {md: `${theme.header.textColor}`}}}}>
-        <LoginButton>
+        <LoginButton sx={{fontSize:{xs:'17px',md:'14px'}, letterSpacing:'0.8px', fontWeight:{xs:500,md:700}}}>
           Login
         </LoginButton>
         <Box

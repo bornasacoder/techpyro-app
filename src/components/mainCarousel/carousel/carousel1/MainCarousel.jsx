@@ -17,13 +17,13 @@ const Item = styled(Card)(({theme}) => ({
   //margin:'35px 0px 20px 0px',
   margin:'35px 15px!important',
   // textAlign:'center',
-  [theme.breakpoints.down('sm')]: {
-    height: '200px!important',
-    margin:'16px 8px!important',
-},
   [theme.breakpoints.down('md')]: {
     height: '350px',
     margin:'24px 12px!important',
+},
+  [theme.breakpoints.down('sm')]: {
+    height: '200px!important',
+    margin:'16px 8px!important',
 },
 }));
 const Img = styled("img")(({theme}) => ({

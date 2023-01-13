@@ -1,6 +1,7 @@
 import React from 'react'
 import { styled } from '@mui/styles'
 import { Box , useTheme} from '@mui/material'
+import { Link } from 'react-router-dom'
 
 const SliderContainer = styled(Box)({
 width:"100%",
@@ -42,7 +43,8 @@ const Image = styled("img")({
         margin:"4px"
     }
 })
-const Head = styled("h3")({
+const Head = styled("h3")(({theme}) => ({
+    // color: theme.colors.alpha.black[100],
     fontSize: "13px",
     fontWeight:"500",
     textAlign:"center",
@@ -57,16 +59,18 @@ const Head = styled("h3")({
         
 
      },
-})
+}))
 
 export default function Item({posterLinks}) {
     const theme = useTheme();
 
   return (
     <SliderContainer>
-        <ImageContainer sx={{"&:hover": {color:`${theme.header.background}`}}}>
-            <Image src={posterLinks.url} />
-            <Head>{posterLinks.text}</Head>
+        <ImageContainer>
+            <Link to={`/${posterLinks.href}`} style={{textDecoration:'none', color:`${theme.colors.alpha.black[100]}` ,"&:hover": {color:`${theme.header.background}`}}}>
+                <Image src={posterLinks.url} />
+                <Head>{posterLinks.text}</Head>
+            </Link>
         </ImageContainer>
        </SliderContainer>
   )

@@ -85,7 +85,7 @@ export default function Block1() {
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        // autoplay: true,
         speed: 500,
         autoplaySpeed: 2000,
         cssEase: "linear",
