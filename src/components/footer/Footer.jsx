@@ -1,5 +1,5 @@
 
-import { Facebook, Instagram, Mail, Twitter } from '@mui/icons-material';
+import { Facebook, FiberManualRecordTwoTone, Instagram, Mail, Twitter } from '@mui/icons-material';
 import { Box, Typography,styled, TextField, Button } from '@mui/material'
 import React from 'react'
 import "./footer.css"
@@ -38,7 +38,7 @@ const Sita = styled(Box)(({theme}) => ({
   display:'flex',
   justifyContent:'space-evenly',
   // backgroundColor:theme.colors.alpha.black[100],
-  height:'150px',
+  height:'100px',
   width:'100%',
   flexDirection:'row',
   // color:theme.colors.alpha.white[100],
@@ -56,39 +56,54 @@ const Footer = () => {
   return (
     <>
     <hr></hr>
-   
+    <Box sx={{display:'flex',flexDirection:{xs:'column',sm:'column',md:'row'},alignItems:'center',padding:{xs:'100px 30px 0px 30px',sm:'100px 50px',md:'70px'},justifyContent:'center',gap:{xs:'20px',sm:'40px',md:'100px'}}}>
+      <Box sx={{display:'flex',flexDirection:'column',alignItems:'center'}}>
+       <Typography sx={{fontSize:{xs:'20px',sm:'35px',md:'25px'},fontWeight:'700'}}>Call Us On:</Typography>
+       <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'30px'},fontWeight:'700'}}>+91-9876543210</Typography>
+       </Box>
+       <Box sx={{display:'flex',flexDirection:'column',alignItems:'center'}}>
+       <Typography sx={{fontSize:{xs:'20px',sm:'35px',md:'25px'},fontWeight:'700'}}>Open Hours:</Typography>
+       <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'30px'},fontWeight:'700'}}>08:00 am to 11:30 pm</Typography>
+       </Box>
+       <Box sx={{display:'flex',flexDirection:'column',alignItems:'center'}}>
+       <Typography sx={{fontSize:{xs:'20px',sm:'35px',md:'25px'},fontWeight:'700'}}>Mail Us:</Typography>
+       <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'30px'},fontWeight:'700'}}>info@example.com</Typography>
+       </Box>
+       </Box>
       <Ram >
-      
-        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'300px',sm:'350px',md:'400px'},display:'flex',flexDirection:'column',gap:'30px'}}>
-        <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'30px'},fontSize: {xs:'30px',sm:'40px',md:'20px'},fontWeight:'500',display:'flex',justifyContent:'center'}}>Opening Hours</Typography>
-       <Box sx={{display:'flex',justifyContent:'space-between'}}>
-        <Typography>Monday-Friday</Typography>
-        <Typography>08:00 am to 10:00 pm</Typography>
-       
-       </Box>
-         <hr></hr>
-         <Box sx={{display:'flex',justifyContent:'space-between'}}>
-        <Typography>Saturday</Typography>
-        <Typography>08:00 am to 10:00 pm</Typography>
-       
-       </Box>
-         <hr></hr>
-         <Box sx={{display:'flex',justifyContent:'space-between'}}>
-        <Typography>Sunday</Typography>
-        <Typography>08:00 am to 10:00 pm</Typography>
-       
-       </Box>
-         <hr></hr>
-        </Box>
-        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'300px',sm:'350px',md:'400px'},display:'flex',flexDirection:'column',gap:'30px'}}>
-        <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'30px'},fontSize: {xs:'30px',sm:'40px',md:'20px'},fontWeight:'500',display:'flex',justifyContent:'center'}}>Contact Us</Typography>
-       <Typography>56/8, los angeles, rochy beach, Santa monica, United states of america - 1205</Typography>
-        <Typography sx={{fontSize: {xs:'25px',sm:'25px',md:'25px'}}}>+91-9876543210</Typography>
-        <Typography sx={{fontSize: {xs:'25px',sm:'25px',md:'25px'}}}>+91-9876543210</Typography>
-        </Box>
-        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},width:{xs:'300px',sm:'350px',md:'400px'},display:'flex',flexDirection:'column',gap:'30px'}}>
         
-        <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'30px'},fontSize: {xs:'30px',sm:'40px',md:'20px'},fontWeight:'500',display:'flex',justifyContent:'center'}}>Newsletter</Typography>
+      
+        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'300px',sm:'350px',md:'300px'},display:'flex',flexDirection:'column',gap:'30px'}}>
+        <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'0px'},fontSize: {xs:'30px',sm:'40px',md:'40px'},fontWeight:'500',display:'flex'}}>Restaurent</Typography>
+       <Typography>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti optio dignissimos deserunt odio, nam saepe consectetur aut commodi mollitia. Illo at dicta dolor laboriosam eum a ab id natus eligendi voluptas veniam voluptatibus aperiam sit, blanditiis sed quidem exercitationem provident, mollitia sequi, illum odit laborum nulla? Labore eius cum velit!</Typography>
+       <Box sx={{fontSize:{xs:'12px',sm:'20px',md:'30px'},}}>
+          <Instagram sx={{fontSize: {xs:'30px',sm:'40px',md:'45px'} , padding:{xs:'5px',sm:'8px',md:'0px'}}} />
+          <Facebook sx={{fontSize: {xs:'30px',sm:'40px',md:'45px'} , padding:{xs:'5px',sm:'8px',md:'0px'}}}/>
+          <Twitter sx={{fontSize: {xs:'30px',sm:'40px',md:'45px'} , padding:{xs:'5px',sm:'8px',md:'0px'}}}/>
+          <Mail sx={{fontSize: {xs:'30px',sm:'40px',md:'45px'} , padding:{xs:'5px',sm:'8px',md:'0px'}}}/>
+        </Box>
+        </Box>
+        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'300px',sm:'350px',md:'250px'},display:'flex',flexDirection:'column',gap:'20px'}}>
+        <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'0px'},fontSize: {xs:'30px',sm:'40px',md:'25px'},fontWeight:'500',display:'flex'}}>Our Services</Typography>
+       
+        <Typography sx={{fontSize: {xs:'20px',sm:'25px',md:'20px'}}}> <FiberManualRecordTwoTone /> Fast Delievery</Typography>
+        <Typography sx={{fontSize: {xs:'20px',sm:'25px',md:'20px'}}}> <FiberManualRecordTwoTone /> Vegan Cuisine</Typography>
+        <Typography sx={{fontSize: {xs:'20px',sm:'25px',md:'20px'}}}> <FiberManualRecordTwoTone /> Fresh Products</Typography>
+        <Typography sx={{fontSize: {xs:'20px',sm:'25px',md:'20px'}}}> <FiberManualRecordTwoTone /> Skilled Chefs</Typography>
+        <Typography sx={{fontSize: {xs:'20px',sm:'25px',md:'20px'}}}> <FiberManualRecordTwoTone /> Great office</Typography>
+        </Box>
+        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'300px',sm:'350px',md:'250px'},display:'flex',flexDirection:'column',gap:'20px'}}>
+        <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'0px'},fontSize: {xs:'30px',sm:'40px',md:'25px'},fontWeight:'500',display:'flex'}}>Quick Links</Typography>
+       
+        <Typography sx={{fontSize: {xs:'20px',sm:'25px',md:'20px'}}}> <FiberManualRecordTwoTone /> About Us</Typography>
+        <Typography sx={{fontSize: {xs:'20px',sm:'25px',md:'20px'}}}> <FiberManualRecordTwoTone /> Testimonials</Typography>
+        <Typography sx={{fontSize: {xs:'20px',sm:'25px',md:'20px'}}}> <FiberManualRecordTwoTone /> Our Team</Typography>
+        <Typography sx={{fontSize: {xs:'20px',sm:'25px',md:'20px'}}}> <FiberManualRecordTwoTone /> Blog</Typography>
+        <Typography sx={{fontSize: {xs:'20px',sm:'25px',md:'20px'}}}> <FiberManualRecordTwoTone /> Contact Us</Typography>
+        </Box>
+        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},width:{xs:'300px',sm:'350px',md:'300px'},display:'flex',flexDirection:'column',gap:'20px'}}>
+        
+        <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'0px'},fontSize: {xs:'30px',sm:'40px',md:'25px'},fontWeight:'500',display:'flex',}}>Latest Posts</Typography>
        <Typography >You can trust us. we only send promo offers, not a single spam.</Typography>
        <Box>
       <Typography>Enter your mail*</Typography>
@@ -156,14 +171,9 @@ const Footer = () => {
           <Typography sx={{fontSize:{xs:'18px',sm:'20px',md:'20px'},fontWeight:'400'}}>Follow Us:</Typography>
         </Box> */}
         <Box>
-          <Typography>@2023My Restaurents</Typography>
+          <Typography>Copyright@2023My Restaurents</Typography>
         </Box>
-        <Box sx={{fontSize:{xs:'12px',sm:'20px',md:'30px'},}}>
-          <Instagram sx={{fontSize: {xs:'30px',sm:'40px',md:'45px'} , padding:{xs:'5px',sm:'8px',md:'10px'}}} />
-          <Facebook sx={{fontSize: {xs:'30px',sm:'40px',md:'45px'} , padding:{xs:'5px',sm:'8px',md:'10px'}}}/>
-          <Twitter sx={{fontSize: {xs:'30px',sm:'40px',md:'45px'} , padding:{xs:'5px',sm:'8px',md:'10px'}}}/>
-          <Mail sx={{fontSize: {xs:'30px',sm:'40px',md:'45px'} , padding:{xs:'5px',sm:'8px',md:'10px'}}}/>
-        </Box>
+     
         
       </Sita>
       </>

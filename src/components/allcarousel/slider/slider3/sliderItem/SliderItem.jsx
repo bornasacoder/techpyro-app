@@ -1,18 +1,26 @@
 import React from 'react'
 import { styled } from '@mui/styles'
+import { Box } from '@mui/system'
+import { Typography } from '@mui/material'
 
 const SliderContainer = styled("div")({
-width:"85%",
+width:"100%",
 height:"auto",
-
+backgroundImage: `url(${"/images/category/bgdimg8.jpeg"})`,
+backgroundSize:'cover',
+position:'static',
 
 })
 const ImageContainer = styled("div")({
+    width:'100%',
     display:"flex",
     alignItems:"center",
     justifyContent:"center",
     flexDirection:"column",
-    margin:"10px 20px"
+    margin:"10px 20px",
+    "@media (max-width: 480px)": {
+        width:'100%',
+        },
 
 })
 const Head = styled("h3")({
@@ -33,13 +41,13 @@ const Head = styled("h3")({
        },
 })
 const Image = styled("img")({
-    width:"250px",
-    height:"250px",
+    width:"300px",
+    height:"400px",
     objectFit:"cover",
     margin:"10px",
     '&:hover':{
         transform:[{scaleX:"5px"}],
-        backgroundColor:"white"
+        // backgroundColor:"white"
 
     },
     "@media (max-width: 960px)": {
@@ -58,8 +66,9 @@ const Image = styled("img")({
              
              },
              "@media (max-width: 480px)": {
-                 width:'60px',
-                 height:'90px',
+                 width:'100%',
+                 height:'400px',
+                 paddingRight:'30px'
                  
                  },
 })
@@ -81,6 +90,9 @@ const Image = styled("img")({
 // })
  const SliderItem = ({posterLinks}) => {
   return (
+    <>
+    
+       <Box>
        <SliderContainer>
         <ImageContainer>
             <Image src={posterLinks.image} />
@@ -88,6 +100,8 @@ const Image = styled("img")({
             
         </ImageContainer>
        </SliderContainer>
+       </Box>
+       </>
   )
 }
 

@@ -64,7 +64,7 @@ const MiniSlider = (props) => {
     arrows:true,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 2000,
@@ -82,42 +82,42 @@ const MiniSlider = (props) => {
             arrows:false,
           },
         },
-    //      {
-    //       breakpoint: 980,
-    //       settings: {
-    //         slidesToShow: 7,
-    //         slidesToScroll: 3,
-    //         speed: 300,
-    //         arrows:false,
-    //       },
-    //     },
-    //     {
-    //       breakpoint: 800,
-    //       settings: {
-    //         slidesToShow: 5,
-    //         slidesToScroll: 3,
-    //         speed: 300,
-    //         arrows:false,
-    //       },
-    //     },
-    //     {
-    //       breakpoint: 680,
-    //       settings: {
-    //         slidesToShow: 4,
-    //         slidesToScroll: 2,
-    //         speed: 300,
-    //         arrows:false,
-    //       },
-    //     },
-    //     {
-    //       breakpoint: 500,
-    //       settings: {
-    //         slidesToShow: 3,
-    //         slidesToScroll: 2,
-    //         speed: 300,
-    //         arrows:false,
-    //       },
-    //     },
+         {
+          breakpoint: 980,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            speed: 300,
+            arrows:false,
+          },
+        },
+        {
+          breakpoint: 800,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            speed: 300,
+            arrows:false,
+          },
+        },
+        {
+          breakpoint: 680,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            speed: 300,
+            arrows:false,
+          },
+        },
+        {
+          breakpoint: 500,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            speed: 300,
+            arrows:false,
+          },
+        },
      ]
   };
   return (

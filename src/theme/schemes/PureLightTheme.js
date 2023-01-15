@@ -252,7 +252,8 @@ export const PureLightTheme = createTheme({
     background: colors.alpha.white[100],
     background2: colors.alpha.white[10],
     boxShadow: colors.shadows.cardSm,
-    textColor: colors.alpha.black[100]
+    textColor: colors.alpha.black[100],
+    textColor2: colors.alpha.black[50]
   },
   spacing: 9,
   palette: {

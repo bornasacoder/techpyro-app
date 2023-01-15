@@ -20,7 +20,7 @@ import {
     
   } from "@mui/material";
 
-import { AccountCircle, Call, Help, LocationCityRounded, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  ShoppingBag, ShoppingCart} from '@mui/icons-material';
+import { AccountCircle, Call, Help, LocationCityRounded, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  Search,  ShoppingBag, ShoppingCart} from '@mui/icons-material';
 
 import MenuButtons from 'components/menuButtons/MenuButtons';
 
@@ -52,8 +52,8 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
               marginRight:'30px',
               justifyContent:'space-between'
           },
-        marginLeft:'150px',
-        marginRight:'150px',
+        // marginLeft:'150px',
+        // marginRight:'150px',
         color:theme.header.background,
     }));
     
@@ -82,7 +82,7 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
     const NavRight = styled(Box)(({theme}) => ({
        
         // flex:'3',
-        display: 'none',
+        display: 'flex',
          gap:'10px',
         // paddingRight:'30px',
         //    flexDirection:"column",
@@ -92,7 +92,7 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
             // },
             [theme.breakpoints.down('sm')]: {
                paddingRight:'0px',
-               display:'block',
+              //  display:'block',
                 
             },
             
@@ -149,7 +149,7 @@ const Downnav = styled(Box)(({ theme }) => ({
   // alignItems:'center',
   flexDirection:'column',
   backgroundColor:'transparent',
-  paddingLeft:'200px',
+  paddingLeft:'100px',
   [theme.breakpoints.down('sm')]: {
     paddingLeft:'10px',
      gap:'30px'
@@ -166,7 +166,7 @@ const NavBar = styled(AppBar)(({theme}) =>({
     // height:'750px',
     margin:"0",
     padding:'0',
-    zIndex:'0',
+    zIndex:'300',
   //   backgroundImage: `url(${"/images/category/bgdimg3.jpeg"})`,
   //  backgroundSize:'cover',
 position:'static'
@@ -193,18 +193,29 @@ export default function Navbar() {
       <NavBar >
         <Box sx={{position:{xs:'fixed',sm:'fixed',md:'fixed'},width:'100%',alignItems:'center',backgroundColor:`${theme.header.textColor}`,zIndex:'100',height:'70px',display:'flex'}}>
         <StyleToolbar  >
+        <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
+            <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'}}}>Restaurent</Typography>
+           </Box>
         <NavLeft >
-           
+           <Box>
+           <MenuButton onClick={handleOpen}>
+                <Menu color='black'sx={{display: {xs:'block',sm:'block',md:'none'}}}/>
+            </MenuButton>
+            <Drawer open={open} onClose={handleClose} sx={{position:'absolute'}}>
+                <MenuButtons/>
+            </Drawer>
+           </Box>
            
                 <Box  >
                   <List sx={{display:{xs:'none',sm:'none',md:'flex'},gap:'30px',fontSize:'30px'}}>
                   <ListItemText  primary={`HOME`}/>
                     <ListItemText primary={`ABOUT`}/>
-                    <ListItemText primary={`GALLERY`}/>
+                    <ListItemText primary={`PORTFOLIO`}/>
                     <ListItemText primary={`MENU`}/>
                     <ListItemText primary={`BLOG`}/>
                     <ListItemText primary={`PAGES`}/>
-                    <ListItemText primary={`CONTACT`}/>
+                    <ListItemText primary={`CONTACT US`}/>
+                    <Search />
                   </List>
                     {/* <Typography  component="div" sx={{fontSize: {xs:'25px',sm:'25px',md:'40px'},fontFamily:'revert-layer',color:`${theme.header.textColor}`}}>
                         Uber Eats
@@ -212,27 +223,36 @@ export default function Navbar() {
                     {/* <Typography component="div" sx={{fontSize:{md:'13px',xs:'10px'}, fontWeight:100}}>
                         Make a simple Bussiness
                     </Typography> */}
+                    
                 </Box>
                 {/* <SearchBar/> */}
                 {/* <Badge sx={{display:{sm:'block',md:'none'}, left:'48px'}}>
                     <ShoppingCart/>
                 </Badge> */}
                 {/* <NavButton/> */}
-                <Box>
-                <List sx={{display:{xs:'block',sm:'block',md:'none'},gap:'30px',fontSize:'30px'}}>
-                 
-                    <ListItemText primary={`MENU`}/>
-                    
-                  </List>
-                </Box>
+               
             </NavLeft >
+            <Box sx={{display:{xs:'block',sm:'block',md:'none'}}}>
+            <Typography sx={{fontSize:{xs:'30px',sm:'30px',md:'40px'}}}>Restaurent</Typography>
+           </Box>
             <NavRight > 
+              <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
             <MenuButton onClick={handleOpen}>
-                <Menu color='black'sx={{display: {xs:'block',sm:'block',md:'none'}}}/>
+                <Menu color='black'sx={{display: {xs:'block',sm:'block',md:'block'}}}/>
             </MenuButton>
             <Drawer open={open} onClose={handleClose} sx={{position:'absolute'}}>
                 <MenuButtons/>
             </Drawer>
+            <Button variant='contained' sx={{borderRadius:'0px'}}>BOOK A TABLE</Button>
+            </Box>
+
+            <Box>
+                <List sx={{display:{xs:'block',sm:'block',md:'none'},gap:'30px',fontSize:'30px'}}>
+                 
+                    <Search />
+                    
+                  </List>
+                </Box>
               {/* <Box sx={{display:'flex',paddingRight:'20px'}}>
               <Call sx={{fontSize:'30px'}}/>
               <Typography sx={{fontSize:'20px'}}>+91-9999999999</Typography>
@@ -248,17 +268,34 @@ export default function Navbar() {
         </Box>
         </NavBar>
         <Downnav>
-          <Box sx={{gap:'20px'}}>
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},color:`${theme.header.background}`}}>WIDE OPTIONS OF CHOICE</Typography>
+          <Box sx={{gap:'20px',display:{xs:'none',sm:'none',md:'block'}}}>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'70px'},color:`${theme.header.background}`,fontWeight:'700'}}>Good Food Made Easy</Typography>
           <Typography sx={{fontSize:{xs:'40px',sm:'40px',md:'50px'},fontWeight:'700',color:`${theme.header.background}`}}>
-            Delicious Recepies.
+            Are You Hungry?
             
           </Typography>
           <Box sx={{color:`${theme.header.background}`}}>inappropriate behavior is often laughed off as “boys will be boys,” women</Box>
           <Box sx={{color:`${theme.header.background}`}}>face higher conduct standards especially in the workplace. That’s why it’s</Box>
           <Box sx={{color:`${theme.header.background}`}}>crucial that, as women.</Box>
           <Box sx={{paddingTop:'30px'}}>
-          <Button variant='contained' sx={{borderRadius:'0'}}>CHECK OUR MENU</Button>
+          <Button variant='contained' sx={{borderRadius:'0'}}>LEARN  MORE</Button>
+          </Box>
+          </Box>
+          <Box sx={{gap:'20px',display:{xs:'flex',sm:'flex',md:'none'},flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
+        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'70px'},color:`${theme.header.background}`,fontWeight:'700'}}>Good Food Made Easy</Typography>
+          <Typography sx={{fontSize:{xs:'25px',sm:'40px',md:'50px'},fontWeight:'700',color:`${theme.header.background}`}}>
+            Are You Hungry?
+            
+          </Typography>
+          <Box>
+          <Box sx={{color:`${theme.header.background}`}}>inappropriate behavior is often laughed off as “boys will be </Box>
+          <Box sx={{color:`${theme.header.background}`}}>face higher conduct standards especially in the workplace. </Box>
+          <Box sx={{color:`${theme.header.background}`}}>inappropriate behavior is often laughed off as “boys will be </Box>
+          <Box sx={{color:`${theme.header.background}`}}>face higher conduct standards especially in the workplace. </Box>
+          <Box sx={{color:`${theme.header.background}`}}>crucial that, as women.</Box>
+          </Box>
+          <Box sx={{paddingTop:'30px'}}>
+          <Button variant='contained' sx={{borderRadius:'0'}}>LEARN  MORE</Button>
           </Box>
           </Box>
         </Downnav>
