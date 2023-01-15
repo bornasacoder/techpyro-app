@@ -133,7 +133,7 @@ export default function Block5(props) {
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <Header sliderH={props.websitesData[0].title.shortTitle}/>
+        <Header/>
         <Slider {...settings}>
         { props.websitesData.map((item)=>(
         <Item posterLinks={item} />

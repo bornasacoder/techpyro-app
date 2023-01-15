@@ -64,7 +64,7 @@ export default function Block3(props) {
     arrows:true,
     infinite: false,
     speed: 500,
-    slidesToShow: 4.5,
+    slidesToShow: 2.5,
     slidesToScroll: 3,
     autoplay: false,
     autoplaySpeed: 2000,
@@ -76,7 +76,7 @@ export default function Block3(props) {
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 4.5,
+            slidesToShow: 2.5,
             slidesToScroll: 3,
             speed: 300,
             arrows:false,
@@ -134,7 +134,7 @@ export default function Block3(props) {
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <Header sliderH={props.websitesData[0].title.shortTitle}/>
+        <Header/>
         <Slider {...settings}>
         { props.websitesData.map((item)=>(
         <Item posterLinks={item} />

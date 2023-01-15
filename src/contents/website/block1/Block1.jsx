@@ -59,7 +59,7 @@ const PreviousBtn = (props) =>{
     
   const {onClick} = props;
    return (
-         <div className='carousel1-Slick-prev'  onClick={onClick}>
+         <div className='carousel2-Slick-prev'  onClick={onClick}>
           <ChevronLeftIcon className='iconLeft' style={{color:'white',zIndex:'2',fontSize:'2rem'}}/>
          </div>  
    )
@@ -68,7 +68,7 @@ const PreviousBtn = (props) =>{
 const NextBtn = (props) =>{
    const {onClick} = props;
    return (
-     <div  className='carousel1-Slick-next'  onClick={onClick}>
+     <div  className='carousel2-Slick-next'  onClick={onClick}>
        <ChevronRightIcon className='iconRight' style={{color:'white',zIndex:'2',fontSize:'2rem'}} />
      </div>
    )
@@ -113,15 +113,16 @@ export default function Block1() {
     <>
     <Slider {...settings1}>
       <Item>
-        <Img src='/images/category/carousel/bg-1.png' />
+        <Img src='/images/category/website/bg-1.png
+        ' />
         <Head>upto 40% off</Head>
       </Item>
     <Item>
-      <Img src='/images/category/carousel/bg-2.png' />
+      <Img src='/images/category/website/bg-2.png' />
       <Head>upto 40% off</Head>
     </Item>
     <Item>
-      <Img src='/images/category/carousel/bg-3.png' />
+      <Img src='/images/category/website/bg-3.png' />
       <Head>upto 40% off</Head>
     </Item>
     <Item>

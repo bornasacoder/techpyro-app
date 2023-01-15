@@ -13,7 +13,7 @@ export const HotelProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://motopress.com/wp-content/uploads/2019/10/luviana-hotel-wordpress-theme.jpg",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -82,7 +82,7 @@ export const HotelProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://motopress.com/wp-content/uploads/2019/10/luviana-hotel-wordpress-theme.jpg",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -151,7 +151,7 @@ export const HotelProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://motopress.com/wp-content/uploads/2019/10/luviana-hotel-wordpress-theme.jpg",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -220,7 +220,7 @@ export const HotelProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://motopress.com/wp-content/uploads/2019/10/luviana-hotel-wordpress-theme.jpg",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -289,7 +289,7 @@ export const HotelProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://motopress.com/wp-content/uploads/2019/10/luviana-hotel-wordpress-theme.jpg",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -358,7 +358,7 @@ export const HotelProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://motopress.com/wp-content/uploads/2019/10/luviana-hotel-wordpress-theme.jpg",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -427,7 +427,7 @@ export const HotelProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://motopress.com/wp-content/uploads/2019/10/luviana-hotel-wordpress-theme.jpg",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -496,7 +496,7 @@ export const HotelProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://motopress.com/wp-content/uploads/2019/10/luviana-hotel-wordpress-theme.jpg",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -565,7 +565,7 @@ export const HotelProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://motopress.com/wp-content/uploads/2019/10/luviana-hotel-wordpress-theme.jpg",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -634,7 +634,7 @@ export const HotelProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://motopress.com/wp-content/uploads/2019/10/luviana-hotel-wordpress-theme.jpg",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -703,7 +703,7 @@ export const HotelProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://motopress.com/wp-content/uploads/2019/10/luviana-hotel-wordpress-theme.jpg",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -772,7 +772,7 @@ export const HotelProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://motopress.com/wp-content/uploads/2019/10/luviana-hotel-wordpress-theme.jpg",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -841,7 +841,7 @@ export const HotelProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://motopress.com/wp-content/uploads/2019/10/luviana-hotel-wordpress-theme.jpg",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -910,7 +910,7 @@ export const HotelProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://motopress.com/wp-content/uploads/2019/10/luviana-hotel-wordpress-theme.jpg",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -979,7 +979,7 @@ export const HotelProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://motopress.com/wp-content/uploads/2019/10/luviana-hotel-wordpress-theme.jpg",
         Details: {
             specifications: "very good product",
             speed: "very fast",

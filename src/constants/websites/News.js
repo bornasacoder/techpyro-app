@@ -13,7 +13,7 @@ export const NewsProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://i0.wp.com/themes.svn.wordpress.org/news-portal/1.3.3/screenshot.png?w=560&strip=all",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -83,7 +83,7 @@ export const NewsProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://i0.wp.com/themes.svn.wordpress.org/news-portal/1.3.3/screenshot.png?w=560&strip=all",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -152,7 +152,7 @@ export const NewsProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://i0.wp.com/themes.svn.wordpress.org/news-portal/1.3.3/screenshot.png?w=560&strip=all",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -221,7 +221,7 @@ export const NewsProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://i0.wp.com/themes.svn.wordpress.org/news-portal/1.3.3/screenshot.png?w=560&strip=all",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -290,7 +290,7 @@ export const NewsProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://i0.wp.com/themes.svn.wordpress.org/news-portal/1.3.3/screenshot.png?w=560&strip=all",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -359,7 +359,7 @@ export const NewsProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://i0.wp.com/themes.svn.wordpress.org/news-portal/1.3.3/screenshot.png?w=560&strip=all",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -428,7 +428,7 @@ export const NewsProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://i0.wp.com/themes.svn.wordpress.org/news-portal/1.3.3/screenshot.png?w=560&strip=all",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -497,7 +497,7 @@ export const NewsProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://i0.wp.com/themes.svn.wordpress.org/news-portal/1.3.3/screenshot.png?w=560&strip=all",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -566,7 +566,7 @@ export const NewsProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://i0.wp.com/themes.svn.wordpress.org/news-portal/1.3.3/screenshot.png?w=560&strip=all",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -635,7 +635,7 @@ export const NewsProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://i0.wp.com/themes.svn.wordpress.org/news-portal/1.3.3/screenshot.png?w=560&strip=all",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -704,7 +704,7 @@ export const NewsProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://i0.wp.com/themes.svn.wordpress.org/news-portal/1.3.3/screenshot.png?w=560&strip=all",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -773,7 +773,7 @@ export const NewsProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://i0.wp.com/themes.svn.wordpress.org/news-portal/1.3.3/screenshot.png?w=560&strip=all",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -842,7 +842,7 @@ export const NewsProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://i0.wp.com/themes.svn.wordpress.org/news-portal/1.3.3/screenshot.png?w=560&strip=all",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -911,7 +911,7 @@ export const NewsProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://i0.wp.com/themes.svn.wordpress.org/news-portal/1.3.3/screenshot.png?w=560&strip=all",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -980,7 +980,7 @@ export const NewsProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://i0.wp.com/themes.svn.wordpress.org/news-portal/1.3.3/screenshot.png?w=560&strip=all",
         Details: {
             specifications: "very good product",
             speed: "very fast",

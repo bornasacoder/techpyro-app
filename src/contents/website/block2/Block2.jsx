@@ -63,8 +63,8 @@ export default function Block2(props) {
         arrows:true,
         infinite: false,
         speed: 500,
-        slidesToShow: 4.5,
-        slidesToScroll: 3,
+        slidesToShow: 2.5,
+        slidesToScroll: 2,
         autoplay: false,
         autoplaySpeed: 2000,
         cssEase: "linear",
@@ -75,8 +75,8 @@ export default function Block2(props) {
             {
               breakpoint: 1200,
               settings: {
-                slidesToShow: 4.5,
-                slidesToScroll: 3,
+                slidesToShow: 2.5,
+                slidesToScroll: 2,
                 speed: 300,
                 arrows:false,
               },
@@ -84,8 +84,8 @@ export default function Block2(props) {
              {
               breakpoint: 960,
               settings: {
-                slidesToShow: 3.5,
-                slidesToScroll: 2,
+                slidesToShow: 1.5,
+                slidesToScroll: 1,
                 speed: 300,
                 arrows:false,
               },
@@ -93,8 +93,8 @@ export default function Block2(props) {
             {
               breakpoint: 800,
               settings: {
-                slidesToShow: 3.5,
-                slidesToScroll: 2,
+                slidesToShow: 1.5,
+                slidesToScroll: 1,
                 speed: 300,
                 arrows:false,
               },
@@ -102,7 +102,7 @@ export default function Block2(props) {
             {
               breakpoint: 600,
               settings: {
-                slidesToShow: 2.3,
+                slidesToShow: 1.3,
                 slidesToScroll: 1,
                 speed: 300,
                 arrows:false,
@@ -133,9 +133,9 @@ export default function Block2(props) {
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <Header sliderH={props.websitesData[0].title.shortTitle}/>
+        <Header/>
         <Slider {...settings}>
-        { props.websitesData.map((item)=>(
+        { props.websitesData.data.map((item)=>(
         <Item posterLinks={item} />
         ))}
         </Slider>

@@ -83,9 +83,9 @@ export default function Item({posterLinks}) {
   return (
     <SliderContainer>
         <ImageContainer sx={{borderRadius:'5px',}}>
-            <Image src={posterLinks.image} />
-            <Head>{posterLinks.category.type}</Head>
-            <Para>Rs {posterLinks.price.mrp}/-</Para>
+            <Image src={posterLinks.data.image} />
+            <Head>{posterLinks.data.category.type}</Head>
+            <Para>Rs {posterLinks.data.price.mrp}/-</Para>
         </ImageContainer>
     </SliderContainer>
   )

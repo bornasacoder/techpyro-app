@@ -14,11 +14,11 @@ const SliderHead = styled("div")({
   paddingLeft:'10px',
   })
 
-export default function Header(props) {
+export default function Header() {
   return (
     <Box>
       <SliderHead>  
-        <Head>{props.sliderH}</Head>
+        <Head>Restaurant</Head>
         <Button color="primary" variant="contained" endIcon={<East/>} size="small" sx={{margin:"10px 10px 0px 0"}} >View More  </Button>
       </SliderHead>
     </Box>

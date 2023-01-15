@@ -2,7 +2,7 @@ import React from 'react'
 import {navData} from '../../../constants/websites/PageHeader'
 import {EducationProducts} from '../../../constants/websites/Education'
 import {HotelProducts} from '../../../constants/websites/Hotel'
-import {RestaurantProducts} from '../../../constants/websites/Restaurant'
+import {RestaurantsProducts} from '../../../constants/websites/Restaurant'
 import {NewsProducts} from '../../../constants/websites/News'
 import {RealEstateProducts} from '../../../constants/websites/RealEstate'
 
@@ -29,20 +29,21 @@ import Block8 from '../../../contents/website/block8/Block8'
 import Block16 from '../../../contents/website/block16/Block16' 
 
 export default function Category() {
+  console.log(RestaurantsProducts);
   return (
     <div>
       <Navbar/>
       <PageHeader navData={navData}/>
       <Block1/>
       <Block2 key={EducationProducts} websitesData={EducationProducts}/>
-      <Block3 key={HotelProducts} websitesData={HotelProducts}/>
-      <Block4 /> 
+      {/* <Block3 key={HotelProducts} websitesData={HotelProducts}/> */}
+      <Block4 key={EducationProducts} websitesData={EducationProducts}/> 
       <Divider1/>
-      <Block5 key={RestaurantProducts} websitesData={RestaurantProducts}   /> 
+      {/* <Block5 key={RestaurantsProducts} websitesData={RestaurantsProducts}   /> 
       <Block6 key={NewsProducts} websitesData={NewsProducts}  />
       <Block7/>
       <Divider1/>
-      <Block8 key={RealEstateProducts} websitesData={RealEstateProducts} /> 
+      <Block8 key={RealEstateProducts} websitesData={RealEstateProducts} />  */}
       {/* <Block9 key={sliderData} sliderData={sliderData[0].logo}  />
       <Block10/>
       <Divider1/>

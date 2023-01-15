@@ -7,43 +7,43 @@ const SliderContainer = styled("div")({
     // height:"auto",
 })
 const ImageContainer = styled(Card)(({ theme }) => ({
-    width:'20vw',
-    height:'400px',
+    width:'37vw',
+    height:'350px',
     display:"flex",
     // alignItems:"center",
     justifyContent:'center',
     flexDirection:"column",
     margin:"10px 10px",
     "@media (max-width: 1200px)": {
-        width:"20vw",
-        height:"330px",
+        width:"36vw",
+        height:"300px",
     },
     [theme.breakpoints.down('md')]: {
-        width:"25vw",
-        height:"310px",
+        width:"60vw",
+        height:"300px",
     },
-    "@media (max-width: 780px)": {
-        width:"26vw",
-        height:"250px",
+    "@media (max-width: 800px)": {
+        width:"60vw",
+        height:"280px",
     },
     [theme.breakpoints.down('sm')]: {
-        width:"40vw",
-        height:"220px",
+        width:"70vw",
+        height:"200px",
     },
 
 }));
 const Image = styled("img")(({ theme }) => ({
    
     width:"100%",
-    height:"87%",
+    height:"85%",
     objectFit:"cover",
     [theme.breakpoints.down('md')]: {
         width:"100%",
-        height:"90%",
+        height:"85%",
     },
     [theme.breakpoints.down('sm')]: {
         width:"100%",
-        height:"95%",
+        height:"80%",
     },
     // [theme.breakpoints.down('xs')]: {
     //     width:"70px",
@@ -53,21 +53,23 @@ const Image = styled("img")(({ theme }) => ({
 const Head = styled("h3")({
     fontSize: "16px",
     fontWeight:"500",
-    paddingLeft:'15px',
-    paddingTop:'10px',
+    paddingLeft:'20px',
+    paddingTop:'5px',
     // textAlign:"center",
     marginBottom:"5px",
-    "@media (max-width: 600px)": {
-       fontSize: "10px",
-       },
     "@media (max-width: 980px)": {
+       fontSize: "14px",
+       paddingTop:'2px',
+       },
+    "@media (max-width: 600px)": {
        fontSize: "13px",
+       paddingTop:'2px',
        },
 })
 const Para = styled("p")({
     fontSize:"14px",
     fontWeight:"600",
-    paddingLeft:'15px',
+    paddingLeft:'20px',
     paddingBottom:'10px',
     "@media (max-width: 600px)": {
         fontSize: "10px",

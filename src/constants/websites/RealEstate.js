@@ -13,7 +13,7 @@ export const RealEstateProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0349G3F.png?v=2.0",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -85,7 +85,7 @@ export const RealEstateProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0349G3F.png?v=2.0",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -156,7 +156,7 @@ export const RealEstateProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0349G3F.png?v=2.0",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -226,7 +226,7 @@ export const RealEstateProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0349G3F.png?v=2.0",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -296,7 +296,7 @@ export const RealEstateProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0349G3F.png?v=2.0",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -365,7 +365,7 @@ export const RealEstateProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0349G3F.png?v=2.0",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -437,7 +437,7 @@ export const RealEstateProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0349G3F.png?v=2.0",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -506,7 +506,7 @@ export const RealEstateProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0349G3F.png?v=2.0",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -575,7 +575,7 @@ export const RealEstateProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0349G3F.png?v=2.0",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -644,7 +644,7 @@ export const RealEstateProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0349G3F.png?v=2.0",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -713,7 +713,7 @@ export const RealEstateProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0349G3F.png?v=2.0",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -782,7 +782,7 @@ export const RealEstateProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0349G3F.png?v=2.0",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -851,7 +851,7 @@ export const RealEstateProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0349G3F.png?v=2.0",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -920,7 +920,7 @@ export const RealEstateProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0349G3F.png?v=2.0",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -989,7 +989,7 @@ export const RealEstateProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0349G3F.png?v=2.0",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -1058,7 +1058,7 @@ export const RealEstateProducts = [
             type: ""
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0349G3F.png?v=2.0",
         Details: {
             specifications: "very good product",
             speed: "very fast",

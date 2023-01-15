@@ -1,5 +1,5 @@
-.carousel1-Slick-prev,
-.carousel1-Slick-next{
+.carousel2-Slick-prev,
+.carousel2-Slick-next{
     font-size: 0;
     line-height: 0;
     position: absolute;
@@ -23,12 +23,12 @@
     flex-direction: row;
     /* display: none; */
 }
-.carousel1-Slick-prev{
+.carousel2-Slick-prev{
     /* margin: 68px 0 0 62px; */
     left: 6vw;
     
 }
-.carousel1-Slick-next{
+.carousel2-Slick-next{
     /* margin: 68px 62px 0 0; */
     right: 6vw;
 }
@@ -40,18 +40,18 @@
 }
 
 @media (max-width: 1265px) {
-    .carousel1-Slick-prev{
+    .carousel2-Slick-prev{
         left: 7.5vw;
     }
-    .carousel1-Slick-next{
+    .carousel2-Slick-next{
         right: 7vw;
     }
 }
 @media (max-width: 1000px) {
-    .carousel1-Slick-prev{
+    .carousel2-Slick-prev{
         left: 10.5vw;
     }
-    .carousel1-Slick-next{
+    .carousel2-Slick-next{
         right: 9vw;
     }
 }
