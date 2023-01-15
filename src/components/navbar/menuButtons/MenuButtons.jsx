@@ -11,82 +11,50 @@ import {
     Typography,
     Menu,
   } from "@mui/material";
-  const options = [
-    'None',
-    'Atria',
-    'Callisto',
-    'Dione',
-    'Ganymede',
-    'Hangouts Call',
-    'Luna',
-    'Oberon',
-    'Phobos',
-    'Pyxis',
-    'Sedna',
-    'Titania',
-    'Triton',
-    'Umbriel',
-  ];
   
-  const ITEM_HEIGHT = 48;
-export default function MenuButtons() {
-  const [anchorEl, setAnchorEl] = React.useState(null);
-  const open = Boolean(anchorEl);
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
-  return (
-  <Box>
+  // const StyleToolbar = styled(List)(({ theme }) => ({
+  //   // width: 19%;
+  //  //  height: '64px',
+  //   display: 'none',
+  //   [theme.breakpoints.down("md")]: {
+  //     display: "block",
+  //     // right: "70px",
+  //     // left:'70px',
+  //   },
+  //  //  fontFamily: "Dancing Script",
+  //  //  color:"white"
+  //  //  zIndex:1,
+  //   // position:sticky;
    
-  <Menu
-    id="long-menu"
-    MenuListProps={{
-      'aria-labelledby': 'long-button',
-    }}
-    anchorEl={anchorEl}
-    open={open}
-    onClose={handleClose}
-    PaperProps={{
-      style: {
-        maxHeight: ITEM_HEIGHT * 4.5,
-        width: '20ch',
-      },
-    }}
-  >
-    {options.map((option) => (
-      <MenuItem key={option} selected={option === 'Pyxis'} onClick={handleClose}>
-        {option}
-      </MenuItem>
-    ))}
-  </Menu>
-  </Box>
-  
-    // <List component="nav" aria-label="mailbox folders" sx={{margin:'10px',width:'19%',}}>
-    //   <ListItem button>
-    //     <ListItemText primary="Product" />
-    //   </ListItem>
-    //   <Divider />
-    //   <ListItem button>
-    //     <ListItemText primary="Company" />
-    //   </ListItem>
-    //   <Divider />
-    //   <ListItem button>
-    //     <ListItemText primary="Support" />
-    //   </ListItem>
-    //   <Divider />
-    //   <ListItem button divider>
-    //     <ListItemText primary="Resources" />
-    //   </ListItem>
-    //   <ListItem button>
-    //     <ListItemText primary="Log in" />
-    //   </ListItem>
-    //   <Divider light />
-    //   <ListItem button>
-    //     <ListItemText primary="Sign up" />
-    //   </ListItem>
-    // </List>
+  //    // zIndex: "0",
+  //  }));
+ 
+export default function MenuButtons(props) {
+  return (
+    <List component="nav" aria-label="mailbox folders" sx={{margin:'10px',width:'30%'}}>
+      <ListItem button>
+        <ListItemText primary="Product" />
+      </ListItem>
+      <Divider />
+      <ListItem button>
+        <ListItemText primary="Company" />
+      </ListItem>
+      <Divider />
+      <ListItem button>
+        <ListItemText primary="Support" />
+      </ListItem>
+      <Divider />
+      <ListItem button divider>
+        <ListItemText primary="Resources" />
+      </ListItem>
+      <ListItem button>
+        <ListItemText primary="Login" />
+      </ListItem>
+      <Divider light />
+      <ListItem button>
+        <ListItemText primary="Signup" />
+      </ListItem>
+    </List>
+   
   )
 }

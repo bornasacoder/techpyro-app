@@ -3,7 +3,15 @@ import { Box, Grid, Menu, Paper, styled, Typography } from "@mui/material";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   // bgcolor: "#FFFFFF!important",
-  padding: "68px 42px ",
+  padding: "68px 68px ",
+  [theme.breakpoints.down("sm")]: {
+  padding: "68px 30px ",
+        
+      },
+  [theme.breakpoints.down("md")]: {
+  padding: "68px 20px ",
+        
+      },
   // display: "flex",
   // justifyContent:"space-between",
   gap: 2,
@@ -27,26 +35,33 @@ const Item = styled(Paper)(({ theme }) => ({
 }));
 export default function Content2() {
   return (
-    <StyleToolbar>
+    <StyleToolbar  >
       <Box
         display="flex"
         justifyContent="center"
         alignItems="center"
-        sx={{ padding: "36px 0px 28px" }}
+        sx={{ padding: "36px 0px 28px",gap:"10px" }}
       >
         <Typography
-          variant="h1"
           sx={{
-            margin: "0px 0px 26px",
             letterSpacing: "4px",
-            fontSize: "48px",
             textAlign: "center",
-            fontSize: { md: "48px", sm: "35px", xs: "30px" },
-            fontWeight:'600',
-            width:{md:"60%",sm:"80%",xs:"100%"}
+            fontFamily: "Dancing Script",
+            fontSize: { md: "58px", sm: "50px", xs: "28px" },
+            fontWeight: "500",
+            color:"red"
           }}
         >
-          WHY CHOOSE CINNAMON THEME
+      Special 
+        </Typography>
+        <Typography sx={{
+            letterSpacing: "4px",
+            textAlign: "center",
+            fontFamily: "Dancing Script",
+            fontSize: { md: "58px", sm: "50px", xs: "28px" },
+            fontWeight: "500",
+          }}>
+         Offers
         </Typography>
       </Box>
       <Box
@@ -70,57 +85,59 @@ export default function Content2() {
           columnSpacing={{ xs: 1, sm: 2, md: 3 }}
           //   xs={{xs:12,sm:6,md:4}}
         >
-          <Grid item xs={12} sm={4} md={3}>
+          <Grid item xs={12} sm={4} md={4} data-aos="zoom-in">
             <Item
               sx={{
-                 
-            
+                display:'flex',
+                justifyContent:'flex-end',
+                alignItems:'center',
+                fontSize:'20px',
+                color:'white',
+                fontWeight:'600',
+                background: `url(${"/images/category/offer-image1.jpg"})
+   center/cover no-repeat`,  
+            height:'320px',
+            // width:'350px'
               }}
             >
-              <MenuBook sx={{fontSize:"60px"}}/>
-              FOOD MENUS
+              SANDWITCH
             </Item>
-            <Item>Varieties of Food Menus</Item>
           </Grid>
-          <Grid item xs={12} sm={4} md={3}>
+          <Grid item xs={12} sm={4} md={4} data-aos="zoom-in">
             <Item
               sx={{
-                 
-            
-                
+                display:'flex',
+                justifyContent:'flex-end',
+                alignItems:'center',
+                fontSize:'20px',
+                color:'white',
+                fontWeight:'600',
+                background: `url(${"/images/category/offer-image2.jpg"})
+                center/cover no-repeat`,  
+                         height:'320px',
               }}
               >
-              <OpenInFullOutlined sx={{fontSize:"60px"}}/>
-              FOOD VARIATION
+              TOMATO SOUP
             </Item>
-            <Item>Add food item variations</Item>
           </Grid>
-          <Grid item xs={12} sm={4} md={3}>
+          <Grid item xs={12} sm={4} md={4} data-aos="zoom-in">
             <Item
               sx={{
-                 
-            
-                
+                display:'flex',
+                justifyContent:'flex-end',
+                alignItems:'center',
+                fontSize:'20px',
+                color:'white',
+                fontWeight:'600',
+                background: `url(${"/images/category/offer-image3.jpg"})
+                center/cover no-repeat`,  
+                         height:'320px',
               }}
               >
-              <RemoveRedEyeOutlined sx={{fontSize:"60px"}}/>
-              EVENTS
+              ICE CREAM
             </Item>
-            <Item>Events management Built-in to theme.</Item>
           </Grid>
-          <Grid item xs={12} sm={4} md={3}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <EmojiEventsOutlined sx={{fontSize:"60px"}}/>
-              ON / OFF FOOD ITEMS
-            </Item>
-            <Item>Easily enable and disable food items without deleting them.</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={3}>
+          {/* <Grid item xs={12} sm={4} md={4}>
             <Item
               sx={{
                  
@@ -132,7 +149,7 @@ export default function Content2() {
             </Item>
             <Item>Powerful Food Galleries</Item>
           </Grid>
-          <Grid item xs={12} sm={4} md={3}>
+          <Grid item xs={12} sm={4} md={4}>
             <Item
               sx={{
                  
@@ -144,7 +161,7 @@ export default function Content2() {
             </Item>
             <Item>4 Header styles with combination of displaying social header.</Item>
           </Grid>
-          <Grid item xs={12} sm={4} md={3}>
+          <Grid item xs={12} sm={4} md={4}>
             <Item
               sx={{
                  
@@ -156,7 +173,7 @@ export default function Content2() {
             </Item>
             <Item>Easily build photo galleries saving precious time.</Item>
           </Grid>
-          <Grid item xs={12} sm={4} md={3}>
+          <Grid item xs={12} sm={4} md={4}>
             <Item
               sx={{
                  
@@ -168,7 +185,7 @@ export default function Content2() {
             </Item>
             <Item>WooCommerce to build a delivery shop easily.</Item>
           </Grid>
-          <Grid item xs={12} sm={4} md={3}>
+          <Grid item xs={12} sm={4} md={4}>
             <Item
               sx={{
                  
@@ -180,7 +197,7 @@ export default function Content2() {
             </Item>
             <Item>Use popular plugin WPML to translate the site to multiple languages</Item>
           </Grid>
-          <Grid item xs={12} sm={4} md={3}>
+          <Grid item xs={12} sm={4} md={4}>
             <Item
               sx={{
                  
@@ -193,7 +210,7 @@ export default function Content2() {
             <Item>After sales Support to ensure the your site works 100% through our Support Forum</Item>
           </Grid>
          
-          <Grid item xs={12} sm={4} md={3}>
+          <Grid item xs={12} sm={4} md={4}>
             <Item
               sx={{
                  
@@ -205,7 +222,7 @@ export default function Content2() {
             </Item>
             <Item>Bulk image uploading and management</Item>
           </Grid>
-          <Grid item xs={12} sm={4} md={3}>
+          <Grid item xs={12} sm={4} md={4}>
             <Item
               sx={{
                  
@@ -217,7 +234,7 @@ export default function Content2() {
             </Item>
             <Item>Our Pagebuilder closely works with the theme making it lightweight and easy to build.</Item>
           </Grid>
-          <Grid item xs={12} sm={4} md={3}>
+          <Grid item xs={12} sm={4} md={4}>
             <Item
               sx={{
                  
@@ -229,7 +246,7 @@ export default function Content2() {
             </Item>
             <Item>Packed with Premium plugins</Item>
           </Grid>
-          <Grid item xs={12} sm={4} md={3}>
+          <Grid item xs={12} sm={4} md={4}>
             <Item
               sx={{
                  
@@ -241,7 +258,7 @@ export default function Content2() {
             </Item>
             <Item>Fully responsive lightbox with zoom functionality. Even works on mobiles.</Item>
           </Grid>
-          <Grid item xs={12} sm={4} md={3}>
+          <Grid item xs={12} sm={4} md={4}>
             <Item
               sx={{
                  
@@ -253,7 +270,7 @@ export default function Content2() {
             </Item>
             <Item>Easily change currency symbols via theme options</Item>
           </Grid>
-          <Grid item xs={12} sm={4} md={3}>
+          <Grid item xs={12} sm={4} md={4}>
             <Item
               sx={{
                  
@@ -266,7 +283,7 @@ export default function Content2() {
               MANY MORE FEATURES INCLUDED
             </Item>
             <Item>View our demo to see the many features and varieties of grids and galleries it supports.</Item>
-          </Grid>
+          </Grid> */}
          
         
         </Grid>

@@ -1,78 +1,176 @@
 import {
   ArrowForwardIosOutlined,
+  Liquor,
   LocalFlorist,
+  Photo,
+  Restaurant,
   Send,
 } from "@mui/icons-material";
-import { Box, Button, styled, Typography } from "@mui/material";
+import { Box, Button, Grid, Paper, styled, Typography } from "@mui/material";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   padding: "68px 42px ",
-  background: `url(${"/images/category/middle1.jpg"})
-  center/cover no-repeat `,
+  display: "flex",
+  [theme.breakpoints.down("sm")]: {
+    flexDirection:'column'
+  },
+  [theme.breakpoints.down("md")]: {
+    flexDirection:'column'
+  },
+  // background: `url(${"/images/category/middle1.jpg"})
+  // center/cover no-repeat `,
   // position:"relative",
 
   zIndex: "0",
 }));
+const Item = styled(Paper)(({ theme }) => ({
+  borderRadius: "0px!important",
+  boxShadow: "none!important",
+  // textAlign: "center",
+  // bgcolor:"none!important",
+  backgroundColor: "#F4F4F4!important",
+    padding:"18px 0px!important",
+  fontSize: "18px",
+  // fontWeight:"400px"
+  // "&:hover": {
+  //   opacity: "0.3",
+  //   bgcolor: "black",
+  // },
+  // width:{md:"60%!important",sm:"80%!important",xs:"100%!important"}
+  //   [theme.breakpoints.down("sm")]: {
+  //     width: "150px",
+  //   },
+}));
 export default function MiddleContent() {
   return (
     <StyleToolbar>
+      
+      <Box
+        sx={{
+          width:{md:'30%',sm:"100%",xs:"100%"},
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          bgcolor: "#F4F4F4!important",
+          borderRight:{md:"10px solid gray",sm:"none",xs:"none"}
+        }}
+      >
+        <Grid
+          container
+          rowSpacing={4}
+          sx={{
+            bgcolor: "#F4F4F4",
+            // justifyContent: "space-between",
+            display: "flex",
+            alignItems: "center",
+          }}
+          columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+          //   xs={{xs:12,sm:6,md:4}}
+        >
+          <Grid item xs={12} sm={12} md={12}>
+            <Box display="flex" >
+              <Item>
+                <Restaurant sx={{ fontSize: "75px" }} />
+              </Item>
+              <br/>
+              <Box display="flex" flexDirection="column" data-aos="fade-down">
+              <Item> <Typography variant="h1"  fontSize="18px"> OUR SERVICES</Typography> </Item>
+                <Typography>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </Typography>
+              </Box>
+            </Box>
+          </Grid>
+          <Grid item xs={12} sm={12} md={12}>
+            <Box display="flex" >
+              <Item>
+                <Liquor sx={{ fontSize: "75px" }} />
+                <br/>
+              </Item>
+              <Box display="flex" flexDirection="column">
+              <Item><Typography variant="h1"  fontSize="18px"> OUR SERVICES 1</Typography></Item>
+                <Typography>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </Typography>
+              </Box>
+            </Box>
+          </Grid>
+          <Grid item xs={12} sm={12} md={12}>
+            <Box display="flex" >
+              <Item>
+                <Photo sx={{ fontSize: "75px" }} />
+              </Item>
+              <br/>
+              <Box display="flex" flexDirection="column" data-aos="fade-up">
+              <Item><Typography variant="h1" fontSize="18px"> OUR SERVICES 2</Typography></Item>
+                <Typography>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </Typography>
+              </Box>
+            </Box>
+          </Grid>
+        </Grid>
+      </Box>
+      
       <Box
         sx={{
           display: "flex",
+          justifyContent: "flex-start",
+          flex: "2",
+          // alignItems: "center",
           flexDirection: "column",
-          justifyContent: "center",
-          color: "#000",
-          gap: 1,
-          alignItems: { md: "center", sm: "flex-start", xs: "flex-start" },
+          paddingLeft:'10px',
+          // gap: 2,
+          // position: "relative",
+          // flexDirection: { xs: "column", md: "row", sm: "row" },
+          // paddingLeft: { xs: "0px" },
         }}
-      >
+      data-aos="zoom-in">
         <Typography
-          variant="div"
-          sx={{
-            fontWeight: 600,
-            marginTop: "60px",
-            fontSize: { md: "48px", sm: "35px", xs: "30px" },
-            fontWeight:'600',
-            textAlign:"center",
-            letterSpacing: "4px",
-            // justifyContent: { sm: "center", xs: "center" },
-            padding: "32px 0px 28px"
-            ,width:{md:"60%",sm:"80%",xs:"100%"}
-          }}
+          sx={{ fontFamily: "Dancing Script", color: "red", fontSize: "48px" }}
         >
-          WELCOME TO CINNAMON DEMOS
+          Why choose us?
         </Typography>
-        <Box sx={{ display:"flex",justifyContent:"center",width:{md:"40%",sm:"80%",xs:"100%"}}}>
-        <Typography
-          variant="div"
-          sx={{
-            // padding: "0px 270px",
-            fontFamily: "sans-serif",
-            fontSize: "20px",
-            color:"#6C7880",
-            textAlign:"center"
-            // color:"#fff"
-          }}
-        >
-          Cinnamon Restaurant Theme is a responsive multipurpose restaurant
-          WordPress theme which is designed for all types of food business
-          related websites.
+        <Typography sx={{ fontFamily: "Dancing Script", fontSize: "68px" }}>
+          For many reasons
         </Typography>
-        </Box>
-        </Box>
-
-        <Box
-          sx={{
-            display: "flex",
-            justifyContent: "flex-start",
-            alignItems: "center",
-            gap: 2,
-            position: "relative",
-            flexDirection: { xs: "column", md: "row", sm: "row" },
-            paddingLeft: { xs: "0px" },
-          }}
+        <Typography sx={{}}>
+          Proin scelerisque felis quam, a venenatis magna vestibulum at.
+          Praesent sollicitudin nibh diam, eget commodo tellus tempor egestas.
+          Ut sed tincidunt purus. Aliquam accumsan ipsum dolor, tincidunt
+          hendrerit nunc maximus et. Sed condimentum iaculis semper. Proin
+          semper tellus in neque ultrices convallis. Mauris feugiat quam sit
+          amet turpis aliquet. Integer et neque accumsan, consectetur tincidunt
+          hendrerit nunc maximus et urna in, commodo massa non venenatis dolor
+          volutpat. Suspendisse hendrerit lobortis sapien, in finibus lacus
+          ullamcorper vel.
+        </Typography>
+        <br />
+        <Typography sx={{}}>
+          Donec non ligula vitae libero malesuada fermentum. Phasellus non
+          tempus augue. Duis sodales turpis ac aliquam varius. Nullam pharetra
+          ante tempor erat aliquet Integer et neque accumsan, consectetur urna
+          in, commodo massa.
+        </Typography>
+        <br />
+        <Box display="flex">
+          <Button
+            sx={{
+              // border: "3px solid #000",
+              background: "red",
+              color: "white",
+              borderRadius: "0px",
+              "&:hover": {
+                backgroundColor: "#000",
+                color: "#ffffff",
+              },
+              // display: { md: "block", sm: "none", xs: "none" },
+            }}
           >
-          {/* <Button
+            READ MORE
+          </Button>
+        </Box>
+        {/* <Button
               variant="contained"
               endIcon={<ArrowForwardIosOutlined />}
               sx={{
@@ -85,9 +183,9 @@ export default function MiddleContent() {
             >
               Start free trial
             </Button> */}
-          {/* <ArrowForwardIosOutlined sx={{position:'absolute'}}/> */}
+        {/* <ArrowForwardIosOutlined sx={{position:'absolute'}}/> */}
 
-          {/* <Button
+        {/* <Button
               variant="contained"
               endIcon={<Send />}
               sx={{
@@ -100,7 +198,7 @@ export default function MiddleContent() {
             >
               Contact sales
             </Button> */}
-        </Box>
+      </Box>
 
       {/* <Box
         sx={{
@@ -117,13 +215,13 @@ export default function MiddleContent() {
         <LocalFlorist />
         <LocalFlorist />
       </Box> */}
-      <Box
+      {/* <Box
         sx={{
           display: "flex",
           color: "#666666",
           padding: { sm: "0px 25px", md: "0px 270px", xs: "0px 25px" },
         }}
-      ></Box>
+      ></Box> */}
       {/* <Box
         sx={{
           display: "flex",
