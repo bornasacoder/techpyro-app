@@ -1,10 +1,10 @@
 import React from 'react'
 import {navData} from '../../../constants/websites/PageHeader'
 import {EducationProducts} from '../../../constants/websites/Education'
-import {HotelProducts} from '../../../constants/websites/Hotel'
+// import {HotelProducts} from '../../../constants/websites/Hotel'
 import {RestaurantsProducts} from '../../../constants/websites/Restaurant'
-import {NewsProducts} from '../../../constants/websites/News'
-import {RealEstateProducts} from '../../../constants/websites/RealEstate'
+// import {NewsProducts} from '../../../constants/websites/News'
+// import {RealEstateProducts} from '../../../constants/websites/RealEstate'
 
 import Content from '../../../components/content/Content'
 import Navbar from '../../../layout/mainLayout/navbar/Navbar'
@@ -13,12 +13,12 @@ import Divider1 from '../../../contents/website/divider1/Divider1'
 import PageHeader from '../../../contents/website/pageHeader/PageHeader' 
 import Block1 from '../../../contents/website/block1/Block1' 
 import Block2 from '../../../contents/website/block2/Block2' 
-import Block3 from '../../../contents/website/block3/Block3' 
+// import Block3 from '../../../contents/website/block3/Block3' 
 import Block4 from '../../../contents/website/block4/Block4' 
 import Block5 from '../../../contents/website/block5/Block5' 
-import Block6 from '../../../contents/website/block6/Block6' 
-import Block7 from '../../../contents/website/block7/Block7' 
-import Block8 from '../../../contents/website/block8/Block8' 
+// import Block6 from '../../../contents/website/block6/Block6' 
+// import Block7 from '../../../contents/website/block7/Block7' 
+// import Block8 from '../../../contents/website/block8/Block8' 
 // import Block9 from '../../../contents/website/block9/Block9' 
 // import Block10 from '../../../contents/website/block10/Block10' 
 // import Block11 from '../../../contents/website/block11/Block11' 
@@ -32,15 +32,15 @@ export default function Category() {
   console.log(RestaurantsProducts);
   return (
     <div>
-      <Navbar/>
+      <Navbar menu={'none'} arrow={'block'} logo={'Website'}/>
       <PageHeader navData={navData}/>
       <Block1/>
       <Block2 key={EducationProducts} websitesData={EducationProducts}/>
       {/* <Block3 key={HotelProducts} websitesData={HotelProducts}/> */}
       <Block4 key={EducationProducts} websitesData={EducationProducts}/> 
       <Divider1/>
-      {/* <Block5 key={RestaurantsProducts} websitesData={RestaurantsProducts}   /> 
-      <Block6 key={NewsProducts} websitesData={NewsProducts}  />
+      <Block5 key={RestaurantsProducts} websitesData={RestaurantsProducts}   /> 
+      {/* <Block6 key={NewsProducts} websitesData={NewsProducts}  />
       <Block7/>
       <Divider1/>
       <Block8 key={RealEstateProducts} websitesData={RealEstateProducts} />  */}

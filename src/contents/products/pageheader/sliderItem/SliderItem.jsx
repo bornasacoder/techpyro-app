@@ -1,7 +1,6 @@
 import React from 'react'
 import { styled } from '@mui/styles'
 import { Box , useTheme} from '@mui/material'
-import { Link } from 'react-router-dom'
 
 const SliderContainer = styled(Box)({
 width:"100%",
@@ -59,18 +58,25 @@ const Head = styled("h3")({
 
      },
 })
+// const Para = styled("p")({
+//     fontSize:"14px",
+//     fontWeight:"600",
+//     "@media (max-width: 600px)": {
+//         fontSize: "12px",
+//         },
+// })
+ const SliderItem = ({posterLinks}) => {
 
-export default function Item({posterLinks}) {
     const theme = useTheme();
 
   return (
-    <SliderContainer>
-        <ImageContainer>
-            <Link to='/products' style={{textDecoration:'none', color:`${theme.colors.alpha.black[100]}` ,"&:hover": {color:`${theme.header.background}`}}}>
-                <Image src={posterLinks.url} />
-                <Head>{posterLinks.text}</Head>
-            </Link>
+       <SliderContainer>
+        <ImageContainer sx={{"&:hover": {color:`${theme.header.background}`}}}>
+            <Image src={posterLinks.url} />
+            <Head>{posterLinks.text}</Head>
         </ImageContainer>
        </SliderContainer>
   )
 }
+
+export default SliderItem

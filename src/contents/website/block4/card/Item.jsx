@@ -1,5 +1,42 @@
-import { Box, Card, Typography,useTheme } from '@mui/material'
+import { Box, Card, styled, Typography,useTheme } from '@mui/material'
 import React from 'react'
+
+const Buttons1 = styled("a")(({theme})=>({
+  marginTop:"10px",
+  width: "120px",
+  height:"40px",
+  color:"white",
+  fontSize:"15px",
+  border:"1px solid #087096",
+  background:'#181717',
+  borderRadius:"2px",
+  textDecoration:"none",
+  display:"flex",
+  justifyContent:"center",
+  alignItems:"center",
+
+  "&:hover":{
+    transition:"all 0.2s linear",
+    color:"white",
+    background:"#087096"
+  },
+  [theme.breakpoints.down('lg')]: {
+    width:"100px",
+    height:"40px",
+    fontSize:"14px"
+  },
+  [theme.breakpoints.down('md')]: {
+    width:"80px",
+    height:"35px",
+    fontSize:"13px"
+  },
+  [theme.breakpoints.down('sm')]: {
+    width:"80px",
+    height:"35px",
+    fontSize:"14px",
+    marginTop:'5px',
+  },
+})) 
 
 export default function Item({CardLinks}) {
   const theme = useTheme();
@@ -7,11 +44,14 @@ export default function Item({CardLinks}) {
   return (
     <Card sx={{height:{sm:'400px',xs:'200px',boxShadow:'none',position:'relative'}}}>
       <Box sx={{height:'100%'}}>
-        <img style={{height:'100%',width:'100%'}} src={'/images/12.png'} alt="card"/>
+        <img style={{height:'100%',width:'100%'}} src={CardLinks.image} alt="card"/>
       </Box>
-      <Box sx={{position:'absolute' ,left:'10%',right:0,top:'70%',color:`${theme.colors.alpha.white[100]}`}}>
-          <Typography sx={{fontSize:{md:'40px',sm:'35px',xs:'20px'}, fontWeight: 500, }}>{CardLinks.title}</Typography>
-          <Typography sx={{fontSize:{md:'30px',sm:'25px',xs:'18px'}, fontWeight: 300,}}>{CardLinks.offer}</Typography>
+      <Box sx={{position:'absolute' ,left:'7%',right:0,top:'35%',color:`${theme.colors.alpha.white[100]}`}}>
+          <Typography sx={{fontSize:{md:'40px',sm:'35px',xs:'23px'}, fontWeight: 500,fontFamily:'cursive'}}>{CardLinks.title}</Typography>
+          <Typography sx={{fontSize:{md:'30px',sm:'25px',xs:'18px'}, fontWeight: 400,}}>{CardLinks.offer}</Typography>
+          <Buttons1 target="_blank"  variant="outlined" >
+                    Shop Now
+          </Buttons1>
       </Box>
     </Card>
   )

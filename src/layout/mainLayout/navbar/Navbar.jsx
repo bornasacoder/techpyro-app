@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import { useNavigate } from 'react-router-dom';
 import SearchBar from './searchbar/SearchBar'
 import NavButton from './navButton/NavButton'
 import {
@@ -15,6 +16,7 @@ import {
 
 import { ShoppingCart, Menu,} from '@mui/icons-material';
 import PhoneIcon from '@mui/icons-material/Phone';
+import WestIcon from '@mui/icons-material/West';
 import Siderbar from '../sideBar/Siderbar';
 
   const StyleToolbar = styled(Toolbar)(({theme}) => ({
@@ -73,10 +75,8 @@ import Siderbar from '../sideBar/Siderbar';
   }));
 
   const MenuButton = styled(IconButton)(({ theme }) => ({
-    display: 'none',
     color: theme.colors.alpha.white[100],
     [theme.breakpoints.down('md')]: {
-        display: 'block',
         right:'12px'
     }
 }));
@@ -88,7 +88,8 @@ import Siderbar from '../sideBar/Siderbar';
 
 
 
-export default function Navbar() {
+export default function Navbar(props) {
+
     const [open, setOpen] = useState(false);
     const handleOpen = ()=>{
         setOpen(true);
@@ -97,12 +98,17 @@ export default function Navbar() {
     const handleClose = ()=>{
         setOpen(false);
     }
+
+    const navigate = useNavigate();
     const theme = useTheme();
     
   return (
       <NavBar  sx={{paddingLeft: '27px',paddingRight: '27px'}} position="fixed">
         <StyleToolbar>
-            <MenuButton onClick={handleOpen}>
+            <MenuButton sx={{display:{md:'none',xs:`${props.arrow}`}}} onClick={()=>navigate(-1)}>
+                <WestIcon/>
+            </MenuButton>
+            <MenuButton sx={{display:{md:'none',xs:`${props.menu}`}}} onClick={handleOpen}>
                 <Menu/>
             </MenuButton>
             <Drawer anchor='left' open={open} onClose={handleClose} transitionDuration={{enter:400 , exit:400}} ModalProps={{sx:{position:'absolute'}}}>
@@ -111,7 +117,7 @@ export default function Navbar() {
             <NavLeft>
                 <Logo >
                     <Typography  component="div" sx={{fontSize: {md:'30px',xs:'20px'}}}>
-                        TechPyro
+                        {props.logo}
                     </Typography>
                     {/* <Typography component="div" sx={{fontSize:{md:'13px',xs:'10px'}, fontWeight:100}}>
                         Make a simple Bussiness

@@ -52,7 +52,7 @@ export const EducationProducts = {
             type: "Coaching"
         },
         tagline: "best product in the world",
-        image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+        image: "https://d3h2k7ug3o5pb3.cloudfront.net/image/2020-04-03/9a658be0-756e-11ea-a913-2f0af3f842f4.png",
         Details: {
             specifications: "very good product",
             speed: "very fast",
@@ -115,7 +115,7 @@ export const EducationProducts = {
         type: "Coaching"
     },
     tagline: "best product in the world",
-    image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+    image: "https://d3h2k7ug3o5pb3.cloudfront.net/image/2020-04-03/9a658be0-756e-11ea-a913-2f0af3f842f4.png",
     Details: {
         specifications: "very good product",
         speed: "very fast",
@@ -178,7 +178,7 @@ export const EducationProducts = {
         type: "Coaching"
     },
     tagline: "best product in the world",
-    image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+    image: "https://d3h2k7ug3o5pb3.cloudfront.net/image/2020-04-03/9a658be0-756e-11ea-a913-2f0af3f842f4.png",
     Details: {
         specifications: "very good product",
         speed: "very fast",
@@ -241,7 +241,7 @@ export const EducationProducts = {
         type: "Coaching"
     },
     tagline: "best product in the world",
-    image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+    image: "https://d3h2k7ug3o5pb3.cloudfront.net/image/2020-04-03/9a658be0-756e-11ea-a913-2f0af3f842f4.png",
     Details: {
         specifications: "very good product",
         speed: "very fast",
@@ -304,7 +304,7 @@ export const EducationProducts = {
         type: "Coaching"
     },
     tagline: "best product in the world",
-    image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+    image: "https://d3h2k7ug3o5pb3.cloudfront.net/image/2020-04-03/9a658be0-756e-11ea-a913-2f0af3f842f4.png",
     Details: {
         specifications: "very good product",
         speed: "very fast",
@@ -367,7 +367,7 @@ export const EducationProducts = {
         type: "Coaching"
     },
     tagline: "best product in the world",
-    image: "https://bootstrapmade.com/content/templatefiles/Arsha Arsha-bootstrap-website-template-md.png",
+    image: "https://d3h2k7ug3o5pb3.cloudfront.net/image/2020-04-03/9a658be0-756e-11ea-a913-2f0af3f842f4.png",
     Details: {
         specifications: "very good product",
         speed: "very fast",

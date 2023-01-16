@@ -1,0 +1,9 @@
+.css-zajpzn-MuiSvgIcon-root{
+    font-size: 13px !important;
+}
+@media(max-width:"600px"){
+    .css-1474312-MuiTypography-root{        
+       font-size: 16px !important;
+        font-weight:700 !important;
+    }
+}

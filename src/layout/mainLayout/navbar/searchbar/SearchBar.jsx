@@ -60,7 +60,7 @@ export default function SearchBar() {
     document.addEventListener('mousedown',closeOpenMenus);
   return (
     <Search sx={{height:36}}>
-        <SearchIcon sx={{fontSize:'100', marginTop:'6px',marginLeft:'10px', color: `${theme.header.background}`}}/>
+        <SearchIcon sx={{ marginTop:'6px',marginLeft:'10px', color: `${theme.header.background}`}}/>
         <SearchField placeholder='search anything... ' sx={{ "& fieldset": { border: 'none' }, '& .MuiInputBase-input': {
       padding: "8px",
     },}} onClick={searchHandler} ref={catMenu}></SearchField>
