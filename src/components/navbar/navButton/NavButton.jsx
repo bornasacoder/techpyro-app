@@ -14,7 +14,7 @@ import {
 import React from "react";
 
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import { Margin, Menu, ShoppingBag, ShoppingBagOutlined } from "@mui/icons-material";
+import { Diamond, Margin, Menu, ShoppingBag, ShoppingBagOutlined } from "@mui/icons-material";
 import zIndex from "@mui/material/styles/zIndex";
 import MenuButtons from "../menuButtons/MenuButtons";
 import { useState } from "react";
@@ -45,7 +45,7 @@ const Right = styled(Box)(({ theme }) => ({
 // flexDirection:"end",
 justifyContent:"flex-end",
 
-  gap: "50px",
+  gap: "30px",
   // border:"2px solid black",
   alignItems: "center",
   paddingRight: "30px",
@@ -183,7 +183,7 @@ export default function NavButton() {
         </Box>
       </Box> */}
     <Left>
-    <Box
+    {/* <Box
         display="flex"
         flexDirection="column"
         textAlign="center"
@@ -195,12 +195,13 @@ export default function NavButton() {
         <Typography variant="p"  paddingBottom="20px">
         FOOD WORDPRESS THEM
         </Typography>
-      </Box>
+      </Box> */}
     </Left>
 
 <Right display="flex">
+ 
 <MenuButton sx={{}} onClick={handleOpen} >
-    <Menu sx={{color:"white",fontSize:"38px"}}/>
+    <Menu sx={{fontSize:"38px"}}/>
 </MenuButton>
  <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
           <MenuButtons sx={{marginTop:{sm:"20px",sx:"20px"}}} />
@@ -215,7 +216,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography>HOMEPAGES</Typography>
+        <Typography variant="h5">MEN</Typography>
         <Badge>{/* <ExpandMoreIcon /> */}</Badge>
         <Box
           sx={{
@@ -266,8 +267,8 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography>MENU</Typography>
-        <Badge><ExpandMoreIcon /></Badge>
+        <Typography variant="h5">WOMEN</Typography>
+        {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
             display: "none",
@@ -317,8 +318,8 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography>PAGES</Typography>
-        <Badge><ExpandMoreIcon /></Badge>
+        <Typography variant="h5">KIDS</Typography>
+        {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
             display: "none",
@@ -369,8 +370,84 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography>NEWS</Typography>
-        <Badge><ExpandMoreIcon /></Badge>
+        <Typography variant="h5">UNISEX</Typography>
+        {/* <Badge><ExpandMoreIcon /></Badge> */}
+        <Box
+          sx={{
+            display: "none",
+            flexDirection: "column",
+            bgcolor: "background.paper",
+            position: "absolute",
+            color: "red",
+            margin: "250px 0 0 0px",
+            // zIndex:'1000!important'
+          }}
+        >
+          <List component="nav" aria-label="mailbox folders">
+            <ListItem button>
+              <ListItemText primary="Inbox" />
+            </ListItem>
+            <Divider />
+            <ListItem button divider>
+              <ListItemText primary="Drafts" />
+            </ListItem>
+            <ListItem button>
+              <ListItemText primary="Trash" />
+            </ListItem>
+            <Divider light />
+            <ListItem button>
+              <ListItemText primary="Spam" />
+            </ListItem>
+          </List>
+        </Box>
+      </MoreButton>
+      <MoreButton
+        sx={{
+          cursor: "pointer",
+          "&:hover .MuiBox-root": { display: "flex" },
+          "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
+        }}
+      >
+        <Typography variant="h5">RELEASEDATES</Typography>
+        {/* <Badge><ExpandMoreIcon /></Badge> */}
+        <Box
+          sx={{
+            display: "none",
+            flexDirection: "column",
+            bgcolor: "background.paper",
+            position: "absolute",
+            color: "red",
+            margin: "250px 0 0 0px",
+            // zIndex:'1000!important'
+          }}
+        >
+          <List component="nav" aria-label="mailbox folders">
+            <ListItem button>
+              <ListItemText primary="Inbox" />
+            </ListItem>
+            <Divider />
+            <ListItem button divider>
+              <ListItemText primary="Drafts" />
+            </ListItem>
+            <ListItem button>
+              <ListItemText primary="Trash" />
+            </ListItem>
+            <Divider light />
+            <ListItem button>
+              <ListItemText primary="Spam" />
+            </ListItem>
+          </List>
+        </Box>
+      </MoreButton>
+      <MoreButton
+        sx={{
+          cursor: "pointer",
+          "&:hover .MuiBox-root": { display: "flex" },
+          "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
+        }}
+      >
+        <Typography variant="h5">SALE</Typography>
+        {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
             display: "none",

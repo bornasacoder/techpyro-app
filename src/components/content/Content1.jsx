@@ -4,9 +4,9 @@ import React from "react";
 import styled from "styled-components";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   // bgcolor: "#F4F4F4",
-  padding: "38px 92px ",
-  background: `url(${"/images/category/middle2.jpg"})
-   center/cover no-repeat`,
+  padding: "38px 42px ",
+  // background: `url(${"/images/category/middle2.jpg"})
+  //  center/cover no-repeat`,
   //  backgroundColor: "none!important",
   // [theme.breakpoints.down("sm")]: {
 
@@ -49,26 +49,15 @@ export default function Content1() {
             margin: "0px 0px 26px",
             letterSpacing: "4px",
             textAlign: "center",
-            fontFamily: "Dancing Script",
-            fontSize: { md: "58px", sm: "50px", xs: "28px" },
+            // fontFamily: "Dancing Script",
+            fontSize: { md: "48px", sm: "40px", xs: "28px" },
             fontWeight: "500",
-            color:"red",
+            // color:"red",
             // width: { md: "60%", sm: "80%", xs: "100%" },
           }}
         >
-          Our 
+         POPULAR NOW
         </Typography>
-        <Typography  sx={{
-            // margin: "0px 0px 26px",
-            letterSpacing: "4px",
-            textAlign: "center",
-            fontFamily: "Dancing Script",
-            fontSize: { md: "58px", sm: "50px", xs: "28px" },
-            fontWeight: "500",
-            // width: { md: "60%", sm: "80%", xs: "100%" },
-          }}>
-          Services
-          </Typography>
       </Box>
       <Box
         sx={{
@@ -84,128 +73,86 @@ export default function Content1() {
           rowSpacing={2}
           sx={{
             // bgcolor: "#F4F4F4",
-            justifyContent: "space-between",
-            display: "flex",
-            alignItems: "center",
+            // justifyContent: "space-between",
+            // display: "flex",
+            // alignItems: "center",
           }}
-          columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+          columnSpacing={{ xs: 1, sm: 1, md: 2}}
           //   xs={{xs:12,sm:6,md:4}}
         >
-          <Grid item xs={12} sm={6} md={3} data-aos="fade-up">
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                height: "200px",
-                width: "200px",
-                borderRadius: "50%!important",
-                border: "15px solid lightGray",
-                "&:hover": {
-                  border: "15px solid red",
-  },
-              }}
-            >
-              <SetMeal sx={{ fontSize: "75px", color: "red" }} />
-            </Item>
-            <br />
-            <Item>
-              
-              <Typography
-                variant="h3"
-                sx={{ display: "flex", justifyContent: "center", borderRadius: "0px!important",
-                boxShadow: "none!important",backgroundColor:"transparent" }}
-              >
-                MEAL
-              </Typography>
-            </Item>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3} data-aos="fade-down">
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                height: "200px",
-                width: "200px",
-                borderRadius: "50%!important",
-                border: "15px solid lightGray",
-                "&:hover": {
-                  border: "15px solid red",
-  },
-              }}
-            >
-              <Cake sx={{ fontSize: "75px", color: "red" }} />
-            </Item>
-            <br />
-            <Item>
-              
-              <Typography
-                variant="h3"
-                sx={{ display: "flex", justifyContent: "center" }}
-              >
-               CAKE
-              </Typography>
-            </Item>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3} data-aos="fade-up">
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                height: "200px",
-                width: "200px",
-                borderRadius: "50%!important",
-                border: "15px solid lightGray",
-                "&:hover": {
-                  border: "15px solid red",
-  },
-              }}
-            >
-              <LunchDining sx={{ fontSize: "75px", color: "red" }} />
-            </Item>
-            <br />
-            <Item>
-              
-              <Typography
-                variant="h3"
-                sx={{ display: "flex", justifyContent: "center", }}
-              >
-                LUNCH
-              </Typography>
-            </Item>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3} data-aos="fade-down">
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                height: "200px",
-                width: "200px",
-                borderRadius: "50%!important",
-                border: "15px solid lightGray",
-                "&:hover": {
-                  border: "15px solid red",
-  },
-              }}
-            >
-              <KebabDining sx={{ fontSize: "75px", color: "red" }} />
-            </Item>
-            <br />
-            <Item>
-              
-              <Typography
-                variant="h3"
-                sx={{ display: "flex", justifyContent: "center" }}
-              >
-                KEBAB DINING
-              </Typography>
-            </Item>
-          </Grid>
-
           
+          <Grid item xs={12} sm={6} md={4} >
+            <Item
+              sx={{
+                height: "300px", 
+   background: `url(${"/images/category/popular1.webp"})
+   center/cover no-repeat`,
+  
+              }}
+            >
+              {/* <Cake sx={{ fontSize: "75px", color: "red" }} /> */}
+            </Item>
+            <br />
+            <Item sx={{display:"flex",justifyContent:"flex-start"}}>
+              <Typography
+              variant="span"
+              sx={{ borderBottom:"1px solid #000","&:hover":{
+                backgroundColor:"#000",
+                color:'#fff'
+              }}}
+              >
+               WOMEN
+              </Typography>
+            </Item>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4} >
+            <Item
+              sx={{
+                height: "300px",
+   background: `url(${"/images/category/popular2.webp"})
+   center/cover no-repeat`,
+  
+              }}
+            >
+              {/* <Cake sx={{ fontSize: "75px", color: "red" }} /> */}
+            </Item>
+            <br />
+            <Item sx={{display:"flex",justifyContent:"flex-start"}}>
+              
+              <Typography
+              variant="span"
+              sx={{ borderBottom:"1px solid #000" ,"&:hover":{
+                backgroundColor:"#000",
+                color:'#fff'}}}
+              >
+               MEN
+              </Typography>
+            </Item>
+          </Grid>
+          <Grid item xs={12} sm={6} md={4} >
+            <Item
+              sx={{
+                height: "300px",
+   background: `url(${"/images/category/popular3.webp"})
+   center/cover no-repeat`,
+  
+              }}
+            >
+              {/* <Cake sx={{ fontSize: "75px", color: "red" }} /> */}
+            </Item>
+            <br />
+            <Item sx={{display:"flex",justifyContent:"flex-start"}}>
+              
+              <Typography
+              variant="span"
+                sx={{ borderBottom:"1px solid #000","&:hover":{
+                  backgroundColor:"#000",
+                  color:'#fff'} }}
+              >
+               KIDS
+              </Typography>
+            </Item>
+          </Grid>
         </Grid>
       </Box>
     </StyleToolbar>

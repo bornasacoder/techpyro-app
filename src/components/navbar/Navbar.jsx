@@ -37,10 +37,20 @@ import {
   MenuBookRounded,
   Phone,
   MoreVert,
+  PersonOffOutlined,
+  Person,
+  PersonOutline,
+  Favorite,
+  FavoriteBorder,
+  ShoppingBag,
+  ShoppingBagOutlined,
+  Diamond,
+  Search,
 } from "@mui/icons-material";
 // import MenuButtons from "./menuButtons/MenuButtons";
 import MainCarousel from "components/carousel/MainCarousel";
 import Content from "components/content/Content";
+import MenuButtons from "./menuButtons/MenuButtons";
 
 const StyleToolbar = styled(Toolbar)(({ theme }) => ({
   bgcolor: "#575B5C",
@@ -99,35 +109,42 @@ const StyleToolbar = styled(Toolbar)(({ theme }) => ({
 const NavLeft = styled(Box)(({ theme }) => ({
   // gap: "120px",
   display: "flex",
-  flex: 1,
+  flex: 2,
+  marginLeft:"30px",
   // border:"2px solid black",
-  justifyContent: "space-between",
+  // justifyContent: "space-between",
   // alignItems: "center",
-  marginTop: "5px",
-  [theme.breakpoints.down("sm")]: {
-    height: "50px",
-    marginLeft: "15px",
-  },
+  // marginTop: "5px",
   [theme.breakpoints.down("md")]: {
-    height: "50px",
-    marginLeft: "90px",
+    justifyContent:'center',
+    flexDirection:'row-reverse'
   },
+  [theme.breakpoints.down("sm")]: {
+    justifyContent:"center",
+    flexDirection:'row-reverse'
+  },
+ 
 }));
 const NavRight = styled(Box)(({ theme }) => ({
   display: "flex",
-  flex: 3,
+  flexDirection:"coloumn",
+  justifyContent:"flex-start",
+  flex: 2,
   // flexDirection:"end",
   // justifyContent:"flex-end",
 
   // gap: "120px",
   // border:"2px solid black",
-  alignItems: "center",
-  paddingRight: "20px",
-  marginTop: "10px",
-
+  // alignItems: "center",
+  // paddingRight: "20px",
+  // marginTop: "10px",
+  [theme.breakpoints.down("md")]: {
+    justifyContent:"flex-end",
+    marginRight:"20px"
+  },
   [theme.breakpoints.down("sm")]: {
-    height: "50px",
-    gap: "15px",
+    justifyContent:"flex-end",
+    marginRight:"20px"
   },
 }));
 const NavBar = styled(Box)(({ theme }) => ({
@@ -135,22 +152,23 @@ const NavBar = styled(Box)(({ theme }) => ({
   background: "#fff",
   color: theme.colors.alpha.black[100],
   display: "flex",
-  justifyContent: "flex-start",
+  justifyContent:"space-between",
   gap: "50px",
   flexDirection: "column",
-  height: "150vh",
+  zIndex:"20",
+  // height: "150vh",
   paddingBottom: "15px",
-  color: "white",
+  // color: "white",
   [theme.breakpoints.down("sm")]: {
-    height: "100vh",
+    // height: "100vh",
   },
   // width: "100%",
   // color: "#fff",
   // zIndex: 200,
   // position: "static",
-  background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)
-  ),url(${"/images/category/header1.jpg"})
-   center/cover no-repeat`,
+  // background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)
+  // ),url(${"/images/category/header1.jpg"})
+  //  center/cover no-repeat`,
 }));
 
 export default function Navbar() {
@@ -165,21 +183,23 @@ export default function Navbar() {
   // };
   return (
     // <Box>
-    <NavBar>
-      <Box display="flex" flexDirection="column"sx={{gap:{md:'5px',sm:'20px',xs:'60px'}}}>
+    <NavBar >
+      {/* <Box display="flex" flexDirection="column"sx={{gap:{md:'5px',sm:'20px',xs:'60px'}}}>
         <Content />
-        <NavButton/>
+        
         {/* <MenuButtons/> */}
           {/* <MenuButtons >
           <Menu   sx={{color:"white"}}/>
     </MenuButtons> */}
 
-      </Box>
+      {/* </Box>  */}
       
 
-      {/* <StyleToolbar>
+       <StyleToolbar>
         <NavLeft>
-          <MenuButtons >
+        <Diamond sx={{fontSize:"60px",color:'red'}}/>
+        <NavButton/>
+          {/* <MenuButtons >
           <Menu   sx={{color:"black"}}/>
     </MenuButtons>
 
@@ -201,25 +221,89 @@ export default function Navbar() {
           </Typography>
          
         </Box>
-         
-
-          <List
-      sx={{ width: '100%', maxWidth: 100,color:"#000", marginTop:'20px'}}
-     >
-    
-      
-    
           <Box sx={{ display: { xs: "none", md: "flex" }, gap: "2" }}>
             <GetApp fontSize="medium" />
             <Typography component="h1">Get the App</Typography>
           </Box> 
-          <NavButton />
+          <NavButton /> */}
         </NavLeft>
 
         <NavRight>
-         
-
-          <Avatar
+      <Box>   
+         <Box sx={{display:{md:"flex",sm:"none",xs:"none"}}}>
+         <Button
+          sx={{
+            color: "#000",
+            border:"none",
+            fontSize:"11px"
+          }}
+        >
+          blog
+        </Button>
+         <Button
+          sx={{
+            color: "#000",
+            border:"none",
+            fontSize:"11px"
+          }}
+        >
+          help
+        </Button>
+         <Button
+          sx={{
+            color: "#000",
+            border:"none",
+            fontSize:"11px"
+          }}
+        >
+          exchanges&returns
+        </Button>
+         <Button
+          sx={{
+            color: "#000",
+            border:"none",
+            fontSize:"11px"
+          }}
+        >
+         order tracker
+        </Button>
+         <Button
+          sx={{
+            color: "#000",
+            border:"none",
+            fontSize:"11px"
+          }}
+        >
+          news latter
+        </Button>
+         <Button
+          sx={{
+            color: "#000",
+            border:"none",
+            fontSize:"11px"
+          }}
+        >
+          login
+        </Button>
+         <Button
+          sx={{
+            color: "#000",
+            border:"none",
+            fontSize:"11px"
+          }}
+        >
+          signup
+        </Button>
+         </Box>
+         <Box display="flex" justifyContent="flex-end" gap={1}>
+<SearchBar/>
+<PersonOutline sx={{fontSize:"30px"}}/>
+<FavoriteBorder sx={{fontSize:"30px",display:{md:"block",sm:"none",xs:"none"}}}/>
+<Search sx={{fontSize:"30px",display:{md:"none",sm:"block",xs:"block"}}}/>
+<ShoppingBagOutlined sx={{fontSize:"30px"}}/>
+         </Box>
+     </Box> 
+          {/* <Avatar
             lt="Remy Sharp"
             src="/images/category/logo.png"
             sx={{
@@ -251,10 +335,10 @@ export default function Navbar() {
               }}
             >
               Log in
-            </Button> 
+            </Button>  */}
         </NavRight>
-      </StyleToolbar> */}
-      <Box
+      </StyleToolbar> 
+      {/* <Box
         sx={{
           display: "flex",
           justifyContent: "center",
@@ -283,7 +367,7 @@ export default function Navbar() {
             READ MORE
           </Button>
         </Box>
-      </Box>
+      </Box> */}
     </NavBar>
     // </Box>
   );

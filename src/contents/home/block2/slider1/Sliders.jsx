@@ -6,9 +6,9 @@ import { styled } from '@mui/styles';
 // import SliderItem from './sliderItem/SliderItem';
 import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
 // import SliderHeader from './sliderhead/SliderHeader';
-import Card1 from 'components/card/card1/Card1';
+import Card2 from '../card2/Card2';
 import "./minislider.css"
-import { Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 const SliderContainer = styled('div')({
 width:"100%",
 height:"auto",
@@ -68,7 +68,7 @@ const Sliders = (props) => {
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 4,
+            slidesToShow: 3.7,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -77,7 +77,7 @@ const Sliders = (props) => {
          {
           breakpoint: 980,
           settings: {
-            slidesToShow: 3.2,
+            slidesToShow: 3,
             slidesToScroll: 1,
             // autoplay: true,
             speed: 300,
@@ -96,7 +96,7 @@ const Sliders = (props) => {
         {
           breakpoint: 740,
           settings: {
-            slidesToShow: 2.8,
+            slidesToShow: 2.6,
             slidesToScroll: 1,
           
             speed: 300,
@@ -106,7 +106,7 @@ const Sliders = (props) => {
         {
           breakpoint: 680,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2.6,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -115,7 +115,7 @@ const Sliders = (props) => {
         {
           breakpoint: 550,
           settings: {
-            slidesToShow: 2.4,
+            slidesToShow: 3,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -124,7 +124,7 @@ const Sliders = (props) => {
         {
           breakpoint: 500,
           settings: {
-            slidesToShow: 2.2,
+            slidesToShow: 2.3,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -136,12 +136,15 @@ const Sliders = (props) => {
     <>
     <SliderContainer>  
     <Typography variant='h1' sx={{margin:"20px 0px 0px 8px",
-  padding:"0px 40px ",}}>NEW ARRIVALS</Typography>       
+  padding:"0px 40px ",letterSpacing:"2px",fontSize:{md:'38px',sm:"38px",xs:"28px"}, fontFamily:"  sans-serif"}}>FEATURING THE BEST</Typography>       
+    <Typography variant='h5'  sx={{margin:"5px 0px 0px 8px",
+  padding:"0px 40px ",}}>Top new drops, sales, collabs and collections available now and coming soon.</Typography> 
+
        <SliderInnerContainer>
       {/* <SliderHeader /> */}
     <Slider {...settings}>
      { props.sliderData.map((item)=>(
-      <Card1 sliderData={item} />
+      <Card2 sliderData={item} />
       ))}
     </Slider>
       </SliderInnerContainer>  

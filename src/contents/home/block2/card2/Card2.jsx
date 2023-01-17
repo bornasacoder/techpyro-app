@@ -38,15 +38,15 @@ export default function Card1({ sliderData }) {
     <MainCard>
       <Card
         sx={{
-          maxWidth: { md: 280, sm: 220, xs: 150 },
+          maxWidth: { md: "22vw", sm: "28vw", xs:"40vw" },
           borderRadius: "0px",
           boxShadow: "none",
           backgroundColor: "#F2F5F9",
           position: "relative",
-          height: "380px",
-          "&:hover": {
-            border: "1px solid #000",
-          },
+          height: "auto",
+          // "&:hover": {
+          //   border: "1px solid #000",
+          // },
         }}
       >
         {/* <CardHeader sx={{fontStyle:"italic", "& .MuiCardHeader-title":{fontSize:{xs:"13px"}}}} title={sliderData.shopname} subheader="September 14"  /> */}
@@ -54,9 +54,9 @@ export default function Card1({ sliderData }) {
           component="img"
           image={sliderData.image}
           alt="Paella dish"
-          sx={{ height: { md: "194", sm: "165", xs: "120" } }}
+          sx={{ height: { md: "40vh", sm: "38vh", xs: "28vh" } }}
         />
-        <Box sx={{ position: "absolute", top: "10px", right: "10px" }}>
+        {/* <Box sx={{ position: "absolute", top: "10px", right: "10px" }}>
           <Checkbox
             {...label}
             icon={<FavoriteBorder />}
@@ -76,7 +76,7 @@ export default function Card1({ sliderData }) {
         >
           <CurrencyRupee sx={{ fontSize: "14px" }} />
           {sliderData.price.cost}
-        </Box>
+        </Box> */}
         {/* <Box
           sx={{
             display: "flex",
@@ -133,7 +133,7 @@ export default function Card1({ sliderData }) {
             {sliderData.rating}
           </Typography>
         </Box> */}
-        <Box sx={{ paddingLeft: "13px", marginTop: { sx: "6px" } }}>
+        <Box sx={{ paddingLeft: "13px", marginTop: { sx: "10px" } }}>
           <Typography
             variant="subtitle"
             sx={{ fontSize: "16px", fontWeight: "600" }}
@@ -150,7 +150,18 @@ export default function Card1({ sliderData }) {
           <Typography variant="subtitle" sx={{ fontWeight: "600" }}>
             {sliderData.new}
           </Typography>
+          <br/>
+          <Typography
+              variant="span"
+              sx={{ borderBottom:"2px solid #000" ,fontWeight:"700","&:hover":{
+                backgroundColor:"#000",
+                color:'#fff'}}}
+              >
+              {sliderData.shop}
+              </Typography>
         </Box>
+        
+        
         {/* <CardContent
           sx={{
             display: "flex",

@@ -38,14 +38,15 @@ export default function Card1({ sliderData }) {
     <MainCard>
       <Card
         sx={{
-          maxWidth: { md: 280, sm: 220, xs: 150 },
+          maxWidth: {  md: "20vw", sm: "25vw", xs:"35vw" },
           borderRadius: "0px",
           boxShadow: "none",
           backgroundColor: "#F2F5F9",
           position: "relative",
-          height: "380px",
+          height: "auto",
+          marginBottom:"50px",
           "&:hover": {
-            border: "1px solid #000",
+            border:{md:"1px solid #000",sm:"none",xs:"none"} ,
           },
         }}
       >
@@ -54,7 +55,7 @@ export default function Card1({ sliderData }) {
           component="img"
           image={sliderData.image}
           alt="Paella dish"
-          sx={{ height: { md: "194", sm: "165", xs: "120" } }}
+          sx={{ height: { md: "40vh", sm: "38vh", xs: "30vh" } }}
         />
         <Box sx={{ position: "absolute", top: "10px", right: "10px" }}>
           <Checkbox
@@ -66,7 +67,7 @@ export default function Card1({ sliderData }) {
         <Box
           sx={{
             position: "absolute",
-            bottom: "130px",
+            top:{md:'64%',sm:'65%',xs:'60%'},
             left: "10px",
             backgroundColor: "#fff",
             display: "flex",
@@ -143,7 +144,7 @@ export default function Card1({ sliderData }) {
         </Box>
         <Box sx={{ paddingLeft: "13px", marginTop: { sx: "6px" } }}>
           <Typography variant="subtitle" sx={{}}>
-            {sliderData.tagline1}
+            Sports
           </Typography>
         </Box>
         <Box sx={{ paddingLeft: "13px", marginTop: { sx: "6px" } }}>

@@ -17,10 +17,11 @@ import SearchIcon from "@mui/icons-material/Search";
 const Search = styled(Box)(({ theme }) => ({
   // border-radius: 5px;
   // margin-left: 10px;
-  width: "60%",
+  // width: "60%",
   backgroundColor: "#fff",
   display: "flex",
-
+borderBottom:"3px solid #000",
+paddingBottom:"40px",
   // [theme.breakpoints.down('sm')]: {
   //     width: '98vw',
   //     position: 'absolute',
@@ -28,8 +29,11 @@ const Search = styled(Box)(({ theme }) => ({
   //     right: '4.5px',
 
   // }
+  [theme.breakpoints.down("md")]: {
+    display:"none"
+  },
   [theme.breakpoints.down("sm")]: {
-    width: "75%",
+    display:"none"
   },
 }));
 const SearchField = styled(TextField)(({ theme }) => ({
@@ -80,9 +84,9 @@ export default function SearchBar() {
   };
 
   return (
-    <Search sx={{ height: 50, position: "relative", borderRadius: "5px" }}>
+    <Search sx={{ height:" 5px",  borderRadius: "1px" }}>
       <Box display="flex" border="none" outline="none">
-        <Select
+        {/* <Select
           flex={1}
           value={location}
           outline="none"
@@ -103,30 +107,21 @@ export default function SearchBar() {
           <MenuItem value={2}>Delhi</MenuItem>
           <MenuItem value={3}>Punjab</MenuItem>
           <MenuItem value={4}>Bihar</MenuItem>
-        </Select>
+        </Select> */}
       </Box>
       <Box display="flex" sx={{ width: "100%", position: "relative" }}>
-        <SearchIcon
-          color="secondary"
-          border="none"
-          outline="none"
-          sx={{
-            position: "absolute",
-            left: "20px",
-            top: "15px",
-            fontSize: "30px",
-          }}
-        />
+       
         <SearchField
-          placeholder="search anything... "
+          placeholder="search... "
           sx={{
             "& .MuiInputBase-input": {
               padding: "6px 10px",
-              marginLeft: "45px",
-              height: 40,
-              position:"relative",
+              // marginBottom: "45px",
+              height: "10px",
+              // position:"relative",
               width: "100%",
               outline: "none",
+              fontSize:"16px"
             },
             "& fieldset": { border: "none" },
           }}
@@ -135,7 +130,18 @@ export default function SearchBar() {
         >
 
           </SearchField>
-        <SearchList
+          <SearchIcon
+          color="secondary"
+          border="none"
+          outline="none"
+          sx={{
+            position: "absolute",
+            left: "170px",
+            // top: "15px",
+            fontSize: "30px"
+          }}
+        />
+        {/* <SearchList
           sx={{
             display: showSearch,
             flexDirection: "column",
@@ -164,8 +170,8 @@ export default function SearchBar() {
           <Divider light />
           <StyledListItem button>
             <ListItemText primary="Spam" />
-          </StyledListItem>
-        </SearchList>
+          </StyledListItem> */}
+        {/* </SearchList> */}
       </Box>
     </Search>
   );

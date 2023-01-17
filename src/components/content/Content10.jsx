@@ -3,13 +3,12 @@ import { Button, Typography } from "@mui/material";
 import { Box, styled } from "@mui/system";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
-  background: `url(${"/images/category/shop1.webp"})
-         center/cover no-repeat`,
-  padding: "28px 58px ",
+  backgroundColor:"red",
+  padding: "48px 58px ",
   display:"flex",
-  justifyContent:"center"
+  justifyContent:"space-around"
 }));
-export default function Content7() {
+export default function Content10() {
   return (
     <StyleToolbar>
       <Box
@@ -17,52 +16,50 @@ export default function Content7() {
         justifyContent="center"
         gap={5}
         sx={{
-          flexDirection: { md: "column", sm: "column", xs: "column" },
+          flexDirection: { md: "row", sm: "column", xs: "column" },
           textAlign: "center",
         }}
       >
          {/* <Box data-aos="fade-right">
           <Campaign sx={{ fontSize: "100px" }} />
           </Box>  */}
-         <Box>
-        <Box sx={{ display:"flex", justifyContent:"center",}}>
+
+        <Box sx={{ display:"flex", justifyContent:"center",textAlign:"center"}}>
           <Typography
             sx={{
               color: "white",
-              fontSize: {md:'48px',sm:"38px",xs:"30px"},
+              fontSize: {md:'38px',sm:"24px",xs:"20px"},
               // fontFamily: "Dancing Script",
+              textAlign:"center"
               
             }}
           >
-            GET THE LATEST ON NANO
+           JOIN REEBOK UNLOCKED 
+           <br/>
+           AND GET 15% OFF
           </Typography>
         </Box>
-          <Typography  sx={{ color:"white",fontSize: {md:'25px',sm:"18px",xs:"14px"},}}>
-            Come with more than 8 people get 20% off. Bring all your friends
-            here!
-          </Typography>
-          </Box> 
-          <Box >
+         
+          
+          <Box display="flex" justifyContent="center" alignItems="center">
           <Button
           endIcon={<ArrowForward/>}
             sx={{
               // border: "3px solid #000",
-              background: "white",
-              color: "#000",
+             
+              backgroundColor: "#000",
+              color: "#ffffff",
               borderRadius: "0px",
               "&:hover": {
-                backgroundColor: "#000",
-                color: "#ffffff",
+                background: "white",
+                color: "#000",
               },
               // display: { md: "block", sm: "none", xs: "none" },
             }}
           >
-            Join Now
+            SIGN UP FOR FREE
           </Button>
         </Box>
-          {/* <Box data-aos="fade-right">
-          <Campaign sx={{ fontSize: "100px" }} />
-          </Box>  */}
       </Box>
     </StyleToolbar>
   );
