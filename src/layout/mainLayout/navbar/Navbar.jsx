@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import SearchBar from './searchbar/SearchBar'
 import NavButton from './navButton/NavButton'
 import {
@@ -24,14 +24,6 @@ import Siderbar from '../sideBar/Siderbar';
       justifyContent: 'space-between',
       alignItems: 'center',
       position: 'relative',
-      
-      
-
-        [theme.breakpoints.down('sm')]: {
-            height: '100px',
-            // width: '93vw',
-            top: '-21px'
-        }
   }));
   
   const Cart = styled(Box)(({theme})=>({
@@ -52,8 +44,7 @@ import Siderbar from '../sideBar/Siderbar';
         }
 }));
 
-  const CartButton = styled(Box)`
-    display: flex;
+  const CartButton = styled(Link)`
     flex: 1;
     align-items: center;
     justify-Content: flex-end;
@@ -104,7 +95,7 @@ export default function Navbar(props) {
     
   return (
       <NavBar  sx={{paddingLeft: '27px',paddingRight: '27px'}} position="fixed">
-        <StyleToolbar>
+        <StyleToolbar sx={{height:`${props.logo}`==='Cart'?'64px':{xs:'100px',sm:'64px'},top:`${props.logo}`==='Cart'?'0':{xs:'-21px',sm:'0'}}}>
             <MenuButton sx={{display:{md:'none',xs:`${props.arrow}`}}} onClick={()=>navigate(-1)}>
                 <WestIcon/>
             </MenuButton>
@@ -114,31 +105,31 @@ export default function Navbar(props) {
             <Drawer anchor='left' open={open} onClose={handleClose} transitionDuration={{enter:400 , exit:400}} ModalProps={{sx:{position:'absolute'}}}>
                 <Siderbar />
             </Drawer>
-            <NavLeft>
-                <Logo >
-                    <Typography  component="div" sx={{fontSize: {md:'30px',xs:'20px'}}}>
+            <NavLeft sx={{flex: `${props.logo}`==='Cart'?'9':'4'}}>
+                <Logo sx={{marginLeft: `${props.logo}`==='Cart'?{md:'50px'}:'0'}}>
+                    <Typography  component="div" sx={{fontSize: {md:'35px',xs:'20px'}}}>
                         {props.logo}
                     </Typography>
                     {/* <Typography component="div" sx={{fontSize:{md:'13px',xs:'10px'}, fontWeight:100}}>
                         Make a simple Bussiness
                     </Typography> */}
                 </Logo>
-                <SearchBar/>
+                <SearchBar logo={props.logo}/>
                 {/* <Badge sx={{display:{sm:'block',md:'none'}, left:'48px'}}>
                     <ShoppingCart/>
                 </Badge> */}
-                <NavButton/>
+                <NavButton logo={props.logo}/>
             </NavLeft>
-            <Cart >
-                <Box sx={{display:{md:'flex',xs:'none'},alignItems:'center',paddingLeft:'20px',flex:'2',color:`${theme.header.textColor}`}}>
+            <Cart sx={{flex: `${props.logo}`==='Cart'?'3':'2'}}>
+                <Box sx={{display:{md:'flex',xs:'none'},justifyContent: `${props.logo}`==='Cart'?'flex-end':'flex-start',alignItems:'center',paddingLeft:'20px',flex:'2',color:`${theme.header.textColor}`}}>
                     <PhoneIcon/>
                     <Typography sx={{paddingLeft:'5px',fontSize:'20px',fontWeight:'400',color:`${theme.header.textColor}`}}>+91-9999999999</Typography>
                 </Box>
-                <CartButton>
-                    <Badge sx={{cursor: {md:'pointer',sm:'none'}}}>
+                <CartButton to={'/cart'} sx={{display:`${props.logo}`=== 'Cart'?'none':'flex',textDecoration:'none'}}>
+                    <Badge sx={{cursor: {md:'pointer',sm:'none'},color:`${theme.header.textColor}`}}>
                         <ShoppingCart/>
                     </Badge>
-                    <Typography sx={{display:{md:'block',xs:'none',cursor: {md:'pointer',sm:'none'}}}}>Cart</Typography>
+                    <Typography sx={{display:{md:'block',xs:'none',fontSize:'20px',cursor: {md:'pointer',sm:'none'},color:`${theme.header.textColor}`}}}>Cart</Typography>
                 </CartButton>
             </Cart>
         </StyleToolbar>

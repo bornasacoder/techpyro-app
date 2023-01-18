@@ -4,37 +4,43 @@ export const EducationProducts = {
          title:"Education Templates",
          description:"A design like never before.",
          image:"https://images.pexels.com/photos/4245019/pexels-photo-4245019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-         offer:"40% OFF"
+         offer:"40% OFF",
+         url:'products'
         },
         {
         title:"Education Templates",
         description:"Where imagination meets creativity",
         image:"https://images.pexels.com/photos/3807755/pexels-photo-3807755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        offer:"45% OFF"
+        offer:"45% OFF",
+        url:'products'
        },
        {
         title:"Education Templates",
         description:"The theme you will fall for",
         image:"https://images.pexels.com/photos/3769981/pexels-photo-3769981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        offer:"50% OFF"
+        offer:"50% OFF",
+        url:'products'
        },
        {
         title:"Education Templates",
         description:"Minimum price websites that work",
         image:"https://images.pexels.com/photos/8422126/pexels-photo-8422126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        offer:"30% OFF"
+        offer:"30% OFF",
+        url:'products'
        },
        {
         title:"Education Templates",
         description:"Making your success online.",
         image:"https://images.pexels.com/photos/4492129/pexels-photo-4492129.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        offer:"42% OFF"
+        offer:"42% OFF",
+        url:'products'
        },
        {
         title:"Education Templates",
         description:"Best, adjustable and minimum cost website design.",
         image:"https://images.pexels.com/photos/6347902/pexels-photo-6347902.jpeg?auto=compress&cs=tinysrgb&w=600",
-        offer:"40% OFF"
+        offer:"40% OFF",
+        url:'products'
        },
     ],
     data:[

@@ -67,7 +67,7 @@ const LoginButton = styled(Button)(({theme}) => ({
 
 }));
 
-export default function NavButton() {
+export default function NavButton(props) {
 //   const [showLogin, setShowLogin] = useState("none");
 //   const [showMore, setShowMore] = useState("none");
 //   onMouseOver={() => setShowLogin("flex")} onMouseOut={() => setShowLogin("none")}
@@ -75,6 +75,7 @@ const theme = useTheme();
   return (
     <CustomButton >
       <Box  sx={{
+                
                 // alignItems: 'center',
                 cursor:'pointer',
                 display:'flex',
@@ -124,7 +125,7 @@ const theme = useTheme();
           </List>
         </Box>
       </Box>
-      <MoreButton sx={{paddingTop:'18px' ,cursor:'pointer',"&:hover .MuiBox-root": { display:'flex'}, "&:hover .MuiSvgIcon-root": { transform: 'rotate(180deg)'}}}>
+      <MoreButton sx={{display: `${props.logo}`==='Cart'?'none':'flex' ,paddingTop:'18px' ,cursor:'pointer',"&:hover .MuiBox-root": { display:'flex'}, "&:hover .MuiSvgIcon-root": { transform: 'rotate(180deg)'}}}>
         <Typography sx={{fontSize:'18px'}}>More</Typography>
         <Badge>
           <ExpandMoreIcon />

@@ -1,26 +1,26 @@
-export const NewsProducts = {
+export const ShopsProducts = {
     Shopads: [{
-        title: "News Websites",
+        title: "Shops Websites",
         description: "We make websites that develop your business.",
-        imagead: "https://img.freepik.com/free-vector/digital-futuristic-earth-technology-background-with-glowing-lights_1017-23327.jpg?w=1380&t=st=1673959237~exp=1673959837~hmac=2cafb2bc340ff403a2b54417a6c05040ed3b22b314b91cbc772377ae2ed79a77",
-        offer: "40% OFF"
+        imagead: "https://images.pexels.com/photos/5625041/pexels-photo-5625041.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        offer: "40% OFF",
     },
     {
-        title: "News Templates",
+        title: "Shops Templates",
         description: "Web design, Up-gradation, Marketing.",
-        image: "https://images.pexels.com/photos/7256421/pexels-photo-7256421.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        image: "https://images.pexels.com/photos/3784391/pexels-photo-3784391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         offer: "60% OFF"
     },
     {
-        title: "News Templates",
+        title: "Shops Templates",
         description: "Majestic web marketing solutions.",
-        image: "https://images.pexels.com/photos/842991/pexels-photo-842991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        image: "https://images.pexels.com/photos/3884188/pexels-photo-3884188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         offer: "40% OFF"
     },
     {
-        title: "News Templates",
+        title: "Shops Templates",
         description: "One little thing left… An intelligent and talented designer.",
-        image: "https://img.freepik.com/free-vector/earth-blue-wave-background_1017-36678.jpg?w=1380&t=st=1673956844~exp=1673957444~hmac=7c11642d27112816935c8d1614ed4f45fca3d94aae1839922030a753bc1dde32",
+        image: "https://images.pexels.com/photos/5833860/pexels-photo-5833860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         offer: "30% OFF"
     },
 
@@ -30,7 +30,7 @@ export const NewsProducts = {
 data: [
         {
         title: {
-            shortTitle: 'News website templates',
+            shortTitle: 'Shops website templates',
             longTitle: "About - Ati Uttam is a SaaS product which provides regional translation service and SEO localisation service to a website. All the translations happens live when an end-user is visiting the webpage. No extra content is added to original server all the operations are done by Ati Uttam in Real-Time. It is built on Cloudflare Workers."
         },
         price: {
@@ -40,18 +40,18 @@ data: [
         },
       
         tagline: "best product in the world",
-        image: "https://img.freepik.com/free-vector/breaking-news-template_23-2148507392.jpg?w=996&t=st=1673956915~exp=1673957515~hmac=ff00d33b9c3c881230f985368056df6b2a3cc883a4a305260a6a0550e5f23de2",
+        image: "https://img.freepik.com/free-psd/shoe-store-concept-banner-template_23-2148738801.jpg?w=1060&t=st=1673955243~exp=1673955843~hmac=4cbda4f4fb96df3183bd94380d27bae8c6fbe25b0808f579a54be9cf91e7a01a",
         productsimage: [{
                 id: "1",
-                productsurl: "https://img.freepik.com/free-vector/technology-earth-blue-banner-with-particles_1017-32139.jpg?w=1380&t=st=1673957015~exp=1673957615~hmac=4646a8226527cd4656c664321a4da7613e005ca42dd9ef51700baf850b7b3a2b"
+                productsurl: "https://img.freepik.com/free-vector/online-shopping-landing-page-template_23-2148689252.jpg?w=996&t=st=1673955386~exp=1673955986~hmac=e0d47b1477ba89bad3adb3623188b212a5d8be41f91373c3173b8c5f40eb9054"
             },
             {
                 id: "2",
-                productsurl: "https://img.freepik.com/free-vector/news-landing-page-flat-style_52683-16148.jpg?w=996&t=st=1673957061~exp=1673957661~hmac=1fef18a5d4f825e78342dcb95323d04694c139e6639bf46f24b586abfe2ba39a"
+                productsurl: "https://colorlib.com/wp-content/uploads/sites/2/winter-free-template.jpg"
             },
             {
                 id: "3",
-                productsurl: "https://i0.wp.com/htmlcodex.com/wp-content/uploads/2021/04/free-news-website-template.jpg?fit=800%2C500&ssl=1"
+                productsurl: "https://themewagon.com/wp-content/uploads/2018/09/Coza-Store-Free-HTML5-eCommerce-Website-Template-1.jpg"
             },
         ],
         Details: {
@@ -107,7 +107,7 @@ data: [
     },
     {
         title: {
-            shortTitle: ' News website templates',
+            shortTitle: ' Shops website templates',
             longTitle: "About - Ati Uttam is a SaaS product which provides regional translation service and SEO localisation service to a website. All the translations happens live when an end-user is visiting the webpage. No extra content is added to original server all the operations are done by Ati Uttam in Real-Time. It is built on Cloudflare Workers."
         },
         price: {
@@ -117,18 +117,18 @@ data: [
         },
       
         tagline: "best product in the world",
-        image: "https://img.freepik.com/premium-vector/news-landing-page-mass-media-online-news-source-web-page-concept-content-creating-interview-recording-vector-illustration-social-journalism-website-internet-communication_176516-1586.jpg?w=1380",
+        image: "https://img.freepik.com/free-vector/flat-design-shopping-center-twitch-banner_23-2149337409.jpg?w=1380&t=st=1673955481~exp=1673956081~hmac=6729f7aae112514653aff49b6f5bfd981e2d3ee36f60d9de3ce69426c5de9be9",
         productsimage: [{
                 id: "1",
-                productsurl: "https://themewagon.com/wp-content/uploads/2020/12/news.jpg"
+                productsurl: "https://themewagon.com/wp-content/uploads/2020/03/tropika-1.jpg"
             },
             {
                 id: "2",
-                productsurl: "https://colorlib.com/wp/wp-content/uploads/sites/2/news-free-template.jpg"
+                productsurl: "https://w3layouts.com/wp-content/uploads/2016/07/grocery_store.jpg"
             },
             {
                 id: "3",
-                productsurl: "https://colorlib.com/wp/wp-content/uploads/sites/2/newspaper-free-template.jpg"
+                productsurl: "https://cdn.motocms.com/src/868x580/66500/66566-original-1200.jpg"
             },
         ],
         Details: {
@@ -182,7 +182,7 @@ data: [
     },
     {
         title: {
-            shortTitle: 'News website templates',
+            shortTitle: 'Shops website templates',
             longTitle: "About - Ati Uttam is a SaaS product which provides regional translation service and SEO localisation service to a website. All the translations happens live when an end-user is visiting the webpage. No extra content is added to original server all the operations are done by Ati Uttam in Real-Time. It is built on Cloudflare Workers."
         },
         price: {
@@ -192,18 +192,18 @@ data: [
         },
       
         tagline: "best product in the world",
-        image: "https://img.freepik.com/premium-vector/breaking-news-world-map-background_213860-470.jpg?w=1060",
+        image: "https://img.freepik.com/free-vector/flat-design-shopping-center-facebook-post_23-2149337411.jpg?t=st=1673955481~exp=1673956081~hmac=99fa39c54958d83afdaa64fa7cb45ed45319cb73b191f5fac7b744e3dd3b363e",
         productsimage: [{
                 id: "1",
-                productsurl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpJq_shfttAXGEueZvvLrkIJ2lqen6VH7PGOGeFgXluSmIW9nDUi6R1kRpNBwgYMxz_jI&usqp=CAU"
+                productsurl: "https://w3layouts.com/wp-content/uploads/2013/08/home_shoppe-future.jpg"
             },
             {
                 id: "2",
-                productsurl: "https://149842033.v2.pressablecdn.com/wp-content/uploads/2019/10/Magnews2-1.jpg"
+                productsurl: "https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/34041b678f8322dd95446ca0e0ee3d4caebb59008a7aa3f8922a8461c268fe6d1617888011678.jpg"
             },
             {
                 id: "3",
-                productsurl: "https://images.template.net/wp-content/uploads/2017/08/Premium-News-Portal-Website-Template1.jpg"
+                productsurl: "https://images.template.net/wp-content/uploads/2014/12/Electronic-Website-Templates.jpg"
             },
          
         ],
@@ -258,7 +258,7 @@ data: [
     },
     {
         title: {
-            shortTitle: 'News website templates',
+            shortTitle: 'Shops website templates',
             longTitle: "About - Ati Uttam is a SaaS product which provides regional translation service and SEO localisation service to a website. All the translations happens live when an end-user is visiting the webpage. No extra content is added to original server all the operations are done by Ati Uttam in Real-Time. It is built on Cloudflare Workers."
         },
         price: {
@@ -268,18 +268,18 @@ data: [
         },
       
         tagline: "best product in the world",
-        image: "https://img.freepik.com/premium-vector/online-news-banner_1325-2782.jpg?w=1380",
+        image: "https://img.freepik.com/free-psd/website-template-laptop-screen_53876-57297.jpg?w=900&t=st=1673955748~exp=1673956348~hmac=83aa9829420c0c172836e9f71a16aad56cd401a81201b404fc6f45e5b886cb9e",
         productsimage: [{
                 id: "1",
-                productsurl: "https://elements-cover-images-0.imgix.net/c71ea98f-2187-45f2-92bd-0c3502f748ae?auto=compress%2Cformat&fit=max&w=433&s=973167e88b056af71474af66c5f1e428"
+                productsurl: "https://i0.wp.com/htmlcodex.com/wp-content/uploads/2021/06/pet-shop-website-template.jpg?fit=800%2C500&ssl=1"
             },
             {
                 id: "2",
-                productsurl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ20MvMrUISVmV77m3buAS4PR61ZMGx96CW3cbXaJvz67uQwFmJ_6u5H6lZBLPxmt1Wf94&usqp=CAU"
+                productsurl: "https://w3layouts.com/wp-content/uploads/2021/06/dogs-care-website-template-1-scaled.jpg"
             },
             {
                 id: "3",
-                productsurl: "https://digitaltemplatemarket.com/wp-content/uploads/2018/03/Magnews.jpg"
+                productsurl: "https://colorlib.com/wp-content/uploads/sites/2/doglife-free-template.jpg"
             },
         ],
         Details: {
@@ -333,7 +333,7 @@ data: [
     },
     {
         title: {
-            shortTitle: 'News website templates',
+            shortTitle: 'Shops website templates',
             longTitle: "About - Ati Uttam is a SaaS product which provides regional translation service and SEO localisation service to a website. All the translations happens live when an end-user is visiting the webpage. No extra content is added to original server all the operations are done by Ati Uttam in Real-Time. It is built on Cloudflare Workers."
         },
         price: {
@@ -343,18 +343,18 @@ data: [
         },
       
         tagline: "best product in the world",
-        image: "https://img.freepik.com/premium-vector/line-shopping-payment-banner_1325-2789.jpg?w=1380",
+        image: "https://img.freepik.com/free-psd/cooking-home-banner-theme_23-2148545417.jpg?w=1060&t=st=1673955853~exp=1673956453~hmac=39398a3050f2e7f299de4e37f7b00f0800bc3151caa93fd776b7dc1a3f305cba",
         productsimage: [{
                 id: "1",
-                productsurl: "https://images.template.net/wp-content/uploads/2015/01/Responsive-HTML-News-Website-Template-788x547.jpg"
+                productsurl: "https://img.freepik.com/free-psd/landing-page-halloween-costumes_23-2148714305.jpg?w=1060&t=st=1673955871~exp=1673956471~hmac=217692bd473acb80e511e836c1527b623ba4f8b35486073c211a8759602a1e2e"
             },
             {
                 id: "2",
-                productsurl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrrahudME6UPHfG9sDytVlkvyL41-V65FXP3RFIrIn4pW_FqWBWhNRltG9ZCjUoIbODMY&usqp=CAU"
+                productsurl: "https://149842033.v2.pressablecdn.com/wp-content/uploads/2020/11/Capitalshop-1.jpg"
             },
             {
                 id: "3",
-                productsurl: "https://d85wutc1n854v.cloudfront.net/live/products/icons/WB08P3222.jpg?v=1.1.0"
+                productsurl: "https://s.tmimgcdn.com/scr/800x500/92800/lamode-clothing-amp-fashion-responsive-website-template_92836-2-original.png"
             },
        
         ],
@@ -409,7 +409,7 @@ data: [
     },
     {
         title: {
-            shortTitle: 'News website templates',
+            shortTitle: 'Shops website templates',
             longTitle: "About - Ati Uttam is a SaaS product which provides regional translation service and SEO localisation service to a website. All the translations happens live when an end-user is visiting the webpage. No extra content is added to original server all the operations are done by Ati Uttam in Real-Time. It is built on Cloudflare Workers."
         },
         price: {
@@ -419,18 +419,18 @@ data: [
         },
       
         tagline: "best product in the world",
-        image: "https://img.freepik.com/premium-vector/newspaper-mobile-phone-with-online-video-news-screen-coffee-pen-tin-line-icons-background-business-break-concept-vector-illustration_175838-2694.jpg?w=1380",
+        image: "https://img.freepik.com/free-vector/line-shopping-banners_1325-55.jpg?w=900&t=st=1673955933~exp=1673956533~hmac=2ebe429d0934997a1cb4794a94f329557483465a8b7fb0c4c21efa6a2c6f2128",
         productsimage: [{
                 id: "1",
-                productsurl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr43v_5DZxTDyKeq32z-mz8O6FpqY7J6qyjA&usqp=CAU"
+                productsurl: "https://w3layouts.com/wp-content/uploads/2013/06/smart_store-future.png"
             },
             {
                 id: "2",
-                productsurl: "https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/74bc82fb01604441d0440d9e6b01f33977bad2f394804c9ee20956c9a7a794a6.jpg"
+                productsurl: "https://149842033.v2.pressablecdn.com/wp-content/uploads/2019/11/Minishop.jpg"
             },
             {
                 id: "3",
-                productsurl: "https://themeforest.img.customer.envatousercontent.com/files/396526284/theme-preview/03_home.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=300&s=f3ad2bca4dd1f420cf69afba97f95f0e"
+                productsurl: "https://colorlib.com/wp-content/uploads/sites/2/e-shop-free-ecommerce-website-template.jpg"
             },
         ],
         Details: {
@@ -484,7 +484,7 @@ data: [
     },
     {
         title: {
-            shortTitle: 'News website templates',
+            shortTitle: 'Shops website templates',
             longTitle: "About - Ati Uttam is a SaaS product which provides regional translation service and SEO localisation service to a website. All the translations happens live when an end-user is visiting the webpage. No extra content is added to original server all the operations are done by Ati Uttam in Real-Time. It is built on Cloudflare Workers."
         },
         price: {
@@ -494,18 +494,18 @@ data: [
         },
       
         tagline: "best product in the world",
-        image: "https://img.freepik.com/premium-vector/breaking-news-planet-background_213860-743.jpg?w=1060",
+        image: "https://img.freepik.com/free-psd/online-shopping-banner-template-design_23-2148690177.jpg?w=1060&t=st=1673956027~exp=1673956627~hmac=a3cb64669a7827f8b1cd94559695a3b851b6897b1d67e96f99f5498b86a1e35b",
         productsimage: [{
                 id: "1",
-                productsurl: "https://img.freepik.com/free-psd/holiday-landing-page-template_23-2149066886.jpg?w=1060&t=st=1673959375~exp=1673959975~hmac=003b445932af3d646761fb312866fcd0f0d0d5bbe3dde1b88af07ff768383f5a"
+                productsurl: "https://img.freepik.com/free-vector/shopping-online-landing-page-concept_23-2148529367.jpg?w=996&t=st=1673956058~exp=1673956658~hmac=24db5ed89456938daef9cc2a02a9b297c7ad151ef905b00f6cdcdaa16ce57bf5"
             },
             {
                 id: "2",
-                productsurl: "https://img.freepik.com/free-psd/gradient-international-nurses-day-landing-page-template_23-2149342947.jpg?w=1060&t=st=1673959407~exp=1673960007~hmac=c92ca48f22680c99c2bc92f774b7cc36d49e5e23421392533be8216c59e15866"
+                productsurl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkDLrhFD76yIC9A2os4sDnhn1d5uGFnua03Q&usqp=CAU"
             },
             {
                 id: "3",
-                productsurl: "https://img.freepik.com/free-psd/gradient-international-nurses-day-landing-page-template_23-2149342947.jpg?w=1060&t=st=1673959407~exp=1673960007~hmac=c92ca48f22680c99c2bc92f774b7cc36d49e5e23421392533be8216c59e15866"
+                productsurl: "https://themewagon.com/wp-content/uploads/2020/12/eflyer.jpg"
             },
         ],
         Details: {
@@ -559,7 +559,7 @@ data: [
     },
     {
         title: {
-            shortTitle: 'News website templates',
+            shortTitle: 'Shops website templates',
             longTitle: "About - Ati Uttam is a SaaS product which provides regional translation service and SEO localisation service to a website. All the translations happens live when an end-user is visiting the webpage. No extra content is added to original server all the operations are done by Ati Uttam in Real-Time. It is built on Cloudflare Workers."
         },
         price: {
@@ -569,18 +569,18 @@ data: [
         },
       
         tagline: "best product in the world",
-        image: "https://img.freepik.com/free-vector/flat-social-media-sale-post-template_23-2149024782.jpg?w=1380&t=st=1673959489~exp=1673960089~hmac=44e8a21de38328b1d76a90f3c391bd6db205506a4feb9eb7cec93d326d9efb50",
+        image: "https://img.freepik.com/free-psd/banner-with-cooking-home_23-2148545418.jpg?w=1060&t=st=1673956139~exp=1673956739~hmac=5a0ac69eded545baa02f64f892adedc46c1b726c447b9866ab9d7ca6b815bd80",
         productsimage: [{
                 id: "1",
-                productsurl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFGEjWkOB2VUm5gRHsw09wQG2JnU0GnrnU4g&usqp=CAU"
+                productsurl: "https://img.freepik.com/premium-vector/online-shop-banner-landing-page-illustration_41786-84.jpg?w=996"
             },
             {
                 id: "2",
-                productsurl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT3-rj2YbdSDVJXzPYuRimfPlDQMaZJrscWgplgaaKSTLGvEUXMzlvgW8gUbaiU5Bq5Kg&usqp=CAU"
+                productsurl: "https://img.freepik.com/free-psd/online-shopping-web-template_23-2148690174.jpg?w=1060&t=st=1673956234~exp=1673956834~hmac=f9e5e32a9d10a765ecb30f52bb4774eeb13fcd25afbecadddb98195717de5abb"
             },
             {
                 id: "3",
-                productsurl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTikkc2t_crp8dEaPj6pZd4xeKfm0Kj2TQ6w6YcXBDQiwutjWRVkeOQEUyC97iOiN0yA1k&usqp=CAU"
+                productsurl: "https://themewagon.com/wp-content/uploads/2018/08/Coloshop-Free-Bootstrap-eCommerce-Website-Template.jpg"
             },
         ],
         Details: {
@@ -634,7 +634,7 @@ data: [
     },
     {
         title: {
-            shortTitle: 'News website templates',
+            shortTitle: 'Shops website templates',
             longTitle: "About - Ati Uttam is a SaaS product which provides regional translation service and SEO localisation service to a website. All the translations happens live when an end-user is visiting the webpage. No extra content is added to original server all the operations are done by Ati Uttam in Real-Time. It is built on Cloudflare Workers."
         },
         price: {
@@ -644,18 +644,18 @@ data: [
         },
       
         tagline: "best product in the world",
-        image: "https://img.freepik.com/free-vector/non-stop-news-concept-background_1017-14192.jpg?w=900&t=st=1673959576~exp=1673960176~hmac=bbfa461c58ca1be7afc9c222837b5de99f077cb96caa1fac82f4ac4c02139b3a",
+        image: "https://themes.getbootstrap.com/wp-content/uploads/2019/11/uinvgh78-1200x900.jpg",
         productsimage: [{
                 id: "1",
-                productsurl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRQMY2evC-fduNyxEiP7gVjvuMR8GQ-2f75g&usqp=CAU"
+                productsurl: "https://d85wutc1n854v.cloudfront.net/live/products/icons/WB0CS9DSM.jpg?v=3.0.0"
             },
             {
                 id: "2",
-                productsurl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDjJmRyWq-pHT_rz59dxfbDobVwc9xN8HC_zitYa7vBC0_7RWRCqP-66hOWn62nwVHocs&usqp=CAU"
+                productsurl: "https://i0.wp.com/athemeart.com/wp-content/uploads/2021/06/gstore.png?resize=640%2C288&ssl=1"
             },
             {
                 id: "3",
-                productsurl: "https://line25.com/wp-content/uploads/2018/04/9-24h-News.jpg?ezimgfmt=rs:386x189/rscb1/ngcb1/notWebP"
+                productsurl: "https://cdn.cssauthor.com/wp-content/uploads/2022/02/Aurum.jpg?strip=all&lossy=1&resize=1000%2C500&ssl=1"
             },
         ],
         Details: {
@@ -709,7 +709,7 @@ data: [
     },
     {
         title: {
-            shortTitle: 'News website templates',
+            shortTitle: 'Shops website templates',
             longTitle: "About - Ati Uttam is a SaaS product which provides regional translation service and SEO localisation service to a website. All the translations happens live when an end-user is visiting the webpage. No extra content is added to original server all the operations are done by Ati Uttam in Real-Time. It is built on Cloudflare Workers."
         },
         price: {

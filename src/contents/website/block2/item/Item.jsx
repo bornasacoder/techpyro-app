@@ -86,6 +86,7 @@ const Buttons1 = styled("a")(({theme})=>({
     display:"flex",
     justifyContent:"center",
     alignItems:"center",
+    cursor:'pointer',
   
     "&:hover":{
       transition:"all 0.2s linear",
@@ -100,7 +101,8 @@ const Buttons1 = styled("a")(({theme})=>({
     [theme.breakpoints.down('md')]: {
       width:"100px",
       height:"35px",
-      fontSize:"13px"
+      fontSize:"13px",
+      cursor:'none',
     },
     [theme.breakpoints.down('sm')]: {
       width:"120px",

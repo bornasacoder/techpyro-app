@@ -163,8 +163,8 @@ export const sliderData = [
             Price: "Rs 500/-"
           },
           {
-     url:"https://img.freepik.com/free-vector/realistic-glassmorphism-mobile-app-template_23-2149441714.jpg?w=2000",
-name: "Education Templates",
+            url:"https://img.freepik.com/free-vector/realistic-glassmorphism-mobile-app-template_23-2149441714.jpg?w=2000",
+            name: "Education Templates",
             Price: "Rs 500/-"
           },
           {

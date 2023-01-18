@@ -43,7 +43,7 @@ const SearchList = styled(List)(({theme}) => ({
   `;
   
 
-export default function SearchBar() {
+export default function SearchBar(props) {
     const [showSearch, setShowSearch] = useState('none')
     const theme = useTheme();
 
@@ -59,7 +59,7 @@ export default function SearchBar() {
     }
     document.addEventListener('mousedown',closeOpenMenus);
   return (
-    <Search sx={{height:36}}>
+    <Search sx={{height:36, display:`${props.logo}`==='Cart'?{xs:'none',sm:'flex'}:'flex'}}>
         <SearchIcon sx={{ marginTop:'6px',marginLeft:'10px', color: `${theme.header.background}`}}/>
         <SearchField placeholder='search anything... ' sx={{ "& fieldset": { border: 'none' }, '& .MuiInputBase-input': {
       padding: "8px",

@@ -1,7 +1,8 @@
 import { Box, Card, styled, Typography,useTheme } from '@mui/material'
 import React from 'react'
+import { Link } from 'react-router-dom';
 
-const Buttons1 = styled("a")(({theme})=>({
+const Buttons1 = styled(Link)(({theme})=>({
   marginTop:"10px",
   width: "120px",
   height:"40px",
@@ -44,12 +45,12 @@ export default function Item({CardLinks}) {
   return (
     <Card sx={{height:{sm:'400px',xs:'200px',boxShadow:'none',position:'relative'}}}>
       <Box sx={{height:'100%'}}>
-        <img style={{height:'100%',width:'100%'}} src={CardLinks.image} alt="card"/>
+        <img style={{height:'100%',width:'100%',objectFit:'cover'}} src={CardLinks.image} alt="card"/>
       </Box>
       <Box sx={{position:'absolute' ,left:'7%',right:0,top:'35%',color:`${theme.colors.alpha.white[100]}`}}>
           <Typography sx={{fontSize:{md:'40px',sm:'35px',xs:'23px'}, fontWeight: 500,fontFamily:'cursive'}}>{CardLinks.title}</Typography>
           <Typography sx={{fontSize:{md:'30px',sm:'25px',xs:'18px'}, fontWeight: 400,}}>{CardLinks.offer}</Typography>
-          <Buttons1 target="_blank"  variant="outlined" >
+          <Buttons1 to={`/${CardLinks.url}`} variant="outlined" >
                     Shop Now
           </Buttons1>
       </Box>

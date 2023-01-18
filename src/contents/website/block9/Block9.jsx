@@ -134,9 +134,9 @@ export default function Block9(props) {
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <Header sliderH={props.sliderData.category}/>
+        <Header/>
         <Slider {...settings}>
-        { props.sliderData.data.map((item)=>(
+        { props.websitesData.data.map((item)=>(
         <Item posterLinks={item} />
         ))}
         </Slider>

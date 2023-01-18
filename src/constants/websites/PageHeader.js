@@ -10,14 +10,14 @@ export const navData = [
       href: "hotel",
     },
     {
-      url: "https://png.pngtree.com/element_our/png/20181229/vector-shop-icon-png_302739.jpg",
-      text: "Shop",
-      href: "shop", 
-    },
-    {
       url: "https://w7.pngwing.com/pngs/88/724/png-transparent-restaurant-menu-text-restaurant-menu-icon-restaurant-menu-design-logo-logo-flag-food-free-logo-design-template.png",
       text: "Restaurant",
       href: "restaurant",
+    },
+    {
+      url: "https://png.pngtree.com/element_our/png/20181229/vector-shop-icon-png_302739.jpg",
+      text: "Shop",
+      href: "shop", 
     },
     {
       url: "https://png.pngtree.com/png-vector/20201027/ourmid/pngtree-breaking-news-banner-lower-png-image_2378724.jpg",
