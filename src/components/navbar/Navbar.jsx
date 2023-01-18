@@ -16,11 +16,12 @@ import {
     TextField,
     List,
     ListItemText,
+    Badge,
     
     
   } from "@mui/material";
 
-import { AccountCircle, Call, Help, LocationCityRounded, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  Search,  ShoppingBag, ShoppingCart} from '@mui/icons-material';
+import { AccountCircle, Call, EastOutlined, FavoriteBorder, Help, LocationCityRounded, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  Search,  SearchOffOutlined,  ShoppingBag, ShoppingCart} from '@mui/icons-material';
 
 import MenuButtons from 'components/menuButtons/MenuButtons';
 
@@ -29,31 +30,27 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
   height:'auto',
   width:'100%',
     display: 'flex',
-    justifyContent:'space-evenly',
+    justifyContent:'space-between',
     alignItems: 'center',
-    position: 'sticky',
+    // position: 'sticky',
     [theme.breakpoints.down('md')]: {
         height: 'auto',
-        // width: '93vw',
-            // top: '-21px'
-            marginLeft:'10px',
-            marginRight:'15px'
+        
         },
         [theme.breakpoints.up('sm')]: {
             height: 'auto',
-            // marginTop:'20px'
-              //   marginLeft:'30px',
-              //   marginRight:'30px'
+           
             },
         [theme.breakpoints.down('sm')]: {
           height: '70px',
-          // marginTop:'20px'
-              marginLeft:'20px',
-              marginRight:'30px',
-              justifyContent:'space-between'
+          width:'100%',
+          
+              margin:'0px',
+              padding:'0px',
+             
+              // justifyContent:'space-between'
           },
-        // marginLeft:'150px',
-        // marginRight:'150px',
+        
         color:theme.header.background,
     }));
     
@@ -66,15 +63,18 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         
         // flex:'3',
         display: 'flex',
-        // gap:'30px', 
-        //   justifyContent: 'space-between',
+        // gap:'150px', 
+        marginLeft:'50px',
+          // justifyContent: 'space-between',
         // paddingLeft:'30px',
         alignItems: 'center',
         [theme.breakpoints.down('md')]: {
             gap:"10px"
         },
         [theme.breakpoints.down('sm')]: {
-            paddingLeft:'0px'
+            // paddingLeft:'0px',
+            marginLeft:'10px',
+            width:'250px'
         },
         
         
@@ -85,13 +85,15 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         display: 'flex',
          gap:'10px',
         // paddingRight:'30px',
-        //    flexDirection:"column",
+           flexDirection:"column",
         alignItems: 'center',
+        marginRight:'50px',
         // [theme.breakpoints.down('md')]: {
             //     justifyContent:"space-between"
             // },
             [theme.breakpoints.down('sm')]: {
-               paddingRight:'0px',
+              //  paddingRight:'0px',
+              //  margin:'0px'
               //  display:'block',
                 
             },
@@ -135,9 +137,9 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
 const Ram = styled(Box)(({ theme }) => ({
   height:'750px',
   width:'100%',
-    backgroundImage: `url(${"/images/category/bgdimg9.jpeg"})`,
+    backgroundImage: `url(${"/images/category/bgdimg12.webp"})`,
    backgroundSize:'cover',
-  position:'sticky',
+  
       
   }
 ));
@@ -149,7 +151,7 @@ const Downnav = styled(Box)(({ theme }) => ({
   // alignItems:'center',
   flexDirection:'column',
   backgroundColor:'transparent',
-  paddingLeft:'100px',
+  paddingLeft:'150px',
   [theme.breakpoints.down('sm')]: {
     paddingLeft:'10px',
      gap:'30px'
@@ -160,16 +162,18 @@ const Downnav = styled(Box)(({ theme }) => ({
 
 const NavBar = styled(AppBar)(({theme}) =>({
     backgroundColor:theme.header.background,
-    color:theme.header.textColor,
-    // justifyContent:"space-evenly",
+   
     width:'100%',
-    // height:'750px',
+    height:'120px',
     margin:"0",
     padding:'0',
-    zIndex:'300',
-  //   backgroundImage: `url(${"/images/category/bgdimg3.jpeg"})`,
-  //  backgroundSize:'cover',
-position:'static'
+    // zIndex:'100',
+position:'sticky',
+
+[theme.breakpoints.down('sm')]: {
+  height:'80px',
+  width:'100%',
+},
 
 }));
 
@@ -189,33 +193,42 @@ export default function Navbar() {
 
     
   return (
-    <Ram>
+    <>
+    
       <NavBar >
-        <Box sx={{position:{xs:'fixed',sm:'fixed',md:'fixed'},width:'100%',alignItems:'center',backgroundColor:`${theme.header.textColor}`,zIndex:'100',height:'70px',display:'flex'}}>
+      <Box sx={{backgroundColor:'black',color:'white',display:{xs:'none',sm:'none',md:'flex'},justifyContent:'space-evenly',alignItems:'center',height:'40px'}}>
+          <Typography>SIGN UP & GET 15% OFF</Typography>
+          <Typography>FREE DELIEVERY</Typography>
+          <Typography>UPI & NET BANKING AVAILABLE</Typography>
+        </Box>
+       
         <StyleToolbar  >
-        <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
-            <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'}}}>Restaurent</Typography>
-           </Box>
+        
         <NavLeft >
-           <Box>
+        <Box>
            <MenuButton onClick={handleOpen}>
-                <Menu color='black'sx={{display: {xs:'block',sm:'block',md:'none'}}}/>
+                <Menu sx={{display: {xs:'block',sm:'block',md:'none'},color:'black',fontSize:'30px'}}/>
             </MenuButton>
             <Drawer open={open} onClose={handleClose} sx={{position:'absolute'}}>
                 <MenuButtons/>
             </Drawer>
            </Box>
+           <FavoriteBorder sx={{color:'black',display: {xs:'block',sm:'block',md:'none'}}} />
+        <Box sx={{display:{xs:'flex',sm:'flex',md:'block'}}}>
+            <Typography sx={{fontSize:{xs:'40px',sm:'30px',md:'40px'},color:'black',paddingLeft:'40px'}}>LOGO</Typography>
+           </Box>
+          
            
-                <Box  >
-                  <List sx={{display:{xs:'none',sm:'none',md:'flex'},gap:'30px',fontSize:'30px'}}>
-                  <ListItemText  primary={`HOME`}/>
-                    <ListItemText primary={`ABOUT`}/>
-                    <ListItemText primary={`PORTFOLIO`}/>
-                    <ListItemText primary={`MENU`}/>
-                    <ListItemText primary={`BLOG`}/>
-                    <ListItemText primary={`PAGES`}/>
-                    <ListItemText primary={`CONTACT US`}/>
-                    <Search />
+                <Box sx={{paddingLeft:'200px'}} >
+                  <List sx={{display:{xs:'none',sm:'none',md:'flex'},gap:'30px',fontSize:'30px',color:'black'}}>
+                  <ListItemText  primary={`MEN`}/>
+                    <ListItemText primary={`WOMEN`}/>
+                    <ListItemText primary={`KIDS`}/>
+                    <ListItemText primary={`SPORTS`}/>
+                    <ListItemText primary={`BRANDS`}/>
+                    <ListItemText primary={`COLLECTIONS`}/>
+                    <ListItemText primary={`OUTLETS`}/>
+                   
                   </List>
                     {/* <Typography  component="div" sx={{fontSize: {xs:'25px',sm:'25px',md:'40px'},fontFamily:'revert-layer',color:`${theme.header.textColor}`}}>
                         Uber Eats
@@ -225,34 +238,50 @@ export default function Navbar() {
                     </Typography> */}
                     
                 </Box>
-                {/* <SearchBar/> */}
-                {/* <Badge sx={{display:{sm:'block',md:'none'}, left:'48px'}}>
-                    <ShoppingCart/>
-                </Badge> */}
+                
+               
                 {/* <NavButton/> */}
                
             </NavLeft >
-            <Box sx={{display:{xs:'block',sm:'block',md:'none'}}}>
-            <Typography sx={{fontSize:{xs:'30px',sm:'30px',md:'40px'}}}>Restaurent</Typography>
-           </Box>
+           
             <NavRight > 
-              <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
+            <Box sx={{color:'black',position:'static',display:{xs:'none',sm:'none',md:'flex'},justifyContent:'space-evenly',gap:'30px'}}>
+          <Typography sx={{fontWeight:'600'}}>help</Typography>
+          <Typography sx={{fontWeight:'600'}}>returns</Typography>
+          <Typography sx={{fontWeight:'600'}}>order tracker</Typography>
+          <Typography sx={{fontWeight:'600'}}>sign up</Typography>
+        </Box>
+        <Box sx={{display:{xs:'none',sm:'none',md:'flex'},gap:'30px'}}>
+            <SearchBar />
+            <Person2Outlined sx={{color:'black'}}/>
+            <FavoriteBorder sx={{color:'black'}} />
+           <ShoppingBag sx={{color:'black'}} />
+           </Box>
+
+           <Box sx={{display:{xs:'flex',sm:'flex',md:'none'},gap:'10px'}}>
+           
+            <Person2Outlined sx={{color:'black'}}/>
+           <Search sx={{color:'black'}}/>
+           <ShoppingBag sx={{color:'black'}} />
+           </Box>
+           
+              {/* <Box sx={{display:{xs:'none',sm:'none',md:'none'}}}>
             <MenuButton onClick={handleOpen}>
                 <Menu color='black'sx={{display: {xs:'block',sm:'block',md:'block'}}}/>
             </MenuButton>
             <Drawer open={open} onClose={handleClose} sx={{position:'absolute'}}>
                 <MenuButtons/>
             </Drawer>
-            <Button variant='contained' sx={{borderRadius:'0px'}}>BOOK A TABLE</Button>
-            </Box>
+           
+            </Box> */}
 
-            <Box>
+            {/* <Box>
                 <List sx={{display:{xs:'block',sm:'block',md:'none'},gap:'30px',fontSize:'30px'}}>
                  
                     <Search />
                     
                   </List>
-                </Box>
+                </Box> */}
               {/* <Box sx={{display:'flex',paddingRight:'20px'}}>
               <Call sx={{fontSize:'30px'}}/>
               <Typography sx={{fontSize:'20px'}}>+91-9999999999</Typography>
@@ -265,42 +294,26 @@ export default function Navbar() {
               
             </NavRight>
         </StyleToolbar>
-        </Box>
+       
         </NavBar>
+        <Ram>
         <Downnav>
-          <Box sx={{gap:'20px',display:{xs:'none',sm:'none',md:'block'}}}>
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'70px'},color:`${theme.header.background}`,fontWeight:'700'}}>Good Food Made Easy</Typography>
-          <Typography sx={{fontSize:{xs:'40px',sm:'40px',md:'50px'},fontWeight:'700',color:`${theme.header.background}`}}>
-            Are You Hungry?
+          <Box sx={{gap:'20px',display:{xs:'block',sm:'block',md:'block'}}}>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},color:`${theme.header.background}`,fontWeight:'700'}}>FLAT 40% OFF</Typography>
+          <Typography sx={{fontSize:{xs:'40px',sm:'40px',md:'20px'},fontWeight:'700',color:`${theme.header.background}`}}>
+            END OF  SEASON SALE
             
           </Typography>
-          <Box sx={{color:`${theme.header.background}`}}>inappropriate behavior is often laughed off as “boys will be boys,” women</Box>
-          <Box sx={{color:`${theme.header.background}`}}>face higher conduct standards especially in the workplace. That’s why it’s</Box>
-          <Box sx={{color:`${theme.header.background}`}}>crucial that, as women.</Box>
-          <Box sx={{paddingTop:'30px'}}>
-          <Button variant='contained' sx={{borderRadius:'0'}}>LEARN  MORE</Button>
+          <Box sx={{display:'flex',flexDirection:'column',width:'170px',gap:'20px'}}>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SHOP MEN  <EastOutlined /></Button>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SHOP WOMEN  <EastOutlined /></Button>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SHOP KIDS  <EastOutlined /></Button>
           </Box>
           </Box>
-          <Box sx={{gap:'20px',display:{xs:'flex',sm:'flex',md:'none'},flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'70px'},color:`${theme.header.background}`,fontWeight:'700'}}>Good Food Made Easy</Typography>
-          <Typography sx={{fontSize:{xs:'25px',sm:'40px',md:'50px'},fontWeight:'700',color:`${theme.header.background}`}}>
-            Are You Hungry?
-            
-          </Typography>
-          <Box>
-          <Box sx={{color:`${theme.header.background}`}}>inappropriate behavior is often laughed off as “boys will be </Box>
-          <Box sx={{color:`${theme.header.background}`}}>face higher conduct standards especially in the workplace. </Box>
-          <Box sx={{color:`${theme.header.background}`}}>inappropriate behavior is often laughed off as “boys will be </Box>
-          <Box sx={{color:`${theme.header.background}`}}>face higher conduct standards especially in the workplace. </Box>
-          <Box sx={{color:`${theme.header.background}`}}>crucial that, as women.</Box>
-          </Box>
-          <Box sx={{paddingTop:'30px'}}>
-          <Button variant='contained' sx={{borderRadius:'0'}}>LEARN  MORE</Button>
-          </Box>
-          </Box>
+          
         </Downnav>
         </Ram>
-        
+        </>
        
      
     

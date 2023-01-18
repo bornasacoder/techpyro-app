@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {Card, CardMedia, Typography, Box,useTheme,styled, Button} from '@mui/material';
-import { ChatBubbleOutlineRounded, Coffee, DinnerDining, FavoriteBorder, Liquor, Mood, RiceBowlTwoTone, Star, StarHalf } from '@mui/icons-material';
+import { ChatBubbleOutlineRounded, Coffee, DinnerDining, EastOutlined, FavoriteBorder, Liquor, Mood, RiceBowlTwoTone, Star, StarHalf } from '@mui/icons-material';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
@@ -12,8 +12,8 @@ export default function Card1() {
   const CardBox = styled(Card)(({theme})=>({
   display:'flex',
   flexDirection:'column',
-  width:'350px',
-  height:'200px',
+  width:'400px',
+  height:'400px',
   borderRadius:'0px',
   gap:'20px',
   [theme.breakpoints.down('lg')]: {
@@ -26,8 +26,8 @@ export default function Card1() {
     height:'400px',
   },
   [theme.breakpoints.down('sm')]: {
-    width:'300px',
-    height:'300px',
+    width:'100%',
+    height:'200px',
     flexDirection:'column',
     padding:'0px'
   }
@@ -43,35 +43,39 @@ const Box1= styled(Box)(({ theme }) => ({
 ));
   return ( 
     <>
-  <Box sx={{display:'flex',flexDirection:'column',alignItems:'center',padding:{xs:'80px 0px 0px 30px',sm:'100px 50px',md:'100px'}}}>
-       <Typography sx={{fontSize:{xs:'20px',sm:'25px',md:'25px'},fontWeight:'700'}}>Our Process</Typography>
-       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'40px'},fontWeight:'700'}}>Healthy and Improves Your Mood</Typography>
-
+  <Box sx={{display:'flex',flexDirection:'column',alignItems:'center',padding:{xs:'80px 20px 0px 20px',sm:'100px 50px',md:'100px'},gap:'40px'}}>
+       
+       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'35px'},fontWeight:'700',color:'black'}}>POPULAR RIGHT NOW</Typography>
+       <Box sx={{display:{xs:'none',sm:'none',md:'flex'},gap:'20px',fontWeight:'400'}}>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}> ARGENTINA </Button>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SAMBA</Button>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>FOOTBALL</Button>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>FORUM</Button>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SHOES</Button>
+          </Box>
+          <Box sx={{display:{xs:'block',sm:'block',md:'none'},gap:'20px',fontWeight:'300',width:'100%'}}>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black',margin:'10px'}}> SHOES </Button>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black',margin:'10px'}}>SAMBA</Button>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black',margin:'10px'}}>FOOTBALL</Button>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black',margin:'10px'}}>FORUM</Button>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black',margin:'10px'}}>ARGENTINA</Button>
+          </Box>
        
        </Box>
+       <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'45px'},fontWeight:'700',color:'black',paddingLeft:{xs:'30px',sm:'60px',md:'120px'}}}>WHO ARE U SHOPPING FOR?</Typography>
+       <Box sx={{display:'flex',gap:'20px'}}></Box>
     <Box  data-aos-duration="3000" sx={{display:'flex',justifyContent:'center',gap:{xs:'0px',sm:'50px',md:'30px'},flexDirection:{xs:'column',sm:'column',md:'row'}}}>
+
       
-   <Box sx={{padding:{xs:'30px',sm:'50px',md:'0'}}}>
-   <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'350px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'20px'}}>
-   <Box sx={{display:'flex',justifyContent:'space-between'}}>
-          <Typography><Liquor sx={{fontSize:'45px'}}/></Typography>
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},fontWeight:'700'}}>01</Typography>
-        </Box>
-        <Typography></Typography>
-        
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Cleaned Bar</Typography>
-        <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
-        
-        
-        {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
-       </Box>
+   <Box sx={{padding:{xs:'0px',sm:'50px',md:'0'}}}>
+   
       <CardBox >
 
         <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'},}}>
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="/images/category/blockimg9.jpeg"
+          image="/images/category/adidas1.jpeg"
           alt="green iguana"
         />
        </Box>
@@ -79,10 +83,17 @@ const Box1= styled(Box)(({ theme }) => ({
       
 
       </CardBox>
-    
+    <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'400px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'20px'}}>
+   <Box sx={{display:'flex',justifyContent:'center'}}>
+          
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'700'}}>MEN</Typography>
+        </Box>
+       
+       
+       </Box>
       </Box>
-      <Box sx={{padding:{xs:'30px',sm:'50px',md:'0'}}}>
-      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'350px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'20px'}}>
+      <Box sx={{padding:{xs:'0px',sm:'50px',md:'0'}}}>
+      {/* <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'350px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'20px'}}>
    <Box sx={{display:'flex',justifyContent:'space-between'}}>
           <Typography><Coffee sx={{fontSize:'45px'}}/></Typography>
           <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},fontWeight:'700'}}>02</Typography>
@@ -93,15 +104,15 @@ const Box1= styled(Box)(({ theme }) => ({
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         
         
-        {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
-       </Box>
+       
+       </Box> */}
       <CardBox >
 
         <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'}}}>
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="/images/category/blockimg10.jpeg"
+          image="/images/category/adidas2.webp"
           alt="green iguana"
         />
        </Box>
@@ -109,10 +120,17 @@ const Box1= styled(Box)(({ theme }) => ({
       
 
       </CardBox>
-      
+      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'400px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'20px'}}>
+   <Box sx={{display:'flex',justifyContent:'center'}}>
+          
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'700'}}>WOMEN</Typography>
+        </Box>
+       
+       
+       </Box>
       </Box>
-      <Box sx={{padding:{xs:'30px',sm:'50px',md:'0'}}}>
-      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'350px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'20px'}}>
+      <Box sx={{padding:{xs:'0px',sm:'50px',md:'0'}}}>
+      {/* <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'350px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'20px'}}>
    <Box sx={{display:'flex',justifyContent:'space-between'}}>
           <Typography><DinnerDining sx={{fontSize:'45px'}}/></Typography>
           <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},fontWeight:'700'}}>03</Typography>
@@ -123,15 +141,15 @@ const Box1= styled(Box)(({ theme }) => ({
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         
         
-        {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
-       </Box>
+       
+       </Box> */}
       <CardBox >
 
         <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'}}}>
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="/images/category/blockimg11.jpeg"
+          image="/images/category/adidas3.webp"
           alt="green iguana"
         />
        </Box>
@@ -139,12 +157,19 @@ const Box1= styled(Box)(({ theme }) => ({
       
 
       </CardBox>
-      
+      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'400px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'20px'}}>
+   <Box sx={{display:'flex',justifyContent:'center'}}>
+          
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'700'}}>KIDS</Typography>
+        </Box>
+       
+       
+       </Box>
       </Box>
       
       
       </Box>
-      <Box sx={{display:'flex',justifyContent:'space-evenly',padding:{xs:'100px 30px',sm:'100px 50px',md:'100px'},flexDirection:{xs:'column',sm:'column',md:'row'},alignItems:'center',gap:'20px'}}>
+      {/* <Box sx={{display:'flex',justifyContent:'space-evenly',padding:{xs:'100px 30px',sm:'100px 50px',md:'100px'},flexDirection:{xs:'column',sm:'column',md:'row'},alignItems:'center',gap:'20px'}}>
         <RiceBowlTwoTone sx={{fontSize:{xs:'60px',sm:'35px',md:'60px'}}}/>
       <Box sx={{display:'flex',flexDirection:'column',alignItems:'center'}}>
        <Typography sx={{fontSize:{xs:'20px',sm:'25px',md:'30px'},fontWeight:'400'}}>We Have 25+ Years of Experience, </Typography>
@@ -156,8 +181,8 @@ const Box1= styled(Box)(({ theme }) => ({
       <Box sx={{display:'flex',alignItems:'center'}}>
       <Button variant='contained' sx={{borderRadius:'0'}}>CONTACT US</Button>
       </Box>
-      </Box>
-      <Box1>
+      </Box> */}
+      {/* <Box1>
          <Box sx={{height:{xs:'300px',sm:'400px',md:'500px'},width:{xs:'300px',sm:'400px',md:'500px'},backgroundColor:`${theme.header.textColor2}`,margin:{xs:'50px',sm:'50px',md:'100px 0px 0px 200px '},display:'flex',justifyContent:'space-evenly',alignItems:'center',paddingLeft:'50px'}}>
           <Box sx={{display:'flex',flexDirection:'column',gap:'30px'}}>
           <Typography sx={{color:`${theme.header.background}`}}>Get in Touch</Typography>
@@ -173,7 +198,7 @@ const Box1= styled(Box)(({ theme }) => ({
           <Typography sx={{color:`${theme.header.background}`}}> <Mood />READ FEEDBACK</Typography>
           </Box>
          </Box>
-      </Box1>
+      </Box1> */}
       </>
   );
 }

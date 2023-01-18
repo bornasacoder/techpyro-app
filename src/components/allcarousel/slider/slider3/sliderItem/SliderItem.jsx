@@ -1,86 +1,71 @@
 import React from 'react'
 import { styled } from '@mui/styles'
+import zIndex from '@mui/material/styles/zIndex'
 import { Box } from '@mui/system'
 import { Typography } from '@mui/material'
 
 const SliderContainer = styled("div")({
 width:"100%",
 height:"auto",
-backgroundImage: `url(${"/images/category/bgdimg8.jpeg"})`,
-backgroundSize:'cover',
-position:'static',
+// paddingLeft:"px",
+// zIndex:"1",
+// border:'1px solid black'
 
 })
 const ImageContainer = styled("div")({
-    width:'100%',
     display:"flex",
+    width:'100%',
     alignItems:"center",
-    justifyContent:"center",
+    // justifyContent:"center",
     flexDirection:"column",
-    margin:"10px 20px",
+    // margin:"10px 20px"
+    // border:'1px solid black',
     "@media (max-width: 480px)": {
-        width:'100%',
-        },
-
-})
-const Head = styled("h3")({
-    fontFamily:'serif',
-    fontSize: "30px",
-    // paddingLeft:'30px',
-    // fontWeight:"500",
-    // textAlign:"center",
-    // marginBottom:"5px",
-    "@media (max-width: 1250px)": {
-        fontSize: "20px",
-        },
-    "@media (max-width: 900px)": {
-        fontSize: "15px",
-        },
-    "@media (max-width: 480px)": {
-       fontSize: "7px",
-       },
-})
-const Image = styled("img")({
-    width:"300px",
-    height:"400px",
-    objectFit:"cover",
-    margin:"10px",
-    '&:hover':{
-        transform:[{scaleX:"5px"}],
-        // backgroundColor:"white"
-
-    },
-    "@media (max-width: 960px)": {
-        width:'200px',
-        height:'230px',
+       gap:'30px'
         
         },
-        "@media (max-width: 770px)": {
-         width:'160px',
-         height:'160px',
-         
-         },
-         "@media (max-width: 600px)": {
-             width:'120px',
-             height:'120px',
-             
-             },
-             "@media (max-width: 480px)": {
-                 width:'100%',
-                 height:'400px',
-                 paddingRight:'30px'
-                 
-                 },
+
 })
-// const Head = styled("h3")({
-//     fontSize: "16px",
-//     fontWeight:"500",
-//     textAlign:"center",
-//     marginBottom:"5px",
-//     "@media (max-width: 600px)": {
-//        fontSize: "13px",
-//        },
-// })
+const Image = styled("img")({
+    width:"260px",
+    height:"300px",
+    objectFit:"cover",
+    // margin:"40px",
+    zIndex:"1",
+    // border:'1px solid black',
+    "@media (max-width: 960px)": {
+       width:'200px',
+       height:'230px',
+       
+       },
+       "@media (max-width: 770px)": {
+        width:'160px',
+        height:'200px',
+        
+        },
+        "@media (max-width: 600px)": {
+            width:'120px',
+            height:'170px',
+            
+            },
+            "@media (max-width: 480px)": {
+                width:'80px',
+                height:'300px',
+                margin:'0',
+                padding:'20px',
+                gap:'20px'
+                
+                },
+})
+const Head = styled("h3")({
+    fontSize: "15px",
+    fontWeight:"400",
+    // textAlign:"center",
+    marginBottom:"5px",
+    "@media (max-width: 600px)": {
+       fontSize: "13px",
+       },
+})
 // const Para = styled("p")({
 //     fontSize:"14px",
 //     fontWeight:"600",
@@ -89,18 +74,21 @@ const Image = styled("img")({
 //         },
 // })
  const SliderItem = ({posterLinks}) => {
+    console.log(posterLinks)
   return (
-    <>
-    
-       <Box>
+       <>
+      
        <SliderContainer>
         <ImageContainer>
             <Image src={posterLinks.image} />
+            <Box sx={{width:{xs:'0px',sm:'200px',md:'260px'}}}>
+            <Head>{posterLinks.price.mrp}</Head>
             <Head>{posterLinks.name}</Head>
-            
+            <Head>{posterLinks.style}</Head>
+            <Head>{posterLinks.tagline}</Head>
+            </Box>
         </ImageContainer>
        </SliderContainer>
-       </Box>
        </>
   )
 }

@@ -3,25 +3,27 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { styled } from '@mui/styles';
-// import "../minislider/minislider.css"
-import SliderItem from './sliderItem/SliderItem';
-import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
-// import { createTheme } from '@mui/material';
-
+// import "./BigSlider.css"
+import SliderItem from '../../carousel/carousel2/sliderItem/SliderItem';
+import {  ArrowCircleLeftOutlined, ArrowCircleRightOutlined, } from '@mui/icons-material';
+import { color } from '@mui/system';
+import { Box, Typography } from '@mui/material';
 const SliderContainer = styled('div')({
-width:"99%",
+width:"100%",
 height:"auto",
-margin:"2% 0.3%",
+// margin:"2% 0.3%",
 overflow:"hidden",
-backgroundColor:"primary",
-boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+backgroundColor:"transparent",
+// border:'1px solid black',
+// boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
 "@media (max-width: 1490px)": {
- margin:"2% -1.5%"
+//  margin:"2% -1.5%"
+
 
 },
-"@media (max-width: 1200px)": {
-  width:"95%",
-  margin:"1% 1rem"
+"@media (max-width: 480px)": {
+    backgroundColor:'transparent',
+    width:'100%'
  
  },
 
@@ -29,11 +31,16 @@ boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
 })
 const SliderInnerContainer = styled('div')({
   display: "flex",
-  justifyContent:"space-between",
+  justifyContent:"center",
+  // alignItems:'center',
   flexDirection:"column",
-  boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-  padding:"0px 40px",
-  backgroundColor:"primary"
+  // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+  padding:"20px 80px",
+  "@media (max-width: 480px)": {
+    backgroundColor:'white',
+   padding:'0px'
+ 
+ },
 })
 
 
@@ -41,8 +48,8 @@ const PreviousBtn = (props) =>{
   const {className,onClick} = props;
   
    return (
-         <div className={className} onClick={onClick}>
-          <ChevronLeftOutlined style={{color:'black',zIndex:'10',fontSize:'2.5rem' }} />
+         <div className={className}   onClick={onClick}>
+          <ArrowCircleLeftOutlined style={{color:'white',zIndex:'100',fontSize:'3rem' }} />
          </div>  
    )
 }
@@ -50,82 +57,91 @@ const PreviousBtn = (props) =>{
 const NextBtn = (props) =>{
    const {className,onClick} = props;
    return (
-     <div  className={className} onClick={onClick}>
-       <ChevronRightOutlined style={{color:'black',  zIndex:'10',fontSize:'2.5rem'}} />
+     <div  className={className}  onClick={onClick}>
+       <ArrowCircleRightOutlined style={{color:'white',  zIndex:'20',fontSize:'3rem'}} />
      </div>
    )
 }
 
 
-const MiniSlider = (props) => {
+const BigSlider = (props) => {
   
   const settings = {
     dots: false,
     arrows:true,
-    infinite: true,
+    infinite: false,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4.5,
     slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 2000,
     cssEase: "linear",
-    initialSlide: 0,
+    initialSlide:0,
     prevArrow:<PreviousBtn />,
     nextArrow:<NextBtn />,
       responsive: [
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 4,
-            slidesToScroll:1,
+            slidesToShow: 3,
+            slidesToScroll: 1,
             speed: 300,
-            arrows:false,
+            arrows:true,
           },
         },
          {
-          breakpoint: 980,
+          breakpoint: 960,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
+            autoplay:true,
           },
         },
         {
-          breakpoint: 800,
+          breakpoint: 770,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
+            autoplay:true,
           },
         },
         {
-          breakpoint: 680,
+          breakpoint: 600,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
+            autoplay:true,
           },
         },
         {
-          breakpoint: 500,
+          breakpoint: 480,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2.3,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
+            // autoplay:true,
+            // dots: true,
           },
         },
-     ]
+    ]
   };
   return (
     <>
+     <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center',paddingTop:'80px'}}>
+       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'45px'},fontWeight:'700',color:'black',paddingLeft:{xs:'10px',sm:'60px',md:'120px'}}}>BEST OF ADIDAS</Typography>
+       
+       </Box>
     <SliderContainer>         
        <SliderInnerContainer>
     <Slider {...settings}>
-     { props.sliderData.data.map((item)=>(
+     { props.sliderData.map((item)=>(
       <SliderItem posterLinks={item} />
       ))}
     </Slider>
@@ -137,4 +153,4 @@ const MiniSlider = (props) => {
   )
 }
 
-export default MiniSlider
+export default BigSlider

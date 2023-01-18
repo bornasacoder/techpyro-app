@@ -1,5 +1,5 @@
 
-import { LocationCityOutlined, LocationCitySharp } from '@mui/icons-material';
+import { LocationCityOutlined, LocationCitySharp, SearchOutlined } from '@mui/icons-material';
 import { styled, TextField, Box, List, ListItem, ListItemText, Divider } from '@mui/material'
 import React,{useRef, useState} from 'react'
 
@@ -7,11 +7,13 @@ const Search = styled(Box)(({theme}) => ({
 
     // border:'1px solid black',
     // margin-left: 10px;
-    width: '40%',
-    // height:'10%', 
-    
-    backgroundColor: '#fff',
+    width: '200px',
+    height:'35px', 
+    borderRadius:'0px',
+    backgroundColor: '#ECEFF1',
     display: 'flex',
+    alignItems:'center',
+    border:'1px solid black',
     [theme.breakpoints.down('sm')]: {
         width: '100%',
         // position: 'absolute',
@@ -28,7 +30,7 @@ const Search = styled(Box)(({theme}) => ({
 
     },
     [theme.breakpoints.up('md')]: {
-        width: '40%',
+        
         // position: 'absolute',
         // top : '80px',
         // right: '4.5px',
@@ -39,11 +41,14 @@ const Search = styled(Box)(({theme}) => ({
 const SearchField = styled(TextField)(({theme}) => ({
     // height:'10%',
     // padding: 8.5px 21px;
-    fontSize: 'unset',
+    // fontSize: 'unset',
     // paddingLeft:'px',
-    width:'100%' ,
+    width:'200px' ,
+    height:'30px',
+    borderRadius:'0px',
     [theme.breakpoints.down('sm')]: {
         width: '100%',
+
         padding:'0'
         // position: 'absolute',
         // top : '80px',
@@ -83,9 +88,10 @@ export default function SearchBar() {
   return (
     <Search>
        
-        <SearchField   placeholder= 'Enter delievery address... ' sx={{ '& .MuiInputBase-input': {paddingLeft:{xs:'0px',sm:'0px',md:'66px'},
-     height:{xs:'25px',sm:'25px',md:'20px'}
-    },}} onClick={searchHandler} ref={catMenu}></SearchField>
+        <SearchField   placeholder='search...' sx={{"& fieldset": {border:'none'}, '& .MuiInputBase-input': {paddingBottom:{xs:'0px',sm:'0px',md:'50px'},
+     height:{xs:'25px',sm:'25px',md:'0px',},borderRadius:'0px'
+    },border:'none'}} onClick={searchHandler} ref={catMenu}  ></SearchField>
+    <SearchOutlined sx={{fontSize:'20px',color:'black',marginLeft:'0px'}}/>
         <SearchList sx={{display: showSearch,
             flexDirection:'column', 
             width: '39.95%',
@@ -96,7 +102,7 @@ export default function SearchBar() {
             <StyledListItem button>
                 <ListItemText primary="Inbox" />
             </StyledListItem>
-            <Divider />
+            <Divider /> 
             <StyledListItem button divider>
                 <ListItemText primary="Drafts" />
             </StyledListItem>

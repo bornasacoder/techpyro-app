@@ -6,20 +6,23 @@ import { styled } from '@mui/styles';
 import "./swiggyslider.css"
 import SliderItem from '../../carousel/carousel2/sliderItem/SliderItem';
 import {  ArrowCircleLeftOutlined, ArrowCircleRightOutlined, } from '@mui/icons-material';
+import { color } from '@mui/system';
+import { Box, Typography } from '@mui/material';
 const SliderContainer = styled('div')({
 width:"100%",
 height:"auto",
 // margin:"2% 0.3%",
 overflow:"hidden",
-backgroundColor:"#171A29",
-boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+backgroundColor:"transparent",
+// boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
 "@media (max-width: 1490px)": {
 //  margin:"2% -1.5%"
 
 
 },
 "@media (max-width: 480px)": {
-    backgroundColor:'white'
+    backgroundColor:'white',
+    width:'100%'
  
  },
 
@@ -27,10 +30,16 @@ boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
 })
 const SliderInnerContainer = styled('div')({
   display: "flex",
-  justifyContent:"space-between",
+  justifyContent:"center",
+  // alignItems:'center',
   flexDirection:"column",
-  boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-  padding:"20px 40px"
+  // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+  padding:"20px 80px",
+  "@media (max-width: 480px)": {
+    backgroundColor:'white',
+   padding:'0px'
+ 
+ },
 })
 
 
@@ -59,9 +68,9 @@ const SwiggySlider = (props) => {
   const settings = {
     dots: false,
     arrows:true,
-    infinite: true,
+    infinite: false,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 4.5,
     slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 2000,
@@ -112,18 +121,22 @@ const SwiggySlider = (props) => {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2.3,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
-            autoplay:true,
-            dots: true,
+            // autoplay:true,
+            // dots: true,
           },
         },
     ]
   };
   return (
     <>
+     <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center',paddingTop:'80px'}}>
+       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'45px'},fontWeight:'700',color:'black',paddingLeft:{xs:'10px',sm:'60px',md:'120px'}}}>NEW ARRIVALS</Typography>
+       
+       </Box>
     <SliderContainer>         
        <SliderInnerContainer>
     <Slider {...settings}>
