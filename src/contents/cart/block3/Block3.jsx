@@ -7,9 +7,9 @@ export default function Block3() {
     const theme = useTheme();
 
   return (
-    <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
-        <Typography sx={{fontSize:'20px'}}>Total<CurrencyRupee sx={{fontSize:"14px"}}/>9999</Typography>
-        <Button sx={{background:`${theme.colors.gradients.blue1}`,color:`${theme.colors.alpha.white[100]}`}}>Order</Button>
+    <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center',zIndex:1}}>
+        <Typography sx={{marginTop:'13px',fontSize:'25px',color:{md:`${theme.colors.alpha.black[100]}`,xs:`${theme.header.textColor}`}}}>Total<CurrencyRupee sx={{fontSize:"20px",marginLeft:'10px'}}/>9999</Typography>
+        <Button sx={{marginTop:'13px',width:'150px',background:`${theme.colors.gradients.blue1}`,color:`${theme.colors.alpha.white[100]}`}}>Order</Button>
     </Box>
   )
 }

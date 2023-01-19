@@ -14,10 +14,10 @@ export default function Cart() {
     <>
         <Navbar menu={'none'} arrow={'block'} logo={'Cart'} />
         <PageHeader/>
-        <Box sx={{display:'flex',flexDirection:{sm:'row',xs:'column'},width:'100vw',marginTop:'160px', padding:{md:'0 10vw',sm:'0 8vw',xs:'0 5vw'}}}>
+        <Box sx={{display:'flex',overflow:'hidden',flexDirection:{md:'row',xs:'column'},width:'100%',marginBottom:{md:'0',xs:'80px'},marginTop:'160px', padding:{md:'0 10%',sm:'0 8%',xs:'0 5%'}}}>
             <Block1/>
             <Block2/>
-            <Box  sx={{alignItems:'center',flexDirection:'column' ,left:0,right:0,top:'91%',display:{md:'none',xs:'flex'},background:`${theme.header.background}`,position:'fixed',height:'70px'}}>
+            <Box  sx={{flexDirection:'column' ,padding:{sm:'0 8%',xs:'0 5%'},left:0,right:0,bottom:0,display:{md:'none',xs:'flex'},background:`${theme.header.background}`,position:'fixed',height:'70px'}}>
                 <Block3/>
           </Box>
         </Box>

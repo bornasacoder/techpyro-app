@@ -8,7 +8,7 @@ import Block3 from '../block3/Block3';
 export default function Block2() {
   const theme = useTheme();
   return (
-    <Box sx={{width:{sm:'25%',xs:'100%'},marginLeft:{md:'3%',sm:'3%',xs:'0'},position:{md:'fixed',xs:'static'},right:'8vw'}}>
+    <Box sx={{width:{md:'25%',xs:'100%'},position:{md:'fixed',xs:'static'},right:{md:'9%'}}}>
       <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center', height:'60px',padding:'0 25px',borderRadius:'5px',background:`${theme.colors.alpha.white[100]}`,cursor:{md:'pointer',xs:'none'},fontSize:'20px', marginBottom:'20px'}}>
         <Box sx={{display:'flex',alignItems:'center',}}>
           <CiDiscount1/>
