@@ -1,157 +1,127 @@
-import { Cake, KebabDining, LunchDining, SetMeal } from "@mui/icons-material";
-import { Box, Grid, Paper, Toolbar, Typography } from "@mui/material";
+import {
+  Battery0Bar,
+  Battery90,
+  Bluetooth,
+  Cake,
+  KebabDining,
+  LunchDining,
+  SetMeal,
+  TouchApp,
+  VolumeUp,
+  Water,
+} from "@mui/icons-material";
+import { Box, Button, Grid, Paper, styled, Toolbar, Typography } from "@mui/material";
 import React from "react";
-import styled from "styled-components";
+// import styled from "styled-components";
 const StyleToolbar = styled(Box)(({ theme }) => ({
-  // bgcolor: "#F4F4F4",
-  padding: "38px 42px ",
-  // background: `url(${"/images/category/middle2.jpg"})
-  //  center/cover no-repeat`,
-  //  backgroundColor: "none!important",
-  // [theme.breakpoints.down("sm")]: {
-
-  //   // left:'50px',
-  //   padding: "68px 42px ",
-  // },
-  // display: "flex",
-  // justifyContent:"space-between",
+  backgroundColor: "#EE8798!important",
+  // zIndex:"2",
+  color: "#ffffff",
+  padding: "48px 42px ",
+  // marginTop:"150px",
+  [theme.breakpoints.down("md")]: {
+    justifyContent:"center",
+    padding: "25px 5px ",
+    },
+    [theme.breakpoints.down("md")]: {
+      justifyContent:"center",
+      padding: "25px 20px ",
+      // marginTop:"95px"
+    },
   gap: 2,
 }));
 const Item = styled(Paper)(({ theme }) => ({
   borderRadius: "0px!important",
   boxShadow: "none!important",
   textAlign: "center",
-  backgroundColor:"#F4F4F4!important",
-  // bgcolor:"none!important",
-  // backgroundColor: "none!important",
-  //   padding:"20px 0px!important",
   fontSize: "18px",
-  // "&:hover": {
-  //   opacity: "0.3",
-  //   bgcolor: "black",
-  // },
   width: { md: "60%!important", sm: "80%!important", xs: "100%!important" },
-  //   [theme.breakpoints.down("sm")]: {
-  //     width: "150px",
-  //   },
+}));
+const Image = styled("img")(({ theme }) => ({
+height: "600px",
+width: "550px",
+[theme.breakpoints.down("md")]: {
+  height: "500px",
+  width: "400px",
+},
+[theme.breakpoints.down("md")]: {
+  height: "300px",
+  width: "320px",
+},
+  backgroundColor:"transparent"
 }));
 export default function Content1() {
   return (
     <StyleToolbar>
-      <Box
-        display="flex"
-        justifyContent="center"
-        sx={{ padding: "26px 0px 28px",gap:"10px" }}
-      >
-        <Typography
-          sx={{
-            // display:"flex",
-            margin: "0px 0px 26px",
-            letterSpacing: "4px",
-            textAlign: "center",
-            // fontFamily: "Dancing Script",
-            fontSize: { md: "48px", sm: "40px", xs: "28px" },
-            fontWeight: "500",
-            // color:"red",
-            // width: { md: "60%", sm: "80%", xs: "100%" },
-          }}
-        >
-         POPULAR NOW
-        </Typography>
-      </Box>
       <Box
         sx={{
           width: "100%",
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          // bgcolor: "#F4F4F4!important",
         }}
       >
-        <Grid
-          container
-          rowSpacing={2}
-          sx={{
-            // bgcolor: "#F4F4F4",
-            // justifyContent: "space-between",
-            // display: "flex",
-            // alignItems: "center",
-          }}
-          columnSpacing={{ xs: 1, sm: 1, md: 2}}
-          //   xs={{xs:12,sm:6,md:4}}
-        >
-          
-          <Grid item xs={12} sm={6} md={4} >
-            <Item
-              sx={{
-                height: "300px", 
-   background: `url(${"/images/category/popular1.webp"})
-   center/cover no-repeat`,
-  
-              }}
-            >
-              {/* <Cake sx={{ fontSize: "75px", color: "red" }} /> */}
-            </Item>
-            <br />
-            <Item sx={{display:"flex",justifyContent:"flex-start"}}>
-              <Typography
-              variant="span"
-              sx={{ borderBottom:"1px solid #000","&:hover":{
-                backgroundColor:"#000",
-                color:'#fff'
-              }}}
-              >
-               WOMEN
-              </Typography>
-            </Item>
+        <Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm: 1, md: 2 }}>
+          <Grid item xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
+            <Image src="https://cdn.thewirecutter.com/wp-content/media/2022/05/runningheadphones-2048px-2395-2x1-1.jpg?auto=webp&quality=75&crop=2:1&dpr=2" />
           </Grid>
-          <Grid item xs={12} sm={6} md={4} >
-            <Item
-              sx={{
-                height: "300px",
-   background: `url(${"/images/category/popular2.webp"})
-   center/cover no-repeat`,
-  
-              }}
-            >
-              {/* <Cake sx={{ fontSize: "75px", color: "red" }} /> */}
-            </Item>
+
+          <Grid item xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
+            <Typography variant="span" sx={{ fontSize: "20px" }}>
+              #Action Feature
+            </Typography>
             <br />
-            <Item sx={{display:"flex",justifyContent:"flex-start"}}>
-              
-              <Typography
-              variant="span"
-              sx={{ borderBottom:"1px solid #000" ,"&:hover":{
-                backgroundColor:"#000",
-                color:'#fff'}}}
-              >
-               MEN
-              </Typography>
-            </Item>
-          </Grid>
-          <Grid item xs={12} sm={6} md={4} >
-            <Item
-              sx={{
-                height: "300px",
-   background: `url(${"/images/category/popular3.webp"})
-   center/cover no-repeat`,
-  
-              }}
-            >
-              {/* <Cake sx={{ fontSize: "75px", color: "red" }} /> */}
-            </Item>
             <br />
-            <Item sx={{display:"flex",justifyContent:"flex-start"}}>
-              
-              <Typography
-              variant="span"
-                sx={{ borderBottom:"1px solid #000","&:hover":{
-                  backgroundColor:"#000",
-                  color:'#fff'} }}
+            <br />
+            <Typography variant="h1" sx={{ fontSize: {md:"48px",sm:"38px",xs:"28px"},color:"#FC6539" }}>
+              Ultimate comfort.
+            </Typography>
+            <Typography variant="h1" sx={{ fontSize: "68px" }}>
+              _____
+            </Typography>
+            <br />
+            <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
+              <Bluetooth />
+              Smart Connectivity
+            </Typography>
+            <br />
+            <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
+              <Battery90 />
+              Long lasting battery
+            </Typography>
+            <br />
+            <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
+              <TouchApp />
+              Touch Control Panel
+            </Typography>
+            <br />
+            <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
+              <VolumeUp />
+              Volume Up Control
+            </Typography>
+            <br />
+            <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
+              <Water />
+              Water Dust Proof
+            </Typography>
+            <br />
+            <Box>
+              <Button
+                sx={{
+
+                  backgroundColor: "#FC6539",
+                  color: "#ffffff",
+                  borderRadius: "40px",
+                  padding: "15px 38px",
+                  "&:hover": {
+                    background: "#000",
+                    color: "#FC6539",
+                  },
+                }}
               >
-               KIDS
-              </Typography>
-            </Item>
+                Buy Now
+              </Button>
+            </Box>
           </Grid>
         </Grid>
       </Box>

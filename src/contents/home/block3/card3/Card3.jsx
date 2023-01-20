@@ -7,7 +7,7 @@ import CardContent from "@mui/material/CardContent";
 
 import Typography from "@mui/material/Typography";
 
-import { Box, Checkbox } from "@mui/material";
+import { Box, Button, Checkbox } from "@mui/material";
 import {
   CurrencyRupee,
   Favorite,
@@ -29,7 +29,11 @@ const MainCard = styled(Box)(({ theme }) => ({
   display: "flex",
   flexWrap: "wrap",
   justifyContent: "space-between",
-  gap: "15px",
+  gap: "30px",
+  [theme.breakpoints.down("sm")]: {
+    dispaly:"flex",
+    justifyContent:"center"
+  },
 }));
 export default function Card1({ sliderData }) {
   const label = { inputProps: { "aria-label": "Checkbox demo" } };
@@ -38,114 +42,73 @@ export default function Card1({ sliderData }) {
     <MainCard>
       <Card
         sx={{
-          maxWidth: {  md: "20vw", sm: "25vw", xs:"35vw" },
+          maxWidth: { md: "30vw", sm: "45vw", xs: "70vw" },
           borderRadius: "0px",
           boxShadow: "none",
           backgroundColor: "#F2F5F9",
           position: "relative",
           height: "auto",
-          marginBottom:"50px",
-          "&:hover": {
-            border:{md:"1px solid #000",sm:"none",xs:"none"} ,
-          },
+          marginBottom: "50px",
+          padding: "15px 20px",
+          border: "2px solid #F1F1F1",
         }}
       >
-        {/* <CardHeader sx={{fontStyle:"italic", "& .MuiCardHeader-title":{fontSize:{xs:"13px"}}}} title={sliderData.shopname} subheader="September 14"  /> */}
+    <Box sx={{height:"200px",
+    width:'350px'
+  }}>
+        <Box sx={{
+            height: { md: "100%", sm: "80%", xs: "100%" },
+            width: { md: "100%", sm: "80%", xs: "60%" },
+          //  border:"10px solid #000",
+          }}>
         <CardMedia
           component="img"
           image={sliderData.image}
           alt="Paella dish"
-          sx={{ height: { md: "40vh", sm: "38vh", xs: "30vh" } }}
-        />
-        <Box sx={{ position: "absolute", top: "10px", right: "10px" }}>
-          <Checkbox
-            {...label}
-            icon={<FavoriteBorder />}
-            checkedIcon={<Favorite sx={{ color: "#000" }} />}
-          />
-        </Box>
-        <Box
-          sx={{
-            position: "absolute",
-            top:{md:'64%',sm:'65%',xs:'60%'},
-            left: "10px",
-            backgroundColor: "#fff",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <CurrencyRupee sx={{ fontSize: "14px" }} />
-          {sliderData.price.cost}
-        </Box>
-        {/* <Box
-          sx={{
-            display: "flex",
-            justifyContent: "center",
-            alignsliderDatas: "center",
-            padding: " 5px 16px 5px 16px",
-            display: { md: "flex", sm: "flex", xs: "none" },
-          }}
-        >
-          <b> Category: </b>
-          {sliderData.category.map((cat) => (
-            <Typography
-              variant="subtitle"
-              sx={{
-                color: "green",
-                padding: "2px 0px 0px 5px",
-                fontSize: "11px",
-              }}
-              color="text.primary"
-            >
-              {cat},
-            </Typography>
-          ))}
-        </Box> */}
-        {/* <Box
-          sx={{
-            display: "flex",
-            paddingLeft: "16px",
-            justifyContent: "flex-start",
-            alignsliderDatas: "center",
-            gap: "10px",
-            marginTop:{xs:"10px"},
-            padding:{xs:"5px"}
-          }}
-        >
-          <Typography
-            variant="body1"
-            sx={{ fontSize: "16px", fontWeight: "600" ,  }}
-          >
-            Rating:
-          </Typography>
-          <Typography
-            variant="body1"
-            sx={{
-              background: "green",
-              color: "white",
-              fontSize: "15px",
-              fontWeight: "600",
-              borderRadius: "10px",
-              padding: "2px 4px",
-              
-            }}
-          >
-            {sliderData.rating}
-          </Typography>
-        </Box> */}
-        <Box sx={{ paddingLeft: "13px", marginTop: { sx: "6px" } }}>
+          height="100%"
+          width="100%"
+          sx={{ "&:hover":{
+            transform:" scale(1.1)",
+            
+          },transition:"0.5s all"}}
+         />
+         </Box>
+         </Box>
+        <Box sx={{}}>
+          <br />
           <Typography
             variant="subtitle"
-            sx={{ fontSize: "16px", fontWeight: "600" }}
+            sx={{ fontSize: {md:"20px",sm:"20px",xs:"16px"}, fontWeight: "600", "&:hover": {
+              color: "#FC6539",
+            }, }}
           >
             {sliderData.tagline}
           </Typography>
-        </Box>
-        <Box sx={{ paddingLeft: "13px", marginTop: { sx: "6px" } }}>
-          <Typography variant="subtitle" sx={{}}>
-            Sports
+          <br />
+          <br />
+          <Typography>20 jan,2023 \ 0 Comments</Typography>
+          <br />
+          <Typography sx={{ fontSize:{md:"17px",sm:'16px',xs:"14px"} }}>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum
+            Ratione nulla quaerat modi omnis.....
           </Typography>
+        </Box>
+        <br />
+        <Box>
+          <Button
+            sx={{
+              color: "#000",
+              border: "1px solid #C1C1C1 ",
+              borderRadius: "0px",
+              padding:"10px 25px",
+              "&:hover": {
+                backgroundColor: "#FC6539",
+                color: "#fff",
+              },
+            }}
+          >
+            Blog Details
+          </Button>
         </Box>
         <Box sx={{ paddingLeft: "13px", marginTop: { sx: "6px" } }}>
           <Typography variant="subtitle" sx={{ fontWeight: "600" }}>

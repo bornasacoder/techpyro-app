@@ -23,7 +23,7 @@ const CustomButton = styled(Box)(({ theme }) => ({
 //  height: '64px',
  display: 'flex',
 // color:"#A4A6A7",
- gap: '15px',
+ gap: '30px',
 // justifyContent:"space-between",
 //  marginRight:'120px',
  alignItems: 'center',
@@ -45,7 +45,7 @@ const Right = styled(Box)(({ theme }) => ({
 // flexDirection:"end",
 justifyContent:"flex-end",
 
-  gap: "30px",
+  gap: "50px",
   // border:"2px solid black",
   alignItems: "center",
   paddingRight: "30px",
@@ -61,7 +61,7 @@ const Left = styled(Box)(({ theme }) => ({
   // justifyContent:"flex",
   // alignItems: "center",
   padding:"12px 0px",
-  gap: 30,
+  gap: "50px",
   // marginLeft: "15px",
   // marginTop: "5px",
   [theme.breakpoints.down("sm")]: {
@@ -73,18 +73,7 @@ const Left = styled(Box)(({ theme }) => ({
     // marginLeft: "90px",
   },
 }));
-const MenuButton = styled(IconButton)(({ theme }) => ({
-  display: "none",
-  // top:"50px",
-  // color:"black!important",
-  zIndex:"200",
-  // color: theme.colors.alpha.white[100],
-  [theme.breakpoints.down("md")]: {
-    display: "block",
-    // right: "50px",
-    // left:'120px',
-  },
-}));
+
 
 const MoreButton = styled(Box)(({ theme }) => ({
   // width: '19%',
@@ -123,15 +112,7 @@ export default function NavButton() {
   //   const [showLogin, setShowLogin] = useState("none");
   //   const [showMore, setShowMore] = useState("none");
   //   onMouseOver={() => setShowLogin("flex")} onMouseOut={() => setShowLogin("none")}
-  const [open, setOpen] = useState(false);
-  const handleOpen = () => {
-    setOpen(true);
-  };
-
-  // const [open, setOpen] = React.useState(false);
-  const handleClose = () => {
-    setOpen(false);
-  };
+ 
 
   return (
     <CustomButton >
@@ -183,16 +164,17 @@ export default function NavButton() {
         </Box>
       </Box> */}
     <Left>
+   
     {/* <Box
         display="flex"
         flexDirection="column"
         textAlign="center"
         // padding="10px 0px 0px 0px"
       >
-        <Typography variant="div" sx={{fontSize:{md:"40px",sm:"30px",xs:"20px"}}} marginTop="5px">
+        <Typography sx={{fontSize:"24px",fontWeight:"500"}}  variant="div" sx={{fontSize:{md:"40px",sm:"30px",xs:"20px"}}} marginTop="5px">
          SKT Food
         </Typography>
-        <Typography variant="p"  paddingBottom="20px">
+        <Typography sx={{fontSize:"24px",fontWeight:"500"}}  variant="p"  paddingBottom="20px">
         FOOD WORDPRESS THEM
         </Typography>
       </Box> */}
@@ -200,12 +182,7 @@ export default function NavButton() {
 
 <Right display="flex">
  
-<MenuButton sx={{}} onClick={handleOpen} >
-    <Menu sx={{fontSize:"38px"}}/>
-</MenuButton>
- <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
-          <MenuButtons sx={{marginTop:{sm:"20px",sx:"20px"}}} />
-        </Drawer>
+
     
 {/* <MenuButtons/> */}
 
@@ -216,7 +193,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography variant="h5">MEN</Typography>
+        <Typography sx={{fontSize:"24px",fontWeight:"500"}}  >Home</Typography>
         <Badge>{/* <ExpandMoreIcon /> */}</Badge>
         <Box
           sx={{
@@ -267,7 +244,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography variant="h5">WOMEN</Typography>
+        <Typography sx={{fontSize:"24px",fontWeight:"500"}}   >Shop</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
@@ -318,7 +295,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography variant="h5">KIDS</Typography>
+        <Typography sx={{fontSize:"24px",fontWeight:"500"}}  >Blogs</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
@@ -370,7 +347,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography variant="h5">UNISEX</Typography>
+        <Typography sx={{fontSize:"24px",fontWeight:"500"}}  >Pages</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
@@ -408,45 +385,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography variant="h5">RELEASEDATES</Typography>
-        {/* <Badge><ExpandMoreIcon /></Badge> */}
-        <Box
-          sx={{
-            display: "none",
-            flexDirection: "column",
-            bgcolor: "background.paper",
-            position: "absolute",
-            color: "red",
-            margin: "250px 0 0 0px",
-            // zIndex:'1000!important'
-          }}
-        >
-          <List component="nav" aria-label="mailbox folders">
-            <ListItem button>
-              <ListItemText primary="Inbox" />
-            </ListItem>
-            <Divider />
-            <ListItem button divider>
-              <ListItemText primary="Drafts" />
-            </ListItem>
-            <ListItem button>
-              <ListItemText primary="Trash" />
-            </ListItem>
-            <Divider light />
-            <ListItem button>
-              <ListItemText primary="Spam" />
-            </ListItem>
-          </List>
-        </Box>
-      </MoreButton>
-      <MoreButton
-        sx={{
-          cursor: "pointer",
-          "&:hover .MuiBox-root": { display: "flex" },
-          "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
-        }}
-      >
-        <Typography variant="h5">SALE</Typography>
+        <Typography sx={{fontSize:"24px",fontWeight:"500"}}  >Contacts</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
@@ -484,7 +423,45 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography>EVENTS</Typography>
+        <Typography sx={{fontSize:"24px",fontWeight:"500"}}  >SALE</Typography>
+        {/* <Badge><ExpandMoreIcon /></Badge> */}
+        {/* <Box
+          sx={{
+            display: "none",
+            flexDirection: "column",
+            bgcolor: "background.paper",
+            position: "absolute",
+            color: "red",
+            margin: "250px 0 0 0px",
+            // zIndex:'1000!important'
+          }}
+        >
+          <List component="nav" aria-label="mailbox folders">
+            <ListItem button>
+              <ListItemText primary="Inbox" />
+            </ListItem>
+            <Divider />
+            <ListItem button divider>
+              <ListItemText primary="Drafts" />
+            </ListItem>
+            <ListItem button>
+              <ListItemText primary="Trash" />
+            </ListItem>
+            <Divider light />
+            <ListItem button>
+              <ListItemText primary="Spam" />
+            </ListItem>
+          </List>
+        </Box> */}
+      {/* </MoreButton>  */}
+      {/* <MoreButton
+        sx={{
+          cursor: "pointer",
+          "&:hover .MuiBox-root": { display: "flex" },
+          "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
+        }}
+      >
+        <Typography sx={{fontSize:"24px",fontWeight:"500"}} >EVENTS</Typography>
         <Badge><ExpandMoreIcon /></Badge>
         <Box
           sx={{
@@ -522,7 +499,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography>DELIVERY</Typography>
+        <Typography sx={{fontSize:"24px",fontWeight:"500"}} >DELIVERY</Typography>
         <Badge><ExpandMoreIcon /></Badge>
         <Box
           sx={{

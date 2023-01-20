@@ -10,6 +10,7 @@ import {
   Select,
   FormControl,
   InputLabel,
+  Typography,
 } from "@mui/material";
 import React, { useRef, useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
@@ -18,45 +19,39 @@ const Search = styled(Box)(({ theme }) => ({
   // border-radius: 5px;
   // margin-left: 10px;
   // width: "60%",
-  backgroundColor: "#fff",
+  width: "55vw",
   display: "flex",
-borderBottom:"3px solid #000",
-paddingBottom:"40px",
-  // [theme.breakpoints.down('sm')]: {
-  //     width: '98vw',
-  //     position: 'absolute',
-  //     top : '80px',
-  //     right: '4.5px',
+  backgroundColor: "#F7F2F1",
 
-  // }
-  [theme.breakpoints.down("md")]: {
-    display:"none"
+  [theme.breakpoints.down('sm')]: {
+    display:"flex",
+    width:"100vw",
+    flexDirection:"column !important",
+     gap:"20px" 
   },
-  [theme.breakpoints.down("sm")]: {
-    display:"none"
-  },
+ 
 }));
 const SearchField = styled(TextField)(({ theme }) => ({
   // height:'40px',
   // padding:' 8.5px 21px',
   fontSize: "unset",
+  display: "flex",
+  justifyContent: "space-between",
+  position: "relative",
+  // padding:"30px 70px",
   // padding-left: 20px,
-  width: "100%",
   flex: 3,
-  border: "none",
-  outline: "none",
-  "&::placeholder": {
-    marginLeft: "100px",
-    fontSize: "40px",
-  },
+  // "&::placeholder": {
+  //   marginLeft: "100px",
+  //   fontSize: "40px",
+  // },
   [theme.breakpoints.down("sm")]: {
     width: "100%",
   },
 }));
 
 const SearchList = styled(List)(({ theme }) => ({
-  [theme.breakpoints.down("sm")]: {
-  },
+  [theme.breakpoints.down("sm")]: {},
 }));
 
 const StyledListItem = styled(ListItem)`
@@ -84,94 +79,35 @@ export default function SearchBar() {
   };
 
   return (
-    <Search sx={{ height:" 5px",  borderRadius: "1px" }}>
-      <Box display="flex" border="none" outline="none">
-        {/* <Select
-          flex={1}
-          value={location}
-          outline="none"
-          border="none"
-          displayEmpty
-          onChange={updatevalue}
-          sx={{
-            position: "relative",
-            "& fieldset": { border: "none" },
-            borderRight: "2px solid #EEEEEE",
-            borderRadius: "1px",
-            display: { md: "block", sm: "none", xs: "none" },
-            
-          }}
-        >
-          <MenuItem value="">Select location</MenuItem>
-          <MenuItem value={1}>Haridwar</MenuItem>
-          <MenuItem value={2}>Delhi</MenuItem>
-          <MenuItem value={3}>Punjab</MenuItem>
-          <MenuItem value={4}>Bihar</MenuItem>
-        </Select> */}
-      </Box>
-      <Box display="flex" sx={{ width: "100%", position: "relative" }}>
-       
-        <SearchField
-          placeholder="search... "
-          sx={{
-            "& .MuiInputBase-input": {
-              padding: "6px 10px",
-              // marginBottom: "45px",
-              height: "10px",
-              // position:"relative",
-              width: "100%",
-              outline: "none",
-              fontSize:"16px"
-            },
-            "& fieldset": { border: "none" },
-          }}
-          onClick={searchHandler}
-          ref={catMenu}
-        >
-
-          </SearchField>
-          <SearchIcon
-          color="secondary"
-          border="none"
-          outline="none"
-          sx={{
-            position: "absolute",
-            left: "170px",
-            // top: "15px",
-            fontSize: "30px"
-          }}
-        />
-        {/* <SearchList
-          sx={{
-            display: showSearch,
-            flexDirection: "column",
-            marginTop: "36px",
-            bgcolor: "#fff",
-            position: "absolute",
-            right:"0px",
-            left:"0px",
-            color: "red",
-            zIndex: "100",
-          }}
-          component="nav"
-          aria-label="mailbox folders"
-          ref={catMenu}
-          >
-          <StyledListItem button>
-            <ListItemText primary="Inbox" />
-          </StyledListItem>
-          <Divider />
-          <StyledListItem button divider>
-            <ListItemText primary="Drafts" />
-          </StyledListItem>
-          <StyledListItem button>
-            <ListItemText primary="Trash" />
-          </StyledListItem>
-          <Divider light />
-          <StyledListItem button>
-            <ListItemText primary="Spam" />
-          </StyledListItem> */}
-        {/* </SearchList> */}
+    <Search>
+      <SearchField
+        placeholder="email@example.com "
+        sx={{
+          "& .MuiInputBase-input": {
+            // marginBottom:"70px",
+            fontSize: "20px",
+            paddingLeft: "30px",
+          },
+          "& fieldset": { border: "1px solid #000", borderRadius: "40px" },
+        }}
+        onClick={searchHandler}
+        ref={catMenu}
+      ></SearchField>
+      <Box
+        sx={{
+          position: {md:"absolute",sm:"absolute",xs:"relative"},
+          left: {md:"67vw",sm:"67vw",xs:"0"},
+          padding:"12px 12px",
+        borderRadius:{md:"0px 40px 40px 0px",sm:"0px 40px 40px 0px",xs:"40px"},
+          backgroundColor: "#000",
+          color: "#fff",
+         
+          "&:hover":{
+            backgroundColor:"#FE7E57"
+          }
+        }}
+      >
+        <Typography sx={{ fontSize: "25px" }}>Subscribe</Typography>
       </Box>
     </Search>
   );

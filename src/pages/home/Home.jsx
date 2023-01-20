@@ -2,7 +2,7 @@
 import Sliders from 'components/slider/slider1/Sliders'
 import React from 'react'
 import MiniSlider from 'components/slider/slider2/MiniSlider';
-import {shoes} from "../../constants/slider/shoes";
+import {shoes} from "../../constants/slider/earbud";
 import {thali} from "../../constants/slider/thali";
 import {fastFood} from "../../constants/slider/jogger";
 import {other} from "../../constants/slider/other";
@@ -30,16 +30,17 @@ const Home = () => {
   return (
     <div>
     <Navbar />
-    <Content4/>
-    <Content7/>
-    <Content1/>
-  <Block1/>
+     <Content4/>
+     <Content10/>
+     <Content1/>
+   <Content7/>
+   <Block1/>
+   <Content8/>
+   <Block3/>
+   <Content9/>
+  <Footer/>  
+     {/*
   <Block2/>
-  <Block3/>
-  <Content8/>
-  <Content9/>
-  <Content10/>
-  <Footer/> 
     {/* <Content7/> */}
     {/* <Content6/>
     */}

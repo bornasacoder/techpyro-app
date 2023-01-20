@@ -46,6 +46,8 @@ import {
   ShoppingBagOutlined,
   Diamond,
   Search,
+  Settings,
+  SettingsOutlined,
 } from "@mui/icons-material";
 // import MenuButtons from "./menuButtons/MenuButtons";
 import MainCarousel from "components/carousel/MainCarousel";
@@ -56,7 +58,7 @@ const StyleToolbar = styled(Toolbar)(({ theme }) => ({
   bgcolor: "#575B5C",
   display: "flex",
   justifyContent: "space-between",
-  gap: 2,
+  // gap: 2,
   // display: "flex",
   // height:"100px",
   // justifyContent: "space-between",
@@ -106,58 +108,40 @@ const StyleToolbar = styled(Toolbar)(({ theme }) => ({
 //   align-items: center;
 //   justify-content: flex-end;
 // `;
-const NavLeft = styled(Box)(({ theme }) => ({
-  // gap: "120px",
-  display: "flex",
-  flex: 2,
-  marginLeft:"30px",
-  // border:"2px solid black",
-  // justifyContent: "space-between",
-  // alignItems: "center",
-  // marginTop: "5px",
+const MenuButton = styled(IconButton)(({ theme }) => ({
+  display: "none",
+  // top:"50px",
+  // color:"black!important",
+  zIndex:"200",
+  // color: theme.colors.alpha.white[100],
   [theme.breakpoints.down("md")]: {
-    justifyContent:'center',
-    flexDirection:'row-reverse'
+    display: "block",
+    // right: "50px",
+    // left:'120px',
   },
-  [theme.breakpoints.down("sm")]: {
-    justifyContent:"center",
-    flexDirection:'row-reverse'
-  },
- 
+}));
+const NavLeft = styled(Box)(({ theme }) => ({
+  display: "flex",
+  
 }));
 const NavRight = styled(Box)(({ theme }) => ({
   display: "flex",
-  flexDirection:"coloumn",
-  justifyContent:"flex-start",
-  flex: 2,
-  // flexDirection:"end",
-  // justifyContent:"flex-end",
-
-  // gap: "120px",
-  // border:"2px solid black",
-  // alignItems: "center",
-  // paddingRight: "20px",
-  // marginTop: "10px",
-  [theme.breakpoints.down("md")]: {
-    justifyContent:"flex-end",
-    marginRight:"20px"
-  },
-  [theme.breakpoints.down("sm")]: {
-    justifyContent:"flex-end",
-    marginRight:"20px"
-  },
+  flexDirection: "coloumn",
+  justifyContent: "flex-start",
 }));
 const NavBar = styled(Box)(({ theme }) => ({
   // background: theme.header.background,
   background: "#fff",
   color: theme.colors.alpha.black[100],
   display: "flex",
-  justifyContent:"space-between",
-  gap: "50px",
-  flexDirection: "column",
-  zIndex:"20",
+  justifyContent: "space-between",
+  // gap: "50px",
+  // flexDirection: "column",
+  zIndex: "20",
+  position:"fixed",
+  width:"100vw",
   // height: "150vh",
-  paddingBottom: "15px",
+  padding: "15px 15px",
   // color: "white",
   [theme.breakpoints.down("sm")]: {
     // height: "100vh",
@@ -165,40 +149,41 @@ const NavBar = styled(Box)(({ theme }) => ({
   // width: "100%",
   // color: "#fff",
   // zIndex: 200,
-  // position: "static",
   // background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)
   // ),url(${"/images/category/header1.jpg"})
   //  center/cover no-repeat`,
 }));
+const Image = styled("img")(({ theme }) => ({
+  height: "50px",
+  width: "100px",
+}));
 
 export default function Navbar() {
-  
-  // const [location, setLocation] = useState("");
-  // const updatevalue = (e, vel) => {
-  //   setLocation(e.target.value);
-  // };
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => {
+    setOpen(true);
+  };
 
-  // const handleClick = () => {
-  //   setOpen(open);
-  // };
+  // const [open, setOpen] = React.useState(false);
+  const handleClose = () => {
+    setOpen(false);
+  };
+  
   return (
     // <Box>
-    <NavBar >
+    <NavBar>
       {/* <Box display="flex" flexDirection="column"sx={{gap:{md:'5px',sm:'20px',xs:'60px'}}}>
         <Content />
         
         {/* <MenuButtons/> */}
-          {/* <MenuButtons >
+      {/* <MenuButtons >
           <Menu   sx={{color:"white"}}/>
     </MenuButtons> */}
 
       {/* </Box>  */}
-      
-
-       <StyleToolbar>
         <NavLeft>
-        <Diamond sx={{fontSize:"60px",color:'red'}}/>
-        <NavButton/>
+          <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFGoKdCZhdhVSfAjL1RplOiJrR2c7iNkrsNg&usqp=CAU" />
+          <NavButton />
           {/* <MenuButtons >
           <Menu   sx={{color:"black"}}/>
     </MenuButtons>
@@ -229,80 +214,60 @@ export default function Navbar() {
         </NavLeft>
 
         <NavRight>
-      <Box>   
-         <Box sx={{display:{md:"flex",sm:"none",xs:"none"}}}>
-         <Button
-          sx={{
-            color: "#000",
-            border:"none",
-            fontSize:"11px"
-          }}
-        >
-          blog
-        </Button>
-         <Button
-          sx={{
-            color: "#000",
-            border:"none",
-            fontSize:"11px"
-          }}
-        >
-          help
-        </Button>
-         <Button
-          sx={{
-            color: "#000",
-            border:"none",
-            fontSize:"11px"
-          }}
-        >
-          exchanges&returns
-        </Button>
-         <Button
-          sx={{
-            color: "#000",
-            border:"none",
-            fontSize:"11px"
-          }}
-        >
-         order tracker
-        </Button>
-         <Button
-          sx={{
-            color: "#000",
-            border:"none",
-            fontSize:"11px"
-          }}
-        >
-          news latter
-        </Button>
-         <Button
-          sx={{
-            color: "#000",
-            border:"none",
-            fontSize:"11px"
-          }}
-        >
-          login
-        </Button>
-         <Button
-          sx={{
-            color: "#000",
-            border:"none",
-            fontSize:"11px"
-          }}
-        >
-          signup
-        </Button>
-         </Box>
-         <Box display="flex" justifyContent="flex-end" gap={1}>
-<SearchBar/>
-<PersonOutline sx={{fontSize:"30px"}}/>
-<FavoriteBorder sx={{fontSize:"30px",display:{md:"block",sm:"none",xs:"none"}}}/>
-<Search sx={{fontSize:"30px",display:{md:"none",sm:"block",xs:"block"}}}/>
-<ShoppingBagOutlined sx={{fontSize:"30px"}}/>
-         </Box>
-     </Box> 
+          <Box display="flex" gap={1} alignItems="center">
+            {/* <SearchBar/> */}
+            <Search
+              sx={{
+                fontSize: "30px",
+                "&:hover": {
+                  color: "red",
+                },
+                display:{md:"flex", sm:"none", xs:"none"}
+              }}
+            />
+            <Badge
+              badgeContent={4}
+              sx={{
+                "& .MuiBadge-badge": {
+                  fontSize: 18,
+                  height: 18,
+                  minWidth: 15,
+                  color: "#fff",
+                  bgcolor: "#000",
+                },
+              }}
+              overlap="circular"
+            >
+              <ShoppingBagOutlined
+                sx={{
+                  fontSize: "30px",
+                  fontWeight: "200px",
+                  "&:hover": {
+                    color: "red",
+                  },
+                }}
+              />
+            </Badge>
+            <Typography fontSize="20px">$245</Typography>
+            <SettingsOutlined
+              sx={{
+                fontSize: "30px",
+                fontWeight: "200px!important",
+                "&:hover": {
+                  color: "red",
+                },
+                display:{md:"flex", sm:"none", xs:"none"}
+              }}
+            />
+             <MenuButton sx={{}} onClick={handleOpen} >
+    <Menu sx={{fontSize:"30px"}}/>
+</MenuButton>
+ <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
+          <MenuButtons sx={{marginTop:{sm:"20px",sx:"20px"}}} />
+        </Drawer>
+            {/* <PersonOutline sx={{fontSize:"30px"}}/>
+<FavoriteBorder sx={{fontSize:"30px",display:{md:"block",sm:"none",xs:"none"}}}/> */}
+          </Box>
           {/* <Avatar
             lt="Remy Sharp"
             src="/images/category/logo.png"
@@ -337,7 +302,7 @@ export default function Navbar() {
               Log in
             </Button>  */}
         </NavRight>
-      </StyleToolbar> 
+     
       {/* <Box
         sx={{
           display: "flex",

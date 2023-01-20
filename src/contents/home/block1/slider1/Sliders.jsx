@@ -9,17 +9,17 @@ import { ChevronLeftOutlined, ChevronRightOutlined } from "@mui/icons-material";
 import Card1 from "../card1/Card1";
 import "./minislider.css";
 import { Typography } from "@mui/material";
-const SliderContainer = styled("div")({
+const SliderContainer = styled("div")(({ theme }) => ({
   width: "100%",
   height: "auto",
   overflow: "hidden",
-});
+}));
 const SliderInnerContainer = styled("div")(({ theme }) => ({
   display: "flex",
   justifyContent: "space-between",
   flexDirection: "column",
   margin: "20px 0px 0px 8px",
-  padding: "0px 40px ",
+  padding: "0px 20px ",
   [theme.breakpoints.down("sm")]: {
     marginLeft: "0px",
     padding: "0px",
@@ -55,7 +55,7 @@ const Sliders = (props) => {
     arrows: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 2000,
@@ -67,7 +67,7 @@ const Sliders = (props) => {
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 3.7,
+          slidesToShow: 2.8,
           slidesToScroll: 1,
           speed: 300,
           arrows: false,
@@ -76,7 +76,7 @@ const Sliders = (props) => {
       {
         breakpoint: 980,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2.5,
           slidesToScroll: 1,
           // autoplay: true,
           speed: 300,
@@ -86,7 +86,7 @@ const Sliders = (props) => {
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2.5,
           slidesToScroll: 1,
           speed: 300,
           arrows: false,
@@ -95,7 +95,7 @@ const Sliders = (props) => {
       {
         breakpoint: 740,
         settings: {
-          slidesToShow: 2.6,
+          slidesToShow: 2.5,
           slidesToScroll: 1,
 
           speed: 300,
@@ -105,16 +105,7 @@ const Sliders = (props) => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2.4,
-          slidesToScroll: 1,
-          speed: 300,
-          arrows: false,
-        },
-      },
-      {
-        breakpoint: 550,
-        settings: {
-          slidesToShow: 2.7,
+          slidesToShow: 2,
           slidesToScroll: 1,
           speed: 300,
           arrows: false,
@@ -123,7 +114,7 @@ const Sliders = (props) => {
       {
         breakpoint: 500,
         settings: {
-          slidesToShow: 2.3,
+          slidesToShow: 1.4,
           slidesToScroll: 1,
           speed: 300,
           arrows: false,
@@ -134,18 +125,6 @@ const Sliders = (props) => {
   return (
     <>
       <SliderContainer>
-        <Typography
-          variant="h1"
-          sx={{
-            margin: "20px 0px 0px 8px",
-            padding: "0px 40px ",
-            letterSpacing: "2px",
-            fontSize: { md: "38px", sm: "38px", xs: "28px" },
-            fontFamily: "  sans-serif",
-          }}
-        >
-          NEW ARRIVALS
-        </Typography>
         <SliderInnerContainer>
           {/* <SliderHeader /> */}
           <Slider {...settings}>

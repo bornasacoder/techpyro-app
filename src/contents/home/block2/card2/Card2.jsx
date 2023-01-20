@@ -54,7 +54,9 @@ export default function Card1({ sliderData }) {
           component="img"
           image={sliderData.image}
           alt="Paella dish"
-          sx={{ height: { md: "40vh", sm: "38vh", xs: "28vh" } }}
+          sx={{ height: { md: "40vh", sm: "38vh", xs: "28vh" },"&:hover":{
+            display:"zoom-in",
+          } }}
         />
         {/* <Box sx={{ position: "absolute", top: "10px", right: "10px" }}>
           <Checkbox

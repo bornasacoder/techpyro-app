@@ -7,8 +7,8 @@ export const jogger = [
                    cost: "299"
                },
                category:["Finger Chips","Samosa","Spring Rolls"],
-               tagline: "Training Essentials Woven Unlined Pants",
-               image:"https://assets.reebok.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/85270675eb604e8d86afab2d0184fa4c_9366/FP9170_01_standard.jpg",   
+               tagline: "Donec tellus Nulla lorem",
+               image:"https://htmldemo.net/sinp/sinp/assets/images/blog/blog1.webp",   
                rating:"4.3",
         
    },
@@ -20,8 +20,8 @@ export const jogger = [
            cost: "299"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Reebok Identity Logo Fleece Joggers",
-        image:"https://assets.reebok.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/b58f1eaa43a04d278fcbaf09010f4b05_9366/GZ2423_01_standard.jpg ",
+       tagline: "Donec tellus Nulla lorem",
+        image:"https://htmldemo.net/sinp/sinp/assets/images/blog/blog2.webp ",
 
        rating:"4.3",
 
@@ -34,8 +34,8 @@ export const jogger = [
            cost: "299"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Reebok Identity Logo Fleece Joggers",
-    image:"https://assets.reebok.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/c12d0ba9619244c8a0eaae970101acc4_9366/HI2826_01_standard.jpg ",
+       tagline: "Donec tellus Nulla lorem",
+    image:"https://htmldemo.net/sinp/sinp/assets/images/blog/blog3.webp ",
        rating:"4.3",
 
 },
@@ -47,8 +47,8 @@ export const jogger = [
            cost: "299"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Reebok Identity Logo Fleece Joggers",
-      image:"https://assets.reebok.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/7f0340fc0b4e4171aad1ad260184952e_9366/GU0789_01_standard.jpg ",
+       tagline: "Donec tellus Nulla lorem",
+      image:"https://htmldemo.net/sinp/sinp/assets/images/blog/blog4.webp ",
        rating:"4.3",
 
 },
@@ -60,7 +60,7 @@ export const jogger = [
            cost: "299"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Reebok Identity Logo Fleece Joggers",
+       tagline: "Donec tellus Nulla lorem",
       image:"https://assets.reebok.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/a41a447c0067475c8abdae930109eb04_9366/HH8325_01_standard.jpg ",
        rating:"4.3",
 

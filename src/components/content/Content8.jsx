@@ -4,9 +4,6 @@ import { Box, styled } from "@mui/system";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   width: "98vw",
-  // background: `url(${"/images/category/shop1.webp"})
-  //        center/cover no-repeat`,
-  // padding: "28px 58px ",
   display: "flex",
   position: "relative",
   justifyContent: "center",
@@ -18,7 +15,7 @@ export default function Content8() {
         width="100%"
         height="500px"
         style={{ position: "absolute", zIndex: "-1", objectFit: "cover" }}
-        src="https://player.vimeo.com/external/455794687.sd.mp4?s=827075b918431fae219c48c7c58d9509b7c75815&profile_id=164&oauth2_token_id=57447761"
+        src="https://player.vimeo.com/external/444586868.sd.mp4?s=bf79ca5c05b60cfdf42e9892c263e5b9ca49ff20&profile_id=164&oauth2_token_id=57447761"
         autoPlay
         loop
         muted
@@ -35,55 +32,49 @@ export default function Content8() {
           height: "500px",
         }}
       >
-        {/* <Box data-aos="fade-right">
-          <Campaign sx={{ fontSize: "100px" }} />
-          </Box>  */}
-          
         <Box>
-        <Typography variant="h3"  sx={{
-                color: "red",
-                fontSize: { md: "28px", sm: "25px", xs: "20px" },
-                // fontFamily: "Dancing Script",
-              }}
-        >TECHPYRO UNLOCK</Typography>
+          
           <Box sx={{ display: "flex", justifyContent: "center" }}>
             <Typography
               variant="h1"
               sx={{
-                color: "white",
+                color: "#FC6539",
+                fontFamily: " Abril Fatface",
                 fontSize: { md: "48px", sm: "38px", xs: "30px" },
                 // fontFamily: "Dancing Script",
               }}
             >
-              FREE SHIPPING,
-              <br />
-              EXCLUSIVES &
-              <br />
-              MORE
+              The Right Headphones
             </Typography>
           </Box>
+          <br/>
           <Typography
             sx={{
-              display:"flex",
-              justifyContent:"center",
+              display: "flex",
+              justifyContent: "center",
               color: "white",
-              fontSize: { md: "25px", sm: "18px", xs: "14px" },
-              textAlign:"center",
+              fontSize: { md: "20px", sm: "18px", xs: "14px" },
+              textAlign: "center",
               alignItems: "center",
             }}
           >
-            You kick it hard with style and fitness. Now get 
+            In ornare quam viverra orci sagittis. Duis ultricies lacus sed
+            turpis tincidunt id aliquet 
             <br/>
-            rewarded for it
-            with a loyalty program that gets you.
+            risus. Arcu felis bibendum ut tristique
+            et.
           </Typography>
         </Box>
-        <Box sx={{padding:"0px 3px 3px 0px",borderBottom:'2px solid #000',borderRight:"2px solid #000",
-      }}>
+        <Box
+          sx={{
+            padding: "0px 3px 3px 0px",
+            borderBottom: "2px solid #000",
+            borderRight: "2px solid #000",
+          }}
+        >
           <Button
             endIcon={<ArrowForward />}
             sx={{
-          
               background: "white",
               color: "#000",
               borderRadius: "0px",
@@ -92,7 +83,6 @@ export default function Content8() {
                 backgroundColor: "#000",
                 color: "#ffffff",
               },
-              // display: { md: "block", sm: "none", xs: "none" },
             }}
           >
             Join Now

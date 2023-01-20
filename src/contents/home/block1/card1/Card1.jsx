@@ -4,7 +4,7 @@ import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
 import CardMedia from "@mui/material/CardMedia";
 import CardContent from "@mui/material/CardContent";
-
+// import "./card1.css"
 import Typography from "@mui/material/Typography";
 
 import { Box, Checkbox } from "@mui/material";
@@ -13,7 +13,15 @@ import {
   Favorite,
   FavoriteBorder,
   FavoriteBorderOutlined,
+  Loop,
+  Opacity,
+  Search,
+  ShoppingBag,
+  ShoppingBagOutlined,
+  SlideshowRounded,
 } from "@mui/icons-material";
+// import zIndex from "@mui/material/styles/zIndex";
+import Slider from "@mui/material/Slider";
 
 // const ExpandMore = styled((props) => {
 //   const { expand, ...other } = props;
@@ -26,37 +34,46 @@ import {
 //   }),
 // }));
 const MainCard = styled(Box)(({ theme }) => ({
+  padding:"0px",
   display: "flex",
   flexWrap: "wrap",
+  width:"30vw",
   justifyContent: "space-between",
-  gap: "15px",
+  gap: "10px",
+  [theme.breakpoints.down("sm")]: {
+    width:"120vw",
+    marginLeft: "0px",
+    padding: "0px",
+  },
+ 
 }));
+
 export default function Card1({ sliderData }) {
   const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
   return (
-    <MainCard>
+    <MainCard sx={{}}>
       <Card
         sx={{
-          maxWidth: { md: "20vw", sm: "25vw", xs:"40vw"  },
+          maxWidth: { md: "30vw", sm: "45vw", xs: "80vw" },
           borderRadius: "0px",
-          boxShadow: "none",
+          // boxShadow: "none",
           backgroundColor: "#F2F5F9",
           position: "relative",
           height: "auto",
-          marginBottom:"50px",
+          marginBottom: "50px",
           "&:hover": {
-            border: {md:"1px solid #000",sm:"none",xs:'none'}
+            border: { md: "1px solid #fff", sm: "none", xs: "none" },
           },
+        
         }}
       >
-        {/* <CardHeader sx={{fontStyle:"italic", "& .MuiCardHeader-title":{fontSize:{xs:"13px"}}}} title={sliderData.shopname} subheader="September 14"  /> */}
         <CardMedia
           component="img"
           image={sliderData.image}
           alt="Paella dish"
-
-          sx={{ height: { md: "40vh", sm: "38vh", xs: "30vh" } }}
+          sx={{ height: { md: "60vh", sm: "25vh",xs:"35vh" },
+         }}
         />
         <Box sx={{ position: "absolute", top: "10px", right: "10px" }}>
           <Checkbox
@@ -65,20 +82,7 @@ export default function Card1({ sliderData }) {
             checkedIcon={<Favorite sx={{ color: "#000" }} />}
           />
         </Box>
-        <Box
-          sx={{
-            position: "absolute",
-            top:{md:'64%',sm:'65%',xs:'60%'},
-            left: "10px",
-            backgroundColor: "#fff",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <CurrencyRupee sx={{ fontSize: "14px" }} />
-          {sliderData.price.cost}
-        </Box>
+
         {/* <Box
           sx={{
             display: "flex",
@@ -135,23 +139,57 @@ export default function Card1({ sliderData }) {
             {sliderData.rating}
           </Typography>
         </Box> */}
-        <Box sx={{ paddingLeft: "13px", marginTop: { sx: "6px" } }}>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "space-between",
+            padding: "10px 10px",
+          }}
+        >
           <Typography
             variant="subtitle"
-            sx={{ fontSize: "16px", fontWeight: "600" }}
+            sx={{ display: "flex", fontSize: "16px" }}
           >
-            {sliderData.tagline}
+            Sold:
+            <Typography sx={{ color: "#FC6539", fontSize: "16px" }}>
+              10
+            </Typography>
+          </Typography>
+          <Typography
+            variant="subtitle"
+            sx={{ display: "flex", fontSize: "16px" }}
+          >
+            Avilable:
+            <Typography sx={{ color: "#FC6539", fontSize: "16px" }}>
+              10
+            </Typography>
           </Typography>
         </Box>
-        <Box sx={{ paddingLeft: "13px", marginTop: { sx: "6px" } }}>
-          <Typography variant="subtitle" sx={{}}>
+        <Box padding="2px 10px">
+        <Slider defaultValue={70} sx={{ color: "#FC6539",  }} />
+        </Box>
+        <Box sx={{ paddingLeft: "10px", marginTop: { sx: "6px" } }}>
+          <Typography variant="subtitle" sx={{ fontSize: "18px" }}>
             {sliderData.tagline1}
           </Typography>
         </Box>
-        <Box sx={{ paddingLeft: "13px", marginTop: { sx: "6px" } }}>
-          <Typography variant="subtitle" sx={{ fontWeight: "600" }}>
-            {sliderData.new}
+        <Box
+          sx={{
+            paddingLeft: "13px",
+            marginTop: { sx: "6px" },
+            display: "flex",
+            alignItems: "center",
+            gap: "3px",
+            color: "#FC6539",
+          }}
+        >
+          <Typography
+            variant="subtitle"
+            sx={{ fontWeight: "600", textDecoration: "line-through" }}
+          >
+            $130.00
           </Typography>
+          <Typography variant="h3" color="#FC6539" >$110.00</Typography>
         </Box>
         {/* <CardContent
           sx={{
