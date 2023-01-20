@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {Card, CardMedia, Typography, Box,useTheme,styled, Button} from '@mui/material';
-import { ChatBubbleOutlineRounded, Coffee, DinnerDining, EastOutlined, FavoriteBorder, Liquor, Mood, RiceBowlTwoTone, Star, StarHalf } from '@mui/icons-material';
+import { CalendarMonth, ChatBubbleOutlineRounded, Coffee, DinnerDining, EastOutlined, FavoriteBorder, Liquor, Mood, Person2Outlined, RiceBowlTwoTone, Star, StarHalf } from '@mui/icons-material';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
@@ -12,10 +12,12 @@ export default function Card1() {
   const CardBox = styled(Card)(({theme})=>({
   display:'flex',
   flexDirection:'column',
-  width:'400px',
-  height:'400px',
-  borderRadius:'0px',
-  gap:'20px',
+  width:'300px',
+  height:'250px',
+  borderRadius:'10px',
+  gap:'30px',
+
+
   [theme.breakpoints.down('lg')]: {
     width:'100vw',
     height:'400px',
@@ -27,7 +29,7 @@ export default function Card1() {
   },
   [theme.breakpoints.down('sm')]: {
     width:'100%',
-    height:'200px',
+    height:'250px',
     flexDirection:'column',
     padding:'0px'
   }
@@ -43,39 +45,23 @@ const Box1= styled(Box)(({ theme }) => ({
 ));
   return ( 
     <>
-  <Box sx={{display:'flex',flexDirection:'column',alignItems:'center',padding:{xs:'80px 20px 0px 20px',sm:'100px 50px',md:'100px'},gap:'40px'}}>
-       
-       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'35px'},fontWeight:'700',color:'black'}}>POPULAR RIGHT NOW</Typography>
-       <Box sx={{display:{xs:'none',sm:'none',md:'flex'},gap:'20px',fontWeight:'400'}}>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}> ARGENTINA </Button>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SAMBA</Button>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>FOOTBALL</Button>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>FORUM</Button>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SHOES</Button>
-          </Box>
-          <Box sx={{display:{xs:'block',sm:'block',md:'none'},gap:'20px',fontWeight:'300',width:'100%'}}>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black',margin:'10px'}}> SHOES </Button>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black',margin:'10px'}}>SAMBA</Button>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black',margin:'10px'}}>FOOTBALL</Button>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black',margin:'10px'}}>FORUM</Button>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black',margin:'10px'}}>ARGENTINA</Button>
-          </Box>
-       
-       </Box>
-       <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'45px'},fontWeight:'700',color:'black',paddingLeft:{xs:'30px',sm:'60px',md:'120px'}}}>WHO ARE U SHOPPING FOR?</Typography>
-       <Box sx={{display:'flex',gap:'20px'}}></Box>
-    <Box  data-aos-duration="3000" sx={{display:'flex',justifyContent:'center',gap:{xs:'0px',sm:'50px',md:'30px'},flexDirection:{xs:'column',sm:'column',md:'row'}}}>
+
+       <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'35px'},fontWeight:'600',color:'black',paddingLeft:{xs:'30px',sm:'60px',md:'120px'},paddingTop:'80px'}}>In The Garage</Typography>
+       <Box sx={{display:'flex',gap:'30px'}}></Box>
+    <Box  data-aos-duration="3000" sx={{display:'flex',justifyContent:'center',gap:{xs:'0px',sm:'50px',md:'20px'},flexDirection:{xs:'column',sm:'column',md:'row'},paddingBottom:'100px'}}>
 
       
-   <Box sx={{padding:{xs:'0px',sm:'50px',md:'0'}}}>
+   <Box sx={{padding:{xs:'10px',sm:'20px',md:'0'}}}>
    
       <CardBox >
 
         <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'},}}>
         <CardMedia
-        sx={{height:'100%'}}
+        sx={{height:'100%', transition:'0.5s all', "&:hover":{
+          transform:'scale(1.5)'
+      },}}
           component="img"
-          image="/images/category/adidas1.jpeg"
+          image="/images/category/garage1.jpeg"
           alt="green iguana"
         />
        </Box>
@@ -83,36 +69,33 @@ const Box1= styled(Box)(({ theme }) => ({
       
 
       </CardBox>
-    <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'400px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'20px'}}>
-   <Box sx={{display:'flex',justifyContent:'center'}}>
+    <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
+   <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'700'}}>MEN</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>Clean the Engine compartment</Typography>
+          <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
+          <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
+            <Typography> <Person2Outlined /> By Admin</Typography>
+            <Typography> <CalendarMonth />jan19,2023</Typography>
+          </Box>
         </Box>
        
        
        </Box>
       </Box>
-      <Box sx={{padding:{xs:'0px',sm:'50px',md:'0'}}}>
-      {/* <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'350px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'20px'}}>
-   <Box sx={{display:'flex',justifyContent:'space-between'}}>
-          <Typography><Coffee sx={{fontSize:'45px'}}/></Typography>
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},fontWeight:'700'}}>02</Typography>
-        </Box>
-        <Typography></Typography>
-        
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Skilled Chef</Typography>
-        <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
-        
-        
-       
-       </Box> */}
+
+
+      <Box sx={{padding:{xs:'10px',sm:'20px',md:'0'}}}>
+   
       <CardBox >
 
-        <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'}}}>
+        <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'},}}>
         <CardMedia
-        sx={{height:'100%'}}
+        sx={{height:'100%',transition:'0.5s all', "&:hover":{
+          transform:'scale(1.5)'
+      }}}
           component="img"
-          image="/images/category/adidas2.webp"
+          image="/images/category/garage2.jpeg"
           alt="green iguana"
         />
        </Box>
@@ -120,36 +103,33 @@ const Box1= styled(Box)(({ theme }) => ({
       
 
       </CardBox>
-      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'400px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'20px'}}>
-   <Box sx={{display:'flex',justifyContent:'center'}}>
+    <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
+    <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'700'}}>WOMEN</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>Replace Brakes Guide</Typography>
+          <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
+          <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
+            <Typography> <Person2Outlined /> By Admin</Typography>
+            <Typography> <CalendarMonth />jan19,2023</Typography>
+          </Box>
         </Box>
        
        
        </Box>
       </Box>
-      <Box sx={{padding:{xs:'0px',sm:'50px',md:'0'}}}>
-      {/* <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'350px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'20px'}}>
-   <Box sx={{display:'flex',justifyContent:'space-between'}}>
-          <Typography><DinnerDining sx={{fontSize:'45px'}}/></Typography>
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},fontWeight:'700'}}>03</Typography>
-        </Box>
-        <Typography></Typography>
-        
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Fresh Product</Typography>
-        <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
-        
-        
-       
-       </Box> */}
+
+
+      <Box sx={{padding:{xs:'10px',sm:'20px',md:'0'}}}>
+   
       <CardBox >
 
         <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'}}}>
         <CardMedia
-        sx={{height:'100%'}}
+        sx={{height:'100%',transition:'0.5s all', "&:hover":{
+          transform:'scale(1.5)'
+      }}}
           component="img"
-          image="/images/category/adidas3.webp"
+          image="/images/category/garage3.jpeg"
           alt="green iguana"
         />
        </Box>
@@ -157,10 +137,50 @@ const Box1= styled(Box)(({ theme }) => ({
       
 
       </CardBox>
-      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'400px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'20px'}}>
-   <Box sx={{display:'flex',justifyContent:'center'}}>
+      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
+      <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'700'}}>KIDS</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>Things to keep in mind while washing car</Typography>
+          <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
+          <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
+            <Typography> <Person2Outlined /> By Admin</Typography>
+            <Typography> <CalendarMonth />jan19,2023</Typography>
+          </Box>
+        </Box>
+       
+       
+       </Box>
+      </Box>
+
+
+      
+      <Box sx={{padding:{xs:'10px',sm:'20px',md:'0'}}}>
+   
+      <CardBox >
+
+        <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'}}}>
+        <CardMedia
+        sx={{height:'100%',transition:'0.5s all', "&:hover":{
+          transform:'scale(1.5)'
+      }}}
+          component="img"
+          image="/images/category/garage4.jpeg"
+          alt="green iguana"
+        />
+       </Box>
+   
+      
+
+      </CardBox>
+      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
+      <Box sx={{display:'flex',flexDirection:'column'}}>
+          
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>Autoparts for Audi</Typography>
+          <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
+          <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
+            <Typography> <Person2Outlined /> By Admin</Typography>
+            <Typography> <CalendarMonth />jan19,2023</Typography>
+          </Box>
         </Box>
        
        

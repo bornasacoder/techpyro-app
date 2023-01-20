@@ -7,8 +7,8 @@ const Search = styled(Box)(({theme}) => ({
 
     // border:'1px solid black',
     // margin-left: 10px;
-    width: '200px',
-    height:'35px', 
+    width: '500px',
+    height:'50px', 
     borderRadius:'0px',
     backgroundColor: '#ECEFF1',
     display: 'flex',
@@ -43,8 +43,8 @@ const SearchField = styled(TextField)(({theme}) => ({
     // padding: 8.5px 21px;
     // fontSize: 'unset',
     // paddingLeft:'px',
-    width:'200px' ,
-    height:'30px',
+    width:'500px' ,
+    height:'45px',
     borderRadius:'0px',
     [theme.breakpoints.down('sm')]: {
         width: '100%',
@@ -88,10 +88,10 @@ export default function SearchBar() {
   return (
     <Search>
        
-        <SearchField   placeholder='search...' sx={{"& fieldset": {border:'none'}, '& .MuiInputBase-input': {paddingBottom:{xs:'0px',sm:'0px',md:'50px'},
+        <SearchField   placeholder='search by part name, number,vehicle,brands.....' sx={{"& fieldset": {border:'none'}, '& .MuiInputBase-input': {paddingBottom:{xs:'0px',sm:'0px',md:'50px'},
      height:{xs:'25px',sm:'25px',md:'0px',},borderRadius:'0px'
     },border:'none'}} onClick={searchHandler} ref={catMenu}  ></SearchField>
-    <SearchOutlined sx={{fontSize:'20px',color:'black',marginLeft:'0px'}}/>
+    <SearchOutlined sx={{fontSize:'30px',color:'black',marginLeft:'0px'}}/>
         <SearchList sx={{display: showSearch,
             flexDirection:'column', 
             width: '39.95%',

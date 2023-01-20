@@ -2,101 +2,101 @@ export const pizza = {
   category:"Pizza",
    data:[ 
     {
-        shopname:"Ram Ji ",
+        name:"DISC BRAKE ",
         price: {
-              mrp: "Rs~499 for two",
+              mrp: "$499.00",
               discount: "50% OFF",
               cost: "299"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Life's too short for boring food",
-          image: "https://images.pexels.com/photos/708587/pexels-photo-708587.jpeg?auto=compress&cs=tinysrgb&w=600",
+          tagline: "Simple leather staring wheel new",
+          image: "https://images.pexels.com/photos/4022545/pexels-photo-4022545.jpeg?auto=compress&cs=tinysrgb&w=600",
           rating:"*4.3",
       },
       {
-        shopname:"Ram Ji ",
+        name:"DISC BRAKE ",
         price: {
-              mrp:"Rs~499 for two",
+          mrp: "$499.00",
               discount: "50% OFF",
               cost: "299"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Life's too short for boring food",
-          image: "https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600",
+          tagline: "Simple leather staring wheel new",
+          image: "https://images.pexels.com/photos/5008306/pexels-photo-5008306.jpeg?auto=compress&cs=tinysrgb&w=600",
           rating:"*4.3",
       },
       {
-        shopname:"Ram Ji ",
+        name:"DISC BRAKE ",
         price: {
-              mrp: "Rs~499 for two",
+          mrp: "$499.00",
               discount:"50% OFF",
               cost: "299"
           },
-         image: "https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&w=600",
+         image: "https://images.pexels.com/photos/5802394/pexels-photo-5802394.jpeg?auto=compress&cs=tinysrgb&w=600",
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Life's too short for boring food",
+          tagline: "Simple leather staring wheel new",
           rating:"*4.3",
       },
       {
-        shopname:"Ram Ji",
+        name:"DISC BRAKE ",
         price: {
-              mrp:"Rs~499 for two",
+          mrp: "$499.00",
               discount: "50% OFF",
               cost: "299"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Life's too short for boring food",
-        image: "https://images.pexels.com/photos/367915/pexels-photo-367915.jpeg?auto=compress&cs=tinysrgb&w=600",
+          tagline: "Simple leather staring wheel new",
+        image: "https://media.istockphoto.com/id/494540353/photo/side-view-mirror.jpg?b=1&s=612x612&w=0&k=20&c=O8mVSjWUq5BJ4fMQpown56FqYufsJB-YWC7Dnz6HJNE=",
           rating:"*4.3",
       },
       {
-        shopname:"Ram Ji",
+        name:"DISC BRAKE ",
         price: {
-              mrp:"Rs~499 for two",
+          mrp: "$499.00",
               discount: "50% OFF",
               cost: "299"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Life's too short for boring food",
-        image:"https://images.pexels.com/photos/1166120/pexels-photo-1166120.jpeg?auto=compress&cs=tinysrgb&w=600",
+          tagline: "Simple leather staring wheel new",
+        image:"https://images.pexels.com/photos/193997/pexels-photo-193997.jpeg?auto=compress&cs=tinysrgb&w=600",
           rating:"4.3",
       },
       {
-        shopname:"Ram Ji ",
+        name:"DISC BRAKE ",
         price: {
-              mrp: "500",
+          mrp: "$499.00",
               discount: "201",
               cost: "299"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Life's too short for boring food",
-       image: "https://images.pexels.com/photos/1435903/pexels-photo-1435903.jpeg?auto=compress&cs=tinysrgb&w=600",
+          tagline: "Simple leather staring wheel new",
+       image: "https://images.pexels.com/photos/165938/pexels-photo-165938.jpeg?auto=compress&cs=tinysrgb&w=600",
           rating:"4.3",
       },
-      {
-        shopname:"Ram Ji",
-        price: {
-              mrp: "500",
-              discount: "201",
-              cost: "299"
-          },
-          category:["Pizza","California Pizza","Detroit Pizza"],
-        image :"https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?auto=compress&cs=tinysrgb&w=600",
-          tagline: "Life's too short for boring food",
-          rating:"4.3",
-      },
-      {
-        shopname:"Ram Ji ",
-        price: {
-              mrp: "500",
-              discount: "201",
-              cost: "299"
-          },
-          category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Life's too short for boring food",
-          image: "https://images.pexels.com/photos/326278/pexels-photo-326278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-          rating:"4.3",
-      }
+      // {
+      //   shopname:"Ram Ji",
+      //   price: {
+      //         mrp: "500",
+      //         discount: "201",
+      //         cost: "299"
+      //     },
+      //     category:["Pizza","California Pizza","Detroit Pizza"],
+      //   image :"https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?auto=compress&cs=tinysrgb&w=600",
+      //     tagline: "Life's too short for boring food",
+      //     rating:"4.3",
+      // },
+      // {
+      //   shopname:"Ram Ji ",
+      //   price: {
+      //         mrp: "500",
+      //         discount: "201",
+      //         cost: "299"
+      //     },
+      //     category:["Pizza","California Pizza","Detroit Pizza"],
+      //     tagline: "Life's too short for boring food",
+      //     image: "https://images.pexels.com/photos/326278/pexels-photo-326278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      //     rating:"4.3",
+      // }
     ]
     }
 

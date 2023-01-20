@@ -70,7 +70,7 @@ const SwiggySlider = (props) => {
     arrows:true,
     infinite: false,
     speed: 500,
-    slidesToShow: 4.5,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 2000,
@@ -82,7 +82,7 @@ const SwiggySlider = (props) => {
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
             arrows:true,
@@ -91,7 +91,7 @@ const SwiggySlider = (props) => {
          {
           breakpoint: 960,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -101,7 +101,7 @@ const SwiggySlider = (props) => {
         {
           breakpoint: 770,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -111,7 +111,7 @@ const SwiggySlider = (props) => {
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -121,22 +121,22 @@ const SwiggySlider = (props) => {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 2.3,
+            slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
             // autoplay:true,
-            // dots: true,
+            dots: true,
           },
         },
     ]
   };
   return (
     <>
-     <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center',paddingTop:'80px'}}>
+     {/* <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center',paddingTop:'80px'}}>
        <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'45px'},fontWeight:'700',color:'black',paddingLeft:{xs:'10px',sm:'60px',md:'120px'}}}>NEW ARRIVALS</Typography>
        
-       </Box>
+       </Box> */}
     <SliderContainer>         
        <SliderInnerContainer>
     <Slider {...settings}>

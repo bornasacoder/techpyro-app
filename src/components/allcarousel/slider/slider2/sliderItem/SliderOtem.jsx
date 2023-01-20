@@ -7,23 +7,31 @@ import { Typography } from '@mui/material'
 const SliderContainer = styled("div")({
 width:"100%",
 height:"auto",
-paddingLeft:"px",
+display:'flex',
+paddingLeft:"20px",
 // zIndex:"1",
-// border:'1px solid black'
+// border:'1px solid black',
+gap:'20px',
 
 })
 const ImageContainer = styled("div")({
     display:"flex",
+    width:'100%',
     alignItems:"center",
     // justifyContent:"center",
     flexDirection:"column",
     // margin:"10px 20px"
-    // border:'1px solid black'
+    border:'1px solid rgba(0,0,0,0.2)',
+    gap:'px',
+    "@media (max-width: 480px)": {
+       gap:'10px'
+        
+        },
 
 })
 const Image = styled("img")({
-    width:"100%",
-    height:"500px",
+    width:"240px",
+    height:"250px",
     objectFit:"cover",
     // margin:"40px",
     zIndex:"1",
@@ -44,11 +52,11 @@ const Image = styled("img")({
             
             },
             "@media (max-width: 480px)": {
-                width:'340px',
-                height:'500px',
+                width:'100%',
+                height:'300px',
                 margin:'0',
-                padding:'0',
-                // gap:'20px'
+                padding:'0px',
+                gap:'0px'
                 
                 },
 })
@@ -68,7 +76,7 @@ const Head = styled("h3")({
 //         fontSize: "12px",
 //         },
 // })
- const SliderItem = ({posterLinks}) => {
+ const SliderOtem = ({posterLinks}) => {
     console.log(posterLinks)
   return (
        <>
@@ -76,16 +84,18 @@ const Head = styled("h3")({
        <SliderContainer>
         <ImageContainer>
             <Image src={posterLinks.image} />
-            {/* <Box sx={{width:{xs:'140px',sm:'200px',md:'260px'}}}>
-            <Head>{posterLinks.price.mrp}</Head>
-            <Head>{posterLinks.name}</Head>
-            <Head>{posterLinks.style}</Head>
+            <Box sx={{width:{xs:'90%',sm:'100%',md:'240px'}}}>
+            
+            <Head style={{fontWeight:'700'}}>{posterLinks.name}</Head>
+            {/* <Head>{posterLinks.style}</Head> */}
             <Head>{posterLinks.tagline}</Head>
-            </Box> */}
+            <Head style={{fontWeight:'500',fontSize:'30px'}}>{posterLinks.price.mrp}</Head>
+            </Box>
+            {/* <Head>{posterLinks.tagline}</Head> */}
         </ImageContainer>
        </SliderContainer>
        </>
   )
 }
 
-export default SliderItem
+export default SliderOtem

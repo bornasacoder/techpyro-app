@@ -7,9 +7,10 @@ import { Typography } from '@mui/material'
 const SliderContainer = styled("div")({
 width:"100%",
 height:"auto",
-// paddingLeft:"px",
+paddingRight:"20px",
 // zIndex:"1",
 // border:'1px solid black'
+
 
 })
 const ImageContainer = styled("div")({
@@ -18,16 +19,16 @@ const ImageContainer = styled("div")({
     alignItems:"center",
     // justifyContent:"center",
     flexDirection:"column",
-    // margin:"10px 20px"
+    // margin:"10px 20px",
     // border:'1px solid black',
     "@media (max-width: 480px)": {
-       gap:'30px'
+       gap:'0px'
         
         },
 
 })
 const Image = styled("img")({
-    width:"260px",
+    width:"400px",
     height:"300px",
     objectFit:"cover",
     // margin:"40px",
@@ -49,10 +50,10 @@ const Image = styled("img")({
             
             },
             "@media (max-width: 480px)": {
-                width:'80px',
+                width:'100%',
                 height:'300px',
                 margin:'0',
-                padding:'20px',
+                padding:'0px',
                 gap:'20px'
                 
                 },
@@ -61,9 +62,9 @@ const Head = styled("h3")({
     fontSize: "15px",
     fontWeight:"400",
     // textAlign:"center",
-    marginBottom:"5px",
+    marginBottom:"0px",
     "@media (max-width: 600px)": {
-       fontSize: "13px",
+       fontSize: "23px",
        },
 })
 // const Para = styled("p")({
@@ -73,7 +74,7 @@ const Head = styled("h3")({
 //         fontSize: "12px",
 //         },
 // })
- const SliderItem = ({posterLinks}) => {
+ const SliderAtem = ({posterLinks}) => {
     console.log(posterLinks)
   return (
        <>
@@ -81,16 +82,17 @@ const Head = styled("h3")({
        <SliderContainer>
         <ImageContainer>
             <Image src={posterLinks.image} />
-            <Box sx={{width:{xs:'0px',sm:'200px',md:'260px'}}}>
+            {/* <Box sx={{width:{xs:'0px',sm:'200px',md:'260px'}}}>
             <Head>{posterLinks.price.mrp}</Head>
             <Head>{posterLinks.name}</Head>
             <Head>{posterLinks.style}</Head>
             <Head>{posterLinks.tagline}</Head>
-            </Box>
+            </Box> */}
+            <Head>{posterLinks.tagline}</Head>
         </ImageContainer>
        </SliderContainer>
        </>
   )
 }
 
-export default SliderItem
+export default SliderAtem

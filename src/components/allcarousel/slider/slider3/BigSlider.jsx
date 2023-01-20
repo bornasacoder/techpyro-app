@@ -8,6 +8,7 @@ import SliderItem from '../../carousel/carousel2/sliderItem/SliderItem';
 import {  ArrowCircleLeftOutlined, ArrowCircleRightOutlined, } from '@mui/icons-material';
 import { color } from '@mui/system';
 import { Box, Typography } from '@mui/material';
+import SliderAtem from './sliderItem/SliderAtem';
 const SliderContainer = styled('div')({
 width:"100%",
 height:"auto",
@@ -17,7 +18,7 @@ backgroundColor:"transparent",
 // border:'1px solid black',
 // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
 "@media (max-width: 1490px)": {
-//  margin:"2% -1.5%"
+padding:'10px',
 
 
 },
@@ -49,7 +50,7 @@ const PreviousBtn = (props) =>{
   
    return (
          <div className={className}   onClick={onClick}>
-          <ArrowCircleLeftOutlined style={{color:'white',zIndex:'100',fontSize:'3rem' }} />
+          <ArrowCircleLeftOutlined style={{color:'black',zIndex:'100',fontSize:'3rem' }} />
          </div>  
    )
 }
@@ -58,7 +59,7 @@ const NextBtn = (props) =>{
    const {className,onClick} = props;
    return (
      <div  className={className}  onClick={onClick}>
-       <ArrowCircleRightOutlined style={{color:'white',  zIndex:'20',fontSize:'3rem'}} />
+       <ArrowCircleRightOutlined style={{color:'black',  zIndex:'20',fontSize:'3rem'}} />
      </div>
    )
 }
@@ -69,9 +70,9 @@ const BigSlider = (props) => {
   const settings = {
     dots: false,
     arrows:true,
-    infinite: false,
+    infinite: true,
     speed: 500,
-    slidesToShow: 4.5,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 2000,
@@ -102,7 +103,7 @@ const BigSlider = (props) => {
         {
           breakpoint: 770,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -112,7 +113,7 @@ const BigSlider = (props) => {
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -122,7 +123,7 @@ const BigSlider = (props) => {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 2.3,
+            slidesToShow: 1.1,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -135,14 +136,14 @@ const BigSlider = (props) => {
   return (
     <>
      <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center',paddingTop:'80px'}}>
-       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'45px'},fontWeight:'700',color:'black',paddingLeft:{xs:'10px',sm:'60px',md:'120px'}}}>BEST OF ADIDAS</Typography>
+       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'45px'},fontWeight:'700',color:'black',paddingLeft:{xs:'10px',sm:'60px',md:'120px'}}}>What's Hot</Typography>
        
        </Box>
     <SliderContainer>         
        <SliderInnerContainer>
     <Slider {...settings}>
      { props.sliderData.map((item)=>(
-      <SliderItem posterLinks={item} />
+      <SliderAtem posterLinks={item} />
       ))}
     </Slider>
       </SliderInnerContainer>  
