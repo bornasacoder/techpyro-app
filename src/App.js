@@ -8,6 +8,7 @@ import {
   Route
 } from "react-router-dom";
 import Cart from "./pages/cart/Cart";
+import Orders from "./pages/orders/Orders";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/websites" element={<Category/>} />
         <Route exact path="/products" element={<Products/>} />
         <Route exact path="/cart" element={<Cart/>} />
+        <Route exact path="/orders" element={<Orders/>} />
       </Routes>
     </Router>
   );

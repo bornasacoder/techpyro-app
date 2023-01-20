@@ -1,4 +1,5 @@
 import {
+  Box,
   Card,
   Checkbox,
   styled,
@@ -14,7 +15,6 @@ import {
 } from "@mui/material";
 import { CurrencyRupee } from "@mui/icons-material";
 import { FaShippingFast } from "react-icons/fa";
-import { Box } from "@mui/system";
 import React,{useState} from "react";
 import AddIcon from '@mui/icons-material/Add';
 import FavoriteBorder from "@mui/icons-material/FavoriteBorder";

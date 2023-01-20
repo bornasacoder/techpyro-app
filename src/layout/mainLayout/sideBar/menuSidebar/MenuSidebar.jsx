@@ -16,6 +16,7 @@ import {
     import PersonIcon from '@mui/icons-material/Person';
     import NotificationsIcon from '@mui/icons-material/Notifications';
     import PhoneIcon from '@mui/icons-material/Phone';
+import { Link } from 'react-router-dom';
 
 export default function MenuSidebar() {
   return (
@@ -43,10 +44,12 @@ export default function MenuSidebar() {
           <ListItemText primary="Choose Language" />
         </ListItem>
         <Divider light />
+          <Link to={'/orders'} style={{textDecoration:'none'}}>
         <ListItem button>
           <FilterFramesIcon/>
           <ListItemText primary="My Orders" />
         </ListItem>
+          </Link>
         <ListItem button>
           <ShoppingCartIcon/>
           <ListItemText primary="My Cart" />
