@@ -7,29 +7,35 @@ import { Typography } from '@mui/material'
 const SliderContainer = styled("div")({
 width:"100%",
 height:"auto",
-paddingRight:"20px",
+paddingRight:"0px",
+background:'transparent',
 // zIndex:"1",
 // border:'1px solid black'
-
+"@media (max-width: 480px)": {
+    
+     },
 
 })
 const ImageContainer = styled("div")({
     display:"flex",
-    width:'100%',
+    width:'242px',
     alignItems:"center",
     // justifyContent:"center",
     flexDirection:"column",
     // margin:"10px 20px",
-    // border:'1px solid black',
+    background:'transparent',
+    border:'1px solid rgba(0,0,0,0.2)',
     "@media (max-width: 480px)": {
-       gap:'0px'
-        
+       gap:'0px',
+        width:'100%',
+        padding:' 0px 5px',
+        border:'none'
         },
 
 })
 const Image = styled("img")({
-    width:"400px",
-    height:"300px",
+    width:"240px",
+    height:"250px",
     objectFit:"cover",
     // margin:"40px",
     zIndex:"1",
@@ -51,10 +57,9 @@ const Image = styled("img")({
             },
             "@media (max-width: 480px)": {
                 width:'100%',
-                height:'300px',
-                margin:'0',
-                padding:'0px',
-                gap:'20px'
+                height:'150px',
+               
+              
                 
                 },
 })
@@ -64,7 +69,7 @@ const Head = styled("h3")({
     // textAlign:"center",
     marginBottom:"0px",
     "@media (max-width: 600px)": {
-       fontSize: "23px",
+    //    fontSize: "23px",
        },
 })
 // const Para = styled("p")({
@@ -77,21 +82,22 @@ const Head = styled("h3")({
  const SliderAtem = ({posterLinks}) => {
     console.log(posterLinks)
   return (
-       <>
+    <>
       
-       <SliderContainer>
-        <ImageContainer>
-            <Image src={posterLinks.image} />
-            {/* <Box sx={{width:{xs:'0px',sm:'200px',md:'260px'}}}>
-            <Head>{posterLinks.price.mrp}</Head>
-            <Head>{posterLinks.name}</Head>
-            <Head>{posterLinks.style}</Head>
-            <Head>{posterLinks.tagline}</Head>
-            </Box> */}
-            <Head>{posterLinks.tagline}</Head>
-        </ImageContainer>
-       </SliderContainer>
-       </>
+    <SliderContainer>
+     <ImageContainer>
+         <Image src={posterLinks.image} />
+         <Box sx={{width:{xs:'120px',sm:'200px',md:'240px'}}}>
+          <Head style={{fontWeight:{xs:'300',sm:'400',md:'500'}}}>{posterLinks.tagline}</Head>
+          </Box>
+         <Box sx={{width:{xs:'120px',sm:'200px',md:'240px'},display:'flex',gap:{xs:'5px',sm:'10px',md:'20px'}}}>
+         <Head style={{fontWeight:{xs:'200',sm:'400',md:'500'}}}>{posterLinks.price.mrp}</Head>
+         <Head style={{fontWeight:{xs:'200',sm:'400',md:'500'},textDecoration:'line-through',color:'rgba(0,0,0,0.5)'}}>{posterLinks.price.cost}</Head>
+         <Head style={{color:'red'}}>{posterLinks.price.discount}</Head>
+         </Box>
+     </ImageContainer>
+    </SliderContainer>
+    </>
   )
 }
 

@@ -21,13 +21,13 @@ import {
     
   } from "@mui/material";
 
-import { AccountCircle, Call, EastOutlined, FavoriteBorder, Help, LocalCarWashOutlined, LocationCityRounded, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  Search,  SearchOffOutlined,  ShoppingBag, ShoppingCart} from '@mui/icons-material';
+import { AccountCircle, Call, EastOutlined, FavoriteBorder, Help, Home, HomeOutlined, LocalCarWashOutlined, LocationCityRounded, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  Search,  SearchOffOutlined,  ShoppingBag, ShoppingCart} from '@mui/icons-material';
 
 import MenuButtons from 'components/menuButtons/MenuButtons';
 
 
 const StyleToolbar = styled(Toolbar)(({theme}) => ({
-  height:'auto',
+  height:'80px',
   width:'100%',
     display: 'flex',
     justifyContent:'space-between',
@@ -42,10 +42,10 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
            
             },
         [theme.breakpoints.down('sm')]: {
-          height: '70px',
+          height: '50px',
           width:'100%',
           
-              margin:'0px',
+              margin:'0px 10px',
               padding:'0px',
              
               // justifyContent:'space-between'
@@ -63,8 +63,8 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         
         // flex:'3',
         display: 'flex',
-        gap:'70px', 
-        marginLeft:'100px',
+        gap:'30px', 
+        marginLeft:'10px',
           // justifyContent: 'space-between',
         // paddingLeft:'30px',
         alignItems: 'center',
@@ -73,7 +73,7 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         },
         [theme.breakpoints.down('sm')]: {
             // paddingLeft:'0px',
-            marginLeft:'40px',
+            marginLeft:'0px',
             width:'250px'
         },
         
@@ -85,9 +85,9 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         display: 'flex',
          gap:'10px',
         // paddingRight:'30px',
-           flexDirection:"column",
+           flexDirection:"row",
         alignItems: 'center',
-        marginRight:'100px',
+        marginRight:'10px',
         // [theme.breakpoints.down('md')]: {
             //     justifyContent:"space-between"
             // },
@@ -95,8 +95,8 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
               //  paddingRight:'0px',
               //  margin:'0px'
               //  display:'block',
-              marginRight:'50px',
-                
+              // marginRight:'50px',
+                display:'none'
             },
             
             
@@ -137,13 +137,15 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
 ));
 const Navbar2 = styled(Box)(({ theme }) => ({
   display:'flex',
-  justifyContent:'space-between',
+  justifyContent:'center',
   alignItems:'center',
   backgroundColor:'white',
-  height:'80px',
+  height:'40px',
   width:'100%',
   position:'sticky',
-  
+  flexDirection:'row',
+  gap:'30px',
+  border:'1px solid rgba(0,0,0,0.1)',
   [theme.breakpoints.down('sm')]: {
     display:'none'
       
@@ -156,11 +158,12 @@ display:'none',
   
   [theme.breakpoints.down('sm')]: {
     display:'flex',
-    justifyContent:'center',
+    justifyContent:'space-between',
     alignItems:'center',
-    gap:'30px',
-    height:'60px',
-      
+    // gap:'30px',
+    height:'40px',
+      margin:'0px 20px',
+     position:'sticky'
   },
       
   }
@@ -195,14 +198,14 @@ const NavBar = styled(AppBar)(({theme}) =>({
     backgroundColor:theme.header.background,
    
     width:'100%',
-    height:'auto',
+    height:'110px',
     margin:"0",
     padding:'0',
     // zIndex:'100',
 position:'sticky',
 
 [theme.breakpoints.down('sm')]: {
-  height:'80px',
+  height:'50px',
   width:'100%',
  
 },
@@ -229,46 +232,46 @@ export default function Navbar() {
     
       <NavBar >
     
-       
-        <StyleToolbar  >
+       <Box sx={{height:'70px',display:'flex',justifyContent:'center',alignItems:'center'}}>
+        <StyleToolbar>
         
         <NavLeft >
        
           
         <Box sx={{display:{xs:'flex',sm:'flex',md:'block'}}}>
-            <Typography sx={{fontSize:{xs:'40px',sm:'30px',md:'50px'},color:'black',paddingLeft:'0px'}}>Brator</Typography>
+            <HomeOutlined sx={{color:'rgba(0,0,0,0.7)',fontSize:{xs:'30px',sm:'30px',md:'45px'}}}/>
            </Box>
-           <Box>
-           <MenuButton onClick={handleOpen}>
-                <Menu sx={{display: {xs:'none',sm:'none',md:'block'},color:'black',fontSize:'30px'}}/>
-            </MenuButton>
-            <Drawer open={open} onClose={handleClose} sx={{position:'absolute'}}>
-                <MenuButtons/>
-            </Drawer>
-           </Box>
-           <Box sx={{display: {xs:'none',sm:'none',md:'block'}}}> 
-           <SearchBar />
+          <Box >
+          <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'900',color:'black'}}>WROGN</Typography>
           </Box>
-
-          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'10px'}}>
-            <LocalCarWashOutlined sx={{color:'black',fontSize:'40px'}}/>
-            <Typography sx={{color:'black',fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'600'}}>Add Vehicle</Typography>
+          <Box>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'600',color:'red',fontFamily:'cursive'}}>IMARA</Typography>
+          </Box>
+          <Box sx={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
+          <Typography sx={{fontSize:{xs:'18px',sm:'20px',md:'18px'},fontWeight:'800',color:'black'}}>WROGN</Typography>
+          <Typography sx={{color:'black',fontSize:'10px'}}>ACTIVE</Typography>
+          </Box>
+          <Box>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'600',color:'black',fontFamily:'fantasy'}}>SINGLE</Typography>
           </Box>
            
-               
-                
-               
                 {/* <NavButton/> */}
                
             </NavLeft >
           
             <NavRight > 
             
+
+            <Box sx={{display: {xs:'none',sm:'none',md:'block'}}}> 
+           <SearchBar />
+          </Box>
         <Box sx={{display:{xs:'none',sm:'none',md:'flex'},gap:'30px'}}>
             
-            <Person2Outlined sx={{color:'black',fontSize:{xs:'40px',sm:'30px',md:'40px'}}}/>
-           <ShoppingCart sx={{color:'black',fontSize:{xs:'40px',sm:'30px',md:'40px'}}} />
-           <Typography sx={{color:'black',fontSize:{xs:'20px',sm:'20px',md:'20px'}}}>$499.00</Typography>
+            <Typography sx={{color:'black',display:'flex',justifyContent:'center',alignItems:'center',fontWeight:'600'}}><Person2Outlined sx={{color:'black',fontSize:{xs:'30px',sm:'30px',md:'30px'}}}/>My Account</Typography>
+
+            <Typography sx={{color:'black',display:'flex',justifyContent:'center',alignItems:'center',fontWeight:'600'}}><ShoppingBag sx={{color:'black',fontSize:{xs:'30px',sm:'30px',md:'30px'}}} />Bag</Typography>
+           
+           
            </Box>
 
            {/* <Box sx={{display:{xs:'block',sm:'flex',md:'none'},gap:'10px'}}>
@@ -278,15 +281,7 @@ export default function Navbar() {
            <ShoppingBag sx={{color:'black'}} />
            </Box> */}
            
-              <Box >
-            <MenuButton onClick={handleOpen}>
-                <Menu sx={{display: {xs:'block',sm:'block',md:'none'},color:'black'}}/>
-            </MenuButton>
-            <Drawer open={open} onClose={handleClose} sx={{position:'absolute'}}>
-                <MenuButtons/>
-            </Drawer>
-           
-            </Box>
+             
 
             {/* <Box>
                 <List sx={{display:{xs:'block',sm:'block',md:'none'},gap:'30px',fontSize:'30px'}}>
@@ -306,36 +301,45 @@ export default function Navbar() {
                {/* <Signup variant='contained' sx={{borderRadius:'30px',fontSize:{xs:'10px',sm:'15px',md:'20px'}}}>Sign up</Signup> */}
               
             </NavRight>
+            
         </StyleToolbar>
+        </Box>
        
+        <Navbar2>
+        
+              <Typography sx={{color:'black',fontWeight:'600'}}>TOP WEAR</Typography>
+              <Typography sx={{color:'black',fontWeight:'600'}}>BOTTOM WEAR</Typography>
+              <Typography sx={{color:'black',fontWeight:'600'}}>FOOTWEAR</Typography>
+              <Typography sx={{color:'black',fontWeight:'600'}}>ACCESSORIES</Typography>
+              <Typography sx={{color:'black',fontWeight:'600'}}>SHOP BY THEMES</Typography>
+              <Typography sx={{color:'black',fontWeight:'600'}}>NEW ARRIVALS</Typography>
+              <Typography sx={{color:'black',fontWeight:'600'}}>BEST SELLERS</Typography>
+              <Typography sx={{color:'black',fontWeight:'600'}}>TRENDING</Typography>
+              <Typography sx={{color:'red',fontWeight:'600'}}>CLEARANCE</Typography>
+             
+        </Navbar2>
+   
         </NavBar>
 
-
-        <Navbar2>
-              <Box sx={{paddingLeft:'100px'}} >
-                  <List sx={{display:{xs:'none',sm:'none',md:'flex'},gap:'30px',fontSize:'30px',color:'black'}}>
-                  <ListItemText  primary={`Home`}/>
-                    <ListItemText primary={`About Us`}/>
-                    <ListItemText primary={`Blogs`}/>
-                    <ListItemText primary={`Pages`}/>
-                    <ListItemText primary={`Auto Parts`}/>
-                    <ListItemText primary={`Contact Us`}/>
-                   
-                   
-                  </List>
-                </Box>
-                <Box sx={{display:'flex',gap:'10px',paddingRight:'100px'}}>
-                      <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'600'}}>Order Status</Typography>
-                      <hr></hr>
-                      <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'600'}}>24/7 Support: +91-9876543210</Typography>
-                </Box>
-        </Navbar2>
-
-         <Navbar3>
-         <LocalCarWashOutlined sx={{color:'black',fontSize:'30px'}}/>
-         <Person2Outlined sx={{color:'black',fontSize:{xs:'30px',sm:'30px',md:'30px'}}}/>
-         <ShoppingCart sx={{color:'black',fontSize:{xs:'30px',sm:'30px',md:'40px'}}} />
+        <Navbar3>
+         <Box >
+            <MenuButton onClick={handleOpen}>
+                <Menu sx={{display: {xs:'block',sm:'block',md:'none'},color:'black'}}/>
+            </MenuButton>
+            <Drawer open={open} onClose={handleClose} sx={{position:'absolute'}}>
+                <MenuButtons/>
+            </Drawer>
+           
+            </Box>
+            <Box sx={{display:'flex',gap:'20px'}}>
+         <Search sx={{color:'black',fontSize:'25px'}}/>
+         <Person2Outlined sx={{color:'black',fontSize:{xs:'25px',sm:'30px',md:'30px'}}}/>
+         <ShoppingBag sx={{color:'black',fontSize:{xs:'25px',sm:'30px',md:'40px'}}} />
+         </Box>
          </Navbar3>
+     
+
+       
 
 
         {/* <Ram>

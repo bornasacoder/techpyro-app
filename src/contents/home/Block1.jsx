@@ -12,9 +12,9 @@ export default function Card1() {
   const CardBox = styled(Card)(({theme})=>({
   display:'flex',
   flexDirection:'column',
-  width:'300px',
-  height:'250px',
-  borderRadius:'10px',
+  width:'200px',
+  height:'300px',
+  borderRadius:'0px',
   gap:'30px',
 
 
@@ -29,7 +29,7 @@ export default function Card1() {
   },
   [theme.breakpoints.down('sm')]: {
     width:'100%',
-    height:'250px',
+    height:'150px',
     flexDirection:'column',
     padding:'0px'
   }
@@ -46,22 +46,22 @@ const Box1= styled(Box)(({ theme }) => ({
   return ( 
     <>
 
-       <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'35px'},fontWeight:'600',color:'black',paddingLeft:{xs:'30px',sm:'60px',md:'120px'},paddingTop:'80px'}}>In The Garage</Typography>
-       <Box sx={{display:'flex',gap:'30px'}}></Box>
-    <Box  data-aos-duration="3000" sx={{display:'flex',justifyContent:'center',gap:{xs:'0px',sm:'50px',md:'20px'},flexDirection:{xs:'column',sm:'column',md:'row'},paddingBottom:'100px'}}>
+       <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'30px'},fontWeight:'500',color:'black',paddingTop:{xs:'20px',sm:'40px',md:'80px'},display:'flex',justifyContent:'center'}}>Top Catogeries</Typography>
+       
+    <Box  data-aos-duration="3000" sx={{display:'flex',justifyContent:'center',gap:{xs:'0px',sm:'50px',md:'25px'},flexDirection:{xs:'column',sm:'column',md:'row'},paddingTop:{xs:'0px',sm:'20px',md:'30px'}}}>
 
-      
-   <Box sx={{padding:{xs:'10px',sm:'20px',md:'0'}}}>
+      <Box sx={{display:'flex',gap:{xs:'0px',sm:'20px',md:'20px'}}}>
+   <Box sx={{padding:{xs:'10px',sm:'0px',md:'0'}}}>
    
       <CardBox >
 
         <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'},}}>
         <CardMedia
         sx={{height:'100%', transition:'0.5s all', "&:hover":{
-          transform:'scale(1.5)'
+          transform:'scale(1.2)'
       },}}
           component="img"
-          image="/images/category/garage1.jpeg"
+          image="/images/category/wrogn1.jpeg"
           alt="green iguana"
         />
        </Box>
@@ -69,17 +69,12 @@ const Box1= styled(Box)(({ theme }) => ({
       
 
       </CardBox>
-    <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
+    <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
    <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>Clean the Engine compartment</Typography>
-          <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
-          <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
-            <Typography> <Person2Outlined /> By Admin</Typography>
-            <Typography> <CalendarMonth />jan19,2023</Typography>
-          </Box>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>T Shirts</Typography>
+          
         </Box>
-       
        
        </Box>
       </Box>
@@ -92,10 +87,10 @@ const Box1= styled(Box)(({ theme }) => ({
         <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'},}}>
         <CardMedia
         sx={{height:'100%',transition:'0.5s all', "&:hover":{
-          transform:'scale(1.5)'
+          transform:'scale(1.2)'
       }}}
           component="img"
-          image="/images/category/garage2.jpeg"
+          image="/images/category/wrogn2.jpeg"
           alt="green iguana"
         />
        </Box>
@@ -103,15 +98,11 @@ const Box1= styled(Box)(({ theme }) => ({
       
 
       </CardBox>
-    <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
+    <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
     <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>Replace Brakes Guide</Typography>
-          <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
-          <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
-            <Typography> <Person2Outlined /> By Admin</Typography>
-            <Typography> <CalendarMonth />jan19,2023</Typography>
-          </Box>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Shirts</Typography>
+         
         </Box>
        
        
@@ -126,10 +117,10 @@ const Box1= styled(Box)(({ theme }) => ({
         <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'}}}>
         <CardMedia
         sx={{height:'100%',transition:'0.5s all', "&:hover":{
-          transform:'scale(1.5)'
+          transform:'scale(1.2)'
       }}}
           component="img"
-          image="/images/category/garage3.jpeg"
+          image="/images/category/wrogn3.webp"
           alt="green iguana"
         />
        </Box>
@@ -137,23 +128,19 @@ const Box1= styled(Box)(({ theme }) => ({
       
 
       </CardBox>
-      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
+      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
       <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>Things to keep in mind while washing car</Typography>
-          <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
-          <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
-            <Typography> <Person2Outlined /> By Admin</Typography>
-            <Typography> <CalendarMonth />jan19,2023</Typography>
-          </Box>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Jeans</Typography>
+         
         </Box>
        
        
        </Box>
       </Box>
+      </Box>
 
-
-      
+      <Box sx={{display:'flex',gap:{xs:'0px',sm:'20px',md:'20px'}}}>
       <Box sx={{padding:{xs:'10px',sm:'20px',md:'0'}}}>
    
       <CardBox >
@@ -161,10 +148,10 @@ const Box1= styled(Box)(({ theme }) => ({
         <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'}}}>
         <CardMedia
         sx={{height:'100%',transition:'0.5s all', "&:hover":{
-          transform:'scale(1.5)'
+          transform:'scale(1.2)'
       }}}
           component="img"
-          image="/images/category/garage4.jpeg"
+          image="/images/category/wrogn4.webp"
           alt="green iguana"
         />
        </Box>
@@ -172,15 +159,11 @@ const Box1= styled(Box)(({ theme }) => ({
       
 
       </CardBox>
-      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
+      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
       <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>Autoparts for Audi</Typography>
-          <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
-          <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
-            <Typography> <Person2Outlined /> By Admin</Typography>
-            <Typography> <CalendarMonth />jan19,2023</Typography>
-          </Box>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Sweat Shirts</Typography>
+         
         </Box>
        
        
@@ -188,6 +171,67 @@ const Box1= styled(Box)(({ theme }) => ({
       </Box>
       
       
+      <Box sx={{padding:{xs:'10px',sm:'20px',md:'0'}}}>
+   
+      <CardBox >
+
+        <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'},}}>
+        <CardMedia
+        sx={{height:'100%',transition:'0.5s all', "&:hover":{
+          transform:'scale(1.2)'
+      }}}
+          component="img"
+          image="/images/category/wrogn5.jpeg"
+          alt="green iguana"
+        />
+       </Box>
+   
+      
+
+      </CardBox>
+    <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
+    <Box sx={{display:'flex',flexDirection:'column'}}>
+          
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Joggers</Typography>
+          
+         
+        </Box>
+       
+       
+       </Box>
+      </Box>
+
+      
+      <Box sx={{padding:{xs:'10px',sm:'20px',md:'0'}}}>
+   
+      <CardBox >
+
+        <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'},}}>
+        <CardMedia
+        sx={{height:'100%',transition:'0.5s all', "&:hover":{
+          transform:'scale(1.2)'
+      }}}
+          component="img"
+          image="/images/category/wrogn6.webp"
+          alt="green iguana"
+        />
+       </Box>
+   
+      
+
+      </CardBox>
+    <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
+    <Box sx={{display:'flex',flexDirection:'column'}}>
+          
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Footwear</Typography>
+          
+          
+        </Box>
+       
+       
+       </Box>
+      </Box>
+      </Box>
       </Box>
       {/* <Box sx={{display:'flex',justifyContent:'space-evenly',padding:{xs:'100px 30px',sm:'100px 50px',md:'100px'},flexDirection:{xs:'column',sm:'column',md:'row'},alignItems:'center',gap:'20px'}}>
         <RiceBowlTwoTone sx={{fontSize:{xs:'60px',sm:'35px',md:'60px'}}}/>

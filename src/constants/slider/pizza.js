@@ -4,73 +4,73 @@ export const pizza = {
     {
         name:"DISC BRAKE ",
         price: {
-              mrp: "$499.00",
+              mrp: "₹1,250",
               discount: "50% OFF",
-              cost: "299"
+              cost: "₹2,500"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Simple leather staring wheel new",
-          image: "https://images.pexels.com/photos/4022545/pexels-photo-4022545.jpeg?auto=compress&cs=tinysrgb&w=600",
+          tagline: "Wrogn Men Solid Yellow Shirt",
+          image: "https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WNSH0052/1.jpeg",
           rating:"*4.3",
       },
       {
         name:"DISC BRAKE ",
         price: {
-          mrp: "$499.00",
-              discount: "50% OFF",
-              cost: "299"
-          },
+          mrp: "₹1,250",
+          discount: "50% OFF",
+          cost: "₹2,500"
+      },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Simple leather staring wheel new",
-          image: "https://images.pexels.com/photos/5008306/pexels-photo-5008306.jpeg?auto=compress&cs=tinysrgb&w=600",
+          tagline: "Wrogn Men Solid Yellow Shirt",
+          image: "https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WNSW8260/1.jpeg",
           rating:"*4.3",
       },
       {
         name:"DISC BRAKE ",
         price: {
-          mrp: "$499.00",
-              discount:"50% OFF",
-              cost: "299"
-          },
-         image: "https://images.pexels.com/photos/5802394/pexels-photo-5802394.jpeg?auto=compress&cs=tinysrgb&w=600",
+          mrp: "₹1,250",
+          discount: "50% OFF",
+          cost: "₹2,500"
+      },
+         image: "https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WHSH1123/1.jpeg",
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Simple leather staring wheel new",
+          tagline: "Wrogn Men Solid Yellow Shirt",
           rating:"*4.3",
       },
       {
         name:"DISC BRAKE ",
         price: {
-          mrp: "$499.00",
-              discount: "50% OFF",
-              cost: "299"
-          },
+          mrp: "₹1,250",
+          discount: "50% OFF",
+          cost: "₹2,500"
+      },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Simple leather staring wheel new",
-        image: "https://media.istockphoto.com/id/494540353/photo/side-view-mirror.jpg?b=1&s=612x612&w=0&k=20&c=O8mVSjWUq5BJ4fMQpown56FqYufsJB-YWC7Dnz6HJNE=",
+          tagline: "Wrogn Men Solid Yellow Shirt",
+        image: "https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WMSH0153/1.jpeg",
           rating:"*4.3",
       },
       {
         name:"DISC BRAKE ",
         price: {
-          mrp: "$499.00",
-              discount: "50% OFF",
-              cost: "299"
-          },
+          mrp: "₹1,250",
+          discount: "50% OFF",
+          cost: "₹2,500"
+      },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Simple leather staring wheel new",
-        image:"https://images.pexels.com/photos/193997/pexels-photo-193997.jpeg?auto=compress&cs=tinysrgb&w=600",
+          tagline: "Wrogn Men Solid Yellow Shirt",
+        image:"https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WHJK5002/1.jpeg",
           rating:"4.3",
       },
       {
         name:"DISC BRAKE ",
         price: {
-          mrp: "$499.00",
-              discount: "201",
-              cost: "299"
-          },
+          mrp: "₹1,250",
+          discount: "50% OFF",
+          cost: "₹2,500"
+      },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Simple leather staring wheel new",
-       image: "https://images.pexels.com/photos/165938/pexels-photo-165938.jpeg?auto=compress&cs=tinysrgb&w=600",
+          tagline: "Wrogn Men Solid Yellow Shirt",
+       image: "https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WKJN1921/1.jpeg",
           rating:"4.3",
       },
       // {

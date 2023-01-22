@@ -23,29 +23,29 @@ const ImageContainer = styled("div")({
 })
 const Image = styled("img")({
     width:"100%",
-    height:"500px",
+    height:"600px",
     objectFit:"cover",
     // margin:"40px",
     zIndex:"1",
     // border:'1px solid black',
     "@media (max-width: 960px)": {
-       width:'200px',
-       height:'230px',
+       width:'100%',
+       height:'500px',
        
        },
        "@media (max-width: 770px)": {
-        width:'160px',
-        height:'200px',
+        width:'100%',
+        height:'400px',
         
         },
         "@media (max-width: 600px)": {
-            width:'120px',
-            height:'170px',
+            width:'100%',
+            height:'400px',
             
             },
             "@media (max-width: 480px)": {
-                width:'340px',
-                height:'500px',
+                width:'100%',
+                height:'200px',
                 margin:'0',
                 padding:'0',
                 // gap:'20px'

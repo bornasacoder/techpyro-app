@@ -34,7 +34,7 @@ const SliderInnerContainer = styled('div')({
   // alignItems:'center',
   flexDirection:"column",
   // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-  padding:"20px 80px",
+  // padding:"20px 80px",
   "@media (max-width: 480px)": {
     backgroundColor:'white',
    padding:'0px'
@@ -66,7 +66,7 @@ const NextBtn = (props) =>{
 const SwiggySlider = (props) => {
   
   const settings = {
-    dots: false,
+    dots: true,
     arrows:true,
     infinite: false,
     speed: 500,
@@ -125,8 +125,9 @@ const SwiggySlider = (props) => {
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
-            // autoplay:true,
+            autoplay:true,
             dots: true,
+            infinite: true,
           },
         },
     ]

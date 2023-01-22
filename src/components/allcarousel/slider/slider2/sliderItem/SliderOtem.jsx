@@ -8,7 +8,7 @@ const SliderContainer = styled("div")({
 width:"100%",
 height:"auto",
 display:'flex',
-paddingLeft:"20px",
+paddingLeft:"0px",
 // zIndex:"1",
 // border:'1px solid black',
 gap:'20px',
@@ -16,17 +16,21 @@ gap:'20px',
 })
 const ImageContainer = styled("div")({
     display:"flex",
-    width:'100%',
+    width:'242px',
     alignItems:"center",
     // justifyContent:"center",
     flexDirection:"column",
     // margin:"10px 20px"
     border:'1px solid rgba(0,0,0,0.2)',
     gap:'px',
-    "@media (max-width: 480px)": {
-       gap:'10px'
+    
+        "@media (max-width: 480px)": {
+            gap:'0px',
+             width:'100%',
+             padding:' 0px 5px',
+             border:'none'
+             },
         
-        },
 
 })
 const Image = styled("img")({
@@ -53,7 +57,7 @@ const Image = styled("img")({
             },
             "@media (max-width: 480px)": {
                 width:'100%',
-                height:'300px',
+                height:'150px',
                 margin:'0',
                 padding:'0px',
                 gap:'0px'
@@ -84,14 +88,14 @@ const Head = styled("h3")({
        <SliderContainer>
         <ImageContainer>
             <Image src={posterLinks.image} />
-            <Box sx={{width:{xs:'90%',sm:'100%',md:'240px'}}}>
-            
-            <Head style={{fontWeight:'700'}}>{posterLinks.name}</Head>
-            {/* <Head>{posterLinks.style}</Head> */}
-            <Head>{posterLinks.tagline}</Head>
-            <Head style={{fontWeight:'500',fontSize:'30px'}}>{posterLinks.price.mrp}</Head>
+            <Box sx={{width:{xs:'120px',sm:'200px',md:'240px'}}}>
+             <Head style={{fontWeight:{xs:'300',sm:'400',md:'500'}}}>{posterLinks.tagline}</Head>
+             </Box>
+            <Box sx={{width:{xs:'120px',sm:'200px',md:'240px'},display:'flex',gap:{xs:'5px',sm:'10px',md:'20px'}}}>
+            <Head style={{fontWeight:{xs:'200',sm:'400',md:'500'}}}>{posterLinks.price.mrp}</Head>
+            <Head style={{fontWeight:{xs:'200',sm:'400',md:'500'},textDecoration:'line-through',color:'rgba(0,0,0,0.5)'}}>{posterLinks.price.cost}</Head>
+            <Head style={{color:'red'}}>{posterLinks.price.discount}</Head>
             </Box>
-            {/* <Head>{posterLinks.tagline}</Head> */}
         </ImageContainer>
        </SliderContainer>
        </>

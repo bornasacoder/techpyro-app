@@ -6,12 +6,12 @@ import React from 'react'
 
 const Video= styled(Box)(({ theme }) => ({
    height:'auto',
-   width:'auto',
+   width:'100%',
    display:'flex',
    gap:'10px',
-   paddingBottom:'10px'
+   paddingBottom:'10px',
 //    position:'absolute'
-    
+    padding:'0px 80px 0px 80px'
         
     }
   ));
@@ -26,197 +26,71 @@ const Video= styled(Box)(({ theme }) => ({
        }
      ));
   const Box1= styled(Box)(({ theme }) => ({
-    height:'200px',
-    width:'200px',
-    border:'1px solid gray',
-    display:'flex',
-    justifyContent:'center',
-    alignItems:'center',
-    padding:'10px'
- //    position:'absolute'
-     
-         
+    height:'600px',
+    width:'auto',
+    backgroundImage: `url(${"/images/category/wrognbgd1.webp"})`,
+    backgroundSize:'cover',
+     margin:'0px 80px',
+     [theme.breakpoints.down('sm')]: {
+      height:'200px',
+      width:'auto',
+      margin:'0px 10px'
+    },
      }
+  
    ));
    const Box2= styled(Box)(({ theme }) => ({
-      height:'160px',
-      width:'160px',
-      border:'1px solid rgba(0,0,0,0.1)',
-      display:'flex',
-      justifyContent:'center',
-      alignItems:'center',
-      margin:'5px'
+      height:'600px',
+      width:'auto',
+      backgroundImage: `url(${"/images/category/wrognbgd2.webp"})`,
+      backgroundSize:'cover',
+       margin:'0px 80px',
    //    position:'absolute'
-       
+   [theme.breakpoints.down('sm')]: {
+    height:'200px',
+    width:'auto',
+    margin:'0px 10px',
+    objectFit:'cover',
+  },
            
        }
      ));
 const Block5 = () => {
   return (
-    <Box>
-       <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center',paddingTop:'80px'}}>
-       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'40px'},fontWeight:'500',color:'black',paddingLeft:{xs:'10px',sm:'60px',md:'140px'}}}>Featured Brands</Typography>
-       
+    <>
+       <Box sx={{display:'flex',justifyContent:'center',alignItems:'center',paddingTop:'40px',flexDirection:'column'}}>
+       <Typography sx={{fontSize:{xs:'25px',sm:'30px',md:'30px'},fontWeight:'400',color:'black'}}>Why Wrogn</Typography>
+       <Typography sx={{color:'black'}}>We are many. We are one. We are not part of the herd. We are not like the rest. Join the Wrogn Tribe. And stay mad. Stay Wrogn.</Typography>
+      </Box>
+      
+      <Box sx={{marginLeft:{xs:' 10px',sm:'30px',md:'50px'},width:'',height:'500px',marginRight:{xs:' 10px',sm:'30px',md:'80px'},zIndex:'-1'}}>
+      <video style={{height:'500px',zIndex:'-1',position:'absolute',objectFit:'cover',width:'93%',}}  src="https://player.vimeo.com/external/451464846.sd.mp4?s=f17fd0cf4fabbbe198a3e66cf1ed7a6fb0585836&profile_id=164&oauth2_token_id=57447761" autoPlay loop muted ></video>
+      
+      <Box sx={{display:'flex',flexDirection:'column',alignItem:'center',width:'auto',height:{xs:'500px',sm:'500px',md:'500px'},gap:'20px'}}>
+      <Box sx={{height:'auto',width:{xs:'240px',sm:'300px',md:'320px'},color:'white',marginLeft:{xs:'10px',sm:'50px',md:'160px'}}}>
+      <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'65px'},fontWeight:'700',color:''}}>THIS...</Typography>
+      </Box>
+      </Box>
+      </Box>
+       <Box sx={{display:'flex',justifyContent:'center',margin:'10px'}}>
+       <Typography sx={{fontSize:{xs:'20px',sm:'35px',md:'30px'},fontWeight:'400',color:''}}>Work From Home</Typography>
        </Box>
-       <Box sx={{display:{xs:'none',sm:'none',md:'flex'},flexDirection:'column',alignItems:'center',justifyContent:'center'}}>
-    <Video >
-     
+      <Box1>
 
-
-
-        <Box1>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-1.png'/>
-        </Box1>
-        <Box1>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-2.png'/>
-        </Box1>
-        <Box1>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-3.png'/>
-        </Box1>
-        <Box1>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-5.png'/>
-        </Box1>
-        <Box1>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-1.png'/>
-        </Box1>
-        <Box1>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-6.png'/>
-        </Box1>
-    </Video>
-
-    <Video >
-     
-
-
-
-        <Box1>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-7.png'/>
-        </Box1>
-        <Box1>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-8.png'/>
-        </Box1>
-        <Box1>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-9.png'/>
-        </Box1>
-        <Box1>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-10.png'/>
-        </Box1>
-        <Box1>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-11.png'/>
-        </Box1>
-        <Box1>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-12.png'/>
-        </Box1>
-    </Video>
-
-    <Video >
-     
-
-
-
-        <Box1>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-13.png'/>
-        </Box1>
-        <Box1>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-14.png'/>
-        </Box1>
-        <Box1>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-15.png'/>
-        </Box1>
-        <Box1>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-1.png'/>
-        </Box1>
-        <Box1>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-2.png'/>
-        </Box1>
-        <Box1>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-3.png'/>
-        </Box1>
-        
-    </Video>
-    </Box>
-
-
-
-    <Box sx={{display:{xs:'flex',sm:'flex',md:'none'},padding:'10px'}}>
-      <Video2>
+      </Box1>
+      <Box sx={{display:'flex',justifyContent:'center',margin:'20px'}}>
+       <Typography sx={{fontSize:{xs:'20px',sm:'35px',md:'30px'},fontWeight:'400',color:''}}>Wear It Like Virat</Typography>
+       </Box>
       <Box2>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-1.png'/>
-        </Box2>
-        <Box2>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-2.png'/>
-        </Box2>
-        <Box2>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-3.png'/>
-        </Box2>
-        <Box2>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-5.png'/>
-        </Box2>
-        <Box2>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-1.png'/>
-        </Box2>
-        <Box2>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-6.png'/>
-        </Box2>
-        <Box2>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-7.png'/>
-        </Box2>
-        <Box2>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-8.png'/>
-        </Box2>
-        <Box2>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-9.png'/>
-        </Box2>
 
-      </Video2>
-
-      <Video2>
-      <Box2>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-10.png'/>
-        </Box2>
-        <Box2>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-11.png'/>
-        </Box2>
-        <Box2>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-12.png'/>
-        </Box2>
-        
-        <Box2>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-13.png'/>
-        </Box2>
-        <Box2>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-14.png'/>
-        </Box2>
-        <Box2>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-15.png'/>
-        </Box2>
-        <Box2>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-1.png'/>
-        </Box2>
-        <Box2>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-2.png'/>
-        </Box2>
-        <Box2>
-              <img src='https://brator.smartdemowp.com/brator-html/assets/images/brand/brand-item-3.png'/>
-        </Box2>
-      </Video2>
-    </Box>
-     </Box>
+      </Box2>
+      <Box sx={{display:'flex',justifyContent:'center',margin:'20px'}}>
+            <Button variant='contained' sx={{color:'black',backgroundColor:'white',border:'1px solid black',borderRadius:'0px'}}>SHOP COLLECTION</Button>
+      </Box>
+     </>
   )
 }
 
 export default Block5
 
 
- {/* <video style={{height:'650px',width:'100%',zIndex:'-1',position:'absolute',objectFit:'cover'}}  src="https://player.vimeo.com/external/562968417.sd.mp4?s=77ce3afc9a1d0833085c362649322add86c0842d&profile_id=164&oauth2_token_id=57447761" autoPlay loop muted ></video>
-      <Box sx={{display:'flex',justifyContent:'center',flexDirection:'column',alignItem:'center',width:'100%',height:'650px',gap:'20px'}}>
-      <Box sx={{height:'auto',width:{xs:'240px',sm:'300px',md:'320px'},color:'white',marginLeft:{xs:'10px',sm:'50px',md:'160px'}}}>
-      <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'35px'},fontWeight:'700',color:''}}>BE SUPPORTED. BE .YOU</Typography>
-      <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'15px'},fontWeight:'600',color:''}}>Free your body to free your movement.</Typography>
-      <Box sx={{display:'flex',gap:'20px',fontWeight:'400',flexDirection:'column',width:'180px',paddingTop:'20px'}}>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}> SHOP LEGGINS<EastOutlined /> </Button>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SHOP BRAS<EastOutlined /> </Button>
-          
-          </Box>
-      </Box>
-      </Box> */}

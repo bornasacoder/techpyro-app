@@ -9,7 +9,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-      image:"https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/homepage_banner/tinywow_ISRO-BANNER_7608846.webp",
            rating:"4.3",
        },
 
@@ -23,7 +23,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-     image:"https://images.pexels.com/photos/8986177/pexels-photo-8986177.jpeg?auto=compress&cs=tinysrgb&w=600",
+     image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/homepage_banner/WEBSITE_BANNER_EOSS_50_OFF-01.jpg",
            rating:"4.3",
        },
        {
@@ -35,7 +35,7 @@ export const other = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://images.pexels.com/photos/6873180/pexels-photo-6873180.jpeg?auto=compress&cs=tinysrgb&w=600",
+       image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/section_2/tinywow_jpg_to_webp_4210423.webp",
        tagline: "new",
            rating:"4.3",
        },
@@ -48,7 +48,7 @@ export const other = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://images.pexels.com/photos/4489743/pexels-photo-4489743.jpeg?auto=compress&cs=tinysrgb&w=600",
+         image: "https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/special_offers/tinywow_jpg_to_webp_4013467.webp",
          tagline: "new",
            rating:"4.3",
        },

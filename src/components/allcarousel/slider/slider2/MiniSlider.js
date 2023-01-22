@@ -52,7 +52,7 @@ const PreviousBtn = (props) =>{
   
    return (
          <div className={className} onClick={onClick}>
-          <ChevronLeftOutlined sx={{color:'white',zIndex:'10',fontSize:'2.5rem' }} />
+          <ChevronLeftOutlined sx={{color:'black',zIndex:'10',fontSize:'2.5rem' }} />
          </div>  
    )
 }
@@ -61,7 +61,7 @@ const NextBtn = (props) =>{
    const {className,onClick} = props;
    return (
      <div  className={className} onClick={onClick}>
-       <ChevronRightOutlined sx={{color:'white',  zIndex:'10',fontSize:'2.5rem'}} />
+       <ChevronRightOutlined sx={{color:'black',  zIndex:'10',fontSize:'2.5rem'}} />
      </div>
    )
 }
@@ -75,7 +75,7 @@ const MiniSlider = (props) => {
     infinite: true,
     speed: 500,
     slidesToShow: 5,
-    slidesToScroll: 1,
+    slidesToScroll: 5,
     autoplay: false,
     autoplaySpeed: 2000,
     cssEase: "linear",
@@ -125,7 +125,7 @@ const MiniSlider = (props) => {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1.1,
+            slidesToShow: 2.1,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -137,8 +137,8 @@ const MiniSlider = (props) => {
   };
   return (
     <>
-    <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center',paddingTop:'80px'}}>
-       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'40px'},fontWeight:'700',color:'black',paddingLeft:{xs:'10px',sm:'60px',md:'120px'}}}>Best Seller</Typography>
+   <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center',padding:{xs:'10px',sm:'30px',md:'40px'},display:'flex',justifyContent:'center'}}>
+       <Typography sx={{fontSize:{xs:'25px',sm:'30px',md:'30px'},fontWeight:'500',color:'black'}}>Top Picks For You</Typography>
        
        </Box>
     <SliderContainer> 
