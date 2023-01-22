@@ -59,7 +59,7 @@ export default function SearchBar(props) {
     }
     document.addEventListener('mousedown',closeOpenMenus);
   return (
-    <Search sx={{height:36, display:`${props.logo}`==='Cart'?{xs:'none',sm:'flex'}:'flex'}}>
+   !(`${props.page}`==='checkout') && <Search sx={{height:36, display:`${props.page}`==='cart'?{xs:'none',sm:'none'}:'flex'}}>
         <SearchIcon sx={{ marginTop:'6px',marginLeft:'10px', color: `${theme.header.background}`}}/>
         <SearchField placeholder='search anything... ' sx={{ "& fieldset": { border: 'none' }, '& .MuiInputBase-input': {
       padding: "8px",

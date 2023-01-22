@@ -73,7 +73,7 @@ export default function NavButton(props) {
 //   onMouseOver={() => setShowLogin("flex")} onMouseOut={() => setShowLogin("none")}
 const theme = useTheme();
   return (
-    <CustomButton >
+    !(`${props.page}`==='checkout') && <CustomButton >
       <Box  sx={{
                 
                 // alignItems: 'center',

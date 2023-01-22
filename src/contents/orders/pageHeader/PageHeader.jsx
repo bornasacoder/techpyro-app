@@ -17,7 +17,7 @@ boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
 // },
 
 "@media (max-width: 600px)": {
-  // width:"95%",
+  display:'none',
   margin:"100px 0 8px 0px",
  
  },

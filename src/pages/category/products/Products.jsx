@@ -7,7 +7,7 @@ import Products from "../../../contents/products/block1/Products"
 const Product = () => {
   return (
     <>
-    <Navbar menu={'none'} arrow={'block'} logo={'Products'}/>
+    <Navbar menu={'none'} arrow={'block'} logo={'Products'} page={'products'}/>
     <MiniSlider navData={navData}/>
     <Products/>
     <Content/>

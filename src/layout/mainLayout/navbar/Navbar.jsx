@@ -95,7 +95,8 @@ export default function Navbar(props) {
     
   return (
       <NavBar  sx={{paddingLeft: '27px',paddingRight: '27px'}} position="fixed">
-        <StyleToolbar sx={{height:`${props.logo}`==='Cart'?'64px':{xs:'100px',sm:'64px'},top:`${props.logo}`==='Cart'?'0':{xs:'-21px',sm:'0'}}}>
+        <StyleToolbar sx={{height:`${props.page}`==='cart'||'checkout'?'64px':{xs:'100px',sm:'64px'},top:`${props.logo}`==='Cart'?'0':{xs:'-21px',sm:'0'},
+            marginLeft:`${props.page}`==='checkout'?'150px':'0'}}>
             <MenuButton sx={{display:{md:'none',xs:`${props.arrow}`}}} onClick={()=>navigate(-1)}>
                 <WestIcon/>
             </MenuButton>
@@ -114,23 +115,23 @@ export default function Navbar(props) {
                         Make a simple Bussiness
                     </Typography> */}
                 </Logo>
-                <SearchBar logo={props.logo}/>
+                <SearchBar page={props.page}/>
                 {/* <Badge sx={{display:{sm:'block',md:'none'}, left:'48px'}}>
                     <ShoppingCart/>
                 </Badge> */}
-                <NavButton logo={props.logo}/>
+                <NavButton page={props.page}/>
             </NavLeft>
             <Cart sx={{flex: `${props.logo}`==='Cart'?'3':'2'}}>
                 <Box sx={{display:{md:'flex',xs:'none'},justifyContent: `${props.logo}`==='Cart'?'flex-end':'flex-start',alignItems:'center',paddingLeft:'20px',flex:'2',color:`${theme.header.textColor}`}}>
                     <PhoneIcon/>
                     <Typography sx={{paddingLeft:'5px',fontSize:'20px',fontWeight:'400',color:`${theme.header.textColor}`}}>+91-9999999999</Typography>
                 </Box>
-                <CartButton to={'/cart'} sx={{display:`${props.logo}`=== 'Cart'?'none':'flex',textDecoration:'none'}}>
+                {!(`${props.page}`==='checkout') && <CartButton to={'/cart'} sx={{display:`${props.logo}`=== 'Cart'?'none':'flex',textDecoration:'none'}}>
                     <Badge sx={{cursor: {md:'pointer',sm:'none'},color:`${theme.header.textColor}`}}>
                         <ShoppingCart/>
                     </Badge>
                     <Typography sx={{display:{md:'block',xs:'none',fontSize:'20px',cursor: {md:'pointer',sm:'none'},color:`${theme.header.textColor}`}}}>Cart</Typography>
-                </CartButton>
+                </CartButton>}
             </Cart>
         </StyleToolbar>
       </NavBar>

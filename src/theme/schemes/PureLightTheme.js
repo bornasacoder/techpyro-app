@@ -157,7 +157,10 @@ export const PureLightTheme = createTheme({
       error: colors.shadows.error,
       primary: colors.shadows.primary,
       info: colors.shadows.info,
-      warning: colors.shadows.warning
+      warning: colors.shadows.warning,
+      card: colors.shadows.card,
+      cardSm: colors.shadows.cardSm,
+      cardLg: colors.shadows.cardLg,
     },
     alpha: {
       white: {

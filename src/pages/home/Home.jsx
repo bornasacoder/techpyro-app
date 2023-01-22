@@ -25,7 +25,7 @@ const Home = () => {
 
   return (
     <div>
-      <Navbar menu={'block'} arrow={'none'} logo={'TechPyro'}/>
+      <Navbar menu={'block'} arrow={'none'} logo={'TechPyro'} page={'home'}/>
       <PageHeader navData={navData}/>
       <Block1/>
       <Block2 key={sliderData} sliderData={sliderData[0].website}/>

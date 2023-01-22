@@ -4,6 +4,7 @@ import { CurrencyRupee } from "@mui/icons-material";
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 import { Link } from 'react-router-dom';
 import StarRateIcon from '@mui/icons-material/StarRate';
+import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 
 const Image = styled("img")(({ theme }) => ({
@@ -11,8 +12,10 @@ const Image = styled("img")(({ theme }) => ({
     height: "100%",
     objectFit: "cover",
     "@media (max-width: 960px)": {
-      width: "100%",
-      height: "50%",
+      width: "50%",
+    },
+    "@media (max-width: 600px)": {
+      width: "30%",
     },
   }));
 
@@ -22,8 +25,8 @@ export default function Item() {
     <Card sx={{display:'flex',
     border:'0.5px solid rgb(159 162 191 / 50%)',
     borderRadius:'5px',
-    flex:'3',height:'200px',
-    margin:'30px',boxShadow:'none',
+    flex:'3',height:{sm:'200px',xs:'120px'},
+    margin:{sm:'30px',xs:'0'},boxShadow:'none',
     "&:hover":{transition:'box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms',
     boxShadow:'0px 0px 16px 6px rgb(159 162 191 / 15%), 0px 0px 5px 5px rgb(159 162 191 / 25%)'}}}>
     <Image src="/images/pic3.jpg" alt="item" />
@@ -34,11 +37,11 @@ export default function Item() {
           height: { md: "100%", xs: "50%" },
           display: "flex",
           flexDirection: "column",
-          gap:'10px',
-          padding: "0 30px",
+          gap:{sm:'10px',xs:'5px'},
+          padding:{sm: "0 30px",xs:'0 5px'},
         }}
       >
-            <Typography sx={{ fontSize: "18px" }}>
+            <Typography sx={{ fontSize: {sm:"18px",xs:'14px'} }}>
               Restaurant Website template
             </Typography>
               <Typography
@@ -54,7 +57,8 @@ export default function Item() {
               <Typography sx={{ fontWeight: 500 }}> <FiberManualRecordIcon sx={{width:'12px',height:'12px',color:`${theme.colors.success.dark}`}} fontSize='small'/> Delivered on 21st jan</Typography>
               <Link to={'/orders'} style={{textDecoration:'none',display:'flex',gap:'5px',color:`${theme.colors.primary.dark}`,fontWeight:500}}> <StarRateIcon fontSize='small'/> Rate and Review Product</Link>
           </Box>
-          <Box>
+          <Box sx={{display:'flex',alignItems:'center',marginRight:'10px'}}>
+            <KeyboardArrowRightIcon fontSize='medium'/>
           </Box>
     </Card>
   )

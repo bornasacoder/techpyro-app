@@ -24,8 +24,8 @@ import IconButton from '@mui/material/IconButton';
 import Tooltip from '@mui/material/Tooltip';
 
 const Image = styled("img")(({ theme }) => ({
-  width: "20%",
-  height: "90%",
+  width: "25%",
+  height: "100%",
   objectFit: "cover",
   "@media (max-width: 960px)": {
     width: "100%",
@@ -75,7 +75,7 @@ export default function Item() {
       <Box
         sx={{
           marginTop: { md: "10px", xs: "5px" },
-          width: { md: "80%", xs: "100%" },
+          width: { md: "75%", xs: "100%" },
           height: { md: "100%", xs: "50%" },
           display: "flex",
           flexDirection: "column",
@@ -101,16 +101,35 @@ export default function Item() {
               Restaurant Website template
             </Typography>
             <Box>
-              <Typography
-                variant="h3"
-                sx={{
-                  fontSize: { lg: "25px", md: "20px", sm: "16px", xs: "18px" },
-                  display: "flex",
-                  alignItems: "center",
-                }}
+            <Box sx={{display:'flex',justifyContent:'space-between',width:'35vw'}}>
+                <Typography
+                  variant="h3"
+                  sx={{
+                    fontSize: { lg: "25px", md: "20px", sm: "16px", xs: "18px" },
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <CurrencyRupee sx={{ fontSize: "14px" }} /> 1999/-{" "}
+                </Typography>
+                <Box
+              sx={{
+                width: { sm: "200px", xs: "180px" },
+                display: { md: "flex", xs: "none" },
+                justifyContent: "space-between",
+                alignItems: "center",
+              }}
+            >
+              <FaShippingFast />
+              <Typography variant="span">Delivery by</Typography>
+              <Typography variant="span" sx={{ fontWeight: 500 }}>21st jan |</Typography>
+              <Typography variant="span"
+                sx={{ color: `${theme.colors.success.dark}`, fontWeight: 500 }}
               >
-                <CurrencyRupee sx={{ fontSize: "14px" }} /> 1999/-{" "}
+                FREE
               </Typography>
+            </Box>
+                </Box>
               <Typography
                 variant="subtitle1"
                 sx={{ fontSize: "14px", textDecoration: "line-through" }}
@@ -136,23 +155,6 @@ export default function Item() {
                 FREE
               </Typography>
             </Box>
-          </Box>
-          <Box
-            sx={{
-              width: { sm: "200px", xs: "180px" },
-              display: { md: "flex", xs: "none" },
-              justifyContent: "space-between",
-              alignItems: "center",
-            }}
-          >
-            <FaShippingFast />
-            <Typography>Delivery by</Typography>
-            <Typography sx={{ fontWeight: 500 }}>21st jan |</Typography>
-            <Typography
-              sx={{ color: `${theme.colors.success.dark}`, fontWeight: 500 }}
-            >
-              FREE
-            </Typography>
           </Box>
         </Box>
         <Box

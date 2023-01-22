@@ -15,10 +15,11 @@ const LeftContainer = styled(Box)(({theme})=>({
     top:'70px',
     paddingLeft:"30px",
      paddingTop:"10px",
-     [theme.breakpoints.down('md')]: {
-      display:"none"
-     },
-     
+     [theme.breakpoints.down('md')]:{
+        position:'static',
+        justifyContent:'flex-start',
+        margin:'20px 50px 0 0'
+     }
     }))
     const LeftItems = styled(Box)((theme)=>({
        width:"100%",
@@ -53,7 +54,7 @@ const LeftBar = () => {
     <LeftContainer>
 
     <LeftItems>
-    <Typography sx={{fontSize:"20px", marginBottom:"5px"}} variant="h6">Filters</Typography>
+    <Typography sx={{display:{md:'block',xs:'none'},fontSize:"20px", marginBottom:"5px"}} variant="h6">Filters</Typography>
     <Typography variant="body2" sx={{fontSize:"16px",letterSpacing:"0.8px", marginBottom:"5px", fontWeight:"500"}}>ORDER STATUS</Typography>
     <Box sx={{display:"flex", alignItems:"center"}} >
     <FormGroup>
