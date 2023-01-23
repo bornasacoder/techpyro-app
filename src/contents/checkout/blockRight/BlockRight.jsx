@@ -1,7 +1,7 @@
 import { Box, Card, Divider, Typography ,useTheme} from '@mui/material'
 import React from 'react'
-import {CiDiscount1 }from 'react-icons/ci'
-import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
+// import {CiDiscount1 }from 'react-icons/ci'
+// import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import {CurrencyRupee} from '@mui/icons-material'
 
 export default function BlockRight() {

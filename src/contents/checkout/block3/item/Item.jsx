@@ -1,7 +1,6 @@
 import {
     Box,
     Card,
-    Checkbox,
     styled,
     Typography,
     useTheme,
@@ -17,8 +16,8 @@ import {
   import { FaShippingFast } from "react-icons/fa";
   import React,{useState} from "react";
   import AddIcon from '@mui/icons-material/Add';
-  import FavoriteBorder from "@mui/icons-material/FavoriteBorder";
-  import Favorite from "@mui/icons-material/Favorite";
+//   import FavoriteBorder from "@mui/icons-material/FavoriteBorder";
+//   import Favorite from "@mui/icons-material/Favorite";
   import DeleteIcon from '@mui/icons-material/Delete';
   import IconButton from '@mui/material/IconButton';
   import Tooltip from '@mui/material/Tooltip';
@@ -33,7 +32,7 @@ import {
     },
   }));
   
-  const label = { inputProps: { "aria-label": "Checkbox demo" } };
+//   const label = { inputProps: { "aria-label": "Checkbox demo" } };
   
   export default function Item() {
     const theme = useTheme();
