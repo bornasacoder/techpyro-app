@@ -63,7 +63,7 @@ export default function SearchBar(props) {
         <SearchIcon sx={{ marginTop:'6px',marginLeft:'10px', color: `${theme.header.background}`}}/>
         <SearchField placeholder='search anything... ' sx={{ "& fieldset": { border: 'none' }, '& .MuiInputBase-input': {
       padding: "8px",
-    },}} onClick={searchHandler} ref={catMenu}></SearchField>
+    },}} onClick={searchHandler} ref={catMenu}/>
         <SearchList color='secondary' sx={{display: showSearch,
             flexDirection:'column', 
             marginTop: '36px',

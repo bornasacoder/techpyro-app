@@ -67,7 +67,7 @@ import {
           display: "flex",
           flexDirection: { md: "row", xs: "column" },
           height: { md: "200px", xs: "350px" },
-          marginBottom: "20px",
+          borderTop:'2px solid #888',
           borderRadius:'0'
         }}
       >
@@ -159,7 +159,6 @@ import {
           </Box>
           <Box
             sx={{
-              borderTop: "1px solid black",
               height: "80px",
               display: "flex",
               alignItems: "center",

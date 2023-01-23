@@ -7,7 +7,7 @@ export default function Block2() {
     const theme = useTheme();
     return (
         <div>
-      <Box sx={{height:'80px',display:'flex',justifyContent:'space-between',alignItems:'center',padding:'0 20px',
+      <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center',padding:'0 20px',
           background:`${theme.colors.alpha.white[100]}`,border:`1px solid ${theme.colors.alpha.black[10]}`,
           boxShadow:`${theme.colors.shadows.cardSm}`}}>
           <Box>
@@ -17,7 +17,7 @@ export default function Block2() {
                   <DoneIcon sx={{color:`${theme.colors.success.dark}`}} fontSize='small'/>
   
               </Box>
-              <Box sx={{display:'flex',gap:'10px',alignItems:'center'}}>
+              <Box sx={{marginBottom:'10px',display:'flex',gap:'10px',alignItems:'center'}}>
                   <Typography variant='span' sx={{fontSize:'15px',fontWeight:500}}>Nitish Kumar</Typography>
                   <Typography variant='span'>+919999999999</Typography>
               </Box>

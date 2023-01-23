@@ -3,6 +3,7 @@ import React from 'react'
 import Block1 from '../../contents/checkout/block1/Block1'
 import Block2 from '../../contents/checkout/block2/Block2'
 import Block3 from '../../contents/checkout/block3/Block3'
+import Block4 from '../../contents/checkout/block4/Block4'
 import BlockRight from '../../contents/checkout/blockRight/BlockRight'
 import Navbar from '../../layout/mainLayout/navbar/Navbar'
 
@@ -15,6 +16,7 @@ export default function CheckOut() {
                 <Block1/>
                 <Block2/>
                 <Block3/>
+                <Block4/>
             </Box>
             <Box sx={{margin:{md:'0',sm:'0 50px',xs:'0 20px'}}}>
                 <BlockRight/>
