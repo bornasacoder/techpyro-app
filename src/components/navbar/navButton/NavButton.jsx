@@ -164,20 +164,6 @@ export default function NavButton() {
         </Box>
       </Box> */}
     <Left>
-   
-    {/* <Box
-        display="flex"
-        flexDirection="column"
-        textAlign="center"
-        // padding="10px 0px 0px 0px"
-      >
-        <Typography sx={{fontSize:"24px",fontWeight:"500"}}  variant="div" sx={{fontSize:{md:"40px",sm:"30px",xs:"20px"}}} marginTop="5px">
-         SKT Food
-        </Typography>
-        <Typography sx={{fontSize:"24px",fontWeight:"500"}}  variant="p"  paddingBottom="20px">
-        FOOD WORDPRESS THEM
-        </Typography>
-      </Box> */}
     </Left>
 
 <Right display="flex">
@@ -193,7 +179,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography sx={{fontSize:"24px",fontWeight:"500"}}  >Home</Typography>
+        <Typography sx={{}}  >WOMEN</Typography>
         <Badge>{/* <ExpandMoreIcon /> */}</Badge>
         <Box
           sx={{
@@ -244,7 +230,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography sx={{fontSize:"24px",fontWeight:"500"}}   >Shop</Typography>
+        <Typography variant="p" sx={{}}>MEN</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
@@ -295,7 +281,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography sx={{fontSize:"24px",fontWeight:"500"}}  >Blogs</Typography>
+        <Typography sx={{}}  >KIDS</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
@@ -347,7 +333,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography sx={{fontSize:"24px",fontWeight:"500"}}  >Pages</Typography>
+        <Typography variant="p" sx={{display:"flex",gap:'4px'}}  >HOME <Typography> DECOR</Typography></Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
@@ -385,7 +371,45 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography sx={{fontSize:"24px",fontWeight:"500"}}  >Contacts</Typography>
+        <Typography  >ACCESSORIES</Typography>
+        {/* <Badge><ExpandMoreIcon /></Badge> */}
+        <Box
+          sx={{
+            display: "none",
+            flexDirection: "column",
+            bgcolor: "background.paper",
+            position: "absolute",
+            color: "red",
+            margin: "250px 0 0 0px",
+            // zIndex:'1000!important'
+          }}
+        >
+          <List component="nav" aria-label="mailbox folders">
+            <ListItem button>
+              <ListItemText primary="Inbox" />
+            </ListItem>
+            <Divider />
+            <ListItem button divider>
+              <ListItemText primary="Drafts" />
+            </ListItem>
+            <ListItem button>
+              <ListItemText primary="Trash" />
+            </ListItem>
+            <Divider light />
+            <ListItem button>
+              <ListItemText primary="Spam" />
+            </ListItem>
+          </List>
+        </Box>
+      </MoreButton>
+      <MoreButton
+        sx={{
+          cursor: "pointer",
+          "&:hover .MuiBox-root": { display: "flex" },
+          "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
+        }}
+      >
+        <Typography  >BRANDS</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
@@ -423,7 +447,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography sx={{fontSize:"24px",fontWeight:"500"}}  >SALE</Typography>
+        <Typography  >SALE</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         {/* <Box
           sx={{
@@ -461,7 +485,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography sx={{fontSize:"24px",fontWeight:"500"}} >EVENTS</Typography>
+        <Typography >EVENTS</Typography>
         <Badge><ExpandMoreIcon /></Badge>
         <Box
           sx={{
@@ -499,7 +523,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography sx={{fontSize:"24px",fontWeight:"500"}} >DELIVERY</Typography>
+        <Typography >DELIVERY</Typography>
         <Badge><ExpandMoreIcon /></Badge>
         <Box
           sx={{

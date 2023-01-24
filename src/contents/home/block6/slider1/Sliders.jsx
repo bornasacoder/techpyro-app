@@ -6,24 +6,24 @@ import { styled } from "@mui/styles";
 // import SliderItem from './sliderItem/SliderItem';
 import { ChevronLeftOutlined, ChevronRightOutlined } from "@mui/icons-material";
 // import SliderHeader from './sliderhead/SliderHeader';
-import Card2 from "../card2/Card2";
+import Card6 from "../card6/Card6";
 import "./minislider.css";
 import { Box, Typography } from "@mui/material";
 const SliderContainer = styled("div")({
-  width: "100%",
+  // width: "100vw",
   height: "auto",
   overflow: "hidden",
+  display: "flex",
+  justifyContent: "center",
+  alignItems:"center",
+  flexDirection: "column",
   backgroundColor:"#FFFFFF"
+  // maxWidth:"100vw",
 });
 const SliderInnerContainer = styled("div")(({ theme }) => ({
-  display: "flex",
-  justifyContent: "space-between",
-  flexDirection: "column",
-  margin: "20px 0px 0px 8px",
-  padding: "0px 80px ",
+  maxWidth:"60vw",
   [theme.breakpoints.down("sm")]: {
-    marginLeft: "0px",
-    padding: "0px",
+    maxWidth:"100vw",
   },
 }));
 
@@ -56,81 +56,81 @@ const Sliders = (props) => {
     arrows: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
     cssEase: "linear",
-    initialSlide: 0,
-    prevArrow: <PreviousBtn />,
-    nextArrow: <NextBtn />,
-    responsive: [
-      {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          speed: 300,
-          arrows: false,
-        },
-      },
-      {
-        breakpoint: 980,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          autoplay: true,
-          speed: 300,
-          arrows: false,
-        },
-      },
-      {
-        breakpoint: 800,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          speed: 300,
-          arrows: false,
-        },
-      },
-      {
-        breakpoint: 740,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
+    initialSlide: 1,
+    // prevArrow: <PreviousBtn />,
+    // nextArrow: <NextBtn />,
+    // responsive: [
+    //   {
+    //     breakpoint: 1200,
+    //     settings: {
+    //       slidesToShow: 3.7,
+    //       slidesToScroll: 1,
+    //       speed: 300,
+    //       arrows: false,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 980,
+    //     settings: {
+    //       slidesToShow: 3,
+    //       slidesToScroll: 1,
+    //       autoplay: true,
+    //       speed: 300,
+    //       arrows: false,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 800,
+    //     settings: {
+    //       slidesToShow: 3,
+    //       slidesToScroll: 1,
+    //       speed: 300,
+    //       arrows: false,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 740,
+    //     settings: {
+    //       slidesToShow: 2.6,
+    //       slidesToScroll: 1,
 
-          speed: 300,
-          arrows: false,
-        },
-      },
-      {
-        breakpoint: 680,
-        settings: {
-          slidesToShow: 2.3,
-          slidesToScroll: 1,
-          speed: 300,
-          arrows: false,
-        },
-      },
-      {
-        breakpoint: 550,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          speed: 300,
-          arrows: false,
-        },
-      },
-      {
-        breakpoint: 500,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          speed: 300,
-          arrows: false,
-        },
-      },
-    ],
+    //       speed: 300,
+    //       arrows: false,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 680,
+    //     settings: {
+    //       slidesToShow: 2.6,
+    //       slidesToScroll: 1,
+    //       speed: 300,
+    //       arrows: false,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 550,
+    //     settings: {
+    //       slidesToShow: 3,
+    //       slidesToScroll: 1,
+    //       speed: 300,
+    //       arrows: false,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 500,
+    //     settings: {
+    //       slidesToShow: 2.3,
+    //       slidesToScroll: 1,
+    //       speed: 300,
+    //       arrows: false,
+    //     },
+    //   },
+    // ],
   };
   return (
     <>
@@ -138,26 +138,25 @@ const Sliders = (props) => {
         <Typography
           variant="h1"
           sx={{
-            margin: "20px 0px 0px 8px",
-            padding: "0px 40px ",
+            // margin: "20px 0px 0px 8px",
+            padding: "40px 0px ",
             letterSpacing: "2px",
             fontSize: { md: "38px", sm: "38px", xs: "20px" },
             fontFamily: "  Trirong",
             display: "flex",
             justifyContent: "center",
-            textAlign:"center"
           }}
         >
-          Style Revolution for Glam Gals
+        Voguish Fashion You Need
         </Typography>
         {/* <Typography variant='h5'  sx={{margin:"5px 0px 0px 8px",
   padding:"0px 40px ",}}>Top new drops, sales, collabs and collections available now and coming soon.</Typography>  */}
 
         <SliderInnerContainer>
           {/* <SliderHeader /> */}
-          <Slider {...settings}>
+          <Slider {...settings} >
             {props.sliderData.map((item) => (
-              <Card2 sliderData={item} />
+              <Card6 sliderData={item} />
             ))}
           </Slider>
         </SliderInnerContainer>

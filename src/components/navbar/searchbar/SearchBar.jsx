@@ -19,16 +19,17 @@ const Search = styled(Box)(({ theme }) => ({
   // border-radius: 5px;
   // margin-left: 10px;
   // width: "60%",
-  width: "55vw",
+  // width: "55vw",
   display: "flex",
   backgroundColor: "#F7F2F1",
-
-  [theme.breakpoints.down('sm')]: {
-    display:"flex",
-    width:"100vw",
-    flexDirection:"column !important",
-     gap:"20px" 
-  },
+  
+height:"40px"
+  // [theme.breakpoints.down('sm')]: {
+  //   display:"flex",
+  //   width:"100vw",
+  //   flexDirection:"column !important",
+  //    gap:"20px" 
+  // },
  
 }));
 const SearchField = styled(TextField)(({ theme }) => ({
@@ -38,16 +39,18 @@ const SearchField = styled(TextField)(({ theme }) => ({
   display: "flex",
   justifyContent: "space-between",
   position: "relative",
+  height:"10px",
+  borderRadius:"10pxImportant"
   // padding:"30px 70px",
   // padding-left: 20px,
-  flex: 3,
+  // flex: 3,
   // "&::placeholder": {
   //   marginLeft: "100px",
   //   fontSize: "40px",
   // },
-  [theme.breakpoints.down("sm")]: {
-    width: "100%",
-  },
+  // [theme.breakpoints.down("sm")]: {
+  //   width: "100%",
+  // },
 }));
 
 const SearchList = styled(List)(({ theme }) => ({
@@ -85,15 +88,21 @@ export default function SearchBar() {
         sx={{
           "& .MuiInputBase-input": {
             // marginBottom:"70px",
-            fontSize: "20px",
-            paddingLeft: "30px",
+            // fontSize: "20px",
+            // paddingLeft: "30px",
+          height:"20px",
+          padding:"10px",
+          border:'1px solid #fff',
+          
           },
-          "& fieldset": { border: "1px solid #000", borderRadius: "40px" },
+          "& fieldset": {  borderRadius: "5px", },
         }}
         onClick={searchHandler}
         ref={catMenu}
-      ></SearchField>
-      <Box
+      > 
+      </SearchField>
+      <SearchIcon sx={{color:"#000",position:"absolute",}}/>
+      {/* <Box
         sx={{
           position: {md:"absolute",sm:"absolute",xs:"relative"},
           left: {md:"67vw",sm:"67vw",xs:"0"},
@@ -108,7 +117,7 @@ export default function SearchBar() {
         }}
       >
         <Typography sx={{ fontSize: "25px" }}>Subscribe</Typography>
-      </Box>
+      </Box> */}
     </Search>
   );
 }

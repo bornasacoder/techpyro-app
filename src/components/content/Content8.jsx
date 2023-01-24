@@ -1,97 +1,115 @@
 import { ArrowForward, Campaign } from "@mui/icons-material";
-import { Button, Typography } from "@mui/material";
+import { Button, Grid, Paper, Typography } from "@mui/material";
 import { Box, styled } from "@mui/system";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
-  width: "98vw",
+  // width: "98vw",
   display: "flex",
-  position: "relative",
-  justifyContent: "center",
+  // position: "relative",
+  justifyContent: "space-between",
+  backgroundColor: "#00873D",
+  marginTop:'40px',
+  // justifyContent:"center",
+  alignItems:"center",
+  padding: "60px 68px",
+  fontFamily: "Trirong",
+  [theme.breakpoints.down("md")]: {
+    flexDirection:'column',
+    padding: "20px 8px",
+  },
+  [theme.breakpoints.down("sm")]: {
+    flexDirection:'column',
+    padding: "20px 8px",
+  },
+}));
+const Image = styled("img")(({ theme }) => ({
+  height: "200px",
+  width: "200px",
+  objectFit:"cover",
+  borderRadius:"20px",
+  [theme.breakpoints.down("md")]: {
+    height:"180px",
+  width:'180px',
+  },
+  [theme.breakpoints.down("sm")]: {
+    height:"150px",
+  width:'150px',
+  },
+}));
+const Item = styled(Paper)(({ theme }) => ({
+  // backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
+  ...theme.typography.body2,
+  padding: theme.spacing(1),
+  height:"55px",
+  width:'60px',
+  fontSize:"28px",
+  variant:"h1",
+  borderRadius:"0px",
+  textAlign: "center",
+  color: "white",
+  
 }));
 export default function Content8() {
   return (
     <StyleToolbar>
-      <video
-        width="100%"
-        height="500px"
-        style={{ position: "absolute", zIndex: "-1", objectFit: "cover" }}
-        src="https://player.vimeo.com/external/444586868.sd.mp4?s=bf79ca5c05b60cfdf42e9892c263e5b9ca49ff20&profile_id=164&oauth2_token_id=57447761"
-        autoPlay
-        loop
-        muted
-      ></video>
-      <Box
-        gap={5}
-        sx={{
-          flexDirection: { md: "column", sm: "column", xs: "column" },
-          textAlign: "center",
-          alignItems: "center",
-          display: "flex",
-          justifyContent: "center",
-          alignContent: "center",
-          height: "500px",
-        }}
-      >
-        <Box>
-          
-          <Box sx={{ display: "flex", justifyContent: "center" }}>
-            <Typography
-              variant="h1"
-              sx={{
-                color: "#FC6539",
-                fontFamily: " Abril Fatface",
-                fontSize: { md: "48px", sm: "38px", xs: "30px" },
-                // fontFamily: "Dancing Script",
-              }}
-            >
-              The Right Headphones
-            </Typography>
-          </Box>
-          <br/>
-          <Typography
-            sx={{
-              display: "flex",
-              justifyContent: "center",
-              color: "white",
-              fontSize: { md: "20px", sm: "18px", xs: "14px" },
-              textAlign: "center",
-              alignItems: "center",
-            }}
-          >
-            In ornare quam viverra orci sagittis. Duis ultricies lacus sed
-            turpis tincidunt id aliquet 
-            <br/>
-            risus. Arcu felis bibendum ut tristique
-            et.
-          </Typography>
-        </Box>
-        <Box
+      
+      <Box display="flex" gap="20px" sx={{}}>
+      <Box display="flex" >
+        <Typography
+          variant="h4"
           sx={{
-            padding: "0px 3px 3px 0px",
-            borderBottom: "2px solid #000",
-            borderRight: "2px solid #000",
+            fontSize: {md:"35px",sm:'30px',xs:"28px"},
+            fontFamily: "Trirong",
+            color: "#fff",
+            display: "flex",
+            alignContent:"center",
+            textAlign:"center"
           }}
         >
-          <Button
-            endIcon={<ArrowForward />}
-            sx={{
-              background: "white",
-              color: "#000",
-              borderRadius: "0px",
-              // boxShadow: "0 3px 3px rgba(15,12, 10, 1)",
-              "&:hover": {
-                backgroundColor: "#000",
-                color: "#ffffff",
-              },
-            }}
-          >
-            Join Now
-          </Button>
-        </Box>
-        {/* <Box data-aos="fade-right">
-          <Campaign sx={{ fontSize: "100px" }} />
-          </Box>  */}
+          Limited
+          <br />
+          Hour Deals
+        </Typography>
       </Box>
+      <Box sx={{  }}>
+        <Grid container spacing={2} sx={{textAlign:"center",}}>
+          <Grid item xs={4} >
+          <Box sx={{border:"2px solid #fff",backgroundColor:"red",height:"55px",
+  width:'60px',}}>
+            <Typography fontSize="28px" color="#fff">07</Typography>
+            </Box>
+            <Typography color="#fff">HRS</Typography>
+          </Grid>
+          <Grid item xs={4}>
+            <Box sx={{border:"2px solid #fff",backgroundColor:"#404040",height:"55px",
+  width:'60px',}}>
+            <Typography fontSize="28px" color="#fff">40</Typography>
+            </Box>
+            <Typography color="#fff">MINS</Typography>
+          </Grid>
+          <Grid item xs={4}>
+          <Box sx={{border:"2px solid #fff",backgroundColor:"#404040",height:"55px",
+  width:'60px',}}>
+            <Typography fontSize="28px" color="#fff">55</Typography>
+            </Box>
+            <Typography color="#fff">SECS</Typography>
+          </Grid>
+         
+        </Grid>
+      </Box>
+      </Box>
+      <Box>
+        <br/>
+        <br/>
+      <Box sx={{display:"flex",gap:{md:'20px',sm:"15px",xs:"5px"},justifyContent:"center"}}>
+        <Box >
+         <Image src="https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/FlashSale/21st/3-12/SweatersSweatshirts.jpg?q=80&auto=format" />
+         </Box>
+         <Box>
+        <Image src="https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/FlashSale/21st/3-12/FirstTimeDeal.jpg?q=80&auto=format" />
+        </Box>
+    </Box>
+    </Box>  
     </StyleToolbar>
   );
 }

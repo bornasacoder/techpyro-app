@@ -11,27 +11,10 @@ import {
     Typography,
     Menu,
   } from "@mui/material";
-  
-  // const StyleToolbar = styled(List)(({ theme }) => ({
-  //   // width: 19%;
-  //  //  height: '64px',
-  //   display: 'none',
-  //   [theme.breakpoints.down("md")]: {
-  //     display: "block",
-  //     // right: "70px",
-  //     // left:'70px',
-  //   },
-  //  //  fontFamily: "Dancing Script",
-  //  //  color:"white"
-  //  //  zIndex:1,
-  //   // position:sticky;
-   
-  //    // zIndex: "0",
-  //  }));
  
 export default function MenuButtons(props) {
   return (
-    <List component="nav" aria-label="mailbox folders" sx={{margin:'10px',width:'30%'}}>
+    <List component="nav" aria-label="mailbox folders" sx={{margin:'10px',width:'80%',}}>
       <ListItem button>
         <ListItemText primary="Product" />
       </ListItem>

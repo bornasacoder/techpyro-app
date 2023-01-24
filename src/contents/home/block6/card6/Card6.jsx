@@ -14,30 +14,38 @@ import {
   FavoriteBorder,
   FavoriteBorderOutlined,
 } from "@mui/icons-material";
+
+// const ExpandMore = styled((props) => {
+//   const { expand, ...other } = props;
+//   return <IconButton {...other} />;
+// })(({ theme, expand }) => ({
+//   transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',
+//   marginLeft: 'auto',
+//   transition: theme.transitions.create('transform', {
+//     duration: theme.transitions.duration.shortest,
+//   }),
+// }));
 const MainCard = styled(Box)(({ theme }) => ({
   display: "flex",
   flexWrap: "wrap",
-  justifyContent: "space-between",
+  justifyContent: "center",
   gap: "20px",
   // padding:"10px 50px"
 }));
-export default function Card1({ sliderData }) {
+export default function Card6({ sliderData }) {
   const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
   return (
     <MainCard>
       <Card
         sx={{
-          maxWidth: { md: "20vw", sm: "40vw", xs:"48vw" },
+          maxWidth: { md: "60vw", sm: "95vw", xs:"100vw" },
           borderRadius: "0px",
           boxShadow: "none",
           backgroundColor: "#F2F5F9",
           position: "relative",
           height: "auto",
           borderRadius:"10px"
-          // "&:hover": {
-          //   border: "1px solid #000",
-          // },
         }}
       >
         {/* <CardHeader sx={{fontStyle:"italic", "& .MuiCardHeader-title":{fontSize:{xs:"13px"}}}} title={sliderData.shopname} subheader="September 14"  /> */}
@@ -45,7 +53,8 @@ export default function Card1({ sliderData }) {
           component="img"
           image={sliderData.image}
           alt="Paella dish"
-          sx={{ height: { md: "80vh", sm: "70vh", xs: "40vh" },"&:hover":{
+          sx={{ height: { md: "60vh", sm: "38vh", xs: "28vh" },
+          maxWidth: {md:"60vw",sm:"90vw",xs:"100vw"},"&:hover":{
             display:"zoom-in",
           } }}
         />

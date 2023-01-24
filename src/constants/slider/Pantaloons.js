@@ -1,4 +1,4 @@
-export const earbud= [
+export const Pantaloons= [
     {
         shopname:"Ram Ji bhojnalaya",
         price: {
@@ -10,7 +10,7 @@ export const earbud= [
           tagline: "Club C Extra Women Shoes",
           tagline1: "Airpod Product ides",
           new:"New",
-          image: "https://htmldemo.net/sinp/sinp/assets/images/products/lg/product3.webp ",
+          image: "https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/ExclusivelyOnPT/Desktop/MarigoldLane-D.jpg?q=80&auto=format",
           rating:"4.3",
       },
       {
@@ -24,7 +24,7 @@ export const earbud= [
           tagline: "Reebok Classics Reverse Fleece Wide Leg Pants",
           tagline1: "Airpod Product kiebd",
           new:"New",
-          image: "https://htmldemo.net/sinp/sinp/assets/images/products/lg/product5.webp",
+          image: "https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/ExclusivelyOnPT/Desktop/YU-D.jpg?q=80&auto=format",
           rating:"4.3",
       },
       {
@@ -34,7 +34,7 @@ export const earbud= [
               discount: "201",
               cost: "9800"
           },
-         image: "https://htmldemo.net/sinp/sinp/assets/images/products/lg/product2.webp ",
+         image: "https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/ExclusivelyOnPT/Desktop/StyleUP-D.jpg?q=80&auto=format ",
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Nano X2 TR Adventure Men's Training Shoes",
           tagline1: "Birpod product unsde",
@@ -52,7 +52,7 @@ export const earbud= [
           tagline: "Nano X2 TR Adventure Men's Training Shoes",
           tagline1: "New minia nidesd",
           new:"New",
-        image: "https://htmldemo.net/sinp/sinp/assets/images/products/lg/product3.webp",
+        image: "https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/ExclusivelyOnPT/Desktop/WinterWear-D.jpg?q=80&auto=format",
           rating:"4.3",
       },
      

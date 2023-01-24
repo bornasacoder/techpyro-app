@@ -1,11 +1,11 @@
 import React from 'react'
-import {earbud, shoes} from "../../../constants/slider/earbud"
+import {Pantaloons, shoes} from "../../../constants/slider/Pantaloons"
 import Sliders from './slider1/Sliders'
 
 const Block1 = () => {
   return (
     <div>
-        <Sliders sliderData={earbud}/>
+        <Sliders sliderData={Pantaloons}/>
     </div>
   )
 }

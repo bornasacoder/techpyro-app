@@ -2,10 +2,6 @@
 import Sliders from 'components/slider/slider1/Sliders'
 import React from 'react'
 import MiniSlider from 'components/slider/slider2/MiniSlider';
-import {shoes} from "../../constants/slider/earbud";
-import {thali} from "../../constants/slider/thali";
-import {fastFood} from "../../constants/slider/jogger";
-import {other} from "../../constants/slider/other";
 import Navbar from 'components/navbar/Navbar';
 import MiddleContent from 'components/middlecontent/MiddleContent';
 import Footer from 'components/footer/Footer';
@@ -20,49 +16,40 @@ import Content6 from 'components/content/Content6';
 import Content7 from 'components/content/Content7';
 import Block1 from 'contents/home/block1/Block1';
 import Block2 from 'contents/home/block2/Block2';
+import Block4 from 'contents/home/block4/Block4';
 import Block3 from 'contents/home/block3/Block3';
 import Content8 from 'components/content/Content8';
 import Content9 from 'components/content/Content9';
 import Content10 from 'components/content/Content10';
+import Content11 from 'components/content/Content11';
+import Content12 from 'components/content/Content12';
+import Content13 from 'components/content/Content13';
+import Content14 from 'components/content/Content14';
+import Content15 from 'components/content/Content15';
+import Block5 from 'contents/home/block5/Block5';
+import Block6 from 'contents/home/block6/Block6';
+import Content16 from 'components/content/Content16';
+
 
 
 const Home = () => {
   return (
     <div>
     <Navbar />
-     <Content4/>
-     <Content10/>
-     <Content1/>
-   <Content7/>
-   <Block1/>
-   <Content8/>
-   <Block3/>
-   <Content9/>
-  <Footer/>  
-     {/*
-  <Block2/>
-    {/* <Content7/> */}
-    {/* <Content6/>
-    */}
-    {/* <Content/> */}
-    {/* <MiddleContent/>
-     <Content2/>
-    
-    <Content5/>
-    <Content6/>
-    <Content7/>
-    <Footer/> */}
-    {/* <Content3/> */}
-    {/*
-    <Content/> */}
-    {/* <Navbar2/> */}
-    {/* <MainCarousel/> */}
-     {/* <Sliders sliderData={pizza}   />
-     <MiniSlider sliderData = {fastFood}/>
-     <Sliders sliderData={thali}   />
-     <Sliders sliderData={other}   /> */}
-
-
+   <Content4/>
+    <Content8/>
+  <Content6/>
+  <Content10/>
+    <Content11/>
+   <Block2/>
+    <Block4/>
+   <Content12/>
+   <Content13/>
+   <Content14/>
+  <Content15/>
+    <Block5/>
+  <Block6/>
+   <Content16/>
     </div>
   )
 }

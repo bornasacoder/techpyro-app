@@ -6,7 +6,7 @@ import { styled } from "@mui/styles";
 // import SliderItem from './sliderItem/SliderItem';
 import { ChevronLeftOutlined, ChevronRightOutlined } from "@mui/icons-material";
 // import SliderHeader from './sliderhead/SliderHeader';
-import Card2 from "../card2/Card2";
+import Card4 from "../card4/Card4";
 import "./minislider.css";
 import { Box, Typography } from "@mui/material";
 const SliderContainer = styled("div")({
@@ -72,6 +72,7 @@ const Sliders = (props) => {
           slidesToScroll: 1,
           speed: 300,
           arrows: false,
+          autoplay:'false'
         },
       },
       {
@@ -148,7 +149,7 @@ const Sliders = (props) => {
             textAlign:"center"
           }}
         >
-          Style Revolution for Glam Gals
+         One Stop for Fashion Heroes
         </Typography>
         {/* <Typography variant='h5'  sx={{margin:"5px 0px 0px 8px",
   padding:"0px 40px ",}}>Top new drops, sales, collabs and collections available now and coming soon.</Typography>  */}
@@ -157,7 +158,7 @@ const Sliders = (props) => {
           {/* <SliderHeader /> */}
           <Slider {...settings}>
             {props.sliderData.map((item) => (
-              <Card2 sliderData={item} />
+              <Card4 sliderData={item} />
             ))}
           </Slider>
         </SliderInnerContainer>

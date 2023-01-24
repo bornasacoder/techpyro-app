@@ -3,49 +3,51 @@ import { Button, Grid, Paper, Typography } from "@mui/material";
 import { Box, styled } from "@mui/system";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
-  // backgroundColor:"red",
-  padding: "58px 10px 58px 90px ",
+  // maxWidth:"100vw",
   backgroundColor:"#FFFFFF",
-  [theme.breakpoints.down("md")]: {
-  justifyContent:"center",
-  padding: "25px 5px ",
-  },
-  [theme.breakpoints.down("md")]: {
+  padding: "58px 10px 58px 90px ",
+   [theme.breakpoints.down("md")]: {
     justifyContent:"center",
-    padding: "25px 20px 10px ",
-  },
+    padding: "25px 5px ",
+    },
+    [theme.breakpoints.down("md")]: {
+      justifyContent:"center",
+      padding: "25px 20px 10px ",
+    },
 }));
 const Item = styled(Paper)(({ theme }) => ({
   // borderRadius: "!important",
   boxShadow: "none!important",
   textAlign: "center",
   fontSize: "18px",
+  //   [theme.breakpoints.down("sm")]: {
+  //     width: "150px",
+  //   },
 }));
-export default function Content10() {
+export default function Content14() {
   return (
     <StyleToolbar>
        <Box
-        display="flex"
-        justifyContent="center"
-        sx={{ padding: "26px 0px 28px", gap:"5px",  }}
+       
+        sx={{ padding: "26px 0px 28px", gap:"5px" }}
       >
         <Typography
           sx={{
             textAlign: "center",
             fontFamily: "Trirong",
-            fontSize: { md: "48px", sm: "35px", xs: "20px" },
+            fontSize: { md: "48px", sm: "35px", xs: "24px" },
             fontWeight: "500",
           }}
         >
-        Army of Winter Fashion
+        First Time on Discount
         </Typography>
         <br></br>
        
-      </Box>
+     
       <Box
         display="flex"
         // justifyContent="center"
-        flexDirection="column"
+        alignItems="center"
         // gap={5}
         sx={
           {   
@@ -70,10 +72,9 @@ export default function Content10() {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                // borderRadius: "50%!important",
                 height:{md:"50vh",sm:"50vh",xs:"23vh"},
                 width:{md:"40vw",sm:"45vw",xs:"90vw"},
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/WinterEssentials/Desktop/PrintedWinterWear-D.jpg?q=80&auto=format"})
+                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/FirstTimeonDiscount/Desktop/ActiveWear-D.jpg?q=80&auto=format"})
                 center/cover no-repeat`,
               }}
             >
@@ -90,7 +91,7 @@ export default function Content10() {
                 // borderRadius: "10px!important",
                 height:{md:"50vh",sm:"50vh",xs:"23vh"},
                 width:{md:"40vw",sm:"45vw",xs:"90vw"},
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/WinterEssentials/Desktop/KidsWinterWear-D.jpg?q=80&auto=format"})
+                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/FirstTimeonDiscount/Desktop/SleepWear-D.jpg?q=80&auto=format"})
                 center/cover no-repeat`,
               }}
             >
@@ -107,7 +108,7 @@ export default function Content10() {
                 // borderRadius: "50%!important",
                 height:{md:"50vh",sm:"50vh",xs:"23vh"},
                 width:{md:"40vw",sm:"45vw",xs:"90vw"},
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/WinterEssentials/Desktop/Jackets-D.jpg?q=80&auto=format"})
+                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/FirstTimeonDiscount/Desktop/EthnicWear-D.jpg?q=80&auto=format"})
                 center/cover no-repeat`,
               }}
             >
@@ -124,7 +125,7 @@ export default function Content10() {
                 // borderRadius: "50%!important",
                 height:{md:"50vh",sm:"50vh",xs:"23vh"},
                 width:{md:"40vw",sm:"45vw",xs:"90vw"},
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/WinterEssentials/Desktop/SweatersSweatshirts-D.jpg?q=80&auto=format"})
+                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/FirstTimeonDiscount/Desktop/Bags-D.jpg?q=80&auto=format"})
                 center/cover no-repeat`,
               }}
             >
@@ -134,7 +135,7 @@ export default function Content10() {
           </Grid>
         </Grid>
       </Box>
-
+      </Box>
         
 
     </StyleToolbar>
