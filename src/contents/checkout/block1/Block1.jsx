@@ -20,8 +20,8 @@ export default function Block1() {
                 <Typography variant='span'>+919999999999</Typography>
             </Box>
         </Box>
-        <Box>
-            <Button variant='outlined'>Change</Button>
+        <Box sx={{margin:'5px 0'}}>
+            <Button variant='outlined' sx={{width:{sm:'100px',xs:'80px'},height:'35px',borderRadius:{sm:'18px',xs:'16px'}}}>Change</Button>
         </Box>
     </Box>
   )

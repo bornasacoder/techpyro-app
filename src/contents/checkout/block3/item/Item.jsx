@@ -67,7 +67,7 @@ import {
           display: "flex",
           flexDirection: { md: "row", xs: "column" },
           height: { md: "200px", xs: "350px" },
-          borderTop:'2px solid #888',
+          borderBottom:'2px solid #888',
           borderRadius:'0'
         }}
       >

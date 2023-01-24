@@ -22,6 +22,7 @@ const Image = styled("img")(({ theme }) => ({
 export default function Item() {
     const theme = useTheme();
   return (
+    <Link to={'/orderdetails'} style={{textDecoration:'none'}}>
     <Card sx={{display:'flex',
     border:'0.5px solid rgb(159 162 191 / 50%)',
     borderRadius:'5px',
@@ -60,6 +61,7 @@ export default function Item() {
           <Box sx={{display:'flex',alignItems:'center',marginRight:'10px'}}>
             <KeyboardArrowRightIcon fontSize='medium'/>
           </Box>
-    </Card>
+      </Card>
+    </Link>
   )
 }

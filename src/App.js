@@ -10,6 +10,7 @@ import {
 import Cart from "./pages/cart/Cart";
 import Orders from "./pages/orders/Orders";
 import CheckOut from "./pages/checkout/CheckOut";
+import OrderDetails from "./pages/orders/OrderDetails";
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <Route exact path="/cart" element={<Cart/>} />
         <Route exact path="/checkout" element={<CheckOut/>} />
         <Route exact path="/orders" element={<Orders/>} />
+        <Route exact path="/orderdetails" element={<OrderDetails/>} />
       </Routes>
     </Router>
   );

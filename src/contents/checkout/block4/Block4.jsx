@@ -9,7 +9,7 @@ import {GiTakeMyMoney} from 'react-icons/gi'
 
 import ReCAPTCHA from "react-google-recaptcha"
 
-export default function Block4() {
+export default function Block4(props) {
     const theme = useTheme();
   return (
     <Box sx={{marginBottom:'100px',padding:'0 10px',boxShadow:`${theme.colors.shadows.cardSm}`,background:`${theme.colors.alpha.white[100]}`,}}>
@@ -22,7 +22,8 @@ export default function Block4() {
             {/* <DoneIcon sx={{color:`${theme.colors.success.dark}`}} fontSize='small'/> */}
         </Box>
     </Box>
-        <Accordion TransitionProps={{timeout:600}} sx={{borderBottom:`1px solid ${theme.colors.alpha.black[10]}`}}>
+    <Box sx={{display:`${props.activeStep}`==='2'?'block':'none'}}>
+        <Accordion TransitionProps={{timeout:600}} sx={{borderBottom:`1px solid ${theme.colors.alpha.black[10]}`,}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -188,6 +189,7 @@ export default function Block4() {
         </Box>
         </AccordionDetails>
       </Accordion>
+      </Box>
     </Box>
   )
 }
