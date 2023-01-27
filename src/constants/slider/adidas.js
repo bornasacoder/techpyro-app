@@ -8,8 +8,8 @@ export const adidas = [
                cost: "₹3,199"
            },
            category:["Spring Rolls","Thali","sweets"],
-           tagline: "Wrogn men solid black jeans",
-      image:"https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WNJN2217/1.jpeg",
+           tagline: "Best couch for you",
+      image:"https://m.media-amazon.com/images/I/71RpTYfbRiL._AC_SY200_.jpg",
            rating:"4.3",
        },
 
@@ -22,8 +22,8 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-           tagline: "Wrogn men solid black jeans",
-     image:"https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WNSH0283/1.jpeg",
+           tagline: "Best couch for you",
+     image:"https://m.media-amazon.com/images/I/81uJOXAfODL._AC_SY200_.jpg",
            rating:"4.3",
        },
        {
@@ -35,8 +35,8 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WNJK6004/1.jpeg",
-       tagline: "Wrogn men solid black jeans",
+       image:"https://m.media-amazon.com/images/I/61AVMkuN+BL._AC_SY200_.jpg",
+       tagline: "Best couch for you",
            rating:"4.3",
        },
        {
@@ -48,8 +48,8 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WKSH1811/1.jpeg",
-         tagline: "Wrogn men solid black jeans",
+         image: "https://m.media-amazon.com/images/I/71w2Uk3F3aL._AC_SY200_.jpg",
+         tagline: "Best couch for you",
            rating:"4.3",
        },
        {
@@ -61,8 +61,8 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-     image:"https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WNSH0600/1.jpeg",
-     tagline: "Wrogn men solid black jeans",
+     image:"https://m.media-amazon.com/images/I/61IA8eSPIWL._AC_SY200_.jpg",
+     tagline: "Best couch for you",
            rating:"4.3",
        },
        {
@@ -74,8 +74,8 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","RasGulla","sweets"],
-           tagline: "Wrogn men solid black jeans",
-     image:"https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WNJK6269/1.jpeg",
+           tagline: "Best couch for you",
+     image:"https://m.media-amazon.com/images/I/71gqs-m95EL._AC_SY200_.jpg",
 
            rating:"4.3",
        },
@@ -89,8 +89,8 @@ export const adidas = [
         },
            category:["Spring Rolls","Thali","sweets"],
 
-           tagline: "Wrogn men solid black jeans",
-          image:"https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WJSS1359/1.jpeg",
+           tagline: "Best couch for you",
+          image:"https://m.media-amazon.com/images/I/71razUsFk9L._AC_SY200_.jpg",
            rating:"4.3",
        },
 

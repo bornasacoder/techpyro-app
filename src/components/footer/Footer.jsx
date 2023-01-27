@@ -39,30 +39,32 @@ const Lakshman = styled(Box)(({theme}) => ({
 const Sita = styled(Box)(({theme}) => ({
   display:'flex',
   justifyContent:'space-evenly',
-  // backgroundColor:theme.colors.alpha.black[100],
-  height:'50px',
+  backgroundColor:'#004F9A',
+  height:'150px',
   width:'100%',
-  flexDirection:'row',
+  flexDirection:'column',
   // color:theme.colors.alpha.white[100],
   alignItems:'center',
  
   [theme.breakpoints.down('md')]: {
     //  flexDirection:'column',
-    //   padding:'10px'
-    height:'100px',
+      padding:'10px',
+    // width:'300px',
+    height:'auto',
+    display:'block'
   }
 
 }));
 
 const Footer = () => {
   return (
-    <Box sx={{backgroundColor:'#DFE2E7',marginTop:'80px'}}>
-       <Box sx={{display:'flex',justifyContent:'space-evenly',height:'80px',border:'1px solid rgba(0,0,0,0.1)',alignItems:'center'}}>
-        <Typography sx={{display:'flex',flexDirection:'row',alignItems:'center',gap:'10px'}}> <MoneyTwoTone sx={{fontSize:'35px',color:'green'}}/>Cash On Delievery</Typography>
-        <Typography sx={{display:'flex',flexDirection:'row',alignItems:'center',gap:'10px'}}> <LocalShippingTwoTone sx={{fontSize:'35px'}}/>Free Delievery</Typography>
-        <Typography sx={{display:'flex',flexDirection:'row',alignItems:'center',gap:'10px'}}><CurrencyExchangeTwoTone sx={{fontSize:'35px',color:'red'}}/>Easy Exchange</Typography>
+    <Box sx={{marginTop:'0px'}}>
+       <Box sx={{display:'flex',justifyContent:'center',height:'150px',alignItems:'center',flexDirection:'column',alignItems:'center',gap:'20px'}}>
+        <Typography sx={{display:'flex',flexDirection:'row',alignItems:'center'}}>We'd love to hear what you think!</Typography>
+        <Button variant='contained' sx={{width:'160px',backgroundColor:'#FFFFFF',color:'black',border:'1px solid black',borderRadius:'20px',"&:hover":{backgroundColor:'black',color:'white'}}}>Give feedback</Button>
+       
        </Box>
-      <Ram >
+      {/* <Ram >
         
       
         <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'300px',sm:'350px',md:'300px'},display:'flex',flexDirection:'column',gap:'20px',color:'black'}}>
@@ -123,7 +125,7 @@ const Footer = () => {
         <Typography>HARIDWAR</Typography>
         </Box>
        
-      </Ram>
+      </Ram> */}
       {/* <Lakshman >
       
       <Box sx={{fontSize: {xs:'18px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'}}}>
@@ -163,7 +165,7 @@ const Footer = () => {
       </Box>
      
     </Lakshman> */}
-    <Box sx={{display:'flex',alignItems:'center',flexDirection:'column',paddingTop:'30px'}}>
+    {/* <Box sx={{display:'flex',alignItems:'center',flexDirection:'column',paddingTop:'30px'}}> */}
       {/* <Box>
       <Typography>Enter your mail*</Typography>
       <Box sx={{borderRadius:'0'}}>
@@ -172,20 +174,19 @@ const Footer = () => {
       
       </Box>
       </Box> */}
-    </Box>
+    {/* </Box> */}
       <hr></hr>
       <Sita>
-        <Box>
-          <Typography>Privacy Policy</Typography>
-        </Box>
-       
-        <Box>
-          <Typography>Terms & Conditions</Typography>
-        </Box>
-      <Box>
-        <Typography>Cookie Policy</Typography>
+        <Box sx={{display:'flex',gap:{xs:'10px',sm:'15px',md:'20px'},color:'white',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
+          <Typography>All Departments</Typography>
+          <Typography>Store Directory</Typography>
+        <Typography>Careers</Typography>
+        <Typography>our company</Typography>
+        <Typography>Sell on Wallmart.com</Typography>
+        <Typography>Help</Typography>
+        <Typography>Product shelter</Typography>
       </Box>
-        
+        <Typography sx={{color:'white'}}>@2023Walmart.All rights reserved</Typography>
       </Sita>
       </Box>
    

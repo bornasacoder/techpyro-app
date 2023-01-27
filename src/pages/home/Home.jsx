@@ -16,8 +16,11 @@ import { other } from 'constants/slider/other';
 import { adidas } from '../../constants/slider/adidas'
 import Block6 from 'contents/home/Block6';
 import MiniSlider from 'components/allcarousel/slider/slider2/MiniSlider';
+import Sliders from 'components/allcarousel/slider/slider1/Sliders';
 import { pizza } from 'constants/slider/pizza';
-
+import Block7 from 'contents/home/Block7';
+import { fastfood } from 'constants/slider/fastfood';
+import Block8 from 'contents/home/Block8';
 const Home = () => {
 // console.log(mainCarousel);
   return (
@@ -25,11 +28,22 @@ const Home = () => {
     
          <Navbar /> 
          <SwiggySlider sliderData={other} />
+         <Block7 />
+         <BigSlider sliderData={adidas}/>
          <Block1 />
+         <Block2 />
+         <MiniSlider sliderData={pizza} />
+         <Sliders sliderData={fastfood}/>
+         <Block3 />
+         <BigSlider sliderData={adidas}/>
+         <Block8 />
+         <Footer /> 
+         {/* <SwiggySlider sliderData={other} />
+        
          <BigSlider sliderData={adidas}/>
          <MiniSlider sliderData={pizza}/>
          <Block5 />
-         <Footer /> 
+         <Footer />  */}
       
       
 </div>

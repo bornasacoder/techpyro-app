@@ -66,8 +66,8 @@ const Image = styled("img")({
                 
                 },
 })
-const Head = styled("h3")({
-    fontSize: "15px",
+const Head = styled("h6")({
+    // fontSize: "10px",
     // fontWeight:"400",
     // textAlign:"center",
     marginBottom:"0px",
@@ -82,7 +82,7 @@ const Head = styled("h3")({
 //         fontSize: "12px",
 //         },
 // })
- const SliderAtem = ({posterLinks}) => {
+ const SliderEtem = ({posterLinks}) => {
     console.log(posterLinks)
   return (
     <>
@@ -90,23 +90,23 @@ const Head = styled("h3")({
     <SliderContainer>
      <ImageContainer>
          <Image src={posterLinks.image} />
-         <Box sx={{paddingLeft:'10px'}}>
+         <Box>
          <Button variant='contained' sx={{borderRadius:'20px'}}>+Add</Button>
          </Box>
          
-         <Box sx={{width:{xs:'120px',sm:'200px',md:'180px'},display:'flex',gap:{xs:'5px',sm:'10px',md:'20px'},paddingLeft:'10px'}}>
-         <Head style={{fontWeight:{xs:'200',sm:'400',md:'400'}}}>{posterLinks.price.mrp}</Head>
-         <Head style={{fontWeight:{xs:'200',sm:'400',md:'400'},textDecoration:'line-through',color:'rgba(0,0,0,0.5)'}}>{posterLinks.price.cost}</Head>
-         <Head style={{color:'red'}}>{posterLinks.price.discount}</Head>
+         <Box sx={{width:{xs:'120px',sm:'200px',md:'180px'},display:'flex',gap:{xs:'5px',sm:'10px',md:'20px'}}}>
+         <Head style={{fontWeight:{xs:'200',sm:'400',md:'400'},fontSize:'20px'}}>{posterLinks.price.mrp}</Head>
+        
+         
          </Box>
-         <Box sx={{width:{xs:'120px',sm:'200px',md:'180px'},paddingLeft:'10px'}}>
-          <Head style={{fontWeight:{xs:'300',sm:'400',md:'700'}}}>{posterLinks.tagline}</Head>
+         <Box sx={{width:{xs:'120px',sm:'200px',md:'180px'}}}>
+          <Head style={{fontSize:'12px'}}>{posterLinks.tagline}</Head>
           </Box>
-          <Typography sx={{paddingLeft:'10px'}}><Star /><Star /><Star /><StarHalf /></Typography>
+          <Typography><Star /><Star /><Star /><StarHalf /></Typography>
      </ImageContainer>
     </SliderContainer>
     </>
   )
 }
 
-export default SliderAtem
+export default SliderEtem

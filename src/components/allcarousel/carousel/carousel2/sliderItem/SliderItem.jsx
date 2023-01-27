@@ -17,17 +17,18 @@ const ImageContainer = styled("div")({
     alignItems:"center",
     // justifyContent:"center",
     flexDirection:"column",
-    // margin:"10px 20px"
+    // margin:"0px 20px"
     // border:'1px solid black'
 
 })
 const Image = styled("img")({
     width:"100%",
-    height:"600px",
+    height:"500px",
     objectFit:"cover",
     // margin:"40px",
     zIndex:"1",
     // border:'1px solid black',
+    borderRadius:'10px',
     "@media (max-width: 960px)": {
        width:'100%',
        height:'500px',
@@ -45,7 +46,7 @@ const Image = styled("img")({
             },
             "@media (max-width: 480px)": {
                 width:'100%',
-                height:'200px',
+                height:'300px',
                 margin:'0',
                 padding:'0',
                 // gap:'20px'

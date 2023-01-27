@@ -9,7 +9,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-      image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/homepage_banner/tinywow_ISRO-BANNER_7608846.webp",
+      image:"https://m.media-amazon.com/images/I/61l4i7aoY2L._SX3000_.jpg",
            rating:"4.3",
        },
 
@@ -23,7 +23,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-     image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/homepage_banner/WEBSITE_BANNER_EOSS_50_OFF-01.jpg",
+     image:"https://m.media-amazon.com/images/I/71cQMXCLSvL._SX3000_.jpg",
            rating:"4.3",
        },
        {
@@ -35,7 +35,7 @@ export const other = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/section_2/tinywow_jpg_to_webp_4210423.webp",
+       image:"https://m.media-amazon.com/images/I/61GnAucagBL._SX3000_.png",
        tagline: "new",
            rating:"4.3",
        },
@@ -48,7 +48,7 @@ export const other = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/special_offers/tinywow_jpg_to_webp_4013467.webp",
+         image: "https://m.media-amazon.com/images/I/61jgtU0PS4L._SX3000_.jpg",
          tagline: "new",
            rating:"4.3",
        },

@@ -3,15 +3,15 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { styled } from '@mui/styles';
-import "./swiggyslider.css"
+import "./swiggy.css"
 import SliderItem from '../../carousel/carousel2/sliderItem/SliderItem';
 import {  ArrowCircleLeftOutlined, ArrowCircleRightOutlined, } from '@mui/icons-material';
 import { color } from '@mui/system';
 import { Box, Typography } from '@mui/material';
 const SliderContainer = styled('div')({
-width:"100%",
+width:"auto",
 height:"auto",
-// margin:"2% 0.3%",
+padding:"0px 100px",
 overflow:"hidden",
 backgroundColor:"transparent",
 // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
@@ -22,7 +22,8 @@ backgroundColor:"transparent",
 },
 "@media (max-width: 480px)": {
     backgroundColor:'white',
-    width:'100%'
+    width:'100%',
+    padding:'0px',
  
  },
 
@@ -30,14 +31,16 @@ backgroundColor:"transparent",
 })
 const SliderInnerContainer = styled('div')({
   display: "flex",
+  width:'100%',
   justifyContent:"center",
+  backgroundColor:'#FFFFFF',
   // alignItems:'center',
   flexDirection:"column",
   // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-  // padding:"20px 80px",
+  padding:"30px ",
   "@media (max-width: 480px)": {
     backgroundColor:'white',
-   padding:'0px'
+   padding:'10px'
  
  },
 })
@@ -48,7 +51,7 @@ const PreviousBtn = (props) =>{
   
    return (
          <div className={className}   onClick={onClick}>
-          <ArrowCircleLeftOutlined style={{color:'white',zIndex:'100',fontSize:'3rem' }} />
+          <ArrowCircleLeftOutlined style={{color:'white',zIndex:'200',fontSize:'3rem' }} />
          </div>  
    )
 }
@@ -68,7 +71,7 @@ const SwiggySlider = (props) => {
   const settings = {
     dots: true,
     arrows:true,
-    infinite: false,
+    infinite:false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,

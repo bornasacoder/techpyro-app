@@ -12,9 +12,9 @@ import SliderAtem from './sliderItem/SliderAtem';
 const SliderContainer = styled('div')({
 width:"100%",
 height:"auto",
-// margin:"2% 0.3%",
+// margin:'0px 100px',
 overflow:"hidden",
-backgroundColor:'transparent',
+// backgroundColor:'#FFFFFF',
 // border:'1px solid black',
 // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
 "@media (max-width: 1490px)": {
@@ -34,13 +34,15 @@ const SliderInnerContainer = styled('div')({
   display: "flex",
   backgroundColor:'transparent',
   justifyContent:"center",
-  // alignItems:'center',
-  flexDirection:"column",
+  margin:'0px 100px',
+  backgroundColor:'#FFFFFF',
+  flexDirection:"column", 
   // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-  padding:"0px 100px",
+ paddingLeft:'20px',
   "@media (max-width: 480px)": {
     backgroundColor:'white',
-   padding:'0px'
+   paddingLeft:'0px',
+   margin:'0px'
  
  },
 })
@@ -52,7 +54,7 @@ const PreviousBtn = (props) =>{
   
    return (
          <div className={className} onClick={onClick}>
-          <ChevronLeftOutlined sx={{color:'black',zIndex:'10',fontSize:'2.5rem' }} />
+          <ChevronLeftOutlined sx={{color:'black',zIndex:'10',fontSize:'2.5rem',border:'3px solid rgba(0,0,0,0.5)',borderRadius:'50px', backgroundColor:'#FFFFFF',marginLeft:'-5px'}} />
          </div>  
    )
 }
@@ -61,7 +63,7 @@ const NextBtn = (props) =>{
    const {className,onClick} = props;
    return (
      <div  className={className} onClick={onClick}>
-       <ChevronRightOutlined sx={{color:'black',  zIndex:'10',fontSize:'2.5rem'}} />
+       <ChevronRightOutlined sx={{color:'black',  zIndex:'10',fontSize:'2.5rem',border:'3px solid rgba(0,0,0,0.5)',borderRadius:'50px', backgroundColor:'#FFFFFF',marginRight:'300px'}} />
      </div>
    )
 }
@@ -74,7 +76,7 @@ const BigSlider = (props) => {
     arrows:true,
     infinite: true,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: 6,
     slidesToScroll: 4,
     autoplay: false,
     autoplaySpeed: 4000,
@@ -137,8 +139,8 @@ const BigSlider = (props) => {
   };
   return (
     <>
-     <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center',padding:{xs:'10px',sm:'30px',md:'40px'},display:'flex',justifyContent:'center'}}>
-       <Typography sx={{fontSize:{xs:'25px',sm:'30px',md:'30px'},fontWeight:'500',color:'black'}}>Trending in Wrogn</Typography>
+     <Box sx={{display:'flex',padding:{xs:'10px',sm:'30px',md:'20px'},display:'flex',backgroundColor:'#FFFFFF',margin:{xs:'0px 10px',sm:'0px 50px',md:'0px 100px'}}}>
+       <Typography sx={{fontSize:{xs:'25px',sm:'30px',md:'20px'},fontWeight:'500',color:'black'}}>Gametime</Typography>
        
        </Box>
     <SliderContainer>         

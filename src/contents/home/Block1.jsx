@@ -7,12 +7,12 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 AOS.init();
 
 
-export default function Card1() {
+export default function Block1() {
   const theme = useTheme();
   const CardBox = styled(Card)(({theme})=>({
   display:'flex',
   flexDirection:'column',
-  width:'200px',
+  width:'300px',
   height:'300px',
   borderRadius:'0px',
   gap:'30px',
@@ -45,12 +45,17 @@ const Box1= styled(Box)(({ theme }) => ({
 ));
   return ( 
     <>
-
-       <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'30px'},fontWeight:'500',color:'black',paddingTop:{xs:'20px',sm:'40px',md:'80px'},display:'flex',justifyContent:'center'}}>Top Catogeries</Typography>
+<Box sx={{backgroundColor:'#FFFFFF',margin:{xs:'0px',sm:'0px 50px',md:'0px 100px'}}}>
+<Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'20px'},fontWeight:'500',color:'black',padding:{xs:'20px',sm:'40px',md:'30px'},display:'flex'}}>Ready,set,game on</Typography>
+</Box>
        
-    <Box  data-aos-duration="3000" sx={{display:'flex',justifyContent:'center',gap:{xs:'0px',sm:'50px',md:'25px'},flexDirection:{xs:'column',sm:'column',md:'row'},paddingTop:{xs:'0px',sm:'20px',md:'30px'}}}>
+       
+    <Box  data-aos-duration="3000" sx={{display:'flex',justifyContent:'space-evenly',flexDirection:{xs:'column',sm:'column',md:'row'},paddingTop:{xs:'0px',sm:'20px',md:'10px'},backgroundColor:'#FFFFFF',margin:{xs:'0px',sm:'0px 50px',md:'0px 100px'}}}>
 
-      <Box sx={{display:'flex',gap:{xs:'0px',sm:'20px',md:'20px'}}}>
+   
+      <Box sx={{display:'flex',gap:{xs:'0px',sm:'20px',md:'20px'},flexDirection:{xs:'column',sm:'column',md:'row'}}}>
+
+      <Box sx={{display:'flex',gap:'20px'}}>
    <Box sx={{padding:{xs:'10px',sm:'0px',md:'0'}}}>
    
       <CardBox >
@@ -61,7 +66,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.2)'
       },}}
           component="img"
-          image="/images/category/wrogn1.jpeg"
+          image="/images/category/mart5.webp"
           alt="green iguana"
         />
        </Box>
@@ -69,10 +74,10 @@ const Box1= styled(Box)(({ theme }) => ({
       
 
       </CardBox>
-    <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
+    <Box sx={{height:{xs:'20%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
    <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>T Shirts</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500'}}>40% off select game time finds</Typography>
           
         </Box>
        
@@ -90,7 +95,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="/images/category/wrogn2.jpeg"
+          image="/images/category/mart6.webp"
           alt="green iguana"
         />
        </Box>
@@ -98,18 +103,20 @@ const Box1= styled(Box)(({ theme }) => ({
       
 
       </CardBox>
-    <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
+    <Box sx={{height:{xs:'20%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
     <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Shirts</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500'}}>Home theater under $30</Typography>
          
         </Box>
        
        
        </Box>
       </Box>
+      </Box>
 
 
+<Box sx={{display:'flex',gap:'20px'}}>
       <Box sx={{padding:{xs:'10px',sm:'20px',md:'0'}}}>
    
       <CardBox >
@@ -120,7 +127,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="/images/category/wrogn3.webp"
+          image="/images/category/mart7.webp"
           alt="green iguana"
         />
        </Box>
@@ -128,78 +135,23 @@ const Box1= styled(Box)(({ theme }) => ({
       
 
       </CardBox>
-      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
+      <Box sx={{height:{xs:'20%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
       <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Jeans</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500'}}>Party supplies under $12</Typography>
          
         </Box>
        
        
        </Box>
       </Box>
-      </Box>
-
-      <Box sx={{display:'flex',gap:{xs:'0px',sm:'20px',md:'20px'}}}>
-      <Box sx={{padding:{xs:'10px',sm:'20px',md:'0'}}}>
    
-      <CardBox >
 
-        <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'}}}>
-        <CardMedia
-        sx={{height:'100%',transition:'0.5s all', "&:hover":{
-          transform:'scale(1.2)'
-      }}}
-          component="img"
-          image="/images/category/wrogn4.webp"
-          alt="green iguana"
-        />
-       </Box>
-   
       
-
-      </CardBox>
-      <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
-      <Box sx={{display:'flex',flexDirection:'column'}}>
-          
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Sweat Shirts</Typography>
-         
-        </Box>
-       
-       
-       </Box>
-      </Box>
+    
       
       
-      <Box sx={{padding:{xs:'10px',sm:'20px',md:'0'}}}>
-   
-      <CardBox >
-
-        <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'},}}>
-        <CardMedia
-        sx={{height:'100%',transition:'0.5s all', "&:hover":{
-          transform:'scale(1.2)'
-      }}}
-          component="img"
-          image="/images/category/wrogn5.jpeg"
-          alt="green iguana"
-        />
-       </Box>
-   
-      
-
-      </CardBox>
-    <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
-    <Box sx={{display:'flex',flexDirection:'column'}}>
-          
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Joggers</Typography>
-          
-         
-        </Box>
-       
-       
-       </Box>
-      </Box>
+     
 
       
       <Box sx={{padding:{xs:'10px',sm:'20px',md:'0'}}}>
@@ -208,11 +160,9 @@ const Box1= styled(Box)(({ theme }) => ({
 
         <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'},}}>
         <CardMedia
-        sx={{height:'100%',transition:'0.5s all', "&:hover":{
-          transform:'scale(1.2)'
-      }}}
+        sx={{height:'100%'}}
           component="img"
-          image="/images/category/wrogn6.webp"
+          image="/images/category/mart8.webp"
           alt="green iguana"
         />
        </Box>
@@ -220,18 +170,20 @@ const Box1= styled(Box)(({ theme }) => ({
       
 
       </CardBox>
-    <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
+    <Box sx={{height:{xs:'20%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
     <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Footwear</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500'}}>Shop all game time</Typography>
           
           
         </Box>
-       
-       
        </Box>
       </Box>
       </Box>
+
+
+      </Box>
+      
       </Box>
       {/* <Box sx={{display:'flex',justifyContent:'space-evenly',padding:{xs:'100px 30px',sm:'100px 50px',md:'100px'},flexDirection:{xs:'column',sm:'column',md:'row'},alignItems:'center',gap:'20px'}}>
         <RiceBowlTwoTone sx={{fontSize:{xs:'60px',sm:'35px',md:'60px'}}}/>

@@ -21,7 +21,7 @@ import {
     
   } from "@mui/material";
 
-import { AccountCircle, Call, EastOutlined, FavoriteBorder, Help, Home, HomeOutlined, LocalCarWashOutlined, LocationCityRounded, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  Search,  SearchOffOutlined,  ShoppingBag, ShoppingCart} from '@mui/icons-material';
+import { AccountCircle, Bungalow, Call, EastOutlined, FavoriteBorder, GridView, Help, Home, HomeOutlined, LocalCarWashOutlined, LocationCityRounded, LocationCitySharp, LocationOn, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  Search,  SearchOffOutlined,  ShoppingBag, ShoppingCart, Window} from '@mui/icons-material';
 
 import MenuButtons from 'components/menuButtons/MenuButtons';
 
@@ -64,7 +64,7 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         // flex:'3',
         display: 'flex',
         gap:'30px', 
-        marginLeft:'10px',
+        marginLeft:'30px',
           // justifyContent: 'space-between',
         // paddingLeft:'30px',
         alignItems: 'center',
@@ -72,9 +72,10 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
             gap:"10px"
         },
         [theme.breakpoints.down('sm')]: {
-            // paddingLeft:'0px',
-            marginLeft:'0px',
-            width:'250px'
+          margin:'0px',
+            width:'auto',
+           
+            gap:"30px"
         },
         
         
@@ -87,7 +88,7 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         // paddingRight:'30px',
            flexDirection:"row",
         alignItems: 'center',
-        marginRight:'10px',
+        marginRight:'30px',
         // [theme.breakpoints.down('md')]: {
             //     justifyContent:"space-between"
             // },
@@ -137,7 +138,7 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
 ));
 const Navbar2 = styled(Box)(({ theme }) => ({
   display:'flex',
-  justifyContent:'center',
+  justifyContent:'space-between',
   alignItems:'center',
   backgroundColor:'white',
   height:'40px',
@@ -145,7 +146,8 @@ const Navbar2 = styled(Box)(({ theme }) => ({
   position:'sticky',
   flexDirection:'row',
   gap:'30px',
-  border:'1px solid rgba(0,0,0,0.1)',
+  backgroundColor:'#0071DC',
+  border:'0.2px  solid white',
   [theme.breakpoints.down('sm')]: {
     display:'none'
       
@@ -161,7 +163,7 @@ display:'none',
     justifyContent:'space-between',
     alignItems:'center',
     // gap:'30px',
-    height:'40px',
+    height:'60px',
       margin:'0px 20px',
      position:'sticky'
   },
@@ -195,19 +197,19 @@ const Downnav = styled(Box)(({ theme }) => ({
 ));
 
 const NavBar = styled(AppBar)(({theme}) =>({
-    backgroundColor:theme.header.background,
+    backgroundColor:'#0071DC',
    
     width:'100%',
-    height:'110px',
+    height:'100px',
     margin:"0",
     padding:'0',
     // zIndex:'100',
 position:'sticky',
 
 [theme.breakpoints.down('sm')]: {
-  height:'50px',
+  height:'60px',
   width:'100%',
- 
+  position:'sticky',
 },
 
 }));
@@ -238,38 +240,51 @@ export default function Navbar() {
         <NavLeft >
        
           
-        <Box sx={{display:{xs:'flex',sm:'flex',md:'block'}}}>
-            <HomeOutlined sx={{color:'rgba(0,0,0,0.7)',fontSize:{xs:'30px',sm:'30px',md:'45px'}}}/>
-           </Box>
+        
+          <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
+          <Typography sx={{fontSize:{xs:'30px',sm:'20px',md:'30px'},fontWeight:'700',color:'white'}}>Walmart</Typography>
+          </Box>
+          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>
+          <Window sx={{fontSize:'20px'}} />
+          <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700',color:'white'}}>Departments</Typography>
+          </Box>
+         
+          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>
+          <GridView sx={{fontSize:'20px'}}/>
+          <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700',color:'white'}}>Services</Typography>
+          </Box>
+
           <Box >
-          <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'900',color:'black'}}>WROGN</Typography>
-          </Box>
-          <Box>
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'600',color:'red',fontFamily:'cursive'}}>IMARA</Typography>
-          </Box>
-          <Box sx={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
-          <Typography sx={{fontSize:{xs:'18px',sm:'20px',md:'18px'},fontWeight:'800',color:'black'}}>WROGN</Typography>
-          <Typography sx={{color:'black',fontSize:'10px'}}>ACTIVE</Typography>
-          </Box>
-          <Box>
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'600',color:'black',fontFamily:'fantasy'}}>SINGLE</Typography>
-          </Box>
+            <MenuButton onClick={handleOpen}>
+                <Menu sx={{display: {xs:'block',sm:'block',md:'none'},color:'white',fontSize:'30px'}}/>
+            </MenuButton>
+            <Drawer open={open} onClose={handleClose} sx={{position:'absolute'}}>
+                <MenuButtons/>
+            </Drawer>
            
-                {/* <NavButton/> */}
+            </Box>
+
+          <Box sx={{display: {xs:'block',sm:'block',md:'block'}}}> 
+           <SearchBar />
+          </Box>
+                <Box sx={{display: {xs:'block',sm:'block',md:'none'}}}>
+                <Typography sx={{color:'white',display:'flex',justifyContent:'center',alignItems:'center',fontWeight:'900'}}><ShoppingCart sx={{fontSize:{xs:'30px',sm:'30px',md:'20px'}}} />Cart</Typography>
+                </Box>
+        
                
             </NavLeft >
           
             <NavRight > 
             
 
-            <Box sx={{display: {xs:'none',sm:'none',md:'block'}}}> 
-           <SearchBar />
-          </Box>
-        <Box sx={{display:{xs:'none',sm:'none',md:'flex'},gap:'30px'}}>
             
-            <Typography sx={{color:'black',display:'flex',justifyContent:'center',alignItems:'center',fontWeight:'600'}}><Person2Outlined sx={{color:'black',fontSize:{xs:'30px',sm:'30px',md:'30px'}}}/>My Account</Typography>
+        <Box sx={{display:{xs:'none',sm:'none',md:'flex'},gap:'30px'}}>
 
-            <Typography sx={{color:'black',display:'flex',justifyContent:'center',alignItems:'center',fontWeight:'600'}}><ShoppingBag sx={{color:'black',fontSize:{xs:'30px',sm:'30px',md:'30px'}}} />Bag</Typography>
+        <Typography sx={{color:'white',display:'flex',justifyContent:'center',alignItems:'center',fontWeight:'900'}}><FavoriteBorder sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'}}}/>My Items</Typography>
+            
+            <Typography sx={{color:'white',display:'flex',justifyContent:'center',alignItems:'center',fontWeight:'900'}}><Person2Outlined sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'}}}/> Account</Typography>
+
+            <Typography sx={{color:'white',display:'flex',justifyContent:'center',alignItems:'center',fontWeight:'900'}}><ShoppingCart sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'}}} />Cart</Typography>
            
            
            </Box>
@@ -306,35 +321,33 @@ export default function Navbar() {
         </Box>
        
         <Navbar2>
-        
-              <Typography sx={{color:'black',fontWeight:'600'}}>TOP WEAR</Typography>
-              <Typography sx={{color:'black',fontWeight:'600'}}>BOTTOM WEAR</Typography>
-              <Typography sx={{color:'black',fontWeight:'600'}}>FOOTWEAR</Typography>
-              <Typography sx={{color:'black',fontWeight:'600'}}>ACCESSORIES</Typography>
-              <Typography sx={{color:'black',fontWeight:'600'}}>SHOP BY THEMES</Typography>
-              <Typography sx={{color:'black',fontWeight:'600'}}>NEW ARRIVALS</Typography>
-              <Typography sx={{color:'black',fontWeight:'600'}}>BEST SELLERS</Typography>
-              <Typography sx={{color:'black',fontWeight:'600'}}>TRENDING</Typography>
-              <Typography sx={{color:'red',fontWeight:'600'}}>CLEARANCE</Typography>
+               <Box sx={{display:'flex',gap:'30px',paddingLeft:'30px'}}>
+                <Typography sx={{fontWeight:'600'}}>How do you want your Items?</Typography>
+                <Typography sx={{display:'flex',alignItems:'center',fontWeight:'600'}}><LocationOn />Haridwar</Typography>
+                <Typography  sx={{display:'flex',alignItems:'center',fontWeight:'600'}}><Bungalow />Supercenter</Typography>
+               </Box>
+               <Box sx={{display:'flex',gap:'30px',paddingRight:'30px'}}>
+              <Typography sx={{color:'white',fontWeight:'600'}}>Deal</Typography>
+              <Typography sx={{color:'white',fontWeight:'600'}}>Valentines Day</Typography>
+              <Typography sx={{color:'white',fontWeight:'600'}}>Game Time</Typography>
+              <Typography sx={{color:'white',fontWeight:'600'}}>Tech</Typography>
+              <Typography sx={{color:'white',fontWeight:'600'}}>Home</Typography>
+              <Typography sx={{color:'white',fontWeight:'600'}}>Toys</Typography>
+              <Typography sx={{color:'white',fontWeight:'600'}}>Grocceries & Essentials</Typography>
+              <Typography sx={{color:'white',fontWeight:'600'}}>Walmart+</Typography>
+              </Box>
              
         </Navbar2>
    
         </NavBar>
 
         <Navbar3>
-         <Box >
-            <MenuButton onClick={handleOpen}>
-                <Menu sx={{display: {xs:'block',sm:'block',md:'none'},color:'black'}}/>
-            </MenuButton>
-            <Drawer open={open} onClose={handleClose} sx={{position:'absolute'}}>
-                <MenuButtons/>
-            </Drawer>
-           
-            </Box>
-            <Box sx={{display:'flex',gap:'20px'}}>
-         <Search sx={{color:'black',fontSize:'25px'}}/>
-         <Person2Outlined sx={{color:'black',fontSize:{xs:'25px',sm:'30px',md:'30px'}}}/>
-         <ShoppingBag sx={{color:'black',fontSize:{xs:'25px',sm:'30px',md:'40px'}}} />
+        <Box>
+          <Typography sx={{fontSize:'17px',fontWeight:'600'}}>Reserve pickup or delievery</Typography>
+        </Box>
+
+            <Box >
+            <Button variant='contained' sx={{width:'120px',backgroundColor:'#FFFFFF',color:'black',border:'1px solid black',borderRadius:'20px',"&:hover":{backgroundColor:'black',color:'white',height:'30px'}}}>See times</Button>
          </Box>
          </Navbar3>
      
