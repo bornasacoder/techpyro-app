@@ -33,7 +33,7 @@ export default function Category() {
   console.log(RestaurantsProducts);
   return (
     <div>
-      <Navbar menu={'none'} arrow={'block'} logo={'Website'} page={'website'}/>
+      <Navbar menu={'none'} arrow={'block'} logo={'Website'}/>
       <PageHeader navData={navData}/>
       <Block1/>
       <Block2 key={EducationProducts} websitesData={EducationProducts}/>

@@ -31,6 +31,8 @@ export default function Block3(props) {
     const handleContinue = ()=>{
         props.setActiveStep(2);
         setHide('block');
+        console.log(props.scollToRef);
+        props.scollToRef.current.scrollIntoView({behavior:"smooth", block: "end", inline:"nearest"});
     }
 
   return (

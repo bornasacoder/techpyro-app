@@ -59,7 +59,7 @@ export default function SearchBar(props) {
     }
     document.addEventListener('mousedown',closeOpenMenus);
   return (
-   <Search sx={{height:36, display:'flex'}}>
+   <Search sx={{height:36, display:{sm:'flex',xs:'none'}}}>
         <SearchIcon sx={{ marginTop:'6px',marginLeft:'10px', color: `${theme.header.background}`}}/>
         <SearchField placeholder='search anything... ' sx={{ "& fieldset": { border: 'none' }, '& .MuiInputBase-input': {
       padding: "8px",

@@ -12,7 +12,7 @@ import ReCAPTCHA from "react-google-recaptcha"
 export default function Block4(props) {
     const theme = useTheme();
   return (
-    <Box sx={{marginBottom:'100px',padding:'0 10px',boxShadow:`${theme.colors.shadows.cardSm}`,background:`${theme.colors.alpha.white[100]}`,}}>
+    <Box ref={props.ref} sx={{marginBottom:'100px',padding:'0 10px',boxShadow:`${theme.colors.shadows.cardSm}`,background:`${theme.colors.alpha.white[100]}`,}}>
         <Box sx={{height:'50px',display:'flex',justifyContent:'space-between',alignItems:'center',padding:'0 20px',
         borderBottom:`1px solid ${theme.colors.alpha.black[10]}`,
         }}>

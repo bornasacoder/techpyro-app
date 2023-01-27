@@ -73,7 +73,7 @@ export default function NavButton(props) {
 //   onMouseOver={() => setShowLogin("flex")} onMouseOut={() => setShowLogin("none")}
 const theme = useTheme();
   return (
-    <CustomButton >
+   <CustomButton sx={{display:'none'}}>
       <Box  sx={{
                 
                 // alignItems: 'center',

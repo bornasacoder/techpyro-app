@@ -125,7 +125,7 @@ const theme = useTheme();
           </List>
         </Box>
       </Box>
-      <MoreButton sx={{display: `${props.logo}`==='Cart'?'none':'flex' ,paddingTop:'18px' ,cursor:'pointer',"&:hover .MuiBox-root": { display:'flex'}, "&:hover .MuiSvgIcon-root": { transform: 'rotate(180deg)'}}}>
+      <MoreButton sx={{display:'none',paddingTop:'18px' ,cursor:'pointer',"&:hover .MuiBox-root": { display:'flex'}, "&:hover .MuiSvgIcon-root": { transform: 'rotate(180deg)'}}}>
         <Typography sx={{fontSize:'18px'}}>More</Typography>
         <Badge>
           <ExpandMoreIcon />
