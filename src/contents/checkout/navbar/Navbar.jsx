@@ -116,7 +116,7 @@ export default function Navbar(props) {
                 </Badge> */}
                 <NavButton/>
             </NavLeft>
-            <Cart sx={{flex:'1'}}>
+            <Cart sx={{flex:{sm:'1',xs:'2'}}}>
                 <Box sx={{display:'flex',justifyContent:'flex-start',alignItems:'center',paddingLeft:'20px',color:`${theme.header.textColor}`}}>
                     <PhoneIcon/>
                     <Typography sx={{paddingLeft:'5px',fontSize:{md:'20px',sm:'17px'},fontWeight:'400',color:`${theme.header.textColor}`}}>+91-9999999999</Typography>
