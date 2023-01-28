@@ -8,7 +8,7 @@ import Block2 from '../../contents/orders/orderDetails/block2/Block2'
 export default function OrderDetails() {
   return (
     <div>
-        <Navbar/>
+        <Navbar menu={'none'} arrow={'block'} logo={'TechPyro'}/>
         <PageHeader navData={navData}/>
         <Block1/>
         <Block2/>
