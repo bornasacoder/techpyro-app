@@ -11,6 +11,7 @@ import Cart from "./pages/cart/Cart";
 import Orders from "./pages/orders/Orders";
 import CheckOut from "./pages/checkout/CheckOut";
 import OrderDetails from "./pages/orders/OrderDetails";
+import Profile from "./pages/profile/Profile";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Route exact path="/checkout" element={<CheckOut/>} />
         <Route exact path="/orders" element={<Orders/>} />
         <Route exact path="/orderdetails" element={<OrderDetails/>} />
+        <Route exact path="/my-account/profile" element={<Profile/>} />
       </Routes>
     </Router>
   );

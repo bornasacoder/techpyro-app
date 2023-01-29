@@ -232,12 +232,13 @@ export default function Block2() {
               }}
             >
               <Link
-                to={"/ordersDetails"}
+                to={"/orderdetails"}
                 style={{
                   fontSize: "14px",
                   textDecoration: "none",
                   display: "flex",
                   gap: "10px",
+                  cursor:'none',
                   color: `${theme.colors.primary.dark}`,
                   fontWeight: 500,
                 }}
@@ -246,12 +247,13 @@ export default function Block2() {
                 <StarRateIcon /> Rate and Review Product
               </Link>
               <Link
-                to={"/ordersDetails"}
+                to={"/orderdetails"}
                 style={{
                   marginTop: "20px",
                   fontSize: "14px",
                   textDecoration: "none",
                   display: "flex",
+                  cursor:'none',
                   gap: "10px",
                   color: `${theme.colors.primary.dark}`,
                   fontWeight: 500,
@@ -264,8 +266,8 @@ export default function Block2() {
           </Box>
 
           {/* <Box sx={{display:{md:'none',sm:'none',xs:'block'},paddingLeft:'20px'}}>
-            <Link to={'/ordersDetails'} style={{marginTop:'20px',fontSize:{md:'17px',xs:'14px'},textDecoration:'none',display:'flex',gap:'10px',color:`${theme.colors.primary.dark}`,fontWeight:500}}> <StarRateIcon sx={{fontSize:{md:'30px',xs:'25px'}}}/> Rate and Review Product</Link>
-            <Link to={'/ordersDetails'} style={{marginTop:'20px',fontSize:{md:'17px',xs:'14px'},textDecoration:'none',display:'flex',gap:'10px',color:`${theme.colors.primary.dark}`,fontWeight:500}}> <HelpCenterIcon sx={{fontSize:{md:'30px',xs:'25px'}}}/> Need Help</Link>
+            <Link to={'/orderdetails'} style={{marginTop:'20px',fontSize:{md:'17px',xs:'14px'},textDecoration:'none',display:'flex',gap:'10px',color:`${theme.colors.primary.dark}`,fontWeight:500}}> <StarRateIcon sx={{fontSize:{md:'30px',xs:'25px'}}}/> Rate and Review Product</Link>
+            <Link to={'/orderdetails'} style={{marginTop:'20px',fontSize:{md:'17px',xs:'14px'},textDecoration:'none',display:'flex',gap:'10px',color:`${theme.colors.primary.dark}`,fontWeight:500}}> <HelpCenterIcon sx={{fontSize:{md:'30px',xs:'25px'}}}/> Need Help</Link>
         </Box> */}
         </Box>
         {/* <Box sx={{display:{sm:'none',xs:'flex',},alignItems:'center',margin:'10px 20px 10px 5px'}}>
@@ -291,7 +293,7 @@ export default function Block2() {
         }}
       >
         <Link
-          to={"/ordersDetails"}
+          to={"/orderdetails"}
           style={{
             marginTop: "20px",
             fontSize: { md: "17px", xs: "14px" },
@@ -307,7 +309,7 @@ export default function Block2() {
           and Review Product
         </Link>
         <Link
-          to={"/ordersDetails"}
+          to={"/orderdetails"}
           style={{
             marginTop: "20px",
             fontSize: { md: "17px", xs: "14px" },
