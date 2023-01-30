@@ -1,46 +1,62 @@
-import { Button, Grid, Paper, Typography } from '@mui/material';
-import { Box, styled } from '@mui/system';
-import React from 'react'
+import { CurrencyRupee, Star } from "@mui/icons-material";
+import { Button, Grid, Paper, Typography } from "@mui/material";
+import { Box, styled } from "@mui/system";
+import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
-  backgroundColor:"#FFFFFF",
-    padding: "58px 25px 58px 90px ",
-  
-    [theme.breakpoints.down("sm")]: {
-      padding: "58px 20px ",
-},
-  
-    gap: 2,
-  }));
-  const Item = styled(Paper)(({ theme }) => ({
-    borderRadius: "0px!important",
-    boxShadow: "none!important",
-    textAlign: "center",
-    backgroundColor:"#FFFFFF!important",
-    fontSize: "18px",
-    //   [theme.breakpoints.down("sm")]: {
-    //     width: "150px",
-    //   },
-  }));
+  backgroundColor: "#FFFFFF",
+  padding: "58px 10px ",
+
+  [theme.breakpoints.down("sm")]: {
+    padding: "58px 10px ",
+    flexDirection:"column"
+  },
+
+  gap: 2,
+}));
+const Item = styled(Paper)(({ theme }) => ({
+  borderRadius: "0px!important",
+  boxShadow: "none!important",
+  textAlign: "center",
+  backgroundColor: "#FFFFFF!important",
+  fontSize: "18px",
+  //   [theme.breakpoints.down("sm")]: {
+  //     width: "150px",
+  //   },
+}));
 export default function Content6() {
   return (
     <StyleToolbar>
-       <Box
+      <Box
         display="flex"
         justifyContent="center"
-        sx={{ padding: "26px 0px 28px", gap:"5px",  }}
+        sx={{ padding: "26px 0px 28px", gap: "5px" }}
       >
+        <Box
+          width="80px"
+          sx={{
+            borderBottom:{md:"3px solid #000",xs:"2px solid #000"} ,
+          height: {md:"20px",xs:'10px'},
+            marginRight: "30px",
+          }}
+        />
         <Typography
+          variant="h1"
           sx={{
             textAlign: "center",
             fontFamily: "Trirong",
-            fontSize: { md: "48px", sm: "50px", xs: "18px" },
-            fontWeight: "500",
+            fontSize: { md: "28px", sm: "24px", xs: "16px" },
           }}
         >
-        Trendy Categories On Top Offers
+          BEST SELLING
         </Typography>
-        <br></br>
-       
+        <Box
+          width="80px"
+          sx={{
+            borderBottom:{md:"3px solid #000",xs:"2px solid #000"} ,
+            height: {md:"20px",xs:'10px'},
+            marginLeft: "30px",
+          }}
+        />
       </Box>
       <Box
         sx={{
@@ -48,233 +64,358 @@ export default function Content6() {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          // bgcolor: "#F4F4F4!important",
+          flexDirection:{xs:'column'}
         }}
       >
         <Grid
           container
-          rowSpacing={2}
+          rowSpacing={1}
           sx={{
             // bgcolor: "#F4F4F4",
             justifyContent: "space-between",
             display: "flex",
             alignItems: "center",
           }}
-          columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+          columnSpacing={{ xs: 1, sm: 2, md: 1 }}
           //   xs={{xs:12,sm:6,md:4}}
         >
-          <Grid item xs={6} sm={4} md={3} >
+          <Grid item md={5} xs={12}>
             <Item
               sx={{
                 display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                height: {md:"220px",sm:"150px",xs:"130px"},
-               width: {md:"220px",sm:"150px",xs:"130px"},
-                borderRadius: "50%!important",
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/Category/Desktop/SweatersSweatshirts.jpg?q=80&auto=format"})
+                flexDirection:"column",
+                justifyContent: "flex-end",
+                height: { md: "548px", sm: "458px",  xs: "320px" },
+                //  width: {md:"270px",sm:"150px",xs:"130px"},
+                // borderRadius: "50%!important",
+                background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/product/electro/9.jpg"})
                 center/cover no-repeat`,
               }}
             >
-              
-            </Item>
-            <Item sx={{}}>
-              
+             <Box display="flex" justifyContent="center" paddingTop="20px">
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+              </Box>
               <Typography
-                sx={{  
-             fontSize:{md:"18px",sm:"16px",xs:"14px"}}}
+                variant="h3"
+                sx={{
+                  fontSize: { md: "38px", sm: "16px",  xs: "16px" },
+                  justifyContent: "center",
+                  textAlign: "center",
+                }}
               >
-                Sweaters & Sweatshirts
+                Play Station
               </Typography>
-              
-            </Item>
-          </Grid>
-          <Grid item xs={6} sm={4} md={3} >
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                 height: {md:"220px",sm:"150px",xs:"130px"},
-                width: {md:"220px",sm:"150px",xs:"130px"},
-                borderRadius: "50%!important",
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/Category/Desktop/Denims-Woman.jpg?q=80&auto=format"})
-                center/cover no-repeat`,
-              }}
-            >
-              
-            </Item>
-            <Item sx={{}}>
-              
+              <Typography>Headphone</Typography>
               <Typography
-                sx={{fontSize:{md:"18px",sm:"16px",xs:"14px"}, }}
-              >
-               Women's Dresses
-              </Typography>
-              
-            </Item>
-          </Grid>
-          <Grid item xs={6} sm={4} md={3} >
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                 height: {md:"220px",sm:"150px",xs:"130px"},
-                width: {md:"220px",sm:"150px",xs:"130px"},
-                borderRadius: "50%!important",
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/Category/Desktop/FusionWear.jpg?q=80&auto=format"})
-                center/cover no-repeat`,
-              }}
-            >
-              
-            </Item>
-            <Item sx={{}}>
-              
-              <Typography
-                sx={{ 
-               fontSize:{md:"18px",sm:"16px",xs:"14px"}}}
-              >
-               Fusion Wear
-              </Typography>
-              
-            </Item>
-          </Grid>
-          <Grid item xs={6} sm={4} md={3} >
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                 height: {md:"220px",sm:"150px",xs:"130px"},
-                width: {md:"220px",sm:"150px",xs:"130px"},
-                borderRadius: "50%!important",
-                background: `url(${"https://images.pexels.com/photos/1580270/pexels-photo-1580270.jpeg?auto=compress&cs=tinysrgb&w=600"})
-                center/cover no-repeat`,
-              }}
-            >
-              
-            </Item>
-            <Item sx={{}}>
-              
-              <Typography
-                sx={{fontSize:{md:"18px",sm:"16px",xs:"14px"},}}
-              >
-                Stunning Dresses
-              </Typography>
-              
-            </Item>
-          </Grid>
-          <Grid item xs={6} sm={4} md={3} >
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                 height: {md:"220px",sm:"150px",xs:"130px"},
-                width: {md:"220px",sm:"150px",xs:"130px"},
-                borderRadius: "50%!important",
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/Category/Desktop/Tracks.jpg?q=80&auto=format"})
-                center/cover no-repeat`,
-              }}
-            >
-              
-            </Item>
-            <Item sx={{}}>
-              
-              <Typography
-                sx={{fontSize:{md:"18px",sm:"16px",xs:"14px"}}}
-              >
-                Kids Tracks
-              </Typography>
-              
-            </Item>
-          </Grid>
-          <Grid item xs={6} sm={4} md={3} >
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                 height: {md:"220px",sm:"150px",xs:"130px"},
-                width: {md:"220px",sm:"150px",xs:"130px"},
-                borderRadius: "50%!important",
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/Category/Desktop/Jacket-Men.jpg?q=80&auto=format"})
-                center/cover no-repeat`,
-              }}
-            >
-              
-            </Item>
-            <Item sx={{}}>
-              
-              <Typography
-                sx={{ 
-               fontSize:{md:"18px",sm:"16px",xs:"14px"},}}
-              >
-                Men's Jackets
-              </Typography>
-              
-            </Item>
-          </Grid>
-          <Grid item xs={6} sm={4} md={3} >
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                 height: {md:"220px",sm:"150px",xs:"130px"},
-                width: {md:"220px",sm:"150px",xs:"130px"},
-                borderRadius: "50%!important",
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/Category/Desktop/TShirts.jpg?q=80&auto=format"})
-                center/cover no-repeat`,
-              }}
-            >
-              
-            </Item>
-            <Item sx={{}}>
-              
-              <Typography
-                sx={{ 
-                fontSize:{md:"18px",sm:"16px",xs:"14px"}, }}
-              >
-                Trendy T-shirts
-              </Typography>
-              
-            </Item>
-          </Grid>
-          <Grid item xs={6} sm={4} md={3} >
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                 height: {md:"220px",sm:"150px",xs:"130px"},
-                width: {md:"220px",sm:"150px",xs:"130px"},
-                borderRadius: "50%!important",
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/Category/Desktop/Denims-Men.jpg?q=80&auto=format"})
-                center/cover no-repeat`,
-              }}
-            >
-              
-            </Item>
-            <Item sx={{}}>
-              
-              <Typography
-                sx={{ 
-              fontSize:{md:"18px",sm:"16px",xs:"14px"}}}
-              >
-                Men's Denims
-              </Typography>
-              
-            </Item>
-          </Grid>
-          
-         
-          
+                variant="h3"
+                textAlign="center"
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  paddingBottom: "20px",
 
-          
+                }}
+              >
+               ₹ 1199.00
+              </Typography> 
+            </Item>
+          </Grid>
+          <Grid item md={7} xs={12} sx={{ display: "flex", }} container>
+            <Grid item xs={12} sm={6} md={4}>
+              <Item
+                sx={{
+                  display: "flex",
+                  flexDirection:"column",
+                  justifyContent: "flex-end",
+                  alignItems: "center",
+                  height: { md: "270px", sm: "150px", xs: "320px" },
+                  margin:"5px",
+                  background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/product/electro/10.jpg"})
+                center/cover no-repeat`,
+                }}
+              >
+                 <Box display="flex" justifyContent="center" paddingTop="20px">
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+              </Box>
+              <Typography
+                variant="h3"
+                sx={{
+                  fontSize: { md: "18px", sm: "16px",  xs: "16px" },
+                  justifyContent: "center",
+                  textAlign: "center",
+                }}
+              >
+                Play Station
+              </Typography>
+              <Typography>Headphone</Typography>
+              <Typography
+                variant="h4"
+                textAlign="center"
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  paddingBottom: "20px",
+                }}
+              >
+                
+                ₹ 1199.00
+              </Typography>
+              </Item>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Item
+                sx={{
+                  display: "flex",
+                  flexDirection:"column",
+                  justifyContent: "flex-end",
+                  alignItems: "center",
+                  height: { md: "270px", sm: "150px",    xs: "320px" },
+                  margin:"5px",
+                  //  width: {md:"270px",sm:"150px",xs:"130px"},
+                  // borderRadius: "50%!important",
+                  background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/product/electro/11.jpg"})
+                center/cover no-repeat`,
+                }}
+              >
+                 <Box display="flex" justifyContent="center" paddingTop="20px">
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+              </Box>
+              <Typography
+                variant="h3"
+                sx={{
+                  fontSize: { md: "18px", sm: "16px",  xs: "16px" },
+                  justifyContent: "center",
+                  textAlign: "center",
+                }}
+              >
+                Play Station
+              </Typography>
+              <Typography>Headphone</Typography>
+              <Typography
+                variant="h4"
+                textAlign="center"
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  paddingBottom: "20px",
+                }}
+              >
+                
+                ₹ 1199.00
+              </Typography>
+              </Item>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Item
+                sx={{
+                  display: "flex",
+                  flexDirection:"column",
+                  justifyContent: "flex-end",
+                  alignItems: "center",
+                  height: { md: "270px", sm: "150px",    xs: "320px" },
+                  margin:"5px",
+                  //  width: {md:"270px",sm:"150px",xs:"130px"},
+                  // borderRadius: "50%!important",
+                  background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/product/electro/12.jpg"})
+                center/cover no-repeat`,
+                }}
+              >
+                 <Box display="flex" justifyContent="center" paddingTop="20px">
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+              </Box>
+              <Typography
+                variant="h3"
+                sx={{
+                  fontSize: { md: "18px", sm: "16px",  xs: "16px" },
+                  justifyContent: "center",
+                  textAlign: "center",
+                }}
+              >
+                Play Station
+              </Typography>
+              <Typography>Headphone</Typography>
+              <Typography
+                variant="h4"
+                textAlign="center"
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  paddingBottom: "20px",
+                }}
+              >
+                
+                ₹ 1199.00
+              </Typography>
+              </Item>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Item
+                sx={{
+                  display: "flex",
+                  flexDirection:"column",
+                  justifyContent: "flex-end",
+                  alignItems: "center",
+                  height: { md: "270px", sm: "150px",    xs: "320px" },
+                  margin:"5px",
+                  //  width: {md:"270px",sm:"150px",xs:"130px"},
+                  // borderRadius: "50%!important",
+                  background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/product/electro/13.jpg"})
+                center/cover no-repeat`,
+                }}
+              >
+                 <Box display="flex" justifyContent="center" paddingTop="20px">
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+              </Box>
+              <Typography
+                variant="h3"
+                sx={{
+                  fontSize: { md: "18px", sm: "16px",  xs: "16px" },
+                  justifyContent: "center",
+                  textAlign: "center",
+                }}
+              >
+                Play Station
+              </Typography>
+              <Typography>Headphone</Typography>
+              <Typography
+                variant="h4"
+                textAlign="center"
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  paddingBottom: "20px",
+                }}
+              >
+                
+                ₹ 1199.00
+              </Typography>
+              </Item>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Item
+                sx={{
+                  display: "flex",
+                  flexDirection:"column",
+                  justifyContent: "flex-end",
+                  alignItems: "center",
+                  height: { md: "270px", sm: "150px",    xs: "320px" },
+                  margin:"5px",
+                  //  width: {md:"270px",sm:"150px",xs:"130px"},
+                  // borderRadius: "50%!important",
+                  background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/product/electro/14.jpg"})
+                center/cover no-repeat`,
+                }}
+              >
+                 <Box display="flex" justifyContent="center" paddingTop="20px">
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+              </Box>
+              <Typography
+                variant="h3"
+                sx={{
+                  fontSize: { md: "18px", sm: "16px",  xs: "16px" },
+                  justifyContent: "center",
+                  textAlign: "center",
+                }}
+              >
+                Play Station
+              </Typography>
+              <Typography>Headphone</Typography>
+              <Typography
+                variant="h4"
+                textAlign="center"
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  paddingBottom: "20px",
+                }}
+              >
+                
+                ₹ 1199.00
+              </Typography>
+              </Item>
+            </Grid>
+            <Grid item xs={12} sm={6} md={4}>
+              <Item
+                sx={{
+                  display: "flex",
+                  flexDirection:"column",
+                  justifyContent: "flex-end",
+                  alignItems: "center",
+                  height: { md: "270px", sm: "150px",    xs: "320px" },
+                  margin:"5px",
+                  //  width: {md:"270px",sm:"150px",xs:"130px"},
+                  // borderRadius: "50%!important",
+                  background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/product/electro/15.jpg"})
+                center/cover no-repeat`,
+                }}
+              >
+                 <Box display="flex" justifyContent="center" paddingTop="20px">
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+                <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
+              </Box>
+              <Typography
+                variant="h3"
+                sx={{
+                  fontSize: { md: "18px", sm: "16px",  xs: "16px" },
+                  justifyContent: "center",
+                  textAlign: "center",
+                }}
+              >
+                Play Station
+              </Typography>
+              <Typography>Headphone</Typography>
+              <Typography
+                variant="h4"
+                textAlign="center"
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  paddingBottom: "20px",
+                }}
+              >
+                
+                ₹ 1199.00
+              </Typography>
+              </Item>
+            </Grid>
+            
+          </Grid>
         </Grid>
       </Box>
     </StyleToolbar>
-  )
+  );
 }

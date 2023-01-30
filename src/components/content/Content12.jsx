@@ -4,8 +4,10 @@ import { Box, styled } from "@mui/system";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   // backgroundColor:"red",
-  padding: "58px  85px  ",
+  padding: "58px  58px  ",
   backgroundColor:"#FFFFFF",
+  borderTop:"1px solid #F2F5F9",
+  borderBottom:"1px solid #F2F5F9",
   [theme.breakpoints.down("md")]: {
   justifyContent:"center",
   padding: "25px 5px ",
@@ -20,28 +22,13 @@ const Item = styled(Paper)(({ theme }) => ({
   boxShadow: "none!important",
   textAlign: "center",
   fontSize: "18px",
+  [theme.breakpoints.down("sm")]: {
+  justifyContent:"center"
+  },
 }));
 export default function Content12() {
   return (
     <StyleToolbar>
-       <Box
-        display="flex"
-        justifyContent="center"
-        sx={{ padding: "26px 0px 28px", gap:"5px",  }}
-      >
-        <Typography
-          sx={{
-            textAlign: "center",
-            fontFamily: "Trirong",
-            fontSize: { md: "48px", sm: "35px", xs: "20px" },
-            fontWeight: "500",
-          }}
-        >
-        Hot Deals On Top Brands
-        </Typography>
-        <br></br>
-       
-      </Box>
       <Box
         display="flex"
         flexDirection="column"
@@ -52,102 +39,130 @@ export default function Content12() {
         }
       ><Grid
           container
-          rowSpacing={8}
+          rowSpacing={2}
           sx={{
             display: "flex",
             alignItems: "center",
           }}
         >
-         <Grid item xs={6} sm={6} md={4} >
+         <Grid item xs={4} sm={3} md={1.714} >
             <Item
               sx={{
-                display: "flex",
+                display: {md:"flex",sm:"flex",xs:"flex"},
                 justifyContent: "center",
                 alignItems: "center",
                 // borderRadius: "50%!important",
-                height:{md:'40vh',sm:'35vh',xs:"25vh"},width:{md:"25vw",sm:'30vw',xs:"40vw"},
+                height:"90px",
+                width:"90px",
                
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/HotDealsOnBrands/Desktop/AllenSolly-D.jpg?q=80&auto=format"})
+                background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/brand-logo/12.png"})
                 center/cover no-repeat`,
               }}
             >
             </Item>
-          </Grid>
-         <Grid item xs={6} sm={6} md={4} >
+         </Grid>
+         <Grid item xs={4} sm={3} md={1.7} >
             <Item
               sx={{
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
-                // borderRadius: "10px!important",
-                height:{md:'40vh',sm:'35vh',xs:"25vh"},width:{md:"25vw",sm:'30vw',xs:"40vw"},
+                // borderRadius: "50%!important",
+                display: {md:"flex",sm:"flex",xs:"flex"},
+                height:"90px",
+                width:"90px",
                
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/HotDealsOnBrands/Desktop/Spykar-D.jpg?q=80&auto=format"})
+                background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/brand-logo/13.png"})
                 center/cover no-repeat`,
               }}
             >
             </Item>
-          </Grid>
-         <Grid item xs={6} sm={6} md={4} >
+         </Grid>
+         <Grid item xs={4} sm={3} md={1.714} >
             <Item
               sx={{
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
                 // borderRadius: "50%!important",
-              height:{md:'40vh',sm:'35vh',xs:"25vh"},width:{md:"25vw",sm:'30vw',xs:"40vw"},
+                display: {md:"flex",sm:"flex",xs:"flex"},
+                height:"90px",
+                width:"90px",
                
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/HotDealsOnBrands/Desktop/Levis-D.jpg?q=80&auto=format"})
-                center/cover no-repeat`,
-              }}
-            > 
-            </Item>
-          </Grid>
-         <Grid item xs={6} sm={6} md={4} >
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                // borderRadius: "50%!important",
-                height:{md:'40vh',sm:'35vh',xs:"25vh"},width:{md:"25vw",sm:'30vw',xs:"40vw"},
-               
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/HotDealsOnBrands/Desktop/VH-D.jpg?q=80&auto=format"})
+                background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/brand-logo/11.png"})
                 center/cover no-repeat`,
               }}
             >
             </Item>
-          </Grid>
-         <Grid item xs={6} sm={6} md={4} >
+         </Grid>
+         <Grid item xs={4} sm={3} md={1.714} >
             <Item
               sx={{
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
+                display: {md:"flex",sm:"flex",xs:"none"},
                 // borderRadius: "50%!important",
-                height:{md:'40vh',sm:'35vh',xs:"25vh"},width:{md:"25vw",sm:'30vw',xs:"40vw"},
+                height:"90px",
+                width:"90px",
                
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/HotDealsOnBrands/Desktop/Celio-D.jpg?q=80&auto=format"})
-                center/cover no-repeat`,
-              }}
-            > 
-            </Item>
-          </Grid>
-         <Grid item xs={6} sm={6} md={4} >
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                // borderRadius: "50%!important",
-                height:{md:'40vh',sm:'40vh',xs:"25vh"},width:{md:"25vw",sm:'30vw',xs:"40vw"},
-               
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/HotDealsOnBrands/Desktop/PeterEngland-D.jpg?q=80&auto=format"})
+                background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/brand-logo/10.png"})
                 center/cover no-repeat`,
               }}
             >
             </Item>
-          </Grid>
+         </Grid>
+         <Grid item xs={4} sm={3} md={1.714} >
+            <Item
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                display: {md:"flex",sm:"none",xs:"none"},
+                // borderRadius: "50%!important",
+                height:"90px",
+                width:"90px",
+               
+                background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/brand-logo/9.png"})
+                center/cover no-repeat`,
+              }}
+            >
+            </Item>
+         </Grid>
+         <Grid item xs={4} sm={3} md={1.714} >
+            <Item
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                // borderRadius: "50%!important",
+                display: {md:"flex",sm:"none",xs:"none"},
+                height:"90px",
+                width:"90px",
+               
+                background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/brand-logo/8.png"})
+                center/cover no-repeat`,
+              }}
+            >
+            </Item>
+         </Grid>
+         <Grid item xs={4} sm={3} md={1.714} >
+            <Item
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                // borderRadius: "50%!important",
+                display: {md:"flex",sm:"none",xs:"none"},
+                height:"90px",
+                width:"90px",
+               
+                background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/brand-logo/7.png"})
+                center/cover no-repeat`,
+              }}
+            >
+            </Item>
+         </Grid>
         </Grid>
       </Box>
 

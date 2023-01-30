@@ -1,15 +1,15 @@
 import { AcUnitOutlined, Apartment, CameraAlt, Collections, CurrencyRupee, EmojiEventsOutlined, Image, LocalMall, MenuBook, MoreHoriz, OpenInFull, OpenInFullOutlined, Power, RemoveRedEyeOutlined, Token, ZoomIn } from "@mui/icons-material";
-import { Box, Grid, Menu, Paper, styled, Typography } from "@mui/material";
+import { Box, Button, Grid, Menu, Paper, styled, Typography } from "@mui/material";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
-  // bgcolor: "#FFFFFF!important",
-  padding: "68px 68px ",
+  backgroundColor: "#FFFFFF!important",
+  padding: "58px 58px ",
   [theme.breakpoints.down("sm")]: {
   padding: "68px 30px ",
         
       },
   [theme.breakpoints.down("md")]: {
-  padding: "68px 20px ",
+  padding: "68px 10px ",
         
       },
   // display: "flex",
@@ -19,51 +19,18 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
 const Item = styled(Paper)(({ theme }) => ({
   borderRadius: "0px!important",
   boxShadow: "none!important",
-  backgroundColor:"#F4F4F4!important",
-  textAlign: "center",
-  padding: "20px 0px!important",
-  fontSize: "18px",
   display:"flex",
   flexDirection:"column",
   alignItems:"center",
-  // "&:hover": {
-  //   opacity: "0.3",
-  // },
-  //   [theme.breakpoints.down("sm")]: {
-  //     width: "150px",
-  //   },
+  padding:"0px!important",
+  justifyContent:'center',
+  alignItems:'center',
+  textAlign:"initial",
+  fontWeight:'600',
 }));
 export default function Content2() {
   return (
     <StyleToolbar  >
-      <Box
-        display="flex"
-        justifyContent="center"
-        alignItems="center"
-        sx={{ padding: "36px 0px 28px",gap:"10px" }}
-      >
-        <Typography
-          sx={{
-            letterSpacing: "4px",
-            textAlign: "center",
-            fontFamily: "Dancing Script",
-            fontSize: { md: "58px", sm: "50px", xs: "28px" },
-            fontWeight: "500",
-            color:"red"
-          }}
-        >
-      Special 
-        </Typography>
-        <Typography sx={{
-            letterSpacing: "4px",
-            textAlign: "center",
-            fontFamily: "Dancing Script",
-            fontSize: { md: "58px", sm: "50px", xs: "28px" },
-            fontWeight: "500",
-          }}>
-         Offers
-        </Typography>
-      </Box>
       <Box
         sx={{
           width: "100%",
@@ -75,217 +42,37 @@ export default function Content2() {
       >
         <Grid
           container
-          rowSpacing={2}
           sx={{
             bgcolor: "#F4F4F4",
             justifyContent: "space-between",
             display: "flex",
             alignItems: "center",
           }}
-          columnSpacing={{ xs: 1, sm: 2, md: 3 }}
           //   xs={{xs:12,sm:6,md:4}}
         >
-          <Grid item xs={12} sm={4} md={4} data-aos="zoom-in">
+          <Grid item xs={12}  >
             <Item
               sx={{
-                display:'flex',
-                justifyContent:'flex-end',
-                alignItems:'center',
-                fontSize:'20px',
-                color:'white',
-                fontWeight:'600',
-                background: `url(${"/images/category/offer-image1.jpg"})
+                
+                background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/banner/19.jpg"})
    center/cover no-repeat`,  
             height:'320px',
             // width:'350px'
               }}
             >
-              SANDWITCH
+              <Box data-aos="fade-up" sx={{marginLeft:{xs:"20px"}}}>
+              <Typography variant="h2">Play with flexible</Typography>
+              <br/>
+              <Typography sx={{fontSize:"16px"}}>Multicontrol Smooth Controller, Black Color All<br/> Buttons 
+are somooth, Super Shine.</Typography>
+<br/>
+<Button sx={{color:"#000",border:"1px solid #000",padding:"5px 20px","&:hover":{
+  backgroundColor:"#000",color:"#fff"
+}}}>BUY NOW</Button>
+</Box>
             </Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4} data-aos="zoom-in">
-            <Item
-              sx={{
-                display:'flex',
-                justifyContent:'flex-end',
-                alignItems:'center',
-                fontSize:'20px',
-                color:'white',
-                fontWeight:'600',
-                background: `url(${"/images/category/offer-image2.jpg"})
-                center/cover no-repeat`,  
-                         height:'320px',
-              }}
-              >
-              TOMATO SOUP
-            </Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4} data-aos="zoom-in">
-            <Item
-              sx={{
-                display:'flex',
-                justifyContent:'flex-end',
-                alignItems:'center',
-                fontSize:'20px',
-                color:'white',
-                fontWeight:'600',
-                background: `url(${"/images/category/offer-image3.jpg"})
-                center/cover no-repeat`,  
-                         height:'320px',
-              }}
-              >
-              ICE CREAM
-            </Item>
-          </Grid>
-          {/* <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <CameraAlt sx={{fontSize:"60px"}}/>
-              FOOD GALLERY
-            </Item>
-            <Item>Powerful Food Galleries</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <Menu sx={{fontSize:"60px"}}/>
-              4 HEADER TYPES
-            </Item>
-            <Item>4 Header styles with combination of displaying social header.</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <Image sx={{fontSize:"60px"}}/>
-              IMAGE GALLERIES
-            </Item>
-            <Item>Easily build photo galleries saving precious time.</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <LocalMall sx={{fontSize:"60px"}}/>
-              WOOCOMMERCE
-            </Item>
-            <Item>WooCommerce to build a delivery shop easily.</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <AcUnitOutlined sx={{fontSize:"60px"}}/>
-              MULTI-LINGUAL READY
-            </Item>
-            <Item>Use popular plugin WPML to translate the site to multiple languages</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <Token sx={{fontSize:"60px"}}/>
-              QUALITY SUPPORT
-            </Item>
-            <Item>After sales Support to ensure the your site works 100% through our Support Forum</Item>
           </Grid>
          
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <Collections sx={{fontSize:"60px"}}/>
-              BULK IMAGE UPLOADING
-            </Item>
-            <Item>Bulk image uploading and management</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <Apartment sx={{fontSize:"60px"}}/>
-              PAGEBUILDER
-            </Item>
-            <Item>Our Pagebuilder closely works with the theme making it lightweight and easy to build.</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <Power sx={{fontSize:"60px"}}/>
-              PREMIUM PLUGINS
-            </Item>
-            <Item>Packed with Premium plugins</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <ZoomIn sx={{fontSize:"60px"}}/>
-              RESPONSIVE LIGHBOX
-            </Item>
-            <Item>Fully responsive lightbox with zoom functionality. Even works on mobiles.</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <CurrencyRupee sx={{fontSize:"60px"}}/>
-              FOOD ITEM CURRENCY
-            </Item>
-            <Item>Easily change currency symbols via theme options</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-             
-            
-                // justifyContent:"center"
-              }}
-            >
-              <MoreHoriz sx={{fontSize:"60px"}}/>
-              MANY MORE FEATURES INCLUDED
-            </Item>
-            <Item>View our demo to see the many features and varieties of grids and galleries it supports.</Item>
-          </Grid> */}
-         
-        
         </Grid>
       </Box>
     </StyleToolbar>

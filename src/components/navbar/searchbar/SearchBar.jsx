@@ -11,55 +11,26 @@ import {
   FormControl,
   InputLabel,
   Typography,
+  NativeSelect,
+  InputBase,
 } from "@mui/material";
 import React, { useRef, useState } from "react";
-import SearchIcon from "@mui/icons-material/Search";
-
-const Search = styled(Box)(({ theme }) => ({
-  // border-radius: 5px;
-  // margin-left: 10px;
-  // width: "60%",
-  // width: "55vw",
+import "./searchbar.css"
+const Search = styled("div")(({ theme }) => ({
+  borderRadius: "5px",
+  width: "100%",
+  height:"50px",
+  backgroundColor:"#BCF2FF",
+  // padding:"2px 8px",
+  // borderRadius:"20px",
+color:"#A7A7A7",
   display: "flex",
-  backgroundColor: "#F7F2F1",
-  
-height:"40px"
-  // [theme.breakpoints.down('sm')]: {
-  //   display:"flex",
-  //   width:"100vw",
-  //   flexDirection:"column !important",
-  //    gap:"20px" 
-  // },
- 
+  alignItems: "center",
 }));
-const SearchField = styled(TextField)(({ theme }) => ({
-  // height:'40px',
-  // padding:' 8.5px 21px',
-  fontSize: "unset",
-  display: "flex",
-  justifyContent: "space-between",
-  position: "relative",
-  height:"10px",
-  borderRadius:"10pxImportant"
-  // padding:"30px 70px",
-  // padding-left: 20px,
-  // flex: 3,
-  // "&::placeholder": {
-  //   marginLeft: "100px",
-  //   fontSize: "40px",
-  // },
-  // [theme.breakpoints.down("sm")]: {
-  //   width: "100%",
-  // },
+const StyledInputBase = styled(InputBase)(({ theme }) => ({
+  color: "inherit",
+  "& .MuiInputBase-input": {},
 }));
-
-const SearchList = styled(List)(({ theme }) => ({
-  [theme.breakpoints.down("sm")]: {},
-}));
-
-const StyledListItem = styled(ListItem)`
-  padding: 2px 10px;
-`;
 
 export default function SearchBar() {
   const [showSearch, setShowSearch] = useState("none");
@@ -77,47 +48,50 @@ export default function SearchBar() {
   document.addEventListener("mousedown", closeOpenMenus);
   const [location, setLocation] = useState("");
   const updatevalue = (e, vel) => {
-    // console.warn(e.target.value);
     setLocation(e.target.value);
+  };
+  const [age, setAge] = React.useState("");
+
+  const handleChange = (event) => {
+    setAge(event.target.value);
   };
 
   return (
     <Search>
-      <SearchField
-        placeholder="email@example.com "
+      <FormControl fullWidth sx={{display:"flex",alignItems:"center", width:"25%",paddingLeft:"20px"}}>
+  <NativeSelect
+    defaultValue={5}
+    inputProps={{
+      name: 'age',
+    }}
+    
+  >
+    <option value={10}>All Category</option>
+    <option value={20}>Smartphones</option>
+    <option value={30}>Computers</option>
+    <option value={40}>Laptops</option>
+  </NativeSelect>
+      </FormControl>
+    <Typography sx={{ fontSize: "30px", fontWeight: "50", }}> | </Typography>
+      <Box sx={{width:"50%",paddingLeft:"20px"}} >
+        <StyledInputBase placeholder="Enter Your E-mail " />
+      </Box>
+      <Box
         sx={{
-          "& .MuiInputBase-input": {
-            // marginBottom:"70px",
-            // fontSize: "20px",
-            // paddingLeft: "30px",
-          height:"20px",
-          padding:"10px",
-          border:'1px solid #fff',
-          
-          },
-          "& fieldset": {  borderRadius: "5px", },
-        }}
-        onClick={searchHandler}
-        ref={catMenu}
-      > 
-      </SearchField>
-      <SearchIcon sx={{color:"#000",position:"absolute",}}/>
-      {/* <Box
-        sx={{
-          position: {md:"absolute",sm:"absolute",xs:"relative"},
-          left: {md:"67vw",sm:"67vw",xs:"0"},
-          padding:"12px 12px",
-        borderRadius:{md:"0px 40px 40px 0px",sm:"0px 40px 40px 0px",xs:"40px"},
-          backgroundColor: "#000",
-          color: "#fff",
-         
-          "&:hover":{
-            backgroundColor:"#FE7E57"
-          }
+          display: "flex",
+          alignItems: "center",
+          height: "100%",
+          width:"25%",
+          justifyContent: "center",
         }}
       >
-        <Typography sx={{ fontSize: "25px" }}>Subscribe</Typography>
-      </Box> */}
+        <Typography sx={{ display: "flex", gap: "20px", width:"100%", alignItems:"center" }}>
+          <Typography sx={{ fontSize: "30px", fontWeight: "50" }}>
+            |
+          </Typography>{" "}
+          Search
+        </Typography>
+      </Box>
     </Search>
   );
 }

@@ -20,25 +20,18 @@ import {
 } from "@mui/material";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
-  backgroundColor: "#666666",
+  backgroundColor: "#282828",
   color: "#fff",
   height: "90px",
   display: "flex",
-  padding:'0px 20px',
+  padding: "0px 40px",
   justifyContent: "space-between",
   [theme.breakpoints.down("sm")]: {
-    display: "flex",
     flexDirection: "column",
-    justifyContent:"center",
-    alignItems:"center",
-    gap:"10px",
-    height: "110px",
-
+    justifyContent: "center",
+    gap: "10px",
+    padding: "0px 20px",
   },
-}));
-const Image = styled("img")(({ theme }) => ({
-  height: "30px",
-  width: "350px",
 }));
 
 const Footer = () => {
@@ -46,29 +39,50 @@ const Footer = () => {
     <StyleToolbar>
       <Box
         sx={{
-          color: "#fff",
+          color: "#AAAAAA",
           gap: "15px",
-display:"flex"
-          // display: { md: "flex", sm: "none", xs: "none" },
+          display: "flex",
         }}
       >
         <Typography
           sx={{
-            fontSize: {md:"20px",sm:'18px',xs:"14px"},
             display: "flex",
             alignItems: "center",
             gap: "5px",
           }}
         >
-          © 2022 Sinp. Made with
-          <FavoriteBorder  sx={{color:"#FC6935"}}/>
-          by Codecarnival.
+          privacy policy
+        </Typography>
+        <Typography
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            gap: "5px",
+          }}
+        >
+          Blog
+        </Typography>
+        <Typography
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            gap: "5px",
+          }}
+        >
+          Help Center
         </Typography>
       </Box>
-      <Box sx={{
-            display: "flex",
-            alignItems: "center",}}>
-      <Image src="https://htmldemo.net/sinp/sinp/assets/images/logo/payment.webp" />
+      <Box
+        sx={{
+          display: "flex",
+          alignItems: "center",
+          color: "#AAAAAA",
+        }}
+      >
+        <Typography sx={{ display: "flex", gap: "3px" }}>
+          Copyright © <Typography sx={{ color: "#fff" }}>TechPyro</Typography>{" "}
+          2023 . All Right Reserved
+        </Typography>
       </Box>
     </StyleToolbar>
   );
