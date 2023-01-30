@@ -7,27 +7,30 @@ const Block8 = () => {
     const CardBox = styled(Card)(({theme})=>({
     display:'flex',
     flexDirection:'column',
-    width:'400px',
-    height:'400px',
-    backgroundColor:'#FFFFFF',
+    width:'550px',
+    height:'300px',
+    backgroundColor:'#F2F2F2',
+    borderRadius:'20px',
+    boxShadow:'none',
     [theme.breakpoints.down('lg')]: {
       width:'100vw',
       height:'400px',
      
     },
     [theme.breakpoints.down('md')]: {
-      width:'100vw',
-      height:'500px',
-      flexDirection:'column',
-      // paddingTop:'50px',
+      width:'100%',
+      height:'250px',
+      flexDirection:'row',
+      paddingTop:'40px', 
+      alignItems:'center',
       // gap:'50px',
     },
     [theme.breakpoints.down('sm')]: {
       width:'100%',
-      height:'450px',
-      flexDirection:'column',
-      // paddingTop:'50px',
-      // gap:'50px',
+      height:'200px',
+      flexDirection:'row',
+      paddingTop:'40px',
+     alignItems:'center',
     },
    
   }))
@@ -65,26 +68,28 @@ const Block8 = () => {
      {/* <Box1>
 
      </Box1> */}
-     <Box sx={{backgroundColor:'#FFFFFF',margin:{xs:'0px',sm:'0px 50px',md:'0px 100px'}}}>
-<Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'20px'},fontWeight:'500',color:'black',padding:{xs:'20px',sm:'40px',md:'30px'},display:'flex'}}>Health & Wellness</Typography>
-</Box>
 
-      <Box sx={{margin:{xs:'0px',sm:'0px 50px',md:'0px 100px'},width:'auto',backgroundColor:'#FFFFFF',display:'flex',justifyContent:'space-evenly',paddingBottom:'20px',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
+
+<Box sx={{display:'flex',justifyContent:'center',marginTop:'40px'}}>
+<Box sx={{backgroundColor:'#F2F2F2',display:'flex',flexDirection:'column',alignItems:'center',width:'1100px',boxShadow:'1px 2px 5px 1px rgba(0,0,0,0.1)',borderRadius:'20px',margin:'10px'}}>
+  <Typography sx={{backgroundColor:'#616DFF',color:'white',fontSize:'20px',fontWeight:'600',width:'150px',display:'flex',justifyContent:'center',borderRadius:'10px'}}>JEE/NEET</Typography>
+
+      <Box sx={{margin:{xs:'0px',sm:'0px 0px',md:'0px'},width:'auto',display:'flex',justifyContent:'center',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
       <CardBox >
-      <Box sx={{height:{xs:'400px',sm:'100%',md:'60%'},width:{xs:'100%',sm:'100%',md:'100%'},paddingTop:{xs:'0px',sm:'0px',md:'0px'}}}>
+      <Box sx={{height:{xs:'100%',sm:'100%',md:'50%'},width:{xs:'50%',sm:'50%',md:'100%'},margin:{xs:'20px',sm:'10px',md:'20px',display:'flex',justifyContent:'center',alignItems:'center'}}}>
       
         <CardMedia
-        sx={{height:'100%'}}
+        sx={{height:{xs:'70%',sm:'80%',md:'100%'},width:{xs:'100%',sm:'100%',md:'40%'}}}
           component="img"
-          image="/images/category/mart16.webp"
+          image="/images/category/byjus5.png"
           alt="green iguana"
         />
      </Box>
-       <Box sx={{height:{xs:'100%',sm:'50%',md:'40%'},width:{xs:'100%',sm:'100%',md:'100%'},display:'flex',flexDirection:'column',background:'#F6F7FB',padding:'20px',gap:'20px',backgroundColor:'#FFFFFF'}}>
+       <Box sx={{height:{xs:'100%',sm:'100%',md:'50%'},width:{xs:'50%',sm:'50%',md:'100%'},display:'flex',flexDirection:'column',padding:'0px',gap:'20px',alignItems:'center'}}>
        
-        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'600',}}>Prep your outdoor oasis</Typography>
-        <Typography>Get set for spring with patio furniture & more</Typography>
-        <Button variant='contained' sx={{width:'130px',backgroundColor:'#FFFFFF',color:'black',border:'1px solid black',borderRadius:'20px',"&:hover":{backgroundColor:'black',color:'white'}}}>Shop now</Button>
+        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500',}}>Comprehensive learning program for JEE preparation</Typography>
+       
+        <Button variant='contained' sx={{backgroundColor:'#FE8C3C',color:'black',border:'1px solid black',borderRadius:'10px',"&:hover":{backgroundColor:'black',color:'white'},width:'150px'}}>Explore JEE</Button>
      
        </Box>
       
@@ -92,51 +97,30 @@ const Block8 = () => {
       </CardBox>
 
       <CardBox >
-      <Box sx={{height:{xs:'400px',sm:'100%',md:'60%'},width:{xs:'100%',sm:'100%',md:'100%'},paddingTop:{xs:'0px',sm:'0px',md:'0px'}}}>
+      <Box sx={{height:{xs:'100%',sm:'100%',md:'50%'},width:{xs:'50%',sm:'50%',md:'100%'},margin:{xs:'20px',sm:'20px',md:'20px'},display:'flex',justifyContent:'center',alignItems:'center'}}>
       
         <CardMedia
-        sx={{height:'100%'}}
+        sx={{height:{xs:'70%',sm:'80%',md:'100%'},width:{xs:'100%',sm:'100%',md:'40%'}}}
           component="img"
-          image="/images/category/mart17.webp"
+          image="/images/category/byjus6.png"
           alt="green iguana"
         />
      </Box>
-       <Box sx={{height:{xs:'100%',sm:'50%',md:'40%'},width:{xs:'100%',sm:'100%',md:'100%'},display:'flex',flexDirection:'column',background:'#F6F7FB',padding:'20px',gap:'20px',backgroundColor:'#FFFFFF'}}>
+       <Box sx={{height:{xs:'100%',sm:'100%',md:'50%'},width:{xs:'50%',sm:'50%',md:'100%'},display:'flex',flexDirection:'column',padding:'0px',gap:'20px',alignItems:'center'}}>
        
-        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'600',}}>Prep your outdoor oasis</Typography>
-        <Typography>Get set for spring with patio furniture & more</Typography>
-        <Button variant='contained' sx={{width:'130px',backgroundColor:'#FFFFFF',color:'black',border:'1px solid black',borderRadius:'20px',"&:hover":{backgroundColor:'black',color:'white'}}}>Shop now</Button>
-     
+       <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500',}}>Comprehensive learning program for NEET aspirants</Typography>
+        
+        <Button variant='contained' sx={{backgroundColor:'#FE8C3C',color:'black',border:'1px solid black',borderRadius:'10px',"&:hover":{backgroundColor:'black',color:'white'},width:'150px'}}>Explore NEET</Button>
        </Box>
-      
       
       </CardBox>
 
 
-      <CardBox >
-      <Box sx={{height:{xs:'400px',sm:'100%',md:'60%'},width:{xs:'100%',sm:'100%',md:'100%'},paddingTop:{xs:'0px',sm:'0px',md:'0px'}}}>
-      
-        <CardMedia
-        sx={{height:'100%'}}
-          component="img"
-          image="/images/category/mart18.webp"
-          alt="green iguana"
-        />
-     </Box>
-       <Box sx={{height:{xs:'100%',sm:'50%',md:'40%'},width:{xs:'100%',sm:'100%',md:'100%'},display:'flex',flexDirection:'column',background:'#F6F7FB',padding:'20px',gap:'20px',backgroundColor:'#FFFFFF'}}>
+       </Box>
        
-        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'600',}}>Prep your outdoor oasis</Typography>
-        <Typography>Get set for spring with patio furniture & more</Typography>
-        <Button variant='contained' sx={{width:'130px',backgroundColor:'#FFFFFF',color:'black',border:'1px solid black',borderRadius:'20px',"&:hover":{backgroundColor:'black',color:'white'}}}>Shop now</Button>
-     
        </Box>
-      
-      
-      </CardBox>
-      
        </Box>
-     
-     
+       
        
        </>
        

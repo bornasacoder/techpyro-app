@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { styled } from '@mui/styles';
 // import "./BigSlider.css"
 import SliderItem from '../../carousel/carousel2/sliderItem/SliderItem';
-import {  ArrowCircleLeftOutlined, ArrowCircleRightOutlined, ChevronLeftOutlined, ChevronRightOutlined, } from '@mui/icons-material';
+import {  ArrowCircleLeftOutlined, ArrowCircleRightOutlined, ArrowForward, ChevronLeftOutlined, ChevronRightOutlined, } from '@mui/icons-material';
 import { color } from '@mui/system';
 import { Box, Typography } from '@mui/material';
 import SliderAtem from './sliderItem/SliderAtem';
@@ -14,6 +14,10 @@ width:"100%",
 height:"auto",
 // margin:'0px 100px',
 overflow:"hidden",
+display:'flex',
+justifyContent:'center',
+flexDirection:'column',
+// alignItems:'center',
 // backgroundColor:'#FFFFFF',
 // border:'1px solid black',
 // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
@@ -34,15 +38,16 @@ const SliderInnerContainer = styled('div')({
   display: "flex",
   backgroundColor:'transparent',
   justifyContent:"center",
-  margin:'0px 100px',
-  backgroundColor:'#FFFFFF',
+  // alignItems:'center',
+  margin:'100px 100px',
+  // backgroundColor:'#FFFFFF',
   flexDirection:"column", 
   // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
  paddingLeft:'20px',
   "@media (max-width: 480px)": {
-    backgroundColor:'white',
-   paddingLeft:'0px',
-   margin:'0px'
+    // backgroundColor:'white',
+  //  paddingLeft:'60px 30px',
+   margin:'60px 10px'
  
  },
 })
@@ -76,8 +81,8 @@ const BigSlider = (props) => {
     arrows:true,
     infinite: true,
     speed: 500,
-    slidesToShow: 6,
-    slidesToScroll: 4,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     autoplay: false,
     autoplaySpeed: 4000,
     cssEase: "linear",
@@ -110,7 +115,7 @@ const BigSlider = (props) => {
             slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
-            arrows:false,
+            arrows:true,
             autoplay:true,
           },
         },
@@ -120,17 +125,17 @@ const BigSlider = (props) => {
             slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
-            arrows:false,
+            arrows:true,
             autoplay:true,
           },
         },
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 2.1,
+            slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
-            arrows:false,
+            arrows:true,
             // autoplay:true,
             // dots: true,
           },
@@ -139,10 +144,7 @@ const BigSlider = (props) => {
   };
   return (
     <>
-     <Box sx={{display:'flex',padding:{xs:'10px',sm:'30px',md:'20px'},display:'flex',backgroundColor:'#FFFFFF',margin:{xs:'0px 10px',sm:'0px 50px',md:'0px 100px'}}}>
-       <Typography sx={{fontSize:{xs:'25px',sm:'30px',md:'20px'},fontWeight:'500',color:'black'}}>Gametime</Typography>
-       
-       </Box>
+     
     <SliderContainer>         
        <SliderInnerContainer>
     <Slider {...settings}>
@@ -153,7 +155,10 @@ const BigSlider = (props) => {
       </SliderInnerContainer>  
     </SliderContainer>
 
-      
+      <Box sx={{display:'flex',padding:{xs:'10px',sm:'30px',md:'0px'},display:'flex',justifyContent:'center',padding:'10px'}}>
+       <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'500',color:'white',backgroundColor:'#4A68E4',height:'50px',justifyContent:'center',alignItems:'center',display:'flex',gap:'20px',borderRadius:'20px',padding:'0px 10px'}}>1000s of reviews by happy students <ArrowForward /></Typography>
+       
+       </Box>
     </>
   )
 }

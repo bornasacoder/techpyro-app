@@ -7,7 +7,7 @@ import { styled } from '@mui/styles';
 import SliderItem from '../../carousel/carousel2/sliderItem/SliderItem';
 import {  ArrowCircleLeftOutlined, ArrowCircleRightOutlined, ChevronLeftOutlined, ChevronRightOutlined, } from '@mui/icons-material';
 import { color } from '@mui/system';
-import { Box, Typography } from '@mui/material';
+import { Box, Button, Typography } from '@mui/material';
 import SliderOtem from './sliderItem/SliderOtem';
 const SliderContainer = styled('div')({
 width:"100%",
@@ -25,7 +25,8 @@ overflow:"hidden",
 "@media (max-width: 480px)": {
     backgroundColor:'transparent',
     width:'100%',
-   margin:'0px'
+   margin:'0px',
+   display:'none',
  },
 
 
@@ -34,8 +35,8 @@ const SliderInnerContainer = styled('div')({
   display: "flex",
   backgroundColor:'transparent',
   justifyContent:"center",
-  margin:'0px 100px',
-  backgroundColor:'#FFFFFF',
+  margin:'0px 150px',
+  // backgroundColor:'#FFFFFF',
   flexDirection:"column", 
   // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
  paddingLeft:'20px',
@@ -54,7 +55,7 @@ const PreviousBtn = (props) =>{
   
    return (
          <div className={className} onClick={onClick}>
-          <ChevronLeftOutlined sx={{color:'black',zIndex:'10',fontSize:'2.5rem',border:'3px solid rgba(0,0,0,0.5)',borderRadius:'50px', backgroundColor:'#FFFFFF',marginLeft:'-5px'}} />
+          <ChevronLeftOutlined sx={{color:'#E294DF',zIndex:'10',fontSize:'2.5rem',marginLeft:'-40px',fontSize:'50px'}} />
          </div>  
    )
 }
@@ -63,7 +64,7 @@ const NextBtn = (props) =>{
    const {className,onClick} = props;
    return (
      <div  className={className} onClick={onClick}>
-       <ChevronRightOutlined sx={{color:'black',  zIndex:'10',fontSize:'2.5rem',border:'3px solid rgba(0,0,0,0.5)',borderRadius:'50px', backgroundColor:'#FFFFFF',marginRight:'300px'}} />
+       <ChevronRightOutlined sx={{color:'#E294DF',  zIndex:'20',fontSize:'2.5rem',marginLeft:'60px',fontSize:'50px'}} />
      </div>
    )
 }
@@ -74,9 +75,9 @@ const MiniSlider = (props) => {
   const settings = {
     dots: false,
     arrows:true,
-    infinite: true,
+    infinite:false,
     speed: 500,
-    slidesToShow: 6,
+    slidesToShow: 4.3,
     slidesToScroll: 4,
     autoplay: false,
     autoplaySpeed: 4000,
@@ -127,7 +128,7 @@ const MiniSlider = (props) => {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 2.1,
+            slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -139,9 +140,10 @@ const MiniSlider = (props) => {
   };
   return (
     <>
-     <Box sx={{display:'flex',padding:{xs:'10px',sm:'30px',md:'20px'},display:'flex',backgroundColor:'#FFFFFF',margin:{xs:'0px 10px',sm:'0px 50px',md:'0px 100px'}}}>
-       <Typography sx={{fontSize:{xs:'25px',sm:'30px',md:'20px'},fontWeight:'500',color:'black'}}>Build your cart</Typography>
-       
+     <Box sx={{display:'flex',padding:{xs:'10px',sm:'30px',md:'100px 0px 30px 0px'},justifyContent:'center',flexDirection:'column',alignItems:'center'}}>
+       <Typography sx={{fontSize:{xs:'30px',sm:'30px',md:'50px'},fontWeight:'500',color:'black',fontFamily:'cursive'}}>The learning tree</Typography>
+       <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500',color:'black'}}>A student's go-to blog for the latest stories,</Typography>
+       <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500',color:'black'}}>discoveries, fun activities, exam tips, and more.</Typography>
        </Box>
     <SliderContainer>         
        <SliderInnerContainer>
@@ -153,7 +155,9 @@ const MiniSlider = (props) => {
       </SliderInnerContainer>  
     </SliderContainer>
 
-      
+      <Box sx={{display:'flex',justifyContent:'center',marginTop:'30px'}}>
+      <Button variant='contained' sx={{backgroundColor:'#FE8C3C',color:'white',border:'1px solid black',borderRadius:'10px',"&:hover":{backgroundColor:'black',color:'white'},width:'150px',fontSize:'20px'}}>Explore All</Button>
+      </Box>
     </>
   )
 }

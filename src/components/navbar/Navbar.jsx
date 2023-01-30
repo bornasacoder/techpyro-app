@@ -17,21 +17,26 @@ import {
     List,
     ListItemText,
     Badge,
+    Select,
+    InputLabel,
+    FormControl,
     
     
   } from "@mui/material";
 
-import { AccountCircle, Bungalow, Call, EastOutlined, FavoriteBorder, GridView, Help, Home, HomeOutlined, LocalCarWashOutlined, LocationCityRounded, LocationCitySharp, LocationOn, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  Search,  SearchOffOutlined,  ShoppingBag, ShoppingCart, Window} from '@mui/icons-material';
+import { AccountCircle, ArrowDropDownCircle, Bungalow, Call, EastOutlined, FavoriteBorder, GridView, Help, Home, HomeOutlined, LocalCarWashOutlined, LocationCityRounded, LocationCitySharp, LocationOn, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  Search,  SearchOffOutlined,  ShoppingBag, ShoppingCart, Window} from '@mui/icons-material';
 
 import MenuButtons from 'components/menuButtons/MenuButtons';
 
 
 const StyleToolbar = styled(Toolbar)(({theme}) => ({
-  height:'80px',
+  height:'100px',
   width:'100%',
     display: 'flex',
-    justifyContent:'space-between',
+    justifyContent:'center',
     alignItems: 'center',
+    gap:'30px',
+    // backgroundColor:'#7F3486',
     // position: 'sticky',
     [theme.breakpoints.down('md')]: {
         height: 'auto',
@@ -40,11 +45,12 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         [theme.breakpoints.up('sm')]: {
             height: 'auto',
            
+            
             },
         [theme.breakpoints.down('sm')]: {
           height: '50px',
           width:'100%',
-          
+          justifyContent:'space-between',
               margin:'0px 10px',
               padding:'0px',
              
@@ -75,7 +81,7 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
           margin:'0px',
             width:'auto',
            
-            gap:"30px"
+            gap:"10px"
         },
         
         
@@ -93,11 +99,11 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
             //     justifyContent:"space-between"
             // },
             [theme.breakpoints.down('sm')]: {
-              //  paddingRight:'0px',
-              //  margin:'0px'
+               paddingRight:'0px',
+               margin:'0px'
               //  display:'block',
               // marginRight:'50px',
-                display:'none'
+                // display:'none'
             },
             
             
@@ -171,11 +177,15 @@ display:'none',
   }
 ));
 const Ram = styled(Box)(({ theme }) => ({
-  height:'750px',
-  width:'100%',
-    backgroundImage: `url(${"/images/category/bgdimg12.webp"})`,
+  height:'660px',
+  width:'50%',
+
+    backgroundImage: `url(${"/images/category/byjus1.png"})`,
    backgroundSize:'cover',
-  
+  margin:'0px',
+  [theme.breakpoints.down('sm')]: {
+   display:'none'
+ },
       
   }
 ));
@@ -197,19 +207,20 @@ const Downnav = styled(Box)(({ theme }) => ({
 ));
 
 const NavBar = styled(AppBar)(({theme}) =>({
-    backgroundColor:'#0071DC',
+    backgroundColor:'#7F3486',
    
     width:'100%',
-    height:'100px',
+    height:'750px',
     margin:"0",
     padding:'0',
-    // zIndex:'100',
-position:'sticky',
+    position:'static',
+
 
 [theme.breakpoints.down('sm')]: {
-  height:'60px',
+  height:'600px',
   width:'100%',
-  position:'sticky',
+  
+  backgroundColor:'white',
 },
 
 }));
@@ -234,27 +245,12 @@ export default function Navbar() {
     
       <NavBar >
     
-       <Box sx={{height:'70px',display:'flex',justifyContent:'center',alignItems:'center'}}>
+       <Box sx={{height:{xs:'50px',sm:'80px',md:'90px'},display:'flex',justifyContent:'center',alignItems:'center', backgroundColor:'#7F3486',}}>
         <StyleToolbar>
         
         <NavLeft >
        
-          
-        
-          <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
-          <Typography sx={{fontSize:{xs:'30px',sm:'20px',md:'30px'},fontWeight:'700',color:'white'}}>Walmart</Typography>
-          </Box>
-          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>
-          <Window sx={{fontSize:'20px'}} />
-          <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700',color:'white'}}>Departments</Typography>
-          </Box>
-         
-          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>
-          <GridView sx={{fontSize:'20px'}}/>
-          <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700',color:'white'}}>Services</Typography>
-          </Box>
-
-          <Box >
+        <Box >
             <MenuButton onClick={handleOpen}>
                 <Menu sx={{display: {xs:'block',sm:'block',md:'none'},color:'white',fontSize:'30px'}}/>
             </MenuButton>
@@ -263,13 +259,44 @@ export default function Navbar() {
             </Drawer>
            
             </Box>
-
-          <Box sx={{display: {xs:'block',sm:'block',md:'block'}}}> 
-           <SearchBar />
+        
+          <Box sx={{display:{xs:'block',sm:'block',md:'block'}}}>
+          <Typography sx={{fontSize:{xs:'30px',sm:'20px',md:'40px'},fontWeight:'700',color:'white',fontFamily:'cursive'}}>BYJU'S</Typography>
           </Box>
-                <Box sx={{display: {xs:'block',sm:'block',md:'none'}}}>
-                <Typography sx={{color:'white',display:'flex',justifyContent:'center',alignItems:'center',fontWeight:'900'}}><ShoppingCart sx={{fontSize:{xs:'30px',sm:'30px',md:'20px'}}} />Cart</Typography>
-                </Box>
+
+          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'400',color:'#F1C543'}}>Study Material</Typography>
+          <ArrowDropDownCircle sx={{color:'#F1C543'}}/>
+          </Box>
+
+          <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'400',color:'#F1C543'}}>BYJU'S Answer</Typography>
+          </Box>
+
+          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'400',color:'#F1C543'}}>Scholarship</Typography>
+          <ArrowDropDownCircle sx={{color:'#F1C543'}}/>
+          </Box>
+
+          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'400',color:'#F1C543'}}>BTC</Typography>
+          <ArrowDropDownCircle sx={{color:'#F1C543'}}/>
+          </Box>
+
+          <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'400',color:'#F1C543'}}>Buy a Course</Typography>
+          </Box>
+
+          <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'400',color:'#F1C543'}}>Success Stories</Typography>
+          </Box>
+
+         
+
+          {/* <Box sx={{display: {xs:'block',sm:'block',md:'block'}}}> 
+           <SearchBar />
+          </Box> */}
+                
         
                
             </NavLeft >
@@ -278,49 +305,58 @@ export default function Navbar() {
             
 
             
-        <Box sx={{display:{xs:'none',sm:'none',md:'flex'},gap:'30px'}}>
+        <Box sx={{display:{xs:'flex',sm:'flex',md:'flex'},gap:{xs:'10px',sm:'15px',md:'20px'}}}>
+       
+        <Button variant='outlined' sx={{color:'#F1C543',border:'1px solid #F1C543',height:{xs:'30px',sm:'15px',md:'40px'}}}>Login</Button>
+       
+            <Typography sx={{color:'white',display:'flex',justifyContent:'center',alignItems:'center'}}><Call sx={{backgroundColor:'#F1C543',borderRadius:'50px',color:'#7F3486'}}/> </Typography>
 
-        <Typography sx={{color:'white',display:'flex',justifyContent:'center',alignItems:'center',fontWeight:'900'}}><FavoriteBorder sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'}}}/>My Items</Typography>
-            
-            <Typography sx={{color:'white',display:'flex',justifyContent:'center',alignItems:'center',fontWeight:'900'}}><Person2Outlined sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'}}}/> Account</Typography>
-
-            <Typography sx={{color:'white',display:'flex',justifyContent:'center',alignItems:'center',fontWeight:'900'}}><ShoppingCart sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'}}} />Cart</Typography>
+            <Typography sx={{color:'white',display:'flex',justifyContent:'center',alignItems:'center'}}><Search sx={{backgroundColor:'#F1C543',borderRadius:'50px',color:'#7F3486'}} /></Typography>
            
            
            </Box>
 
-           {/* <Box sx={{display:{xs:'block',sm:'flex',md:'none'},gap:'10px'}}>
-           
-            <Person2Outlined sx={{color:'black'}}/>
-           <Search sx={{color:'black'}}/>
-           <ShoppingBag sx={{color:'black'}} />
-           </Box> */}
-           
-             
-
-            {/* <Box>
-                <List sx={{display:{xs:'block',sm:'block',md:'none'},gap:'30px',fontSize:'30px'}}>
-                 
-                    <Search />
-                    
-                  </List>
-                </Box> */}
-              {/* <Box sx={{display:'flex',paddingRight:'20px'}}>
-              <Call sx={{fontSize:'30px'}}/>
-              <Typography sx={{fontSize:'20px'}}>+91-9999999999</Typography>
-              </Box>
-            <AccountCircle sx={{fontSize:'40px'}}/>
-               <Login variant='contained' sx={{borderRadius:'30px',fontSize:'18px' ,display:{xs:'none',sm:'none',md:'block'},alignItems:'center'}}>Log in</Login> */}
-              
-               
-               {/* <Signup variant='contained' sx={{borderRadius:'30px',fontSize:{xs:'10px',sm:'15px',md:'20px'}}}>Sign up</Signup> */}
-              
+        
             </NavRight>
             
         </StyleToolbar>
         </Box>
+        <Box sx={{display:'flex'}}>
+        <Ram>
        
-        <Navbar2>
+        </Ram>
+
+        <Box sx={{backgroundColor:'#FCFCFC',width:{xs:'100%',sm:'100%',md:'480px'},height:'500px',display:'flex',justifyContent:'center',alignItems:'center',paddingBottom:{xs:'30px',sm:'70px',md:'0px'},borderRadius:'20px',margin:{xs:'0px',sm:'0px',md:'50px 0 0 70px'},flexDirection:'column',gap:'10px'}}>
+
+        <Typography sx={{fontSize:{xs:'25px',sm:'25px',md:'25px'},fontWeight:'600',color:'black'}}>Book your Free Class</Typography>
+        <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'300',color:'black'}}>Learn from India's best teachers</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'500',color:'black'}}>Enter your Details</Typography>
+
+          <Box sx={{backgroundColor:`${theme.header.background}`,display:'flex',flexDirection:'column',width:{xs:'320px',sm:'350px',md:'400px'},gap:'10px'}}>
+            <TextField variant='outlined' label='Enter Nmae of your Child '></TextField>
+            <Box sx={{display:'flex',width:{xs:'300px',sm:'350px',md:'400px'},gap:'10px'}}>
+            <TextField variant='outlined' label='Enter your mobile no' sx={{borderRadius:'0px',width:{xs:'230px',sm:'230px',md:'260px'}}}></TextField>
+            <Button variant='contained' sx={{borderRadius:'15px',fontSize:{xs:'10px',sm:'15px',md:'15px'},backgroundColor:'#7855FF'}}>Send  OTP</Button>
+            </Box>
+            <TextField variant='outlined' label='Email Address'></TextField>
+            
+            
+      <FormControl fullWidth>
+        <InputLabel id="demo-simple-select-label">State</InputLabel>
+        <Select
+          labelId="demo-simple-select-label"
+          id="demo-simple-select"
+          label="State"
+        sx={{borderRadius:'10px'}}
+        >
+        </Select>
+      </FormControl>
+    
+            <Button variant='contained' sx={{borderRadius:'10px',fontSize:'25px',backgroundColor:'#FF853A'}}>Shedule a Free Class</Button>
+          </Box>
+          </Box>
+        </Box>
+        {/* <Navbar2>
                <Box sx={{display:'flex',gap:'30px',paddingLeft:'30px'}}>
                 <Typography sx={{fontWeight:'600'}}>How do you want your Items?</Typography>
                 <Typography sx={{display:'flex',alignItems:'center',fontWeight:'600'}}><LocationOn />Haridwar</Typography>
@@ -337,11 +373,11 @@ export default function Navbar() {
               <Typography sx={{color:'white',fontWeight:'600'}}>Walmart+</Typography>
               </Box>
              
-        </Navbar2>
+        </Navbar2> */}
    
         </NavBar>
 
-        <Navbar3>
+        {/* <Navbar3>
         <Box>
           <Typography sx={{fontSize:'17px',fontWeight:'600'}}>Reserve pickup or delievery</Typography>
         </Box>
@@ -349,28 +385,14 @@ export default function Navbar() {
             <Box >
             <Button variant='contained' sx={{width:'120px',backgroundColor:'#FFFFFF',color:'black',border:'1px solid black',borderRadius:'20px',"&:hover":{backgroundColor:'black',color:'white',height:'30px'}}}>See times</Button>
          </Box>
-         </Navbar3>
+         </Navbar3> */}
      
 
        
 
 
         {/* <Ram>
-        <Downnav>
-          <Box sx={{gap:'20px',display:{xs:'block',sm:'block',md:'block'}}}>
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},color:`${theme.header.background}`,fontWeight:'700'}}>FLAT 40% OFF</Typography>
-          <Typography sx={{fontSize:{xs:'40px',sm:'40px',md:'20px'},fontWeight:'700',color:`${theme.header.background}`}}>
-            END OF  SEASON SALE
-            
-          </Typography>
-          <Box sx={{display:'flex',flexDirection:'column',width:'170px',gap:'20px'}}>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SHOP MEN  <EastOutlined /></Button>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SHOP WOMEN  <EastOutlined /></Button>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SHOP KIDS  <EastOutlined /></Button>
-          </Box>
-          </Box>
-          
-        </Downnav>
+       
         </Ram> */}
         </>
        

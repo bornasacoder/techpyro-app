@@ -21,13 +21,21 @@ import { pizza } from 'constants/slider/pizza';
 import Block7 from 'contents/home/Block7';
 import { fastfood } from 'constants/slider/fastfood';
 import Block8 from 'contents/home/Block8';
+import Block9 from 'contents/home/Block9';
 const Home = () => {
 // console.log(mainCarousel);
   return (
     <div>
     
          <Navbar /> 
-         <SwiggySlider sliderData={other} />
+         <Block2 />
+         <Block8 />
+         <Block9 />
+         <Block1 />
+         <BigSlider sliderData={adidas}/>
+         <MiniSlider sliderData={pizza} />
+         <Footer /> 
+         {/* <SwiggySlider sliderData={other} />
          <Block7 />
          <BigSlider sliderData={adidas}/>
          <Block1 />
@@ -37,13 +45,8 @@ const Home = () => {
          <Block3 />
          <BigSlider sliderData={adidas}/>
          <Block8 />
-         <Footer /> 
-         {/* <SwiggySlider sliderData={other} />
-        
-         <BigSlider sliderData={adidas}/>
-         <MiniSlider sliderData={pizza}/>
-         <Block5 />
          <Footer />  */}
+      
       
       
 </div>

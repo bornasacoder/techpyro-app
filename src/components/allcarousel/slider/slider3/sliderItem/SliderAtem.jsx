@@ -10,10 +10,14 @@ width:"100%",
 height:"auto",
 paddingRight:"0px",
 background:'transparent',
+display:'flex',
+justifyContent:'center',
+flexDirection:"column",
+alignItems:"center",
 // zIndex:"1",
 // border:'1px solid black'
 "@media (max-width: 480px)": {
-    
+    width:'100%',
      },
 
 })
@@ -21,16 +25,16 @@ const ImageContainer = styled("div")({
     display:"flex",
     width:'202px',
     // alignItems:"center",
-    borderRadius:'20px',
+    // borderRadius:'20px',
     // justifyContent:"center",
     flexDirection:"column",
     // margin:"10px 20px",
     background:'transparent',
-    border:'1px solid rgba(0,0,0,0.2)',
+    // border:'1px solid rgba(0,0,0,0.2)',
     "@media (max-width: 480px)": {
        gap:'0px',
         width:'100%',
-        paddingLeft:'20px',
+        paddingLeft:'60px',
         border:'none'
         },
 
@@ -39,7 +43,7 @@ const Image = styled("img")({
     width:"200px",
     height:"200px",
     objectFit:"cover",
-    borderRadius:'20px',
+    // borderRadius:'20px',
     // margin:"40px",
     zIndex:"1",
     // border:'1px solid black',
@@ -59,15 +63,15 @@ const Image = styled("img")({
             
             },
             "@media (max-width: 480px)": {
-                width:'100%',
-                height:'150px',
+                width:'180px',
+                height:'180px',
                
               
                 
                 },
 })
 const Head = styled("h3")({
-    fontSize: "15px",
+    // fontSize: "15px",
     // fontWeight:"400",
     // textAlign:"center",
     marginBottom:"0px",
@@ -90,20 +94,18 @@ const Head = styled("h3")({
     <SliderContainer>
      <ImageContainer>
          <Image src={posterLinks.image} />
-         <Box sx={{paddingLeft:'10px'}}>
-         <Button variant='contained' sx={{borderRadius:'20px'}}>+Add</Button>
-         </Box>
+       
          
-         <Box sx={{width:{xs:'120px',sm:'200px',md:'180px'},display:'flex',gap:{xs:'5px',sm:'10px',md:'20px'},paddingLeft:'10px'}}>
-         <Head style={{fontWeight:{xs:'200',sm:'400',md:'400'}}}>{posterLinks.price.mrp}</Head>
-         <Head style={{fontWeight:{xs:'200',sm:'400',md:'400'},textDecoration:'line-through',color:'rgba(0,0,0,0.5)'}}>{posterLinks.price.cost}</Head>
-         <Head style={{color:'red'}}>{posterLinks.price.discount}</Head>
-         </Box>
-         <Box sx={{width:{xs:'120px',sm:'200px',md:'180px'},paddingLeft:'10px'}}>
-          <Head style={{fontWeight:{xs:'300',sm:'400',md:'700'}}}>{posterLinks.tagline}</Head>
-          </Box>
-          <Typography sx={{paddingLeft:'10px'}}><Star /><Star /><Star /><StarHalf /></Typography>
+       
+       
+          
      </ImageContainer>
+     <Box sx={{width:{xs:'220px',sm:'200px',md:'350px'},display:'flex',gap:{xs:'5px',sm:'10px',md:'10px'},flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
+         <Head style={{fontWeight:{xs:'300',sm:'400',md:'400'},fontSize:'13px'}}>{posterLinks.tagline}</Head>
+         <Head style={{fontWeight:{xs:'200',sm:'400',md:'400'}}}>{posterLinks.price.mrp}</Head>
+         <Head>{posterLinks.rating}</Head>
+         
+         </Box>
     </SliderContainer>
     </>
   )

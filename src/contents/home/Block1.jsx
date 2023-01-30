@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {Card, CardMedia, Typography, Box,useTheme,styled, Button} from '@mui/material';
-import { CalendarMonth, ChatBubbleOutlineRounded, Coffee, DinnerDining, EastOutlined, FavoriteBorder, Liquor, Mood, Person2Outlined, RiceBowlTwoTone, Star, StarHalf } from '@mui/icons-material';
+import { AvTimer, CalendarMonth, ChatBubbleOutlineRounded, Coffee, DinnerDining, EastOutlined, FavoriteBorder, GetApp, Liquor, Mood, Person2Outlined, PinDrop, RiceBowlTwoTone, Star, StarHalf } from '@mui/icons-material';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
@@ -16,22 +16,22 @@ export default function Block1() {
   height:'300px',
   borderRadius:'0px',
   gap:'30px',
-
-
+backgroundColor:'#F2F5F9',
+boxShadow:'none',
   [theme.breakpoints.down('lg')]: {
     width:'100vw',
     height:'400px',
    
   },
   [theme.breakpoints.down('md')]: {
-    width:'100vw',
+    width:'auto',
     height:'400px',
   },
   [theme.breakpoints.down('sm')]: {
-    width:'100%',
-    height:'150px',
+    width:'auto',
+    height:'200px',
     flexDirection:'column',
-    padding:'0px'
+    padding:'20px'
   }
 }));
 const Box1= styled(Box)(({ theme }) => ({
@@ -45,17 +45,17 @@ const Box1= styled(Box)(({ theme }) => ({
 ));
   return ( 
     <>
-<Box sx={{backgroundColor:'#FFFFFF',margin:{xs:'0px',sm:'0px 50px',md:'0px 100px'}}}>
-<Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'20px'},fontWeight:'500',color:'black',padding:{xs:'20px',sm:'40px',md:'30px'},display:'flex'}}>Ready,set,game on</Typography>
+<Box sx={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+<Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'35px'},fontWeight:'700',color:'black',padding:{xs:'20px',sm:'40px',md:'30px'},display:'flex'}}>Get the BYJU'S Advantages</Typography>
 </Box>
        
        
-    <Box  data-aos-duration="3000" sx={{display:'flex',justifyContent:'space-evenly',flexDirection:{xs:'column',sm:'column',md:'row'},paddingTop:{xs:'0px',sm:'20px',md:'10px'},backgroundColor:'#FFFFFF',margin:{xs:'0px',sm:'0px 50px',md:'0px 100px'}}}>
+    <Box  data-aos-duration="3000" sx={{display:'flex',justifyContent:'space-evenly',flexDirection:{xs:'column',sm:'column',md:'row'},paddingTop:{xs:'0px',sm:'20px',md:'10px'},margin:{xs:'0px',sm:'0px 50px',md:'0px 100px'}}}>
 
    
-      <Box sx={{display:'flex',gap:{xs:'0px',sm:'20px',md:'20px'},flexDirection:{xs:'column',sm:'column',md:'row'}}}>
+      <Box sx={{display:'flex',gap:{xs:'0px',sm:'20px',md:'100px'},flexDirection:{xs:'column',sm:'column',md:'row'}}}>
 
-      <Box sx={{display:'flex',gap:'20px'}}>
+      
    <Box sx={{padding:{xs:'10px',sm:'0px',md:'0'}}}>
    
       <CardBox >
@@ -66,7 +66,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.2)'
       },}}
           component="img"
-          image="/images/category/mart5.webp"
+          image="/images/category/byjus9.png"
           alt="green iguana"
         />
        </Box>
@@ -77,7 +77,8 @@ const Box1= styled(Box)(({ theme }) => ({
     <Box sx={{height:{xs:'20%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
    <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500'}}>40% off select game time finds</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'25px'},fontWeight:'500'}}>Conceptual clarity
+through visualisation</Typography>
           
         </Box>
        
@@ -95,7 +96,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="/images/category/mart6.webp"
+          image="/images/category/byjus10.png"
           alt="green iguana"
         />
        </Box>
@@ -106,17 +107,17 @@ const Box1= styled(Box)(({ theme }) => ({
     <Box sx={{height:{xs:'20%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
     <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500'}}>Home theater under $30</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'25px'},fontWeight:'500'}}>Personalised learning programs</Typography>
          
         </Box>
        
        
        </Box>
       </Box>
-      </Box>
+      
 
 
-<Box sx={{display:'flex',gap:'20px'}}>
+
       <Box sx={{padding:{xs:'10px',sm:'20px',md:'0'}}}>
    
       <CardBox >
@@ -127,7 +128,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="/images/category/mart7.webp"
+          image="/images/category/byjus11.png"
           alt="green iguana"
         />
        </Box>
@@ -138,7 +139,8 @@ const Box1= styled(Box)(({ theme }) => ({
       <Box sx={{height:{xs:'20%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
       <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500'}}>Party supplies under $12</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'25px'},fontWeight:'500'}}>Unmatched individual
+attention</Typography>
          
         </Box>
        
@@ -147,74 +149,45 @@ const Box1= styled(Box)(({ theme }) => ({
       </Box>
    
 
-      
-    
-      
-      
-     
-
-      
-      <Box sx={{padding:{xs:'10px',sm:'20px',md:'0'}}}>
-   
-      <CardBox >
-
-        <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'},}}>
-        <CardMedia
-        sx={{height:'100%'}}
-          component="img"
-          image="/images/category/mart8.webp"
-          alt="green iguana"
-        />
-       </Box>
-   
-      
-
-      </CardBox>
-    <Box sx={{height:{xs:'20%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
-    <Box sx={{display:'flex',flexDirection:'column'}}>
-          
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500'}}>Shop all game time</Typography>
-          
-          
-        </Box>
-       </Box>
       </Box>
+
       </Box>
 
 
-      </Box>
-      
-      </Box>
-      {/* <Box sx={{display:'flex',justifyContent:'space-evenly',padding:{xs:'100px 30px',sm:'100px 50px',md:'100px'},flexDirection:{xs:'column',sm:'column',md:'row'},alignItems:'center',gap:'20px'}}>
-        <RiceBowlTwoTone sx={{fontSize:{xs:'60px',sm:'35px',md:'60px'}}}/>
-      <Box sx={{display:'flex',flexDirection:'column',alignItems:'center'}}>
-       <Typography sx={{fontSize:{xs:'20px',sm:'25px',md:'30px'},fontWeight:'400'}}>We Have 25+ Years of Experience, </Typography>
-       <Typography sx={{fontSize:{xs:'20px',sm:'25px',md:'30px'},fontWeight:'400'}}> Give Better Quality Results</Typography>
-       <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'20px'},fontWeight:'400'}}>Perspiciatis unde omnis iste natus error sit voluptatem laudantium, totam rem, eaque ipsa quae</Typography>
+      <Box sx={{display:'flex',justifyContent:'space-evenly',alignItems:'center'}}>
+<Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'35px'},fontWeight:'700',color:'black',padding:{xs:'20px',sm:'40px',md:'100px 0px 50px 0px'},display:'flex'}}>Our students and parents love us</Typography>
+</Box>
+<Box sx={{display:'flex',justifyContent:'center',alignItems:'center',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
 
-       
-       </Box>
-      <Box sx={{display:'flex',alignItems:'center'}}>
-      <Button variant='contained' sx={{borderRadius:'0'}}>CONTACT US</Button>
-      </Box>
-      </Box> */}
-      {/* <Box1>
-         <Box sx={{height:{xs:'300px',sm:'400px',md:'500px'},width:{xs:'300px',sm:'400px',md:'500px'},backgroundColor:`${theme.header.textColor2}`,margin:{xs:'50px',sm:'50px',md:'100px 0px 0px 200px '},display:'flex',justifyContent:'space-evenly',alignItems:'center',paddingLeft:'50px'}}>
-          <Box sx={{display:'flex',flexDirection:'column',gap:'30px'}}>
-          <Typography sx={{color:`${theme.header.background}`}}>Get in Touch</Typography>
-          <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'35px'},fontWeight:'700',color:`${theme.header.background}`}}>Find Us Here.Make Real Results Happen.</Typography>
-          <Box>
-          <Star sx={{color:`${theme.header.background}`}} />
-          <Star sx={{color:`${theme.header.background}`}}/>
-          <Star sx={{color:`${theme.header.background}`}} />
-          <Star sx={{color:`${theme.header.background}`}}/>
-          <StarHalf sx={{color:`${theme.header.background}`}}/>
-          </Box>
-          <Typography sx={{color:`${theme.header.background}`}}>Trust Score 4.5 (Based on 1,200 reviews)</Typography>
-          <Typography sx={{color:`${theme.header.background}`}}> <Mood />READ FEEDBACK</Typography>
-          </Box>
-         </Box>
-      </Box1> */}
+<Box sx={{display:'flex',justifyContent:'space-evenly',width:'100%'}}>
+  <Box sx={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
+    <GetApp sx={{fontSize:'45px',color:'#FF9A7F'}}/>
+    <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'35px'},fontWeight:'700',color:'#8B4591'}}>150+ Million</Typography>
+    <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'20px'}}}>downloads</Typography>
+  </Box>
+
+  <Box sx={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
+    <Star sx={{fontSize:'45px',color:'#FF9A7F'}}/>
+    <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'35px'},fontWeight:'700',color:'#8B4591'}}>4.7+ Star</Typography>
+    <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'20px'}}}>app rating</Typography>
+  </Box>
+  </Box>
+
+<Box sx={{display:'flex',justifyContent:'space-evenly',width:'100%'}}>
+  <Box sx={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
+    <PinDrop sx={{fontSize:'45px',color:'#FF9A7F'}}/>
+    <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'35px'},fontWeight:'700',color:'#8B4591'}}>1701+ Cities</Typography>
+    <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'20px'}}}>worldwide</Typography>
+  </Box>
+
+  <Box sx={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
+    <AvTimer sx={{fontSize:'45px',color:'#FF9A7F'}}/>
+    <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'35px'},fontWeight:'700',color:'#8B4591'}}>71 mins avg.</Typography>
+    <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'20px'}}}>time spends daily</Typography>
+  </Box>
+  </Box>
+</Box>
+      
       </>
   );
 }
