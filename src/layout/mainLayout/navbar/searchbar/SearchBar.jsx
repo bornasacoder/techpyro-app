@@ -3,6 +3,7 @@ import { styled, TextField, Box, List, ListItem, ListItemText, Divider,useTheme 
 import React,{useRef, useState} from 'react'
 
 import SearchIcon from '@mui/icons-material/Search';
+import { Link } from 'react-router-dom';
 
 const Search = styled(Box)(({theme}) => ({
 
@@ -61,10 +62,13 @@ export default function SearchBar(props) {
   return (
    <Search sx={{height:36, display:'flex'}}>
         <SearchIcon sx={{ marginTop:'6px',marginLeft:'10px', color: `${theme.header.background}`}}/>
+        <Link to={'/search'} style={{display:{sm:'none',xs:'block'},textDecoration:'none'}}>
         <SearchField placeholder='search anything... ' sx={{ "& fieldset": { border: 'none' }, '& .MuiInputBase-input': {
       padding: "8px",
     },}} onClick={searchHandler} ref={catMenu}/>
-        <SearchList color='secondary' sx={{display: showSearch,
+    </Link>
+        <SearchList color='secondary' 
+        sx={{display: {sm:showSearch,xs:'none'},
             flexDirection:'column', 
             marginTop: '36px',
             bgcolor: '#fff',
@@ -87,6 +91,7 @@ export default function SearchBar(props) {
                 <ListItemText primary="Spam" />
             </StyledListItem>
         </SearchList>
+
     </Search>
   )
 }

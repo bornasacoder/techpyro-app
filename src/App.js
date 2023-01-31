@@ -12,6 +12,7 @@ import Orders from "./pages/orders/Orders";
 import CheckOut from "./pages/checkout/CheckOut";
 import OrderDetails from "./pages/orders/OrderDetails";
 import Profile from "./pages/profile/Profile";
+import Search from "./pages/search/Search";
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route exact path="/orders" element={<Orders/>} />
         <Route exact path="/orderdetails" element={<OrderDetails/>} />
         <Route exact path="/my-account/profile" element={<Profile/>} />
+        <Route exact path="/search" element={<Search/>} />
       </Routes>
     </Router>
   );

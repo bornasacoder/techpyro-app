@@ -58,10 +58,12 @@ export default function MenuSidebar() {
           <FavoriteIcon/>
           <ListItemText primary="My Wishlist" />
         </ListItem>
+          <Link to={'/my-account/profile'} style={{textDecoration:'none'}}>
         <ListItem button>
           <PersonIcon/>
           <ListItemText primary="My Account" />
         </ListItem>
+          </Link>
         <ListItem button>
           <NotificationsIcon/>
           <ListItemText primary="My Notifications" />
