@@ -18,7 +18,8 @@ display:'flex',
 justifyContent:'center',
 flexDirection:'column',
 // alignItems:'center',
-// backgroundColor:'#FFFFFF',
+backgroundColor:'transparent',
+position:'static',
 // border:'1px solid black',
 // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
 "@media (max-width: 1490px)": {
@@ -39,7 +40,7 @@ const SliderInnerContainer = styled('div')({
   backgroundColor:'transparent',
   justifyContent:"center",
   // alignItems:'center',
-  margin:'100px 100px',
+  margin:'0px 150px',
   // backgroundColor:'#FFFFFF',
   flexDirection:"column", 
   // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
@@ -47,7 +48,7 @@ const SliderInnerContainer = styled('div')({
   "@media (max-width: 480px)": {
     // backgroundColor:'white',
   //  paddingLeft:'60px 30px',
-   margin:'60px 10px'
+   margin:'0px 10px'
  
  },
 })
@@ -155,10 +156,10 @@ const BigSlider = (props) => {
       </SliderInnerContainer>  
     </SliderContainer>
 
-      <Box sx={{display:'flex',padding:{xs:'10px',sm:'30px',md:'0px'},display:'flex',justifyContent:'center',padding:'10px'}}>
+      {/* <Box sx={{display:'flex',padding:{xs:'10px',sm:'30px',md:'0px'},display:'flex',justifyContent:'center',padding:'10px'}}>
        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'500',color:'white',backgroundColor:'#4A68E4',height:'50px',justifyContent:'center',alignItems:'center',display:'flex',gap:'20px',borderRadius:'20px',padding:'0px 10px'}}>1000s of reviews by happy students <ArrowForward /></Typography>
        
-       </Box>
+       </Box> */}
     </>
   )
 }

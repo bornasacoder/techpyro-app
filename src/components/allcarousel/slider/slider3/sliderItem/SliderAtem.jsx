@@ -43,7 +43,7 @@ const Image = styled("img")({
     width:"200px",
     height:"200px",
     objectFit:"cover",
-    // borderRadius:'20px',
+    borderRadius:'100px',
     // margin:"40px",
     zIndex:"1",
     // border:'1px solid black',
@@ -100,11 +100,11 @@ const Head = styled("h3")({
        
           
      </ImageContainer>
-     <Box sx={{width:{xs:'220px',sm:'200px',md:'350px'},display:'flex',gap:{xs:'5px',sm:'10px',md:'10px'},flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
-         <Head style={{fontWeight:{xs:'300',sm:'400',md:'400'},fontSize:'13px'}}>{posterLinks.tagline}</Head>
+     <Box sx={{width:{xs:'220px',sm:'200px',md:'300px'},display:'flex',gap:{xs:'5px',sm:'10px',md:'10px'},flexDirection:'column',justifyContent:'center',alignItems:'center',textAlign:'center'}}>
+         
          <Head style={{fontWeight:{xs:'200',sm:'400',md:'400'}}}>{posterLinks.price.mrp}</Head>
          <Head>{posterLinks.rating}</Head>
-         
+         <Head style={{fontWeight:{xs:'300',sm:'400',md:'400'},fontSize:'13px'}}>{posterLinks.tagline}</Head>
          </Box>
     </SliderContainer>
     </>

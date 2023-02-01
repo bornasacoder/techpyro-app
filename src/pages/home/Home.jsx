@@ -28,24 +28,17 @@ const Home = () => {
     <div>
     
          <Navbar /> 
-         <Block2 />
+         <SwiggySlider sliderData={other}/>
          <Block8 />
-         <Block9 />
          <Block1 />
+         <MiniSlider sliderData={pizza} />
+         <Block4 />
          <BigSlider sliderData={adidas}/>
+         <Block2 />
          <MiniSlider sliderData={pizza} />
          <Footer /> 
-         {/* <SwiggySlider sliderData={other} />
-         <Block7 />
-         <BigSlider sliderData={adidas}/>
-         <Block1 />
-         <Block2 />
-         <MiniSlider sliderData={pizza} />
-         <Sliders sliderData={fastfood}/>
-         <Block3 />
-         <BigSlider sliderData={adidas}/>
-         <Block8 />
-         <Footer />  */}
+       
+      
       
       
       

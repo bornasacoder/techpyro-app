@@ -7,13 +7,13 @@ const Search = styled(Box)(({theme}) => ({
 
     // border:'1px solid black',
     // margin-left: 10px;
-    width: '600px',
-    height:'40px',
-    borderRadius:'50px',
-    backgroundColor: 'white',
+    width: '250px',
+    height:'45px',
+    borderRadius:'0px',
+    backgroundColor: 'rgba(255,255,255,0.1)',
     display: 'flex',
     alignItems:'center',
-    border:'1px solid rgba(0,0,0,0.3)',
+    // border:'1px solid rgba(0,0,0,0.3)',
     [theme.breakpoints.down('sm')]: {
        
         width: '200px',
@@ -44,8 +44,9 @@ const SearchField = styled(TextField)(({theme}) => ({
     // padding: 8.5px 21px;
     // fontSize: 'unset',
     // paddingLeft:'px',
-    width:'600px' ,
-    height:'40px',
+    color:'white',
+    width:'250px' ,
+    height:'45px',
     borderRadius:'0px',
     [theme.breakpoints.down('sm')]: {
         width:'200px' ,
@@ -89,10 +90,8 @@ export default function SearchBar() {
   return (
     <Search>
        
-        <SearchField   placeholder='Search everything in Walmart and in store.....' sx={{"& fieldset": {border:'none'}, '& .MuiInputBase-input': {paddingBottom:{xs:'20px',sm:'20px',md:'50px'},
-     height:{xs:'10px',sm:'10px',md:'10px',},borderRadius:'0px'
-    },border:'none'}} onClick={searchHandler} ref={catMenu}  ></SearchField>
-    <SearchOutlined sx={{fontSize:'30px',color:'black',margin:'5px',backgroundColor:'#FFC220',borderRadius:'50px',}}/>
+        <SearchField  placeholder='Search..' sx={{"& fieldset": {border:'none'}, '& .MuiInputBase-input': {paddingBottom:{xs:'20px',sm:'20px',md:'50px'},height:{xs:'10px',sm:'10px',md:'10px',},borderRadius:'0px'},border:'none',color:'white'}} onClick={searchHandler} ref={catMenu}  ></SearchField>
+    <SearchOutlined sx={{fontSize:'30px',color:'white',margin:'0px',borderRadius:'0px',}}/>
         <SearchList sx={{display: showSearch,
             flexDirection:'column', 
             width: '39.95%',

@@ -1,5 +1,5 @@
 
-import { CurrencyExchangeTwoTone, EastOutlined, Facebook, FiberManualRecordTwoTone, Instagram, LocalShippingTwoTone, Mail, MoneyTwoTone, Pinterest, Twitter, YouTube } from '@mui/icons-material';
+import { Call, CurrencyExchangeTwoTone, EastOutlined, Facebook, FiberManualRecordTwoTone, Instagram, LocalShippingTwoTone, Mail, MoneyTwoTone, Pin, Pinterest, Room, School, Twitter, YouTube } from '@mui/icons-material';
 import { Box, Typography,styled, TextField, Button } from '@mui/material'
 import React from 'react'
 import "./footer.css"
@@ -8,17 +8,17 @@ const Ram = styled(Box)(({theme}) => ({
         display:'flex',
         // alignItems:'center',
         justifyContent:'center',
-        backgroundColor:'#813588',
+        backgroundColor:'#2C2C2C',
         height:'auto',
         width:'100%',
         gap:'20px',
-        marginTop:'50px',
+        marginTop:'0px',
         // color:theme.colors.alpha.white[100],
         paddingTop:'20px',
         [theme.breakpoints.down('md')]: {
-        
-          padding:'20px'
-        
+        flexDirection:'column',
+          padding:'20px',
+          marginTop:'50px',
       }
         
 }));
@@ -60,61 +60,94 @@ const Sita = styled(Box)(({theme}) => ({
 const Footer = () => {
   return (
    <Box>
+
+ <Box sx={{display:{xs:'none',sm:'none',md:'flex'},flexDirection:'column',alignItems:'center',margin:{xs:'100px 30px',sm:'100px 50px',md:'80px 0px 0px 0px'},height:'300px',backgroundColor:'#FFB606',color:'white',justifyContent:'center',gap:'50px'}}>
+       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'30px'},fontWeight:'700'}}>Our Global Partners</Typography>
+       <Box sx={{display:'flex',gap:'100px'}}>
+        <Box>
+          <img src='https://eduma.thimpress.com/demo-modern-university/wp-content/uploads/sites/64/2022/06/gallery-img-1.png'/>
+        </Box>
+
+        <Box>
+          <img src='https://eduma.thimpress.com/demo-modern-university/wp-content/uploads/sites/64/2022/06/gallery-img-2.png'/>
+        </Box>
+
+        <Box>
+          <img src='https://eduma.thimpress.com/demo-modern-university/wp-content/uploads/sites/64/2022/06/gallery-img-3.png'/>
+        </Box>
+
+        <Box>
+          <img src='https://eduma.thimpress.com/demo-modern-university/wp-content/uploads/sites/64/2022/06/gallery-img-4.png'/>
+        </Box>
+
+        <Box>
+          <img src='https://eduma.thimpress.com/demo-modern-university/wp-content/uploads/sites/64/2022/06/gallery-img-5.png'/>
+        </Box>
+       </Box>
+
+       
+       </Box>
+
       <Ram >
         
       <Box sx={{display:'flex',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
 
-        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'150px'},display:'flex',flexDirection:'column',gap:'20px',color:'#E1A910'}}>
-        <Typography sx={{paddingTop:{xs:'20px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'15px'},fontWeight:'500',display:'flex'}}>COURSES</Typography>
+        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'250px'},display:'flex',flexDirection:'column',gap:'20px',color:'#E1A910'}}>
+        <Box sx={{display:{xs:'flex',sm:'flex',md:'flex'},alignItems:'center',gap:'5px'}}> 
+        <School sx={{fontSize:'50px',color:'#FFB606'}}/>
+          <Typography sx={{fontSize:{xs:'30px',sm:'20px',md:'30px'},fontWeight:'700',color:'white'}}>EDUMA</Typography>
+          </Box>
         <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'white'}}>
-       <Typography>CBSE</Typography>
-       <Typography >ICSE</Typography>
-       <Typography >JEE</Typography>
-       <Typography >NEET</Typography>
-       <Typography >IAS</Typography>
-       <Typography >CAT</Typography>
-       <Typography >JEE Main</Typography>
-       <Typography >NCERT</Typography>
+        <Box sx={{display:{xs:'flex',sm:'flex',md:'flex'},alignItems:'center',gap:'5px'}}>  
+          <Call sx={{color:'#FFB606',fontSize:'20px'}}/>      
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'400',color:'rgba(255,255,255,0.5)',"&:hover":{color:'orange'}}}>+91-9876543210</Typography>
+          </Box>
+
+          <Box sx={{display:{xs:'flex',sm:'flex',md:'flex'},alignItems:'center',gap:'5px'}}>  
+          <Room sx={{color:'#FFB606',fontSize:'20px'}}/>       
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'400',color:'rgba(255,255,255,0.5)',"&:hover":{color:'orange'}}}>Haridwr,UK</Typography>
+          </Box>
+
+          <Box sx={{display:{xs:'flex',sm:'flex',md:'flex'},alignItems:'center',gap:'5px'}}>  
+          <Mail sx={{color:'#FFB606',fontSize:'20px'}}/>       
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'400',color:'rgba(255,255,255,0.5)',"&:hover":{color:'orange'}}}>agency@gmail.com</Typography>
+          </Box>
+
+          <Box sx={{fontSize:{xs:'12px',sm:'20px',md:'30px'},}}>
+          
+          <Instagram sx={{fontSize: {xs:'30px',sm:'40px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'rgba(255,255,255,0.5)'}} />
+          <Facebook sx={{fontSize: {xs:'30px',sm:'40px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'rgba(255,255,255,0.5)'}}/>
+          <Twitter sx={{fontSize: {xs:'30px',sm:'40px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'rgba(255,255,255,0.5)'}}/>
+         
+        </Box>
       </Box>
        
         </Box>
-        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'150px'},display:'flex',flexDirection:'column',gap:'20px',color:'#E1A910'}}>
-        <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'15px'},fontWeight:'500',display:'flex'}}>EXAMS</Typography>
-        <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'white'}}>
+        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'200px'},display:'flex',flexDirection:'column',gap:'20px',color:'White'}}>
+        <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'25px'},fontWeight:'500',display:'flex'}}>Company</Typography>
+        <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'rgba(255,255,255,0.5)'}}>
 
-       <Typography>JEE Exam</Typography>
-       <Typography>GATE Exam</Typography>
-       <Typography>IAS Exam</Typography>
-       <Typography>UPSC Exam</Typography>
-       <Typography>UPSC 2023</Typography>
-       <Typography>Bank Exam</Typography>
-      <Typography>Government Exams</Typography>
-      <Typography>Education News</Typography>
+       <Typography>About</Typography>
+       <Typography>Blog</Typography>
+       <Typography>Contact</Typography>
+       <Typography>Become a teacher</Typography>
+       
       
        </Box>
-       <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'15px'},fontWeight:'500',display:'flex'}}>CLASSES</Typography>
-       <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'white'}}>
-
-<Typography>Kids Learning</Typography>
-<Typography>Class 1st to 3rd</Typography>
-<Typography>class 4th to 6th</Typography>
-<Typography>Class 7th to 10th</Typography>
-<Typography>class 11th to 12th</Typography>
-
-
-</Box>
+      
+    
        
         </Box>
 
-        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'150px'},display:'flex',flexDirection:'column',gap:'10px',color:'#E1A910'}}>
-        <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'15px'},fontWeight:'500',display:'flex'}}>CLASSES</Typography>
-       <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'white'}}>
+        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'200px'},display:'flex',flexDirection:'column',gap:'10px',color:'white'}}>
+        <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'25px'},fontWeight:'500',display:'flex'}}>Links</Typography>
+       <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'rgba(255,255,255,0.5)'}}>
 
-<Typography>Kids Learning</Typography>
-<Typography>Class 1st to 3rd</Typography>
-<Typography>class 4th to 6th</Typography>
-<Typography>Class 7th to 10th</Typography>
-<Typography>class 11th to 12th</Typography>
+<Typography>Courses</Typography>
+<Typography>Events</Typography>
+<Typography>Gallery</Typography>
+<Typography>FAQs</Typography>
+
 
 
 </Box>
@@ -124,59 +157,34 @@ const Footer = () => {
        <Box sx={{display:'flex',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
        
         
-        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'150px'},display:'flex',flexDirection:'column',gap:'20px',color:'#E1A910'}}>
-        <Typography sx={{paddingTop:{xs:'20px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'15px'},fontWeight:'500',display:'flex'}}>COURSES</Typography>
-        <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'white'}}>
-       <Typography>CBSE</Typography>
-       <Typography >ICSE</Typography>
-       <Typography >JEE</Typography>
-       <Typography >NEET</Typography>
-       <Typography >IAS</Typography>
-       <Typography >CAT</Typography>
-       <Typography >JEE Main</Typography>
-       <Typography >NCERT</Typography>
+        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'200px'},display:'flex',flexDirection:'column',gap:'20px',color:'white'}}>
+        <Typography sx={{paddingTop:{xs:'20px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'25px'},fontWeight:'500',display:'flex'}}>Support</Typography>
+        <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'rgba(255,255,255,0.5)'}}>
+       <Typography>Documentation</Typography>
+       <Typography >Forum</Typography>
+       <Typography >Language Packs</Typography>
+       <Typography >Release Status</Typography>
+    
       </Box>
 
-      <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'15px'},fontWeight:'500',display:'flex'}}>FOLLOW US</Typography>
-       <Box sx={{fontSize:{xs:'12px',sm:'20px',md:'30px'},}}>
-          
-          <Instagram sx={{fontSize: {xs:'30px',sm:'40px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'white'}} />
-          <Facebook sx={{fontSize: {xs:'30px',sm:'40px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'white'}}/>
-          <Twitter sx={{fontSize: {xs:'30px',sm:'40px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'white'}}/>
-         
-        </Box>
+    
+     
        
         </Box>
         
-        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'150px'},display:'flex',flexDirection:'column',gap:'20px',color:'#E1A910'}}>
-        <Typography sx={{paddingTop:{xs:'20px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'15px'},fontWeight:'500',display:'flex'}}>COURSES</Typography>
-        <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'white'}}>
-       <Typography>CBSE</Typography>
-       <Typography >ICSE</Typography>
-       <Typography >JEE</Typography>
-       <Typography >NEET</Typography>
-       <Typography >IAS</Typography>
-       <Typography >CAT</Typography>
-       <Typography >JEE Main</Typography>
-       <Typography >NCERT</Typography>
+        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'200px'},display:'flex',flexDirection:'column',gap:'20px',color:'white'}}>
+        <Typography sx={{paddingTop:{xs:'20px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'25px'},fontWeight:'500',display:'flex'}}>Recommend</Typography>
+        <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'rgba(255,255,255,0.5)'}}>
+       <Typography>WorldPress</Typography>
+       <Typography >LearnPress</Typography>
+       <Typography >WooPress</Typography>
+       <Typography >bbPress</Typography>
+      
       </Box>
        
         </Box>
 
-        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'150px'},display:'flex',flexDirection:'column',gap:'20px',color:'#E1A910'}}>
-        <Typography sx={{paddingTop:{xs:'20px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'15px'},fontWeight:'500',display:'flex'}}>COURSES</Typography>
-        <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'white'}}>
-       <Typography>CBSE</Typography>
-       <Typography >ICSE</Typography>
-       <Typography >JEE</Typography>
-       <Typography >NEET</Typography>
-       <Typography >IAS</Typography>
-       <Typography >CAT</Typography>
-       <Typography >JEE Main</Typography>
-       <Typography >NCERT</Typography>
-      </Box>
-       
-        </Box>
+        
         </Box>
        
        

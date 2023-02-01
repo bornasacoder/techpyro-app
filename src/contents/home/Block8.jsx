@@ -6,12 +6,13 @@ const Block8 = () => {
     const theme = useTheme();
     const CardBox = styled(Card)(({theme})=>({
     display:'flex',
-    flexDirection:'column',
-    width:'550px',
-    height:'300px',
-    backgroundColor:'#F2F2F2',
-    borderRadius:'20px',
+    flexDirection:'row',
+    width:'100%',
+    height:'400px',
+    backgroundColor:'#FFFFFF',
+    borderRadius:'0px',
     boxShadow:'none',
+    border:'1px solid rgba(0,0,0,0.3)',
     [theme.breakpoints.down('lg')]: {
       width:'100vw',
       height:'400px',
@@ -20,17 +21,18 @@ const Block8 = () => {
     [theme.breakpoints.down('md')]: {
       width:'100%',
       height:'250px',
-      flexDirection:'row',
-      paddingTop:'40px', 
+      flexDirection:'column',
+      paddingTop:'0px', 
       alignItems:'center',
       // gap:'50px',
     },
     [theme.breakpoints.down('sm')]: {
-      width:'100%',
-      height:'200px',
-      flexDirection:'row',
-      paddingTop:'40px',
+      width:'auto',
+      height:'400px',
+      flexDirection:'column',
+      paddingTop:'0px',
      alignItems:'center',
+     margin:'10px',
     },
    
   }))
@@ -70,56 +72,38 @@ const Block8 = () => {
      </Box1> */}
 
 
-<Box sx={{display:'flex',justifyContent:'center',marginTop:'40px'}}>
-<Box sx={{backgroundColor:'#F2F2F2',display:'flex',flexDirection:'column',alignItems:'center',width:'1100px',boxShadow:'1px 2px 5px 1px rgba(0,0,0,0.1)',borderRadius:'20px',margin:'10px'}}>
-  <Typography sx={{backgroundColor:'#616DFF',color:'white',fontSize:'20px',fontWeight:'600',width:'150px',display:'flex',justifyContent:'center',borderRadius:'10px'}}>JEE/NEET</Typography>
 
-      <Box sx={{margin:{xs:'0px',sm:'0px 0px',md:'0px'},width:'auto',display:'flex',justifyContent:'center',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
+
+ 
+
+      <Box sx={{width:'auto',display:'flex',justifyContent:'center',flexDirection:{xs:'column',sm:'column',md:'row'},margin:{xs:'0px',sm:'0px 0px',md:'80px 150px'}}}>
       <CardBox >
-      <Box sx={{height:{xs:'100%',sm:'100%',md:'50%'},width:{xs:'50%',sm:'50%',md:'100%'},margin:{xs:'20px',sm:'10px',md:'20px',display:'flex',justifyContent:'center',alignItems:'center'}}}>
+      <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'50%'},margin:{xs:'0px',sm:'0px',md:'0px'},display:'flex',justifyContent:'center',alignItems:'center'}}>
       
         <CardMedia
-        sx={{height:{xs:'70%',sm:'80%',md:'100%'},width:{xs:'100%',sm:'100%',md:'40%'}}}
+        sx={{height:'100%'}}
           component="img"
-          image="/images/category/byjus5.png"
+          image="/images/category/edu1.webp"
           alt="green iguana"
         />
      </Box>
-       <Box sx={{height:{xs:'100%',sm:'100%',md:'50%'},width:{xs:'50%',sm:'50%',md:'100%'},display:'flex',flexDirection:'column',padding:'0px',gap:'20px',alignItems:'center'}}>
+       <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'50%'},display:'flex',flexDirection:'column',padding:{xs:'20px',sm:'30px',md:'40px'},gap:'0px',alignItems:'center',justifyContent:'center',textAlign:'center'}}>
        
-        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500',}}>Comprehensive learning program for JEE preparation</Typography>
-       
-        <Button variant='contained' sx={{backgroundColor:'#FE8C3C',color:'black',border:'1px solid black',borderRadius:'10px',"&:hover":{backgroundColor:'black',color:'white'},width:'150px'}}>Explore JEE</Button>
-     
+        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'30px'},fontWeight:'600',color:'black'}}>President's Welcome</Typography>
+       <Typography>“Welcome to our website. I am honored to be the new president of Eduma University. I have been entrusted with continuing the academic excellence of this university and enriching the quality of student life.”</Typography>
+
        </Box>
       
       
       </CardBox>
 
-      <CardBox >
-      <Box sx={{height:{xs:'100%',sm:'100%',md:'50%'},width:{xs:'50%',sm:'50%',md:'100%'},margin:{xs:'20px',sm:'20px',md:'20px'},display:'flex',justifyContent:'center',alignItems:'center'}}>
-      
-        <CardMedia
-        sx={{height:{xs:'70%',sm:'80%',md:'100%'},width:{xs:'100%',sm:'100%',md:'40%'}}}
-          component="img"
-          image="/images/category/byjus6.png"
-          alt="green iguana"
-        />
-     </Box>
-       <Box sx={{height:{xs:'100%',sm:'100%',md:'50%'},width:{xs:'50%',sm:'50%',md:'100%'},display:'flex',flexDirection:'column',padding:'0px',gap:'20px',alignItems:'center'}}>
-       
-       <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500',}}>Comprehensive learning program for NEET aspirants</Typography>
-        
-        <Button variant='contained' sx={{backgroundColor:'#FE8C3C',color:'black',border:'1px solid black',borderRadius:'10px',"&:hover":{backgroundColor:'black',color:'white'},width:'150px'}}>Explore NEET</Button>
-       </Box>
-      
-      </CardBox>
+   
 
 
        </Box>
        
-       </Box>
-       </Box>
+      
+    
        
        
        </>

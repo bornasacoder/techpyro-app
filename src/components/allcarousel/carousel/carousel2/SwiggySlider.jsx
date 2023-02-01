@@ -11,8 +11,10 @@ import { Box, Typography } from '@mui/material';
 const SliderContainer = styled('div')({
 width:"auto",
 height:"auto",
-padding:"0px 100px",
+// padding:"-10px 100px",
+position:'',
 overflow:"hidden",
+zIndex:'-100',
 backgroundColor:"transparent",
 // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
 "@media (max-width: 1490px)": {
@@ -34,13 +36,14 @@ const SliderInnerContainer = styled('div')({
   width:'100%',
   justifyContent:"center",
   backgroundColor:'#FFFFFF',
+  zIndex:'-10000',
   // alignItems:'center',
   flexDirection:"column",
   // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-  padding:"30px ",
+  padding:"0px ",
   "@media (max-width: 480px)": {
     backgroundColor:'white',
-   padding:'10px'
+   padding:'0px'
  
  },
 })

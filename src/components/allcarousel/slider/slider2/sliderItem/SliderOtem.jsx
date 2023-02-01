@@ -21,21 +21,22 @@ const SliderContainer = styled("div")({
 })
 const ImageContainer = styled("div")({
     display:"flex",
-    width:'250px',
+    width:'232px',
     height:'auto',
     alignItems:"center",
     borderRadius:'10px',
     justifyContent:"center",
     flexDirection:"column",
-    boxShadow:'1px 1px 1px 1px rgba(0,0,0,0.1)',
+    // "&:hover":{backgroundColor:'rgba(0,0,0,0.3)'},
+    // boxShadow:'1px 1px 1px 1px rgba(0,0,0,0.1)',
     // margin:"10px 20px",
     background:'#F2F2F2',
-    // border:'1px solid rgba(0,0,0,0.2)',
+    border:'1px solid rgba(0,0,0,0.2)',
     "@media (max-width: 480px)": {
        gap:'0px',
-        width:'100%',
-        paddingLeft:'20px',
-        border:'none'
+        width:'302px',
+        paddingLeft:'0px',
+        // border:'none'
         },
 
 })
@@ -43,9 +44,10 @@ const Image = styled("img")({
     width:"230px",
     height:"220px",
     objectFit:"cover",
-    // borderRadius:'20px',
-    margin:"10px",
-    zIndex:"1",
+    borderRadius:'10px',
+    "&:hover":{backgroundColor:'rgba(0,0,0,0.3)'},
+    // margin:"10px",
+    // zIndex:"1",
     // border:'1px solid black',
     "@media (max-width: 960px)": {
        width:'200px',
@@ -63,7 +65,7 @@ const Image = styled("img")({
             
             },
             "@media (max-width: 480px)": {
-                width:'230',
+                width:'300px',
                 height:'200px',
                
               
@@ -96,7 +98,7 @@ const Head = styled("h6")({
          <Image src={posterLinks.image} />
          
          
-         <Box sx={{width:{xs:'120px',sm:'200px',md:'230px'},display:'flex',gap:{xs:'5px',sm:'10px',md:'20px'},flexDirection:'column'}}>
+         <Box sx={{width:{xs:'280px',sm:'280px',md:'230px'},display:'flex',gap:{xs:'5px',sm:'10px',md:'20px'},flexDirection:'column'}}>
          <Head style={{fontWeight:{xs:'200',sm:'400',md:'400'},fontSize:'20px'}}>{posterLinks.price.mrp}</Head>
          <Head style={{fontSize:'15px'}}>{posterLinks.tagline}</Head>
          <Head style={{fontSize:'20px',textDecoration:'underline'}}>{posterLinks.rating}</Head>

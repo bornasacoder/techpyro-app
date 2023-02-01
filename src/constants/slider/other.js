@@ -9,7 +9,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-      image:"https://m.media-amazon.com/images/I/61l4i7aoY2L._SX3000_.jpg",
+      image:"https://images.pexels.com/photos/5676744/pexels-photo-5676744.jpeg?auto=compress&cs=tinysrgb&w=600",
            rating:"4.3",
        },
 
@@ -23,7 +23,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-     image:"https://m.media-amazon.com/images/I/71cQMXCLSvL._SX3000_.jpg",
+     image:"https://images.pexels.com/photos/6146978/pexels-photo-6146978.jpeg?auto=compress&cs=tinysrgb&w=600",
            rating:"4.3",
        },
        {
@@ -35,7 +35,7 @@ export const other = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://m.media-amazon.com/images/I/61GnAucagBL._SX3000_.png",
+       image:"https://images.pexels.com/photos/5940838/pexels-photo-5940838.jpeg?auto=compress&cs=tinysrgb&w=600",
        tagline: "new",
            rating:"4.3",
        },
@@ -48,7 +48,7 @@ export const other = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://m.media-amazon.com/images/I/61jgtU0PS4L._SX3000_.jpg",
+         image: "https://images.pexels.com/photos/6140909/pexels-photo-6140909.jpeg?auto=compress&cs=tinysrgb&w=600",
          tagline: "new",
            rating:"4.3",
        },

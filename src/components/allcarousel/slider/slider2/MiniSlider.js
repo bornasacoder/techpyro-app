@@ -26,7 +26,7 @@ overflow:"hidden",
     backgroundColor:'transparent',
     width:'100%',
    margin:'0px',
-   display:'none',
+   
  },
 
 
@@ -50,12 +50,13 @@ const SliderInnerContainer = styled('div')({
 
 
 
+
 const PreviousBtn = (props) =>{
   const {className,onClick} = props;
   
    return (
          <div className={className} onClick={onClick}>
-          <ChevronLeftOutlined sx={{color:'#E294DF',zIndex:'10',fontSize:'2.5rem',marginLeft:'-40px',fontSize:'50px'}} />
+          <ChevronLeftOutlined sx={{color:'black',zIndex:'10',fontSize:'2.5rem',border:'3px solid rgba(0,0,0,0.5)',borderRadius:'0px', backgroundColor:'#FFFFFF',marginLeft:'10px'}} />
          </div>  
    )
 }
@@ -64,7 +65,7 @@ const NextBtn = (props) =>{
    const {className,onClick} = props;
    return (
      <div  className={className} onClick={onClick}>
-       <ChevronRightOutlined sx={{color:'#E294DF',  zIndex:'20',fontSize:'2.5rem',marginLeft:'60px',fontSize:'50px'}} />
+       <ChevronRightOutlined sx={{color:'black',  zIndex:'10',fontSize:'2.5rem',border:'3px solid rgba(0,0,0,0.5)',borderRadius:'0px', backgroundColor:'#FFFFFF',marginRight:'300px'}} />
      </div>
    )
 }
@@ -75,10 +76,10 @@ const MiniSlider = (props) => {
   const settings = {
     dots: false,
     arrows:true,
-    infinite:false,
+    infinite:true,
     speed: 500,
-    slidesToShow: 4.3,
-    slidesToScroll: 4,
+    slidesToShow: 4,
+    slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 4000,
     cssEase: "linear",
@@ -121,7 +122,7 @@ const MiniSlider = (props) => {
             slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
-            arrows:false,
+            arrows:true,
             autoplay:true,
           },
         },
@@ -131,7 +132,7 @@ const MiniSlider = (props) => {
             slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
-            arrows:false,
+            arrows:true,
             // autoplay:true,
             // dots: true,
           },
@@ -140,10 +141,10 @@ const MiniSlider = (props) => {
   };
   return (
     <>
-     <Box sx={{display:'flex',padding:{xs:'10px',sm:'30px',md:'100px 0px 30px 0px'},justifyContent:'center',flexDirection:'column',alignItems:'center'}}>
-       <Typography sx={{fontSize:{xs:'30px',sm:'30px',md:'50px'},fontWeight:'500',color:'black',fontFamily:'cursive'}}>The learning tree</Typography>
-       <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500',color:'black'}}>A student's go-to blog for the latest stories,</Typography>
-       <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500',color:'black'}}>discoveries, fun activities, exam tips, and more.</Typography>
+     <Box sx={{display:'flex',padding:{xs:'20px',sm:'30px',md:'0px 0px 30px 200px'},justifyContent:'center',flexDirection:'column'}}>
+       <Typography sx={{fontSize:{xs:'30px',sm:'30px',md:'30px'},fontWeight:'500',color:'black'}}>Popular Courses</Typography>
+       <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500',color:'black'}}>Limitless learning, more possibilities</Typography>
+      
        </Box>
     <SliderContainer>         
        <SliderInnerContainer>
@@ -154,10 +155,10 @@ const MiniSlider = (props) => {
     </Slider>
       </SliderInnerContainer>  
     </SliderContainer>
-
+{/* 
       <Box sx={{display:'flex',justifyContent:'center',marginTop:'30px'}}>
       <Button variant='contained' sx={{backgroundColor:'#FE8C3C',color:'white',border:'1px solid black',borderRadius:'10px',"&:hover":{backgroundColor:'black',color:'white'},width:'150px',fontSize:'20px'}}>Explore All</Button>
-      </Box>
+      </Box> */}
     </>
   )
 }

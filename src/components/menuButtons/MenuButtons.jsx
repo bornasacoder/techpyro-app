@@ -13,7 +13,7 @@ import {
 
 export default function MenuButtons() {
   return (
-    <List component="nav" aria-label="mailbox folders">
+    <List component="nav" aria-label="mailbox folders" sx={{width:'300px'}}>
       <ListItem button>
         <ListItemText primary="FACE COVERS" />
       </ListItem>
