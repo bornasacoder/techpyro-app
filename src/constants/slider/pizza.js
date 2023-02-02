@@ -2,7 +2,7 @@ export const pizza = {
   category:"Pizza",
    data:[ 
     {
-        name:"DISC BRAKE ",
+        name:"GalaxyZ flod4 ",
         price: {
               mrp: "₹1,250",
               discount: "50% OFF",
@@ -10,11 +10,11 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-          image: "https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WNSH0052/1.jpeg",
+          image: "https://images.samsung.com/is/image/samsung/p6pim/in/2208/gallery/in-galaxy-z-fold4-f936-sm-f936bzadinu-533084004?$PD_GALLERY_L_JPG$",
           rating:"*4.3",
       },
       {
-        name:"DISC BRAKE ",
+        name:"Galaxy S22 Ultra ",
         price: {
           mrp: "₹1,250",
           discount: "50% OFF",
@@ -22,35 +22,23 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-          image: "https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WNSW8260/1.jpeg",
+          image: "https://images.samsung.com/is/image/samsung/assets/in/dpa/sm-s908ezkg.png?$2052_1641_PNG$",
           rating:"*4.3",
       },
       {
-        name:"DISC BRAKE ",
+        name:"Galaxy S21 ",
         price: {
           mrp: "₹1,250",
           discount: "50% OFF",
           cost: "₹2,500"
       },
-         image: "https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WHSH1123/1.jpeg",
+         image: "https://images.samsung.com/is/image/samsung/p6pim/in/sm-g990ezaiinu/gallery/in-galaxy-s21-fe-g990-sm-g990ezaiinu-530606583?$2052_1641_PNG$",
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
           rating:"*4.3",
       },
       {
-        name:"DISC BRAKE ",
-        price: {
-          mrp: "₹1,250",
-          discount: "50% OFF",
-          cost: "₹2,500"
-      },
-          category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Wrogn Men Solid Yellow Shirt",
-        image: "https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WMSH0153/1.jpeg",
-          rating:"*4.3",
-      },
-      {
-        name:"DISC BRAKE ",
+        name:"Galaxy F13 ",
         price: {
           mrp: "₹1,250",
           discount: "50% OFF",
@@ -58,11 +46,23 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-        image:"https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WHJK5002/1.jpeg",
+        image: "https://images.samsung.com/is/image/samsung/p6pim/in/sm-e135flbdins/gallery/in-galaxy%C2%A0f13-sm-e135flbdins-532860868?$1300_1038_PNG$",
+          rating:"*4.3",
+      },
+      {
+        name:"Smart TV ",
+        price: {
+          mrp: "₹1,250",
+          discount: "50% OFF",
+          cost: "₹2,500"
+      },
+          category:["Pizza","California Pizza","Detroit Pizza"],
+          tagline: "Wrogn Men Solid Yellow Shirt",
+        image:"https://images.samsung.com/is/image/samsung/p6pim/in/ua43aue65akxxl/gallery/in-uhd-au7002-425303-ua43aue65akxxl-532615671?$2052_1641_PNG$",
           rating:"4.3",
       },
       {
-        name:"DISC BRAKE ",
+        name:"Smart TV UHD ",
         price: {
           mrp: "₹1,250",
           discount: "50% OFF",
@@ -70,33 +70,45 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-       image: "https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WKJN1921/1.jpeg",
+       image: "https://images.samsung.com/is/image/samsung/p6pim/in/ua55bu8570ulxl/gallery/in-crystaluhd-bu8500-ua55bu8570ulxl-532175431?$684_547_PNG$",
           rating:"4.3",
       },
-      // {
-      //   shopname:"Ram Ji",
-      //   price: {
-      //         mrp: "500",
-      //         discount: "201",
-      //         cost: "299"
-      //     },
-      //     category:["Pizza","California Pizza","Detroit Pizza"],
-      //   image :"https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?auto=compress&cs=tinysrgb&w=600",
-      //     tagline: "Life's too short for boring food",
-      //     rating:"4.3",
-      // },
-      // {
-      //   shopname:"Ram Ji ",
-      //   price: {
-      //         mrp: "500",
-      //         discount: "201",
-      //         cost: "299"
-      //     },
-      //     category:["Pizza","California Pizza","Detroit Pizza"],
-      //     tagline: "Life's too short for boring food",
-      //     image: "https://images.pexels.com/photos/326278/pexels-photo-326278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      //     rating:"4.3",
-      // }
+      {
+        name:"Galaxy Book2 ",
+        price: {
+          mrp: "₹1,250",
+          discount: "50% OFF",
+          cost: "₹2,500"
+      },
+          category:["Pizza","California Pizza","Detroit Pizza"],
+          tagline: "Wrogn Men Solid Yellow Shirt",
+       image: "https://images.samsung.com/is/image/samsung/p6pim/in/np750xed-kc1in/gallery/in-galaxy-book2-np750xeda-423585-np750xed-kc1in-532341781?$2052_1641_PNG$",
+          rating:"4.3",
+      },
+      {
+        name:"Galaxy Watch 4 LTE ",
+        price: {
+          mrp: "₹1,250",
+          discount: "50% OFF",
+          cost: "₹2,500"
+      },
+          category:["Pizza","California Pizza","Detroit Pizza"],
+          tagline: "Wrogn Men Solid Yellow Shirt",
+       image: "https://images.samsung.com/is/image/samsung/p6pim/in/2108/gallery/in-galaxy-watch4-398887-sm-r875fzsainu-481111556?$2052_1641_PNG$",
+          rating:"4.3",
+      },
+      {
+        name:"Galaxy buds 2 ",
+        price: {
+          mrp: "₹1,250",
+          discount: "50% OFF",
+          cost: "₹2,500"
+      },
+          category:["Pizza","California Pizza","Detroit Pizza"],
+          tagline: "Wrogn Men Solid Yellow Shirt",
+       image: "https://images.samsung.com/is/image/samsung/p6pim/in/2108/gallery/in-galaxy-buds2-r177-sm-r177nzkainu-481740606?$2052_1641_PNG$",
+          rating:"4.3",
+      },
     ]
     }
 

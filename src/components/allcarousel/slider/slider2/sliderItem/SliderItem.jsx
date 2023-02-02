@@ -81,7 +81,7 @@ const Head = styled("h3")({
 //         },
 // })
  const SliderOtem = ({posterLinks}) => {
-    console.log(posterLinks)
+    // console.log(posterLinks)
   return (
        <>
       
@@ -89,7 +89,7 @@ const Head = styled("h3")({
         <ImageContainer>
             <Image src={posterLinks.image} />
             <Box sx={{width:{xs:'120px',sm:'200px',md:'240px'}}}>
-             <Head style={{fontWeight:{xs:'300',sm:'400',md:'500'}}}>{posterLinks.tagline}</Head>
+             <Head style={{fontWeight:{xs:'300',sm:'400',md:'500'},display:'flex',justifyContent:'center'}}>{posterLinks.name}</Head>
              </Box>
             <Box sx={{width:{xs:'120px',sm:'200px',md:'240px'},display:'flex',gap:{xs:'5px',sm:'10px',md:'20px'}}}>
             <Head style={{fontWeight:{xs:'200',sm:'400',md:'500'}}}>{posterLinks.price.mrp}</Head>

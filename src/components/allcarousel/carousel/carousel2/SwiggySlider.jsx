@@ -1,88 +1,41 @@
 import React from 'react'
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import { styled } from '@mui/styles';
 import "./swiggyslider.css"
-import SliderItem from '../../carousel/carousel2/sliderItem/SliderItem';
-import {  ArrowCircleLeftOutlined, ArrowCircleRightOutlined, } from '@mui/icons-material';
-import { color } from '@mui/system';
 import { Box, Typography } from '@mui/material';
-const SliderContainer = styled('div')({
-width:"100%",
-height:"auto",
-// margin:"2% 0.3%",
-overflow:"hidden",
-backgroundColor:"transparent",
-// boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-"@media (max-width: 1490px)": {
-//  margin:"2% -1.5%"
+import VerifiedIcon from '@mui/icons-material/Verified';
+import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
+import SmartphoneIcon from '@mui/icons-material/Smartphone';
+import TvIcon from '@mui/icons-material/Tv';
+import ShowerIcon from '@mui/icons-material/Shower';
+import SmartScreenIcon from '@mui/icons-material/SmartScreen';
+import PhonelinkIcon from '@mui/icons-material/Phonelink';
+import LaptopIcon from '@mui/icons-material/Laptop';
+import MicrowaveIcon from '@mui/icons-material/Microwave';
+import {Link} from 'react-router-dom';
 
 
-},
-"@media (max-width: 480px)": {
-    backgroundColor:'white',
-    width:'100%'
- 
- },
 
 
-})
-const SliderInnerContainer = styled('div')({
-  display: "flex",
-  justifyContent:"center",
-  // alignItems:'center',
-  flexDirection:"column",
-  // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-  // padding:"20px 80px",
-  "@media (max-width: 480px)": {
-    backgroundColor:'white',
-   padding:'0px'
- 
- },
-})
 
-
-const PreviousBtn = (props) =>{
-  const {className,onClick} = props;
-  
-   return (
-         <div className={className}   onClick={onClick}>
-          <ArrowCircleLeftOutlined style={{color:'white',zIndex:'100',fontSize:'3rem' }} />
-         </div>  
-   )
-}
-
-const NextBtn = (props) =>{
-   const {className,onClick} = props;
-   return (
-     <div  className={className}  onClick={onClick}>
-       <ArrowCircleRightOutlined style={{color:'white',  zIndex:'20',fontSize:'3rem'}} />
-     </div>
-   )
-}
-
-
-const SwiggySlider = (props) => {
+const SwiggySlider = () => {
   
   const settings = {
     dots: true,
     arrows:true,
     infinite: false,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 9,
     slidesToScroll: 1,
     autoplay: false,
     autoplaySpeed: 2000,
     cssEase: "linear",
     initialSlide:0,
-    prevArrow:<PreviousBtn />,
-    nextArrow:<NextBtn />,
       responsive: [
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 7,
             slidesToScroll: 1,
             speed: 300,
             arrows:true,
@@ -91,7 +44,7 @@ const SwiggySlider = (props) => {
          {
           breakpoint: 960,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 6,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -101,7 +54,7 @@ const SwiggySlider = (props) => {
         {
           breakpoint: 770,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 5,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -111,7 +64,7 @@ const SwiggySlider = (props) => {
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 4,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -121,7 +74,7 @@ const SwiggySlider = (props) => {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 3,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -134,22 +87,55 @@ const SwiggySlider = (props) => {
   };
   return (
     <>
-     {/* <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center',paddingTop:'80px'}}>
-       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'45px'},fontWeight:'700',color:'black',paddingLeft:{xs:'10px',sm:'60px',md:'120px'}}}>NEW ARRIVALS</Typography>
-       
-       </Box> */}
-    <SliderContainer>         
-       <SliderInnerContainer>
-    <Slider {...settings}>
-     { props.sliderData.map((item)=>(
-      <SliderItem posterLinks={item} />
-      ))}
-    </Slider>
-      </SliderInnerContainer>  
-    </SliderContainer>
-
       
-    </>
+<Box sx={{width:{lg:"94%", md:'90%', sm:"99%", xs:"98%"}, height:{xl:'290px',lg:'300px',md:'350px',sm:'400px',xs:'330px'}, display:"flex", justifyContent:"center", flexDirection:"column", marginLeft:{lg:"80px", md:"60px", sm:"10px", xs:"5px"},marginTop:{sm:'0px'}}} >
+
+     <Box>
+         <Typography sx={{display:'flex',justifyContent:'center',fontSize:{xs:'37px',sm:'40px',md:'50px'},textAlign:'center',color:'black', marginBottom:"40px",}}>Shop our Limited time offers </Typography> 
+       </Box>
+       <Box>
+   <Slider {...settings}>
+         <Box sx={{display:'flex',flexDirection:'column', alignItems:"center",justifyContent:'center' }}>
+           <Link to="/verifiedicon" ><VerifiedIcon sx={{fontSize:'50px',color:'white',backgroundColor:'black',borderRadius:'40%',marginBottom:'7px',display:'flex' ,justifyContent:'center',alignItems:"center","&:hover":{transform:'scale(1.2)'} ,}}></VerifiedIcon></Link>
+           <Link to="/featuresDeals" style={{textDecoration:'inherit'}}><Typography  sx={{color:'black',"&:hover":{textDecoration:'underline'}}}  >Featured Deals</Typography></Link>
+         </Box>
+         <Box sx={{display:'flex',flexDirection:'column',justifyContent:'center', alignItems:"center"}}>
+         <Link to="/gift" ><CardGiftcardIcon sx={{fontSize:'50px',color:'white',backgroundColor:'black',borderRadius:'40%',marginBottom:'7px' ,"&:hover":{transform:'scale(1.2)'}}}></CardGiftcardIcon></Link>
+           <Link to="/buyMoreSaveMore" style={{textDecoration:'inherit'}}><Typography sx={{color:'black',"&:hover":{textDecoration:'underline'} }} >Buy more </Typography></Link>
+         </Box>
+         <Box sx={{display:'flex',flexDirection:'column',justifyContent:'center', alignItems:"center"}}>
+         <Link to="/smartPhoneicon" ><SmartphoneIcon sx={{fontSize:'50px',color:'white',backgroundColor:'black',borderRadius:'40%',marginBottom:'7px' ,"&:hover":{transform:'scale(1.2)'}}}></SmartphoneIcon></Link>
+           <Link to="/mobiles" style={{textDecoration:'inherit'}}><Typography sx={{color:'black',"&:hover":{textDecoration:'underline'} }} >Mobiles</Typography></Link>
+         </Box>
+         <Box sx={{display:'flex',flexDirection:'column',justifyContent:'center', alignItems:"center"}}>
+         <Link to="/Tvicon" ><TvIcon sx={{fontSize:'50px',color:'white',backgroundColor:'black',borderRadius:'40%',marginBottom:'7px' ,"&:hover":{transform:'scale(1.2)'}}}></TvIcon></Link>
+           <Link to="/television"  style={{textDecoration:'inherit'}}><Typography sx={{color:'black',"&:hover":{textDecoration:'underline'} }} >Television</Typography></Link>
+         </Box>
+         <Box sx={{display:'flex',flexDirection:'column',justifyContent:'center', alignItems:"center"}}>
+         <Link to="/showericon" ><ShowerIcon sx={{fontSize:'50px',color:'white',backgroundColor:'black',borderRadius:'40%',marginBottom:'7px' ,"&:hover":{transform:'scale(1.2)'}}}></ShowerIcon></Link>
+           <Link to="/shower" style={{textDecoration:'inherit'}}><Typography sx={{color:'black', "&:hover":{textDecoration:'underline'}}} >Shower</Typography></Link>
+         </Box>
+         <Box sx={{display:'flex',flexDirection:'column',justifyContent:'center', alignItems:"center"}}>
+         <Link to="/smartScreenicon" ><SmartScreenIcon sx={{fontSize:'50px',color:'white',backgroundColor:'black',borderRadius:'40%',marginBottom:'7px' ,"&:hover":{transform:'scale(1.2)'}}}></SmartScreenIcon></Link>
+           <Link to="smartscreen" style={{textDecoration:'inherit'}}><Typography sx={{color:'black',"&:hover":{textDecoration:'underline'} }} >Smart screen</Typography></Link>
+         </Box>
+         <Box sx={{display:'flex',flexDirection:'column',justifyContent:'center', alignItems:"center"}}>
+         <Link to="/phoneLinkicon" ><PhonelinkIcon sx={{fontSize:'50px',color:'white',backgroundColor:'black',borderRadius:'30%',marginBottom:'7px' ,"&:hover":{transform:'scale(1.2)'}}}></PhonelinkIcon></Link>
+          <Link to="/tablet&Wireless" style={{textDecoration:'inherit'}}> <Typography sx={{color:'black',"&:hover":{textDecoration:'underline'} }} >Tablet&Wireless</Typography></Link>
+         </Box>
+         <Box sx={{display:'flex',flexDirection:'column',justifyContent:'center', alignItems:"center"}}>
+         <Link to="/laptopicon" ><LaptopIcon sx={{fontSize:'50px',color:'white',backgroundColor:'black',borderRadius:'40%',marginBottom:'7px' ,"&:hover":{transform:'scale(1.2)'}}}></LaptopIcon></Link>
+           <Link to="/laptop" style={{textDecoration:'inherit'}}><Typography sx={{color:'black',"&:hover":{textDecoration:'underline'} }} >Laptop</Typography></Link>
+         </Box>
+         <Box sx={{display:'flex',flexDirection:'column',justifyContent:'center', alignItems:"center"}}>
+         <Link to="/microwaveicon" ><MicrowaveIcon sx={{fontSize:'50px',color:'white',backgroundColor:'black',borderRadius:'40%',marginBottom:'7px' ,"&:hover":{transform:'scale(1.2)'}}}></MicrowaveIcon></Link>
+           <Link to="/microwave" style={{textDecoration:'inherit'}}><Typography sx={{color:'black',"&:hover":{textDecoration:'underline'} }} >Microwave</Typography></Link>
+         </Box>
+</Slider>
+       </Box>
+</Box>
+
+       </>
   )
 }
 

@@ -68,22 +68,22 @@ const Head = styled("h3")({
 //         fontSize: "12px",
 //         },
 // })
- const SliderItem = ({posterLinks}) => {
-    console.log(posterLinks)
+ const SliderItem = () => {
+    // console.log(posterLinks)
   return (
        <>
       
-       <SliderContainer>
+       {/* <SliderContainer>
         <ImageContainer>
             <Image src={posterLinks.image} />
-            {/* <Box sx={{width:{xs:'140px',sm:'200px',md:'260px'}}}>
+            <Box sx={{width:{xs:'140px',sm:'200px',md:'260px'}}}>
             <Head>{posterLinks.price.mrp}</Head>
             <Head>{posterLinks.name}</Head>
             <Head>{posterLinks.style}</Head>
             <Head>{posterLinks.tagline}</Head>
-            </Box> */}
+            </Box>
         </ImageContainer>
-       </SliderContainer>
+       </SliderContainer> */}
        </>
   )
 }

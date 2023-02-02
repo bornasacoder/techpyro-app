@@ -43,7 +43,7 @@ const SearchField = styled(TextField)(({theme}) => ({
     // padding: 8.5px 21px;
     // fontSize: 'unset',
     // paddingLeft:'px',
-    width:'300px' ,
+    width:'70px' ,
     height:'40px',
     borderRadius:'0px',
     [theme.breakpoints.down('sm')]: {
@@ -90,8 +90,9 @@ export default function SearchBar() {
        
         <SearchField   placeholder='search for products ,brands.....' sx={{"& fieldset": {border:'none'}, '& .MuiInputBase-input': {paddingBottom:{xs:'0px',sm:'0px',md:'50px'},
      height:{xs:'25px',sm:'25px',md:'0px',},borderRadius:'0px'
-    },border:'none'}} onClick={searchHandler} ref={catMenu}  ></SearchField>
-    <SearchOutlined sx={{fontSize:'20px',color:'white',marginLeft:'0px',backgroundColor:'red',height:'35px',width:'40px',borderRadius:'5px',}}/>
+    },border:'none'}} onClick={searchHandler} ref={catMenu}></SearchField>
+
+    <SearchOutlined sx={{fontSize:'20px',color:'white',marginLeft:'0px',backgroundColor:'red',height:'35px',width:'30px',borderRadius:'5px',}}/>
         <SearchList sx={{display: showSearch,
             flexDirection:'column', 
             width: '39.95%',

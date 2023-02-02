@@ -8,7 +8,9 @@ import SliderItem from '../../carousel/carousel2/sliderItem/SliderItem';
 import {  ArrowCircleLeftOutlined, ArrowCircleRightOutlined, ChevronLeftOutlined, ChevronRightOutlined, } from '@mui/icons-material';
 import { color } from '@mui/system';
 import { Box, Typography } from '@mui/material';
-import SliderAtem from './sliderItem/SliderAtem';
+import SliderAtem from './sliderItem/SliderItem';
+
+
 const SliderContainer = styled('div')({
 width:"100%",
 height:"auto",
@@ -138,7 +140,7 @@ const BigSlider = (props) => {
   return (
     <>
      <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center',padding:{xs:'10px',sm:'30px',md:'40px'},display:'flex',justifyContent:'center'}}>
-       <Typography sx={{fontSize:{xs:'25px',sm:'30px',md:'30px'},fontWeight:'500',color:'black'}}>Trending in Wrogn</Typography>
+       <Typography sx={{fontSize:{xs:'25px',sm:'30px',md:'30px'},fontWeight:'500',color:'black'}}>Top Deals</Typography>
        
        </Box>
     <SliderContainer>         
