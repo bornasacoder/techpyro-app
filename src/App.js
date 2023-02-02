@@ -13,6 +13,7 @@ import CheckOut from "./pages/checkout/CheckOut";
 import OrderDetails from "./pages/orders/OrderDetails";
 import Profile from "./pages/profile/Profile";
 import Search from "./pages/search/Search";
+import Login from "./pages/auth/Login";
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
         <Route exact path="/orderdetails" element={<OrderDetails/>} />
         <Route exact path="/my-account/profile" element={<Profile/>} />
         <Route exact path="/search" element={<Search/>} />
+        <Route exact path="/login" element={<Login/>} />
       </Routes>
     </Router>
   );
