@@ -11,8 +11,6 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
   [theme.breakpoints.down("md")]: {
     padding: "68px 20px ",
   },
-  // display: "flex",
-  // justifyContent:"space-between",
   gap: 2,
 }));
 const Item = styled(Paper)(({ theme }) => ({
@@ -24,13 +22,6 @@ const Item = styled(Paper)(({ theme }) => ({
   fontSize: "18px",
   display: "flex",
   flexDirection: "column",
-  //   alignItems: "center",
-  // "&:hover": {
-  //   opacity: "0.3",
-  // },
-  //   [theme.breakpoints.down("sm")]: {
-  //     width: "150px",
-  //   },
 }));
 export default function Content5() {
   return (

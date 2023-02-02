@@ -4,10 +4,8 @@ import { Box, styled } from "@mui/system";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   // backgroundColor:"red",
-  padding: "58px  58px  ",
+  padding: "10px  58px  ",
   backgroundColor:"#FFFFFF",
-  borderTop:"1px solid #F2F5F9",
-  borderBottom:"1px solid #F2F5F9",
   [theme.breakpoints.down("md")]: {
   justifyContent:"center",
   padding: "25px 5px ",
@@ -18,7 +16,7 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
   },
 }));
 const Item = styled(Paper)(({ theme }) => ({
-  // borderRadius: "!important",
+  borderRadius: "0!important",
   boxShadow: "none!important",
   textAlign: "center",
   fontSize: "18px",
@@ -29,140 +27,89 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function Content12() {
   return (
     <StyleToolbar>
+      <Box sx={{display:"flex",justifyContent:"space-between",flexDirection:{md:"row",sm:"row",xs:"column"} ,paddingBottom:"40px"}}>
+<Box>
+  <Typography variant="h2" >Explore Certificates</Typography>
+  <Typography>Lorem ipsum dolor sit amet.</Typography>
+</Box>
+<br/>
+<Box>
+  <Button sx={{color:"#000",fontWeight:"400",borderRadius:"0px",border:"1px solid #E6E6E6","&:hover":{
+    backgroundColor:"#fff",border:"1px solid #FFB606"
+  }}}>VIEW ALL</Button>
+</Box>
+      </Box>
       <Box
         display="flex"
         flexDirection="column"
         gap={5}
-        sx={
-          {   
-          }
-        }
       ><Grid
           container
           rowSpacing={2}
-          sx={{
-            display: "flex",
-            alignItems: "center",
-          }}
+          columnSpacing={{ xs: 1, sm: 2, md: 3 }}
         >
-         <Grid item xs={4} sm={3} md={1.714} >
+         <Grid item xs={12} sm={6} md={3}  >
+          <Item sx={{border:"1px solid  #E6E6E6"}}>
             <Item
               sx={{
-                display: {md:"flex",sm:"flex",xs:"flex"},
-                justifyContent: "center",
-                alignItems: "center",
-                // borderRadius: "50%!important",
-                height:"90px",
-                width:"90px",
-               
-                background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/brand-logo/12.png"})
+                height:"200px",
+                background: `url(${"https://eduma.thimpress.com/wp-content/uploads/2022/11/certificates-new-1-2.png"})
                 center/cover no-repeat`,
               }}
             >
             </Item>
+            <Typography variant="h5" sx={{display:"flex",justifyContent:"center",padding:"20px 0px","&:hover":{
+              color:"#FFB606"
+            }}}>Certificate of Training</Typography>
+            </Item>
          </Grid>
-         <Grid item xs={4} sm={3} md={1.7} >
+         <Grid item xs={12} sm={6} md={3}  >
+          <Item sx={{border:"1px solid  #E6E6E6"}}>
             <Item
               sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                // borderRadius: "50%!important",
-                display: {md:"flex",sm:"flex",xs:"flex"},
-                height:"90px",
-                width:"90px",
-               
-                background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/brand-logo/13.png"})
+                height:"200px",
+                background: `url(${"https://eduma.thimpress.com/wp-content/uploads/2022/11/certificates-new-2-2.png"})
                 center/cover no-repeat`,
               }}
             >
             </Item>
+            <Typography variant="h5" sx={{display:"flex",justifyContent:"center",padding:"20px 0px","&:hover":{
+              color:"#FFB606"
+            }}}>Course Completion</Typography>
+            </Item>
          </Grid>
-         <Grid item xs={4} sm={3} md={1.714} >
+         <Grid item xs={12} sm={6} md={3}  >
+          <Item sx={{border:"1px solid  #E6E6E6"}}>
             <Item
               sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                // borderRadius: "50%!important",
-                display: {md:"flex",sm:"flex",xs:"flex"},
-                height:"90px",
-                width:"90px",
-               
-                background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/brand-logo/11.png"})
+                height:"200px",
+                background: `url(${"https://eduma.thimpress.com/wp-content/uploads/2022/11/certificates-new-3-2.png"})
                 center/cover no-repeat`,
               }}
             >
             </Item>
+            <Typography variant="h5" sx={{display:"flex",justifyContent:"center",padding:"20px 0px","&:hover":{
+              color:"#FFB606"
+            }}}>Digital Marketing</Typography>
+            </Item>
          </Grid>
-         <Grid item xs={4} sm={3} md={1.714} >
+         <Grid item xs={12} sm={6} md={3}  >
+          <Item sx={{border:"1px solid  #E6E6E6"}}>
             <Item
               sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                display: {md:"flex",sm:"flex",xs:"none"},
-                // borderRadius: "50%!important",
-                height:"90px",
-                width:"90px",
-               
-                background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/brand-logo/10.png"})
+                height:"200px",
+                background: `url(${"https://eduma.thimpress.com/wp-content/uploads/2022/11/certificates-new-4-2.png"})
                 center/cover no-repeat`,
               }}
             >
             </Item>
-         </Grid>
-         <Grid item xs={4} sm={3} md={1.714} >
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                display: {md:"flex",sm:"none",xs:"none"},
-                // borderRadius: "50%!important",
-                height:"90px",
-                width:"90px",
-               
-                background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/brand-logo/9.png"})
-                center/cover no-repeat`,
-              }}
-            >
+            <Typography variant="h5" sx={{display:"flex",justifyContent:"center",padding:"20px 0px","&:hover":{
+              color:"#FFB606"
+            }}}>Data Analytics</Typography>
             </Item>
          </Grid>
-         <Grid item xs={4} sm={3} md={1.714} >
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                // borderRadius: "50%!important",
-                display: {md:"flex",sm:"none",xs:"none"},
-                height:"90px",
-                width:"90px",
-               
-                background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/brand-logo/8.png"})
-                center/cover no-repeat`,
-              }}
-            >
-            </Item>
-         </Grid>
-         <Grid item xs={4} sm={3} md={1.714} >
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                // borderRadius: "50%!important",
-                display: {md:"flex",sm:"none",xs:"none"},
-                height:"90px",
-                width:"90px",
-               
-                background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/brand-logo/7.png"})
-                center/cover no-repeat`,
-              }}
-            >
-            </Item>
-         </Grid>
+        
+         
         </Grid>
       </Box>
 

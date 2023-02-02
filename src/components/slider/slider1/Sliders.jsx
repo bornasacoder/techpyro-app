@@ -3,17 +3,19 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { styled } from '@mui/styles';
-// import SliderItem from './sliderItem/SliderItem';
 import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
-// import SliderHeader from './sliderhead/SliderHeader';
 import Card1 from 'components/card/card1/Card1';
 import "./minislider.css"
 import { Typography } from '@mui/material';
-const SliderContainer = styled('div')({
-width:"100%",
+import SliderItem from './sliderItem/SliderItem';
+const SliderContainer = styled('div')(({ theme })=>({
+width:"50%",
 height:"auto",
 overflow:"hidden",
-})
+[theme.breakpoints.down("sm")]: {
+  width:"75%"
+},
+}));
 const SliderInnerContainer = styled('div')(({ theme })=>({
   display: "flex",
   justifyContent:"space-between",
@@ -50,11 +52,13 @@ const NextBtn = (props) =>{
 
 
 const Sliders = (props) => {
+  console.log(props.sliderData)
   
   const settings = {
     dots: false,
-    arrows:true,
-    infinite: false,
+    arrows:false,
+    infinite: true,
+    focusOnSelect:true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -77,7 +81,7 @@ const Sliders = (props) => {
          {
           breakpoint: 980,
           settings: {
-            slidesToShow: 3.2,
+            slidesToShow: 3,
             slidesToScroll: 1,
             // autoplay: true,
             speed: 300,
@@ -96,7 +100,7 @@ const Sliders = (props) => {
         {
           breakpoint: 740,
           settings: {
-            slidesToShow: 2.8,
+            slidesToShow: 2,
             slidesToScroll: 1,
           
             speed: 300,
@@ -106,7 +110,7 @@ const Sliders = (props) => {
         {
           breakpoint: 680,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -115,7 +119,7 @@ const Sliders = (props) => {
         {
           breakpoint: 550,
           settings: {
-            slidesToShow: 2.4,
+            slidesToShow: 2,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -124,7 +128,7 @@ const Sliders = (props) => {
         {
           breakpoint: 500,
           settings: {
-            slidesToShow: 2.2,
+            slidesToShow: 2,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -134,14 +138,14 @@ const Sliders = (props) => {
   };
   return (
     <>
-    <SliderContainer>  
-    <Typography variant='h1' sx={{margin:"20px 0px 0px 8px",
-  padding:"0px 40px ",}}>NEW ARRIVALS</Typography>       
+    <SliderContainer sx={{width:{md:"50%",sm:"60%",xs:"65%"}}}>  
+    {/* <Typography variant='h1' sx={{margin:"20px 0px 0px 8px",
+  padding:"0px 40px ",}}>NEW ARRIVALS</Typography>        */}
        <SliderInnerContainer>
       {/* <SliderHeader /> */}
     <Slider {...settings}>
      { props.sliderData.map((item)=>(
-      <Card1 sliderData={item} />
+      <SliderItem posterLinks={item} />
       ))}
     </Slider>
       </SliderInnerContainer>  

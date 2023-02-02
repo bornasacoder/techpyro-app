@@ -1,10 +1,11 @@
 import { FacebookOutlined, Instagram, Public, Twitter, YouTube } from "@mui/icons-material";
-import { Grid, Typography } from "@mui/material";
+import { Avatar, Grid, Typography } from "@mui/material";
 import { Box, styled } from "@mui/system";
 import SearchBar from "components/navbar/searchbar/SearchBar";
+import Sliders from "components/slider/slider1/Sliders";
+import { studentPortfolio } from "constants/studentportfollio";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
-  // bgcolor: "#FFFFFF!important",
   padding: "78px 48px ",
   display: "flex",
   justifyContent: "center",
@@ -13,10 +14,6 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
   backgroundColor: "#F7F2F1",
   
 }));
-const Image = styled("img")(({ theme }) => ({
-  height: "60px",
-  width: "120px",
-}));
 const Content9 = () => {
   return (
     <StyleToolbar>
@@ -24,32 +21,15 @@ const Content9 = () => {
         sx={{
           display: "flex",
           justifyContent: "center",
-        }}
-      >
-        <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFGoKdCZhdhVSfAjL1RplOiJrR2c7iNkrsNg&usqp=CAU" />
-      </Box>
-      <Box
-        sx={{
-          display: "flex",
-          justifyContent: "center",
           textAlign:"center",
-          alignItems:"center"
-
+          alignItems:"center",
+          flexDirection:"column"
         }}
       >
-        <Typography sx={{fontSize:"18px"}}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit.aliqua. Ut
-          enim ad minim.<br/> Lorem ipsum dolor sit amet.
+        <Typography variant="h2" fontFamily=" Trirong">What People Say</Typography>
+        <Typography color="#9FA19F">
+        How real people said about Education WordPress Theme.
         </Typography>
-      </Box>
-      <Box  sx={{
-          display: "flex",
-          justifyContent: "center",
-          textAlign:"center",
-          alignItems:"center"
-
-        }}>
-        <SearchBar/>
       </Box>
       <Box sx={{
         display:"flex",
@@ -57,21 +37,7 @@ const Content9 = () => {
         gap:3,
 
       }}>
-        <FacebookOutlined sx={{fontSize:'30px ', backgroundColor:"#F7F2F1","&:hover":{
-  color:"#FC6935"
-}}}/>
-        <Twitter sx={{fontSize:'30px ', backgroundColor:"#F7F2F1","&:hover":{
-  color:"#FC6935"
-}}}/>
-        <Instagram sx={{fontSize:'30px ', backgroundColor:"#F7F2F1","&:hover":{
-  color:"#FC6935"
-}}}/>
-        <YouTube sx={{fontSize:'30px ', backgroundColor:"#F7F2F1","&:hover":{
-  color:"#FC6935"
-}}}/>
-        <Public sx={{fontSize:'30px ', backgroundColor:"#F7F2F1","&:hover":{
-  color:"#FC6935"
-}}}/>
+       <Sliders sliderData = {studentPortfolio}/>
       </Box>
     </StyleToolbar>
   );

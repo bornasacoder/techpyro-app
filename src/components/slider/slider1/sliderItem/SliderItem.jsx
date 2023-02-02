@@ -2,9 +2,11 @@ import React from 'react'
 import { styled } from '@mui/styles'
 
 const SliderContainer = styled("div")({
-width:"85%",
+width:"100%",
+display:"flex",
+justifyContent:"center",
 height:"auto",
-
+// gap:"30px"
 
 })
 const ImageContainer = styled("div")({
@@ -12,14 +14,15 @@ const ImageContainer = styled("div")({
     alignItems:"center",
     justifyContent:"center",
     flexDirection:"column",
-    margin:"10px 20px"
+    // margin:"10px 20px"
 
 })
 const Image = styled("img")({
-    width:"170px",
-    height:"200px",
+    width:"80px",
+    height:"80px",
     objectFit:"cover",
-    margin:"10px",
+    // margin:"10px",
+    borderRadius:"50%",
     '@media(maxWidth: 768px)':{
         width:"150px",
         height:"150px"
@@ -45,8 +48,9 @@ const Para = styled("p")({
   return (
        <SliderContainer>
         <ImageContainer>
-            <Image src={posterLinks} />
-      
+            <Image src={posterLinks.url} />
+            {/* <Head>{posterLinks.name}</Head>
+             <Para>Age: {posterLinks.age}</Para> */}
         </ImageContainer>
        </SliderContainer>
   )
