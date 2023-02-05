@@ -67,7 +67,6 @@ const Sliders = () => {
     dots: true,
     dotsClass: "slick-dots slick-thumb",
     infinite: true,
-    speed: 500,
     autoPlay:true,
     autoPlaySpeed:2000,
     speed: 2000,

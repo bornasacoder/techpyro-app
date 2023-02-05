@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { styled } from '@mui/styles';
 import Item from './item/Item';
-import { ChevronLeftOutlined, ChevronRightOutlined, ContactSupportOutlined } from '@mui/icons-material';
+import { ChevronLeftOutlined, ChevronRightOutlined, } from '@mui/icons-material';
 import Header from './header/Header';
 import "./slider.css";
 

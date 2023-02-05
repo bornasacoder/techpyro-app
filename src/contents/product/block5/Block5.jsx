@@ -1,4 +1,4 @@
-import { Add, CheckCircleOutline, Clear, Launch, Search, ThumbDown, ThumbUp, VerifiedOutlined, VisibilityOutlined } from '@mui/icons-material'
+import { Add, CheckCircleOutline, Clear,  Search, ThumbDown, ThumbUp, VisibilityOutlined } from '@mui/icons-material'
 import { Box, Divider, styled, Typography } from '@mui/material'
 import React from 'react'
 import { useEffect } from 'react'
@@ -116,29 +116,8 @@ const UserDetailContainer = styled(Box)(({ theme }) => ({
     },
   
   }))
-  const Button2 = styled("button")(({ theme }) => ({
-    width: '250px',
-    border: "none",
-    backgroundColor: "teal",
-    fontSize: "16px",
-    color: "white",
-    height: '50px',
-    alignSelf: "center",
-    display: 'flex',
-    justifyContent: "center",
-    cursor: "pointer",
-    alignItems: "center",
-    marginLeft: "65px",
-    [theme.breakpoints.down('md')]: {
-      marginLeft:"0px",
-      width:"180px"
-    },
-    [theme.breakpoints.down('sm')]: {
-    display:"none"
-    },
   
-  
-  }))
+
   const Button3 = styled("button")(({ theme }) => ({
     width: '250px',
     border: "none",
@@ -205,21 +184,25 @@ const Block5 = () => {
 
     const [scroll, setScroll] = useState(0)
 const map = (value, x1, y1, x2, y2) => (value - x1) * (y2 - x2) / (y1 - x1) + x2;
+
+const handleScroll = () =>{
+  let yScroll = window.scrollY;
+  let minS = 0;
+  let maxS = document.body.scrollHeight;
+  let minB = 5 * 50;
+  let maxB = 38 * 50;
+  let newBottom = map(yScroll, minS, maxS, minB, maxB)
+  setScroll(newBottom)
+ //  console.log(newBottom, scroll)
+}
 useEffect(() => {
-   window.addEventListener("scroll", handleScroll);
-   return () => window.removeEventListener("scroll", handleScroll);
+
+   window.addEventListener("scroll", handleScroll());
+   return () => window.removeEventListener("scroll", handleScroll());
+  // eslint-disable-next-line react-hooks/exhaustive-deps
 }, [])
 
-function handleScroll() {
-   let yScroll = window.scrollY;
-   let minS = 0;
-   let maxS = document.body.scrollHeight;
-   let minB = 5 * 50;
-   let maxB = 38 * 50;
-   let newBottom = map(yScroll, minS, maxS, minB, maxB)
-   setScroll(newBottom)
-  //  console.log(newBottom, scroll)
-}
+
   return (
      <Container>
         <Wrapper>

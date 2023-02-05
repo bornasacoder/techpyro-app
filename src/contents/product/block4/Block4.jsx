@@ -1,7 +1,7 @@
 import { Star } from '@mui/icons-material'
 import { Box, styled, Typography } from '@mui/material'
-import Block4_1 from './block4_1/Block4_1';
-import React, { useState } from 'react'
+import Block41 from './block4_1/Block41';
+import React from 'react'
 // import { ProgressCircle } from 'react-simple-circle-rating';
 // import { Rating } from 'react-simple-star-rating'
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
@@ -330,7 +330,7 @@ const Block4 = () => {
                 </MiddleBar>
 
             </Wrapper>
-            <Block4_1/>
+            <Block41/>
         </Container>
     )
 }

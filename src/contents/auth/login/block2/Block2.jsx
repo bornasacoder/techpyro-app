@@ -1,7 +1,6 @@
-import { Box, Button, Divider, TextField ,Typography,useTheme} from '@mui/material'
+import { Box, Button, TextField ,useTheme} from '@mui/material'
 import { useFormik} from 'formik'
 import React, { useState } from 'react'
-import OtpInput from 'react-otp-input';
 import { Link } from 'react-router-dom';
 import * as Yup from 'yup';
 
@@ -13,13 +12,8 @@ const schema = Yup.object({
 export default function Block2(props) {
 
   const theme = useTheme();
-    const [show, setShow] = useState('block');
-    const [hide, setHide] = useState('none');
-    const [withPassShow, setWithPassShow] = useState('flex');
-    const [withPassHide, setWithPassHide] = useState('none');
     const [count, setCount] = useState('');
     const [length, setLength] = useState('');
-    const [otp, setOtp] = useState('');
 
   const initialValues = {
     number: "",
@@ -40,18 +34,12 @@ export default function Block2(props) {
     },
   });
 
-    const handleChangeOtp = (otp)=>{
-      setOtp(otp)
-    }
     const maxLengthCheck = (e)=>{
       setCount(e.target.value.length);
     }
     const lengthCheck = (e)=>{
       setLength(e.target.value.length);
       console.log(length);
-    }
-    const handleChangeNumber = ()=>{
-      setOtp('');
     }
       const handleMobileANDotpPage = ()=>{
         props.setToggleAccount(props.toggleAccountInitial.number);

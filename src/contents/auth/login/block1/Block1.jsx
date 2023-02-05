@@ -1,4 +1,4 @@
-import { Box, Button, Divider, TextField ,Typography,useTheme} from '@mui/material'
+import { Box, Button, TextField ,Typography,useTheme} from '@mui/material'
 import { useFormik} from 'formik'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
@@ -39,7 +39,6 @@ export default function Block() {
   const [toggleAccount, setToggleAccount] = useState(toggleAccountInitial.number)
 
     const [count, setCount] = useState('');
-    const [length, setLength] = useState('');
     
 
   const initialValues = {
@@ -61,21 +60,12 @@ export default function Block() {
     },
   });
 
-    
-    const handlegetOtp = ()=>{
-      // console.log(parseInt(values.number).toString.length);
-      
-    }
     const handle = ()=>{
       setToggleAccount(toggleAccountInitial.otp);
       
     }
     const maxLengthCheck = (e)=>{
       setCount(e.target.value.length);
-    }
-    const lengthCheck = (e)=>{
-      setLength(e.target.value.length);
-      console.log(length);
     }
     const handlePhonePage = ()=>{
       setToggleAccount(toggleAccountInitial.number);

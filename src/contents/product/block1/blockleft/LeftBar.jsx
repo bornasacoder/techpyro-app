@@ -1,8 +1,6 @@
-import { CleaningServices, Launch } from '@mui/icons-material'
+import { Launch } from '@mui/icons-material'
 import { Box, styled } from '@mui/material'
 import React from 'react'
-import { useState } from 'react'
-import { useEffect } from 'react'
 import "./leftbar.css"
 import Sliders from './Slider/Sliders'
 import SlidersLeft from "./slider2/SlidersLeft"

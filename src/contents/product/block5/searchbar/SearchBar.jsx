@@ -1,7 +1,5 @@
-import { Clear } from '@mui/icons-material';
-import { Box, Input, styled, Typography } from '@mui/material'
+import { Box, Input } from '@mui/material'
 import React from 'react'
-import { useState } from 'react';
 import "./searchbar.css"
 const SearchBar = () => {
     // const [close, setClose] = useState("")
