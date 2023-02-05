@@ -1,5 +1,5 @@
 
-import { Call, CurrencyExchangeTwoTone, EastOutlined, Facebook, FiberManualRecordTwoTone, Instagram, LocalShippingTwoTone, Mail, MoneyTwoTone, Pin, Pinterest, Room, School, Twitter, YouTube } from '@mui/icons-material';
+import { AutoStories, Call, CurrencyExchangeTwoTone, EastOutlined, Facebook, FiberManualRecordTwoTone, Instagram, LinkedIn, LocalShippingTwoTone, Mail, MoneyTwoTone, Pin, Pinterest, Room, School, Twitter, YouTube } from '@mui/icons-material';
 import { Box, Typography,styled, TextField, Button } from '@mui/material'
 import React from 'react'
 import "./footer.css"
@@ -8,11 +8,11 @@ const Ram = styled(Box)(({theme}) => ({
         display:'flex',
         // alignItems:'center',
         justifyContent:'center',
-        backgroundColor:'#2C2C2C',
+        // backgroundColor:'#2C2C2C',
         height:'auto',
         width:'100%',
         gap:'20px',
-        marginTop:'0px',
+        marginTop:'50px',
         // color:theme.colors.alpha.white[100],
         paddingTop:'20px',
         [theme.breakpoints.down('md')]: {
@@ -40,145 +40,89 @@ const Lakshman = styled(Box)(({theme}) => ({
 const Sita = styled(Box)(({theme}) => ({
   display:'flex',
   justifyContent:'space-evenly',
-  backgroundColor:'#004F9A',
-  height:'150px',
+  // backgroundColor:'#004F9A',
+  height:'100px',
   width:'100%',
-  flexDirection:'column',
+  flexDirection:'row',
   // color:theme.colors.alpha.white[100],
   alignItems:'center',
- 
+  borderTop:'1px solid rgba(0,0,0,0.1)',
   [theme.breakpoints.down('md')]: {
-    //  flexDirection:'column',
+     flexDirection:'column',
       padding:'10px',
     // width:'300px',
     height:'auto',
-    display:'block'
+    display:'flex',
+    
   }
 
 }));
 
 const Footer = () => {
   return (
-   <Box>
+   <Box sx={{marginTop:'100px',borderTop:'1px solid rgba(0,0,0,0.1)'}}>
 
- <Box sx={{display:{xs:'none',sm:'none',md:'flex'},flexDirection:'column',alignItems:'center',margin:{xs:'100px 30px',sm:'100px 50px',md:'80px 0px 0px 0px'},height:'300px',backgroundColor:'#FFB606',color:'white',justifyContent:'center',gap:'50px'}}>
-       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'30px'},fontWeight:'700'}}>Our Global Partners</Typography>
-       <Box sx={{display:'flex',gap:'100px'}}>
-        <Box>
-          <img src='https://eduma.thimpress.com/demo-modern-university/wp-content/uploads/sites/64/2022/06/gallery-img-1.png'/>
-        </Box>
 
-        <Box>
-          <img src='https://eduma.thimpress.com/demo-modern-university/wp-content/uploads/sites/64/2022/06/gallery-img-2.png'/>
-        </Box>
-
-        <Box>
-          <img src='https://eduma.thimpress.com/demo-modern-university/wp-content/uploads/sites/64/2022/06/gallery-img-3.png'/>
-        </Box>
-
-        <Box>
-          <img src='https://eduma.thimpress.com/demo-modern-university/wp-content/uploads/sites/64/2022/06/gallery-img-4.png'/>
-        </Box>
-
-        <Box>
-          <img src='https://eduma.thimpress.com/demo-modern-university/wp-content/uploads/sites/64/2022/06/gallery-img-5.png'/>
-        </Box>
-       </Box>
-
-       
-       </Box>
 
       <Ram >
         
-      <Box sx={{display:'flex',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
+      <Box sx={{display:'flex',flexDirection:{xs:'column',sm:'column',md:'row'},gap:'30px'}}>
 
-        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'250px'},display:'flex',flexDirection:'column',gap:'20px',color:'#E1A910'}}>
-        <Box sx={{display:{xs:'flex',sm:'flex',md:'flex'},alignItems:'center',gap:'5px'}}> 
-        <School sx={{fontSize:'50px',color:'#FFB606'}}/>
-          <Typography sx={{fontSize:{xs:'30px',sm:'20px',md:'30px'},fontWeight:'700',color:'white'}}>EDUMA</Typography>
-          </Box>
-        <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'white'}}>
-        <Box sx={{display:{xs:'flex',sm:'flex',md:'flex'},alignItems:'center',gap:'5px'}}>  
-          <Call sx={{color:'#FFB606',fontSize:'20px'}}/>      
-          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'400',color:'rgba(255,255,255,0.5)',"&:hover":{color:'orange'}}}>+91-9876543210</Typography>
-          </Box>
+      <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'300px'},display:'flex',flexDirection:'column',gap:'20px',color:'black'}}>
+        <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'20px'},fontWeight:'500',display:'flex'}}>Solutions</Typography>
+        <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'black'}}>
 
-          <Box sx={{display:{xs:'flex',sm:'flex',md:'flex'},alignItems:'center',gap:'5px'}}>  
-          <Room sx={{color:'#FFB606',fontSize:'20px'}}/>       
-          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'400',color:'rgba(255,255,255,0.5)',"&:hover":{color:'orange'}}}>Haridwr,UK</Typography>
-          </Box>
-
-          <Box sx={{display:{xs:'flex',sm:'flex',md:'flex'},alignItems:'center',gap:'5px'}}>  
-          <Mail sx={{color:'#FFB606',fontSize:'20px'}}/>       
-          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'400',color:'rgba(255,255,255,0.5)',"&:hover":{color:'orange'}}}>agency@gmail.com</Typography>
-          </Box>
-
-          <Box sx={{fontSize:{xs:'12px',sm:'20px',md:'30px'},}}>
-          
-          <Instagram sx={{fontSize: {xs:'30px',sm:'40px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'rgba(255,255,255,0.5)'}} />
-          <Facebook sx={{fontSize: {xs:'30px',sm:'40px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'rgba(255,255,255,0.5)'}}/>
-          <Twitter sx={{fontSize: {xs:'30px',sm:'40px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'rgba(255,255,255,0.5)'}}/>
-         
+       <Typography sx={{borderBottom:'0.5px solid rgba(0,0,0,0.1)',padding:'10px 0px'}}>Learning mannagement system</Typography>
+       <Typography sx={{borderBottom:'0.5px solid rgba(0,0,0,0.1)',padding:'10px 0px'}}>Digital Content</Typography>
+       <Typography sx={{borderBottom:'0.5px solid rgba(0,0,0,0.1)',padding:'10px 0px'}}>Assesment</Typography>
+       <Typography sx={{borderBottom:'0.5px solid rgba(0,0,0,0.1)',padding:'10px 0px'}}>Fee Management</Typography>
+       <Typography sx={{borderBottom:'0.5px solid rgba(0,0,0,0.1)',padding:'10px 0px'}}>Student Information Management</Typography>
+       <Typography sx={{borderBottom:'0.5px solid rgba(0,0,0,0.1)',padding:'10px 0px'}}>Admission Management</Typography>
+       </Box>
+      
         </Box>
-      </Box>
-       
-        </Box>
-        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'200px'},display:'flex',flexDirection:'column',gap:'20px',color:'White'}}>
-        <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'25px'},fontWeight:'500',display:'flex'}}>Company</Typography>
-        <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'rgba(255,255,255,0.5)'}}>
 
-       <Typography>About</Typography>
-       <Typography>Blog</Typography>
-       <Typography>Contact</Typography>
-       <Typography>Become a teacher</Typography>
+
+          <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'300px'},display:'flex',flexDirection:'column',gap:'20px',color:'black'}}>
+        <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'20px'},fontWeight:'500',display:'flex'}}>Company</Typography>
+        <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'black'}}>
+
+       <Typography sx={{borderBottom:'0.5px solid rgba(0,0,0,0.1)',padding:'10px 0px'}}>Home</Typography>
+       <Typography sx={{borderBottom:'0.5px solid rgba(0,0,0,0.1)',padding:'10px 0px'}}>Blog</Typography>
+       <Typography sx={{borderBottom:'0.5px solid rgba(0,0,0,0.1)',padding:'10px 0px'}}>Partners</Typography>
+       <Typography sx={{borderBottom:'0.5px solid rgba(0,0,0,0.1)',padding:'10px 0px'}}>Privacy Policy</Typography>
+       <Typography sx={{borderBottom:'0.5px solid rgba(0,0,0,0.1)',padding:'10px 0px'}}>Terms & Services</Typography>
+       <Typography sx={{borderBottom:'0.5px solid rgba(0,0,0,0.1)',padding:'10px 0px'}}>Software Service Agreement</Typography>
+       <Typography sx={{borderBottom:'0.5px solid rgba(0,0,0,0.1)',padding:'10px 0px'}}>Annual Report</Typography>
+       <Typography sx={{borderBottom:'0.5px solid rgba(0,0,0,0.1)',padding:'10px 0px'}}>Glossary</Typography>
+       </Box>
+      
+        </Box>
+
+     
+</Box>
+
+       <Box sx={{display:'flex',flexDirection:{xs:'column',sm:'column',md:'row'},gap:'30px'}}>
        
+       <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'300px'},display:'flex',flexDirection:'column',gap:'20px',color:'black'}}>
+        <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'20px'},fontWeight:'500',display:'flex'}}>Open Tools</Typography>
+        <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'black'}}>
+
+       <Typography sx={{borderBottom:'0.5px solid rgba(0,0,0,0.1)',padding:'10px 0px'}}>Time Table Maker</Typography>
+       <Typography sx={{borderBottom:'0.5px solid rgba(0,0,0,0.1)',padding:'10px 0px'}}>Worksheet maker</Typography>
+       <Typography sx={{borderBottom:'0.5px solid rgba(0,0,0,0.1)',padding:'10px 0px'}}>Lesson Planner</Typography>
       
        </Box>
       
-    
-       
-        </Box>
-
-        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'200px'},display:'flex',flexDirection:'column',gap:'10px',color:'white'}}>
-        <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'25px'},fontWeight:'500',display:'flex'}}>Links</Typography>
-       <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'rgba(255,255,255,0.5)'}}>
-
-<Typography>Courses</Typography>
-<Typography>Events</Typography>
-<Typography>Gallery</Typography>
-<Typography>FAQs</Typography>
-
-
-
-</Box>
-     </Box>  
-</Box>
-
-       <Box sx={{display:'flex',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
-       
-        
-        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'200px'},display:'flex',flexDirection:'column',gap:'20px',color:'white'}}>
-        <Typography sx={{paddingTop:{xs:'20px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'25px'},fontWeight:'500',display:'flex'}}>Support</Typography>
-        <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'rgba(255,255,255,0.5)'}}>
-       <Typography>Documentation</Typography>
-       <Typography >Forum</Typography>
-       <Typography >Language Packs</Typography>
-       <Typography >Release Status</Typography>
-    
-      </Box>
-
-    
-     
-       
         </Box>
         
-        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'200px'},display:'flex',flexDirection:'column',gap:'20px',color:'white'}}>
-        <Typography sx={{paddingTop:{xs:'20px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'25px'},fontWeight:'500',display:'flex'}}>Recommend</Typography>
-        <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'rgba(255,255,255,0.5)'}}>
-       <Typography>WorldPress</Typography>
-       <Typography >LearnPress</Typography>
-       <Typography >WooPress</Typography>
-       <Typography >bbPress</Typography>
+        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'200px'},display:'flex',flexDirection:'column',gap:'20px',color:'black'}}>
+        <Typography sx={{paddingTop:{xs:'20px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'20px'},fontWeight:'500',display:'flex'}}>Contact</Typography>
+        <Box sx={{display:'flex',flexDirection:'column',gap:'30px',color:'black'}}>
+       <Typography>5th Floor, North Wing, SJR The HUB, Sy. Number 8/2 & 9, Sarjapur Road, Bengaluru, Karnataka- 560 103</Typography>
+       <Typography >partner.institute@teachmint.com</Typography>
+       <Typography >+91-8035073710 (8 AM - 8 PM Everyday)</Typography>
+      
       
       </Box>
        
@@ -238,19 +182,21 @@ const Footer = () => {
       </Box>
       </Box> */}
     {/* </Box> */}
-      {/* <hr></hr>
+    
       <Sita>
-        <Box sx={{display:'flex',gap:{xs:'10px',sm:'15px',md:'20px'},color:'white',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
-          <Typography>All Departments</Typography>
-          <Typography>Store Directory</Typography>
-        <Typography>Careers</Typography>
-        <Typography>our company</Typography>
-        <Typography>Sell on Wallmart.com</Typography>
-        <Typography>Help</Typography>
-        <Typography>Product shelter</Typography>
-      </Box>
-        <Typography sx={{color:'white'}}>@2023Walmart.All rights reserved</Typography>
-      </Sita> */}
+      <Box sx={{display:{xs:'flex',sm:'flex',md:'flex'},alignItems:'center',gap:'5px'}}>
+            <AutoStories sx={{color:'#1DA1F2',fontSize:{xs:'30px',sm:'20px',md:'40px'}}}/>
+          <Typography sx={{fontSize:{xs:'30px',sm:'20px',md:'30px'},fontWeight:'700',color:'#1F3965'}}>Teachmint</Typography>
+          </Box>
+        <Typography sx={{color:'black'}}>©Copyright 2023 , Teachmint Technologies Pvt. Ltd.</Typography>
+        <Box sx={{fontSize:{xs:'12px',sm:'20px',md:'30px'},}}>
+        <LinkedIn sx={{fontSize: {xs:'30px',sm:'40px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'black'}} />
+          <Instagram sx={{fontSize: {xs:'30px',sm:'40px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'black'}} />
+          <Facebook sx={{fontSize: {xs:'30px',sm:'40px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'black'}}/>
+          <Twitter sx={{fontSize: {xs:'30px',sm:'40px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'black'}}/>
+         
+        </Box>
+      </Sita>
       </Box>
    
   )

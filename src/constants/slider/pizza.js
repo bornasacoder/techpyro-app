@@ -9,7 +9,7 @@ export const pizza = [
          },
          category:["Spring Rolls","Thali","sweets"],
          tagline: "10 indian Women Who Helped Draft The Indian Constitution",
-    image:"https://images.pexels.com/photos/313690/pexels-photo-313690.jpeg?auto=compress&cs=tinysrgb&w=600",
+    image:"https://www.teachmint.com/static2/images/new-landing/fee-management-1.webp",
          rating:"Read More",
      },
 
@@ -23,7 +23,7 @@ export const pizza = [
       },
          category:["Spring Rolls","Thali","sweets"],
          tagline: "10 indian Women Who Helped Draft The Indian Constitution",
-   image:"https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=600",
+   image:"https://www.teachmint.com/static2/images/new-landing/fee-management-3.webp",
    rating:"Read More",
      },
      {
@@ -35,7 +35,7 @@ export const pizza = [
           cost: "₹3,199"
       },
          category:["Spring Rolls","Thali","sweets"],
-     image:"https://images.pexels.com/photos/3776178/pexels-photo-3776178.jpeg?auto=compress&cs=tinysrgb&w=600",
+     image:"https://www.teachmint.com/static2/images/new-landing/fee-management-2.webp",
      tagline: "10 indian Women Who Helped Draft The Indian Constitution",
      rating:"Read More",
      },
@@ -48,7 +48,7 @@ export const pizza = [
           cost: "₹3,199"
       },
          category:["Spring Rolls","Thali","sweets"],
-       image: "https://images.pexels.com/photos/3059654/pexels-photo-3059654.jpeg?auto=compress&cs=tinysrgb&w=600",
+       image: "https://www.teachmint.com/static2/images/new-landing/fee-management-1.webp",
        tagline: "10 indian Women Who Helped Draft The Indian Constitution",
        rating:"Read More",
      },
@@ -61,7 +61,7 @@ export const pizza = [
           cost: "₹3,199"
       },
          category:["Spring Rolls","Thali","sweets"],
-   image:"https://images.pexels.com/photos/8554446/pexels-photo-8554446.jpeg?auto=compress&cs=tinysrgb&w=600",
+   image:"https://www.teachmint.com/static2/images/new-landing/fee-management-2.webp",
    tagline: "10 indian Women Who Helped Draft The Indian Constitution",
    rating:"Read More",
      },
@@ -75,7 +75,7 @@ export const pizza = [
       },
          category:["Spring Rolls","RasGulla","sweets"],
          tagline: "10 indian Women Who Helped Draft The Indian Constitution",
-   image:"https://images.pexels.com/photos/4238488/pexels-photo-4238488.jpeg?auto=compress&cs=tinysrgb&w=6003",
+   image:"https://www.teachmint.com/static2/images/new-landing/fee-management-3.webp",
 
    rating:"Read More",
      },

@@ -10,27 +10,25 @@ import { color } from '@mui/system';
 import { Box, Typography } from '@mui/material';
 import SliderAtem from './sliderItem/SliderAtem';
 const SliderContainer = styled('div')({
-width:"100%",
-height:"auto",
-// margin:'0px 100px',
+width:"500px",
+height:"500px",
+margin:'0px 0px 0px 200px',
 overflow:"hidden",
 display:'flex',
 justifyContent:'center',
 flexDirection:'column',
 // alignItems:'center',
-backgroundColor:'transparent',
+backgroundColor:'#FFFFFF',
 position:'static',
 // border:'1px solid black',
-// boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-"@media (max-width: 1490px)": {
-  // margin:"2% "
+boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+borderRadius:'20px',
 
-
-},
 "@media (max-width: 480px)": {
-    backgroundColor:'transparent',
+    // backgroundColor:'transparent',
     width:'100%',
-   margin:'0px'
+   margin:'0px',
+   boxShadow:'none'
  },
 
 
@@ -40,11 +38,11 @@ const SliderInnerContainer = styled('div')({
   backgroundColor:'transparent',
   justifyContent:"center",
   // alignItems:'center',
-  margin:'0px 150px',
+  margin:'30px 70px',
   // backgroundColor:'#FFFFFF',
   flexDirection:"column", 
   // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
- paddingLeft:'20px',
+//  paddingLeft:'20px',
   "@media (max-width: 480px)": {
     // backgroundColor:'white',
   //  paddingLeft:'60px 30px',
@@ -78,14 +76,14 @@ const NextBtn = (props) =>{
 const BigSlider = (props) => {
   
   const settings = {
-    dots: false,
-    arrows:true,
+    dots: true,
+    arrows:false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    autoplay: false,
-    autoplaySpeed: 4000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
     cssEase: "linear",
     initialSlide:0,
     prevArrow:<PreviousBtn />,
@@ -94,7 +92,7 @@ const BigSlider = (props) => {
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 5,
+            slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
             arrows:true,
@@ -103,7 +101,7 @@ const BigSlider = (props) => {
          {
           breakpoint: 960,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -136,7 +134,7 @@ const BigSlider = (props) => {
             slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
-            arrows:true,
+            // arrows:true,
             // autoplay:true,
             // dots: true,
           },

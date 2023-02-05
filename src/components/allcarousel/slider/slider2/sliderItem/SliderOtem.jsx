@@ -21,8 +21,8 @@ const SliderContainer = styled("div")({
 })
 const ImageContainer = styled("div")({
     display:"flex",
-    width:'232px',
-    height:'auto',
+    width:'100%',
+    height:'440px',
     alignItems:"center",
     borderRadius:'10px',
     justifyContent:"center",
@@ -31,42 +31,38 @@ const ImageContainer = styled("div")({
     // boxShadow:'1px 1px 1px 1px rgba(0,0,0,0.1)',
     // margin:"10px 20px",
     background:'#F2F2F2',
-    border:'1px solid rgba(0,0,0,0.2)',
+    // border:'1px solid rgba(0,0,0,0.2)',
     "@media (max-width: 480px)": {
        gap:'0px',
-        width:'302px',
+        // width:'302px',
         paddingLeft:'0px',
-        // border:'none'
+        boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
         },
 
 })
 const Image = styled("img")({
-    width:"230px",
-    height:"220px",
+    width:"100%",
+    height:"100%",
     objectFit:"cover",
     borderRadius:'10px',
-    "&:hover":{backgroundColor:'rgba(0,0,0,0.3)'},
+    // "&:hover":{backgroundColor:'rgba(0,0,0,0.3)'},
     // margin:"10px",
     // zIndex:"1",
     // border:'1px solid black',
     "@media (max-width: 960px)": {
-       width:'200px',
-       height:'230px',
+      width:'270px',
+      height:'400px',
        
        },
-       "@media (max-width: 770px)": {
-        width:'160px',
-        height:'200px',
-        
-        },
+     
         "@media (max-width: 600px)": {
-            width:'120px',
-            height:'170px',
+          width:'270px',
+          height:'400px',
             
             },
             "@media (max-width: 480px)": {
-                width:'300px',
-                height:'200px',
+                width:'270px',
+                height:'400px',
                
               
                 
@@ -98,11 +94,11 @@ const Head = styled("h6")({
          <Image src={posterLinks.image} />
          
          
-         <Box sx={{width:{xs:'280px',sm:'280px',md:'230px'},display:'flex',gap:{xs:'5px',sm:'10px',md:'20px'},flexDirection:'column'}}>
+         {/* <Box sx={{width:{xs:'280px',sm:'280px',md:'230px'},display:'flex',gap:{xs:'5px',sm:'10px',md:'20px'},flexDirection:'column'}}>
          <Head style={{fontWeight:{xs:'200',sm:'400',md:'400'},fontSize:'20px'}}>{posterLinks.price.mrp}</Head>
          <Head style={{fontSize:'15px'}}>{posterLinks.tagline}</Head>
          <Head style={{fontSize:'20px',textDecoration:'underline'}}>{posterLinks.rating}</Head>
-         </Box>
+         </Box> */}
          
           
      </ImageContainer>

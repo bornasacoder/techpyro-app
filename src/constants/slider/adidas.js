@@ -9,7 +9,7 @@ export const adidas = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.",
-      image:"https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image:"https://www.teachmint.com/static2/images/new-landing/manage-student-1.webp",
            rating:"Bachelor of Technology/B-Tech",
        },
 
@@ -23,7 +23,7 @@ export const adidas = [
         },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.",
-     image:"https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=600",
+     image:"https://www.teachmint.com/static2/images/new-landing/si-2.webp",
      rating:"Bachelor of Technology/B-Tech",
        },
        {
@@ -35,7 +35,7 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=600",
+       image:"https://www.teachmint.com/static2/images/new-landing/manage-student-3.webp",
        tagline: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.",
        rating:"Bachelor of Technology/B-Tech",
        },
@@ -48,7 +48,7 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?auto=compress&cs=tinysrgb&w=600",
+         image: "https://www.teachmint.com/static2/images/new-landing/manage-student-1.webp",
          tagline: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.",
          rating:"Bachelor of Technology/B-Tech",
        },
@@ -61,7 +61,7 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-     image:"https://images.pexels.com/photos/3777946/pexels-photo-3777946.jpeg?auto=compress&cs=tinysrgb&w=600",
+     image:"https://www.teachmint.com/static2/images/new-landing/si-2.webp",
      tagline: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.",
      rating:"Bachelor of Technology/B-Tech",
        },
@@ -75,7 +75,7 @@ export const adidas = [
         },
            category:["Spring Rolls","RasGulla","sweets"],
            tagline: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.",
-     image:"https://images.pexels.com/photos/1520760/pexels-photo-1520760.jpeg?auto=compress&cs=tinysrgb&w=600",
+     image:"https://www.teachmint.com/static2/images/new-landing/manage-student-3.webp",
 
      rating:"Bachelor of Technology/B-Tech",
        },

@@ -7,24 +7,22 @@ const Block3 = () => {
     const CardBox = styled(Card)(({theme})=>({
     display:'flex',
     flexDirection:'column',
-    width:'600px',
-    height:'500px',
-    backgroundColor:'#FFFFFF',
-    [theme.breakpoints.down('lg')]: {
-      width:'100vw',
-      height:'500px',
-     
-    },
+    width:'300px',
+    height:'300px',
+    // backgroundColor:'#F2F2F2',
+    borderRadius:'20px',
+    // boxShadow:'none',
+    
     [theme.breakpoints.down('md')]: {
-      width:'100vw',
-      height:'450px',
+      width:'300px',
+      height:'250px',
       flexDirection:'column',
       // paddingTop:'50px',
       // gap:'50px',
     },
     [theme.breakpoints.down('sm')]: {
-      width:'100%',
-      height:'450px',
+      width:'300px',
+      height:'250px',
       flexDirection:'column',
       // paddingTop:'50px',
       // gap:'50px',
@@ -61,115 +59,102 @@ const Block3 = () => {
     }
   ));
   return (
-    <>
+    <Box >
      {/* <Box1>
 
      </Box1> */}
-     <Box sx={{backgroundColor:'#FFFFFF',margin:{xs:'0px',sm:'0px 50px',md:'0px 100px'}}}>
-<Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'20px'},fontWeight:'500',color:'black',padding:{xs:'20px',sm:'40px',md:'30px'},display:'flex'}}>In season</Typography>
-</Box>
+  <Box sx={{display:'flex',flexDirection:'column',alignItems:'center',padding:{xs:'50px 0px',sm:'70px 0px',md:'80px'},textAlign:'center'}}>
+       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'25px'},fontWeight:'400',color:'black'}}>AWARDS</Typography>
+       
 
-      <Box sx={{margin:{xs:'0px',sm:'0px 50px',md:'0px 100px'},width:'auto',backgroundColor:'#FFFFFF',display:'flex',justifyContent:'space-evenly',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
+       
+       </Box>
+
+<Box sx={{display:'flex',justifyContent:'center',padding:{xs:'0px',sm:'0px 20px',md:'0px 0px 50px 0px'}}}>
+
+ 
+
+      <Box sx={{margin:{xs:'0px',sm:'0px 0px',md:'0px 50px'},width:'auto',display:'flex',justifyContent:'center',flexDirection:{xs:'column',sm:'column',md:'row'},gap:'40px'}}>
       <CardBox >
-      <Box sx={{height:{xs:'400px',sm:'100%',md:'70%'},width:{xs:'100%',sm:'100%',md:'100%'},paddingTop:{xs:'0px',sm:'0px',md:'0px'}}}>
+      <Box sx={{height:{xs:'50%',sm:'50%',md:'60%'},width:{xs:'100%',sm:'100%',md:'100%'},padding:{xs:'0px',sm:'0px',md:'0px'},display:'flex',justifyContent:'center',alignItems:'center'}}>
       
         <CardMedia
-        sx={{height:'100%'}}
+        sx={{height:'60%',width:'40%'}}
           component="img"
-          image="/images/category/mart12.webp"
+          image="/images/category/teach9.webp"
           alt="green iguana"
         />
      </Box>
-       <Box sx={{height:{xs:'100%',sm:'50%',md:'40%'},width:{xs:'100%',sm:'100%',md:'100%'},display:'flex',flexDirection:'column',background:'#F6F7FB',padding:'20px',gap:'20px',backgroundColor:'#FFFFFF'}}>
+       <Box sx={{height:{xs:'50%',sm:'50%',md:'40%'},width:{xs:'100%',sm:'100%',md:'100%'},display:'flex',flexDirection:'column',padding:{xs:'20px',sm:'0px',md:'0px 40px 40px 40px'},gap:{xs:'20px',sm:'0px',md:'0px'},textAlign:'center'}}>
        
-        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'600',}}>Prep your outdoor oasis</Typography>
-        <Typography>Get set for spring with patio furniture & more</Typography>
-        <Button variant='contained' sx={{width:'130px',backgroundColor:'#FFFFFF',color:'black',border:'1px solid black',borderRadius:'20px',"&:hover":{backgroundColor:'black',color:'white'}}}>Shop now</Button>
+       
+        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500'}}>EdTech startup of the
+Year </Typography>
+       
+       
+       </Box>
      
+      
+      </CardBox>
+
+      <CardBox >
+      <Box sx={{height:{xs:'50%',sm:'50%',md:'60%'},width:{xs:'100%',sm:'100%',md:'100%'},padding:{xs:'0px',sm:'0px',md:'0px'},display:'flex',justifyContent:'center',alignItems:'center'}}>
+      
+        <CardMedia
+        sx={{height:'60%',width:'40%'}}
+          component="img"
+          image="/images/category/teach10.webp"
+          alt="green iguana"
+        />
+     </Box>
+       <Box sx={{height:{xs:'50%',sm:'50%',md:'40%'},width:{xs:'100%',sm:'100%',md:'100%'},display:'flex',flexDirection:'column',padding:{xs:'20px',sm:'0px',md:'0px 40px 40px 40px'},gap:{xs:'20px',sm:'0px',md:'0px'},textAlign:'center'}}>
+       
+       
+        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500'}}>Most Transformational
+Company </Typography>
+       
+       
        </Box>
       
       
       </CardBox>
 
+
+
+
       <CardBox >
-      <Box sx={{height:{xs:'400px',sm:'100%',md:'70%'},width:{xs:'100%',sm:'100%',md:'100%'},paddingTop:{xs:'0px',sm:'0px',md:'0px'}}}>
+      <Box sx={{height:{xs:'50%',sm:'50%',md:'60%'},width:{xs:'100%',sm:'100%',md:'100%'},padding:{xs:'0px',sm:'0px',md:'0px'},display:'flex',justifyContent:'center',alignItems:'center'}}>
       
         <CardMedia
-        sx={{height:'100%'}}
+        sx={{height:'60%',width:'40%'}}
           component="img"
-          image="/images/category/mart13.webp"
+          image="/images/category/teach11.png"
           alt="green iguana"
         />
      </Box>
-       <Box sx={{height:{xs:'100%',sm:'50%',md:'40%'},width:{xs:'100%',sm:'100%',md:'100%'},display:'flex',flexDirection:'column',background:'#F6F7FB',padding:'20px',gap:'20px',backgroundColor:'#FFFFFF'}}>
+       <Box sx={{height:{xs:'50%',sm:'50%',md:'40%'},width:{xs:'100%',sm:'100%',md:'100%'},display:'flex',flexDirection:'column',padding:{xs:'20px',sm:'0px',md:'0px 40px 40px 40px'},gap:{xs:'20px',sm:'0px',md:'0px'},textAlign:'center',borderBottom:'0.5px solid rgba(0,0,0,0.2)'}}>
        
-        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'600',}}>Prep your outdoor oasis</Typography>
-        <Typography>Get set for spring with patio furniture & more</Typography>
-        <Button variant='contained' sx={{width:'130px',backgroundColor:'#FFFFFF',color:'black',border:'1px solid black',borderRadius:'20px',"&:hover":{backgroundColor:'black',color:'white'}}}>Shop now</Button>
-     
+       
+        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500'}}>Best EduTech
+Startup</Typography>
+       
+       
        </Box>
       
       
       </CardBox>
-
-
-     
-      
        </Box>
-     
+       
     
-       <Box sx={{backgroundColor:'#FFFFFF',margin:'0px 100px',display:{xs:'none',sm:'none',md:'block'}}}>
-<Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'20px'},fontWeight:'500',color:'black',padding:{xs:'20px',sm:'40px',md:'30px'},display:'flex'}}>Brand new for you</Typography>
-</Box>
-
-      <Box sx={{margin:{xs:'10px',sm:'50px',md:'0px 100px'},width:'auto',backgroundColor:'#FFFFFF',display:{xs:'none',sm:'none',md:'flex'},justifyContent:'space-evenly',}}>
-      <CardBox >
-      <Box sx={{height:{xs:'400px',sm:'100%',md:'70%'},width:{xs:'100%',sm:'100%',md:'100%'},paddingTop:{xs:'0px',sm:'0px',md:'0px'}}}>
-      
-        <CardMedia
-        sx={{height:'100%'}}
-          component="img"
-          image="/images/category/mart14.webp"
-          alt="green iguana"
-        />
-     </Box>
-       <Box sx={{height:{xs:'100%',sm:'50%',md:'40%'},width:{xs:'100%',sm:'100%',md:'100%'},display:'flex',flexDirection:'column',background:'#F6F7FB',padding:'20px',gap:'20px',backgroundColor:'#FFFFFF'}}>
+       </Box>
        
-        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'600',}}>Prep your outdoor oasis</Typography>
-        <Typography>Get set for spring with patio furniture & more</Typography>
-        <Button variant='contained' sx={{width:'130px',backgroundColor:'#FFFFFF',color:'black',border:'1px solid black',borderRadius:'20px',"&:hover":{backgroundColor:'black',color:'white'}}}>Shop now</Button>
-     
-       </Box>
-      
-      
-      </CardBox>
-
-      <CardBox >
-      <Box sx={{height:{xs:'400px',sm:'100%',md:'70%'},width:{xs:'100%',sm:'100%',md:'100%'},paddingTop:{xs:'0px',sm:'0px',md:'0px'}}}>
-      
-        <CardMedia
-        sx={{height:'100%'}}
-          component="img"
-          image="/images/category/mart15.webp"
-          alt="green iguana"
-        />
-     </Box>
-       <Box sx={{height:{xs:'100%',sm:'50%',md:'40%'},width:{xs:'100%',sm:'100%',md:'100%'},display:'flex',flexDirection:'column',background:'#F6F7FB',padding:'20px',gap:'20px',backgroundColor:'#FFFFFF'}}>
+       <Box sx={{display:'flex',flexDirection:'column',alignItems:'center',padding:{xs:'50px 0px',sm:'70px 0px',md:'0px'},textAlign:'center'}}>
+       <Button variant='contained' sx={{width:'200px',marginTop:'10px',backgroundColor:'#1DA1F2',fontSize:'20px'}}>Get Started</Button>
        
-        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'600',}}>Prep your outdoor oasis</Typography>
-        <Typography>Get set for spring with patio furniture & more</Typography>
-        <Button variant='contained' sx={{width:'130px',backgroundColor:'#FFFFFF',color:'black',border:'1px solid black',borderRadius:'20px',"&:hover":{backgroundColor:'black',color:'white'}}}>Shop now</Button>
-     
-       </Box>
-      
-      
-      </CardBox>
 
-
-     
-      
+       
        </Box>
-       </>
+       </Box>
        
   )
     }

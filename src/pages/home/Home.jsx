@@ -22,21 +22,34 @@ import Block7 from 'contents/home/Block7';
 import { fastfood } from 'constants/slider/fastfood';
 import Block8 from 'contents/home/Block8';
 import Block9 from 'contents/home/Block9';
+import Block10 from 'contents/home/Block10';
+import Block11 from 'contents/home/Block11';
 const Home = () => {
 // console.log(mainCarousel);
   return (
     <div>
     
          <Navbar /> 
-         <SwiggySlider sliderData={other}/>
+         <Sliders sliderData={fastfood}/>
          <Block8 />
-         <Block1 />
+         <Box sx={{display:'flex',gap:'100px',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
+         <Block10 />
          <MiniSlider sliderData={pizza} />
-         <Block4 />
+         </Box>
+         <Box sx={{display:'flex',gap:'100px',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
          <BigSlider sliderData={adidas}/>
-         <Block2 />
+         <Block11 />
+         </Box>
+         <Box sx={{display:'flex',gap:'100px',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
+         <Block10 />
          <MiniSlider sliderData={pizza} />
+         </Box>
+         <Block2 />
+         <Block3 />
+         <Block1 />
          <Footer /> 
+         
+        
        
       
       

@@ -7,7 +7,7 @@ import { Star, StarHalf } from '@mui/icons-material'
 
 const SliderContainer = styled("div")({
 width:"100%",
-height:"auto",
+height:"440px",
 paddingRight:"0px",
 background:'transparent',
 display:'flex',
@@ -22,28 +22,29 @@ alignItems:"center",
 
 })
 const ImageContainer = styled("div")({
-    display:"flex",
-    width:'202px',
+    display:"100%",
+    width:'250px',
     // alignItems:"center",
     // borderRadius:'20px',
     // justifyContent:"center",
     flexDirection:"column",
-    // margin:"10px 20px",
+    margin:"10px 20px",
     background:'transparent',
     // border:'1px solid rgba(0,0,0,0.2)',
     "@media (max-width: 480px)": {
        gap:'0px',
         width:'100%',
         paddingLeft:'60px',
-        border:'none'
+        border:'none',
+        
         },
 
 })
 const Image = styled("img")({
-    width:"200px",
-    height:"200px",
+    width:"250px",
+    height:"450px",
     objectFit:"cover",
-    borderRadius:'100px',
+    // borderRadius:'100px',
     // margin:"40px",
     zIndex:"1",
     // border:'1px solid black',
@@ -63,9 +64,9 @@ const Image = styled("img")({
             
             },
             "@media (max-width: 480px)": {
-                width:'180px',
-                height:'180px',
-               
+                width:'250px',
+                height:'400px',
+                boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
               
                 
                 },
@@ -100,12 +101,12 @@ const Head = styled("h3")({
        
           
      </ImageContainer>
-     <Box sx={{width:{xs:'220px',sm:'200px',md:'300px'},display:'flex',gap:{xs:'5px',sm:'10px',md:'10px'},flexDirection:'column',justifyContent:'center',alignItems:'center',textAlign:'center'}}>
+     {/* <Box sx={{width:{xs:'220px',sm:'200px',md:'300px'},display:'flex',gap:{xs:'5px',sm:'10px',md:'10px'},flexDirection:'column',justifyContent:'center',alignItems:'center',textAlign:'center'}}>
          
          <Head style={{fontWeight:{xs:'200',sm:'400',md:'400'}}}>{posterLinks.price.mrp}</Head>
          <Head>{posterLinks.rating}</Head>
          <Head style={{fontWeight:{xs:'300',sm:'400',md:'400'},fontSize:'13px'}}>{posterLinks.tagline}</Head>
-         </Box>
+         </Box> */}
     </SliderContainer>
     </>
   )

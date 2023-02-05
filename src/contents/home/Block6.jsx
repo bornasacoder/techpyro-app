@@ -85,7 +85,7 @@ const Block6 = () => {
       </FormControl>
     </Box>
 
-    <Box sx={{width:{xs:'320px',sm:'320px',md:'220px'} }}>
+    <Box sx={{width:{xs:'320px',sm:'320px',md:'280px'} }}>
       <FormControl fullWidth>
         <InputLabel id="demo-simple-select-label">Sub model</InputLabel>
         <Select

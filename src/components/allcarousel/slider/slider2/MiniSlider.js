@@ -10,38 +10,35 @@ import { color } from '@mui/system';
 import { Box, Button, Typography } from '@mui/material';
 import SliderOtem from './sliderItem/SliderOtem';
 const SliderContainer = styled('div')({
-width:"100%",
-height:"auto",
+width:"500px",
+height:"500px",
 // margin:'0px 100px',
 overflow:"hidden",
-// backgroundColor:'#FFFFFF',
+backgroundColor:'#FFFFFF',
 // border:'1px solid black',
-// boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-"@media (max-width: 1490px)": {
-  // margin:"2% "
+boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+borderRadius:'20px',
 
-
-},
 "@media (max-width: 480px)": {
-    backgroundColor:'transparent',
+    // backgroundColor:'transparent',
     width:'100%',
    margin:'0px',
-   
+   boxShadow:'none',
  },
 
 
 })
 const SliderInnerContainer = styled('div')({
   display: "flex",
-  backgroundColor:'transparent',
+  // backgroundColor:'transparent',
   justifyContent:"center",
-  margin:'0px 150px',
-  // backgroundColor:'#FFFFFF',
+  margin:' 30px',
+  backgroundColor:'#FFFFFF',
   flexDirection:"column", 
   // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
  paddingLeft:'20px',
   "@media (max-width: 480px)": {
-    backgroundColor:'white',
+    backgroundColor:'#FFFFFF',
    paddingLeft:'0px',
    margin:'0px '
  
@@ -75,12 +72,12 @@ const MiniSlider = (props) => {
   
   const settings = {
     dots: false,
-    arrows:true,
+    arrows:false,
     infinite:true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay:true,
     autoplaySpeed: 4000,
     cssEase: "linear",
     initialSlide:0,
@@ -90,7 +87,7 @@ const MiniSlider = (props) => {
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 5,
+            slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
             arrows:true,
@@ -99,7 +96,7 @@ const MiniSlider = (props) => {
          {
           breakpoint: 960,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
@@ -112,7 +109,7 @@ const MiniSlider = (props) => {
             slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
-            arrows:false,
+            // arrows:false,
             autoplay:true,
           },
         },
@@ -122,7 +119,7 @@ const MiniSlider = (props) => {
             slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
-            arrows:true,
+            // arrows:true,
             autoplay:true,
           },
         },
@@ -131,9 +128,9 @@ const MiniSlider = (props) => {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            speed: 300,
-            arrows:true,
-            // autoplay:true,
+            speed: 200,
+            // arrows:true,
+            autoplay:true,
             // dots: true,
           },
         },
@@ -141,11 +138,11 @@ const MiniSlider = (props) => {
   };
   return (
     <>
-     <Box sx={{display:'flex',padding:{xs:'20px',sm:'30px',md:'0px 0px 30px 200px'},justifyContent:'center',flexDirection:'column'}}>
+     {/* <Box sx={{display:'flex',padding:{xs:'20px',sm:'30px',md:'0px 0px 30px 200px'},justifyContent:'center',flexDirection:'column'}}>
        <Typography sx={{fontSize:{xs:'30px',sm:'30px',md:'30px'},fontWeight:'500',color:'black'}}>Popular Courses</Typography>
        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500',color:'black'}}>Limitless learning, more possibilities</Typography>
       
-       </Box>
+       </Box> */}
     <SliderContainer>         
        <SliderInnerContainer>
     <Slider {...settings}>

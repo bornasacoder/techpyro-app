@@ -19,25 +19,25 @@ background:'transparent',
 })
 const ImageContainer = styled("div")({
     display:"flex",
-    width:'202px',
+    width:'auto',
     // alignItems:"center",
     borderRadius:'20px',
     // justifyContent:"center",
     flexDirection:"column",
     // margin:"10px 20px",
     background:'transparent',
-    border:'1px solid rgba(0,0,0,0.2)',
+    // border:'1px solid rgba(0,0,0,0.2)',
     "@media (max-width: 480px)": {
        gap:'0px',
         width:'100%',
-        paddingLeft:'20px',
+        paddingLeft:'0px',
         border:'none'
         },
 
 })
 const Image = styled("img")({
-    width:"200px",
-    height:"200px",
+    width:"100px",
+    height:"100px",
     objectFit:"cover",
     borderRadius:'20px',
     // margin:"40px",
@@ -54,13 +54,13 @@ const Image = styled("img")({
         
         },
         "@media (max-width: 600px)": {
-            width:'120px',
-            height:'170px',
+            width:'100px',
+            height:'100px',
             
             },
             "@media (max-width: 480px)": {
-                width:'100%',
-                height:'150px',
+                width:'100px',
+                height:'100px',
                
               
                 
@@ -90,7 +90,7 @@ const Head = styled("h6")({
     <SliderContainer>
      <ImageContainer>
          <Image src={posterLinks.image} />
-         <Box>
+         {/* <Box>
          <Button variant='contained' sx={{borderRadius:'20px'}}>+Add</Button>
          </Box>
          
@@ -101,8 +101,8 @@ const Head = styled("h6")({
          </Box>
          <Box sx={{width:{xs:'120px',sm:'200px',md:'180px'}}}>
           <Head style={{fontSize:'12px'}}>{posterLinks.tagline}</Head>
-          </Box>
-          <Typography><Star /><Star /><Star /><StarHalf /></Typography>
+          </Box> */}
+          
      </ImageContainer>
     </SliderContainer>
     </>
