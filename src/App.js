@@ -2,6 +2,7 @@
 import Home from "./pages/home/Home";
 import Category from "./pages/category/category/Category";
 import Products from "./pages/category/products/Products";
+import Product from "./pages/category/product/Product";
 import {
   BrowserRouter as Router,
   Routes,
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/websites" element={<Category/>} />
         <Route exact path="/products" element={<Products/>} />
+        <Route exact path="/product" element={<Product/>} />
         <Route exact path="/cart" element={<Cart/>} />
         <Route exact path="/checkout" element={<CheckOut/>} />
         <Route exact path="/orders" element={<Orders/>} />
