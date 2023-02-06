@@ -25,19 +25,19 @@ import {
     
   } from "@mui/material";
 
-import { AccountCircle, ArrowDropDownCircle, AutoStories, Bungalow, Call, EastOutlined, FavoriteBorder, GridView, Help, Home, HomeOutlined, LocalCarWashOutlined, LocationCityRounded, LocationCitySharp, LocationOn, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  Search,  SearchOffOutlined,  ShoppingBag, ShoppingCart, Window} from '@mui/icons-material';
+import { AccountCircle, ArrowDropDownCircle, AutoStories, Bungalow, Call, EastOutlined, Facebook, FavoriteBorder, GridView, Help, Home, HomeOutlined, Instagram, LinkedIn, LocalCarWashOutlined, LocationCityRounded, LocationCitySharp, LocationOn, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  Search,  SearchOffOutlined,  ShoppingBag, ShoppingCart, Twitter, Window} from '@mui/icons-material';
 
 import MenuButtons from 'components/menuButtons/MenuButtons';
 
 
 const StyleToolbar = styled(Toolbar)(({theme}) => ({
-  height:'100px',
+  height:'100%',
   width:'100%',
     display: 'flex',
-    justifyContent:'space-evenly',
+    justifyContent:'space-between',
     alignItems: 'center',
     gap:'30px',
-    // backgroundColor:'#7F3486',
+    // backgroundColor:'#FFFFFF',
     // position: 'sticky',
     [theme.breakpoints.down('md')]: {
         height: 'auto',
@@ -81,8 +81,8 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         [theme.breakpoints.down('sm')]: {
           margin:'0px',
             width:'auto',
-            justifyContent: 'space-between',
-            gap:'80px',
+            
+            gap:'0px',
         },
         
         
@@ -102,7 +102,7 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
             [theme.breakpoints.down('sm')]: {
                paddingRight:'0px',
                margin:'0px',
-               display:'none',
+              
               // marginRight:'50px',
                 // display:'none'
             },
@@ -178,16 +178,17 @@ display:'none',
   }
 ));
 const Ram = styled(Box)(({ theme }) => ({
-  height:'540px',
+  height:'600px',
   width:'40%',
 
-    backgroundImage: `url(${"/images/category/teach1.png"})`,
-   backgroundSize:'cover',
+  backgroundImage: `url(${"/images/category/kid1.webp"})`,
+  backgroundSize:'cover',
   margin:'0px',
   [theme.breakpoints.down('sm')]: {
   //  display:'none'
-  width:'100%',
+  width:'auto',
   height:'300px',
+  marginLeft:'50px'
  },
       
   }
@@ -210,20 +211,20 @@ const Downnav = styled(Box)(({ theme }) => ({
 ));
 
 const NavBar = styled(AppBar)(({theme}) =>({
-    backgroundColor:'#FFFFFF',
-   
+    
+  backgroundColor:'#B2B2B2',
     width:'100%',
-    height:'640px',
+    height:'750px',
     margin:"0",
     padding:'0',
     position:'static',
 
 
 [theme.breakpoints.down('sm')]: {
-  height:'600px',
+  height:'auto',
   width:'100%',
   
-  backgroundColor:'white',
+ 
 },
 
 }));
@@ -248,40 +249,44 @@ export default function Navbar() {
     
       <NavBar >
     
-       <Box sx={{height:{xs:'50px',sm:'80px',md:'90px'},display:'flex',justifyContent:'center',alignItems:'center'}}>
+       <Box sx={{height:{xs:'50px',sm:'80px',md:'80px'},display:'flex',justifyContent:'center',alignItems:'center',backgroundColor:'#FFFFFF',margin:{xs:'15px',sm:'15px',md:'80px 200px 0px 200px'},borderRadius:'50px',zIndex:'50'}}>
         <StyleToolbar>
         
         <NavLeft >
        
        
         
-          <Box sx={{display:{xs:'flex',sm:'flex',md:'flex'},alignItems:'center',gap:'5px'}}>
+          {/* <Box sx={{display:{xs:'flex',sm:'flex',md:'flex'},alignItems:'center',gap:'5px'}}>
             <AutoStories sx={{color:'#1DA1F2',fontSize:{xs:'30px',sm:'20px',md:'40px'}}}/>
           <Typography sx={{fontSize:{xs:'30px',sm:'20px',md:'40px'},fontWeight:'700',color:'#1F3965'}}>Teachmint</Typography>
-          </Box>
+          </Box> */}
 
 <Box sx={{display:'flex',gap:'30px'}}>
           <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        
-          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'400',color:'black'}}>Solutions</Typography>
-          <ArrowDropDownCircle sx={{color:'#1DA1F2'}}/>
-          </Box>
-
-          <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
-          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'400',color:'black'}}>Features</Typography>
-          </Box>
-
-          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        
-          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'400',color:'black'}}>Plans</Typography>
-          
-          </Box>
-
-          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        
-          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'400',color:'black'}}>About Us</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'18px'},fontWeight:'400',color:'#DC3545'}}>Home</Typography>
           
           </Box>
 
           <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
-          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'400',color:'black'}}>Careers</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'18px'},fontWeight:'400',color:'black'}}>About</Typography>
+          </Box>
+
+          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'18px'},fontWeight:'400',color:'black'}}>Packages</Typography>
+          
+          </Box>
+
+          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'18px'},fontWeight:'400',color:'black'}}>Gallery</Typography>
+          
+          </Box>
+
+          <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'18px'},fontWeight:'400',color:'black'}}>Pricing</Typography>
+          </Box>
+
+          <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'18px'},fontWeight:'400',color:'black'}}>Contact</Typography>
           </Box>
           </Box>
          
@@ -306,22 +311,15 @@ export default function Navbar() {
           
             <NavRight > 
             
-
-            
-        <Box sx={{display:{xs:'flex',sm:'flex',md:'flex'},gap:{xs:'10px',sm:'15px',md:'20px'},alignItems:'center'}}>
-
-        <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>  
-        <Call sx={{color:'#1DA1F2',fontSize:'40px',backgroundColor:'#DDF1FD',borderRadius:'10px'}}/>      
-          <Typography sx={{fontSize:{xs:'20px',sm:'15px',md:'20px'},fontWeight:'500',color:'black'}}>+91-9876543210</Typography>
+            <Box sx={{fontSize:{xs:'12px',sm:'20px',md:'30px'},}}>
+        <LinkedIn sx={{fontSize: {xs:'25px',sm:'30px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'orange'}} />
+          <Instagram sx={{fontSize: {xs:'25px',sm:'30px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'blue'}} />
+          <Facebook sx={{fontSize: {xs:'25px',sm:'30px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'green'}}/>
+          <Twitter sx={{fontSize: {xs:'25px',sm:'30px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'pink'}}/>
          
-          </Box>
-       
-        <Button variant='outlined' sx={{color:'#1DA1F2',border:'1px solid #1DA1F2',height:{xs:'30px',sm:'15px',md:'40px'}}}>Login</Button>
-       
-        <Button variant='contained' sx={{marginTop:'0px',backgroundColor:'#1DA1F2',}}>Get Started</Button>
-           
-           
-           </Box>
+        </Box>
+            
+        
 
         
             </NavRight>
@@ -331,13 +329,13 @@ export default function Navbar() {
         <Box sx={{display:'flex',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
         
 
-        <Box sx={{width:{xs:'auto',sm:'100%',md:'600px'},display:'flex',paddingBottom:{xs:'0px',sm:'70px',md:'0px'},borderRadius:'20px',margin:{xs:'30px 40px 0px 40px',sm:'0px',md:'150px 0 0 200px'},flexDirection:'column',gap:'0px',textAlign:{xs:'center',sm:'center',md:'left'}}}>
-
-        <Typography sx={{fontSize:{xs:'35px',sm:'35px',md:'60px'},fontWeight:'800',color:'black'}}>Integrated</Typography>
-        <Typography sx={{fontSize:{xs:'35px',sm:'35px',md:'60px'},fontWeight:'800',color:'black'}}>School Platform</Typography>
-        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'400',color:'black'}}>Manage every need of your school on a single platform</Typography>
+        <Box sx={{width:{xs:'auto',sm:'100%',md:'600px'},display:'flex',paddingBottom:{xs:'0px',sm:'0px',md:'0px'},borderRadius:'20px',margin:{xs:'30px 10px 0px 10px',sm:'0px',md:'150px 0 0 200px'},flexDirection:'column',gap:'0px',textAlign:{xs:'center',sm:'center',md:'left'}}}>
+        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'400',color:'#DC3545',fontFamily:'cursive'}}>Welcome to Our Websites</Typography>
+        <Typography sx={{fontSize:{xs:'35px',sm:'35px',md:'50px'},fontWeight:'700',color:'white'}}>Bring Fun Life to</Typography>
+        <Typography sx={{fontSize:{xs:'35px',sm:'35px',md:'50px'},fontWeight:'700',color:'white'}}> Your Kids</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'400',color:'black'}}>Amazing Playground for your kids</Typography>
 <Box>
-        <Button variant='contained' sx={{width:'120px',marginTop:'10px',backgroundColor:'#1DA1F2'}}>Get Started</Button>
+        <Button variant='contained' sx={{width:'150px',marginTop:'10px',backgroundColor:'#DC3545',borderRadius:'0px 50px 0px 50px'}}>LEARN MORE</Button>
         </Box>
           </Box>
           <Ram>
@@ -376,9 +374,7 @@ export default function Navbar() {
      
 
        
-<Box sx={{display:'flex',justifyContent:'center',alignItems:'center',margin:'100px 30px',textAlign:'center'}}>
-<Typography sx={{fontSize:{xs:'25px',sm:'25px',md:'16px'},fontWeight:'500',color:'black'}}>COMPLETE MOBILE AND WEB SOLUTIONS</Typography>
-</Box>
+
 
         
         </>

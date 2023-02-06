@@ -10,6 +10,8 @@ width:"100%",
 height:"auto",
 paddingRight:"0px",
 background:'transparent',
+display:'flex',
+justifyContent:"center",
 // zIndex:"1",
 // border:'1px solid black'
 "@media (max-width: 480px)": {
@@ -19,52 +21,43 @@ background:'transparent',
 })
 const ImageContainer = styled("div")({
     display:"flex",
-    width:'auto',
+    width:'100%',
     // alignItems:"center",
     borderRadius:'20px',
-    // justifyContent:"center",
+    justifyContent:"center",
     flexDirection:"column",
     // margin:"10px 20px",
     background:'transparent',
     // border:'1px solid rgba(0,0,0,0.2)',
     "@media (max-width: 480px)": {
        gap:'0px',
-        width:'100%',
+        width:'auto',
         paddingLeft:'0px',
         border:'none'
         },
 
 })
 const Image = styled("img")({
-    width:"100px",
-    height:"100px",
+    width:"700px",
+    height:"300px",
     objectFit:"cover",
-    borderRadius:'20px',
+    borderRadius:'0px',
     // margin:"40px",
     zIndex:"1",
     // border:'1px solid black',
-    "@media (max-width: 960px)": {
-       width:'200px',
-       height:'230px',
-       
-       },
-       "@media (max-width: 770px)": {
-        width:'160px',
-        height:'200px',
+   
+       "@media (max-width: 900px)": {
+        width:'auto',
+        height:'400px',
         
         },
         "@media (max-width: 600px)": {
-            width:'100px',
-            height:'100px',
-            
+            width:'330px',
+            height:'300px',
+            margin:'10px',
+            borderRadius:'10px',
             },
-            "@media (max-width: 480px)": {
-                width:'100px',
-                height:'100px',
-               
-              
-                
-                },
+           
 })
 const Head = styled("h6")({
     // fontSize: "10px",

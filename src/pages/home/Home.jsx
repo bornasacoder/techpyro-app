@@ -30,7 +30,12 @@ const Home = () => {
     <div>
     
          <Navbar /> 
-         <Sliders sliderData={fastfood}/>
+         <Block8 />
+         <Block1 />
+         <Block2 />
+         <Block10 />
+         <Footer /> 
+         {/* <Sliders sliderData={fastfood}/>
          <Block8 />
          <Box sx={{display:'flex',gap:'100px',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
          <Block10 />
@@ -47,7 +52,7 @@ const Home = () => {
          <Block2 />
          <Block3 />
          <Block1 />
-         <Footer /> 
+          */}
          
         
        

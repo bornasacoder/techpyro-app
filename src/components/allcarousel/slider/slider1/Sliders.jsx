@@ -12,9 +12,11 @@ import SliderEtem from './sliderItem/SliderEtem';
 const SliderContainer = styled('div')({
 width:"100%",
 height:"auto",
-padding:'100px 0px',
+padding:'50px 0px',
 overflow:"hidden",
-backgroundColor:'#FFFFFF',
+backgroundColor:'#F6F5F5',
+display:'flex',
+justifyContent:"center",
 // border:'1px solid black',
 // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
 "@media (max-width: 1490px)": {
@@ -32,10 +34,11 @@ backgroundColor:'#FFFFFF',
 })
 const SliderInnerContainer = styled('div')({
   display: "flex",
-  
+  width:"700px",
+  height:"300px",
   justifyContent:"center",
   // margin:'0px 100px',
-  backgroundColor:'#FFFFFF',
+  backgroundColor:'#F6F5F5',
   flexDirection:"column", 
   // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
  paddingLeft:'0px',
@@ -71,14 +74,14 @@ const NextBtn = (props) =>{
 const Sliders = (props) => {
   
   const settings = {
-    dots: false,
+    dots: true,
     arrows:false,
     infinite: true,
-    speed: 500,
-    slidesToShow: 6,
+   
+    slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay:true,
-    speed: 2000,
+    autoplay:false,
+    // speed: 2000,
     autoplaySpeed: 2000,
     cssEase: "linear",
     initialSlide:0,
@@ -88,7 +91,7 @@ const Sliders = (props) => {
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 6,
+            slidesToShow: 1,
             slidesToScroll: 1,
             speed: 300,
             arrows:true,
@@ -97,7 +100,7 @@ const Sliders = (props) => {
          {
           breakpoint: 960,
           settings: {
-            slidesToShow: 5,
+            slidesToShow: 1,
             slidesToScroll: 1,
           
           },
@@ -105,7 +108,7 @@ const Sliders = (props) => {
         {
           breakpoint: 770,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 1,
             slidesToScroll: 1,
            
           },
@@ -113,7 +116,7 @@ const Sliders = (props) => {
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 1,
            
           },
@@ -121,7 +124,7 @@ const Sliders = (props) => {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 1,
             slidesToScroll: 1,
             
           },
@@ -130,36 +133,7 @@ const Sliders = (props) => {
   };
   return (
     <>
-      <Box sx={{width:'100%',height:{xs:'auto',sm:'auto',md:'200px'}, display:'flex',justifyContent:'center',alignItems:'center',flexDirection:{xs:'column',sm:'column',md:'row'},gap:{xs:'20px',sm:'20px',md:'0px'},backgroundColor:'#FFFFFF',}}>
-        <Box sx={{display:'flex'}}>
-          <Box sx={{display:'flex',color:'black',flexDirection:'column',justifyContent:'center',alignItems:'center',width:{xs:'130px',sm:'200px',md:'300px'},borderRight:{xs:'1px solid',sm:'1px solid',md:'1px solid'},gap:{xs:'10px',sm:'10px',md:'10px'}}}>
-            
-            <Typography sx={{fontSize:{xs:'25px',sm:'30px',md:'30px'},fontWeight:'700'}}>10,000+</Typography>
-            <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'25px'},fontWeight:'500'}}>Schools</Typography>
-          </Box>
-
-          <Box sx={{display:'flex',color:'black',flexDirection:'column',justifyContent:'center',alignItems:'center',width:{xs:'130px',sm:'200px',md:'300px'},borderRight:{xs:'none',sm:'none',md:'1px solid'},gap:{xs:'10px',sm:'10px',md:'10px'},textAlign:'center'}}>
-            
-            <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'30px'},fontWeight:'700'}}>1 Crore +</Typography>
-            <Typography sx={{fontSize:{xs:'15px',sm:'25px',md:'25px'},fontWeight:'500'}}>Teachers And Students</Typography>
-          </Box>
-          </Box>
-
-          <Box sx={{display:'flex',}}>
-          <Box sx={{display:'flex',color:'black',flexDirection:'column',justifyContent:'center',alignItems:'center',width:{xs:'130px',sm:'200px',md:'300px'},borderRight:'1px solid ',gap:{xs:'10px',sm:'10px',md:'10px'}}}>
-            
-            <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'30px'},fontWeight:'700'}}>30+</Typography>
-            <Typography sx={{fontSize:{xs:'15px',sm:'25px',md:'25px'},fontWeight:'500'}}>Countries </Typography>
-          </Box>
-
-          <Box sx={{display:'flex',color:'black',flexDirection:'column',justifyContent:'center',alignItems:'center',width:{xs:'130px',sm:'200px',md:'300px'},gap:{xs:'10px',sm:'10px',md:'0px'},textAlign:'center'}}>
-            
-            <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'30px'},fontWeight:'700'}}>96% +</Typography>
-            <Typography sx={{fontSize:{xs:'15px',sm:'25px',md:'25px'},fontWeight:'500'}}>Customer  Satifaction Score</Typography>
-          </Box>
-          </Box>
-           </Box>
-    <SliderContainer>         
+ <SliderContainer>         
        <SliderInnerContainer>
     <Slider {...settings}>
      { props.sliderData.map ((item)=>(
@@ -168,6 +142,38 @@ const Sliders = (props) => {
     </Slider>
       </SliderInnerContainer>  
     </SliderContainer>
+
+
+      <Box sx={{width:'100%',height:{xs:'auto',sm:'auto',md:'200px'}, display:'flex',justifyContent:'center',alignItems:'center',flexDirection:{xs:'column',sm:'column',md:'row'},gap:{xs:'20px',sm:'20px',md:'0px'},backgroundColor:'#F6F5F5',paddingBottom:'50px'}}>
+        <Box sx={{display:'flex'}}>
+          <Box sx={{display:'flex',color:'black',flexDirection:'column',justifyContent:'center',alignItems:'center',width:{xs:'130px',sm:'200px',md:'200px'},gap:{xs:'10px',sm:'10px',md:'10px'}}}>
+            
+            <Typography sx={{fontSize:{xs:'25px',sm:'30px',md:'25px'},fontWeight:'600',color:'blue'}}>3456</Typography>
+            <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'400'}}>Happy Clients</Typography>
+          </Box>
+
+          <Box sx={{display:'flex',color:'black',flexDirection:'column',justifyContent:'center',alignItems:'center',width:{xs:'130px',sm:'200px',md:'200px'},borderRight:{xs:'none',sm:'none',md:'none'},gap:{xs:'10px',sm:'10px',md:'10px'},textAlign:'center'}}>
+            
+            <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'25px'},fontWeight:'600',color:'green'}}>7564</Typography>
+            <Typography sx={{fontSize:{xs:'15px',sm:'25px',md:'20px'},fontWeight:'400'}}>Members</Typography>
+          </Box>
+          </Box>
+
+          <Box sx={{display:'flex',}}>
+          <Box sx={{display:'flex',color:'black',flexDirection:'column',justifyContent:'center',alignItems:'center',width:{xs:'130px',sm:'200px',md:'200px'},borderRight:'none',gap:{xs:'10px',sm:'10px',md:'10px'}}}>
+            
+            <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'25px'},fontWeight:'600',color:'orange'}}>50+</Typography>
+            <Typography sx={{fontSize:{xs:'15px',sm:'25px',md:'20px'},fontWeight:'400'}}>Staffs</Typography>
+          </Box>
+
+          <Box sx={{display:'flex',color:'black',flexDirection:'column',justifyContent:'center',alignItems:'center',width:{xs:'130px',sm:'200px',md:'200px'},gap:{xs:'10px',sm:'10px',md:'0px'},textAlign:'center'}}>
+            
+            <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'25px'},fontWeight:'600',color:'red'}}>20k</Typography>
+            <Typography sx={{fontSize:{xs:'15px',sm:'25px',md:'20px'},fontWeight:'400'}}> Our Followers</Typography>
+          </Box>
+          </Box>
+           </Box>
+   
 
       
     </>

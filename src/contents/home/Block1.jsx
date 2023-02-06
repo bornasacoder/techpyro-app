@@ -14,9 +14,9 @@ export default function Block1() {
   flexDirection:'row',
   width:'70%',
   height:'450px',
-  borderRadius:'10px',
+  borderRadius:'0px',
   gap:'30px',
-backgroundColor:'#EAF7FF',
+backgroundColor:'#F6F5F5',
 // boxShadow:'none',
  
   [theme.breakpoints.down('md')]: {
@@ -52,61 +52,32 @@ padding:'50px 0px'
 
        
        
-    <Box  data-aos-duration="3000" sx={{display:'flex',justifyContent:'center',flexDirection:{xs:'column',sm:'column',md:'row'},paddingTop:{xs:'0px',sm:'0px',md:'80px'},margin:{xs:'0px',sm:'0px 50px',md:'0px 0px'},gap:'20px'}}>
+    <Box  data-aos-duration="3000" sx={{display:'flex',justifyContent:'center',flexDirection:{xs:'column',sm:'column',md:'row'},margin:{xs:'0px',sm:'0px 50px',md:'80px 0px'},gap:'20px'}}>
 
       
  
    
       <CardBox >
-      <Box sx={{height:{xs:'20%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'80%'},display:'flex',justifyContent:'center',gap:'10px',padding:'0px'}}>
-   <Box sx={{display:'flex',flexDirection:'column',margin:'30px',gap:'30px'}}>
-          
-          <Typography sx={{fontSize:{xs:'30px',sm:'30px',md:'30px'},fontWeight:'700'}}>Digitize your school in minutes
-with Teachmint’s integrated platform</Typography>
-          <Box sx={{display:'flex',gap:'30px',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
-            <Box>
-               <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'}}}>Your name</Typography>
-<TextField variant='outlined' label='Enter Your name' sx={{background:'#FFFFFF',borderRadius:'10px',width:{xs:'320px',sm:'320px',md:'280px'}}}></TextField>
-            </Box>
-            <Box>
-<Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'}}}>Your School name</Typography>
-<TextField variant='outlined' label='eg. D A V' sx={{background:'#FFFFFF',borderRadius:'10px',width:{xs:'320px',sm:'320px',md:'280px'}}}></TextField>
-            </Box>
-          </Box>
-
-          <Box sx={{display:'flex',gap:'30px',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
-            <Box>
-               <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'}}}>Your Phone Number</Typography>
-<TextField variant='outlined' label='Your Number' sx={{background:'#FFFFFF',borderRadius:'10px',width:{xs:'320px',sm:'320px',md:'280px'}}}></TextField>
-            </Box>
-            <Box>
-<Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'}}}>Your role in the School </Typography>
-<Box sx={{width:{xs:'320px',sm:'320px',md:'280px'} }}>
-      <FormControl fullWidth>
-        <InputLabel id="demo-simple-select-label">Select Role</InputLabel>
-        <Select
-          labelId="demo-simple-select-label"
-          id="demo-simple-select"
-          label="Year"
-        sx={{borderRadius:'10px',background:'#FFFFFF'}}
-        >
-        </Select>
-      </FormControl>
-    </Box>
-            </Box>
-          </Box>
-          <Button variant='contained' sx={{width:'200px',marginTop:'10px',backgroundColor:'#1DA1F2',fontSize:'20px'}}>Get Started</Button>
-        </Box>
-       
-       </Box>
-        <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'50%'},display:{xs:'none',sm:'none',md:'block'}}}>
+      <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'50%'},display:{xs:'block',sm:'block',md:'block'}}}>
         <CardMedia
-        sx={{height:'100%',width:'80%'}}
+        sx={{height:'100%',width:'100%'}}
           component="img"
-          image="/images/category/teach12.webp"
+          image="/images/category/kid2.webp"
           alt="green iguana"
         />
        </Box>
+      <Box sx={{height:{xs:'20%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'50%'},display:'flex',justifyContent:'center',gap:'10px',padding:'0px'}}>
+   <Box sx={{display:'flex',flexDirection:'column',margin:{xs:'10px',sm:'20px',md:'30px'},gap:'10px'}}>
+          <Typography sx={{color:'red',fontFamily:'cursive'}}>About Us</Typography>
+          <Typography sx={{fontSize:{xs:'30px',sm:'30px',md:'30px'},fontWeight:'600'}}>Bring Fun Life To Your Kids</Typography>
+         
+<Typography sx={{fontSize:'20px'}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et harum, magni sequi nostrum maxime enim.Magnam id atque dicta deleniti, ipsam ipsum distinctio. Facilis praesentium voluptatem accusamus, earum veritatis, laudantium.</Typography>
+         
+          <Button variant='contained' sx={{width:'200px',marginTop:'10px',backgroundColor:'#FFC107',fontSize:'15px',color:'black',borderRadius:'0px 50px 0px 50px'}}>MORE ABOUT US</Button>
+        </Box>
+       
+       </Box>
+       
    
     
 
