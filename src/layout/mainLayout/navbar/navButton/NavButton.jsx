@@ -13,6 +13,7 @@ import {
 import React from "react";
 
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { Link } from "react-router-dom";
 
 const CustomButton = styled(Box)`
   // width: 19%;
@@ -82,9 +83,9 @@ const theme = useTheme();
                position:'realative',
                 "&:hover .MuiBox-root": { display:{md:'flex'}},
                 "& Button:hover": { backgroundColor: {md: `${theme.header.textColor}`}}}}>
-        <LoginButton sx={{fontSize:{xs:'17px',md:'14px'}, letterSpacing:'0.8px', fontWeight:{xs:500,md:700}}}>
+        <Link to={'/login'} style={{textDecoration:'none'}}><LoginButton sx={{fontSize:{xs:'17px',md:'14px'}, letterSpacing:'0.8px', fontWeight:{xs:500,md:700}}}>
           Login
-        </LoginButton>
+        </LoginButton></Link>
         <Box
           sx={{
             display: 'none',

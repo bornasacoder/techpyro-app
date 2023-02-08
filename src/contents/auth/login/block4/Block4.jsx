@@ -10,7 +10,7 @@ const schema = Yup.object({
   password: Yup.string().min(6).required("Please enter your password"),
 })
 
-export default function Block4({toggleAccountInitial,setToggleAccount}) {
+export default function Block4({toggleAccountInitial,setToggleAccount,toggleAccount,previousPage,setPreviousPage}) {
 
   const theme = useTheme();
 
@@ -35,12 +35,15 @@ export default function Block4({toggleAccountInitial,setToggleAccount}) {
     },
   });
 
+  
+
   const lengthCheck = (e)=>{
     setLength(e.target.value.length);
     console.log(length);
   }
 
   const handleEmail = (e)=>{
+    setPreviousPage([...previousPage, toggleAccount]);
     setToggleAccount(toggleAccountInitial.email);
   }
 
@@ -51,11 +54,11 @@ export default function Block4({toggleAccountInitial,setToggleAccount}) {
           <label style={{fontSize:'18px',}} htmlFor="number" className="input-label">
                       Email
             </label>
-          <Box sx={{width:'310px',display:'flex',gap:'5px',fontSize:'18px',alignItems:'center',borderBottom:`1px solid ${theme.colors.alpha.black[30]}`,height:'40px'}}>
+          <Box sx={{width:'100%',display:'flex',gap:'5px',fontSize:'18px',alignItems:'center',borderBottom:`1px solid ${theme.colors.alpha.black[30]}`,height:'40px'}}>
             <div style={{display:'input-block',}}>
                     
             <TextField required sx={{"& fieldset": { border: 'none' }, '& .MuiInputBase-input': {
-              paddingLeft: "5px",fontSize:'18px',letterSpacing:'1px',width:'270px',
+              paddingLeft: "5px",fontSize:'18px',letterSpacing:'1px',width:'335px',
                }}} type="email"
                autoComplete="off"
                name="email"
@@ -88,14 +91,14 @@ export default function Block4({toggleAccountInitial,setToggleAccount}) {
                       <p style={{color:`${theme.colors.warning.main}`}} className="form-error">{errors.password}</p>
                     ) : null}
             <Button sx={{marginTop:'5px',width:'100%'}} variant='contained'  onSubmit={handleSubmit}>Continue</Button>
-            <Link to={'#'} style={{textDecoration:'none',right:0}}>Forget password?</Link>
+            <Link to={'#'} style={{textDecoration:'none',marginLeft:'240px',fontSize:'14px'}}>Forget password?</Link>
 
           {touched.email && errors.email ? (
                       <p style={{color:`${theme.colors.warning.main}`}} className="form-error">{errors.email}</p>
                     ) : null}
           </Box>
             </form>
-          <Button type='text' onClick={handleEmail} sx={{width:'100%',margin:'10px 0',fontSize:'15px',color:`${theme.colors.success.dark}`,cursor:{md:'pointer',xs:'none'},boxShadow:'0 2px 4px 0 rgb(0 0 0/ 20%)',borderRadius:'4px'}}>Login Email and OTP</Button>
+          <Button type='text' onClick={handleEmail} sx={{width:'100%',margin:'10px 0',fontSize:'15px',color:`${theme.colors.alpha.white[100]}`,"&:hover":{color:`${theme.colors.success.dark}`},background:'#FFA500',cursor:{md:'pointer',xs:'none'},boxShadow:'0 2px 4px 0 rgb(0 0 0/ 20%)',borderRadius:'4px'}}>Login Email and OTP</Button>
     </div>
   )
 }

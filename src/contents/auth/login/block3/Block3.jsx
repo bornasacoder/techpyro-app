@@ -8,7 +8,7 @@ const schema = Yup.object({
   email: Yup.string().email().required("Please enter your email")
 })
 
-export default function Block3({toggleAccountInitial,setToggleAccount}) {
+export default function Block3({toggleAccountInitial,setToggleAccount,toggleAccount,previousPage,setPreviousPage}) {
   const theme = useTheme()
 
   const initialValues = {
@@ -29,7 +29,13 @@ export default function Block3({toggleAccountInitial,setToggleAccount}) {
     },
   });
 
+  const handleOtpPage = () => {
+    setPreviousPage([...previousPage, toggleAccount]);
+    setToggleAccount(toggleAccountInitial.otp);
+  };
   const handleEmailAndPass = ()=>{
+    setPreviousPage([...previousPage,toggleAccount]);
+    console.log(previousPage);
     setToggleAccount(toggleAccountInitial.emailAndPass);
   }
 
@@ -41,11 +47,11 @@ export default function Block3({toggleAccountInitial,setToggleAccount}) {
           <label style={{fontSize:'18px',}} htmlFor="number" className="input-label">
                       Email
             </label>
-          <Box sx={{width:'310px',display:'flex',gap:'5px',fontSize:'18px',alignItems:'center',borderBottom:`1px solid ${theme.colors.alpha.black[30]}`,height:'40px'}}>
+          <Box sx={{width:'100%',display:'flex',gap:'5px',fontSize:'18px',alignItems:'center',borderBottom:`1px solid ${theme.colors.alpha.black[30]}`,height:'40px'}}>
             <div style={{display:'input-block',}}>
                     
             <TextField required sx={{"& fieldset": { border: 'none' }, '& .MuiInputBase-input': {
-              paddingLeft: "5px",fontSize:'18px',letterSpacing:'0.4px',width:'270px',
+              paddingLeft: "5px",fontSize:'18px',letterSpacing:'0.4px',width:'335px',
                }}} type="email"
                autoComplete="off"
                name="email"
@@ -62,9 +68,9 @@ export default function Block3({toggleAccountInitial,setToggleAccount}) {
                     ) : null}
           </Box>
           </form>
-          <Button sx={{marginTop:'15px',margin:'15px 0',width:'100%',":disabled":{background:`${theme.colors.alpha.black[10]}`},boxShadow:'0 2px 4px 0 rgb(0 0 0/ 15%)'}} variant='contained' type='submit' disabled={`${ errors.email }`==='true'?true:false} >Continue</Button>
+          <Button sx={{marginTop:'20px',width:'100%',":disabled":{background:`${theme.colors.alpha.black[10]}`},boxShadow:'0 2px 4px 0 rgb(0 0 0/ 15%)'}} variant='contained' type='submit' disabled={`${ errors.email }`==='true'?true:false} onClick={handleOtpPage} >Continue</Button>
           </Box>
-          <Button type='text' onClick={handleEmailAndPass} sx={{width:'100%',margin:'10px 0',fontSize:'15px',color:`${theme.colors.success.dark}`,cursor:{md:'pointer',xs:'none'},boxShadow:'0 2px 4px 0 rgb(0 0 0/ 20%)',borderRadius:'4px'}}>Login Email and Password</Button>
+          <Button type='text' onClick={handleEmailAndPass} sx={{width:'100%',margin:'50px 0 20px 0',fontSize:'15px',color:`${theme.colors.alpha.white[100]}`,"&:hover":{color:`${theme.colors.success.dark}`},background:'#FFA500',cursor:{md:'pointer',xs:'none'},boxShadow:'0 2px 4px 0 rgb(0 0 0/ 20%)',borderRadius:'4px'}}>Login Email and Password</Button>
     </>
   )
 }
