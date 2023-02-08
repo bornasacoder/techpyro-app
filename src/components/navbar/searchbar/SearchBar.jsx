@@ -1,4 +1,4 @@
-import { Mail, Send } from "@mui/icons-material";
+import { Mail, Padding, SearchOutlined, Send } from "@mui/icons-material";
 import {
   styled,
   TextField,
@@ -18,18 +18,19 @@ import {
 import React, { useRef, useState } from "react";
 import "./searchbar.css";
 const Search = styled("div")(({ theme }) => ({
-  borderRadius: "10px",
-  width: "40vw",
-  height: "40px",
+  borderRadius: "5px",
+  width: "15vw",
+  height: "35px",
   backgroundColor: "#FFFFFF",
   display: "flex",
-  justifyContent: "space-between",
+  border:"1px solid #000",
+  // justifyContent: "space-between",
   alignItems: "center",
   [theme.breakpoints.down("md")]: {
-    width:"60vw"
+    display:"none"
   },
   [theme.breakpoints.down("sm")]: {
-    width:"90vw"
+   display:"none"
   },
 }));
 const StyledInputBase = styled(InputBase)(({ theme }) => ({
@@ -50,35 +51,21 @@ export default function SearchBar() {
 
   return (
     <Search>
-      <Box sx={{ width: "50%", paddingLeft: "20px" }}>
-        <StyledInputBase placeholder="Enter Your E-mail "  ></StyledInputBase> 
-      </Box>
-      <Box sx={{display:"flex",justifyContent:"center",rotate:"-45deg"}}>
-        <Mail/>
+      <Box sx={{ marginLeft:"10px" }}>
+        <StyledInputBase placeholder="What do you want"></StyledInputBase> 
       </Box>
       <Box
         sx={{
           display: "flex",
           alignItems: "center",
           height: "100%",
-          width: "30%",
-          justifyContent: "center",
+          justifyContent: "flex-end",
+          bgcolor:"#0056D2",
+          padding:"0px 8px",
+          color:"#fff"
         }}
       >
-        <Typography
-          variant="h4"
-          sx={{
-            display: "flex",
-            width: "100%",
-            height: "100%",
-            justifyContent: "center",
-            alignItems: "center",
-            backgroundColor: "#FEBC1E",
-            borderRadius:" 0px 10px 10px 0px"
-          }}
-        >
-          SUBSCRIBE
-        </Typography>
+          <SearchOutlined />
       </Box>
     </Search>
   );

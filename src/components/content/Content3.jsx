@@ -2,283 +2,50 @@ import { Button, Grid, Paper, Typography } from "@mui/material";
 import { Box, styled } from "@mui/system";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
-  // bgcolor: "#FFFFFF!important",
   padding: "68px 42px ",
-  // display: "flex",
-  // justifyContent:"space-between",
   gap: 2,
+  [theme.breakpoints.down("md")]:{
+padding:"68px 20px"
+  },
+  [theme.breakpoints.down("sm")]:{
+padding:"68px 10px"
+  }
 }));
-const Item = styled(Paper)(({ theme }) => ({
-  borderRadius: "0px!important",
-  boxShadow: "none!important",
-  backgroundColor:"#F4F4F4!important",
-  textAlign: "center",
-  padding: "20px 0px!important",
-  fontSize: "18px",
-  display: "flex",
-  flexDirection: "column",
-  alignItems: "center",
-  // "&:hover": {
-  //   opacity: "0.3",
-  // },
-  //   [theme.breakpoints.down("sm")]: {
-  //     width: "150px",
-  //   },
-}));
+const Span = styled("span")(({theme})=>({
+  color:"#0056D2",
+  "&:hover":{
+    textDecoration:"underline"
+   }
+}))
 export default function Content3() {
   return (
     <StyleToolbar>
-      <Box
-        display="flex"
-        justifyContent="center"
-        sx={{ padding: "36px 0px 28px" }}
-      >
         <Typography
-          variant="h1"
-          sx={{
-            margin: "0px 0px 26px",
-            letterSpacing: "12px",
-            textAlign: "center",
-            fontSize: { md: "48px", sm: "35px", xs: "30px" },
-            fontWeight: "600",
-            width: { md: "60%", sm: "80%", xs: "100%" },
-          }}
+        sx={{fontSize:'30px',textAlign:"center"}}
         >
-          ONEPAGE DEMO
+         We collaborate with 
+         <Span  > 275+ leading universities and companies</Span>
         </Typography>
-      </Box>
-      <Box
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          //   alignItems: "center",
-          textAlign: "center",
-          bgcolor: "#F4F4F4!important",
-        }}
-      >
-        <Grid
-          container
-          rowSpacing={2}
-          sx={{
-            bgcolor: "#F4F4F4",
-            justifyContent: "space-between",
-            display: "flex",
-            textAlign: "center",
-            width: { md: "40%", sm: "80%", xs: "100%" },
-          }}
-          columnSpacing={{ xs: 1, sm: 2, md: 3 }}
-          //   xs={{xs:12,sm:6,md:4}}
-        >
-          <Grid item xs={12} sm={12} md={12}>
-            <Item
-              sx={{
-                background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"/images/category/splitmenu-demo-screen.jpg"})
-   center/cover no-repeat`,
-                height: "300px",
-              }}
-            >
-            </Item>
-            <Item>clasic demo</Item>
-          </Grid>
-        </Grid>
-      </Box>
-      <Box
-        display="flex"
-        justifyContent="center"
-        sx={{ padding: "36px 0px 28px" }}
-      >
-        <Typography
-          variant="h1"
-          sx={{
-            margin: "0px 0px 26px",
-            letterSpacing: "12px",
-            textAlign: "center",
-            fontSize: { md: "48px", sm: "35px", xs: "30px" },
-            fontWeight: "600",
-            width: { md: "60%", sm: "80%", xs: "100%" },
-          }}
-        >
-          ONEPAGE DEMO
-        </Typography>
-      </Box>
-      <Box
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          //   alignItems: "center",
-          textAlign: "center",
-          bgcolor: "#F4F4F4!important",
-        }}
-      >
-        <Grid
-          container
-          rowSpacing={2}
-          sx={{
-            bgcolor: "#F4F4F4",
-            justifyContent: "space-between",
-            display: "flex",
-            textAlign: "center",
-            width: { md: "40%", sm: "80%", xs: "100%" },
-          }}
-          columnSpacing={{ xs: 1, sm: 2, md: 3 }}
-          //   xs={{xs:12,sm:6,md:4}}
-        >
-          <Grid item xs={12} sm={12} md={12}>
-            <Item
-              sx={{
-                background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"/images/category/onepage-demo-screen.jpg"})
-   center/cover no-repeat`,
-                height: "300px",
-              }}
-            >
-              Techpyro
-            </Item>
-            <Item>Photojounarlist demo
-                <Typography variant="span " sx={{color:"red",fontSize:"14px"}}>NEW DEMO</Typography>
-            </Item>
-          </Grid>
-        </Grid>
-      </Box>
-      <Box
-        display="flex"
-        justifyContent="center"
-        alignItems="center"
-        flexDirection="column"
-        sx={{ padding: "36px 0px 28px" }}
-      >
-        <Typography
-          variant="h1"
-          sx={{
-            margin: "0px 0px 26px",
-            letterSpacing: "12px",
-            textAlign: "center",
-            fontSize: { md: "48px", sm: "35px", xs: "30px" },
-            fontWeight: "600",
-            width: { md: "60%", sm: "80%", xs: "100%" },
-          }}
-        >
-          FOOD DELIVERY
-        </Typography>
-        <Typography variant="p" sx={{ textAlign: "center",fontSize:"18px" }}>
-          Use WooCommerce to build a delivery service
-        </Typography>
-      </Box>
-     
-      <Box
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          //   alignItems: "center",
-          textAlign: "center",
-          // bgcolor: "#F4F4F4!important",
-         
-        }}
-      >
-        <Grid
-          container
-          rowSpacing={2}
-          sx={{
-            bgcolor: "#F4F4F4",
-            justifyContent: "space-between",
-            display: "flex",
-            textAlign: "center",
-            width: { md: "30%", sm: "80%", xs: "100%" },
-          }}
-          columnSpacing={{ xs: 1, sm: 2, md: 3 }}
-          //   xs={{xs:12,sm:6,md:4}}
-        >
-          <Grid item xs={12} sm={12} md={12}>
-            <Item
-              sx={{
-                background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"/images/category/woocommerce.jpg"})
-   center/cover no-repeat`,
-                height: "30px",
-              }}
-            >
-            </Item>
-            <Item >WooCommerance Powered
-                <Typography variant="p " sx={{fontSize:"14px", textAlign: "center",}}>Easily setup a delivery service using WooCommerce</Typography>
-            </Item>
-          </Grid>
-        </Grid>
-      </Box>
-      <Box
-        display="flex"
-        justifyContent="center"
-        alignItems="center"
-        flexDirection="column"
-        sx={{ padding: "36px 0px 28px" }}
-      >
-        <Typography
-          variant="h1"
-          sx={{
-            margin: "0px 0px 26px",
-            letterSpacing: "12px",
-            textAlign: "center",
-            fontSize: { md: "48px", sm: "35px", xs: "30px" },
-            fontWeight: "600",
-            // width: { md: "90%", sm: "80%", xs: "100%" },
-          }}
-        >
-          REALIABLE & SUPPORTED
-        </Typography>
-        <Typography variant="p" sx={{ alignItems: "center",fontSize:"18px" }}>
-        Our technical support forum ensures your theme will be 100% functional.
-        </Typography>
-      </Box>
-      <Box
-        display="flex"
-        justifyContent="center"
-        // textAlign='center'
-        alignItems='center'
-        
-        flexDirection="column"
-        sx={{ padding: "36px 0px 28px" }}
-      >
-        <Box display='flex'>
-        <Typography
-          variant="h1"
-          sx={{
-            margin: "0px 0px 26px",
-            letterSpacing: "12px",
-            textAlign: "center",
-            fontSize: { md: "48px", sm: "35px", xs: "30px" },
-            fontWeight: "650",
-            // width: { md: "90%", sm: "80%", xs: "100%" },
-          }}
-        >
-         GET CINNAMON RESTAURANT
-        </Typography>
-        </Box>
-        <Typography variant="p" sx={{ textAlign:'center', fontSize:"18px" ,}}>
-        Features focused on Food Service. Cinnamon Theme has everything you need to create the best restaurant website.
-        </Typography>
-        <Box display='flex' justifyContent='center'>
-        
-        <Button
-          sx={{
-            border: "3px solid #000",
-            background: "#ffffff",
-            color: "#000",
-            borderRadius: "0px",
-            width:"150px",
-            marginTop:"20px",
-              "&:hover": {
-                backgroundColor: '#000',
-                color:"#ffffff"},
-                display:{md:"block",sm:"none",xs:"none"}
-            
-          }}
-        >
-          RESERVATION
-        </Button>
-        </Box>
+      <br/>
+        <br/>
+        <br/>
+      <Box display="flex" gap={2} alignItems="center" flexWrap="wrap" padding="30px 20px">
+        <Box sx={{height:{md:"25px",sm:"25px",xs:"15px"},width:{md:"150px",sm:"150px",xs:"80px"},background: `url(${"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/77hmeEJo3ZPlURCU02fD52/aa37b7f7b52285ba350acac62d8af5c1/illinois-3.png?auto=format%2Ccompress&dpr=2&w=&h=32"})
+   center/cover no-repeat`,}}/>
+        <Box sx={{height:{md:"30px",sm:"30px",xs:"15px"},width:{md:"90px",sm:"90px",xs:"45px"},background: `url(${"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/6XkOucZz6pMLV5DPvXCgCL/1777129a58b0a62b237bd28e9956afe8/duke-3.png?auto=format%2Ccompress&dpr=2&w=&h=32"})
+   center/cover no-repeat`,}}/>
+        <Box sx={{height:{md:"30px",sm:"30px",xs:"16px"},width:{md:"95px",sm:"95px",xs:"50px"},background: `url(${"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/1c6RjBHi3Lqb9QpWxje7iA/b529f909c5230af3210ba2d47d149620/google.png?auto=format%2Ccompress&dpr=2&w=&h=37"})
+   center/cover no-repeat`,}}/>
+        <Box sx={{height:{md:"50px",sm:"50px",xs:"25px"},width:{md:"50px",sm:"50px",xs:"25px"},background: `url(${"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/60SA8pGxPXMmJf4n7umK1H/ccec31bbe2358210bf8391dcba6cd2f1/umich.png?auto=format%2Ccompress&dpr=2&w=&h=55"})
+   center/cover no-repeat`,}}/>
+        <Box sx={{height:{md:"30px",sm:"30px",xs:"15px"},width:{md:"95px",sm:"95px",xs:"50px"},background: `url(${"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/3toC4I7jbWxiedfxiyNjtT/735faeaf976a9692f425f8c3a7d125dc/1000px-IBM_logo.svg.png?auto=format%2Ccompress&dpr=2&w=&h=32"})
+   center/cover no-repeat`,}}/>
+        <Box sx={{height:{md:"40px",sm:"40px",xs:"22px"},width:{md:"155px",sm:"155px",xs:"85px"},background: `url(${"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/FHOd44z40jTFsSSao84AM/d1e357f5650a23bf2936114112d44445/imperial.png?auto=format%2Ccompress&dpr=2&w=&h=35"})
+   center/cover no-repeat`,}}/>
+        <Box sx={{height:{md:"32px",sm:"32px",xs:"17px"},width:{md:"151px",sm:"151px",xs:"80px"},background: `url(${"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/4FSFmNXuDIzTvFb7n0v4mK/704ae9e0a7981fb6415f4cb4609bbbb3/stanford.svg?auto=format%2Ccompress&dpr=2&w=&h=27"})
+   center/cover no-repeat`,}}/>
+        <Box sx={{height:{md:"35px",sm:"35px",xs:"17px"},width:{md:"115px",sm:"115px",xs:"50px"},background: `url(${"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/1ZeiauXe5bPProvfuIo7o2/55d005d42979ab585cdfa01f825b7d4f/penn.svg?auto=format%2Ccompress&dpr=2&w=&h=37"})
+   center/cover no-repeat`,}}/>
       </Box>
     </StyleToolbar>
   );

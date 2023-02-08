@@ -6,9 +6,9 @@ import { styled } from "@mui/styles";
 // import SliderItem from './sliderItem/SliderItem';
 import { ChevronLeftOutlined, ChevronRightOutlined, Forward } from "@mui/icons-material";
 // import SliderHeader from './sliderhead/SliderHeader';
-import Card3 from "../card3/Card3";
 import "./minislider.css";
 import { Box, Typography } from "@mui/material";
+import Card7 from "../card7/Card7";
 const SliderContainer = styled("div")({
   width: "100%",
   height: "auto",
@@ -19,7 +19,7 @@ const SliderInnerContainer = styled("div")(({ theme }) => ({
   display: "flex",
   justifyContent: "space-between",
   flexDirection: "column",
-  margin: "20px 0px 0px 8px",
+  margin: "10px 0px 0px 8px",
   padding: "0px 40px ",
   [theme.breakpoints.down("sm")]: {
     marginLeft: "0px",
@@ -77,7 +77,7 @@ const Sliders = (props) => {
       {
         breakpoint: 980,
         settings: {
-          slidesToShow: 2.8,
+          slidesToShow: 2.7,
           slidesToScroll: 1,
           // autoplay: true,
           speed: 300,
@@ -119,7 +119,7 @@ const Sliders = (props) => {
           slidesToShow: 1.2,
           slidesToScroll: 1,
           speed: 300,
-          arrows: true,
+          arrows: false,
         },
       },
     ],
@@ -127,32 +127,33 @@ const Sliders = (props) => {
   return (
     <>
       <SliderContainer>
-        <Box sx={{padding: {md:"30px 40px",sm:"30px 20px",xs:"30px 20px"},}}>
+        <Box sx={{padding: {md:"85px 40px 10px",sm:"85px 30px 10px",xs:"85px 20px 10px"},}}>
         <Typography
           variant="h4"
           sx={{
             color:"#382D8B",
-            fontSize:{md:"18px",sm:"16px",xs:"16px"}
+            
           }}
         >
-        Courses and Specializations
+       100% Free
         </Typography>
         <br/>
-        <Typography sx={{fontSize:"20px",color:"black"}}>Courses you can complete in a day</Typography>
+        <Typography sx={{fontSize:"20px",color:"black"}}>Start learning with free courses</Typography>
         <br/>
-        <Typography sx={{fontSize:"18px"}}>Choose from over 5,400 courses in topics like business analytics, graphic design, Python, and more.</Typography>
+        <Typography sx={{fontSize:"18px"}}>Explore free online courses from the world's top universities and companies.
+</Typography>
         </Box>
         <SliderInnerContainer>
           {/* <SliderHeader /> */}
           <Slider {...settings}>
             {props.sliderData.map((item) => (
-              <Card3 sliderData={item} />
+              <Card7 sliderData={item} />
             ))}
           </Slider>
         </SliderInnerContainer>
-        <Box sx={{display:"flex",justifyContent:"center",alignItems:"center",gap:"10px",color:"#00419E",padding:"40px 0px"}}>
+        <Box sx={{display:"flex",justifyContent:"center",alignItems:"center",gap:"10px",color:"#00419E",padding:"20px 0px 30px"}}>
           <Typography variant="h5" sx={{"&:hover":{
-            textDecoration:"underline"
+           textDecoration:"underline"
           }}}>Explore Degrees </Typography>
           <Forward sx={{fontSize:"18px"}}/>
         </Box>

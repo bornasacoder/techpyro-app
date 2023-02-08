@@ -1,0 +1,16 @@
+
+
+.css-1rexurr-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    color:darkblue !important;
+}
+.css-kqhgxw-MuiTabs-scroller{
+    position: absolute;
+   
+}
+.css-kqhgxw-MuiTabs-scroller::after{
+   box-sizing: none;
+   overflow: none;
+}
+.css-16d213k{
+    padding:0px !important ;
+}

@@ -35,20 +35,23 @@ const MainCard = styled(Box)(({ theme }) => ({
     justifyContent: "center",
   },
 }));
-export default function Card1({ sliderData }) {
+export default function Card7({ sliderData }) {
   const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
   return (
     <MainCard>
       <Card
         sx={{
-          maxWidth: { md: "22vw", sm: "45vw", xs: "70vw" },
+          maxWidth: { md: "22vw", sm: "30vw", xs: "70vw" },
           borderRadius: "0px",
           backgroundColor: "#F2F5F9",
           position: "relative",
           height: "auto",
           marginBottom: "50px",
           border: "2px solid #F1F1F1",
+          "&:hover":{
+            boxShadow:"-1px 0px 5px 0px rgba(0,0,0,0.75)"
+          }
         }}
       >
         <CardMedia
@@ -59,6 +62,7 @@ export default function Card1({ sliderData }) {
           width="250px"
           sx={{ position: "relative" }}
         />
+        <Typography component="span" variant="h4" sx={{margin:"10px",padding:"2px 15px",backgroundColor:"#FFE057",position:"absolute",right:"0",borderRadius:"30px",fontSize:"10px"}}>free</Typography>
         <Box
           sx={{
             height: "60px",
