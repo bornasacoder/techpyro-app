@@ -7,10 +7,8 @@ import "./rightbar.css"
 import { Link, useNavigate } from "react-router-dom";
 import List from './sortlist/List'
 import FilterData from './filterlist/FilterData'
-import {RestaurantsProducts} from "../../../../constants/websites/Restaurant"
 import { useDispatch, useSelector } from 'react-redux'
 import { getProducts } from '../../../../redux/apiCalls'
-import { publicRequest } from '../../../../requestMethods'
 const RightContainer = styled(Box)((theme) => ({
   flex: "5",
   background: "#fff"
@@ -236,31 +234,31 @@ const Buttons1 = styled("a")(({theme})=>({
 
 
   const navigate = useNavigate();
-  const [filteredProducts, setFilteredProducts] = useState();
   const [open, setOpen] = useState(false);
   const [opener, setOpener] = useState(false);
   const [sort, setSort] = useState("popularity");
+  console.log(sort)
   // console.log(sort)
-  const [filter, setFilter] = useState({
-    "query":{},
-    "options": {
-      "collation": "",
-      "sort": {"name":1},
-      "populate": "",
-      "projection": "",
-      "lean": false,
-      "leanWithId": true,
-      "page": 1,
-      "limit": 10,
-      "pagination": true,
-      "useEstimatedCount": false,
-      "useCustomCountFn": false,
-      "forceCountFn": false,
-      "read": {},
-      "options": {}
-    },
-    "isCountOnly": false
-  })
+  // const [filter, setFilter] = useState({
+  //   "query":{},
+  //   "options": {
+  //     "collation": "",
+  //     "sort": {"name":1},
+  //     "populate": "",
+  //     "projection": "",
+  //     "lean": false,
+  //     "leanWithId": true,
+  //     "page": 1,
+  //     "limit": 10,
+  //     "pagination": true,
+  //     "useEstimatedCount": false,
+  //     "useCustomCountFn": false,
+  //     "forceCountFn": false,
+  //     "read": {},
+  //     "options": {}
+  //   },
+  //   "isCountOnly": false
+  // })
 
 
   
