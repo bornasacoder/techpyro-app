@@ -94,7 +94,7 @@ export default function PageHeader(props) {
             {
               breakpoint: 500,
               settings: {
-                slidesToShow: 5,
+                slidesToShow: 4,
                 swipeToSlide: true,
                 // slidesToScroll: 1,
                 speed: 300,

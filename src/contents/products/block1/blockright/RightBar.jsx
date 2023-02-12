@@ -1,12 +1,16 @@
 import { CurrencyRupee, Favorite, FavoriteBorder, FilterList, NavigateNext, ShoppingCart, Sort, Star } from '@mui/icons-material'
 import { Box, Checkbox, Drawer, styled, Typography } from '@mui/material'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Sliders from '../slider1/Sliders'
 // import  {bannerData}  from '../../../../constants/Constant'
 import "./rightbar.css"
+import { Link, useNavigate } from "react-router-dom";
 import List from './sortlist/List'
 import FilterData from './filterlist/FilterData'
 import {RestaurantsProducts} from "../../../../constants/websites/Restaurant"
+import { useDispatch, useSelector } from 'react-redux'
+import { getProducts } from '../../../../redux/apiCalls'
+import { publicRequest } from '../../../../requestMethods'
 const RightContainer = styled(Box)((theme) => ({
   flex: "5",
   background: "#fff"
@@ -214,13 +218,52 @@ const Buttons1 = styled("a")(({theme})=>({
     width:"120px",
     height:"35px",
     fontSize:"14px"
-  },
+},
 }))
 
 
-const RightBar = () => {
+  const RightBar = () => {
+
+  const products = useSelector((state)=>state.product.products);
+  console.log(products)
+
+
+
+  const dispatch = useDispatch();
+  useEffect(()=>{
+   getProducts(dispatch)
+  }, [dispatch])
+
+
+  const navigate = useNavigate();
+  const [filteredProducts, setFilteredProducts] = useState();
   const [open, setOpen] = useState(false);
   const [opener, setOpener] = useState(false);
+  const [sort, setSort] = useState("popularity");
+  // console.log(sort)
+  const [filter, setFilter] = useState({
+    "query":{},
+    "options": {
+      "collation": "",
+      "sort": {"name":1},
+      "populate": "",
+      "projection": "",
+      "lean": false,
+      "leanWithId": true,
+      "page": 1,
+      "limit": 10,
+      "pagination": true,
+      "useEstimatedCount": false,
+      "useCustomCountFn": false,
+      "forceCountFn": false,
+      "read": {},
+      "options": {}
+    },
+    "isCountOnly": false
+  })
+
+
+  
 
   const handleOpen = ()=>{
     console.log("open")
@@ -238,8 +281,11 @@ const RightBar = () => {
       setOpener(false);
   }
 
+  const openCart = () =>{
+    navigate("/cart")
+  }
 
-  const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
+  const label = { inputProps: { 'aria-label': 'Checkbox demo' }};
   return (
     <RightContainer>
       <RightItems>
@@ -273,32 +319,34 @@ const RightBar = () => {
 {/* filtering of the templates */}
       <RightFilterButtons>
         <Typography sx={{  color: "#000", fontWeight: "500", fontSize: "16px", paddingRight:"5px" }}>Sort By</Typography>
-        <Typography sx={{"&:hover": {borderBottom:"1px solid #0D99FF"}, cursor:"pointer", color:"#0D99FF"}} >Popularity</Typography>
-        <Typography sx={{"&:hover": {borderBottom:"1px solid #0D99FF", color:"#0D99FF"}, cursor:"pointer" }} >Price -- Low to High</Typography>
-        <Typography sx={{"&:hover": {borderBottom:"1px solid #0D99FF", color:"#0D99FF"}, cursor:"pointer" }} >Price -- High to Low</Typography>
-        <Typography sx={{"&:hover": {borderBottom:"1px solid #0D99FF", color:"#0D99FF"}, cursor:"pointer"}}>Newest First</Typography>
+        <Typography sx={{"&:hover": {borderBottom:"1px solid #0D99FF"}, cursor:"pointer", color:"#0D99FF"}} onClick={(e)=>setSort("popularity")} >Popularity</Typography>
+        <Typography sx={{"&:hover": {borderBottom:"1px solid #0D99FF", color:"#0D99FF"}, cursor:"pointer" }} onClick={(e)=>setSort("asc")} >Price -- Low to High</Typography>
+        <Typography sx={{"&:hover": {borderBottom:"1px solid #0D99FF", color:"#0D99FF"}, cursor:"pointer" }} onClick={(e)=>setSort("desc")} >Price -- High to Low</Typography>
+        <Typography sx={{"&:hover": {borderBottom:"1px solid #0D99FF", color:"#0D99FF"}, cursor:"pointer"}} onClick={(e)=>setSort("Newest")} >Newest First</Typography>
       </RightFilterButtons>
       <Box width="100%" height="1px" sx={{background:"#EEEEEE", marginTop:{sm:"10px", xs:"0px"}}}></Box>
 
 
       {/* inner container of templates */}
-      {RestaurantsProducts.data.map((item)=>(
+      {products.data.data.map((item)=>(
         <RightInnerContainer>
       <RightTemplateLeftContainer>
           <RightTemplateLeftImage  >
-            <Sliders sliderData={item.productsimage} />
+            <Sliders sliderData={item.productImages} />
             <Checkbox {...label} icon={<FavoriteBorder />} checkedIcon={<Favorite color="error" />} sx={{position:"absolute", top:{sm:"-10px", xs:"100%"}, right:{md:"-35px", xs:"0px"}}}  />
           </RightTemplateLeftImage>
           <RightTemplateLeftContent>
+            <Link style={{textDecoration:"none", color:"#333"}} to={`/product/${item.id}`} >
             <Typography variant="h4" sx={{lineHeight:"1", fontSize:{lg:"18px", md:"16px", xs:"16px"}, fontWeight:"700", letterSpacing:{sm:"1px", xs:"0.9"},cursor:'pointer', "&:hover":{color:"#0D99FF",transition:"all 0.2s linear"}}} >{item.title.shortTitle}</Typography>
+            </Link>
             <RightContentItems>
               <Typography sx={{ display:"flex", justifyContent:'center', alignItems:"center", background:"green",color:"white",width:{lg:"40px", xs:"45px"},height:"25px", borderRadius:"5px", fontSize:{md:"14px", sm:"12px"}}} >4.2 <Star sx={{fontSize:{md:"13px", sx:"9px"}, color:"white", paddingLeft:"3px"}} /> </Typography>
               <Typography variant="h6" sx={{color:"#878787",fontWeight:"600", fontSize:{md:"14px", xs:"12px"}}} >100 Ratings & 100 Reviews</Typography>
             </RightContentItems>
               <ListItems>
-                    <ListItemText >{item.Details.specifications}</ListItemText>
-                    <ListItemText >{item.Details.speed}</ListItemText>
-                    <ListItemText >{item.Details.efficiency}</ListItemText>
+                    {/* <ListItemText >{item.details}</ListItemText> */}
+                    {/* <ListItemText >{item.details.storage}</ListItemText>
+                    <ListItemText >{item.details}</ListItemText> */}
                     <ListItemText >Mobile Friendly (Responsive)</ListItemText>
                     <ListItemText >8GB storage of your websites</ListItemText>
                     <ListItemText >1 Inquiry Form/Contact Form</ListItemText>
@@ -308,23 +356,22 @@ const RightBar = () => {
           </RightTemplateLeftContent>
       </RightTemplateLeftContainer>
 
-
       {/* right container of the templates */}
       <RightTemplateRightContainer >
         <Box sx={{marginLeft:{lg:"30px", md:"20px"}, display:"flex", justifyContent:{sm:"center", xs:"flex-start"}, flexDirection:{xs:"column"},alignItems:{sm:"center",xs:"flex-start"}}}>
-       <Typography variant="h3" sx={{fontSize:{lg:"25px",md:"20px",sm:"16px", xs:"18px"},display:"flex", alignItems:"center",   }} > <CurrencyRupee sx={{padding:"0", margin:"0",  fontSize:{sm:'24px', xs:"18px"}}} />{item.price.cost}/- </Typography>
+       <Typography variant="h3" sx={{fontSize:{lg:"25px",md:"20px",sm:"16px", xs:"18px"},display:"flex", alignItems:"center",}} > <CurrencyRupee sx={{padding:"0", margin:"0",  fontSize:{sm:'24px', xs:"18px"}}} />{item.price.cost}/- </Typography>
       <Box sx={{display:"flex", justifyContent:"flex-start", alignItems:"center", gap:'10px', marginTop:'5px'}} >
        <Typography variant="subtitle1" sx={{fontSize:"14px",textDecoration:"line-through" }} ><CurrencyRupee sx={{fontSize:"14px"}} />{item.price.mrp}/-</Typography>
        <Typography variant='h6' sx={{color:"#008000", fontSize:"13px"}} >{item.price.discount}/-  Less</Typography>
       </Box>
       <Typography variant='subtitle1' sx={{fontSize:"13px", color:"#000", display:{sm:"block", xs:"none"}}} > Free Delivery</Typography>
-      <Typography variant='subtitle1' sx={{fontSize:{lg:"13px", sm:"10px"}, display:{xs:"none", sm:"block"}}} > Last Updated: 31 Jan 2023</Typography>
+      <Typography variant='subtitle1' sx={{fontSize:{lg:"13px", sm:"10px"}, display:{xs:"none", sm:"block"}}} > Last Updated: {item.updatedAt}</Typography>
         </Box>
       <Box sx={{display:"flex", alignItems:"center", gap:"10px", justifyContent:"center", flexDirection:{sm:"row"} ,marginLeft:{lg:"30px", md:"20px", xs:"0px"}}}>
-     <Buttons variant="outlined">
+     <Buttons variant="outlined" onClick={openCart}>
      <ShoppingCart sx={{fontSize:"16px"}} />
      </Buttons>
-    <Buttons1 href={item.url} target="_blank"  variant="outlined" >
+    <Buttons1 href={item.productUrl} target="_blank"  variant="outlined" >
       Live Preview
       </Buttons1>
       </Box>
