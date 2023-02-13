@@ -1,75 +1,151 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
-import Box from '@mui/material/Box'
-import Button from '@mui/material/Button';
+import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
-import CardMedia from '@mui/material/CardMedia';
-import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
-import IconButton from '@mui/material/IconButton';
+import CardContent from '@mui/material/CardContent';
+import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-// import FavoriteIcon from '@mui/icons-material/Favorite';
-import ShareIcon from '@mui/icons-material/Share';
-import Divider from '@mui/material/Divider';
-import FavoriteBorder from '@mui/icons-material/FavoriteBorder';
-import Favorite from '@mui/icons-material/Favorite';
-import Checkbox from '@mui/material/Checkbox';
+import styled from 'styled-components';
+import zIndex from '@mui/material/styles/zIndex';
 
 
 
-const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
+const Box1 = styled(Box)({
+  width:'100%',
+  // border:'1px solid red',
+  height:'500px',
+  display:'flex',
+  justifyContent:'center',
+  margin:'30px 0px',
+  backgroundColor:'white'
 
-const CardContainer = styled(Box)(({theme})=>({
-  display:"flex",
-  margin:"10px",
-  [theme.breakpoints.down('sm')]: {
-   width:"80%"
-}
 
-}))
-export default function Card3({posterLink}) {
-  // const [expanded, setExpanded] = React.useState(false);
+})
+const Box2 = styled(Box)({
+ width:'70%',
+ display:'flex',
+//  justifyContent:'center',
+//  border:'1px solid red',
+ position:'relative'
 
- 
+})
+const Box3 = styled(Box)({
+   gap:'20px',
+   display:'flex',
+   flexDirection:'column',
+
+
+})
+const Box4 = styled(Box)({
+  display:'flex',
+  justifyContent:'flex-end'
+})
+
+ const ParentBox  = styled(Box)({
+   display:'flex',
+   gap:'20px',
+   zIndex:'20',
+   justifyContent:'space-around',
+   marginTop:'20px',
+ })
+
+
+const image='https://www.vedantu.com/cdn/images/new-home-page/B2/super-kid.webp';
+
+export default function Card2() {
+
   return (
-    
-    <CardContainer >
-    <Card sx={{ width:'100%',height:'400px',"&: hover":{transform:'scale(1.05)'}}}>
-      
-      <CardMedia
-        component="img"
-        height="194"
-        image={posterLink.url}
-        alt="Paella dish"
-      />
-      <CardContent>
-        <Typography variant="body2" sx={{color:'black',fontWeight:'600',display:'flex',justifyContent:'center'}}>
-           {posterLink.name}
-        </Typography>
-      </CardContent>
-      <CardContent>
-        <Typography variant="body2" sx={{color:'black',fontWeight:'500',display:'flex',justifyContent:'center'}}>
-            {posterLink.price}
-        </Typography>
-      </CardContent>
-      <Divider sx={{backgroundColor:'#8777',height:'1px'}}/>
-      <p>Description:Lorem ipsum dolor sit.</p>
-      <CardActions disableSpacing sx={{height:'0%' , display:'flex',justifyContent:'space-between'}} >
-        {/* <IconButton aria-label="add to favorites">
-          <FavoriteIcon sx={{color:'red'}}/>
-        </IconButton> */}
-        <Checkbox {...label} icon={<FavoriteBorder />} checkedIcon={<Favorite sx={{color:'red'}} />} />
-        <Button sx={{height:'28px',width:'39%',backgroundColor:'black',color:'white',"&:hover":{backgroundColor:'orange'}}}>
-          Buy now
-        </Button>
-        <IconButton aria-label="share" >
-          <ShareIcon  sx={{color:'#8777'}}/>
-        </IconButton>
-      </CardActions>
-
-     
-    </Card>
-    
-    </CardContainer>
+      <Box1>
+        <Box2>
+            <Box3>
+              <ParentBox>
+                  <Box>
+                     <Card sx={{ width:'330px',height:'194px',backgroundColor:'#FFF0E9', }}>
+                        <CardContent>
+                            <Box sx={{display:'flex',justifyContent:'space-around'}}>
+                              <Box >
+                                <img src='https://www.vedantu.com/cdn/images/new-home-page/B2/english-pro.svg'/>
+                              </Box>
+                              <Box>
+                                <Box>
+                                  <h4>Age 4 - 8</h4>
+                                  <h4>English Superstar</h4>
+                                </Box>
+                                <Box>
+                                  <Typography>Level based holistic </Typography>
+                                  <Typography>English Program</Typography>
+                                </Box>
+                              </Box>
+                            </Box>
+                          <CardActions>
+                            <Box sx={{width:'100%',display:'flex',justifyContent:'center',marginTop:'30px'}}>
+                              <Button sx={{color:'white',backgroundColor:'black'}} size="small">Explore more</Button>
+                            </Box>
+                          </CardActions>
+                        </CardContent>
+                     </Card>
+                  </Box>
+                  <Box>
+                    <Card sx={{ width:'330px',height:'194px' ,backgroundColor:'#FFF0CB'}}>
+                      <CardContent>
+                          <Box sx={{display:'flex',justifyContent:'space-around'}}>
+                            <Box >
+                              <img src='https://www.vedantu.com/cdn/images/new-home-page/B2/vsk-spoken-english.svg'/>
+                            </Box>
+                            <Box>
+                                <Box>
+                                  <h4>Class 3 - 5</h4>
+                                  <h4>Spoken english</h4>
+                                </Box>
+                                <Box>
+                                  <Typography>See your child speak </Typography>
+                                  <Typography>fluently and confidently</Typography>
+                                </Box>
+                        
+                              </Box>
+                        </Box>
+                        <CardActions>
+                           <Box sx={{width:'100%',display:'flex',justifyContent:'center',marginTop:'30px'}}>
+                             <Button sx={{color:'white',backgroundColor:'black'}} size="small">Explore more</Button>
+                            </Box>
+                        </CardActions>
+                      </CardContent>
+                    </Card>
+                  </Box>
+              </ParentBox>
+                  <Box>
+                      <Card sx={{ width:'330px',height:'194px',backgroundColor:'#EBF2FF' }}>
+                          <CardContent>
+                              <Box sx={{display:'flex',justifyContent:'space-around'}}>
+                                <Box >
+                                  <img src='https://www.vedantu.com/cdn/images/new-home-page/B2/vsk-math.svg'/>
+                                </Box>
+                                <Box>
+                                    <Box>
+                                      <h4>Class 1 and 2</h4>
+                                      <h4>Learn math</h4>
+                                    </Box>
+                                    <Box>
+                                      <Typography>Turn your child into a </Typography>
+                                      <Typography> Math wizard</Typography>
+                                    </Box>
+                              </Box>
+                            </Box>
+                            <CardActions>
+                              <Box sx={{width:'100%',display:'flex',justifyContent:'center',marginTop:'30px'}}>
+                                  <Button sx={{color:'white',backgroundColor:'black'}} size="small">Explore more</Button>
+                              </Box>
+                            </CardActions>
+                          </CardContent>
+                      </Card>
+                  </Box>
+            </Box3>
+            <Box4>
+              <Box sx={{position:'absolute',right:'0px'}}>
+                <img src={image} style={{height:'429px',width:'470px'}}/> 
+              </Box>
+            </Box4>
+        </Box2>
+    </Box1>
   );
 }

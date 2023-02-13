@@ -1,13 +1,12 @@
 import { Box, Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material'
 import React from 'react'
 
-const Card2 = () => {
+const Card1 = () => {
   return (
     <>
-    <Typography sx={{fontSize:'30px'}}>Top Deals</Typography>
-    <Box sx={{paddingTop:'80px',display:'flex',justifyContent:'space-evenly',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
+    <Box sx={{paddingTop:'40px',display:'flex',justifyContent:'center',width:'100%', flexDirection:{xs:'column',sm:'column',md:'row'}}}>
       <Box sx={{padding:{xs:'15px',sm:'70px',md:'0'}}}>
-        <Card sx={{ width: {xs:'325px',sm:'600px',md:'450px'}}}>
+        <Card sx={{ width: {xs:'325px',sm:'600px',md:'200px'}}}>
       
         <CardMedia sx={{height:{xs:'180px',sm:'200px',md:'240px'}}}
           component="img"
@@ -20,7 +19,7 @@ const Card2 = () => {
     
       </Box>
       <Box sx={{padding:{xs:'15px',sm:'70px',md:'0'}}}>
-        <Card sx={{ width: {xs:'325px',sm:'600px',md:'450px'}}}>
+        <Card sx={{ width: {xs:'325px',sm:'600px',md:'200px'}}}>
       
         <CardMedia sx={{height:{xs:'180px',sm:'200px',md:'240px'}}}
           component="img"
@@ -33,7 +32,7 @@ const Card2 = () => {
       
       </Box>
       <Box sx={{padding:{xs:'15px',sm:'70px',md:'0'}}}>
-        <Card sx={{ width: {xs:'325px',sm:'600px',md:'450px'}}}>
+        <Card sx={{ width: {xs:'325px',sm:'600px',md:'200px'}}}>
       
         <CardMedia sx={{height:{xs:'180px',sm:'200px',md:'240px'}}}
           component="img"
@@ -46,7 +45,7 @@ const Card2 = () => {
       
       </Box>
       <Box sx={{padding:{xs:'15px',sm:'70px',md:'0'}}}>
-        <Card sx={{ width: {xs:'325px',sm:'600px',md:'450px'}}}>
+        <Card sx={{ width: {xs:'325px',sm:'600px',md:'200px'}}}>
       
         <CardMedia sx={{height:{xs:'180px',sm:'200px',md:'240px'}}}
           component="img"
@@ -63,4 +62,4 @@ const Card2 = () => {
   )
 }
 
-export default Card2
+export default Card1

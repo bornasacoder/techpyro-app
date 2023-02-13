@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 // import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -7,16 +7,23 @@ import { Box} from '@mui/material';
 // import CardItem from './CardItem';
 // import Card1 from '../../../components/card/card2/Card1'
 import Card2 from '../../../components/card/card2/Card2'
+import styled from 'styled-components';
 
-const Block2 = (props) => {
+const Box1 = styled(Box)({
+   width:'100%',
+
+})
+const Box2 = styled(Box)({
+  width:'80%',
+})
+
+const Block2 = () => {
   return(
     <>
-      <Box sx={{display:'flex',justifyContent:'space-evenly',flexWrap:'wrap', margin:{sm:'5px 50px', xs:"5px"}}}>
-         {props.cardLinks.map((item)=>(
-
-          <Card2  posterLink={item} />
-
-          ))} 
+      <Box>
+         {/* {props.cardLinks.map((item)=>(
+           ))}  */}
+           <Card2 />
       </Box>
     </>
   ) 

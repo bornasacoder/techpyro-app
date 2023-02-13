@@ -33,6 +33,8 @@ import { Favorite, FavoriteBorder } from '@mui/icons-material';
 //   }),
 // }));
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
+
+
 export default function Card3({posterLink}) {
   // const [expanded, setExpanded] = React.useState(false);
 
