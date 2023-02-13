@@ -11,8 +11,8 @@ const Ram = styled(Box)(({theme}) => ({
         backgroundColor:'#343A40',
         height:'auto',
         width:'100%',
-        gap:'20px',
-        // marginTop:'50px',
+        gap:'40px',
+        marginTop:'50px',
         // color:theme.colors.alpha.white[100],
         paddingTop:'20px',
         [theme.breakpoints.down('md')]: {
@@ -61,18 +61,29 @@ const Sita = styled(Box)(({theme}) => ({
 const Footer = () => {
   return (
    <Box>
-<Box sx={{height:'150px',width:'100%',background:'#FFC107',display:'flex',justifyContent:'space-evenly',alignItems:'center',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
-<Typography sx={{display:'flex',alignItems:'center',fontSize:'30px',color:'white'}}>Bring Fun Life To Your Kids</Typography>
-        <Button variant='contained' sx={{width:'200px',marginTop:'30px',backgroundColor:'#FD4D40',fontSize:'20px',color:'white',borderRadius:'0px 50px 0px 50px',fontWeight:'400'}}>GET STARTED</Button>
-</Box>
+
 
 
       <Ram >
+
+      <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'300px',sm:'300px',md:'350px'},display:'flex',flexDirection:'column',gap:'20px',color:'#DC3545'}}>
+      <Box>
+        <img src='https://dpsazaadnagar.com/wp-content/uploads/elementor/thumbs/AZ-1-2-pns6qem6a003erqhh8uy99qnxo34eiszhk9usm8kjk.png' style={{width:'300px'}}/>
+      </Box>
+        <Box sx={{display:'flex',flexDirection:'column',gap:'30px',color:'white',justifyContent:'center',alignItems:'center'}}>
+       <Typography>5th Floor, North Wing, SJR The HUB, Sy. Number 8/2 & 9, Sarjapur Road, Bengaluru, Karnataka- 560 103</Typography>
+       <Typography >partner.institute@teachmint.com</Typography>
+       <Typography >+91-8035073710 (8 AM - 8 PM Everyday)</Typography>
+      
+      
+      </Box>
+       
+        </Box>
         
-      <Box sx={{display:'flex',flexDirection:{xs:'column',sm:'column',md:'row'},gap:'30px'}}>
+      
 
       <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'300px'},display:'flex',flexDirection:'column',gap:'20px',color:'#DC3545'}}>
-        <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'20px'},fontWeight:'500',display:'flex'}}>Solutions</Typography>
+        <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'20px'},fontWeight:'500',display:'flex'}}>Branches</Typography>
         <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'white'}}>
 
        <Typography sx={{borderBottom:'0.5px solid rgba(0,0,0,0.1)',padding:'10px 0px'}}>Learning mannagement system</Typography>
@@ -87,7 +98,7 @@ const Footer = () => {
 
 
           <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'200px',sm:'200px',md:'300px'},display:'flex',flexDirection:'column',gap:'20px',color:'#DC3545'}}>
-        <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'20px'},fontWeight:'500',display:'flex'}}>Navigation</Typography>
+        <Typography sx={{paddingTop:{xs:'30px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'20px'},fontWeight:'500',display:'flex'}}>Quick Links</Typography>
         <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'white'}}>
 
        <Typography sx={{borderBottom:'0.5px solid rgba(0,0,0,0.1)',padding:'10px 0px'}}>Home</Typography>
@@ -101,29 +112,16 @@ const Footer = () => {
         </Box>
 
      
-</Box>
 
-       <Box sx={{display:'flex',flexDirection:{xs:'column',sm:'column',md:'row'},gap:'30px'}}>
+
+       
        
        
         
-        <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'300px',sm:'300px',md:'400px'},display:'flex',flexDirection:'column',gap:'20px',color:'#DC3545'}}>
-        <Typography sx={{paddingTop:{xs:'20px',sm:'40px',md:'0px'},fontSize: {xs:'20px',sm:'20px',md:'20px'},fontWeight:'500',display:'flex'}}>Contact</Typography>
-        <Box sx={{display:'flex',flexDirection:'column',gap:'30px',color:'white'}}>
-       <Typography>5th Floor, North Wing, SJR The HUB, Sy. Number 8/2 & 9, Sarjapur Road, Bengaluru, Karnataka- 560 103</Typography>
-       <Typography >partner.institute@teachmint.com</Typography>
-       <Typography >+91-8035073710 (8 AM - 8 PM Everyday)</Typography>
-      <Box sx={{display:'flex',gap:'10px',alignItems:'center'}}>
-        <TextField variant='outlined' label='Email' sx={{background:'#FFFFFF',borderRadius:'10px',width:'200px',height:'50px'}}></TextField>
-        <Button variant='contained' sx={{width:'',marginTop:'0px',backgroundColor:'#FD4D40',fontSize:'15px',color:'black',borderRadius:' 50px',fontWeight:'400'}}>SEND</Button>
-      </Box>
       
-      </Box>
-       
-        </Box>
 
         
-        </Box>
+      
        
        
       </Ram>

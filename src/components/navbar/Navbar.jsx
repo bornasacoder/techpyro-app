@@ -25,10 +25,11 @@ import {
     
   } from "@mui/material";
 
-import { AccountCircle, ArrowDropDownCircle, AutoStories, Bungalow, Call, EastOutlined, Facebook, FavoriteBorder, GridView, Help, Home, HomeOutlined, Instagram, LinkedIn, LocalCarWashOutlined, LocationCityRounded, LocationCitySharp, LocationOn, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  Search,  SearchOffOutlined,  ShoppingBag, ShoppingCart, Twitter, Window} from '@mui/icons-material';
+import { AccountCircle, ArrowDropDown, ArrowDropDownCircle, AutoStories, Bungalow, Call, EastOutlined, Facebook, FavoriteBorder, GridView, Help, Home, HomeOutlined, House, Instagram, LinkedIn, LocalCarWashOutlined, LocationCityRounded, LocationCitySharp, LocationOn, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  Search,  SearchOffOutlined,  ShoppingBag, ShoppingCart, Twitter, Window, YouTube, YoutubeSearchedFor} from '@mui/icons-material';
 
 import MenuButtons from 'components/menuButtons/MenuButtons';
-
+import card3 from 'components/card/card2/Card3';
+import { Link } from 'react-router-dom';
 
 const StyleToolbar = styled(Toolbar)(({theme}) => ({
   height:'100%',
@@ -71,7 +72,7 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         // flex:'3',
         display: 'flex',
         gap:'40px', 
-        marginLeft:'30px',
+        marginLeft:'50px',
           justifyContent: 'space-evenly',
         // paddingLeft:'30px',
         alignItems: 'center',
@@ -95,7 +96,7 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         // paddingRight:'30px',
            flexDirection:"row",
         alignItems: 'center',
-        marginRight:'30px',
+        marginRight:'50px',
         // [theme.breakpoints.down('md')]: {
             //     justifyContent:"space-between"
             // },
@@ -143,6 +144,14 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
         
     }
 ));
+const Card3 = styled(IconButton)(({ theme }) => ({
+  fontSize:'50px',
+  color:theme.header.background,
+  margin:"0",
+  padding:'0',
+      
+  }
+));
 const Navbar2 = styled(Box)(({ theme }) => ({
   display:'flex',
   justifyContent:'space-between',
@@ -178,17 +187,15 @@ display:'none',
   }
 ));
 const Ram = styled(Box)(({ theme }) => ({
-  height:'600px',
-  width:'40%',
+  height:'80px',
+  width:'27%',
 
-  backgroundImage: `url(${"/images/category/kid1.webp"})`,
+  backgroundImage: `url(${"/images/category/dps1.png"})`,
   backgroundSize:'cover',
   margin:'0px',
   [theme.breakpoints.down('sm')]: {
-  //  display:'none'
-  width:'auto',
-  height:'300px',
-  marginLeft:'50px'
+ height:'40px',
+ width:'57%',
  },
       
   }
@@ -212,16 +219,16 @@ const Downnav = styled(Box)(({ theme }) => ({
 
 const NavBar = styled(AppBar)(({theme}) =>({
     
-  backgroundColor:'#B2B2B2',
+  backgroundColor:'#0D2D62',
     width:'100%',
-    height:'750px',
+    height:'230px',
     margin:"0",
     padding:'0',
-    position:'static',
+    position:'sticky',
 
 
 [theme.breakpoints.down('sm')]: {
-  height:'auto',
+  height:'80px',
   width:'100%',
   
  
@@ -249,7 +256,7 @@ export default function Navbar() {
     
       <NavBar >
     
-       <Box sx={{height:{xs:'50px',sm:'80px',md:'80px'},display:'flex',justifyContent:'center',alignItems:'center',backgroundColor:'#FFFFFF',margin:{xs:'15px',sm:'15px',md:'80px 200px 0px 200px'},borderRadius:'50px',zIndex:'50'}}>
+       <Box sx={{height:{xs:'50px',sm:'80px',md:'50px'},display:{xs:'none',sm:'none',md:'flex'},justifyContent:'center',alignItems:'center',backgroundColor:'#FFFFFF',margin:{xs:'15px',sm:'15px',md:'0px'},borderRadius:'0px',zIndex:'50'}}>
         <StyleToolbar>
         
         <NavLeft >
@@ -260,46 +267,17 @@ export default function Navbar() {
             <AutoStories sx={{color:'#1DA1F2',fontSize:{xs:'30px',sm:'20px',md:'40px'}}}/>
           <Typography sx={{fontSize:{xs:'30px',sm:'20px',md:'40px'},fontWeight:'700',color:'#1F3965'}}>Teachmint</Typography>
           </Box> */}
+ <Box sx={{display:'flex',gap:'10px'}}>
+        <LinkedIn sx={{fontSize: {xs:'25px',sm:'30px',md:'25px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'red',"&:hover":{color:'blue'}}} />
+          <Instagram sx={{fontSize: {xs:'25px',sm:'30px',md:'25px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'red',"&:hover":{color:'blue'}}} />
+          <Facebook sx={{fontSize: {xs:'25px',sm:'30px',md:'25px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'red',"&:hover":{color:'blue'}}}/>
+          <YouTube sx={{fontSize: {xs:'25px',sm:'30px',md:'25px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'red',"&:hover":{color:'blue'}}}/>
+         
+        </Box>
 
-<Box sx={{display:'flex',gap:'30px'}}>
-          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        
-          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'18px'},fontWeight:'400',color:'#DC3545'}}>Home</Typography>
-          
-          </Box>
-
-          <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
-          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'18px'},fontWeight:'400',color:'black'}}>About</Typography>
-          </Box>
-
-          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        
-          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'18px'},fontWeight:'400',color:'black'}}>Packages</Typography>
-          
-          </Box>
-
-          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        
-          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'18px'},fontWeight:'400',color:'black'}}>Gallery</Typography>
-          
-          </Box>
-
-          <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
-          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'18px'},fontWeight:'400',color:'black'}}>Pricing</Typography>
-          </Box>
-
-          <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
-          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'18px'},fontWeight:'400',color:'black'}}>Contact</Typography>
-          </Box>
-          </Box>
          
 
-          <Box >
-            <MenuButton onClick={handleOpen}>
-                <Menu sx={{display: {xs:'block',sm:'block',md:'none'},color:'#1F3965',fontSize:'30px'}}/>
-            </MenuButton>
-            <Drawer open={open} onClose={handleClose} sx={{position:'absolute'}}>
-                <MenuButtons/>
-            </Drawer>
-           
-            </Box>
+         
 
           {/* <Box sx={{display: {xs:'block',sm:'block',md:'block'}}}> 
            <SearchBar />
@@ -311,13 +289,57 @@ export default function Navbar() {
           
             <NavRight > 
             
-            <Box sx={{fontSize:{xs:'12px',sm:'20px',md:'30px'},}}>
-        <LinkedIn sx={{fontSize: {xs:'25px',sm:'30px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'orange'}} />
-          <Instagram sx={{fontSize: {xs:'25px',sm:'30px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'blue'}} />
-          <Facebook sx={{fontSize: {xs:'25px',sm:'30px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'green'}}/>
-          <Twitter sx={{fontSize: {xs:'25px',sm:'30px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'pink'}}/>
-         
-        </Box>
+
+            <Box sx={{display:'flex',gap:'30px'}}>
+              <Link to='/Contact Us' style={{textDecorationLine:'none'}}>
+          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px',marginTop:'5px'}}>        
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'700',color:'#DC3545',"&:hover":{color:'blue'},textDecorationLine:'none'}}>POCSO ACT</Typography>
+          </Box>
+          </Link>
+
+          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px',position:'relative',"&:hover .drop1":{display:'flex'}}}>
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'700',color:'#DC3545',"&:hover":{color:'blue'}}}>HOSTEL</Typography>
+          <ArrowDropDown sx={{color:'red'}}/>
+          <Box className={'drop1'} sx={{color:'black',fontSize:'20px',display:'none',position:'absolute',width:'200px',background:'white',top:'30px',flexDirection:'column',padding:'20px',gap:'10px',boxShadow:'0px 2px 4px 3px rgba(0, 0, 0, 0.5)'}}>
+              <Typography sx={{fontSize:'16px',fontWeight:'400'}}>Sailent Features</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'400'}}>Residential Life</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'400'}}>Academic Achievements</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'400'}}>Beyond academics</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'400'}}>Fee Structure</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'400'}}>Rules & Regulations</Typography>
+            
+          </Box>
+          </Box>
+
+          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'700',color:'#DC3545',"&:hover":{color:'blue'}}}>INTER DPS RANKINGS</Typography>
+          
+          </Box>
+
+          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'700',color:'#DC3545',"&:hover":{color:'blue'}}}>INFRASTRUCTURE</Typography>
+          
+          </Box>
+
+          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px',position:'relative',"&:hover .drop1":{display:'flex'}}}>
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'700',color:'#DC3545',"&:hover":{color:'blue'}}}>ACHIEVEMENTS</Typography>
+          <ArrowDropDown sx={{color:'red'}}/>
+          <Box className={'drop1'} sx={{color:'black',fontSize:'20px',display:'none',position:'absolute',width:'180px',background:'white',top:'30px',flexDirection:'column',padding:'20px',gap:'10px',boxShadow:'0px 2px 4px 3px rgba(0, 0, 0, 0.5)'}}>
+              <Typography sx={{fontSize:'16px',fontWeight:'400'}}>Session 2022-2023</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'400'}}>Session 2021-2022</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'400'}}>Session 2020-2021</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'400'}}>Session 2019-2020</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'400'}}>Session 2018-2019</Typography>
+             
+          </Box>
+          </Box>
+
+          <Link to='/Search' style={{textDecorationLine:'none'}}>
+         <Search sx={{color:'#DC3545',fontSize:'30px',"&:hover":{color:'blue'}}}/>
+         </Link>
+
+          </Box>
+           
             
         
 
@@ -326,21 +348,119 @@ export default function Navbar() {
             
         </StyleToolbar>
         </Box>
-        <Box sx={{display:'flex',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
+        <Box sx={{display:'flex',flexDirection:{xs:'row',sm:'row',md:'column'},justifyContent:{xs:'center',sm:'center',md:'space-evenly'},alignItems:'center',height:'100%',gap:{xs:'100px',sm:'120px',md:'0px'}}}>
         
 
-        <Box sx={{width:{xs:'auto',sm:'100%',md:'600px'},display:'flex',paddingBottom:{xs:'0px',sm:'0px',md:'0px'},borderRadius:'20px',margin:{xs:'30px 10px 0px 10px',sm:'0px',md:'150px 0 0 200px'},flexDirection:'column',gap:'0px',textAlign:{xs:'center',sm:'center',md:'left'}}}>
-        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'400',color:'#DC3545',fontFamily:'cursive'}}>Welcome to Our Websites</Typography>
-        <Typography sx={{fontSize:{xs:'35px',sm:'35px',md:'50px'},fontWeight:'700',color:'white'}}>Bring Fun Life to</Typography>
-        <Typography sx={{fontSize:{xs:'35px',sm:'35px',md:'50px'},fontWeight:'700',color:'white'}}> Your Kids</Typography>
+        {/* <Box sx={{width:{xs:'auto',sm:'100%',md:'100%'},display:'flex',flexDirection:'column',gap:'0px',textAlign:{xs:'center',sm:'center',md:'center'}}}>
+       
+        <Typography sx={{fontSize:{xs:'35px',sm:'35px',md:'40px'},fontWeight:'600',color:'white',height:'40px'}}>DELHI PUBLIC SCHOOL</Typography>
+        <Typography sx={{fontSize:{xs:'35px',sm:'35px',md:'40px'},fontWeight:'600',color:'white'}}>AZAAD NAGAR</Typography>
         <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'400',color:'black'}}>Amazing Playground for your kids</Typography>
-<Box>
-        <Button variant='contained' sx={{width:'150px',marginTop:'10px',backgroundColor:'#DC3545',borderRadius:'0px 50px 0px 50px'}}>LEARN MORE</Button>
-        </Box>
-          </Box>
+
+          </Box> */}
           <Ram>
        
         </Ram>
+
+        <Box sx={{}}>
+            <MenuButton onClick={handleOpen}>
+                <Menu sx={{display: {xs:'block',sm:'block',md:'none'},color:'white',fontSize:'30px'}}/>
+            </MenuButton>
+            <Drawer open={open} onClose={handleClose} sx={{position:'absolute'}}>
+                <MenuButtons/>
+            </Drawer>
+           
+            </Box>
+
+        <Box sx={{display:{xs:'none',sm:'none',md:'flex'},gap:'50px'}}>
+ 
+        <Link to='/' style={{textDecorationLine:'none'}}>
+        <House sx={{color:'white',fontSize:'30px',display:{xs:'none',sm:'none',md:'block'}}}/>
+        </Link>
+          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px',position:'relative',"&:hover .drop1":{display:'flex'}}}>    
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'700',color:'white'}}>About Us</Typography>
+          <ArrowDropDown sx={{color:'white'}}/> 
+          <Box className={'drop1'} sx={{color:'black',fontSize:'20px',display:'none',position:'absolute',width:'230px',background:'white',top:'30px',flexDirection:'column',padding:'20px',gap:'10px',boxShadow:'0px 2px 4px 3px rgba(0, 0, 0, 0.5)'}}>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Legacy Since 1997</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Our Ethos</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Our Mentors</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Our Branches</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>CBSE Information</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Awards</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Infrastructure & Facilities</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Testimonials</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Alumini</Typography>
+          </Box>
+          </Box>
+        
+<Link to='/Admission Form' style={{textDecorationLine:'none'}}>
+          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px',paddingTop:'5px'}}>
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'700',color:'white'}}>Admissions Enquiry</Typography>
+          </Box>
+          </Link>  
+
+          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px',position:'relative',"&:hover .drop1":{display:'flex'}}}>        
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'700',color:'white'}}>Academics</Typography>
+          <ArrowDropDown sx={{color:'white'}}/>
+          <Box className={'drop1'} sx={{color:'black',fontSize:'20px',display:'none',position:'absolute',width:'230px',background:'white',top:'30px',flexDirection:'column',padding:'20px',gap:'10px',boxShadow:'0px 2px 4px 3px rgba(0, 0, 0, 0.5)'}}>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Overview</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Admission Procedure</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Fee Structure</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>School Uniform</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Admission Inquiry</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Buniyad Scholarship</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Infrastructure & Facilities</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Testimonials</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Alumini</Typography>
+          </Box>
+          </Box>
+
+          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px',position:'relative',"&:hover .drop1":{display:'flex'}}}>        
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'700',color:'white'}}>Beyond Academics</Typography>
+          <ArrowDropDown sx={{color:'white'}}/>
+          <Box className={'drop1'} sx={{color:'black',fontSize:'20px',display:'none',position:'absolute',width:'230px',background:'white',top:'30px',flexDirection:'column',padding:'20px',gap:'10px',boxShadow:'0px 2px 4px 3px rgba(0, 0, 0, 0.5)'}}>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Overview</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Admission Procedure</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Fee Structure</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>School Uniform</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Admission Inquiry</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Buniyad Scholarship</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Infrastructure & Facilities</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Testimonials</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Alumini</Typography>
+          </Box>
+          </Box>
+
+          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px',position:'relative',"&:hover .drop1":{display:'flex'}}}>
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'700',color:'white'}}>Results</Typography>
+          <ArrowDropDown sx={{color:'white'}}/>
+          <Box className={'drop1'} sx={{color:'black',fontSize:'20px',display:'none',position:'absolute',width:'230px',background:'white',top:'30px',flexDirection:'column',padding:'20px',gap:'10px',boxShadow:'0px 2px 4px 3px rgba(0, 0, 0, 0.5)'}}>
+          <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Session 2022-2023</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Session 2021-2022</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Session 2020-2021</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Session 2019-2020</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Session 2018-2019</Typography>
+          </Box>
+          </Box>
+
+          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px',position:'relative',"&:hover .drop1":{display:'flex'}}}>
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'700',color:'white'}}>Media</Typography>
+          <ArrowDropDown sx={{color:'white'}}/>
+          <Box className={'drop1'} sx={{color:'black',fontSize:'20px',display:'none',position:'absolute',width:'230px',background:'white',top:'30px',flexDirection:'column',padding:'20px',gap:'10px',boxShadow:'0px 2px 4px 3px rgba(0, 0, 0, 0.5)'}}>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Gallery</Typography>
+              <Typography sx={{fontSize:'16px',fontWeight:'500'}}>Press Coverage</Typography>
+              
+          </Box>
+          </Box>
+
+<Link to='/Contact Us' style={{textDecorationLine:'none'}}>
+          <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px',marginTop:'5px'}}>
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'700',color:'white'}}>Contact Us</Typography>
+          </Box>
+          </Link>
+
+          </Box>
+
         </Box>
         {/* <Navbar2>
                <Box sx={{display:'flex',gap:'30px',paddingLeft:'30px'}}>

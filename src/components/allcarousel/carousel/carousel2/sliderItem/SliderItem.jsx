@@ -23,7 +23,7 @@ zIndex:'-10'
 })
 const Image = styled("img")({
     width:"100%",
-    height:"700px",
+    height:"600px",
     objectFit:"cover",
     // margin:"40px",
     zIndex:"-1",
@@ -31,22 +31,22 @@ const Image = styled("img")({
     // borderRadius:'10px',
     "@media (max-width: 960px)": {
        width:'100%',
-       height:'500px',
+       height:'300px',
        
        },
        "@media (max-width: 770px)": {
         width:'100%',
-        height:'400px',
+        height:'300px',
         
         },
         "@media (max-width: 600px)": {
             width:'100%',
-            height:'400px',
+            height:'300px',
             
             },
             "@media (max-width: 480px)": {
                 width:'100%',
-                height:'600px',
+                height:'300px',
                 margin:'0',
                 padding:'0',
                 // gap:'20px'

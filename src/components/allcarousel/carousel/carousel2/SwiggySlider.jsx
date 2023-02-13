@@ -5,9 +5,10 @@ import "slick-carousel/slick/slick-theme.css";
 import { styled } from '@mui/styles';
 import "./swiggy.css"
 import SliderItem from '../../carousel/carousel2/sliderItem/SliderItem';
-import {  ArrowCircleLeftOutlined, ArrowCircleRightOutlined, } from '@mui/icons-material';
+import {  ArrowCircleLeftOutlined, ArrowCircleRightOutlined, ChevronLeftOutlined, ChevronRightOutlined, } from '@mui/icons-material';
 import { color } from '@mui/system';
-import { Box, Typography } from '@mui/material';
+import { Box, Button, Typography } from '@mui/material';
+import { Link } from 'react-router-dom';
 const SliderContainer = styled('div')({
 width:"auto",
 height:"auto",
@@ -54,7 +55,7 @@ const PreviousBtn = (props) =>{
   
    return (
          <div className={className}   onClick={onClick}>
-          <ArrowCircleLeftOutlined style={{color:'white',zIndex:'200',fontSize:'3rem' }} />
+          <ChevronLeftOutlined style={{color:'white',zIndex:'200',fontSize:'3rem' ,border:'5px solid gray'}} />
          </div>  
    )
 }
@@ -63,7 +64,7 @@ const NextBtn = (props) =>{
    const {className,onClick} = props;
    return (
      <div  className={className}  onClick={onClick}>
-       <ArrowCircleRightOutlined style={{color:'white',  zIndex:'20',fontSize:'3rem'}} />
+       <ChevronRightOutlined style={{color:'white',  zIndex:'20',fontSize:'3rem',border:'5px solid gray'}} />
      </div>
    )
 }
@@ -154,7 +155,19 @@ const SwiggySlider = (props) => {
       </SliderInnerContainer>  
     </SliderContainer>
 
-      
+      <Box sx={{display:{xs:'flex',sm:'flex',md:'none'},justifyContent:'space-between'}}>
+        <Link to='/Admission Form' style={{textDecorationLine:'none'}}>
+      <Button variant='contained' sx={{fontSize:'20px',backgroundColor:'#A81E2A',color:'white',borderRadius:'0px',"&:hover":{backgroundColor:'white',color:'#0D2D62'},width:'120px'}}>Apply</Button>
+      </Link>
+
+      <Link to='/Admission Form' style={{textDecorationLine:'none'}}>
+      <Button variant='contained' sx={{fontSize:'20px',backgroundColor:'#A81E2A',color:'white',borderRadius:'0px',"&:hover":{backgroundColor:'white',color:'#0D2D62'},width:'120px'}}>Equire</Button>
+      </Link>
+
+      <Link to='/Login' style={{textDecorationLine:'none'}}>
+      <Button variant='contained' sx={{fontSize:'20px',backgroundColor:'#A81E2A',color:'white',borderRadius:'0px',"&:hover":{backgroundColor:'white',color:'#0D2D62'},width:'110px'}}>PayFees</Button>
+      </Link>
+      </Box>
     </>
   )
 }

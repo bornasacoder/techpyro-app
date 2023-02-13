@@ -3,81 +3,81 @@ export const adidas = [
         name:"Samba Vegan Shoes",
         style:'Men Life Style',
          price: {
-               mrp: "Selena Gomez",
+               mrp: "DPS Azaad Nagar",
                discount: "50% 0FF",
                cost: "₹3,199"
            },
            category:["Spring Rolls","Thali","sweets"],
-           tagline: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.",
-      image:"https://www.teachmint.com/static2/images/new-landing/manage-student-1.webp",
-           rating:"Bachelor of Technology/B-Tech",
+           tagline: "27Jan 2023",
+      image:"https://dpsazaadnagar.com/wp-content/uploads/2023/02/Post_AZ_05_02_2023-n-480x320.jpg",
+           rating:"Congratulation Kriti Singh Of class V",
        },
 
        {
         name:"Samba Vegan Shoes",
         style:'Men Life Style',
         price: {
-            mrp: "Victor Hanseen",
+            mrp: "DPS Azaad Nagar",
             discount: "50% 0FF",
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-           tagline: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.",
-     image:"https://www.teachmint.com/static2/images/new-landing/si-2.webp",
-     rating:"Bachelor of Technology/B-Tech",
+           tagline: "27Jan 2023",
+     image:"https://dpsazaadnagar.com/wp-content/uploads/2023/02/Post_AZ_04_02_2023-n-480x320.jpg",
+     rating:"Congratulation Kriti Singh Of class V",
        },
        {
         name:"Samba Vegan Shoes",
         style:'Men Life Style',
         price: {
-            mrp: "Victor Hanseen",
+            mrp: "DPS Azaad Nagar",
             discount: "50% 0FF",
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://www.teachmint.com/static2/images/new-landing/manage-student-3.webp",
-       tagline: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.",
-       rating:"Bachelor of Technology/B-Tech",
+       image:"https://dpsazaadnagar.com/wp-content/uploads/2023/02/Post_AZ_03_02_2023-n-480x320.jpg",
+       tagline: "27Jan 2023",
+       rating:"Congratulation Kriti Singh Of class V",
        },
        {
         name:"Samba Vegan Shoes",
         style:'Men Life Style',
         price: {
-            mrp: "Victor Hanseen",
+            mrp: "DPS Azaad Nagar",
             discount: "50% 0FF",
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://www.teachmint.com/static2/images/new-landing/manage-student-1.webp",
-         tagline: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.",
-         rating:"Bachelor of Technology/B-Tech",
+         image: "https://dpsazaadnagar.com/wp-content/uploads/2023/01/Post_AZ_27_01_2023-n-480x320.jpg",
+         tagline: "27Jan 2023",
+         rating:"Congratulation Kriti Singh Of class V",
        },
        {
         name:"Samba Vegan Shoes",
         style:'Men Life Style',
         price: {
-            mrp: "Victor Hanseen",
+            mrp: "DPS Azaad Nagar",
             discount: "50% 0FF",
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-     image:"https://www.teachmint.com/static2/images/new-landing/si-2.webp",
-     tagline: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.",
-     rating:"Bachelor of Technology/B-Tech",
+     image:"https://dpsazaadnagar.com/wp-content/uploads/2023/01/Post_AZ_30_01_2023-n-480x320.jpg",
+     tagline: "27Jan 2023",
+     rating:"Congratulation Kriti Singh Of class V",
        },
        {
         name:"Samba Vegan Shoes",
         style:'Men Life Style',
         price: {
-            mrp: "Victor Hanseen",
+            mrp: "DPS Azaad Nagar",
             discount: "50% 0FF",
             cost: "₹3,199"
         },
            category:["Spring Rolls","RasGulla","sweets"],
-           tagline: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.",
-     image:"https://www.teachmint.com/static2/images/new-landing/manage-student-3.webp",
+           tagline: "27Jan 2023",
+     image:"https://dpsazaadnagar.com/wp-content/uploads/2023/01/Post_KNP_26_01_2023-n-480x320.jpg",
 
-     rating:"Bachelor of Technology/B-Tech",
+     rating:"Congratulation Kriti Singh Of class V",
        },
     //    {
     //     name:"Samba Vegan Shoes",

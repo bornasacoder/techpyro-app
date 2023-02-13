@@ -7,26 +7,26 @@ const Block2 = () => {
     const CardBox = styled(Card)(({theme})=>({
     display:'flex',
     flexDirection:'column',
-    width:'350px',
-    height:'450px',
+    width:'300px',
+    height:'350px',
     // backgroundColor:'#F2F2F2',
     borderRadius:'0px',
-    // boxShadow:'none',
+    boxShadow:'none',
   
     [theme.breakpoints.down('md')]: {
-      width:'100vw',
-      height:'450px',
+      width:'50%',
+      height:'auto',
       flexDirection:'column',
       // paddingTop:'50px',
       // gap:'50px',
       borderRadius:'10px',
     },
     [theme.breakpoints.down('sm')]: {
-      width:'100%',
-      height:'400px',
+      width:'50%',
+      height:'250px',
       flexDirection:'column',
       // paddingTop:'50px',
-      borderRadius:'10px',
+      borderRadius:'0px',
       // gap:'50px',
     },
    
@@ -34,9 +34,18 @@ const Block2 = () => {
   const Box1= styled(Box)(({ theme }) => ({
     height:'600px',
     width:'100%',
-    backgroundImage: `url(${"/images/category/bgdimg4.jpeg"})`,
+    backgroundImage: `url(${"/images/category/dps7.webp"})`,
     backgroundSize:'cover',
-    // backgroundAttachment:'fixed'
+    backgroundAttachment:'fixed',
+    display:'flex',
+    justifyContent:'space-evenly',
+    [theme.breakpoints.down('md')]: {
+      flexDirection:'column',
+      alignItems:'center'
+    },
+    [theme.breakpoints.down('sm')]: {
+      flexDirection:'column',
+    },
     }
   ));
   const Box2= styled(Box)(({ theme }) => ({
@@ -61,95 +70,114 @@ const Block2 = () => {
     }
   ));
   return (
-    <Box sx={{background:'#17A2B8'}}>
-     {/* <Box1>
-
-     </Box1> */}
+    <>
+    <Box sx={{background:'#FFFFFF'}}>
+     
   <Box sx={{display:'flex',flexDirection:'column',alignItems:'center',padding:{xs:'50px 0px 0px 0px',sm:'70px 0px',md:'100px'},textAlign:'center'}}>
-    <Typography sx={{color:'red',fontFamily:'cursive',fontSize:'20px'}}>Packages You Like</Typography>
-       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'35px'},fontWeight:'600',color:'white'}}>Our Packages</Typography>
+    
+       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'35px'},fontWeight:'600',color:'black'}}>Our Mentors</Typography>
        
        </Box>
 
-<Box sx={{display:'flex',justifyContent:'center',padding:{xs:'50px 10px',sm:'0px 20px',md:'0px 0px 80px 0px'}}}>
+<Box sx={{display:'flex',justifyContent:'center',padding:{xs:'40px 0px',sm:'60px 0px',md:'0px 0px 80px 0px'}}}>
 
  
 
       <Box sx={{margin:{xs:'0px',sm:'0px 0px',md:'0px 100px'},width:'auto',display:'flex',justifyContent:'center',flexDirection:{xs:'column',sm:'column',md:'row'},gap:'40px'}}>
+
+        <Box sx={{display:'flex',gap:{xs:'10px',sm:'20px',md:'40px'}}}>
       <CardBox >
-      <Box sx={{height:{xs:'50%',sm:'50%',md:'50%'},width:{xs:'100%',sm:'100%',md:'100%'},padding:{xs:'0px',sm:'0px',md:'0px'},display:'flex',justifyContent:'center',alignItems:'center'}}>
+      <Box sx={{height:{xs:'70%',sm:'80%',md:'80%'},width:{xs:'100%',sm:'100%',md:'100%'},padding:{xs:'0px',sm:'0px',md:'0px'},display:'flex',justifyContent:'center',alignItems:'center'}}>
       
         <CardMedia
-        sx={{height:'70%',width:'30%'}}
+        sx={{height:'100%',"&:hover":{transform:'scale(1.1)'},transition:'0.5s all'}}
           component="img"
-          image="/images/category/kid3.svg"
+          image="/images/category/dps3.webp"
           alt="green iguana"
         />
      </Box>
-       <Box sx={{height:{xs:'40%',sm:'40%',md:'40%'},width:{xs:'100%',sm:'100%',md:'100%'},display:'flex',flexDirection:'column',padding:{xs:'20px',sm:'0px',md:'0px 40px 40px 40px'},gap:{xs:'20px',sm:'0px',md:'30px'},textAlign:'center'}}>
+       <Box sx={{height:{xs:'30%',sm:'25%',md:'25%'},width:{xs:'100%',sm:'100%',md:'100%'},display:'flex',flexDirection:'column',padding:{xs:'0px',sm:'0px',md:'0px'},gap:{xs:'0px',sm:'0px',md:'0px'},textAlign:'center'}}>
        
-       <Typography sx={{fontSize:{xs:'25px',sm:'25px',md:'20px'},fontWeight:'700',color:'violet'}}>Indoor Gmaes</Typography>
-        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500'}}>Lorem ipsum dolor sit amet. Consequatur aliquam, fuga maiores amet quo corporis distinctio soluta recusandae? </Typography>
+       <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700',color:'white',background:'#0D2D62',fontFamily:'Butler'}}>Mrs. Marie</Typography>
+        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500'}}>Chairman </Typography>
+        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'400'}}>D P S Society </Typography>
        
        
        </Box>
-       <Box sx={{height:{xs:'30%',sm:'40%',md:'40%'},width:{xs:'100%',sm:'100%',md:'100%'},display:'flex',padding:{xs:'25px',sm:'25px',md:'20px 40px 60px 40px'},gap:'10px',textAlign:'center',justifyContent:'center'}}>
-       
-       <Button variant='contained' sx={{width:'200px',marginTop:'10px',backgroundColor:'#FFC107',fontSize:'15px',color:'black',borderRadius:'0px 50px 0px 50px'}}>LEARN MORE</Button>
-       </Box>
+      
       
       </CardBox>
 
       <CardBox >
-      <Box sx={{height:{xs:'50%',sm:'50%',md:'50%'},width:{xs:'100%',sm:'100%',md:'100%'},padding:{xs:'0px',sm:'0px',md:'0px'},display:'flex',justifyContent:'center',alignItems:'center'}}>
+      <Box sx={{height:{xs:'70%',sm:'80%',md:'80%'},width:{xs:'100%',sm:'100%',md:'100%'},padding:{xs:'0px',sm:'0px',md:'0px'},display:'flex',justifyContent:'center',alignItems:'center'}}>
       
         <CardMedia
-        sx={{height:'70%',width:'30%'}}
+        sx={{height:'100%',"&:hover":{transform:'scale(1.1)'},transition:'0.5s all'}}
           component="img"
-          image="/images/category/kid4.svg"
+          image="/images/category/dps4.webp"
           alt="green iguana"
         />
      </Box>
-     <Box sx={{height:{xs:'40%',sm:'50%',md:'40%'},width:{xs:'100%',sm:'100%',md:'100%'},display:'flex',flexDirection:'column',padding:{xs:'20px',sm:'0px',md:'0px 40px 40px 40px'},gap:{xs:'20px',sm:'0px',md:'30px'},textAlign:'center'}}>
+     <Box sx={{height:{xs:'30%',sm:'25%',md:'25%'},width:{xs:'100%',sm:'100%',md:'100%'},display:'flex',flexDirection:'column',padding:{xs:'0px',sm:'0px',md:'0px'},gap:{xs:'0px',sm:'0px',md:'0px'},textAlign:'center'}}>
        
-       <Typography sx={{fontSize:{xs:'25px',sm:'25px',md:'20px'},fontWeight:'700',color:'green'}}>Outdoor Gmaes & Events</Typography>
-        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500'}}>Lorem ipsum dolor sit amet. Consequatur aliquam, fuga maiores amet quo corporis distinctio soluta recusandae? </Typography>
+     <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700',color:'white',background:'#0D2D62',fontFamily:'Butler'}}>Mr. Jason</Typography>
+        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500'}}>Chairman </Typography>
+        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'400'}}>D P S Society </Typography>
        
        
        </Box>
-       <Box sx={{height:{xs:'30%',sm:'50%',md:'40%'},width:{xs:'100%',sm:'100%',md:'100%'},display:'flex',padding:{xs:'25px',sm:'25px',md:'20px 40px 60px 40px'},gap:'10px',textAlign:'center',justifyContent:'center'}}>
        
-       <Button variant='contained' sx={{width:'200px',marginTop:'10px',backgroundColor:'red',fontSize:'15px',color:'white',borderRadius:'0px 50px 0px 50px'}}>LEARN MORE</Button>
-       </Box>
       
       </CardBox>
+      </Box>
 
 
+<Box sx={{display:'flex',gap:{xs:'10px',sm:'20px',md:'40px'}}}>
+      <CardBox >
+      <Box sx={{height:{xs:'70%',sm:'80%',md:'80%'},width:{xs:'100%',sm:'100%',md:'100%'},padding:{xs:'0px',sm:'0px',md:'0px'},display:'flex',justifyContent:'center',alignItems:'center'}}>
+      
+        <CardMedia
+        sx={{height:'100%',"&:hover":{transform:'scale(1.1)'},transition:'0.5s all'}}
+          component="img"
+          image="/images/category/dps5.webp"
+          alt="green iguana"
+        />
+     </Box>
+     <Box sx={{height:{xs:'30%',sm:'25%',md:'25%'},width:{xs:'100%',sm:'100%',md:'100%'},display:'flex',flexDirection:'column',padding:{xs:'0px',sm:'0px',md:'0px'},gap:{xs:'0px',sm:'0px',md:'0px'},textAlign:'center'}}>
+       
+     <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700',color:'white',background:'#0D2D62',fontFamily:'Butler'}}>Mr. Jiggler</Typography>
+        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500'}}>Chairman </Typography>
+        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'400'}}>D P S Society </Typography>
+       
+       
+       </Box>
+       
+      
+      </CardBox>
 
 
       <CardBox >
-      <Box sx={{height:{xs:'50%',sm:'50%',md:'50%'},width:{xs:'100%',sm:'100%',md:'100%'},padding:{xs:'0px',sm:'0px',md:'0px'},display:'flex',justifyContent:'center',alignItems:'center'}}>
+      <Box sx={{height:{xs:'70%',sm:'50%',md:'75%'},width:{xs:'100%',sm:'100%',md:'100%'},padding:{xs:'0px',sm:'0px',md:'0px'},display:'flex',justifyContent:'center',alignItems:'center'}}>
       
         <CardMedia
-        sx={{height:'70%',width:'30%'}}
+        sx={{height:'100%',"&:hover":{transform:'scale(1.1)'},transition:'0.5s all'}}
           component="img"
-          image="/images/category/kid5.svg"
+          image="/images/category/dps6.webp"
           alt="green iguana"
         />
      </Box>
-     <Box sx={{height:{xs:'40%',sm:'50%',md:'40%'},width:{xs:'100%',sm:'100%',md:'100%'},display:'flex',flexDirection:'column',padding:{xs:'20px',sm:'0px',md:'0px 40px 40px 40px'},gap:{xs:'20px',sm:'0px',md:'30px'},textAlign:'center'}}>
+     <Box sx={{height:{xs:'30%',sm:'25%',md:'25%'},width:{xs:'100%',sm:'100%',md:'100%'},display:'flex',flexDirection:'column',padding:{xs:'0px',sm:'0px',md:'0px'},gap:{xs:'0px',sm:'0px',md:'0px'},textAlign:'center'}}>
        
-       <Typography sx={{fontSize:{xs:'25px',sm:'25px',md:'20px'},fontWeight:'700',color:'red'}}>Campings for Kids</Typography>
-        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500'}}>Lorem ipsum dolor sit amet. Consequatur aliquam, fuga maiores amet quo corporis distinctio soluta recusandae? </Typography>
+     <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700',color:'white',background:'#0D2D62',fontFamily:'Butler'}}>Mrs. Martha</Typography>
+        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500'}}>Chairman </Typography>
+        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'400'}}>D P S Society </Typography>
        
        
        </Box>
-       <Box sx={{height:{xs:'30%',sm:'50%',md:'40%'},width:{xs:'100%',sm:'100%',md:'100%'},display:'flex',padding:{xs:'25px',sm:'25px',md:'20px 40px 60px 40px'},gap:'10px',textAlign:'center',justifyContent:'center'}}>
        
-       <Button variant='contained' sx={{width:'200px',marginTop:'10px',backgroundColor:'#71BC42',fontSize:'15px',color:'black',borderRadius:'0px 50px 0px 50px'}}>LEARN MORE</Button>
-       </Box>
       
       </CardBox>
+      </Box>
        </Box>
        
     
@@ -157,7 +185,25 @@ const Block2 = () => {
        
        
        </Box>
-       
+
+
+       <Box1>
+<Box sx={{color:'white',display:'flex',flexDirection:'column',justifyContent:'center',height:'100%'}}>
+<Typography sx={{fontSize:{xs:'40px',sm:'50px',md:'60px'},fontWeight:'700',fontFamily:'Butler'}}>Best Results &</Typography>
+       <Typography sx={{fontSize:{xs:'40px',sm:'30px',md:'60px'},fontWeight:'700',fontFamily:'Butler'}}>Best Discipline in</Typography>
+       <Typography sx={{fontSize:{xs:'40px',sm:'30px',md:'60px'},fontWeight:'700',fontFamily:'Butler'}}>Kanpur</Typography>
+</Box>
+<Box sx={{color:'white',display:'flex',flexDirection:'column',justifyContent:'center',height:'100%',width:{xs:'300px',sm:'350px',md:'400px'},gap:'30px',marginBottom:{xs:'40px',sm:'40px',md:'0px'}}}>
+<Button variant='contained' sx={{fontSize:'25px',backgroundColor:'#A81E2A',color:'white',borderRadius:'0px',"&:hover":{backgroundColor:'white',color:'#0D2D62'}}}>Academic Excellence</Button>
+
+<Button variant='contained' sx={{fontSize:'25px',backgroundColor:'#A81E2A',color:'white',borderRadius:'0px',"&:hover":{backgroundColor:'white',color:'#0D2D62'}}}>Holistic Devlopment</Button>
+
+<Button variant='contained' sx={{fontSize:'25px',backgroundColor:'#A81E2A',color:'white',borderRadius:'0px',"&:hover":{backgroundColor:'white',color:'#0D2D62'}}}>Infrastructure & Facilities</Button>
+
+<Button variant='contained' sx={{fontSize:'25px',backgroundColor:'#A81E2A',color:'white',borderRadius:'0px',"&:hover":{backgroundColor:'white',color:'#0D2D62'}}}>Inter DPS Rankings</Button>
+</Box>
+     </Box1>
+       </>
   )
     }
 export default Block2

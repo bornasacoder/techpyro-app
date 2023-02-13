@@ -3,25 +3,25 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { styled } from '@mui/styles';
-// import "./BigSlider.css"
+import "./bigs.css"
 import SliderItem from '../../carousel/carousel2/sliderItem/SliderItem';
 import {  ArrowCircleLeftOutlined, ArrowCircleRightOutlined, ArrowForward, ChevronLeftOutlined, ChevronRightOutlined, } from '@mui/icons-material';
 import { color } from '@mui/system';
 import { Box, Typography } from '@mui/material';
 import SliderAtem from './sliderItem/SliderAtem';
 const SliderContainer = styled('div')({
-width:"500px",
-height:"500px",
-margin:'0px 0px 0px 200px',
+width:"100%",
+height:"auto",
+margin:'0px',
 overflow:"hidden",
 display:'flex',
 justifyContent:'center',
 flexDirection:'column',
 // alignItems:'center',
-backgroundColor:'#FFFFFF',
+// backgroundColor:'#FFFFFF',
 position:'static',
 // border:'1px solid black',
-boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+// boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
 borderRadius:'20px',
 
 "@media (max-width: 480px)": {
@@ -38,7 +38,7 @@ const SliderInnerContainer = styled('div')({
   backgroundColor:'transparent',
   justifyContent:"center",
   // alignItems:'center',
-  margin:'30px 70px',
+  margin:'0px',
   // backgroundColor:'#FFFFFF',
   flexDirection:"column", 
   // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
@@ -58,7 +58,7 @@ const PreviousBtn = (props) =>{
   
    return (
          <div className={className} onClick={onClick}>
-          <ChevronLeftOutlined sx={{color:'black',zIndex:'10',fontSize:'2.5rem',border:'3px solid rgba(0,0,0,0.5)',borderRadius:'50px', backgroundColor:'#FFFFFF',marginLeft:'-5px'}} />
+          <ChevronLeftOutlined sx={{color:'black',zIndex:'10',fontSize:'2.5rem',border:'3px solid rgba(0,0,0,0.5)',borderRadius:'50px', backgroundColor:'#FFFFFF',marginLeft:'0px'}} />
          </div>  
    )
 }
@@ -76,13 +76,13 @@ const NextBtn = (props) =>{
 const BigSlider = (props) => {
   
   const settings = {
-    dots: true,
-    arrows:false,
+    dots:false,
+    arrows:true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay:false,
     autoplaySpeed: 2000,
     cssEase: "linear",
     initialSlide:0,
@@ -143,7 +143,10 @@ const BigSlider = (props) => {
   };
   return (
     <>
-     
+    <Box sx={{display:'flex',padding:{xs:'10px',sm:'30px',md:'0px'},display:'flex',justifyContent:'center',padding:'10px'}}>
+       <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},fontWeight:'700',color:'black',fontFamily:'Butler'}}>Our Diaries</Typography>
+       
+       </Box>
     <SliderContainer>         
        <SliderInnerContainer>
     <Slider {...settings}>
@@ -154,10 +157,7 @@ const BigSlider = (props) => {
       </SliderInnerContainer>  
     </SliderContainer>
 
-      {/* <Box sx={{display:'flex',padding:{xs:'10px',sm:'30px',md:'0px'},display:'flex',justifyContent:'center',padding:'10px'}}>
-       <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'500',color:'white',backgroundColor:'#4A68E4',height:'50px',justifyContent:'center',alignItems:'center',display:'flex',gap:'20px',borderRadius:'20px',padding:'0px 10px'}}>1000s of reviews by happy students <ArrowForward /></Typography>
-       
-       </Box> */}
+      
     </>
   )
 }
