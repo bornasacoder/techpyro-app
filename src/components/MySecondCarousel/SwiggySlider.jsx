@@ -7,6 +7,8 @@ import "./swiggyslider.css"
 import SliderItem from './sliderItem/SliderItem';
 
 import {  ArrowCircleLeftOutlined, ArrowCircleRightOutlined, } from '@mui/icons-material';
+import   Button   from '@mui/material/Button';
+import  Typography  from '@material-ui/core/Typography';
 const SliderContainer = styled('div')({
 width:"100%",
 height:"auto",
@@ -125,7 +127,8 @@ const SwiggySlider = (props) => {
   };
   return (
     <>
-    <SliderContainer>         
+    {/* <SliderContainer>          */}
+    <>
        <SliderInnerContainer>
     <Slider {...settings}>
      { props.sliderData.map((item)=>(
@@ -133,8 +136,11 @@ const SwiggySlider = (props) => {
       ))}
     </Slider>
       </SliderInnerContainer>  
-    </SliderContainer>
-
+    {/* </SliderContainer> */}
+    <Button variant="contained"color="secondary" style={{borderRadius:"15px", fontWeight:"bold"}}  >
+        <Typography variant="h5"> GET STARTED-----></Typography>
+      </Button>
+    </ >
       
     </>
   )

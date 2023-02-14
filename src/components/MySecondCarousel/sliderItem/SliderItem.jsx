@@ -3,13 +3,13 @@ import { styled } from "@mui/styles";
 import zIndex from "@mui/material/styles/zIndex";
 import Typography from "@material-ui/core/Typography";
 import { Avatar } from "@material-ui/core";
+import  Button from '@mui/material/Button';
 
 const SliderContainer = styled("div")({
 
-  width: "100%",
   height: "auto",
   paddingLeft: "px",
-  
+  backgroundColor:""
   // zIndex:"1"
 });
 const ImageContainer = styled("div")({
@@ -44,10 +44,10 @@ const SliderItem = ({ posterLinks }) => {
     <SliderContainer>
       <ImageContainer>
         {/* <Image src={posterLinks.image} /> */}
-        <Typography style={{   margin:"10px  " }} variant="h5">
+        <Typography style={{   margin:"0.78125vw  " }} variant="h5">
           {posterLinks.title}{" "}
         </Typography>
-        <Typography style={{  margin:"10px  "  }} variant="body1">
+        <Typography style={{  margin:"0.78125vw  "  }} variant="body1">
           {posterLinks.description}{" "}
         </Typography>
      <div style={{display:"flex", direction:"row"}}>
@@ -60,9 +60,9 @@ const SliderItem = ({ posterLinks }) => {
           {posterLinks.date}{" "}
         </Typography>
         </div>
-     
+      
       </ImageContainer>
-    </SliderContainer>
+     </SliderContainer>
   );
 };
 
