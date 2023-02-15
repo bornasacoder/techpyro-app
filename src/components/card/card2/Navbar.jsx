@@ -1,6 +1,6 @@
 
 import React,{useState} from 'react';
-import SearchBar from '../searchbar/SearchBar'
+// import SearchBar from '../searchbar/SearchBar'
 import NavButton from 'components/navButton/NavButton'
 import {
     AppBar,
@@ -180,16 +180,16 @@ display:'none',
 ));
 const Ram = styled(Box)(({ theme }) => ({
   height:'600px',
-  width:'40%',
+  width:'100%',
 
-  backgroundImage: `url(${"/images/category/kid1.webp"})`,
+  backgroundImage: `url(${"/images/category/byjus1.png"})`,
   backgroundSize:'cover',
   margin:'0px',
   [theme.breakpoints.down('sm')]: {
   //  display:'none'
   width:'auto',
   height:'300px',
-  marginLeft:'50px'
+  marginLeft:'0px'
  },
       
   }
@@ -263,8 +263,7 @@ export default function Navbar() {
           </Box> */}
 
 <Box sx={{display:{xs:'none',sm:'none',md:'flex'},gap:'30px'}}>
-
-  <Link to='/' style={{textDecorationLine:'none'}}>
+    <Link to='/' style={{textDecorationLine:'none'}}>
           <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        
           <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'18px'},fontWeight:'400',color:'#DC3545'}}>Home</Typography>
           
@@ -277,32 +276,30 @@ export default function Navbar() {
           </Box>
           </Link>
 
-<Link to='/Packages' style={{textDecorationLine:'none'}}>
+          <Link to='/Packages' style={{textDecorationLine:'none'}}>
           <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        
           <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'18px'},fontWeight:'400',color:'black'}}>Packages</Typography>
           </Box>
           </Link>
 
-          <Link to='/Gallery' style={{textDecorationLine:'none'}}>
+<Link to='/Gallery' style={{textDecorationLine:'none'}}>
           <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        
           <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'18px'},fontWeight:'400',color:'black'}}>Gallery</Typography>
           </Box>
           </Link>
 
-<Link to='/Pricing' style={{textDecorationLine:'none'}}>
+          <Link to='/Pricing' style={{textDecorationLine:'none'}}>
           <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
           <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'18px'},fontWeight:'400',color:'black'}}>Pricing</Typography>
           </Box>
           </Link>
 
-<Link to='/Contact' style={{textDecorationLine:'none'}}>
+          <Link to='/Contact' style={{textDecorationLine:'none'}}>
           <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
           <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'18px'},fontWeight:'400',color:'black'}}>Contact</Typography>
           </Box>
           </Link>
-
           </Box>
-          
          
 
           <Box >
@@ -325,7 +322,7 @@ export default function Navbar() {
           
             <NavRight > 
             
-            <Box sx={{fontSize:{xs:'12px',sm:'20px',md:'30px'},display:'flex'}}>
+            <Box sx={{fontSize:{xs:'12px',sm:'20px',md:'30px'},}}>
         <LinkedIn sx={{fontSize: {xs:'25px',sm:'30px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'orange'}} />
           <Instagram sx={{fontSize: {xs:'25px',sm:'30px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'blue'}} />
           <Facebook sx={{fontSize: {xs:'25px',sm:'30px',md:'30px'} , margin:{xs:'5px',sm:'8px',md:'10px'},color:'green'}}/>
@@ -340,22 +337,22 @@ export default function Navbar() {
             
         </StyleToolbar>
         </Box>
-        <Box sx={{display:'flex',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
         
+        <Ram>
 
         <Box sx={{width:{xs:'auto',sm:'100%',md:'600px'},display:'flex',paddingBottom:{xs:'0px',sm:'0px',md:'0px'},borderRadius:'20px',margin:{xs:'30px 10px 0px 10px',sm:'0px',md:'150px 0 0 200px'},flexDirection:'column',gap:'0px',textAlign:{xs:'center',sm:'center',md:'left'}}}>
         <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'400',color:'#DC3545',fontFamily:'cursive'}}>Welcome to Our Websites</Typography>
-        <Typography sx={{fontSize:{xs:'35px',sm:'35px',md:'50px'},fontWeight:'700',color:'white'}}>Bring Fun Life to</Typography>
-        <Typography sx={{fontSize:{xs:'35px',sm:'35px',md:'50px'},fontWeight:'700',color:'white'}}> Your Kids</Typography>
-        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'400',color:'black'}}>Amazing Playground for your kids</Typography>
+        <Typography sx={{fontSize:{xs:'35px',sm:'35px',md:'50px'},fontWeight:'700',color:'white'}}>About Us</Typography>
+       
+        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'400',color:'black'}}>Home / About</Typography>
 <Box>
-        <Button variant='contained' sx={{width:'150px',marginTop:'10px',backgroundColor:'#DC3545',borderRadius:'0px 50px 0px 50px'}}>LEARN MORE</Button>
+        
         </Box>
           </Box>
-          <Ram>
+          
        
         </Ram>
-        </Box>
+       
         {/* <Navbar2>
                <Box sx={{display:'flex',gap:'30px',paddingLeft:'30px'}}>
                 <Typography sx={{fontWeight:'600'}}>How do you want your Items?</Typography>
