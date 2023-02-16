@@ -1,4 +1,5 @@
 import {
+  AccessTime,
   ArrowForward,
   Campaign,
   CurrencyRupee,
@@ -8,16 +9,14 @@ import {
   ShoppingCart,
   ShoppingCartOutlined,
   Star,
+  TrackChangesOutlined,
+  WorkspacePremiumOutlined,
+  WorkspacesOutlined,
 } from "@mui/icons-material";
 import { Button, Grid, Paper, Typography } from "@mui/material";
 import { Box, styled } from "@mui/system";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
-  backgroundColor: "#FFFFFF",
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-  flexDirection: "column",
   padding: "58px 58px",
   [theme.breakpoints.down("md")]: {
     justifyContent: "center",
@@ -25,25 +24,31 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
   },
   [theme.breakpoints.down("md")]: {
     justifyContent: "center",
-    padding: "25px 10px ",
+    padding: "25px 20px ",
   },
 }));
 const Item = styled(Box)(({ theme }) => ({
-  borderRadius: "0px!important",
-  boxShadow: "none!important",
   fontSize: "18px",
   gap: "10px",
-  border: "1px solid #F2F5F9",
-  paddingLeft:"5px",
+  backgroundColor:"#FFFFFF",
+  display:"flex",
+  alignItems:"center",
+  flexDirection:"column",
+padding:"20px 20px",
     [theme.breakpoints.down("sm")]: {
-      flexDirection:"column",
-      height:"450px",
-      gap: "5px",
+      alignItems:"center"
     },
 }));
 export default function Content15() {
   return (
     <StyleToolbar>
+      <Box>
+        <Typography variant="h2" sx={{fontSize:"36px",fontWeight:"600",textAlign:"center"}}>Take the first step toward your new career</Typography>
+        <Typography  sx={{fontSize:"20px",textAlign:"center"}}>Get professional-level training and earn a credential recognized by leading companies.</Typography>
+      </Box>
+      <br/>
+      <br/>
+      <br/>
       <Box
         sx={{
           width: "100%",
@@ -57,6 +62,7 @@ export default function Content15() {
           sx={{
             display: "flex",
           }}
+          columnSpacing={6}
         >
           <Grid
             item
@@ -65,102 +71,16 @@ export default function Content15() {
             md={4}
           >
             <Item
-              sx={{ display: "flex", height: "250px", alignItems: "center",gap:"30px" }}
+              sx={{ padding:"20px 20px 62px" }}
             >
-              <Box
-                sx={{
-                  display: "flex",
-                  height: { md: "120px", sm: "150px", xs: "200px" },
-                  width: { md: "120px", sm: "150px", xs: "250px" },
-                  // borderRadius: "50%!important",
-                  background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/product/electro/16.jpg"})
-                center/cover no-repeat`,
-                }}
-              />
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                     textAlign: "initial",
-                   width:{md:"175px",sm:"200px",xs:"300px"}
-                }}
-              >
-                <Typography variant="h4" >
-                  Autel Robotics - X- Star Premium Quadcopter
-                </Typography>
-                <Box display="flex" paddingTop="10px">
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                </Box>
-
-                <Typography
-    
-                  // textAlign="center"
-                  sx={{
-                    paddingBottom: "20px",
-                  }}
-                >
-                 
-                  ₹ 1199.00
-                </Typography>
-                <Box
-                  sx={{
-                    display: "flex",
-                    gap: "10px",
-                    color: "#c1c1c1",
-                    fontWeight: "100px",
-                  }}
-                >
-                  <Box
-                    sx={{
-                      borderRadius: "50%",
-                      border: "1px solid #c1c1c1",
-                      height: "30px",
-                      width: "30px",
-                      padding: "5px 4px",
-                      "&:hover": {
-                        color: "#fff",
-                        backgroundColor: "#000",
-                      },
-                    }}
-                  >
-                    <ShoppingCartOutlined sx={{fontSize:"20px"}}/>
-                  </Box>
-                  <Box
-                    sx={{
-                      borderRadius: "50%",
-                      border: "1px solid #c1c1c1",
-                      height: "30px",
-                      width: "30px",
-                      padding: "5px 4px",
-                      "&:hover": {
-                        color: "#fff",
-                        backgroundColor: "#000",
-                      },
-                    }}
-                  >
-                    <FavoriteBorder sx={{fontSize:"20px"}}/>
-                  </Box>
-                  <Box
-                    sx={{
-                      borderRadius: "50%",
-                      border: "1px solid #c1c1c1",
-                      height: "30px",
-                      width: "30px",
-                      padding: "5px 4px",
-                      "&:hover": {
-                        color: "#fff",
-                        backgroundColor: "#000",
-                      },
-                    }}
-                  >
-                    <RepeatOutlined sx={{fontSize:"20px"}}/>
-                  </Box>
-                </Box>
-              </Box>
+                <TrackChangesOutlined sx={{}}/>
+              <Typography sx={{fontSize:"20px",fontWeight:"600",}}>Prior experience optional</Typography>
+              <Typography sx={{color:"#636363",fontSize:"16px",textAlign:"center"}}>Build job-ready skills, even if you’re new to the field</Typography>
+          <Typography sx={{borderBottom:"1px solid #EEEEEE",height:"20px",width:"100%"}}/>
+          <Box sx={{padding:"5px 30px"}}>
+          <Typography sx={{fontSize:"20px",fontWeight:"600",textAlign:"center"}}>2, 284, 150</Typography>
+          <Typography sx={{textAlign:"center"}}>job openings across entry-level Professional Certificate fields¹</Typography>
+          </Box>
             </Item>
           </Grid>
           <Grid
@@ -170,103 +90,16 @@ export default function Content15() {
             md={4}
           >
             <Item
-              sx={{ display: "flex", height: "250px", alignItems: "center",gap:"30px" }}
+              sx={{ display: "flex", alignItems: "center", }}
             >
-              <Box
-                sx={{
-                  display: "flex",
-                   height: { md: "120px", sm: "150px", xs: "200px" },
-                    width: { md: "120px", sm: "150px", xs: "250px" },
-                  // borderRadius: "50%!important",
-                  background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/product/electro/21.jpg"})
-                center/cover no-repeat`,
-                }}
-              />
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                     textAlign: "initial",
-                   width:{md:"175px",sm:"200px",xs:"300px"}
-                }}
-              >
-                <Typography variant="h4">
-                  Autel Robotics - X-
-                   Star Premium
-                   Quadcopter
-                </Typography>
-                <Box display="flex" paddingTop="10px">
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                </Box>
-
-                <Typography
-    
-                  // textAlign="center"
-                  sx={{
-                    paddingBottom: "20px",
-                  }}
-                >
-                  ₹ 1199.00
-                </Typography>
-                <Box
-                  sx={{
-                    display: "flex",
-                    gap: "10px",
-                    color: "#c1c1c1",
-                    fontWeight: "100px",
-                  }}
-                >
-                  <Box
-                    sx={{
-                      borderRadius: "50%",
-                      border: "1px solid #c1c1c1",
-                      height: "30px",
-                      width: "30px",
-                      padding: "5px 4px",
-                      "&:hover": {
-                        color: "#fff",
-                        backgroundColor: "#000",
-                      },
-                    }}
-                  >
-                    <ShoppingCartOutlined sx={{fontSize:"20px"}}/>
-                  </Box>
-                  <Box
-                    sx={{
-                      borderRadius: "50%",
-                      border: "1px solid #c1c1c1",
-                      height: "30px",
-                      width: "30px",
-                      padding: "5px 4px",
-                      "&:hover": {
-                        color: "#fff",
-                        backgroundColor: "#000",
-                      },
-                    }}
-                  >
-                    <FavoriteBorder sx={{fontSize:"20px"}}/>
-                  </Box>
-                  <Box
-                    sx={{
-                      borderRadius: "50%",
-                      border: "1px solid #c1c1c1",
-                      height: "30px",
-                      width: "30px",
-                      padding: "5px 4px",
-                      "&:hover": {
-                        color: "#fff",
-                        backgroundColor: "#000",
-                      },
-                    }}
-                  >
-                    <RepeatOutlined sx={{fontSize:"20px"}}/>
-                  </Box>
-                </Box>
-              </Box>
+                <WorkspacePremiumOutlined sx={{}}/>
+              <Typography sx={{fontSize:"20px",fontWeight:"600",}}>Earn a valuable credential</Typography>
+              <Typography sx={{color:"#636363",fontSize:"16px",textAlign:"center"}}>Apply your new skills to real-world projects using the latest industry tools and techniques.</Typography>
+          <Typography sx={{borderBottom:"1px solid #EEEEEE",height:"20px",width:"100%"}}/>
+          <Box sx={{padding:"5px 30px"}}>
+          <Typography sx={{fontSize:"20px",fontWeight:"600",textAlign:"center"}}>4.7 / 5</Typography>
+          <Typography sx={{textAlign:"center"}}>average rating given by 200,000+ global learners enrolled in an entry-level Professional Certificate²</Typography>
+          </Box>
             </Item>
           </Grid>
           <Grid
@@ -276,425 +109,16 @@ export default function Content15() {
             md={4}
           >
             <Item
-              sx={{ display: "flex", height: "250px", alignItems: "center",gap:"30px" }}
+              sx={{ padding:"20px 20px 85px" }}
             >
-              <Box
-                sx={{
-                  display: "flex",
-                  height: { md: "120px", sm: "150px", xs: "200px" },
-                  width: { md: "120px", sm: "150px", xs: "250px" },
-                  // borderRadius: "50%!important",
-                  background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/product/electro/20.jpg"})
-                center/cover no-repeat`,
-                }}
-              />
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                     textAlign: "initial",
-                   width:{md:"175px",sm:"200px",xs:"300px"}
-                }}
-              >
-                <Typography variant="h4">
-                  Autel Robotics - X-
-                   Star Premium
-                   Quadcopter
-                </Typography>
-                <Box display="flex" paddingTop="10px">
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                </Box>
-
-                <Typography
-    
-                  // textAlign="center"
-                  sx={{
-                    paddingBottom: "20px",
-                  }}
-                >
-                 
-                  ₹ 1199.00
-                </Typography>
-                <Box
-                  sx={{
-                    display: "flex",
-                    gap: "10px",
-                    color: "#c1c1c1",
-                    fontWeight: "100px",
-                  }}
-                >
-                  <Box
-                    sx={{
-                      borderRadius: "50%",
-                      border: "1px solid #c1c1c1",
-                      height: "30px",
-                      width: "30px",
-                      padding: "5px 4px",
-                      "&:hover": {
-                        color: "#fff",
-                        backgroundColor: "#000",
-                      },
-                    }}
-                  >
-                    <ShoppingCartOutlined sx={{fontSize:"20px"}}/>
-                  </Box>
-                  <Box
-                    sx={{
-                      borderRadius: "50%",
-                      border: "1px solid #c1c1c1",
-                      height: "30px",
-                      width: "30px",
-                      padding: "5px 4px",
-                      "&:hover": {
-                        color: "#fff",
-                        backgroundColor: "#000",
-                      },
-                    }}
-                  >
-                    <FavoriteBorder sx={{fontSize:"20px"}}/>
-                  </Box>
-                  <Box
-                    sx={{
-                      borderRadius: "50%",
-                      border: "1px solid #c1c1c1",
-                      height: "30px",
-                      width: "30px",
-                      padding: "5px 4px",
-                      "&:hover": {
-                        color: "#fff",
-                        backgroundColor: "#000",
-                      },
-                    }}
-                  >
-                    <RepeatOutlined sx={{fontSize:"20px"}}/>
-                  </Box>
-                </Box>
-              </Box>
-            </Item>
-          </Grid>
-          <Grid
-            item
-            xs={12}
-            sm={6}
-            md={4}
-          >
-            <Item
-              sx={{ display: "flex", height: "250px", alignItems: "center" ,gap:"30px"}}
-            >
-              <Box
-                sx={{
-                  display: "flex",
-                  height: { md: "120px", sm: "150px", xs: "200px" },
-                    width: { md: "120px", sm: "150px", xs: "250px" },
-                  // borderRadius: "50%!important",
-                  background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/product/electro/19.jpg"})
-                center/cover no-repeat`,
-                }}
-              />
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                     textAlign: "initial",
-                   width:{md:"175px",sm:"200px",xs:"300px"}
-                }}
-              >
-                <Typography variant="h4">
-                  Autel Robotics - X-
-                   Star Premium
-                   Quadcopter
-                </Typography>
-                <Box display="flex" paddingTop="10px">
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                </Box>
-
-                <Typography
-    
-                  // textAlign="center"
-                  sx={{
-                    paddingBottom: "20px",
-                  }}
-                >
-                 
-                  ₹ 1199.00
-                </Typography>
-                <Box
-                  sx={{
-                    display: "flex",
-                    gap: "10px",
-                    color: "#c1c1c1",
-                    fontWeight: "100px",
-                  }}
-                >
-                  <Box
-                    sx={{
-                      borderRadius: "50%",
-                      border: "1px solid #c1c1c1",
-                      height: "30px",
-                      width: "30px",
-                      padding: "5px 4px",
-                      "&:hover": {
-                        color: "#fff",
-                        backgroundColor: "#000",
-                      },
-                    }}
-                  >
-                    <ShoppingCartOutlined sx={{fontSize:"20px"}}/>
-                  </Box>
-                  <Box
-                    sx={{
-                      borderRadius: "50%",
-                      border: "1px solid #c1c1c1",
-                      height: "30px",
-                      width: "30px",
-                      padding: "5px 4px",
-                      "&:hover": {
-                        color: "#fff",
-                        backgroundColor: "#000",
-                      },
-                    }}
-                  >
-                    <FavoriteBorder sx={{fontSize:"20px"}}/>
-                  </Box>
-                  <Box
-                    sx={{
-                      borderRadius: "50%",
-                      border: "1px solid #c1c1c1",
-                      height: "30px",
-                      width: "30px",
-                      padding: "5px 4px",
-                      "&:hover": {
-                        color: "#fff",
-                        backgroundColor: "#000",
-                      },
-                    }}
-                  >
-                    <RepeatOutlined sx={{fontSize:"20px"}}/>
-                  </Box>
-                </Box>
-              </Box>
-            </Item>
-          </Grid>
-          <Grid
-            item
-            xs={12}
-            sm={6}
-            md={4}
-          >
-            <Item
-              sx={{ display: "flex", height: "250px", alignItems: "center",gap:"30px" }}
-            >
-              <Box
-                sx={{
-                  display: "flex",
-                  height: { md: "120px", sm: "150px", xs: "200px" },
-                    width: { md: "120px", sm: "150px", xs: "250px" },
-                  // borderRadius: "50%!important",
-                  background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/product/electro/18.jpg"})
-                center/cover no-repeat`,
-                }}
-              />
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                     textAlign: "initial",
-                   width:{md:"175px",sm:"200px",xs:"300px"}
-                }}
-              >
-                <Typography variant="h4">
-                  Autel Robotics - X-
-                   Star Premium
-                   Quadcopter
-                </Typography>
-                <Box display="flex" paddingTop="10px">
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                </Box>
-
-                <Typography
-    
-                  // textAlign="center"
-                  sx={{
-                    paddingBottom: "20px",
-                  }}
-                >
-                 
-                  ₹ 1199.00
-                </Typography>
-                <Box
-                  sx={{
-                    display: "flex",
-                    gap: "10px",
-                    color: "#c1c1c1",
-                    fontWeight: "100px",
-                  }}
-                >
-                  <Box
-                    sx={{
-                      borderRadius: "50%",
-                      border: "1px solid #c1c1c1",
-                      height: "30px",
-                      width: "30px",
-                      padding: "5px 4px",
-                      "&:hover": {
-                        color: "#fff",
-                        backgroundColor: "#000",
-                      },
-                    }}
-                  >
-                    <ShoppingCartOutlined sx={{fontSize:"20px"}}/>
-                  </Box>
-                  <Box
-                    sx={{
-                      borderRadius: "50%",
-                      border: "1px solid #c1c1c1",
-                      height: "30px",
-                      width: "30px",
-                      padding: "5px 4px",
-                      "&:hover": {
-                        color: "#fff",
-                        backgroundColor: "#000",
-                      },
-                    }}
-                  >
-                    <FavoriteBorder sx={{fontSize:"20px"}}/>
-                  </Box>
-                  <Box
-                    sx={{
-                      borderRadius: "50%",
-                      border: "1px solid #c1c1c1",
-                      height: "30px",
-                      width: "30px",
-                      padding: "5px 4px",
-                      "&:hover": {
-                        color: "#fff",
-                        backgroundColor: "#000",
-                      },
-                    }}
-                  >
-                    <RepeatOutlined sx={{fontSize:"20px"}}/>
-                  </Box>
-                </Box>
-              </Box>
-            </Item>
-          </Grid>
-          <Grid
-            item
-            xs={12}
-            sm={6}
-            md={4}
-          >
-            <Item
-              sx={{ display: "flex", height: "250px", alignItems: "center",gap:"30px" }}
-            >
-              <Box
-                sx={{
-                  display: "flex",
-                  height: { md: "130px", sm: "150px", xs: "200px" },
-                    width: { md: "130px", sm: "150px", xs: "250px" },
-                  // borderRadius: "50%!important",
-                  background: `url(${"https://template.hasthemes.com/ezone/ezone/assets/img/product/electro/17.jpg"})
-                center/cover no-repeat`,
-                }}
-              />
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                     textAlign: "initial",
-                  width:{md:"175px",sm:"200px",xs:"300px"}
-                }}
-              >
-                <Typography variant="h4">
-                  Autel Robotics - X-
-                   Star Premium
-                   Quadcopter
-                </Typography>
-                <Box display="flex" paddingTop="10px">
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                  <Star sx={{ color: "#FFC600", fontSize: "20px" }} />
-                </Box>
-
-                <Typography
-    
-                  // textAlign="center"
-                  sx={{
-                    paddingBottom: "20px",
-                  }}
-                >
-                 
-                  ₹ 1199.00
-                </Typography>
-                <Box
-                  sx={{
-                    display: "flex",
-                    gap: "10px",
-                    color: "#c1c1c1",
-                    fontWeight: "100px",
-                  }}
-                >
-                  <Box
-                    sx={{
-                      borderRadius: "50%",
-                      border: "1px solid #c1c1c1",
-                      height: "30px",
-                      width: "30px",
-                      padding: "5px 4px",
-                      "&:hover": {
-                        color: "#fff",
-                        backgroundColor: "#000",
-                      },
-                    }}
-                  >
-                    <ShoppingCartOutlined sx={{fontSize:"20px"}}/>
-                  </Box>
-                  <Box
-                    sx={{
-                      borderRadius: "50%",
-                      border: "1px solid #c1c1c1",
-                      height: "30px",
-                      width: "30px",
-                      padding: "5px 4px",
-                      "&:hover": {
-                        color: "#fff",
-                        backgroundColor: "#000",
-                      },
-                    }}
-                  >
-                    <FavoriteBorder sx={{fontSize:"20px"}}/>
-                  </Box>
-                  <Box
-                    sx={{
-                      borderRadius: "50%",
-                      border: "1px solid #c1c1c1",
-                      height: "30px",
-                      width: "30px",
-                      padding: "5px 4px",
-                      "&:hover": {
-                        color: "#fff",
-                        backgroundColor: "#000",
-                      },
-                    }}
-                  >
-                    <RepeatOutlined sx={{fontSize:"20px"}}/>
-                  </Box>
-                </Box>
-              </Box>
+                <AccessTime sx={{}}/>
+              <Typography sx={{fontSize:"20px",fontWeight:"600",}}>Learn at your own pace</Typography>
+              <Typography sx={{color:"#636363",fontSize:"16px",textAlign:"center"}}>Complete the training in less than 6 months while working a full-time job.</Typography>
+          <Typography sx={{borderBottom:"1px solid #EEEEEE",height:"20px",width:"100%"}}/>
+          <Box sx={{padding:"5px 30px"}}>
+          <Typography sx={{fontSize:"20px",fontWeight:"600",textAlign:"center"}}>Under 10 hours</Typography>
+          <Typography sx={{textAlign:"center"}}>of flexible study per week³</Typography>
+          </Box>
             </Item>
           </Grid>
         </Grid>

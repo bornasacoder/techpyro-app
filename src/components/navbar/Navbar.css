@@ -1,0 +1,17 @@
+.css-4hy2u4-MuiInputBase-input-MuiOutlinedInput-input{
+    background: #fff !important;
+    padding: 13px 10px !important;
+}
+.css-t1t02f-MuiInputBase-root-MuiFilledInput-root{
+    background-color: #ebe6e6a5 !important;
+}
+/* .css-4hy2u4-MuiInputBase-input-MuiOutlinedInput-input:focus{
+/* border-top: 1px solid blue !important; */
+
+
+/* border-top-left-radius: 8px !important; 
+outline: 2px solid blue !important; */
+
+.css-h5wa9b-MuiInputBase-root-MuiOutlinedInput-root:focus{
+    outline: 2px solid blue !important;
+}

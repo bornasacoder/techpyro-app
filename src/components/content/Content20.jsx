@@ -19,7 +19,10 @@ const Span = styled("span")(({ theme }) => ({
   fontWeight: "400",
   margin: "0px 5px",
 }));
-const Content20 = () => {
+const Content20 = ({setJoinopen}) => {
+  const handleJoinOpen = () => {
+    setJoinopen(true);
+  };
   return (
     <StyleToolbar>
       <Box
@@ -64,6 +67,7 @@ const Content20 = () => {
                 backgroundColor: "#00419E",
               },
             }}
+            onClick={handleJoinOpen}
           >
             Join for free
           </Button>

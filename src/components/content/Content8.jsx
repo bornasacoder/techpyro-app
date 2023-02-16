@@ -1,8 +1,7 @@
-import { ArrowForward, Campaign } from "@mui/icons-material";
 import { Button, Grid, Paper, Typography } from "@mui/material";
 import { Box, styled } from "@mui/system";
-import SearchBar from "components/navbar/searchbar/SearchBar";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   display: "flex",
   justifyContent:"space-around",
@@ -21,6 +20,13 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
   },
 }));
 export default function Content8() {
+  const nevigate =useNavigate()
+  const handlebutton =()=>{
+    nevigate("/about")
+  }
+  const handlebutton1 =()=>{
+    nevigate("/university")
+  }
   return (
     <StyleToolbar>
       <Box sx={{ flex: "2" }}>
@@ -33,10 +39,10 @@ export default function Content8() {
         </Typography>
         <br />
         <Box sx={{ display: "flex", gap: "20px",flexDirection:{md:"row",sm:"row",xs:"column"} }}>
-          <Button sx={{ border: "1px solid #005FB9", borderRadius: "5px" }}>
+          <Button sx={{ border: "1px solid #005FB9", borderRadius: "5px" }} onClick={handlebutton}>
             TechPyro for Enterprise
           </Button>
-          <Button sx={{ border: "1px solid #005FB9", borderRadius: "5px" }}>
+          <Button sx={{ border: "1px solid #005FB9", borderRadius: "5px" }} onClick={handlebutton1}>
             TechPyro for Teams
           </Button>
         </Box>

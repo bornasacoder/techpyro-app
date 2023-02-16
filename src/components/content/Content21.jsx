@@ -20,7 +20,10 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
     padding: "20px 8px",
   },
 }));
-export default function Content21() {
+export default function Content21({setJoinopen}) {
+  const handleJoinOpen = () => {
+    setJoinopen(true);
+  };
   return (
     <StyleToolbar>
        <Box sx={{ flex: "2",  background: `url(${"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-rebrand/secondary-consumer-cta/Image-Next-Step.png?auto=format%2Ccompress&dpr=2&w=471&h=330&q=40"})
@@ -35,7 +38,7 @@ export default function Content21() {
         <Box sx={{ display: "flex", gap: "20px" }}>
           <Button sx={{  borderRadius: "5px",backgroundColor:"#0056D2",color:"#fff","&:hover":{
             backgroundColor:"#00419E"
-          } }}>
+          } }}   onClick={handleJoinOpen}>
             Join for free
           </Button>
         </Box>

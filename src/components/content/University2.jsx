@@ -15,7 +15,7 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
   },
   [theme.breakpoints.down("sm")]: {
   flexDirection:"column-reverse",
-  padding:"220px 10px  40px"
+  padding:"280px 10px  40px"
   },
 }));
 const Item = styled(Paper)(({ theme }) => ({
@@ -25,7 +25,7 @@ const Item = styled(Paper)(({ theme }) => ({
   display: "flex",
   alignItems: "center",
 }));
-export default function Content14() {
+export default function University2() {
   return (
     <StyleToolbar>
      
@@ -43,9 +43,9 @@ export default function Content14() {
           flexDirection:{md:"row",sm:"row",xs:"column"}
         }}
       >
-        <Typography sx={{fontSize:{md:"45px",sm:"35px",xs:"30px"},display:"flex",borderRight:{md:"1px solid #636363",sm:"1px solid #636363"},borderBottom:{md:"none",sm:"none",xs:"1px solid #636363"},color:"#fff",gap:"10px",alignItems:"center",paddingRight:{md:"50px",sm:"10px"},padding:{xs:"20px 0px"},fontWeight:"600"}}>25% <Typography sx={{fontSize:"16px"}}>More productivity</Typography></Typography>
-        <Typography sx={{fontSize:{md:"45px",sm:"35px",xs:"30px"},display:"flex",borderRight:{md:"1px solid #636363",sm:"1px solid #636363"},borderBottom:{md:"none",sm:"none",xs:"1px solid #636363"},color:"#fff",gap:"10px",alignItems:"center",paddingRight:{md:"50px",sm:"10px"},padding:{xs:"20px 0px"},fontWeight:"600"}}>38% <Typography sx={{fontSize:"16px"}}>Higher retention</Typography></Typography>
-        <Typography sx={{fontSize:{md:"45px",sm:"35px",xs:"30px"},display:"flex",color:"#fff",gap:"10px",alignItems:"center",paddingRight:{md:"50px",sm:"10px"},padding:{xs:"20px 0px"},fontWeight:"600"}}>24% <Typography sx={{fontSize:"16px"}}>Lower training costs</Typography></Typography>
+        <Typography sx={{fontSize:{md:"45px",sm:"35px",xs:"30px"},display:"flex",borderRight:{md:"1px solid #636363",sm:"1px solid #636363"},borderBottom:{md:"none",sm:"none",xs:"1px solid #636363"},color:"#fff",gap:"10px",alignItems:"center",paddingRight:{md:"50px",sm:"10px"},padding:{xs:"20px 0px"},fontWeight:"600"}}>88% <Typography sx={{fontSize:"14px",flexWrap:"wrap"}}>of students are more likely to enroll in degree programs with industry microcredentials</Typography></Typography>
+        <Typography sx={{fontSize:{md:"45px",sm:"35px",xs:"30px"},display:"flex",borderRight:{md:"1px solid #636363",sm:"1px solid #636363"},borderBottom:{md:"none",sm:"none",xs:"1px solid #636363"},color:"#fff",gap:"10px",alignItems:"center",paddingRight:{md:"50px",sm:"10px"},paddingLeft:{md:"50px",sm:"10px"},padding:{xs:"20px 0px"},fontWeight:"600"}}>92% <Typography sx={{fontSize:"14px",flexWrap:"wrap"}}>of employers agree professional certificates strengthen a candidate’s application</Typography></Typography>
+        <Typography sx={{fontSize:{md:"45px",sm:"35px",xs:"30px"},display:"flex",color:"#fff",gap:"10px",alignItems:"center",paddingRight:{md:"50px",sm:"10px"},paddingLeft:{md:"50px",sm:"10px"},padding:{xs:"20px 0px"},fontWeight:"600"}}>89% <Typography sx={{fontSize:"16px",flexWrap:"wrap"}}>of students believe earning a professional certificate will help them get hired</Typography></Typography>
       </Box>
       <Box sx={{ flex: "2" }}>
       <Box >
@@ -259,10 +259,9 @@ export default function Content14() {
         </Grid>
       </Box>
       </Box>
-      <Box sx={{ flex: {md:"2",sm:"2",xs:"4"} }}>
-        <Typography variant="h2" sx={{ fontSize: {md:"40px",sm:"30px",xs:"20px"}, lineHeight: "40px" }}>
-          Join over 3,000 <br /> global companies that choose Coursera for
-          Business
+      <Box sx={{ flex: {md:"2",sm:"2",xs:"4"},display:"flex",flexWrap:"wrap" }}>
+        <Typography variant="h2" sx={{ fontSize: {md:"35px",sm:"30px",xs:"20px"}, lineHeight: "40px" }}>
+        Join colleges and universities worldwide that choose Coursera for Campus
         </Typography>
       </Box>
     </StyleToolbar>

@@ -3,163 +3,39 @@ import { Button, Grid, Paper, Typography } from "@mui/material";
 import { Box, styled } from "@mui/system";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
-  backgroundColor:"#FFFFFF",
-  // padding: "58px  85px  ",
-  padding: "58px  85px  ",
-  backgroundColor:"#FFFFFF",
-  // gap:"35px",
+  backgroundColor:"#F5F7F8",
+  padding: "58px  58px  ",
+  display:"flex",
+  gap:"45px",
   [theme.breakpoints.down("md")]: {
-  justifyContent:"center",
-  // padding: "25px 25px ",
+  // justifyContent:"center",
   },
   [theme.breakpoints.down("sm")]: {
-    justifyContent:"center",
-    padding: "25px 20px 10px",
+    flexDirection: "column-reverse",
+padding:"28px 20px"
   },
-}));
-const Item = styled(Paper)(({ theme }) => ({
-  // borderRadius: "!important",
-  boxShadow: "none!important",
-  fontSize: "18px",
-  textAlign: "center",
 }));
 export default function Content16() {
   return (
     <StyleToolbar>
-       <Box
-       display="flex"
-       justifyContent="center"
-       flexDirection="column"
-       sx={{ padding: "26px 0px 28px", gap:"5px",  }}
-      >
-        <Typography
-          sx={{
-            textAlign: "center",
-            fontFamily: "Trirong",
-            fontSize: { md: "48px", sm: "35px", xs: "20px" },
-            fontWeight: "500",
-          }}
-        >
-        Value Store - Shop Until You Drop
-        </Typography>
-        <br></br>
-       
-    
-      <Box
-        display="flex"
-        gap={5}
-        sx={
-          {   
-          }
-        }
-      >
-         <Grid
-          container
-          rowSpacing={4}
-          sx={{
-            display: "flex",
-            alignItems: "center",
-          }}
-        >
-         <Grid item xs={6} sm={6} md={4} >
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                height:{md:'40vh',sm:'35vh',xs:"25vh"},width:{md:"25vw",sm:'30vw',xs:"40vw"},
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/MoreBrandsForYou/Desktop/People-D.jpg?q=80&auto=format"})
-                center/cover no-repeat`,
-              }}
-            >
-            </Item>
-            
-          </Grid>
-         <Grid item xs={6} sm={6} md={4} >
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                height:{md:'40vh',sm:'35vh',xs:"25vh"},width:{md:"25vw",sm:'30vw',xs:"40vw"}, 
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/MoreBrandsForYou/Desktop/ForeverGlam-D.jpg?q=80&auto=format"})
-                center/cover no-repeat`,
-              }}
-            > 
-            </Item>
-          </Grid>
-         <Grid item xs={6} sm={6} md={4} >
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                height:{md:'40vh',sm:'35vh',xs:"25vh"},width:{md:"25vw",sm:'30vw',xs:"40vw"},
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/MoreBrandsForYou/Desktop/Byford-D.jpg?q=80&auto=format"})
-                center/cover no-repeat`,
-              }}
-            >
-            </Item>
-          </Grid>
-         <Grid item xs={6} sm={6} md={4} >
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                height:{md:'40vh',sm:'35vh',xs:"25vh"},width:{md:"25vw",sm:'30vw',xs:"40vw"},
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/MoreBrandsForYou/Desktop/PTJ-D.jpg?q=80&auto=format"})
-                center/cover no-repeat`,
-              }}
-            >
-            </Item>
-          </Grid>
-         <Grid item xs={6} sm={6} md={4} >
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                height:{md:'40vh',sm:'35vh',xs:"25vh"},width:{md:"25vw",sm:'30vw',xs:"40vw"},
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/MoreBrandsForYou/Desktop/Ajile-D.jpg?q=80&auto=format"})
-                center/cover no-repeat`,
-              }}
-            >
-            </Item>
-          </Grid>
-         <Grid item xs={6} sm={6} md={4} >
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                height:{md:'40vh',sm:'35vh',xs:"25vh"},width:{md:"25vw",sm:'30vw',xs:"40vw"}, 
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/MoreBrandsForYou/Desktop/YU-D.jpg?q=80&auto=format"})
-                center/cover no-repeat`,
-              }}
-            >
-            </Item>
-          </Grid>
-        </Grid>
-      </Box>
-      </Box>
-      <Box sx={{display:{md:'flex',sm:"flex",xs:'none'}}}>
-       <Grid item xs={12} sm={12} md={12} >
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                borderRadius: "none!important",
-                paddingBottom:"none!important",
-                height: {md:'10vh',sm:'8vh',},
-                width: {md:"90vw",sm:"82vw",},
-                background: `url(${"https://imagescdn.pantaloons.com/static/brand/pantaloons/production/FashionForNation/Unisex/Strip/Desktop/StripFooter-D.jpg?q=80&auto=format"})
-                center/cover no-repeat`,
-              }}
-            > 
-            </Item>
-          </Grid>
-          </Box>
+        
+      <Box sx={{flex:{md:"2",sm:"2",xs:"4"}}}>
+       <Typography sx={{fontSize:{md:"18px",sm:"16px",xs:"14px"},fontWeight:"600"}}>WORLD-CLASS CONTENT</Typography>
+       <br/>
+       <Typography sx={{fontSize:{md:"48px",sm:"36px",xs:"24px"},lineHeight:{md:"48px",sm:"36px",xs:"30px"},fontWeight:"600"}}>Offer your learners content from 275+ leading universities and industry partners</Typography>
+       <br/>
+       <Typography sx={{fontSize:{md:"20px",sm:"18px",xs:"16px"},lineHeight:"30px",}}>Train teams with engaging content available in multiple formats and lengths suited to different learning needs and schedules.</Typography>
+       <br/>
+       <Box>
+        <Button endIcon={<ArrowForward/>} sx={{"&:hover":{
+          textDecoration:"underline",color:"#00419E"
+        }}}>
+          Explore our content
+        </Button>
+       </Box>
+        </Box>
+        <Box sx={{ background: `url(${"https://images.ctfassets.net/2pudprfttvy6/2eC1z7LVc0mMog2PnVxS5u/c211f33c65ec087d559b715a8579b6f8/university-collage.png"})
+                center/cover no-repeat`,height:{md:"70vh",sm:"70vh",xs:"45vh"},width:{md:"40vw",sm:"40vw",xs:"92vw"},borderRadius:"5px"}}/>
     </StyleToolbar>
   );
 }

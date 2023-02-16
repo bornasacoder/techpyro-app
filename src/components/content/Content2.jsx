@@ -1,10 +1,20 @@
+import { Apple, Facebook, Google } from "@mui/icons-material";
 import {
   Box,
   Button,
+  Card,
+  CardContent,
+  Dialog,
+  DialogActions,
+  DialogContent,
+  DialogTitle,
+  Grid,
   styled,
+  TextField,
   Typography,
 } from "@mui/material";
-import React from "react";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   backgroundColor: "#FFFFFF!important",
   padding: "78px 58px ",
@@ -24,6 +34,7 @@ const Right = styled(Box)(({ theme }) => ({
   },
   [theme.breakpoints.down("sm")]: {
     flex:"4",
+    textAlign:"center"
     // justifyContent:"center"
   },
 }));
@@ -32,19 +43,24 @@ const Left = styled(Box)(({ theme }) => ({
   display:"flex",
   justifyContent:"flex-end",
   [theme.breakpoints.down("md")]: {
-    // paddind:"20px 20px",
     flex:"0",
   },
   [theme.breakpoints.down("sm")]: {
-    // paddind:"20px 20px",
     flex:"0",
   },
 }));
-export default function Content2() {
+export default function Content2({setJoinopen}) {
+  const navigate = useNavigate()
+  const handlebutton = () =>{
+    navigate("/about")
+  }
+  const handleJoinOpen = () => {
+    setJoinopen(true);
+  };
   return (
     <StyleToolbar>
       <Right>
-          <Typography  sx={{fontSize:{md:"60px",sm:"50px",xs:'40px'},}}>Learn without limits</Typography>
+          <Typography  sx={{fontSize:{md:"60px",sm:"50px",xs:'45px'},}}>Learn without limits</Typography>
           <Typography sx={{fontSize:"18px"}}>
             Start, switch, or advance your career with more than 5,400 courses,
             Professional Certificates, and degrees from world-class universities
@@ -54,8 +70,8 @@ export default function Content2() {
           <Box display="flex" gap={2} sx={{flexDirection:{md:'row',sm:'row',xs:'column'}}}>
           <Button sx={{padding:{md:"10px 30px",sm:"10px 30px",xs:"20px 30px"},color:"#FFFFFF", backgroundColor:"#0056D2",borderRadius:"5px","&:hover":{
              backgroundColor:"#00419E"
-            }}}>Join for free</Button>
-            <Button sx={{padding:{md:"10px 30px",sm:"10px 30px",xs:"20px 30px"},color:"#00419E",border:"3px solid #00419E ",borderRadius:"5px"}}>Try TechPyro for Business</Button>
+            }}} onClick={handleJoinOpen}>Join for free</Button>
+            <Button sx={{padding:{md:"10px 30px",sm:"10px 30px",xs:"20px 30px"},color:"#00419E",border:"3px solid #00419E ",borderRadius:"5px"}} onClick={handlebutton} >Try TechPyro for Business</Button>
           </Box>
       </Right>
       <Left>

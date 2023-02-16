@@ -1,16 +1,4 @@
-import {
-  ColorLensOutlined,
-  CurrencyRupee,
-  DesktopMacOutlined,
-  DisplaySettingsOutlined,
-  NoPhotography,
-  PhotoCamera,
-  PhotoCameraOutlined,
-  Settings,
-  SettingsOutlined,
-  SettingsSuggestOutlined,
-  Star,
-} from "@mui/icons-material";
+
 import { Button, Grid, Paper, Typography } from "@mui/material";
 import { Box, styled } from "@mui/system";
 import React from "react";
@@ -27,7 +15,6 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
 }));
 const Item = styled(Paper)(({ theme }) => ({
   borderRadius: "5px!important",
-  // boxShadow: "none!important",
   textAlign: "center",
   maxWidth: "95%",
   backgroundColor: "#FFFFFF!important",
@@ -55,7 +42,6 @@ export default function Content6() {
           sx={{
             display: "flex",
             alignItems: "center",
-            // height:"300px",
           }}
           columnSpacing={{ xs: 0, sm: 2, md: 1 }}
         >
@@ -65,8 +51,6 @@ export default function Content6() {
                   display: "flex",
                   alignItems: "center",
                   gap:"10px",
-                  // padding: "0px 10px",
-                  // height:"55px",
                   "&:hover":{
                     boxShadow:"-1px 0px 5px 0px rgba(156,150,156,0.84)"
                   }
@@ -159,8 +143,6 @@ export default function Content6() {
                   display: "flex",
                   alignItems: "center",
                   gap:"10px",
-                  // padding: "0px 10px",
-                  // height:"55px",
                   "&:hover":{
                     boxShadow:"-1px 0px 5px 0px rgba(156,150,156,0.84)"
                   }
@@ -209,8 +191,6 @@ export default function Content6() {
                   display: "flex",
                   alignItems: "center",
                   gap:"10px",
-                  // padding: "0px 10px",
-                  // height:"55px",
                   "&:hover":{
                     boxShadow:"-1px 0px 5px 0px rgba(156,150,156,0.84)"
                   }
@@ -234,8 +214,6 @@ export default function Content6() {
                   display: "flex",
                   alignItems: "center",
                   gap:"10px",
-                  // padding: "0px 10px",
-                  // height:"55px",
                   "&:hover":{
                     boxShadow:"-1px 0px 5px 0px rgba(156,150,156,0.84)"
                   }

@@ -11,6 +11,7 @@ import {
 } from "@mui/material";
 import React from "react";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { useNavigate } from "react-router-dom";
 const CustomButton = styled(Box)(({ theme }) => ({
  display: 'flex',
 // justifyContent:"space-between",
@@ -47,6 +48,16 @@ const MoreButton = styled(Box)(({ theme }) => ({
   },
 }));
 export default function NavButton() {
+  const navigate = useNavigate()
+  const handlebutton = () =>{
+    navigate("/about")
+  }
+  const handleCareerbutton=()=>{
+    navigate("/career")
+  }
+  const handleUniversitybutton=()=>{
+    navigate("/university")
+  }
   return (
     <CustomButton >
       <MoreButton
@@ -69,7 +80,7 @@ export default function NavButton() {
             margin: "250px 0 0 0px",
           }}
         >
-          <List component="nav" aria-label="mailbox folders">
+          <List component="nav" aria-label="mailbox folders" sx={{width:"40vw",height:"auto"}}>
             <ListItem button>
               <ListItemText primary="Inbox" />
             </ListItem>
@@ -96,8 +107,8 @@ export default function NavButton() {
         }}
       >
        <Typography variant="p" sx={{fontWeight:"400", fontSize:"13px","&:hover":{
-          color:"#0056D2",borderBottomStyle:"solid"
-        }}}>Find your New Career</Typography>
+          color:"#0056D2",textDecoration:"underline"
+        }}} onClick={handleCareerbutton}>Find your New Career</Typography>
       </MoreButton>
       <MoreButton
         sx={{
@@ -107,8 +118,8 @@ export default function NavButton() {
         }}
       >
       <Typography variant="p" sx={{fontWeight:"400", fontSize:"13px","&:hover":{
-        color:"#0056D2",borderBottomStyle:"solid"
-      }}}>For Enterprice</Typography>
+        color:"#0056D2",textDecoration:"underline"
+      }}} onClick={handlebutton}>For Enterprice</Typography>
       </MoreButton>
       <MoreButton
         sx={{
@@ -118,8 +129,8 @@ export default function NavButton() {
         }}
       >
       <Typography variant="p" sx={{fontWeight:"400", fontSize:"13px","&:hover":{
-        color:"#0056D2",borderBottomStyle:"solid"
-      }}}>For Universities</Typography>
+        color:"#0056D2",textDecoration:"underline"
+      }}} onClick={handleUniversitybutton}>For Universities</Typography>
       </MoreButton>
     </CustomButton>
   );

@@ -1,29 +1,5 @@
-import {
-  ArrowDropDown,
-  Battery0Bar,
-  Battery90,
-  Bluetooth,
-  Cake,
-  CameraAltOutlined,
-  DesktopWindows,
-  DesktopWindowsOutlined,
-  DeviceHubOutlined,
-  DirectionsCarOutlined,
-  GamesOutlined,
-  KebabDining,
-  KeyboardArrowDown,
-  KeyboardArrowRight,
-  LunchDining,
-  NotAccessibleRounded,
-  PhonelinkRingSharp,
-  SetMeal,
-  SportsEsportsOutlined,
-  TouchApp,
-  TvOffOutlined,
-  TvOutlined,
-  VolumeUp,
-  Water,
-} from "@mui/icons-material";
+
+import { ArrowForward } from "@mui/icons-material";
 import {
   Box,
   Button,
@@ -39,187 +15,49 @@ import NavButton from "components/navbar/navButton/NavButton";
 import React from "react";
 // import styled from "styled-components";
 const StyleToolbar = styled(Box)(({ theme }) => ({
-  padding: "48px 42px ",
+  padding: "58px 58px ",
   display: "flex",
-  gap: "30px",
+  gap: "50px",
   [theme.breakpoints.down("sm")]: {
    flexDirection:'column',
    padding: "48px 10px ",
     },
 }));
-const Left = styled(Box)(({ theme }) => ({
-  flex: 1,
-  boxShadow: "5px 5px 5px 5px #888888",
-}));
-const Right = styled(Box)(({ theme }) => ({
-  flex: 3,
-  [theme.breakpoints.down("sm")]: {
-    padding: "48px 0px ",
-     },
-}));
+
 
 export default function Content1() {
   return (
     <StyleToolbar>
-      <Left>
-        <Box
-          sx={{
-            display: "flex",
-            bgcolor: "#000",
-            color: "#fff",
-            justifyContent:"space-between",
-             padding: {md:"10px 10px",sm:"15px 15px",xs:"20px 15px"},
-          }}
-        >
-          <Typography variant="h5">ALL DEPARTMENTS</Typography>
-          <KeyboardArrowDown />
+        
+      <Box sx={{flex:"2"}}>
+       <Typography sx={{fontSize:"20px",fontWeight:"600"}}>MEASUREMENT & BENCHMARKING</Typography>
+       <br/>
+       <Typography sx={{fontSize:"48px",lineHeight:"48px",fontWeight:"600"}}>Demonstrate the business case for learning and focus your learning strategy</Typography>
+       <br/>
+       <Typography sx={{fontSize:"20px",lineHeight:"30px",}}>Leverage our Skills Dashboard to make informed decisions that maximize training effectiveness and advance company goals.</Typography>
+       <br/>
+       <Box>
+        <Button endIcon={<ArrowForward/>} sx={{"&:hover":{
+          textDecoration:"underline",color:"#00419E"
+        }}}>
+          Learn about Skills Dashboard
+        </Button>
+       </Box>
+       <br/>
+       <Typography sx={{fontSize:"20px",lineHeight:"30px",fontWeight:"600",}}>Understand the state of skills</Typography>
+       <Typography sx={{}}>"The Skills Dashboard gives us a true sense of what our people know and are good at, which help us assess talent more intelligently."</Typography>
+       <br/>
+       <Typography sx={{fontWeight:"600"}}>Source: TechPyro for Business Case Study, feb 2023</Typography>
+       <br/>
+       <br/>
+       <Box sx={{display:"flex",gap:"20px"}}>
+       <Box sx={{ background: `url(${"https://images.ctfassets.net/2pudprfttvy6/2RhZw4bhH8Eq1VEcYGgen8/6da6ba190c0d7a9b86defdea549d7bb7/logo-adobe.svg"})
+                center/cover no-repeat`,height:"29px",width:"114px",borderRadius:"5px"}}/>
+                <Typography sx={{fontWeight:"600"}}>Justin M. <br/> Head of Talent Development and Digital Learning</Typography>
+       </Box>
         </Box>
-        <Box
-          sx={{
-            display: "flex",
-             padding: {md:"10px 10px",sm:"15px 15px",xs:"20px 15px"},
-            borderBottom: "1px solid #D2D2D2",gap:"20px"
-          }}
-        >
-          <DesktopWindowsOutlined />
-          <Typography variant="h5">Computers & laptops</Typography>
-          <KeyboardArrowRight  sx={{display:{md:"flex",sm:"none",xs:"none"}}}/>
-        </Box>
-        <Box
-          sx={{
-            display: "flex",
-             padding: {md:"10px 10px",sm:"15px 15px",xs:"20px 15px"},
-            borderBottom: "1px solid #D2D2D2",gap:"20px"
-          }}
-        >
-          <PhonelinkRingSharp />
-          <Typography variant="h5" gap={3}>
-            phone & tablets
-          </Typography>
-          <KeyboardArrowRight  sx={{display:{md:"flex",sm:"none",xs:"none"}}}/>
-        </Box>
-        <Box
-          sx={{
-            display: "flex",
-             padding: {md:"10px 10px",sm:"15px 15px",xs:"20px 15px"},
-            borderBottom: "1px solid #D2D2D2",gap:"20px"
-          }}
-        >
-          <CameraAltOutlined />
-          <Typography variant="h5">Camera & photo</Typography>
-          <KeyboardArrowRight  sx={{display:{md:"flex",sm:"none",xs:"none"}}}/>
-        </Box>
-        <Box
-          sx={{
-            display: "flex",
-             padding: {md:"10px 10px",sm:"15px 15px",xs:"20px 15px"},
-            borderBottom: "1px solid #D2D2D2",gap:"20px"
-          }}
-        >
-          <TvOutlined />
-          <Typography variant="h5">Tv & Audio</Typography>
-        </Box>
-        <Box
-          sx={{
-            display: "flex",
-             padding: {md:"10px 10px",sm:"15px 15px",xs:"20px 15px"},
-            borderBottom: "1px solid #D2D2D2",gap:"20px"
-          }}
-        >
-          <SportsEsportsOutlined />
-          <Typography variant="h5">Games & Play Station</Typography>
-        </Box>
-        <Box
-          sx={{
-            display: "flex",
-             padding: {md:"10px 10px",sm:"15px 15px",xs:"20px 15px"},
-            borderBottom: "1px solid #D2D2D2",gap:"20px"
-          }}
-        >
-          <DirectionsCarOutlined />
-          <Typography variant="h5">Car Electronics</Typography>
-        </Box>
-        <Box
-          sx={{
-            display: "flex",
-             padding: {md:"10px 10px",sm:"15px 15px",xs:"20px 15px"},
-            borderBottom: "1px solid #D2D2D2",gap:"20px"
-          }}
-        >
-          <NotAccessibleRounded />
-          <Typography variant="h5">Accessories</Typography>
-        </Box>
-        <Box
-          sx={{
-            display: "flex",
-             padding: {md:"10px 10px",sm:"15px 15px",xs:"20px 15px"},
-            borderBottom: "1px solid #D2D2D2",gap:"20px"
-          }}
-        >
-          <DeviceHubOutlined />
-          <Typography variant="h5">Gagets</Typography>
-        </Box>
-        <Box
-          sx={{
-            display: "flex",
-             padding: {md:"10px 10px",sm:"15px 15px",xs:"20px 15px"},
-            borderBottom: "1px solid #D2D2D2",gap:"20px"
-          }}
-        >
-          <DirectionsCarOutlined />
-          <Typography variant="h5">Other Equipment</Typography>
-        </Box>
-      </Left>
-      <Right>
-        <NavButton />
-        <Box
-          sx={{
-            background: `url(${"	https://template.hasthemes.com/ezone/ezone/assets/img/slider/5.jpg"})
-   center/cover no-repeat`,
-            height: {md:"80vh",sm:"80vh",xs:"50vh"},
-            width: "100%",
-          }}
-        >
-          <Box
-            sx={{
-              height: "100%",
-              width: "100%",
-              display: "flex",
-              paddingLeft: "40px",
-              justifyContent: "center",
-              flexDirection: "column",
-            }}
-            data-aos="fade-down"
-          >
-            <Typography
-              variant="h1"
-              sx={{ fontSize: {md:"48px",sm:"38px",xs:"30px"}, alignItems: "center" }}
-            >
-              Invention of <br /> Design Pletform
-            </Typography>
-            <Typography sx={{ fontSize: "16px", alignItems: "center" }}>
-              Best Product with Warranty
-            </Typography>
-            <Button
-              sx={{
-                // border: "1px solid #000",
-                background: "#ffffff",
-                color: "#000",
-                borderRadius: "3px",
-                width: "150px",
-                marginTop: "20px",
-                "&:hover": {
-                  backgroundColor: "#000",
-                  color: "#ffffff",
-                },
-                // display: { md: "block", sm: "none", xs: "none" },
-              }}
-            >
-              BUY NOW
-            </Button>
-          </Box>
-        </Box>
-      </Right>
+        <Box sx={{ background: `url(${"https://images.ctfassets.net/2pudprfttvy6/18cDv7LyvXhf8BMXL25O5o/573fbbc4015253f9e77c8095d096e420/SkillsDashboard_1-5x.png"})
+                center/cover no-repeat`,height:"80vh",width:"40vw",borderRadius:"5px"}}/>
     </StyleToolbar>
   );
 }

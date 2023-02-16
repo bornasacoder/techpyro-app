@@ -4,115 +4,52 @@ import { Box, styled } from "@mui/system";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   padding: "58px 48px ",
-  backgroundColor:"#F2F2F2",
+  backgroundColor:"#FFFFFF",
+  display:"flex",
+  gap:"50px",
   [theme.breakpoints.down("md")]: {
-  justifyContent:"center",
-  padding: "25px 5px ",
+  // justifyContent:"center",
+  // padding: "25px 5px ",
   },
-  [theme.breakpoints.down("md")]: {
-    justifyContent:"center",
+  [theme.breakpoints.down("sm")]: {
+    flexDirection: "column",
+    padding:"28px 20px"
   },
 }));
-const Item = styled(Box)(({ theme }) => ({
-  textAlign: "center",
-  fontSize: "18px",
-  borderRadius:"10px",
-  height:"60vh",
- width:"28vw",
- [theme.breakpoints.down("md")]: {
- height:"50vh",
- width:"45vw"
-  },
- [theme.breakpoints.down("sm")]: {
- height:"40vh",
- width:"92vw"
-  },
-}));
+
 export default function Content10() {
   return (
     <StyleToolbar>
-       
-      <Box
-        display="flex"
-        flexDirection="column"
-      >
-         <Grid
-          container
-          rowSpacing={2}
-          sx={{
-            display: "flex",
-            alignItems: "center",
-           
-          }}
-        >
-         <Grid item xs={12} sm={6} md={4} sx={{display:"flex",flexDirection:"column",alignItems:"center"}} >
-            <Item >
-              <Box   sx={{
-                height:"100%",
-                width:"100%",
-                "&:hover":{
-                  transform:" scale(1.05)",
-            transition:"all",
-                },
-                background: `url(${"https://images.pexels.com/photos/1462630/pexels-photo-1462630.jpeg?auto=compress&cs=tinysrgb&w=600"})
-                center/cover no-repeat`,
-              }}/>
-            </Item>
-            <br/>
-            <Typography variant="h5" sx={{
-              "&:hover":{
-                borderBottom:"2px solid #000"
-              }
-            }}>Top Titorial code for Startup</Typography> 
-          </Grid>
-         <Grid item xs={12} sm={6} md={4} sx={{display:"flex",flexDirection:"column",alignItems:"center"}}>
-            <Item >
-               <Box
-              sx={{
-                height:"100%",
-                width:"100%",
-                "&:hover":{
-                  transform:" scale(1.05)",
-                },
-                background: `url(${"https://images.pexels.com/photos/1595391/pexels-photo-1595391.jpeg?auto=compress&cs=tinysrgb&w=600"})
-                center/cover no-repeat`,
-              }}
-              />
-            </Item>
-            <br/>
-            <Typography variant="h5" sx={{
-              "&:hover":{
-                borderBottom:"2px solid #000"
-              }
-            }}>The Top NodeJs Titorial</Typography>
-          </Grid>
-         <Grid item xs={12} sm={6} md={4} sx={{display:"flex",flexDirection:"column",alignItems:"center"}}>
-            <Item>
-              <Box
-              sx={{
-                height:"100%",
-                width:"100%",
-                "&:hover":{
-                  transform:" scale(1.05)",
-                },
-                background: `url(${"https://images.pexels.com/photos/1467564/pexels-photo-1467564.jpeg?auto=compress&cs=tinysrgb&w=600"})
-                center/cover no-repeat`,
-              }}
-              />
-            </Item>
-            <br/>
-            <Typography variant="h5" sx={{
-              "&:hover":{
-                borderBottom:"2px solid #000"
-              }
-            }}>Education WordPress Theme</Typography> 
-          </Grid>
-         
-        </Grid>
-      </Box>
-
-        
-
+            <Box sx={{ background: `url(${"https://images.ctfassets.net/2pudprfttvy6/6GkGMGaxHYprzVanlGgOsl/a0d1b878457892bee1adaee5c4109cfc/GuidedProjects_1-5x.png"})
+                center/cover no-repeat`,height:{md:"85vh",sm:"70vh",xs:"45vh"},width:{md:"40vw",sm:"40vw",xs:"92vw"},borderRadius:"5px"}}/>
+      <Box sx={{flex:{md:"2",sm:"2",xs:"4"}}}>
+       <Typography sx={{fontSize:{md:"18px",sm:"16px",xs:"14px"},fontWeight:"600"}}>HANDS-ON LEARNING</Typography>
+       <br/>
+       <Typography sx={{fontSize:{md:"48px",sm:"36px",xs:"24px"},lineHeight:{md:"48px",sm:"36px",xs:"30px"},fontWeight:"600"}}>Increase skills proficiency and durability with applied learning</Typography>
+       <br/>
+       <Typography sx={{fontSize:{md:"20px",sm:"18px",xs:"16px"},lineHeight:"30px",}}>Help employees quickly master skills with Guided Projects: hands-on, single-session training programs with step-by-step guidance from an expert.</Typography>
+       <br/>
+       <Box>
+        <Button endIcon={<ArrowForward/>} sx={{"&:hover":{
+          textDecoration:"underline",color:"#00419E"
+        }}}>
+          Learn about Guided Projects
+        </Button>
+       </Box>
+       <br/>
+       <Typography sx={{fontSize:{md:"20px",sm:"18px",xs:"16px"},lineHeight:"30px",fontWeight:"600"}}>Provide applicable learning</Typography>
+       <Typography sx={{}}>"Guided Projects are a demonstration of competency because they bring applications to life."</Typography>
+       <br/>
+       <Typography sx={{fontWeight:"600"}}>Source: TechPyro for Business Case Study, feb 2023</Typography>
+       <br/>
+       <br/>
+       <Box sx={{display:"flex",gap:"20px"}}>
+       <Box sx={{ background: `url(${"https://images.ctfassets.net/2pudprfttvy6/301LnIOlpasEJamE2k01DT/a4e7ccc08da745b2b98cf9877e3ec169/blue-shield-of-california-vector-logo-2022.svg"})
+                center/cover no-repeat`,height:"45px",width:"100px",borderRadius:"5px"}}/>
+                <Typography sx={{fontWeight:"600"}}>Becky M. <br/> Senior Director, Talent Acquisition & Pipeline Programs</Typography>
+       </Box>
+        </Box>
+  
     </StyleToolbar>
   );
 }
