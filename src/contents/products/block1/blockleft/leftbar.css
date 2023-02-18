@@ -17,6 +17,11 @@
 .MuiBox-root ::-webkit-scrollbar-thumb{
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
 }
-
-
+.css-17y8bjm-MuiButtonBase-root-MuiIconButton-root-MuiAutocomplete-clearIndicator{
+    display: none !important;
+}
+/* .css-ptiqhd-MuiSvgIcon-root{
+    display: none !important;
+}
+.css-17y8bjm-MuiButtonBase-root-MuiIconButton-root-MuiAutocomplete-clearIndicator */
 

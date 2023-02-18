@@ -60,12 +60,13 @@ export const productSlice = createSlice({
             },
             addProductSuccess: (state, action)=>{
              state.isFetching = false;
-             state.products.push(action.payload)
+             state.products = action.payload;
             },
             addProductFailure: (state)=>{
                state.isFetching = null;
                state.error = true;
             }
+
 
     },
 
