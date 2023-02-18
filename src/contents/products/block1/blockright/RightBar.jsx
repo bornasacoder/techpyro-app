@@ -242,8 +242,8 @@ const RightBar = ({ sort, setSort, query, setQuery, filter, setFilter }) => {
       setSort({ "price.cost": -1 })
 setFilter(true)
     }
+    // eslint-disable-next-line
   }, [sort])
-  // eslint-disable-next-line
 
   console.log(sort)
 
