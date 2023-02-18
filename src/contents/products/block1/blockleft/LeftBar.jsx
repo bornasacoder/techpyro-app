@@ -1,7 +1,6 @@
-import {  CloseFullscreen, NavigateBefore } from '@mui/icons-material'
+import { NavigateBefore } from '@mui/icons-material'
 import { Autocomplete, Box, Checkbox, Chip, FormControlLabel, FormGroup, Slider, styled, TextField, Typography, } from '@mui/material'
-import React, { useEffect, useState } from 'react'
-import { useSelector } from 'react-redux'
+import React, { useEffect} from 'react'
 import "./leftbar.css"
 const LeftContainer = styled(Box)(({ theme }) => ({
   flex: "1",
@@ -66,7 +65,7 @@ const LeftBar = ({ sort, setSort, query, setQuery, setMinValue, minvalue, maxval
       console.log(query)
     }
     
-
+    // eslint-disable-next-line
   }, [minvalue, maxvalue])
 const handleChip = () =>{
   
@@ -83,7 +82,7 @@ const handleDelete = () =>{
 // setFilter(true)
 // }
 
-  
+
 
 
   const MinPrice = [
