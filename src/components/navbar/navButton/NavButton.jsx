@@ -10,6 +10,7 @@ import {
 } from "@mui/material";
 import React from "react";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { useNavigate } from "react-router-dom";
 const CustomButton = styled(Box)(({ theme }) => ({
  display: 'flex',
 justifyContent:"space-between",
@@ -24,18 +25,6 @@ const Right = styled(Box)(({ theme }) => ({
   gap: "20px",
   alignItems: "center",
   paddingRight: "10px",
-}));
-const Left = styled(Box)(({ theme }) => ({
-  display: "flex",
-  flex:1,
-  padding:"12px 0px",
-  gap: "50px",
-  [theme.breakpoints.down("sm")]: {
-    height: "50px",
-  },
-  [theme.breakpoints.down("md")]: {
-    height: "50px",
-  },
 }));
 
 
@@ -53,7 +42,18 @@ const MoreButton = styled(Box)(({ theme }) => ({
   },
 }));
 export default function NavButton() {
+  const navigate = useNavigate();
+  const handleBlog= ()=>{
+    navigate("/blog")
+  }
+  const handleEvent = ()=>{
+    navigate("/event")
+  }
+  const handleContact = ()=>{
+    navigate("/contact")
+  }
   return (
+
     <CustomButton >
 
 <Right display="flex">
@@ -184,7 +184,7 @@ export default function NavButton() {
       >
         <Typography variant="p" sx={{ "&:hover":{
     color:"#FFB606"
-  }}}  >EVENTS</Typography>
+  }}} onClick={handleEvent} >EVENTS</Typography>
       </MoreButton>
       <MoreButton
         sx={{
@@ -195,7 +195,7 @@ export default function NavButton() {
       >
         <Typography variant="p" sx={{ "&:hover":{
     color:"#FFB606"
-  }}}  >BLOGS</Typography>
+  }}} onClick={handleBlog} >BLOGS</Typography>
       </MoreButton>
       <MoreButton
         sx={{
@@ -245,7 +245,7 @@ export default function NavButton() {
       >
         <Typography variant="p" sx={{ "&:hover":{
     color:"#FFB606"
-  }}}  >CONTACTS</Typography>
+  }}} onClick={handleContact} >CONTACTS</Typography>
       </MoreButton>
       </Right>
     </CustomButton>
