@@ -1,0 +1,13 @@
+.slick-prev::before,
+.slick-next::before{
+    display: none;
+}
+
+.slick-prev{
+    top: 40%;
+    color: #fff!important;
+}
+.slick-next{
+    top: 40%;
+    width:4.7vw;
+}

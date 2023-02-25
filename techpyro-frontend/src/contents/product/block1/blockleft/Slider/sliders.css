@@ -1,0 +1,28 @@
+.slick-dots{
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 42px !important;
+    align-items: flex-start !important;
+    bottom: 0 !important ;
+    top: 0 !important;
+}
+
+@media (max-width:1200px){
+    .slick-dots{
+        gap:35px !important;
+    }
+}
+@media (max-width:960px){
+    .slick-dots{
+        flex-direction: row !important;
+        width: 100% !important;
+        margin-top: 15px !important;
+        gap: 0px !important;
+        align-items: center !important;
+        justify-content: center !important;
+        top: 100% !important;    
+    }
+    .slick-dots li button:before{
+        font-size: 9px !important;
+    }
+}

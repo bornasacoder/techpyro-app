@@ -1,0 +1,81 @@
+/* @media (max-width: 768px){
+    .css-hn784z{
+        display: none;
+    }
+    .css-1abc02a{
+        display: none;
+    }
+} */
+/* .css-i4bv87-MuiSvgIcon-root{
+    width: 1rem;
+} */
+/* .css-1lyta4o-MuiButtonBase-root-MuiIconButton-root{
+    width: 3.5rem;
+    height: 3.5rem;
+    color: black!important;
+    background: #fff!important;
+    border-radius: 50%!important;
+    opacity: 1!important;
+} */
+/* .css-ohwg9z:hover .css-1lyta4o-MuiButtonBase-root-MuiIconButton-root {
+    opacity: 0.6!important;
+} */
+
+.carousel1-Slick-prev,
+.carousel1-Slick-next{
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+    width: 3.5rem!important;
+    height: 3.5rem!important;
+    background: #fff!important;
+    color: black!important;
+    border-radius: 50%!important;
+    opacity: 1!important;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* display: none; */
+}
+.carousel1-Slick-prev{
+    /* margin: 68px 0 0 62px; */
+    left: 6vw;
+    
+}
+.carousel1-Slick-next{
+    /* margin: 68px 62px 0 0; */
+    right: 6vw;
+}
+.iconLeft{
+    color: black!important;
+}
+.iconRight{
+    color: black!important;
+}
+
+@media (max-width: 1265px) {
+    .carousel1-Slick-prev{
+        left: 7.5vw;
+    }
+    .carousel1-Slick-next{
+        right: 7vw;
+    }
+}
+@media (max-width: 1000px) {
+    .carousel1-Slick-prev{
+        left: 10.5vw;
+    }
+    .carousel1-Slick-next{
+        right: 9vw;
+    }
+}
+
