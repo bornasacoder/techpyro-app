@@ -1,5 +1,5 @@
 import { Box, Card, Typography ,styled,useTheme} from '@mui/material'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { CurrencyRupee } from "@mui/icons-material";
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 import { Link } from 'react-router-dom';
@@ -19,7 +19,7 @@ const Image = styled("img")(({ theme }) => ({
     },
   }));
 
-export default function Item() {
+export default function Item({product}) {
     const theme = useTheme();
   return (
     <Link to={'/orderdetails'} style={{textDecoration:'none'}}>
@@ -30,7 +30,7 @@ export default function Item() {
     margin:{sm:'30px',xs:'0'},boxShadow:'none',
     "&:hover":{transition:'box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms',
     boxShadow:'0px 0px 16px 6px rgb(159 162 191 / 15%), 0px 0px 5px 5px rgb(159 162 191 / 25%)'}}}>
-    <Image src="/images/pic3.jpg" alt="item" />
+    <Image src={`${product.productId.productImages[0].productImageUrls}`} alt="product" />
       <Box
         sx={{
           marginTop: { md: "10px", xs: "5px" },
@@ -43,7 +43,7 @@ export default function Item() {
         }}
       >
             <Typography sx={{ fontSize: {sm:"18px",xs:'14px'} }}>
-              Restaurant Website template
+              {product.productId.title.shortTitle}
             </Typography>
               <Typography
                 variant="h6"

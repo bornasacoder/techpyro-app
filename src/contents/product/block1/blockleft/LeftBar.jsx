@@ -186,7 +186,7 @@ const LeftBar = () => {
         <LowerContainer  >
        <Button>Add To Cart</Button>
           <Button3 >Live Preview <Launch/> </Button3>
-          <Button1>Buy Now</Button1>
+          <Button1 >Buy Now</Button1>
         </LowerContainer>
         <Button2 >Live Preview <Launch /> </Button2>
       </LeftMainImageContainer>

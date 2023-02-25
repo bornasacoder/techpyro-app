@@ -1,4 +1,4 @@
-import { Box, Button, TextField, Typography, useTheme } from "@mui/material";
+import { Box, Button, TextField, Typography, useTheme,Zoom } from "@mui/material";
 import { useFormik } from "formik";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
@@ -10,6 +10,8 @@ import Block5 from "../block5/Block5";
 
 import { FcGoogle } from "react-icons/fc";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import { sentOtpLogin } from "../../../../redux/apiCalls";
+import { useSnackbar } from 'notistack';
 
 const schema = Yup.object({
   number: Yup.number()
@@ -44,11 +46,14 @@ export default function Block() {
   const [previousPage, setPreviousPage] = useState([]);
 
   const [count, setCount] = useState("");
+  const  {enqueueSnackbar}  = useSnackbar();
+  
 
-  const initialValues = {
-    number: "",
-    password: "",
+  let initialValues = {
+    phone: ""
   };
+  const [initialEmailValues, setInitialEmailValues] = useState({email:""});
+  
 
   const { values, handleBlur, handleChange, handleSubmit, errors, touched } =
     useFormik({
@@ -63,9 +68,40 @@ export default function Block() {
       },
     });
 
-  const handle = () => {
+    const initialValuesLogin = {
+      username: "",
+      otp:""
+    };
+  
+    const [login, setLogin] = useState(initialValuesLogin);
+
+  const handle = async () => {
+    setLogin({username:"",otp:""});
+    setLogin({...login, username:values.phone});
+    const res = await sentOtpLogin(values);
+    if(res.data.status==='SUCCESS'){
+      enqueueSnackbar('OTP sent Successfully to Your Phone', {
+        variant: 'success',
+        anchorOrigin: {
+          vertical: 'top',
+          horizontal: 'center'
+        },
+        TransitionComponent: Zoom
+        });
+    }
+    else{
+      enqueueSnackbar('Some Error Occured', {
+        variant: 'error',
+        anchorOrigin: {
+          vertical: 'top',
+          horizontal: 'center'
+        },
+        TransitionComponent: Zoom
+        });
+    }
     setPreviousPage([...previousPage, toggleAccount]);
     setToggleAccount(toggleAccountInitial.otp);
+
   };
   const maxLengthCheck = (e) => {
     setCount(e.target.value.length);
@@ -73,11 +109,13 @@ export default function Block() {
   const handlePhonePage = () => {
     setPreviousPage([...previousPage, toggleAccount]);
     setToggleAccount(toggleAccountInitial.number);
+    setInitialEmailValues({email:""});
   };
   const handleEmailPage = () => {
     setPreviousPage([...previousPage, toggleAccount]);
     console.log(previousPage);
     setToggleAccount(toggleAccountInitial.email);
+    values.phone="";
   };
   const handleMobileANDpassPage = () => {
     setPreviousPage([...previousPage, toggleAccount]);
@@ -87,7 +125,9 @@ export default function Block() {
     var a = previousPage.slice(-1);
     setToggleAccount(a[0]);
     previousPage.pop();
+    values.phone="";
   };
+
 
   return (
     <>
@@ -132,7 +172,7 @@ export default function Block() {
               fontSize: "18px",
               "&:hover": {
                 border: "none",
-                background: `${theme.colors.alpha.white[100]}`,
+                background: {md:`${theme.colors.alpha.white[100]}`,xs:`${theme.colors.alpha.white[0]}`},
               },
             }}
           >
@@ -194,7 +234,7 @@ export default function Block() {
                             }}
                             type="number"
                             autoComplete="off"
-                            name="number"
+                            name="phone"
                             id="number"
                             maxLength="10"
                             placeholder="Enter Your Mobile Number"
@@ -297,6 +337,10 @@ export default function Block() {
                   toggleAccount={toggleAccount}
                   previousPage={previousPage}
                   setPreviousPage={setPreviousPage}
+                  login={login}
+                  setLogin={setLogin}
+                  initialValuesLogin={initialValuesLogin}
+                  setInitialEmailValues={setInitialEmailValues}
                 />
               </Box>
             )}
@@ -335,7 +379,7 @@ export default function Block() {
 
         {/* ------Block5 start------ */}
 
-        {toggleAccount.view === "otp" ? <Block5 /> : null}
+        {toggleAccount.view === "otp" ? <Block5 values={values} initialEmailValues={initialEmailValues} login={login} setLogin={setLogin}/> : null}
 
         <Box>
           <Typography
@@ -397,10 +441,6 @@ export default function Block() {
           </Typography>
         </Box>
       </Box>
-
-      {/* Email Page */}
-
-      {/* <Block2 setHideEmail={setHideEmail} setShowEmail={setShowEmail} showEmail={showEmail}/> */}
     </>
   );
 }

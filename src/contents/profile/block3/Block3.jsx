@@ -47,7 +47,7 @@ export default function Block3() {
     </Box>
     <Box sx={{display:'flex',flexDirection:'column',gap:'20px',padding:'20px',border:`1px solid ${theme.colors.alpha.black[30]}`,borderRadius:'5px',color:`${theme.colors.alpha.black[50]}`}}>
         <Box sx={{display:'flex',alignItems:{sm:'center',xs:'flex-start'},flexDirection:{sm:'row',xs:'column'},gap:{sm:'0',xs:'5px'}}} >
-            <Typography sx={{width:{md:'130px',sm:'100px',xs:'100%'}}} variant='span'>Gender</Typography>
+            <Typography sx={{width:{md:'130px',sm:'100px',xs:'100%'},color:`${theme.colors.alpha.black[100]}`}} variant='span'>Gender</Typography>
             <Box sx={{width:{md:'calc(100% - 130px)',sm:'calc(100% - 100px)',xs:'100%'},height:{md:'40px',sm:'35px',xs:'32px'},padding:'5px 10px',border:`1px solid ${theme.colors.alpha.black[30]}`,borderRadius:'5px'}}></Box>
         </Box>
     </Box>

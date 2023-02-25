@@ -1,36 +1,36 @@
 export const navData = [
   {
-    url: "/images/header/WEBSITE ILLUSTRATION.png",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpUdyyGoiuz2xtroCUZQYkuZvMuMRvECr_Ew&usqp=CAU",
     text: "Websites",
     href: "websites",
   },
   {
-    url: "/images/header/APPS ILLUSTRATION.png",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG-3uBcqW7w339owEfoctJhr2K369yxOasqv-mjvOkpAKlQvy-WokIPC6uKs-Im8g9PNw&usqp=CAU",
     text: "Apps",
     href: "apps",
   },
   {
-    url: "/images/header/DASHBOARD ILLUSTRATION.png",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG-3uBcqW7w339owEfoctJhr2K369yxOasqv-mjvOkpAKlQvy-WokIPC6uKs-Im8g9PNw&usqp=CAU",
     text: "Dashboards",
     href: "Dashboards",
   },
   {
-    url: "/images/header/UI UX ILLUSTRATION.png",
+    url: "https://www.bluepixeltech.com/assets/front/img/services-img/UI_UX.png",
     text: "UI/UX Designs",
     href: "ui_ux_designs",
   },
   {
-    url: "/images/header/DIGITAL MARKETING ILLUSTRATION.png",
+    url: "https://www.pngitem.com/pimgs/m/124-1247079_seo-digital-marketing-transparent-background-hd-png-download.png",
     text: "Digital Marketing",
     href: "digital-marketing",
   },
   {
-    url: "/images/header/GRAPHICS DESIGN ILLUSTRATION.png",
+    url: "https://www.pngitem.com/pimgs/m/124-1247079_seo-digital-marketing-transparent-background-hd-png-download.png",
     text: "Graphics Designing",
     href: "graphics-designing",
   },
   {
-    url: "/images/header/LOGO DESIGN ILLUSTRATION.png",
+    url: "https://assets.stickpng.com/thumbs/5f5b8665a1cd8f0004b35c2f.png",
     text: "Logo designs",
     href: "logo-designs",
   },
@@ -40,12 +40,12 @@ export const navData = [
     href: "presentations",
   },
   {
-    url: "/images/header/CONTENT WRITING ILLUSTATION.png",
+    url: "https://www.kindpng.com/picc/m/255-2557629_content-writing-icon-transparent-content-writing-services-hd.png",
     text: "Content-Writing",
     href: "content_writing",
   },
   {
-    url: "/images/header/VIDEO EDITING ILLUSTRATION.png",
+    url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk3yK_hUsgVIxwdFP99tAVo_z_QSsCdVZKeZQvtyqlPn477hpkqtHv0ZCahDh7Dq5qCdQ&usqp=CAU",
     text: "Video Editing",
     href: "video_editing",
   },

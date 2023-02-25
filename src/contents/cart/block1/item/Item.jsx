@@ -9,19 +9,24 @@ import {
   Fab,
   Dialog,
   DialogActions,
-  DialogContent,
-  DialogContentText,
-  DialogTitle
+  DialogTitle,
+  Zoom
 } from "@mui/material";
 import { CurrencyRupee } from "@mui/icons-material";
 import { FaShippingFast } from "react-icons/fa";
-import React,{useState} from "react";
+import React,{useEffect, useState} from "react";
 import AddIcon from '@mui/icons-material/Add';
 import FavoriteBorder from "@mui/icons-material/FavoriteBorder";
 import Favorite from "@mui/icons-material/Favorite";
 import DeleteIcon from '@mui/icons-material/Delete';
 import IconButton from '@mui/material/IconButton';
 import Tooltip from '@mui/material/Tooltip';
+import { cartListProduct, updateCartProduct } from "../../../../redux/apiCalls";
+import { useDispatch, useSelector } from "react-redux";
+import { selectUser } from "../../../../redux/userRedux";
+import { cartValue, decreaseQty, increaseQty, removeItem } from "../../../../redux/cartRedux";
+import { useSnackbar } from 'notistack';
+
 
 const Image = styled("img")(({ theme }) => ({
   width: "25%",
@@ -35,24 +40,52 @@ const Image = styled("img")(({ theme }) => ({
 
 const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
-export default function Item() {
-  const theme = useTheme();
-  const [value, setValue] = useState(1)
 
+export default function Item({index,product}) {
+  const theme = useTheme();
+  const [value, setValue] = useState(product.qty);
+  const user = useSelector(selectUser);
+  const dispatch = useDispatch();
+  const cart = useSelector(cartValue);
+  const [click,setClick] = useState(0);
+  const [open, setOpen] = useState(false);
+  const  {enqueueSnackbar}  = useSnackbar();
+
+
+  useEffect(() => {
+    async function fetchdata(){
+      if(click){
+        let query = {"userId":`${user.currentUser.data.id}`,"isDeleted":false}
+        let sort = {"name":1}
+        const resUpdate = await updateCartProduct(cart.cartId,cart.updateList);
+        const resGet = await cartListProduct(query,sort,dispatch);
+        if(resUpdate.data.status==='SUCCESS'&&resGet.data.status==='SUCCESS'){
+          enqueueSnackbar('Cart Product updated successfully ', {
+            variant: 'success',
+            anchorOrigin: {
+              vertical: 'top',
+              horizontal: 'center'
+            },
+            TransitionComponent: Zoom
+            });
+        }
+      }
+    }
+    fetchdata();
+    setClick(0);
+  }, [click]) // eslint-disable-line react-hooks/exhaustive-deps
+  
+  
   const handlePlus = ()=>{
+      dispatch(increaseQty(index));
+      setClick(1);
       setValue(value + 1);
   }
   const handleMinus = ()=>{
+      dispatch(decreaseQty(index));
+      setClick(1);
       setValue(value - 1);
   }
-
-  // const [qty, setQty] = React.useState("1");
-
-  // const handleChange = (event) => {
-  //   setQty(event.target.value);
-  // };
-
-  const [open, setOpen] = React.useState(false);
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -61,6 +94,16 @@ export default function Item() {
   const handleClose = () => {
     setOpen(false);
   };
+  const handleDelete = () => {
+    dispatch(removeItem(index));
+    setClick(1);
+    setOpen(false);
+  };
+  const handleRemove = () => {
+      dispatch(removeItem(index));
+      setClick(1);
+  };
+  
 
   return (
     <Card
@@ -71,7 +114,7 @@ export default function Item() {
         marginBottom: "20px",
       }}
     >
-      <Image src="/images/pic3.jpg" alt="item" />
+      <Image src={`${product.productId.productImages[0].productImageUrls}`} alt="item" />
       <Box
         sx={{
           marginTop: { md: "10px", xs: "5px" },
@@ -98,7 +141,7 @@ export default function Item() {
             }}
           >
             <Typography sx={{ fontSize: "18px" }}>
-              Restaurant Website template
+              {product.productId.title.shortTitle}
             </Typography>
             <Box>
             <Box sx={{display:'flex',justifyContent:'space-between',width:'35vw'}}>
@@ -110,7 +153,7 @@ export default function Item() {
                     alignItems: "center",
                   }}
                 >
-                  <CurrencyRupee sx={{ fontSize: "14px" }} /> 1999/-{" "}
+                  <CurrencyRupee sx={{ fontSize: "14px" }} /> {product.productId.price.cost}/-{" "}
                 </Typography>
                 <Box
               sx={{
@@ -135,7 +178,7 @@ export default function Item() {
                 sx={{ fontSize: "14px", textDecoration: "line-through" }}
               >
                 {" "}
-                <CurrencyRupee sx={{ fontSize: "14px" }} /> 5000/-
+                <CurrencyRupee sx={{ fontSize: "14px" }} /> {product.productId.price.mrp}/-
               </Typography>
             </Box>
             <Box
@@ -189,7 +232,7 @@ export default function Item() {
                 <MenuItem value={5}>5</MenuItem>
               </Select>
             </FormControl> */}
-            <Fab disabled={value===1?true:false} onClick={handleMinus} size="small" color="secondary" aria-label="add" sx={{fontSize:'30px',paddingBottom:{md:'8px',sm:'5px',xs:'1px'},zIndex:0,width:'30px',height:'30px',minWidth:'10px',minHeight:'10px'}}>-</Fab>
+            <Fab disabled={value===1?true:false} onClick={handleMinus} size="small" color="secondary" aria-label="add" sx={{fontSize:'30px',paddingBottom:{md:'8px',sm:'5px',xs:'5px'},zIndex:0,width:'30px',height:'30px',minWidth:'10px',minHeight:'10px'}}>-</Fab>
             <Box sx={{width:{sm:'50px',xs:'40px'},height:'30px',fontSize:'15px',border: `2px solid ${theme.colors.alpha.black[50]}`,textAlign:'center',paddingTop:'2px'}}>{value}</Box>
             <Fab disabled={value===5?true:false} sx={{zIndex:0,width:'30px',height:'30px',minWidth:'10px',minHeight:'10px'}} onClick={handlePlus} size="small" color="secondary" aria-label="add"><AddIcon /></Fab>
           </Box>
@@ -218,7 +261,7 @@ export default function Item() {
                 <DeleteIcon />
               </IconButton>
             </Tooltip>
-            <Typography sx={{display:{sm:'block',xs:'none'},cursor:'pointer',fontWeight:500}}>Remove</Typography>
+            <Button variant="text" onClick={handleRemove} sx={{display:{sm:'block',xs:'none'},color:`${theme.colors.alpha.black[100]}`,cursor:'pointer',fontWeight:500}}>Remove</Button>
             <Dialog
         open={open}
         onClose={handleClose}
@@ -226,18 +269,17 @@ export default function Item() {
         aria-describedby="alert-dialog-description"
       >
         <DialogTitle id="alert-dialog-title">
-          {"Use Google's location service?"}
+          {"Are you sure to remove it ?"}
         </DialogTitle>
-        <DialogContent>
+        {/* <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            Let Google help apps determine location. This means sending anonymous
-            location data to Google, even when no apps are running.
+            Are you sure to remove it ?
           </DialogContentText>
-        </DialogContent>
+        </DialogContent> */}
         <DialogActions>
-          <Button onClick={handleClose}>Disagree</Button>
+          <Button onClick={handleDelete}>Yes</Button>
           <Button onClick={handleClose} autoFocus>
-            Agree
+            Cancle
           </Button>
         </DialogActions>
       </Dialog>

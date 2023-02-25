@@ -38,6 +38,13 @@ const SearchList = styled(List)(({theme}) => ({
     }
 }),
 );
+const SearchLink = styled(Link)(({theme}) => ({
+    display:'none',
+    [theme.breakpoints.down('sm')]: {
+        display:'block',
+    }
+}),
+);
 
   const StyledListItem = styled(ListItem)`
     padding: 2px 10px;
@@ -62,11 +69,14 @@ export default function SearchBar(props) {
   return (
    <Search sx={{height:36, display:'flex'}}>
         <SearchIcon sx={{ marginTop:'6px',marginLeft:'10px', color: `${theme.header.background}`}}/>
-        <Link to={'/search'} style={{display:{sm:'none',xs:'block'},textDecoration:'none'}}>
+        <SearchLink to={'/search'} style={{textDecoration:'none'}}>
         <SearchField placeholder='search anything... ' sx={{ "& fieldset": { border: 'none' }, '& .MuiInputBase-input': {
       padding: "8px",
     },}} onClick={searchHandler} ref={catMenu}/>
-    </Link>
+    </SearchLink>
+    <SearchField placeholder='search anything... ' sx={{ display:{sm:'block',xs:'none'},"& fieldset": { border: 'none' }, '& .MuiInputBase-input': {
+      padding: "8px",
+    },}} onClick={searchHandler} ref={catMenu}/>
         <SearchList color='secondary' 
         sx={{display: {sm:showSearch,xs:'none'},
             flexDirection:'column', 

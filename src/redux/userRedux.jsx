@@ -24,4 +24,5 @@ const userSlice = createSlice({
 });
 
 export const {loginStart, loginSuccess, loginFailure} = userSlice.actions;
+export const selectUser = (state) => state.user
 export default userSlice.reducer;

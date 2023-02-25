@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {  navData, sliderData } from '../../constants/Constant'
-// import Content from '../../components/content/Content'
+import Content from '../../components/content/Content'
 import Navbar from '../../layout/mainLayout/navbar/Navbar'
 import Divider1 from '../../contents/home/divider1/Divider1'
 import PageHeader from '../../contents/home/pageHeader/PageHeader' 
@@ -20,46 +20,54 @@ import Block13 from '../../contents/home/block13/Block13'
 import Block14 from '../../contents/home/block14/Block14' 
 import Block15 from '../../contents/home/block15/Block15' 
 import Block16 from '../../contents/home/block16/Block16' 
-import TextBlock1 from '../../contents/home/textblock1/TextBlock1'
-import TextBlock2 from '../../contents/home/textblock2/TextBlock2'
-import TextBlock3 from '../../contents/home/textblock3/TextBlock3'
-import TextBlock4 from '../../contents/home/textblock4/TextBlock4'
-import TextBlock5 from '../../contents/home/textblock5/TextBlock5'
-import Block17 from '../../contents/home/block17/Block17'
+import { useDispatch, useSelector } from 'react-redux'
+import { selectUser } from '../../redux/userRedux'
+import { cartListProduct, } from '../../redux/apiCalls'
+import { addProduct, cartValue } from '../../redux/cartRedux'
+import { clearOrders } from '../../redux/orderRedux'
 
 const Home = () => {
+  const user = useSelector(selectUser);
+  const dispatch = useDispatch();
+  const cart = useSelector(cartValue);
+
+  useEffect(() => {
+    if(user.currentUser!==null ){
+        // let query = {"userId":`${user.currentUser.data.id}`,"isDeleted":false}
+        // let sort = {"name":1}
+        // cartListProduct(query,sort,dispatch)
+        // dispatch(addProduct({"products":[],"id":null}));
+        // dispatch(clearOrders());
+    }
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
 
   return (
     <div>
       <Navbar menu={'block'} arrow={'none'} logo={'TechPyro'}/>
       <PageHeader navData={navData}/>
       <Block1/>
-      <TextBlock1/>
-      <Block2 key={sliderData} sliderData={sliderData[0].website}/>
-      <Block3 key={sliderData} sliderData={sliderData[0].app}/>
+      <Block2 sliderData={sliderData[0].website}/>
+      <Block3 sliderData={sliderData[0].app}/>
       <Block4 /> 
       <Divider1/>
-      <TextBlock2/>
-      <Block5 key={sliderData} sliderData={sliderData[0].uiux}   /> 
-      <Block6 key={sliderData} sliderData={sliderData[0].digital}  />
+      <Block5 sliderData={sliderData[0].uiux}   /> 
+      <Block6 sliderData={sliderData[0].digital}  />
       <Block7/>
       <Divider1/>
-      <TextBlock3/>
-      <Block8 key={sliderData} sliderData={sliderData[0].graphics} /> 
-      <Block9 key={sliderData} sliderData={sliderData[0].logo}  />
+      <Block8 sliderData={sliderData[0].graphics} /> 
+      <Block9 sliderData={sliderData[0].logo}  />
       <Block10/>
       <Divider1/>
-      <TextBlock4/>
-      <Block11 key={sliderData} sliderData={sliderData[0].contentwriting} />
-      <Block12 key={sliderData} sliderData={sliderData[0].presentation} />
+      <Block11 sliderData={sliderData[0].contentwriting} />
+      <Block12 sliderData={sliderData[0].presentation} />
       <Block13/>
       <Divider1/>
-      <TextBlock5/>
-      <Block14 key={sliderData} sliderData={sliderData[0].videoediting} />
-      <Block15 key={sliderData}  sliderData={sliderData[0].others} />
+      <Block14 sliderData={sliderData[0].videoediting} />
+      <Block15  sliderData={sliderData[0].others} />
       <Block16/>
       <Divider1/>
-    <Block17/>
+      <Content/>
     </div>
   )
 }

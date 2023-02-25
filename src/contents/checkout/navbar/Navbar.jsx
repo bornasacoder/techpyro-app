@@ -103,7 +103,7 @@ export default function Navbar(props) {
             </Drawer> */}
             <NavLeft sx={{flex:'1'}}>
                 <Logo>
-                    <Typography  component="div" sx={{fontSize: {md:'35px',xs:'20px'}}}>
+                    <Typography onClick={()=>{navigate('/')}} component="div" sx={{fontSize: {md:'35px',xs:'20px'},cursor:{md:'pointer',xs:'none'}}}>
                         TechPyro
                     </Typography>
                     {/* <Typography component="div" sx={{fontSize:{md:'13px',xs:'10px'}, fontWeight:100}}>

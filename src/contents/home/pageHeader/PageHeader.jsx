@@ -94,7 +94,7 @@ export default function PageHeader(props) {
             {
               breakpoint: 500,
               settings: {
-                slidesToShow: 4,
+                slidesToShow: 5,
                 swipeToSlide: true,
                 // slidesToScroll: 1,
                 speed: 300,
@@ -109,8 +109,8 @@ export default function PageHeader(props) {
     <SliderContainer>       
        <SliderInnerContainer>
     <Slider {...settings}>
-     { props.navData.map((item)=>(
-      <Item posterLinks={item} />
+     { props.navData.map((item,index)=>(
+      <Item posterLinks={item} key={index} />
       ))}
     </Slider>
       </SliderInnerContainer>  

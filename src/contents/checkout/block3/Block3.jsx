@@ -4,6 +4,8 @@ import React,{useState} from 'react'
 import DoneIcon from '@mui/icons-material/Done';
 import Item from './item/Item';
 import {CurrencyRupee} from '@mui/icons-material'
+import { useSelector } from 'react-redux';
+import { cartValue } from '../../../redux/cartRedux';
 
 
 const Button1 = styled(Box)(({theme})=>({
@@ -25,6 +27,7 @@ const Button1 = styled(Box)(({theme})=>({
 }))
 
 export default function Block3(props) {
+    const cart = useSelector(cartValue);
     const theme = useTheme();
     const [hide, setHide] = useState('none')
 
@@ -45,15 +48,13 @@ export default function Block3(props) {
                 <DoneIcon sx={{color:`${theme.colors.success.dark}`,display:`${hide}`}} fontSize='small'/>
         </Box>
         <Box sx={{width:'100%',display:(`${props.activeStep}`==='1'||`${props.activeStep}`==='2')?'block':'none'}}>
-          <Item/>
-          <Item/>
-          <Item/>
-          <Item/>
-          <Item/>
+        {cart.products.map((item,index)=>(
+          <Item key={index} index={index} product={item}/>
+        ))}
           <Button1>
             <Box sx={{marginTop:'13px',}}>
-              <Typography sx={{fontSize:'25px',color:{md:`${theme.colors.alpha.black[100]}`,xs:`${theme.header.textColor}`}}}><CurrencyRupee sx={{fontSize:"20px",marginLeft:'10px'}}/>9999</Typography>
-              <Typography sx={{fontSize:'18px',color:{md:`${theme.colors.alpha.black[100]}`,xs:`${theme.header.textColor}`},textDecoration:'line-through'}}><CurrencyRupee sx={{fontSize:"14px",marginLeft:'10px'}}/>49999</Typography>
+              <Typography sx={{fontSize:'25px',color:{md:`${theme.colors.alpha.black[100]}`,xs:`${theme.header.textColor}`}}}><CurrencyRupee sx={{fontSize:"20px",marginLeft:'10px'}}/>{cart.total}</Typography>
+              <Typography sx={{fontSize:'18px',color:{md:`${theme.colors.alpha.black[100]}`,xs:`${theme.header.textColor}`},textDecoration:'line-through'}}><CurrencyRupee sx={{fontSize:"14px",marginLeft:'10px'}}/>{cart.totalCart}</Typography>
             </Box>
             <Button disabled={`${props.activeStep}`==='2'?true:false} onClick={handleContinue} sx={{marginTop:'13px',width:'150px',background:`${theme.colors.gradients.blue1}`,color:`${theme.colors.alpha.white[100]}`}}>Continue</Button>
           </Button1>

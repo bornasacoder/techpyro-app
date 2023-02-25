@@ -135,8 +135,8 @@ export default function Block8(props) {
       <SliderInnerContainer>
         <Header sliderH={props.sliderData.category}/>
         <Slider {...settings}>
-        { props.sliderData.data.map((item)=>(
-        <Item posterLinks={item} />
+        { props.sliderData.data.map((item,index)=>(
+        <Item posterLinks={item} key={index} />
         ))}
         </Slider>
       </SliderInnerContainer>  

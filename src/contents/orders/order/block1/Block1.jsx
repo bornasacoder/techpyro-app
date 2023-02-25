@@ -1,5 +1,7 @@
 import { Box, styled, } from '@mui/material'
 import React from 'react'
+import { useSelector } from 'react-redux'
+import { orderValue } from '../../../../redux/orderRedux'
 import LeftBar from './blockLeft/LeftBar'
 import Item from './item/Item'
 import SearchBar from './searchBar/SearchBar'
@@ -15,6 +17,8 @@ const OrderContainer = styled(Box)(({theme})=>({
 }))
 
 export default function Block1() {
+  const order = useSelector(orderValue);
+  console.log(order.productList)
   return (
     <OrderContainer sx={{display:'flex',gap:'20px',marginTop:{sm:'0',xs:'100px'}}}>
         <Box sx={{flex:"1",display:{md:'block',xs:'none'}}}>
@@ -22,15 +26,9 @@ export default function Block1() {
         </Box>
         <Box sx={{flex:'3',marginTop:'60px'}}>
             <SearchBar/>
-            <Item/>
-            <Item/>
-            <Item/>
-            <Item/>
-            <Item/>
-            <Item/>
-            <Item/>
-            <Item/>
-            <Item/>
+            {order.productList.map((item,index)=>(
+              <Item product={item} key={index} />          
+            ))}
         </Box>
     </OrderContainer>
   )
