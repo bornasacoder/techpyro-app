@@ -17,15 +17,17 @@ marginLeft:"10px",
 justifyContent:"space-between",
 alignItems:"center"
 }))
-const List = () => {
-  const [selectedValue, setSelectedValue] = React.useState('Popularity');
+const List = ({setSort, sort, filter, setFilter, setOpen}) => {
 
   const handleChange = (event) => {
-    setSelectedValue(event.target.value);
+    setSort(event.target.value);
+    console.log(sort)
+    setFilter(true)
+    setOpen(false)
   };
 
   const controlProps = (item) => ({
-    checked: selectedValue === item,
+    checked: sort === item,
     onChange: handleChange,
     value: item,
     name: 'color-radio-button-demo',
@@ -39,19 +41,19 @@ const List = () => {
         <Typography width="100%" sx={{fontSize:"14px", margin:"10px", color:"#878787"}} >SORT BY</Typography>
         <SortCategory>
       <Typography width="50%" >Popularity</Typography>
-     <Radio {...controlProps('Popularity')} value="Popularity" />
+     <Radio {...controlProps('Popularity')} value="Popularity"   />
         </SortCategory>
         <SortCategory>
       <Typography width="50%" > Price -- Low to High</Typography>
-     <Radio {...controlProps('Price -- Low to High')} value="Price -- Low to High"/>
+     <Radio {...controlProps('asc')} value="asc"   />
         </SortCategory>
         <SortCategory>
       <Typography width="50%" >Price -- High to Low</Typography>
-     <Radio {...controlProps('Price -- High to Low')} value="Price -- High to Low" />
+     <Radio {...controlProps('desc')} value="desc"    />
         </SortCategory>
         <SortCategory>
       <Typography width="50%">Newest First</Typography>
-     <Radio {...controlProps("Newest First")} value="Newest First"/>
+     <Radio {...controlProps("Newest")} value="Newest"   />
         </SortCategory>
         </SortList>
   )

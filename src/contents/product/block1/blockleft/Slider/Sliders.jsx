@@ -53,14 +53,19 @@ height:"60px",
   },
 }))
 
-const Sliders = () => {
+const Sliders = ({product}) => {
+  console.log(product)
   const settings = {
     customPaging: function (i) {
       return (
         <Box sx={{ display: "flex", flexDirection: "column", marginLeft: "10px" }} >
-          <Link>
-            <Image1  src={`/images/category/bg-${i + 1}.jpg`} />
+          {
+  product.data.productImages.map((item)=>(
+            <Link key={item.id} >
+            <Image1 src={item.productImageUrls} alt="productImage" />
           </Link>
+  ))}
+        
         </Box>
       );
     },
@@ -76,10 +81,12 @@ const Sliders = () => {
   return (
     <Container>
       <Slider {...settings}>
-        <ImageWrapper>
-          <Image  src={"/images/category/bg-1.jpg"} />
+        {product.data.productImages.map((element)=>(
+          <ImageWrapper key={element.id} >
+          <Image  src={element.productImageUrls} alt="productImage"/>
         </ImageWrapper>
-        <ImageWrapper>
+          ))}
+        {/* <ImageWrapper>
           <Image src={"/images/category/bg-2.jpg"}  />
         </ImageWrapper>
         <ImageWrapper>
@@ -93,7 +100,7 @@ const Sliders = () => {
         </ImageWrapper>
         <ImageWrapper>
           <Image src={"/images/category/bg-6.jpg"}  />
-        </ImageWrapper>
+        </ImageWrapper> */}
       </Slider>
     </Container>
   );

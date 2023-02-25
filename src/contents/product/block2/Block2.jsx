@@ -74,22 +74,22 @@ const SliderCategory = styled(Box)(({theme})=>({
     
 }))
 
-const Block2 = () => {
+const Block2 = ({product, rating}) => {
     return (
         <Container>
             <Wrapper>
                 <Box sx={{ margin: "5px 10px", display:{sm:"block",xs:"flex"}  }} >
-                    <Image src="https://colorlib.com/wp/wp-content/uploads/sites/2/education-free-template.jpg" />
+                    <Image src={product.data.image} />
                     <Box sx={{ display: "flex", flexDirection: {sm:"column", xs:"column"}, margin:{xs:"10px 20px"}}} >
-                        <Typography variant="h4" sx={{ lineHeight: "1", fontSize: { lg: "16px", md: "16px", xs: "16px" }, marginBottom:"10px", fontWeight: "700", cursor: 'pointer', "&:hover": { color: "#0D99FF", transition: "all 0.2s linear" } }} >Static Website for Website</Typography>
+                        <Typography variant="h4" sx={{ lineHeight: "1", fontSize: { lg: "16px", md: "16px", xs: "16px" }, marginBottom:"10px", fontWeight: "700", cursor: 'pointer', "&:hover": { color: "#0D99FF", transition: "all 0.2s linear" } }} >{product.data.title.shortTitle}</Typography>
                         <RightContentItems>
-                            <Typography sx={{ display: "flex", justifyContent: 'center',padding:"0px 3px", alignItems: "center", background: "green", color: "white", width: { lg: "40px", xs: "45px" }, height: "25px", borderRadius: "5px", fontSize: { md: "14px", sm: "12px" } }} >4.2 <Star sx={{ fontSize: { md: "13px", xs: "1rem" }, color: "white", paddingLeft: "3px" }} /> </Typography>
+                            <Typography sx={{ display: "flex", justifyContent: 'center',padding:"0px 3px", alignItems: "center", background: "green", color: "white", width: { lg: "40px", xs: "45px" }, height: "25px", borderRadius: "5px", fontSize: { md: "14px", sm: "12px" } }} >{rating}<Star sx={{ fontSize: { md: "13px", xs: "1rem" }, color: "white", paddingLeft: "3px" }} /> </Typography>
                             <Typography variant="h6" sx={{ color: "#878787",marginLeft:"10px", fontWeight: "600", fontSize: { md: "14px", xs: "12px" } }} >100 Ratings & 100 Reviews</Typography>
                         </RightContentItems>
                         <Box sx={{ display: "flex", alignItems: "center", flexDirection: { sm: "row", xs: "row" }, margin: "10px 0px", gap: "5px" }}>
-                            <Typography variant="h6" sx={{ fontSize: { lg: "18px", md: "18px", sm: "16px", xs: "15px" }, display: "flex", alignItems: "center", }} > <CurrencyRupee sx={{ padding: "0", margin: "0", fontSize: { sm: '20px', xs: "15px" } }} />2999/- </Typography>
-                            <Typography variant="subtitle1" sx={{ fontSize: {sm:"14px", xs:"11px"}, textDecoration: "line-through" }} ><CurrencyRupee sx={{ fontSize: {sm:"14px", xs:"11px"} }} />5000/-</Typography>
-                            <Typography variant='h6' sx={{ color: "#008000", fontSize: {sm:"13px", xs:"10px"} }} >35% OFF</Typography>
+                            <Typography variant="h6" sx={{ fontSize: { lg: "18px", md: "18px", sm: "16px", xs: "15px" }, display: "flex", alignItems: "center", }} > <CurrencyRupee sx={{ padding: "0", margin: "0", fontSize: { sm: '20px', xs: "15px" } }} />{product.data.price.cost} </Typography>
+                            <Typography variant="subtitle1" sx={{ fontSize: {sm:"14px", xs:"11px"}, textDecoration: "line-through" }} ><CurrencyRupee sx={{ fontSize: {sm:"14px", xs:"11px"} }} />{product.data.price.mrp}</Typography>
+                            <Typography variant='h6' sx={{ color: "#008000", fontSize: {sm:"13px", xs:"10px"} }} >{product.data.price.discount}</Typography>
                         </Box>
 
                     </Box>
@@ -123,7 +123,7 @@ const Block2 = () => {
                         1 Item
                     </Typography>
                     <Typography sx={{ fontSize: "20px", fontWeight: "600", display: "flex", alignItems: "center" }} >
-                        <CurrencyRupee />2999/-
+                        <CurrencyRupee />{product.data.price.cost}
                     </Typography>
                 </Box>
                 <Add sx={{ fontSize: {md:"24px", sm:"16px"}, fontWeight: '600', margin: {md:"0px 30px 0px 10px", sm:'0px 10px 0px 10px'} ,display:{sm:"block", xs:"none"}}} />

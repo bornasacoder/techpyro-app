@@ -169,7 +169,7 @@ const UserDetailContainer = styled(Box)(({ theme }) => ({
     },
   
   }))
-const Block5 = () => {
+const Block5 = ({product}) => {
     const [show, setShow] = useState("block")
     const handleClick = () =>{
         setShow("none")
@@ -193,14 +193,14 @@ const handleScroll = () =>{
   let maxB = 38 * 50;
   let newBottom = map(yScroll, minS, maxS, minB, maxB)
   setScroll(newBottom)
- //  console.log(newBottom, scroll)
+  console.log(newBottom, scroll)
 }
 useEffect(() => {
 
    window.addEventListener("scroll", handleScroll());
    return () => window.removeEventListener("scroll", handleScroll());
   // eslint-disable-next-line react-hooks/exhaustive-deps
-}, [])
+}, [scroll])
 
 
   return (
@@ -218,13 +218,14 @@ useEffect(() => {
          </Box>
             </Box>
             <Divider></Divider>
+            {product.data.faqs.map((item)=>(
             <Box>
 
-        <QuestionContainer>
-        <Typography sx={{fontSize:"16px", fontWeight:"500"}}  >Question: Is this bullet proof.?</Typography>
+                <QuestionContainer>
+        <Typography sx={{fontSize:"16px", fontWeight:"500"}}  >Question: {item.question}?</Typography>
         <Box sx={{display:"flex", alignItems:{sm:"center", xs:"flex-start"}, gap:"5px"}} >
             <Typography sx={{fontSize:"16px", fontWeight:"500"}} >Answer:  </Typography>
-            <Typography sx={{fontSize:"16px", fontWeight:"400"}} >Yes, it is bullet and bomb proof. It will stop fired from Kalashnikov</Typography>
+            <Typography sx={{fontSize:"16px", fontWeight:"400"}} >{item.answer}</Typography>
         </Box>
         </QuestionContainer>
 
@@ -234,15 +235,16 @@ useEffect(() => {
           <Typography>1 month ago</Typography>
         </UserDetail>
         <UserLike>
-          <Typography sx={{ display: "flex", alignItems: "center", gap: "5px" }}  ><ThumbUp sx={{color:"gray"}} /> 10</Typography>
-          <Typography sx={{ display: "flex", alignItems: "center", gap: "5px" }} ><ThumbDown sx={{color:"gray"}} /> 10</Typography>
+          <Typography sx={{ display: "flex", alignItems: "center", gap: "5px" }}  ><ThumbUp sx={{color:"gray"}} /> {item.like}</Typography>
+          <Typography sx={{ display: "flex", alignItems: "center", gap: "5px" }} ><ThumbDown sx={{color:"gray"}} /> {item.disLike}</Typography>
 
         </UserLike>
       </UserDetailContainer>
       <Divider></Divider>
             </Box>
+      ))}
 
-            <Box>
+            {/* <Box>
 
 <QuestionContainer>
 <Typography sx={{fontSize:"16px", fontWeight:"500"}}  >Question: Is this bullet proof.?</Typography>
@@ -285,14 +287,14 @@ useEffect(() => {
 </UserLike>
 </UserDetailContainer>
 <Divider></Divider>
-    </Box>
+    </Box> */}
 
       <AllReviewButton>
         <Typography color="primary" sx={{  fontSize: "20px", fontWeight: "600" }} > All 111 Questions </Typography>
         <Add sx={{ color: "#878787", marginBottom:"30px" }} />
       </AllReviewButton>
         </Wrapper>
-      <LowerContainer   onScroll={handleScroll} position={scroll > 1120 ? "static" : "fixed"}  >
+      <LowerContainer   onScroll={handleScroll} position={scroll > 546 ? "static" : "fixed"}  >
        <Button>Add To Cart</Button>
           <Button3 >Live Demo <VisibilityOutlined sx={{fontSize:{sm:"30px", xs:"24px",}, marginLeft:"5px"}} /> </Button3>
           <Button1>Buy Now</Button1>

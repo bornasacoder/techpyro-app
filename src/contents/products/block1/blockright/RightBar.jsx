@@ -218,10 +218,9 @@ const Buttons1 = styled("a")(({ theme }) => ({
 }))
 
 
-const RightBar = ({ sort, setSort, query, setQuery, filter, setFilter }) => {
+const RightBar = ({ sort, setSort, query, setQuery, filter, setFilter, setMinValue, minvalue, maxvalue, setMaxValue, value, setValue, rating, setRating }) => {
   const products = useSelector((state) => state.product?.products);
-  // console.log(products)
-  // const category = "restaurant"
+  
   const navigate = useNavigate();
   const [open, setOpen] = useState(false);
   const [opener, setOpener] = useState(false);
@@ -230,7 +229,7 @@ const RightBar = ({ sort, setSort, query, setQuery, filter, setFilter }) => {
 
   useEffect(() => {
     if ((sort === "Newest")) {
-      setSort({ createdAt: 1 })
+      setSort({ "createdAt": -1 })
       setFilter(true)
 
 
@@ -245,13 +244,13 @@ setFilter(true)
     // eslint-disable-next-line
   }, [sort])
 
-  console.log(sort)
+  // console.log(sort)
 
 
 
 
   const handleOpen = () => {
-    console.log("open")
+    // console.log("open")
     setOpen(true);
   };
   const handleClose = () => {
@@ -259,7 +258,7 @@ setFilter(true)
   }
 
   const handleOpener = () => {
-    console.log("open")
+    // console.log("open")
     setOpener(true);
   };
   const handleCloser = () => {
@@ -290,17 +289,15 @@ setFilter(true)
         <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
           <Typography onClick={handleOpen} variant="h6" sx={{ display: "flex", cursor: "pointer", alignItems: "center", gap: "5px" }} ><Sort /> Sort</Typography>
           <Drawer anchor={'bottom'} open={open} onClose={handleClose} transitionDuration={{ enter: 400, exit: 400 }} >
-            <List />
+            <List sort = {sort} setSort = {setSort} filter={filter} setFilter={setFilter}  setOpen={setOpen} />
           </Drawer>
         </Box>
 
         <Box width="1px" height="100%" sx={{ border: "1px solid #EEEEEE" }} > </Box>
-
-
         <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center" }} >
           <Typography onClick={handleOpener} variant='h6' sx={{ display: "flex", alignItems: "center", gap: "5px", cursor: "pointer" }} ><FilterList /> Filter</Typography>
-          <Drawer anchor={'left'} open={opener} onClose={handleCloser} transitionDuration={{ enter: 400, exit: 400 }}>
-            <FilterData />
+          <Drawer anchor={'left'} opener={opener} onClose={handleCloser} transitionDuration={{ enter: 400, exit: 400 }}>
+            <FilterData query={query} setQuery = {setQuery} sort ={sort} setSort={setSort} minvalue={minvalue} setMinValue = {setMinValue} maxvalue={maxvalue} setMaxValue = {setMaxValue} value={value} setValue={setValue} rating={rating} setRating={setRating}  filter={filter} setFilter={setFilter} setOpener={setOpener} opener={opener}  />
           </Drawer>
         </Box>
       </RightFilterMobile>
@@ -315,7 +312,7 @@ setFilter(true)
       <Box width="100%" height="1px" sx={{ background: "#EEEEEE", marginTop: { sm: "10px", xs: "0px" } }}></Box>
 
       {/* inner container of templates */}
-      {products.data.data.map((item) => (
+      {products&&products.data&&products.data.data.length!==0 &&products.data.data.map((item) => (
         <RightInnerContainer>
           <RightTemplateLeftContainer>
             <RightTemplateLeftImage  >

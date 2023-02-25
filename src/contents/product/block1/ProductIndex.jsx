@@ -22,12 +22,12 @@ const Wrapper = styled(Box)(({theme})=>({
 }))
 
 
-const ProductIndex = () => {
+const ProductIndex = ({product, rating, setRating}) => {
   return (
     <MainContainer>
         <Wrapper>
-            <LeftBar/>
-            <RightBar/>
+            <LeftBar product ={product} />
+            <RightBar product = {product} setRating={setRating} rating={rating}  />
         </Wrapper>
     </MainContainer>
   )

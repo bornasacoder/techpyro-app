@@ -1,6 +1,7 @@
 import { Launch } from '@mui/icons-material'
 import { Box, styled } from '@mui/material'
 import React from 'react'
+
 import "./leftbar.css"
 import Sliders from './Slider/Sliders'
 import SlidersLeft from "./slider2/SlidersLeft"
@@ -36,6 +37,7 @@ const ButtonHover = styled("button")(({ theme }) => ({
   border:"none",
   left: "40%",
   alignItems: "center",
+  zIndex:"100",
   justifyContent: "center",
   "&:hover":{
     background: "rgba( 5, 35, 65, 0.55 )",
@@ -157,27 +159,33 @@ const LowerContainer = styled(Box)(({theme})=>({
 
 }))
 
-const LeftBar = () => {
+const LeftBar = ({product}) => {
+  console.log(product)
 //  window.addEventListener("scroll", (event)=>{
 //    if(this.scrollY > 100){
 //      console.log("hello world")
 //    }
 //  })
 
+const handleClick=() =>{
+window.open(product.data.productUrl, '_blank','noopener,noreferrer')
+}
 
 
   return (
     <LeftContainer>
       <LeftMainImageContainer>
         <Box sx={{ position: "relative", width: "100%", height: "100%", display: { md: "flex", xs: "none" }, justifyContent: "center", alignItems: "center" }} >
-          <Sliders />
-          <ButtonHover className="hidden-button" >Live Preview  <Launch /> </ButtonHover>
+       
+          <Sliders product={product} />
+     
+          <ButtonHover className="hidden-button" onClick={handleClick}  >Live Preview  <Launch /> </ButtonHover>
         </Box>
         <Box sx={{ position: "relative", width: "100%", height: "100%", display: {md:"none", sm:"flex"}, justifyContent: "center", alignItems: "center"}} >
             <Box  sx={{width:"100%", height:"100%"}}  >
-            <SlidersLeft />
+            <SlidersLeft product={product}  />
             </Box>
-          <ButtonHover className="hidden-button" >Live Preview  <Launch /> </ButtonHover>
+          <ButtonHover className="hidden-button" onClick={handleClick}  >Live Preview  <Launch /> </ButtonHover>
         </Box>
         {/* <Box sx={{position:"relative",width:"100%", height:"100%",display:"flex", justifyContent:"center", alignItems:"center"}} >
       <MainImage src="https://colorlib.com/wp/wp-content/uploads/sites/2/education-free-template.jpg" />
@@ -185,10 +193,10 @@ const LeftBar = () => {
       </Box> */}
         <LowerContainer  >
        <Button>Add To Cart</Button>
-          <Button3 >Live Preview <Launch/> </Button3>
+          <Button3 onClick={handleClick}  >Live Preview <Launch/> </Button3>
           <Button1>Buy Now</Button1>
         </LowerContainer>
-        <Button2 >Live Preview <Launch /> </Button2>
+        <Button2 onClick={handleClick}  >Live Preview <Launch /> </Button2>
       </LeftMainImageContainer>
     </LeftContainer>
   )

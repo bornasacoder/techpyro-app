@@ -33,7 +33,7 @@ const Products = () => {
     <Box width="100%" height="auto" sx={{background:"#D9D9D9"}} >
         <MainContainer>
            <LeftBar query={query} setQuery = {setQuery} sort ={sort} setSort={setSort} minvalue={minvalue} setMinValue = {setMinValue} maxvalue={maxvalue} setMaxValue = {setMaxValue} value={value} setValue={setValue} rating={rating} setRating={setRating}  filter={filter} setFilter={setFilter} />
-           <RightBar  query={query} setQuery = {setQuery} sort ={sort} setSort={setSort} filter={filter} setFilter={setFilter} />
+           <RightBar  query={query} setQuery = {setQuery} sort ={sort} setSort={setSort} filter={filter} setFilter={setFilter} minvalue={minvalue} setMinValue = {setMinValue} maxvalue={maxvalue} setMaxValue = {setMaxValue} value={value} setValue={setValue} rating={rating} setRating={setRating}  />
         </MainContainer>
     </Box>
   )

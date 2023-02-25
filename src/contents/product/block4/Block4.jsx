@@ -4,7 +4,7 @@ import Block41 from './block4_1/Block41';
 import React from 'react'
 // import { ProgressCircle } from 'react-simple-circle-rating';
 // import { Rating } from 'react-simple-star-rating'
-import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+// import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import "./block4.css"
 
@@ -27,8 +27,12 @@ const Wrapper = styled(Box)(({ theme }) => ({
 const TopBar = styled(Box)(({ theme }) => ({
     display: "flex",
     width: "100%",
-    justifyContent: "space-between",
-    alignItems:"baseline"
+    justifyContent: "space-around",
+    alignItems:"baseline",
+    marginLeft:"50px",
+    [theme.breakpoints.down('sm')]: {
+      marginLeft:"0px"
+     },
 
 }))
 const Button = styled("button")(({ theme }) => ({
@@ -49,7 +53,7 @@ const Button = styled("button")(({ theme }) => ({
 }))
 const MiddleBar = styled(Box)(({ theme }) => ({
     display: 'flex',
-    justifyContent: 'space-between',
+    justifyContent: 'space-evenly',
     alignItems: "center",
     [theme.breakpoints.down('sm')]: {
         flexWrap:"wrap"
@@ -69,7 +73,6 @@ const Middle = styled(Box)(({ theme }) => ({
     justifyContent: "center",
     alignItems: "center",
     borderLeft: "1px solid #878787",
-    borderRight: "1px solid #878787",
     [theme.breakpoints.down('sm')]: {
        width:"60%",
        borderRight:"none"
@@ -78,45 +81,94 @@ const Middle = styled(Box)(({ theme }) => ({
        },
 
 }))
-const Right = styled(Box)(({ theme }) => ({
-    display: "flex",
-    gap: "40px",
-    width: "350px",
-    height: "auto",
-    marginRight:"100px",
-    [theme.breakpoints.down('lg')]: {
-        width:"400px",
-        height:"auto",
-        gap:"20px",
-        marginRight:"30px"
+// const Right = styled(Box)(({ theme }) => ({
+//     display: "flex",
+//     gap: "40px",
+//     width: "350px",
+//     height: "auto",
+//     marginRight:"100px",
+//     [theme.breakpoints.down('lg')]: {
+//         width:"400px",
+//         height:"auto",
+//         gap:"20px",
+//         marginRight:"30px"
 
-       },
-       [theme.breakpoints.down('md')]: {
-        width:"250px",
-        height:"auto",
-        gap:"10px",
-        marginRight:"20px"
+//        },
+//        [theme.breakpoints.down('md')]: {
+//         width:"250px",
+//         height:"auto",
+//         gap:"10px",
+//         marginRight:"20px"
 
-       },
-       [theme.breakpoints.down('sm')]: {
-        width:"90%",
-        justifyContent:"center",
-        marginRight:"0px"
+//        },
+//        [theme.breakpoints.down('sm')]: {
+//         width:"90%",
+//         justifyContent:"center",
+//         marginRight:"0px"
 
 
 
-       },
+//        },
        
 
 
-}))
-const Block4 = () => {
-    const value = 4;
-    const value1 = 4.2;
-    const value2 = 3.8;
-    const value3 = 3.9;
+// }))
+const Block4 = ({product, rating, setRating}) => {
+
+    const reviewLength = product.data.review.length;
+const ratingLength = product.data.rating.length;
+console.log(reviewLength)
+console.log(ratingLength)
+
+
+
+
+// console.log(ratingLength)
+// let rate = 0
+let count5 = 0
+let count4 = 0
+let count3 = 0
+let count2 = 0
+let count1 = 0
+let percentage1;
+let percentage2;
+let percentage3;
+let percentage4;
+let percentage5;
+
+
+product.data.rating.forEach(element => {
+if(element.ratingnumber === 5){
+    count5++
+}
+if(element.ratingnumber === 4){
+    count4++
+}
+if(element.ratingnumber === 3){
+    count3++
+}
+if(element.ratingnumber === 2){
+    count2++
+}
+if(element.ratingnumber === 1){
+    count1++
+}
+});
+percentage1 = ((count1 *100)/ratingLength).toFixed(1)
+percentage2 = ((count2 *100)/ratingLength).toFixed(1)
+percentage3 = ((count3 *100)/ratingLength).toFixed(1)
+percentage4 = ((count4 *100)/ratingLength).toFixed(1)
+percentage5 = ((count5 *100)/ratingLength).toFixed(1)
+
+
+
+    // const value = 4;
+    // const value1 = 4.2;
+    // const value2 = 3.8;
+    // const value3 = 3.9;
     return (
         <Container>
+            
             <Wrapper>
                 <TopBar>
                     <Typography sx={{ fontSize: {sm:"20px", xs:"15px"}, fontWeight: "500", marginTop: "20px" }} >Ratings & Reviews</Typography>
@@ -124,9 +176,9 @@ const Block4 = () => {
                 </TopBar>
                 <MiddleBar>
                     <Left>
-                        <Typography sx={{ display: "flex", alignItems: "center", fontSize: {lg:"40px", md:"30px", xs:"20px"}, fontWeight: "600" }} >4.3 <Star sx={{ fontSize: {md:"40px", sm:"30px",xs:"16px" }, fontWeight: "600" }} /> </Typography>
+                        <Typography sx={{ display: "flex", alignItems: "center", fontSize: {lg:"40px", md:"30px", xs:"20px"}, fontWeight: "600" }} >{rating} <Star sx={{ fontSize: {md:"40px", sm:"30px",xs:"16px" }, fontWeight: "600" }} /> </Typography>
                         <Typography color="secondary" sx={{ display: "flex", alignItems: "center", fontSize: {lg:"24px", md:"20px", sm:"18px", xs:"14px"}, fontWeight: "500" }}  >
-                            18,675 Ratings & <br /> 2,394 Reviews
+                            {ratingLength} Ratings & <br /> {reviewLength} Reviews
                         </Typography>
                     </Left>
                     <Middle>
@@ -140,9 +192,9 @@ const Block4 = () => {
                         }}>
                             <Box sx={{ display: "flex", alignItems: "center", gap: "5px", fontWeight: "600", fontSize: "16px" }} >5 <Star sx={{ fontSize: "14px", fontWeight: "500" }} /></Box>
                             <Box sx={{ width: "100%", height: "5px", background: "#878787", }}>
-                                <Box sx={{ width: "60%", height: "4px", background: "green" }} ></Box>
+                                <Box sx={{ width: `${percentage5}%`, height: "4px", background: "green" }} ></Box>
                             </Box>
-                            <Box>(500)</Box>
+                            <Box>{count5}</Box>
                         </Box>
 
                         <Box sx={{
@@ -154,9 +206,9 @@ const Block4 = () => {
                         }}>
                             <Box sx={{ display: "flex", alignItems: "center", gap: "5px", fontWeight: "600", fontSize: "16px" }} >4 <Star sx={{ fontSize: "14px", fontWeight: "500" }} /></Box>
                             <Box sx={{ width: "100%", height: "5px", background: "#878787", }}>
-                                <Box sx={{ width: "70%", height: "4px", background: "green" }} ></Box>
+                                <Box sx={{ width: `${percentage4}%`, height: "4px", background: "green" }} ></Box>
                             </Box>
-                            <Box>(500)</Box>
+                            <Box>{count4}</Box>
                         </Box>
 
                         <Box sx={{
@@ -168,9 +220,9 @@ const Block4 = () => {
                         }}>
                             <Box sx={{ display: "flex", alignItems: "center", gap: "5px", fontWeight: "600", fontSize: "16px" }} >3 <Star sx={{ fontSize: "14px", fontWeight: "500" }} /></Box>
                             <Box sx={{ width: "100%", height: "5px", background: "#878787", }}>
-                                <Box sx={{ width: "50%", height: "4px", background: "green" }} ></Box>
+                                <Box sx={{ width: `${percentage3}%`, height: "4px", background: "green" }} ></Box>
                             </Box>
-                            <Box>(500)</Box>
+                            <Box>{count3}</Box>
                         </Box>
 
                         <Box sx={{
@@ -182,9 +234,9 @@ const Block4 = () => {
                         }}>
                             <Box sx={{ display: "flex", alignItems: "center", gap: "5px", fontWeight: "600", fontSize: "16px" }} >2 <Star sx={{ fontSize: "14px", fontWeight: "500" }} /></Box>
                             <Box sx={{ width: "100%", height: "5px", background: "#878787", }}>
-                                <Box sx={{ width: "30%", height: "4px", background: "green" }} ></Box>
+                                <Box sx={{ width: `${percentage2}%`, height: "4px", background: "green" }} ></Box>
                             </Box>
-                            <Box>(500)</Box>
+                            <Box>{count2}</Box>
                         </Box>
 
                         <Box sx={{
@@ -196,12 +248,12 @@ const Block4 = () => {
                         }}>
                             <Box sx={{ display: "flex", alignItems: "center", gap: "5px", fontWeight: "600", fontSize: "16px" }} >1 <Star sx={{ fontSize: "14px", fontWeight: "500" }} /></Box>
                             <Box sx={{ width: "100%", height: "5px", background: "#878787", }}>
-                                <Box sx={{ width: "50%", height: "4px", background: "red" }} ></Box>
+                                <Box sx={{ width: `${percentage1}%`, height: "4px", background: "red" }} ></Box>
                             </Box>
-                            <Box>(500)</Box>
+                            <Box>{count1}</Box>
                         </Box>
                     </Middle>
-                    <Right>
+                    {/* <Right>
                       <Box sx={{display:"flex", flexDirection:"column", alignItems:"center", }} >
                         <CircularProgressbar
                             value={value}
@@ -326,11 +378,11 @@ const Block4 = () => {
                             />
                             <Typography sx={{fontStyle:"italic", fontSize:{md:"20px", sm:"16px"}, fontWeight:"400"}} >Accuracy</Typography>
                             </Box>
-                    </Right>
+                    </Right> */}
                 </MiddleBar>
 
             </Wrapper>
-            <Block41/>
+            <Block41 product={product} />
         </Container>
     )
 }

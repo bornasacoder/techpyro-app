@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SliderItem from './sliderItem/SliderItem';
 import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
-import {RestaurantsProducts} from "../../../../../constants/websites/Restaurant"
 import "./slider.css";
 import { Box, styled } from '@mui/material';
 const SliderContainer = styled(Box)(({theme})=>({
@@ -54,7 +53,7 @@ const NextBtn = (props) =>{
 }
 
 
-const SlidersLeft = (props) => {
+const SlidersLeft = ({product}) => {
   const settings = {
     dots:true,
     arrows:false,
@@ -69,14 +68,14 @@ const SlidersLeft = (props) => {
     prevArrow:<PreviousBtn />,
     nextArrow:<NextBtn />,
   };
-  console.log(RestaurantsProducts.data[0].productsimage);
+ 
   return (
     <>
        
       <SliderContainer>
 
       <Slider {...settings} >
-        { RestaurantsProducts.data[0].productsimage.map((item)=>(
+        { product.data.productImages.map((item)=>(
           <SliderItem posterLinks={item} />
           ))}
         </Slider> 

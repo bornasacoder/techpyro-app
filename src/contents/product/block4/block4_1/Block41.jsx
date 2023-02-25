@@ -1,4 +1,4 @@
-import { Add,  CheckCircleOutline, Star, ThumbDown, ThumbUp, } from '@mui/icons-material'
+import { Add,  CheckCircleOutline, ThumbDown, ThumbUp, } from '@mui/icons-material'
 import { Box, styled, Typography } from '@mui/material'
 import React from 'react'
 const ReviewWrapper = styled(Box)(({ theme }) => ({
@@ -60,39 +60,46 @@ const AllReviewButton = styled(Box)(({ theme }) => ({
 }))
 
 
-const Block41 = () => {
+const Block41 = ({product}) => {
+  console.log(product)
+
   return (
-    <ReviewWrapper>
+    <>
+
+  <ReviewWrapper >
+{product.data.review.map((item)=>(
+    <div key={item.id} >
 
       <Box sx={{ display: "flex", alignItems: "center", gap: "5px", marginBottom: "20px" }} >
-        <Typography sx={{ display: "flex", justifyContent: 'center', alignItems: "center", background: "green", color: "white", width: { lg: "40px", xs: "45px" }, height: "25px", borderRadius: "5px", fontSize: { md: "14px", sm: "12px" }, marginTop: "10px" }} >4.2 <Star sx={{ fontSize: { md: "13px", xs: "1rem !important" }, color: "white", paddingLeft: "3px", }} /> </Typography>
-        <Typography sx={{ fontSize: "14px", fontWeight: "400", marginTop: "10px" }}  >Very nice UI of this product</Typography>
+        {/* <Typography sx={{ display: "flex", justifyContent: 'center', alignItems: "center", background: "green", color: "white", width: { lg: "40px", xs: "45px" }, height: "25px", borderRadius: "5px", fontSize: { md: "14px", sm: "12px" }, marginTop: "10px" }} >4.2 <Star sx={{ fontSize: { md: "13px", xs: "1rem !important" }, color: "white", paddingLeft: "3px", }} /> </Typography> */}
+        <Typography sx={{ fontSize: "14px", fontWeight: "400", marginTop: "10px" }}  ><b>Customer Review: </b>{item.title}</Typography>
       </Box>
       <Box sx={{ marginBottom: "20px" }} >
-        <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, labore sunt suscipit quis architecto quaerat. Aliquid non minima voluptas distinctio veniam, dignissimos voluptatum. Laudantium quod dignissimos aliquam, voluptatum mollitia nihil?</Typography>
+        <Typography>{item.discription}</Typography>
       </Box>
       <ImageContainer>
-        <Image src="https://colorlib.com/wp/wp-content/uploads/sites/2/capitalshop-free-template-353x278.jpg" />
-        <Image src="https://colorlib.com/wp/wp-content/uploads/sites/2/capitalshop-free-template-353x278.jpg" />
-        <Image src="https://colorlib.com/wp/wp-content/uploads/sites/2/capitalshop-free-template-353x278.jpg" />
+        <Image src={item.productReviewUrl} />
       </ImageContainer>
       <UserDetailContainer>
         <UserDetail>
-          <Typography sx={{ display: "flex", alignItems: "center", gap: "5px" }} >  Username <CheckCircleOutline sx={{ background: "green", color: "white", borderRadius:"50%" }} />Certified User </Typography>
-          <Typography>Location, 1 month ago</Typography>
+          <Typography sx={{ display: "flex", alignItems: "center", gap: "5px" }} >  Anonymous user<CheckCircleOutline sx={{ background: "green", color: "white", borderRadius:"50%" }} />Certified User </Typography>
+          <Typography>Location</Typography>
         </UserDetail>
         <UserLike>
-          <Typography sx={{ display: "flex", alignItems: "center", gap: "5px" }}  ><ThumbUp sx={{}} /> 10</Typography>
-          <Typography sx={{ display: "flex", alignItems: "center", gap: "5px" }} ><ThumbDown /> 10</Typography>
+          <Typography sx={{ display: "flex", alignItems: "center", gap: "5px" }}  ><ThumbUp /> {item.like}</Typography>
+          <Typography sx={{ display: "flex", alignItems: "center", gap: "5px" }} ><ThumbDown /> {item.disLike}</Typography>
 
         </UserLike>
       </UserDetailContainer>
+    </div>
+      ))}
       <AllReviewButton>
         <Typography color="primary" sx={{ fontSize: "20px", fontWeight: "600" }} > All 111 Reviews </Typography>
         <Add sx={{ color: "#878787" }} />
       </AllReviewButton>
     </ReviewWrapper>
-  )
+</>
+)
 }
 
 export default Block41

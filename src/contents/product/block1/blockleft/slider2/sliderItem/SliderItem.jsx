@@ -24,7 +24,7 @@ const Image = styled("img")(({ theme }) => ({
 
  const SliderItem = ({posterLinks}) => {
   return (
-            <Image src={posterLinks.productsurl} />
+            <Image src={posterLinks.productImageUrls} alt="productImage" />
       
   )
 }
