@@ -193,8 +193,13 @@ window.open(product.data.productUrl, '_blank','noopener,noreferrer')
       </Box> */}
         <LowerContainer  >
        <Button>Add To Cart</Button>
+<<<<<<< HEAD
           <Button3 onClick={handleClick}  >Live Preview <Launch/> </Button3>
           <Button1>Buy Now</Button1>
+=======
+          <Button3 >Live Preview <Launch/> </Button3>
+          <Button1 >Buy Now</Button1>
+>>>>>>> 029538282ac9956eb31e6afd9beea9530588bdad
         </LowerContainer>
         <Button2 onClick={handleClick}  >Live Preview <Launch /> </Button2>
       </LeftMainImageContainer>

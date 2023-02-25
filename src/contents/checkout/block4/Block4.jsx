@@ -1,16 +1,158 @@
-import React from 'react'
+import React,{useState,useRef, useEffect} from 'react'
 // import DoneIcon from '@mui/icons-material/Done'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { Accordion, AccordionDetails, AccordionSummary,Autocomplete, Box, Button, TextField, Typography ,useTheme} from '@mui/material';
+import { Accordion, AccordionDetails, AccordionSummary,Autocomplete, Box, Button, TextField, Typography ,useTheme,Zoom} from '@mui/material';
 import {AiOutlineCreditCard} from 'react-icons/ai'
 import {BsCreditCard2Front,BsCalendar3} from 'react-icons/bs'
 import {GrMoney} from 'react-icons/gr'
 import {GiTakeMyMoney} from 'react-icons/gi'
 
 import ReCAPTCHA from "react-google-recaptcha"
+import { useDispatch, useSelector } from 'react-redux';
+import { selectUser } from '../../../redux/userRedux';
+import { cartValue } from '../../../redux/cartRedux';
+import { createOrder, deleteCart } from '../../../redux/apiCalls';
+import { useSnackbar } from 'notistack';
+import { useNavigate } from 'react-router-dom';
+import { addOrderProduct, addProductDetails, orderValue } from '../../../redux/orderRedux';
 
 export default function Block4(props) {
     const theme = useTheme();
+    const [captchaToken, setCaptchaToken] = useState(null);
+    const [click, setClick] = useState(0);
+    const captchaRef = useRef(null);
+    const user = useSelector(selectUser)
+    const cart = useSelector(cartValue)
+    const order = useSelector(orderValue)
+    const {enqueueSnackbar} = useSnackbar();
+    const navigate = useNavigate();
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+      async function fetchdata(){
+        if(click){
+        //   let query = {"userId":`${user.currentUser.data.id}`,"isDeleted":false}
+        //   let sort = {"name":1}
+        //   const resUpdate = await updateCartProduct(cart.cartId,cart.updateList,query,sort,dispatch);
+        //   const resGet = await cartListProduct(query,sort,dispatch);
+        //   if(resUpdate.data.status==='SUCCESS'&&resGet.data.status==='SUCCESS'){
+        //     enqueueSnackbar('Product added successfully in your cart', {
+        //       variant: 'success',
+        //       anchorOrigin: {
+        //         vertical: 'top',
+        //         horizontal: 'center'
+        //       },
+        //       TransitionComponent: Zoom
+        //       });
+        //   }
+        //   else{
+        //     enqueueSnackbar('Some Error Occured', {
+        //       variant: 'error',
+        //       anchorOrigin: {
+        //         vertical: 'top',
+        //         horizontal: 'center'
+        //       },
+        //       TransitionComponent: Zoom
+        //       });
+        //   }
+        console.log(order.products)
+        }
+      }
+      fetchdata();
+      setClick(0);
+    }, [click]) // eslint-disable-line react-hooks/exhaustive-deps
+
+    const verify = () =>{
+        captchaRef.current.getResponse().then(res => {
+            setCaptchaToken(res)
+        })
+
+    }
+
+  const cashOnDelivery = async ()=>{
+    let data =  {
+      "userId":`${user.currentUser.data.id}`,
+      "cartId":`${cart.cartId}`,
+      "products":[]
+    }
+     cart.updateList.products.map((item,index)=>{
+        data.products.push({
+          "productId": `${item.productId}`,
+          "qty": `${item.qty}`,
+          "packageId":`${item.packageId}`,
+          "address":{
+            "locality" : "basti khera",
+            "city" : "unnao",
+            "state" : "uttar pradesh",
+            "country" : "India",
+            "zipcode" : 209827
+          },
+          "status": "upcoming",
+          "paymentStatus": "pending",
+          "orderStatus":{
+              "orderConfirm":{
+               "isConfirmed":true,
+               "date":"2023-09-13T02:18:22.836Z"
+              },
+              "shipped":{
+               "isConfirmed":false,
+               "date":"2023-09-13T02:18:22.836Z"
+              },
+              "outForDelivery":{
+               "isConfirmed":false,
+               "date":"2023-09-13T02:18:22.836Z"
+              },
+              "delivered":{
+               "isConfirmed":false,
+               "date":"2023-09-13T02:18:22.836Z"
+              },
+              "cancel":{
+               "isConfirmed":false,
+               "date":"2023-09-13T02:18:22.836Z"
+              },
+              "refunded":{
+               "isConfirmed":false,
+               "date":"2023-09-13T02:18:22.836Z"
+              } 
+          }
+        })
+      })
+      if(user.currentUser===null){
+          navigate('/login');
+      }
+      else if(order.orderId===null){
+      const res = await createOrder(data,dispatch);
+      console.log(res);
+      if(res.data?res.data.status==='SUCCESS':false){
+        dispatch(addProductDetails(cart.products))
+        deleteCart(cart.cartId,dispatch)
+        navigate('/cart');
+        enqueueSnackbar('Order Placed  Successfully', {
+          variant: 'success',
+          anchorOrigin: {
+            vertical: 'top',
+            horizontal: 'center'
+          },
+          TransitionComponent: Zoom
+        });
+      }
+      else{
+        enqueueSnackbar('Some Error Occured', {
+          variant: 'error',
+          anchorOrigin: {
+            vertical: 'top',
+            horizontal: 'center'
+          },
+          TransitionComponent: Zoom
+          });
+      }
+      }else{
+          dispatch(addOrderProduct(data.products));
+          setClick(1);
+      }
+      
+    }
+
   return (
     <Box ref={props.ref} sx={{marginBottom:'100px',padding:'0 10px',boxShadow:`${theme.colors.shadows.cardSm}`,background:`${theme.colors.alpha.white[100]}`,}}>
         <Box sx={{height:'50px',display:'flex',justifyContent:'space-between',alignItems:'center',padding:'0 20px',
@@ -182,8 +324,8 @@ export default function Block4(props) {
         <AccordionDetails>
         <Box>
             <Box sx={{display:{sm:'flex',xs:'block'},justifyContent:'space-between',alignItems:'center'}}>
-              <ReCAPTCHA sitekey="Your client site key" />
-              <Button sx={{marginTop:{sm:'0',xs:'10px'},background:`${theme.colors.gradients.pink2}`,width:   {md:'10vw',sm:'17vw',xs:'100px'}}} variant='contained'>Pay Now</Button>
+              <ReCAPTCHA ref={captchaRef} onVerify={verify} sitekey="Your client site key" />
+              <Button onClick={cashOnDelivery} sx={{marginTop:{sm:'0',xs:'10px'},background:`${theme.colors.gradients.pink2}`,width:   {md:'10vw',sm:'17vw',xs:'100px'}}} variant='contained'>Pay Now</Button>
             </Box>
             <Typography sx={{marginTop:'20px'}}>Pay with Cash when your order is delivered</Typography>
         </Box>

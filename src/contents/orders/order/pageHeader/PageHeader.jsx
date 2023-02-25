@@ -109,8 +109,8 @@ export default function PageHeader(props) {
     <SliderContainer>       
        <SliderInnerContainer>
     <Slider {...settings}>
-     { props.navData.map((item)=>(
-      <Item posterLinks={item} />
+     { props.navData.map((item,index)=>(
+      <Item posterLinks={item} key={index} />
       ))}
     </Slider>
       </SliderInnerContainer>  

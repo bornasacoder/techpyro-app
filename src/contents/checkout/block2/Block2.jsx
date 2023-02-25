@@ -2,8 +2,12 @@ import { Button, FormControl, FormControlLabel, Radio, RadioGroup, Typography,us
 import { Box } from '@mui/system'
 import React,{useState} from 'react'
 import DoneIcon from '@mui/icons-material/Done';
+import { selectUser } from '../../../redux/userRedux';
+import { useSelector } from 'react-redux';
 
 export default function Block2(props) {
+
+    const user = useSelector(selectUser)
 
     const [show, setShow] = useState('flex');
     const [hide, setHide] = useState('none');
@@ -33,8 +37,8 @@ export default function Block2(props) {
   
               </Box>
               <Box sx={{marginBottom:'10px',display:`${show}`,gap:'10px',alignItems:'center'}}>
-                  <Typography variant='span' sx={{fontSize:'15px',fontWeight:500}}>Nitish Kumar</Typography>
-                  <Typography variant='span'>+919999999999</Typography>
+                  <Typography variant='span' sx={{fontSize:'15px',fontWeight:500}}>{user.currentUser.data.name?user.currentUser.data.name:"TechPyro User"}</Typography>
+                  <Typography variant='span'>{user.currentUser.data.phone?"+91-"+user.currentUser.data.phone:user.currentUser.data.email}</Typography>
               </Box>
           </Box>
           <Box sx={{margin:'5px 0',display:`${hide}`}}>
@@ -115,9 +119,9 @@ export default function Block2(props) {
     <Box sx={{cursor:{md:'pointer',xs:'none'},marginTop:'10px',height:'50px',display:`${show}`,gap:'20px',alignItems:'center',padding:'0 20px',
           background:`${theme.colors.alpha.white[100]}`,border:`1px solid ${theme.colors.alpha.black[10]}`,
           boxShadow:`${theme.colors.shadows.cardSm}`,color:`${theme.colors.primary.main}`}}>
-            <Typography sx={{fontSize:'30px'}}>+</Typography>
+            <Typography sx={{fontSize:'30px',paddingBottom:'2px'}}>+</Typography>
             <Typography sx={{fontSize:'16px'}}>Add a new address</Typography>
-          </Box>
+    </Box>
     </div>
     )
 }

@@ -1,8 +1,11 @@
 import { Box, Button, Dialog, DialogActions, DialogContent, DialogTitle, TextField, Typography,useTheme } from '@mui/material'
 import React,{useState} from 'react'
+import { useSelector } from 'react-redux';
+import { selectUser } from '../../../redux/userRedux';
 
 export default function Block2() {
     const theme = useTheme();
+    const user = useSelector(selectUser);
 
     const [open, setOpen] = useState(false);
 
@@ -37,12 +40,12 @@ export default function Block2() {
             </Box>
             <Box sx={{display:'flex',flexDirection:'column',gap:'20px',padding:'20px',border:`1px solid ${theme.colors.alpha.black[30]}`,borderRadius:'5px',color:`${theme.colors.alpha.black[50]}`}}>
                 <Box sx={{display:'flex',alignItems:{sm:'center',xs:'flex-start'},flexDirection:{sm:'row',xs:'column'},gap:{sm:'0',xs:'5px'}}} >
-                    <Typography sx={{width:{md:'130px',sm:'100px',xs:'100%'}}} variant='span'>Mobile Number</Typography>
-                    <Box sx={{width:{md:'calc(100% - 130px)',sm:'calc(100% - 100px)',xs:'100%'},height:{md:'40px',sm:'35px',xs:'32px'},padding:'5px 10px',border:`1px solid ${theme.colors.alpha.black[30]}`,borderRadius:'5px'}}>+91-999999999</Box>
+                    <Typography sx={{width:{md:'130px',sm:'100px',xs:'100%'},color:`${theme.colors.alpha.black[100]}`}} variant='span'>Mobile Number</Typography>
+                    <Box sx={{width:{md:'calc(100% - 130px)',sm:'calc(100% - 100px)',xs:'100%'},height:{md:'40px',sm:'35px',xs:'32px'},padding:'5px 10px',border:`1px solid ${theme.colors.alpha.black[30]}`,borderRadius:'5px'}}>{user.currentUser.data.phone?"+91-"+user.currentUser.data.phone:""}</Box>
                 </Box>
                 <Box sx={{display:'flex',alignItems:{sm:'center',xs:'flex-start'},flexDirection:{sm:'row',xs:'column'},gap:{sm:'0',xs:'5px'}}}>
-                    <Typography sx={{width:{md:'130px',sm:'100px',xs:'100%'}}} variant='span'>Email</Typography>
-                    <Box sx={{width:{md:'calc(100% - 130px)',sm:'calc(100% - 100px)',xs:'100%'},height:{md:'40px',sm:'35px',xs:'32px'},padding:'5px 10px',border:`1px solid ${theme.colors.alpha.black[30]}`,borderRadius:'5px',textOverflow:'ellipsis',whiteSpace:'nowrap',overflow:'hidden'}}>ecvhvshfvwvbfbwfu@gamil.com</Box>
+                    <Typography sx={{width:{md:'130px',sm:'100px',xs:'100%'},color:`${theme.colors.alpha.black[100]}`}} variant='span'>Email</Typography>
+                    <Box sx={{width:{md:'calc(100% - 130px)',sm:'calc(100% - 100px)',xs:'100%'},height:{md:'40px',sm:'35px',xs:'32px'},padding:'5px 10px',border:`1px solid ${theme.colors.alpha.black[30]}`,borderRadius:'5px',textOverflow:'ellipsis',whiteSpace:'nowrap',overflow:'hidden'}}>{user.currentUser.data.email?user.currentUser.data.email:""}</Box>
                 </Box>
             </Box>
         </Box>

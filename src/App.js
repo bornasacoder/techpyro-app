@@ -15,16 +15,16 @@ import OrderDetails from "./pages/orders/OrderDetails";
 import Profile from "./pages/profile/Profile";
 import Search from "./pages/search/Search";
 import Login from "./pages/auth/Login";
+import Signup from "./pages/auth/Signup";
 
 function App() {
-
   return (
     <Router>
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/websites" element={<Category/>} />
         <Route exact path="/products" element={<Products/>} />
-        <Route exact path="/product/:id" element={<Product/>} />
+        <Route exact path="/product" element={<Product/>} />
         <Route exact path="/cart" element={<Cart/>} />
         <Route exact path="/checkout" element={<CheckOut/>} />
         <Route exact path="/orders" element={<Orders/>} />
@@ -32,6 +32,7 @@ function App() {
         <Route exact path="/my-account/profile" element={<Profile/>} />
         <Route exact path="/search" element={<Search/>} />
         <Route exact path="/login" element={<Login/>} />
+        <Route exact path="/signup" element={<Signup/>} />
       </Routes>
     </Router>
   );

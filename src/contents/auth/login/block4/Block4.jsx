@@ -1,8 +1,11 @@
-import { Box, Button, TextField ,useTheme} from '@mui/material'
+import { Box, Button, TextField ,useTheme,Zoom} from '@mui/material'
 import { useFormik} from 'formik'
+import { useSnackbar } from 'notistack';
 import React, { useState } from 'react'
+import { useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom';
 import * as Yup from 'yup';
+import { authenticateLogin} from '../../../../redux/apiCalls';
 
 
 const schema = Yup.object({
@@ -11,13 +14,14 @@ const schema = Yup.object({
 })
 
 export default function Block4({toggleAccountInitial,setToggleAccount,toggleAccount,previousPage,setPreviousPage}) {
-
+  const dispatch = useDispatch();
   const theme = useTheme();
+  const {enqueueSnackbar} = useSnackbar();
 
   const [length, setLength] = useState('');
 
   const initialValues = {
-    email: "",
+    username: "",
     password: "",
   };
 
@@ -39,12 +43,34 @@ export default function Block4({toggleAccountInitial,setToggleAccount,toggleAcco
 
   const lengthCheck = (e)=>{
     setLength(e.target.value.length);
-    console.log(length);
   }
 
   const handleEmail = (e)=>{
     setPreviousPage([...previousPage, toggleAccount]);
     setToggleAccount(toggleAccountInitial.email);
+  }
+  const handleClick = async()=>{
+    const res = await authenticateLogin(dispatch,values);
+    if(res.data?res.data.status==='SUCCESS':false){
+      enqueueSnackbar('You have Successfully logged in', {
+        variant: 'success',
+        anchorOrigin: {
+          vertical: 'top',
+          horizontal: 'center'
+        },
+        TransitionComponent: Zoom
+        });
+    }
+    else{
+      enqueueSnackbar(`${res.response.data.message ==="Incorrect Password"? 'Invalid Credential': res.response.data.message}`, {
+        variant: 'error',
+        anchorOrigin: {
+          vertical: 'top',
+          horizontal: 'center'
+        },
+        TransitionComponent: Zoom
+        });
+    }
   }
 
   return (
@@ -61,7 +87,7 @@ export default function Block4({toggleAccountInitial,setToggleAccount,toggleAcco
               paddingLeft: "5px",fontSize:'18px',letterSpacing:'1px',width:'335px',
                }}} type="email"
                autoComplete="off"
-               name="email"
+               name="username"
                id="email"
                placeholder="Enter Your Email"
                value={values.email}
@@ -90,7 +116,7 @@ export default function Block4({toggleAccountInitial,setToggleAccount,toggleAcco
           {errors.password && touched.password ? (
                       <p style={{color:`${theme.colors.warning.main}`}} className="form-error">{errors.password}</p>
                     ) : null}
-            <Button sx={{marginTop:'5px',width:'100%'}} variant='contained'  onSubmit={handleSubmit}>Continue</Button>
+            <Button sx={{marginTop:'5px',width:'100%'}} variant='contained' onClick={handleClick}  onSubmit={handleSubmit}>Continue</Button>
             <Link to={'#'} style={{textDecoration:'none',marginLeft:'240px',fontSize:'14px'}}>Forget password?</Link>
 
           {touched.email && errors.email ? (

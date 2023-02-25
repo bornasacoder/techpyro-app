@@ -18,6 +18,8 @@ import { ShoppingCart, Menu,} from '@mui/icons-material';
 import PhoneIcon from '@mui/icons-material/Phone';
 import WestIcon from '@mui/icons-material/West';
 import Siderbar from '../sideBar/Siderbar';
+import { useSelector } from 'react-redux';
+import { cartValue } from '../../../redux/cartRedux';
 
   const StyleToolbar = styled(Toolbar)(({theme}) => ({
       display: 'flex',
@@ -92,7 +94,7 @@ export default function Navbar(props) {
 
     const navigate = useNavigate();
     const theme = useTheme();
-    
+    const cartVal = useSelector(cartValue);
   return (
       <NavBar  sx={{paddingLeft: '27px',paddingRight: '27px'}} position="fixed">
         <StyleToolbar sx={{height:{sm:'64px',xs:'100px',},top:{sm:'0',xs:'-21px',},}}>
@@ -107,7 +109,7 @@ export default function Navbar(props) {
             </Drawer>
             <NavLeft sx={{flex:'4'}}>
                 <Logo>
-                    <Typography  component="div" sx={{fontSize: {md:'35px',xs:'20px'}}}>
+                    <Typography onClick={()=>{navigate('/')}}  component="div" sx={{fontSize: {md:'35px',xs:'20px'},cursor:{md:'pointer',xs:'none'}}}>
                         {props.logo}
                     </Typography>
                     {/* <Typography component="div" sx={{fontSize:{md:'13px',xs:'10px'}, fontWeight:100}}>
@@ -126,8 +128,8 @@ export default function Navbar(props) {
                     <Typography sx={{paddingLeft:'5px',fontSize:'20px',fontWeight:'400',color:`${theme.header.textColor}`}}>+91-9999999999</Typography>
                 </Box>
                 <CartButton to={'/cart'} sx={{display:'flex',textDecoration:'none'}}>
-                    <Badge sx={{cursor: {md:'pointer',sm:'none'},color:`${theme.header.textColor}`}}>
-                        <ShoppingCart/>
+                    <Badge anchorOrigin={{vertical:'top',horizontal:'right'}} badgeContent={cartVal.products.length} color="warning" sx={{cursor: {md:'pointer',sm:'none'}}}>
+                        <ShoppingCart sx={{color:`${theme.header.textColor}`}}/>
                     </Badge>
                     <Typography sx={{display:{md:'block',xs:'none',fontSize:'20px',cursor: {md:'pointer',sm:'none'},color:`${theme.header.textColor}`}}}>Cart</Typography>
                 </CartButton>

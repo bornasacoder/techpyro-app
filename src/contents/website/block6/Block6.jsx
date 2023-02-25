@@ -4,7 +4,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { styled } from '@mui/styles';
+// <<<<<<< HEAD:techpyro-frontend/src/contents/website/block6/Block6.jsx
 import Item from './item/Item';
+// =======
+// import SliderItem from './sliderItem/SliderItem';
+// >>>>>>> 36f1daa5ae1d302780f2b03a260e2a16802ef3f8:src/components/allcarousel/carousel/carousel2/SwiggySlider.jsx
 import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
 import Header from './header/Header';
 import "./block6.css";

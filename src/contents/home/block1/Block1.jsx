@@ -8,6 +8,7 @@ import "./block1.css"
 import {Card } from '@mui/material';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import { Link } from 'react-router-dom';
 
 const Item = styled(Card)(({theme}) => ({
   width: '98%!important',
@@ -74,6 +75,10 @@ const NextBtn = (props) =>{
    )
 }
 
+const PageLink = styled(Link)(({theme})=>({
+    textDecoration:'none',
+}))
+
 export default function Block1() {
 
     const settings1 = {
@@ -112,34 +117,48 @@ export default function Block1() {
   return (
     <>
     <Slider {...settings1}>
+      <PageLink to={'/websites'}>
       <Item>
         <Img src='/images/category/carousel/bg-1.png' />
         <Head>upto 40% off</Head>
       </Item>
+      </PageLink>
+      <PageLink to={'/apps'}>
     <Item>
       <Img src='/images/category/carousel/bg-2.png' />
       <Head>upto 40% off</Head>
     </Item>
+    </PageLink>
+    <PageLink to={'/digitalMarketing'}>
     <Item>
       <Img src='/images/category/carousel/bg-3.png' />
       <Head>upto 40% off</Head>
     </Item>
+    </PageLink>
+    <PageLink to={'/graphicDesign'}>
     <Item>
       <Img src='/images/category/carousel/bg-4.png' />
       <Head>upto 40% off</Head>
     </Item>
+    </PageLink>
+    <PageLink to={'/videoEditing'}>
     <Item>
       <Img src='/images/category/carousel/bg-5.png' />
       <Head>upto 40% off</Head>
      </Item>
+     </PageLink>
+     <PageLink to={'/websites'}>
     <Item> 
       <Img src='/images/category/carousel/bg-6.png' />
       <Head>upto 40% off</Head>
     </Item>
+    </PageLink>
+    <PageLink to={'/websites'}>
      <Item>
       <Img src='/images/category/carousel/bg-7.png' />
       <Head>upto 40% off</Head>
     </Item>
+    </PageLink>
   </Slider>
   </>
   )

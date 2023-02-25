@@ -1,9 +1,12 @@
 import { Button, Typography,useTheme ,Box} from '@mui/material'
 import React from 'react'
 import DoneIcon from '@mui/icons-material/Done';
+import { useSelector } from 'react-redux';
+import { selectUser } from '../../../redux/userRedux';
 
 export default function Block1() {
     const theme = useTheme();
+    const user = useSelector(selectUser);
   return (
     <Box sx={{height:'80px',display:'flex',justifyContent:'space-between',alignItems:'center',padding:'0 20px',
         background:`${theme.colors.alpha.white[100]}`,border:`1px solid ${theme.colors.alpha.black[10]}`,
@@ -16,8 +19,8 @@ export default function Block1() {
 
             </Box>
             <Box sx={{display:'flex',gap:'10px',alignItems:'center'}}>
-                <Typography variant='span' sx={{fontSize:'15px',fontWeight:500}}>Nitish Kumar</Typography>
-                <Typography variant='span'>+919999999999</Typography>
+                <Typography variant='span' sx={{fontSize:'15px',fontWeight:500}}>{user.currentUser.data.name?user.currentUser.data.name:"TechPyro User"}</Typography>
+                <Typography variant='span'>{user.currentUser.data.phone?"+91-"+user.currentUser.data.phone:user.currentUser.data.email}</Typography>
             </Box>
         </Box>
         <Box sx={{margin:'5px 0'}}>

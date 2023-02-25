@@ -15,20 +15,18 @@ const ImageContainer = styled(Box)({
     justifyContent:"center",
     flexDirection:"column",
     "@media (min-width: 960px)": {
-        cursor:'pointer',
-        gap:'20px'
+        cursor:'pointer'
+    },
+    "@media (max-width: 960px)": {
+        cursor:'none'
     },
 })
 const Image = styled("img")({
-    width:"60px",
-    height:"60px",
-    display:"flex !important",
-    justifyContent:"center",
-    alignItems:"center",
+    width:"50px",
+    height:"50px",
     objectFit:"cover",
     borderRadius:'10px',
-    margin:"10px 0px ",
-    gap:"25px",
+    margin:"10px",
     '&:hover':{
         transform:[{scaleX:"5px"}],
         backgroundColor:"white"
@@ -39,11 +37,10 @@ const Image = styled("img")({
         height:"30px",
         margin:"7px"
     },
-    '@media (maxWidth: 600px)':{
-        width:"12px",
-        height:"12px",
-         margin:"5px"
-
+    '@media(maxWidth: 600px)':{
+        width:"15px",
+        height:"15px",
+        margin:"4px"
     }
 })
 const Head = styled("h3")(({theme}) => ({
@@ -70,8 +67,8 @@ export default function Item({posterLinks}) {
   return (
     <SliderContainer>
         <ImageContainer>
-            <Link to={`/${posterLinks.href}`} style={{textDecoration:'none', color:`${theme.colors.alpha.black[100]}` ,"&:hover": {color:`${theme.header.background}`}, display:"flex", justifyContent:"center", alignItems:"center", flexDirection:"column"} }>
-                <Image src={posterLinks.url} alt="Techpyro Logo"/>
+            <Link to={`/${posterLinks.href}`} style={{textDecoration:'none', color:`${theme.colors.alpha.black[100]}` ,"&:hover": {color:`${theme.header.background}`}}}>
+                <Image src={posterLinks.url} />
                 <Head>{posterLinks.text}</Head>
             </Link>
         </ImageContainer>

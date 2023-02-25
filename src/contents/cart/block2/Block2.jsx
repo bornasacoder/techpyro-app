@@ -4,8 +4,11 @@ import {CiDiscount1 }from 'react-icons/ci'
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import {CurrencyRupee} from '@mui/icons-material'
 import Block3 from '../block3/Block3';
+import { useSelector } from 'react-redux';
+import { cartValue } from '../../../redux/cartRedux';
 
 export default function Block2() {
+  const cartVal = useSelector(cartValue);
   const theme = useTheme();
   return (
     <Box sx={{width:{md:'25%',xs:'100%'},position:{md:'fixed',xs:'static'},right:{md:'9%'}}}>
@@ -19,11 +22,11 @@ export default function Block2() {
       <Card sx={{padding:'20px'}}>
           <Box sx={{display:'flex',height:'40px',justifyContent:'space-between',alignItems:'center'}}>
               <Typography>Total Cart Price</Typography>
-              <Typography><CurrencyRupee sx={{fontSize:"14px"}}/>9999</Typography>
+              <Typography><CurrencyRupee sx={{fontSize:"14px"}}/>{cartVal.totalCart}</Typography>
           </Box>
           <Box sx={{display:'flex',height:'40px',justifyContent:'space-between',alignItems:'center'}}>
               <Typography>Product Discount(s)</Typography>
-              <Typography sx={{color:`${theme.colors.success.main}`}}>-<CurrencyRupee sx={{fontSize:"14px"}}/>9999</Typography>
+              <Typography sx={{color:`${theme.colors.success.main}`}}>-<CurrencyRupee sx={{fontSize:"14px"}}/>{cartVal.totalCart - cartVal.total}</Typography>
           </Box>
           <Box sx={{display:'flex',height:'40px',justifyContent:'space-between',alignItems:'center'}}>
               <Typography>Shipping Charge</Typography>
@@ -32,10 +35,10 @@ export default function Block2() {
           <Divider sx={{marginTop:'10px'}}/>
           <Box sx={{display:'flex',height:'60px',justifyContent:'space-between',alignItems:'center'}}>
               <Typography sx={{fontSize:'18px',fontWeight:500}}>Total Amount</Typography>
-              <Typography sx={{fontSize:'18px',fontWeight:500}}><CurrencyRupee sx={{fontSize:"14px"}}/>9999</Typography>
+              <Typography sx={{fontSize:'18px',fontWeight:500}}><CurrencyRupee sx={{fontSize:"14px"}}/>{cartVal.total}</Typography>
           </Box>
           <Divider sx={{marginBottom:'10px'}}/>
-          <Typography sx={{color:`${theme.colors.success.main}`}}>You will save <CurrencyRupee sx={{fontSize:"14px"}}/>9999 on this order</Typography>
+          <Typography sx={{color:`${theme.colors.success.main}`}}>You will save <CurrencyRupee sx={{fontSize:"14px"}}/>{cartVal.totalCart - cartVal.total} on this order</Typography>
           <Box sx={{display:{md:'block',xs:'none'}}}>
             <Block3/>
           </Box>

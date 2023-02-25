@@ -1,19 +1,23 @@
-import { Box, Button, TextField ,useTheme} from '@mui/material'
+import { Box, Button, TextField ,useTheme,Zoom} from '@mui/material'
 import { useFormik} from 'formik'
+import { useSnackbar } from 'notistack';
 import React from 'react'
 import * as Yup from 'yup';
+import { sentOtpLogin } from '../../../../redux/apiCalls';
 
 
 const schema = Yup.object({
   email: Yup.string().email().required("Please enter your email")
 })
 
-export default function Block3({toggleAccountInitial,setToggleAccount,toggleAccount,previousPage,setPreviousPage}) {
-  const theme = useTheme()
+export default function Block3({toggleAccountInitial,setToggleAccount,toggleAccount,previousPage,setPreviousPage,login,setLogin,setInitialEmailValues,countDown,setCountDown}) {
+  const theme = useTheme();
+  const {enqueueSnackbar} = useSnackbar();
 
   const initialValues = {
     email: "",
   };
+  
 
   const { values, handleBlur, handleChange, handleSubmit, errors, touched } =
   useFormik({
@@ -29,9 +33,37 @@ export default function Block3({toggleAccountInitial,setToggleAccount,toggleAcco
     },
   });
 
-  const handleOtpPage = () => {
+  const handleOtpPage = async () => {
+    setInitialEmailValues({email:values.email});
+    setLogin({username:"",otp:""});
+    setLogin({...login, username:values.email});
+    const res = await sentOtpLogin(values);
+    if(res.data.status==='SUCCESS'){
+      enqueueSnackbar('OTP sent Successfully to Your Email', {
+        variant: 'success',
+        anchorOrigin: {
+          vertical: 'top',
+          horizontal: 'center'
+        },
+        TransitionComponent: Zoom
+        });
+    }
+    else{
+      enqueueSnackbar('Some Error Occured', {
+        variant: 'error',
+        anchorOrigin: {
+          vertical: 'top',
+          horizontal: 'center'
+        },
+        TransitionComponent: Zoom
+        });
+    }
     setPreviousPage([...previousPage, toggleAccount]);
     setToggleAccount(toggleAccountInitial.otp);
+  //   setCountDown(0);
+  //   setInterval(() => {
+  //     setCountDown(countDown => countDown - 1)
+  // }, 1000)
   };
   const handleEmailAndPass = ()=>{
     setPreviousPage([...previousPage,toggleAccount]);

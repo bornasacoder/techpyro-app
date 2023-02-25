@@ -105,7 +105,7 @@ export default function Navbar(props) {
             </Drawer> */}
             <NavLeft sx={{flex:'9'}}>
                 <Logo sx={{marginLeft:{md:'50px'}}}>
-                    <Typography  component="div" sx={{fontSize: {md:'35px',xs:'20px'}}}>
+                    <Typography onClick={()=>{navigate('/')}} component="div" sx={{fontSize: {md:'35px',xs:'20px'},cursor:{md:'pointer',xs:'none'}}}>
                         Cart
                     </Typography>
                     {/* <Typography component="div" sx={{fontSize:{md:'13px',xs:'10px'}, fontWeight:100}}>
