@@ -1,69 +1,48 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import { Grid, Paper, Typography, Link, Icon, Button } from '@material-ui/core';
-import {
-  Facebook as FacebookIcon,
-  Twitter as TwitterIcon,
-  LinkedIn as LinkedInIcon,
-  Instagram as InstagramIcon,
-  GitHub as GitHubIcon,
-  Telegram as TelegramIcon,
-  //   Discord as DiscordIcon,
-} from '@material-ui/icons';
-import PlayArrowIcon from "@mui/icons-material/PlayArrow";
-import AppleIcon from '@mui/icons-material/Apple';
-
-
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import Grid from "@material-ui/core/Grid";
+import Card from "@material-ui/core/Card";
+import CardContent from "@material-ui/core/CardContent";
+import Typography from "@material-ui/core/Typography";
+import Button from "@material-ui/core/Button";
+import { Image } from "@material-ui/icons";
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import { Divider } from "@material-ui/core";
+import AddLocationIcon from '@mui/icons-material/AddLocation';
+import PhoneIcon from '@mui/icons-material/Phone';
+import LocalPrintshopIcon from '@mui/icons-material/LocalPrintshop';
+import EmailIcon from '@mui/icons-material/Email';
 const useStyles = makeStyles((theme) => ({
-  root: {
-    backgroundColor: '#212121',
-    padding: theme.spacing(2),
+  footerContainer: {
+    backgroundColor: "gray",
+    padding: theme.spacing(8),
   },
-  paper: {
-    margin: theme.spacing(5),
-    padding: theme.spacing(2),
-    backgroundColor: "#37474f",
-
-  },
-  list: {
-    padding: theme.spacing(0, 2),
-    backgroundColor: "#37474f",
+  footerItem: {
+    textAlign: "center",
+    color: "white",
     [theme.breakpoints.down("sm")]: {
-      marginRight:"80px"
+      padding: theme.spacing(2),
     },
-
   },
-  copyright: {
-   marginTop:"1.5625vw",
-   marginLeft:"80px",
-
-   [theme.breakpoints.down("sm")]: {
-    marginLeft:"60px"
+  card1: {
+    backgroundColor: "transparent",
+    position:"relative"
   },
+  cardContent: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "flex-start",
   },
-  socialIcons: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginLeft:"33.59375vw",
+  
+   
+  heading: {
+    fontWeight: 'bold',
+  },
+  subheading: {
     marginTop: theme.spacing(2),
-    [theme.breakpoints.down("sm")]: {
-      marginLeft:"20px"
-    },
   },
-  flag: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginLeft: 'auto',
-  },
-  buttons: {
-    display:"flex",
-      
-     marginTop:"20px",
-     [theme.breakpoints.down("sm")]: {
-      marginLeft:"10px"
-    },
+  blackButton: {
+    color: 'black',
   },
 }));
 
@@ -71,145 +50,204 @@ const Footer = () => {
   const classes = useStyles();
 
   return (
-    <footer className={classes.root}>
-      <Grid container spacing={2}>
-        <Grid item xs={12} sm={4}>
-          <Paper className={classes.paper}>
-            <Typography variant="h3" style={{ fontWeight: "bold" }}>Card 1</Typography>
-          </Paper>
+    <Grid
+      container
+      className={classes.footerContainer}
+      spacing={10}
+      direction="row"
+    >
+      <Grid item xs={12} sm={3} md={3} className={classes.footerItem}>
+        <Card
+          className={classes.card}
+          style={{ backgroundColor: "transparent" }}
+        >  <Typography variant="h5" component="h2">
+        ABOUT
+      </Typography>
+          <CardContent className={classes.cardContent}>
+          
+            <Typography variant="body2" component="p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            </Typography>
+            <Button
+              style={{ margin: "10px" }}
+              variant=" "
+              color="primary"
+              size="medium"   className={classes.blackButton}
+            >
+              Button
+            </Button>
+          </CardContent>
+        </Card>
+      </Grid>
+      <Grid item xs={12} sm={3} md={3} className={classes.footerItem}>
+      <Card
+          className={classes.card}
+          style={{ backgroundColor: "transparent" }}
+        >
+        <Typography variant="h5" component="h2">
+         FAMOUS PLACES
+            </Typography>
+
+         <CardContent className={classes.cardContent}>
+          <Grid container>
+        <Grid item xs={2}>
+          <Image
+            className={classes.image}
+            alt="Image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWRajISYyHrkjvfULHD1K2dlFC0JJ3naWsT-xtdljf&s"/>
         </Grid>
+        <Grid item xs={10}>
+          <Typography variant="body2" className={classes.heading}>
+          Callifornia
+          </Typography>
         
-        <Grid item xs={12} sm={4}>
-          <Paper className={classes.paper}>
-            <Typography variant="h3" style={{ fontWeight: "bold" }}>Card 3</Typography>
-          </Paper>
         </Grid>
-        <Grid item xs={12} sm={4}>
-          <Paper className={classes.paper}>
-            <Typography variant="h3" style={{ fontWeight: "bold" }}>Card 3</Typography>
-          </Paper>
+         <Grid item xs={2}>
+          <Image
+            className={classes.image}
+            alt="Image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWRajISYyHrkjvfULHD1K2dlFC0JJ3naWsT-xtdljf&s"/>
         </Grid>
-      </Grid>
-      <Grid container style={{ marginLeft: "7.8125vw", color:"blue" }} spacing={2}>
+        <Grid item xs={10}>
+          <Typography variant="body2" className={classes.heading}>
+          Callifornia
+          </Typography>
+        
+        </Grid> <Grid item xs={2}>
+          <Image
+            className={classes.image}
+            alt="Image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWRajISYyHrkjvfULHD1K2dlFC0JJ3naWsT-xtdljf&s"/>
+        </Grid>
+        <Grid item xs={10}>
+          <Typography variant="body2" className={classes.heading}>
+          Callifornia
+          </Typography>
+        
+        </Grid> <Grid item xs={2}>
+          <Image
+            className={classes.image}
+            alt="Image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWRajISYyHrkjvfULHD1K2dlFC0JJ3naWsT-xtdljf&s"/>
+        </Grid>
+        <Grid item xs={10}>
+          <Typography variant="body2" className={classes.heading}>
+          Callifornia
+          </Typography>
+        
+        </Grid>
+        </Grid>
+        <Grid container>
+        <Grid item xs={2}>
+          <Image
+            className={classes.image}
+            alt="Image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWRajISYyHrkjvfULHD1K2dlFC0JJ3naWsT-xtdljf&s"/>
+        </Grid>
+        <Grid item xs={10}>
+          <Typography variant="body2" className={classes.heading}>
+           Carlos de
+          </Typography>
+         
+        </Grid>
+        </Grid>
+        <Grid container>
+        <Grid item xs={2}>
+          <Image
+            className={classes.image}
+            alt="Image"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWRajISYyHrkjvfULHD1K2dlFC0JJ3naWsT-xtdljf&s"/>
+        </Grid>
+        <Grid item xs={10}>
+          <Typography variant="body2" className={classes.heading}>
+         Hawaii
+          </Typography>
+           
+        </Grid>
+        </Grid>
+      </CardContent>
 
-        <Grid item xs={12} sm={2}>
-          <Paper className={classes.list}>
-            <Typography variant="h6">List 1</Typography>
-            <ul>
-              <li>Item 1</li>
-              <li>Item 2</li>
-              <li>Item 3</li>
-              <li>Item 4</li>
-              <li>Item 5</li>
-            </ul>
-          </Paper>
-        </Grid>
-        <Grid item xs={12} sm={2}>
-          <Paper className={classes.list}>
-            <Typography variant="h6">List 2</Typography>
+      </Card>
 
-            <ul>
-              <li>Item 1</li>
-              <li>Item 2</li>
-              <li>Item 3</li>
-              <li>Item 4</li>
-              <li>Item 5</li>
-            </ul>
-          </Paper>
-        </Grid>
-        <Grid item xs={12} sm={2}>
-          <Paper className={classes.list}>
-            <Typography variant="h6">List 3</Typography>
-            <ul>
-              <li>Item 1</li>
-              <li>Item 2</li>
-              <li>Item 3</li>
-              <li>Item 4</li>
-              <li>Item 5</li>
-            </ul>
-          </Paper>
-        </Grid>
-        <Grid item xs={12} sm={2}>
-          <Paper className={classes.list}>
-            <Typography variant="h6">List 4</Typography>
-            <ul>
-              <li>Item 1</li>
-              <li>Item 2</li>
-              <li>Item 3</li>
-              <li>Item 4</li>
-              <li>Item 5</li>
-            </ul>
-          </Paper>
-        </Grid>
-        <Grid item xs={12} sm={2}>
-          <Paper className={classes.list}>
-            <Typography variant="h6">List 5</Typography>
-            <ul>
-              <li>Item 1</li>
-              <li>Item 2</li>
-              <li>Item 3</li>
-              <li>Item 4</li>
-              <li>Item 5</li>
-            </ul>
-          </Paper>
-        </Grid>
       </Grid>
-      <Grid container spacing={2}>
-      <Grid item lg={3}>
-      <div className={classes.buttons}>
-      <Button variant="contained" style={{ backgroundColor: "black" }}>
-                <PlayArrowIcon style={{ color: "white" }} />
-                <Typography style={{ color: "white" }} variant="body2">
-                  Google Play
-                </Typography>{" "}
-              </Button>{" "}
-              <Button variant="contained" style={{ backgroundColor: "black",marginLeft:"5px" }}>
-                <AppleIcon style={{ color: "white" }} />
-                <Typography style={{ color: "white" }} variant="body2">
-                  App Store
-                </Typography>{" "}
-              </Button>
-      </div>
-     
-      </Grid>
-      
-      <Grid item lg={3}>
-      <div className={classes.copyright}>
-        <Typography style={ {color:"white",} } variant="h6">
-          Copyright &copy; Your Name
+      <Grid item xs={12} sm={3} md={3} className={classes.footerItem}>
+      <Card
+          className={classes.card}
+          style={{ backgroundColor: "transparent" }}
+        ><Typography variant="h5" component="h2">
+        Pages
+
         </Typography>
-      </div>
-      
+        
+        <CardContent className={classes.cardContent}>
+
+        <Typography variant="body2">
+           <ChevronRightIcon/>
+          TOURS
+           </Typography>
+          <Divider style={{ backgroundColor: 'black' }} />
+          <Typography variant="body2">
+           <ChevronRightIcon/>
+            HOME
+           </Typography>
+          <Divider style={{ backgroundColor: 'black' }} />
+          <Typography variant="body2">
+           <ChevronRightIcon/>
+           Reshorts
+           </Typography>
+          <Divider style={{ backgroundColor: 'black' }} />
+          <Typography variant="body2">
+           <ChevronRightIcon/>
+           Trips
+           </Typography>
+          <Divider style={{ backgroundColor: 'black' }} />
+          <Typography variant="body2">
+           <ChevronRightIcon/>
+           MEMBERSHIPS
+           </Typography>
+          <Divider style={{ backgroundColor: 'black' }} />
+          </CardContent>
+        </Card>
       </Grid>
-      <Grid item lg={3}>
-      <div className={classes.socialIcons}>
-        <Link href="#">
-          <FacebookIcon  style={{margin:"10px"}}/>
-        </Link>
-        <Link href="#">
-          <TwitterIcon  style={{margin:"10px"}}/>
-        </Link>
-        <Link href="#">
-          <LinkedInIcon  style={{margin:"10px"}}/>
-        </Link>
-        <Link href="#">
-          <InstagramIcon  style={{margin:"10px"}}/>
-        </Link>
-        <Link href="#">
-          <GitHubIcon  style={{margin:"10px"}}/>
-        </Link>
-        <Link href="#">
-          <TelegramIcon style={{margin:"10px"}} />
-        </Link>
-        <Link href="#">
-          {/* <DiscordIcon /> */}
-        </Link>
-      </div>
-       
+      <Grid item xs={12} sm={3} md={3} className={classes.footerItem}>
+      <Card
+          className={classes.card}
+          style={{ backgroundColor: "transparent" }}
+        ><Typography variant="h5" component="h2">
+       CONTACT
+
+        </Typography>
+        
+        <CardContent className={classes.cardContent}>
+
+        <Typography variant="body2">
+           
+          <AddLocationIcon />
+           USA, Callifornia 20, First Avenue, Callifornia
+           </Typography>
+          <Divider style={{ backgroundColor: 'black' }} />
+          <Typography variant="body2">
+           <PhoneIcon/>
+           Packages
+           </Typography>
+          <Divider style={{ backgroundColor: 'black' }} />
+          <Typography variant="body2">
+           <LocalPrintshopIcon/>
+           Plans
+           </Typography>
+          <Divider style={{ backgroundColor: 'black' }} />
+          <Typography variant="body2">
+           <EmailIcon/>
+           Destinations
+           </Typography>
+          <Divider style={{ backgroundColor: 'black' }} />
+          </CardContent>
+        </Card>
       </Grid>
-      </Grid>
-    </footer>
-  )
+    </Grid>
+  );
 };
 
 export default Footer;

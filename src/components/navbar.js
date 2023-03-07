@@ -1,104 +1,144 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import IconButton from '@material-ui/core/IconButton';
-import HomeIcon from '@material-ui/icons/Home';
-import MenuIcon from '@material-ui/icons/Menu';
-import Drawer from '@material-ui/core/Drawer';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemText from '@material-ui/core/ListItemText';
-import { useMediaQuery } from '@material-ui/core';
+import React from "react";
+import {
+  AppBar,
+  Toolbar,
+  Grid,
+  Typography,
+  Button,
+  IconButton,
+} from "@material-ui/core";
+import { makeStyles } from "@material-ui/core/styles";
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import SettingsPhoneIcon from '@mui/icons-material/SettingsPhone';
+import PlaceIcon from '@mui/icons-material/Place';
+import AccessTimeIcon from '@mui/icons-material/AccessTime';
+import PermIdentityIcon from '@mui/icons-material/PermIdentity';
+import PersonAddIcon from '@mui/icons-material/PersonAdd';
+import {
+  Home,
+  AccountCircle,
+  Settings,
+  Instagram,
+  Facebook,
+  Twitter,
+  YouTube,
+} from "@material-ui/icons";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
-    flexGrow: 1,
+    padding: theme.spacing(2),
+    backgroundColor: "#1565c0",
+    height: "3.125vw",
+    maxWidth:"100%",
+    "@media (max-width: 600px)":{
+       height:"50px"
+    }
   },
-  menuButton: {
-    color: "blue",
-    marginLeft: "15px",
+  
+  typography: {
+    marginTop: "-25px",
+    color: "#fff",
+    marginRight: theme.spacing(2),
+    "@media (max-width: 1180px)":{
+      display:"none"
+    }
   },
-  menuButton1: {
-    color: "grey",
-    marginLeft: "15px",
+  typography1: {
+    marginTop: "-25px",
+    color: "#fff",
+    marginRight: theme.spacing(2),
+    
+  },
+  button: {
+    marginTop: "-4.6875vw",
 
+    color: "#fff",
+    "@media (max-width: 500px)":{
+      display:"none"
+    }
+    // border: "1px solid #fff",
   },
-  menuButton2: {
-    color: "grey",
-    marginLeft: "180px",
+  icon: {
+    marginTop: "-4.6875vw",
 
+    color: "#fff",
+    "@media (max-width: 600px)":{
+      marginTop: "-30px",
+
+   }
+   
+    // marginRight: theme.spacing(2),
   },
-  drawer: {
-    width: 250,
-    display:"flex",
-    flexDirection:"column",
-    justify:"center",
-    alignItems:"center",
-    marginLeft:"40px"
+  loginIcon:{
+    display:"none",
+    color: "#fff",
+
+    "@media (max-width: 600px)":{
+      display:"block",
+      marginTop: "-20px",
+
+   }
+  },
+  arrow: {
+    marginTop: "0px",
+    color: "#fff",
+    marginRight: theme.spacing(2),
   },
 }));
 
-export default function Navbar() {
+function Navbar() {
   const classes = useStyles();
-  const [drawerOpen, setDrawerOpen] = React.useState(false);
-  const isSmallScreen = useMediaQuery(theme => theme.breakpoints.down('xs'));
-
-  const toggleDrawer = () => {
-    setDrawerOpen(!drawerOpen);
-  };
 
   return (
-    <div className={classes.root}>
-      <AppBar position="static" style={{ background: 'white' }}>
-        <Toolbar>
-          {isSmallScreen ? (<>
-             <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-             <HomeIcon style={{ fontSize: "35px" }} />
-           </IconButton>
-            <IconButton edge="start" className={classes.menuButton2} color="inherit" aria-label="menu" onClick={toggleDrawer}>
-              <MenuIcon style={{ fontSize: "35px" }} />
-            </IconButton></>
-          ) : (<>
-            <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-              <HomeIcon style={{ fontSize: "35px" }} />
+    <AppBar position="fixed" className={classes.root}>
+      <Toolbar  >
+        <Grid   container direction="row" justify="space-between">
+          <Grid item>
+            <Grid   container direction="row">
+              
+              <IconButton className={classes.loginIcon}  size="small">
+              < PermIdentityIcon />
             </IconButton>
-             <Typography variant="h6" className={classes.menuButton1}>
-             LEARNING APP
-           </Typography>
-           <Typography variant="h6" className={classes.menuButton1}>
-             CODER
-           </Typography>
-           <Typography variant="h6" className={classes.menuButton1}>
-             SCHOOL OS
-           </Typography>
-           <Typography variant="h6" className={classes.menuButton1}>
-             STAR
-           </Typography>
-           </> )}
-         
-
-          <Drawer anchor="top" open={drawerOpen} onClose={toggleDrawer}>
-            <div className={classes.drawer} >
-              <List>
-                <ListItem button>
-                  <ListItemText primary="LEARNING APP" />
-                </ListItem>
-                <ListItem button>
-                  <ListItemText primary="CODER" />
-                </ListItem>
-                <ListItem button>
-                  <ListItemText primary="SCHOOL OS" />
-                </ListItem>
-                <ListItem button>
-                  <ListItemText primary="STAR" />
-                </ListItem>
-              </List>
-            </div>
-          </Drawer>
-        </Toolbar>
-      </AppBar>
-    </div>
+              <Typography className={classes.typography} variant="body2">
+              <IconButton className={classes.arrow}  size="small">
+              < SettingsPhoneIcon />
+            </IconButton>
+            +1 212-226-3126
+              </Typography>
+              <Typography className={classes.typography} variant="body2">
+              <IconButton className={classes.arrow}  size="small">
+              < PlaceIcon />
+            </IconButton> 
+            1010 Moon ave, New York, NY US
+              </Typography>
+              <Typography className={classes.typography} variant="body2">
+              <IconButton className={classes.arrow}  size="small">
+              < AccessTimeIcon />
+            </IconButton>
+            Mon-Sat 8.00-18.00 
+              </Typography>
+            </Grid>
+          </Grid>
+          <Grid item>
+            <IconButton className={classes.icon} size="small">
+              <Instagram />
+            </IconButton>
+            <IconButton className={classes.icon} size="small">
+              <Facebook />
+            </IconButton>
+            <IconButton className={classes.icon} size="small">
+              <Twitter />
+            </IconButton>
+            <IconButton className={classes.icon} size="small">
+              <YouTube />
+            </IconButton>
+            
+             
+          </Grid>
+        </Grid>
+      </Toolbar>
+    </AppBar>
   );
-};
+}
+
+export default Navbar;

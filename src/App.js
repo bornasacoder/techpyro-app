@@ -1,32 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/navbar';
-import TwoByTwo from './components/twobytwo';
-import THREECARD from './components/threecardgrid';
-import ThreeIntoTwoGrid from './components/threeintotwo';
-import TwoFlexBoxesWithThreeCards from './components/cardplsyoutubevisection';
-import DifferentShapeComponent from './components/differentshapesec';
-import TwoFlexBoxes from './components/sectionwithbgC';
+import MenuBar from './components/menubar';
+import Mycarousel from './components/carousel';
+import TravelSearch from './components/dropdown';
+import MyCardswithHeading from './components/headingwithFourboxes';
+import Collage from './components/collage';
+import Packages from './components/Packages';
+import MYcard from './components/GuidesSlider/card';
+import Guides from './components/Guides';
+import Categories from './components/categories';
 import Footer from './components/footer';
-import { createTheme, ThemeProvider } from '@material-ui/core/styles';
-const theme = createTheme({
-  // define your theme here
-});
+
 function App() {
   return (
     <div className="App" style={{overflowX:"hidden"}}>
-         <ThemeProvider theme={theme}>
-      <Navbar />
-    </ThemeProvider>
-       < TwoByTwo />
-       < THREECARD />
-       < ThreeIntoTwoGrid />
-       < TwoFlexBoxesWithThreeCards />
-       < DifferentShapeComponent />
-       < TwoFlexBoxes />
-       <Footer />
+     <Navbar />
+     <MenuBar />
+     < Mycarousel />
+     < TravelSearch />
+     < MyCardswithHeading />
+     < Collage />
+     < Packages />
+     < Categories />
+     < Guides />
+     < Footer />
     </div>
-  )
-};
+  );
+}
 
 export default App;
