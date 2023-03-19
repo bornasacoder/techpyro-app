@@ -1,6 +1,6 @@
 import React from 'react'
-import {Card, CardMedia, Typography, Box,useTheme,styled, Button, TextField, Select} from '@mui/material';
-import { TaskAlt } from '@mui/icons-material';
+import {Card, CardMedia, Typography, Box,useTheme,styled, Button} from '@mui/material';
+
 
 const Block2 = () => {
     const theme = useTheme();
@@ -31,40 +31,11 @@ const Block2 = () => {
     },
    
   }))
-  const Box1= styled(Box)(({ theme }) => ({
-    height:'600px',
-    width:'100%',
-    backgroundImage: `url(${"/images/category/bgdimg4.jpeg"})`,
-    backgroundSize:'cover',
-    // backgroundAttachment:'fixed'
-    }
-  ));
-  const Box2= styled(Box)(({ theme }) => ({
-    height:'680px',
-    width:'100%',
-    backgroundImage: `url(${"/images/category/bgdimg5.webp"})`,
-    backgroundSize:'cover',
-    // backgroundAttachment:'fixed',
-    display:'flex',
-    justifyContent:'space-evenly',
-    alignItems:'center',
-    gap:'150px',
-    // flexDirection:'column'
-    [theme.breakpoints.down('sm')]: {
-      width:'100%',
-      height:'900px',
-      flexDirection:'column',
-      padding:'0px',
-      justifyContent:'center',
-      gap:'50px'
-    },
-    }
-  ));
+ 
+
   return (
     <Box sx={{background:'#17A2B8'}}>
-     {/* <Box1>
-
-     </Box1> */}
+    
   <Box sx={{display:'flex',flexDirection:'column',alignItems:'center',padding:{xs:'50px 0px 0px 0px',sm:'70px 0px',md:'100px'},textAlign:'center'}}>
     <Typography sx={{color:'red',fontFamily:'cursive',fontSize:'20px'}}>Packages You Like</Typography>
        <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'35px'},fontWeight:'600',color:'white'}}>Our Packages</Typography>

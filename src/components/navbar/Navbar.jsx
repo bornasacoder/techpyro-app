@@ -138,7 +138,7 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
 
 const MenuButton = styled(IconButton)(({ theme }) => ({
     fontSize:'50px',
-    color:theme.header.background,
+    color:'black',
     margin:"0",
     padding:'0',
         
