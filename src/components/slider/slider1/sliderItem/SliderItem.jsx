@@ -1,5 +1,6 @@
 import React from 'react'
 import { styled } from '@mui/styles'
+import { useNavigate } from 'react-router-dom'
 
 const SliderContainer = styled("div")({
 width:"85%",
@@ -42,10 +43,14 @@ const Para = styled("p")({
         },
 })
  const SliderItem = ({posterLinks}) => {
+    const nevigate = useNavigate()
+  const handleClick =(id)=>{
+    nevigate(`/Product/${id}`)
+  }
   return (
        <SliderContainer>
-        <ImageContainer>
-            <Image src={posterLinks} />
+        <ImageContainer >
+            <Image src={posterLinks} onClick={()=>handleClick(posterLinks.id)}/>
       
         </ImageContainer>
        </SliderContainer>

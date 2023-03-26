@@ -8,35 +8,27 @@ import {
   Divider,
   MenuItem,
   Select,
-  FormControl,
-  InputLabel,
+  Avatar,
+  Typography,
 } from "@mui/material";
 import React, { useRef, useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
-
+import { useEffect } from "react";
+import { getCordinate } from "components/location/Location";
+import { useDispatch, useSelector } from 'react-redux';
+import { useNavigate } from "react-router-dom";
 const Search = styled(Box)(({ theme }) => ({
   // border-radius: 5px;
   // margin-left: 10px;
-  width: "60%",
+  width: "70%",
   backgroundColor: "#fff",
   display: "flex",
-
-  // [theme.breakpoints.down('sm')]: {
-  //     width: '98vw',
-  //     position: 'absolute',
-  //     top : '80px',
-  //     right: '4.5px',
-
-  // }
   [theme.breakpoints.down("sm")]: {
     width: "75%",
   },
 }));
 const SearchField = styled(TextField)(({ theme }) => ({
-  // height:'40px',
-  // padding:' 8.5px 21px',
   fontSize: "unset",
-  // padding-left: 20px,
   width: "100%",
   flex: 3,
   border: "none",
@@ -60,8 +52,9 @@ const StyledListItem = styled(ListItem)`
 `;
 
 export default function SearchBar() {
+  const products = useSelector((state)=>state.product.products)
   const [showSearch, setShowSearch] = useState("none");
-
+  const [value, setValue] = useState(null) 
   const catMenu = useRef(null);
   const searchHandler = () => {
     setShowSearch("flex");
@@ -78,10 +71,31 @@ export default function SearchBar() {
     // console.warn(e.target.value);
     setLocation(e.target.value);
   };
+  const [address, setaddress] = useState([])
+  const fetchData = async () =>{
+    getCordinate(setaddress)
+  }
+  useEffect(() => {
+   fetchData()
+  }, []);
+const [searchdata, setSearchdata] = useState([])
+  const handleChange = (e) =>{
+    console.log(products)
+     const arr = products.filter((item) => {
+     return  item.maincategory.toLowerCase().includes(e.target.value) || item.shopname.toLowerCase().includes(e.target.value)
+     })
+
+     setSearchdata([...arr]);
+     console.log(arr);
+  }
+  const nevigate = useNavigate()
+  const handleClick =(id)=>{
+    nevigate(`/Product/${id}`)
+  }
 
   return (
-    <Search sx={{ height: 50, position: "relative", borderRadius: "5px" }}>
-      <Box display="flex" border="none" outline="none">
+    <Search sx={{  position: "relative", borderRadius: "5px",width:"50vw",height:"55px" }}>
+      <Box display="flex" border="none" outline="none" alignItems="center" >
         <Select
           flex={1}
           value={location}
@@ -93,16 +107,13 @@ export default function SearchBar() {
             position: "relative",
             "& fieldset": { border: "none" },
             borderRight: "2px solid #EEEEEE",
+            // paddingRight:"100px",
             borderRadius: "1px",
             display: { md: "block", sm: "none", xs: "none" },
             
           }}
         >
-          <MenuItem value="">Select location</MenuItem>
-          <MenuItem value={1}>Haridwar</MenuItem>
-          <MenuItem value={2}>Delhi</MenuItem>
-          <MenuItem value={3}>Punjab</MenuItem>
-          <MenuItem value={4}>Bihar</MenuItem>
+          <MenuItem value="" width="100%">{address&&address.length!==0 && address[0].properties.county}</MenuItem>
         </Select>
       </Box>
       <Box display="flex" sx={{ width: "100%", position: "relative" }}>
@@ -130,41 +141,46 @@ export default function SearchBar() {
             },
             "& fieldset": { border: "none" },
           }}
+          value={value}
+          onChange={(e)=>handleChange(e)}
           onClick={searchHandler}
           ref={catMenu}
-        >
-
-          </SearchField>
+        />
         <SearchList
           sx={{
             display: showSearch,
             flexDirection: "column",
-            marginTop: "36px",
+            marginTop: "70px",
             bgcolor: "#fff",
             position: "absolute",
             right:"0px",
             left:"0px",
             color: "red",
             zIndex: "100",
+            maxHeight:"220px",
+            overflowY:"scroll",
+            borderRadius:"10px"
+
           }}
           component="nav"
           aria-label="mailbox folders"
           ref={catMenu}
           >
-          <StyledListItem button>
-            <ListItemText primary="Inbox" />
+            {searchdata.length!==0 && searchdata.map((item)=>(
+          <StyledListItem button sx={{display:"flex",gap:"40px",alignItems:"center"}} onClick={()=>handleClick(item.id)} >
+<Avatar alt="Remy Sharp" src={item.image} sx={{height:"75px",width:"75px"}} />
+<Box>
+    <Typography  sx={{fontSize:"18px",fontWeight:"600"}} >{item.shopname}</Typography>
+    <Box sx={{display:"flex"}}>
+    {item.category.map((value,index)=>(
+    <Typography > {` ${value} `} {item.category.length-2>=index && ` | `} </Typography>
+    ))}
+    </Box>
+ </Box>
+ <Divider />
           </StyledListItem>
-          <Divider />
-          <StyledListItem button divider>
-            <ListItemText primary="Drafts" />
-          </StyledListItem>
-          <StyledListItem button>
-            <ListItemText primary="Trash" />
-          </StyledListItem>
-          <Divider light />
-          <StyledListItem button>
-            <ListItemText primary="Spam" />
-          </StyledListItem>
+          ))}
+         
         </SearchList>
       </Box>
     </Search>

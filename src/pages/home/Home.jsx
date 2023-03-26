@@ -2,25 +2,33 @@
 import Sliders from 'components/slider/slider1/Sliders'
 import React from 'react'
 import MiniSlider from 'components/slider/slider2/MiniSlider';
-import {pizza} from "../../constants/slider/pizza";
-import {thali} from "../../constants/slider/thali";
-import {fastFood} from "../../constants/slider/fastfood";
-import {other} from "../../constants/slider/other";
 import Navbar from 'components/navbar/Navbar';
 import MiddleContent from 'components/middlecontent/MiddleContent';
 import Footer from 'components/footer/Footer';
+import { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import {  getProducts,  } from 'redux/apiCalls';
+
 
 
 const Home = () => {
+  const products = useSelector((state)=> state.product.products)
+ console.log(products);
+  const dispatch  = useDispatch()
+  
+  useEffect(()=>{
+  getProducts(dispatch)
+  },[dispatch])
+ 
   return (
     <div>
     <Navbar/>
     <MiddleContent/>
     {/* <MainCarousel/> */}
-     <Sliders sliderData={pizza}   />
-     <MiniSlider sliderData = {fastFood}/>
-     <Sliders sliderData={thali}   />
-     <Sliders sliderData={other}   />
+     <Sliders sliderData={products}  category='fastfood' />
+     <MiniSlider sliderData = {products}  category="other"  />
+     <Sliders sliderData={products}   category='pizza'  />
+     <Sliders sliderData={products}  category="thali"  />
     <Footer/>
 
 

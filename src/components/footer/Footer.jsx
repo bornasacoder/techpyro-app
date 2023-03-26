@@ -2,12 +2,18 @@ import { Box, styled, Typography } from "@mui/material";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   bgColor: "#F8F8F8",
-  padding: "48px  22px",
+  padding: "20px  20px",
   display: "flex",
   justifyContent: "space-around",
   [theme.breakpoints.down("sm")]: {
     display: "flex",
     flexDirection: "column",
+  },
+  [theme.breakpoints.down("xs")]: {
+    display: "flex",
+    flexDirection: "column",
+ alignItems:"center",
+    
   },
 }));
 const Head = styled(Box)({});
@@ -16,7 +22,7 @@ const Footer = () => {
     <Box>
       <Typography
         variant="h1"
-        sx={{ bgColor: "#F8F8F8", padding: "58px  110px 0px" }}
+        sx={{ bgColor: "#F8F8F8", padding: "10px 58px" }}
       >
         Sweetcart
       </Typography>

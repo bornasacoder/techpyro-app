@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -40,7 +40,7 @@ const PreviousBtn = (props) =>{
   const {className,onClick} = props;
   
    return (
-         <div className={className} onClick={onClick}>
+         <div className={className} onClick={onClick} style={{height:"40px",width:"40px",background:"gray",borderRadius:"50%",marginLeft:"-5px"}}>
           <ChevronLeftOutlined style={{color:'black',zIndex:'10',fontSize:'2.5rem' }} />
          </div>  
    )
@@ -49,14 +49,16 @@ const PreviousBtn = (props) =>{
 const NextBtn = (props) =>{
    const {className,onClick} = props;
    return (
-     <div  className={className} onClick={onClick}>
+     <div  className={className} onClick={onClick} style={{height:"40px",width:"40px",background:"gray",borderRadius:"50%",marginLeft:"-5px"}}>
        <ChevronRightOutlined style={{color:'black',  zIndex:'10',fontSize:'2.5rem'}} />
      </div>
    )
 }
 
 
-const MiniSlider = (props) => {
+const MiniSlider = ({sliderData,category}) => {
+ const [filterData, setFilterData] =  useState([])
+
   
   const settings = {
     dots: false,
@@ -123,6 +125,12 @@ const MiniSlider = (props) => {
         },
     ]
   };
+  useEffect(() => {
+    setFilterData(sliderData.filter((item)=>
+    item.maincategory.includes(category)
+    ))
+    console.log(filterData)
+    }, [])
   return (
     <>
     <SliderContainer> 
@@ -133,7 +141,7 @@ const MiniSlider = (props) => {
        <Typography variant='h3' sx={{fontSize: {xs:'15px',sm:'20px',md:'24px'},fontFamily:'inherit'}}>View More</Typography> 
        </Box>  
     <Slider {...settings}>
-     { props.sliderData.map((item)=>(
+     { filterData && filterData.map((item)=>(
       <SliderItem posterLinks={item} />
       ))}
     </Slider>

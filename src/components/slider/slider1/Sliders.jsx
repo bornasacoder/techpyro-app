@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -8,6 +8,7 @@ import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
 // import SliderHeader from './sliderhead/SliderHeader';
 import Card1 from 'components/card/card1/Card1';
 import "./minislider.css"
+import { useEffect } from 'react';
 const SliderContainer = styled('div')({
 width:"100%",
 height:"auto",
@@ -32,28 +33,33 @@ const PreviousBtn = (props) =>{
   const {className,onClick} = props;
   
    return (
-         <div className={className}   onClick={onClick}>
+         <div className={className}   onClick={onClick} style={{height:"40px",width:"40px",background:"gray",borderRadius:"50%",marginLeft:"-5px"}}>
           <ChevronLeftOutlined style={{color:'black',zIndex:'10',fontSize:'2.5rem' }} />
          </div>  
    )
 }
 
 const NextBtn = (props) =>{
+
    const {className,onClick} = props;
    return (
-     <div  className={className}  onClick={onClick}>
-       <ChevronRightOutlined style={{color:'black',  zIndex:'10',fontSize:'2.5rem'}} />
+     <div  className={className}  onClick={onClick} style={{height:"40px",width:"40px",background:"gray",borderRadius:"50%",marginRight:"-35px"}}>
+       <ChevronRightOutlined style={{color:'black',  zIndex:'10',fontSize:'2.5rem',}} sx={{marginRight:"-40px"}}/>
      </div>
    )
 }
 
 
-const Sliders = (props) => {
-  
+const Sliders = ({sliderData,category}) => {
+  console.log(sliderData)
+  // console.log(category)
+
+  // console.log(props.sliderData);
+ const [filterData, setFilterData] =  useState([])
   const settings = {
     dots: false,
     arrows:true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -125,19 +131,27 @@ const Sliders = (props) => {
           settings: {
             slidesToShow: 2.2,
             slidesToScroll: 1,
+            infinite:true,
             speed: 300,
             arrows:false,
           },
         },
     ]
   };
+ useEffect(() => {
+ setFilterData(sliderData.filter((item)=>
+ item.maincategory.includes(category)
+ ))
+ console.log(filterData)
+ }, [])
+ 
   return (
     <>
     <SliderContainer>         
        <SliderInnerContainer>
       {/* <SliderHeader /> */}
     <Slider {...settings}>
-     { props.sliderData.map((item)=>(
+     { filterData && filterData.map((item)=>(
       <Card1 sliderData={item} />
       ))}
     </Slider>

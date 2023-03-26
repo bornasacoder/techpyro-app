@@ -1,12 +1,9 @@
 import React from 'react'
 import { styled } from '@mui/styles'
-
-
+import { useNavigate } from 'react-router-dom'
 const SliderContainer = styled("div")({
 width:"100%",
 height:"auto",
-
-
 })
 const ImageContainer = styled("div")({
     display:"flex",
@@ -14,7 +11,6 @@ const ImageContainer = styled("div")({
     justifyContent:"center",
     flexDirection:"column",
     margin:"10px 20px"
-
 })
 const Image = styled("img")({
     width:"150px",
@@ -25,33 +21,31 @@ const Image = styled("img")({
     "@media (max-width: 960px)": {
         width:'150px',
         height:'150px',
-        
         },
         "@media (max-width: 770px)": {
          width:'150px',
          height:'150px',
-         
          },
          "@media (max-width: 600px)": {
              width:'110px',
              height:'120px',
-             
              },
              "@media (max-width: 480px)": {
                  width:'80px',
                  height:'90px',
-                 
                  },
 })
 
  const SliderItem = ({posterLinks}) => {
+    const nevigate = useNavigate()
+    const handleClick =(id)=>{
+      nevigate(`/Product/${id}`)
+    }
   return (
     <>
-   
        <SliderContainer>
         <ImageContainer>
-           
-            <Image src={posterLinks.image} />
+            <Image src={posterLinks.image} onClick={()=>handleClick(posterLinks.id)} />
         </ImageContainer>
        </SliderContainer>
        </>

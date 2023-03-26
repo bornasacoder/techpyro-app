@@ -10,6 +10,8 @@ import Typography from "@mui/material/Typography";
 
 
 import { Box } from "@mui/material";
+import { useNavigate } from "react-router-dom";
+// import { handleClick } from "infinite-react-carousel/lib/carousel/listener";
 
 
 // const ExpandMore = styled((props) => {
@@ -30,16 +32,21 @@ const MainCard = styled(Box)(({theme})=>({
  
 }));
 export default function Card1({ sliderData }) {
+  const nevigate = useNavigate()
+  const handleClick =(id)=>{
+    nevigate(`/Product/${id}`)
+  }
 
   return (
     <MainCard>
-      <Card sx={{ maxWidth: { md: 250, sm: 220, xs: 150 }, }}>
+      <Card sx={{ maxWidth: { md: 250, sm: 220, xs: 150 }, }} onClick={() => handleClick(sliderData.id)}>
         <CardHeader sx={{fontStyle:"italic", "& .MuiCardHeader-title":{fontSize:{xs:"13px"}}}} title={sliderData.shopname} subheader="September 14"  />
         <CardMedia
           component="img"
           image={sliderData.image}
           alt="Paella dish"
-          sx={{ height: { md: "194", sm: "165", xs: "120" } }}
+          sx={{ height: { md: "194px", sm: "165px", xs: "120px" } }}
+          
         />
         <Box
           sx={{

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import SearchBar from "components/navbar/searchbar/SearchBar";
 import NavButton from "components/navbar/navButton/NavButton";
 // import NavImage from 'images/category/png-10.jpeg'
@@ -13,6 +13,19 @@ import {
   IconButton,
   Select,
   MenuItem,
+  Button,
+  Grid,
+  InputAdornment,
+  OutlinedInput,
+  FormControl,
+  TextField,
+  DialogTitle,
+  CardContent,
+  Card,
+  DialogContent,
+  Dialog,
+  DialogActions,
+  Avatar,
 } from "@mui/material";
 
 import {
@@ -21,9 +34,21 @@ import {
   Padding,
   GetApp,
   Title,
+  LocalActivity,
+  Facebook,
+  Google,
+  VisibilityOff,
+  Visibility,
+  Apple,
 } from "@mui/icons-material";
 import MenuButtons from "./menuButtons/MenuButtons";
 import MainCarousel from "components/carousel/MainCarousel";
+import { useNavigate } from "react-router-dom";
+import { useFormik } from "formik";
+import { signUpSchema } from "schema";
+import { getCordinate } from "components/location/Location";
+import Login from "pages/auth/Login";
+import Signup from "pages/auth/Signup";
 
 const StyleToolbar = styled(Toolbar)(({ theme }) => ({
   display: "flex",
@@ -34,18 +59,11 @@ const StyleToolbar = styled(Toolbar)(({ theme }) => ({
   [theme.breakpoints.down("sm")]: {
     height: "100px",
     top: "-21px",
+    justifyContent:"sapce-around"
   },
 }));
 
-const Cart = styled(Box)`
-  flex: 1;
-`;
 
-const CartButton = styled(Box)`
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-`;
 const NavLeft = styled(Box)(({ theme }) => ({
   flex: "3",
   display: "flex",
@@ -88,7 +106,12 @@ const NavBar = styled(AppBar)(({ theme }) => ({
   background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)
   ),url(${"/images/category/header.jpg"}) 
    center/cover no-repeat`,
+  [theme.breakpoints.down("sm")]:{
+    display:"flex",
+    justifyContent:"space-between"
+  }
 }));
+
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -103,8 +126,57 @@ export default function Navbar() {
   const updatevalue = (e, vel) => {
     setLocation(e.target.value);
   };
+ 
+  const handleCloseForm = () => {
+    setOpener(false);
+  };
+  const handleSignup = () => {
+    setSignupopen(false);
+  };
+  const [opener, setOpener] = React.useState(false);
+  const [signupopen, setSignupopen] = React.useState(false);
+
+  const handleClickOpen = () => {
+  setOpener(true);
+  };
+  const handleSignupOpen = () => {
+  setSignupopen(true);
+  };
+
+  
+  const [showPassword, setShowPassword] = React.useState(false);
+
+  const handleClickShowPassword = () => setShowPassword((show) => !show);
+
+  const handleMouseDownPassword = (event) => {
+    event.preventDefault();
+  };
+  const navigate = useNavigate()
+  const handlehome = () =>{
+    navigate("/")
+  }
+
+ 
+
+    const [address, setaddress] = useState([])
+  const fetchData = async () =>{
+    getCordinate(setaddress)
+  }
+  useEffect(() => {
+   fetchData()
+  }, []);
   return (
     <NavBar>
+   <Dialog open={opener} onClose={handleCloseForm} >
+        <DialogContent>
+       <Login opener={opener} setOpener={setOpener} signupopen ={signupopen} setSignupopen={setSignupopen}/>
+        </DialogContent>
+      </Dialog>
+   <Dialog open={signupopen} onClose={handleSignup} >
+        <DialogContent>
+       <Signup signupopen ={signupopen} setSignupopen={setSignupopen} opener={opener} setOpener={setOpener}/>
+        </DialogContent>
+      </Dialog>
       <StyleToolbar>
         <MenuButton onClick={handleOpen}>
           <Menu sx={{ margin: "25px 50px 0px " }} />
@@ -121,47 +193,25 @@ export default function Navbar() {
             marginTop: { xs: "20px", sm: "20px " },
           }}
         >
-          <MenuItem value="">Select location</MenuItem>
-          <MenuItem value={1}>Haridwar</MenuItem>
-          <MenuItem value={2}>Delhi</MenuItem>
-          <MenuItem value={3}>Punjab</MenuItem>
-          <MenuItem value={4}>Bihar</MenuItem>
+        <MenuItem value="">{address&&address.length!==0 && address[0].properties.county}</MenuItem>
         </Select>
         <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
           <MenuButtons sx={{marginTop:{sm:"20px",sx:"20px"}}} />
         </Drawer>
         <NavLeft>
-          <Box sx={{ display: { xs: "none", md: "flex" }, gap: "2" }}>
-            <GetApp fontSize="medium" />
-            <Typography component="h1">Get the App</Typography>
-          </Box>
+           <img src="/images/category/logo2.png" style={{height:"48px",width:"60px",objectFit:"contain",borderRadius:"0px"}}/>
           <NavButton />
         </NavLeft>
         <Box display="flex">
           <NavRight>
             <Typography
               component="h1"
-              style={{ fontSize: "18px" }}
-              sx={{
-                display: { xs: "none", sm: "none", md: "block" },
-                fontSize: { xs: "5px", sm: "none" },
-              }}
-            >
-              Investor Relation
-            </Typography>
-            <Typography
-              component="h1"
-              style={{ fontSize: "18px" }}
-              sx={{ display: { xs: "none", sm: "none", md: "block" } }}
-            >
-              Add Restaurant
-            </Typography>
-            <Typography
-              component="h1"
               sx={{
                 fontSize: { md: "18px", xs: "15px" },
                 display: { xs: "none", sm: "none", md: "block" },
+                cursor:"pointer"
               }}
+              onClick={handleSignupOpen}
             >
               Sign up
             </Typography>
@@ -170,7 +220,9 @@ export default function Navbar() {
               sx={{
                 fontSize: { md: "18px", xs: "15px" },
                 display: { xs: "none", sm: "none", md: "block" },
+                cursor:"pointer"
               }}
+              onClick={handleClickOpen}
             >
               Log in
             </Typography>
@@ -199,7 +251,7 @@ export default function Navbar() {
         }}
       >
         <Typography sx={{ fontSize: { md: "26px", sm: "20px", xs: "15px" } }}>
-          Discover the best food & drinks in Haridwar
+          Discover the best food & drinks in {address&&address.length!==0 && address[0].properties.county}
         </Typography>
       </Box>
       <Box
