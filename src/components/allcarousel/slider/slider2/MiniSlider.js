@@ -5,33 +5,45 @@ import "slick-carousel/slick/slick-theme.css";
 import { styled } from '@mui/styles';
 import "./minislider.css"
 import SliderItem from './sliderItem/SliderItem';
-import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
+import { ArrowLeftOutlined, ArrowRightAltOutlined, ArrowRightOutlined, ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
 import { Box, Typography } from '@mui/material';
 
 const SliderContainer = styled('div')({
-width:"99%",
+width:"100%",
 height:"auto",
-margin:"2% 0.3%",
+display:'flex',
+justifyContent:'center',
+marginTop:'60px',
+// margin:"2% 0.3%",
 overflow:"hidden",
-boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-"@media (max-width: 1490px)": {
- margin:"2% -1.5%"
+// boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+"@media (max-width: 900px)": {
+
 
 },
-"@media (max-width: 1200px)": {
-  width:"95%",
-  margin:"1% 1rem"
+"@media (max-width: 600px)": {
+  
  
  },
 
 
 })
 const SliderInnerContainer = styled('div')({
+  width:"60%",
   display: "flex",
   justifyContent:"space-between",
   flexDirection:"column",
-  boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-  padding:"0px 40px"
+  // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+  padding:"0px 40px",
+
+  "@media (max-width: 900px)": {
+width:'100%',
+
+  },
+  "@media (max-width: 600px)": {
+    width:'100%',
+   
+   },
 })
 
 
@@ -40,7 +52,7 @@ const PreviousBtn = (props) =>{
   
    return (
          <div className={className} onClick={onClick}>
-          <ChevronLeftOutlined style={{color:'black',zIndex:'10',fontSize:'2.5rem' }} />
+          <ArrowLeftOutlined sx={{color:'black',zIndex:'10',fontSize:'2rem',border:'2px solid black',borderRadius:'50px',marginLeft:'-10px' }} />
          </div>  
    )
 }
@@ -49,7 +61,7 @@ const NextBtn = (props) =>{
    const {className,onClick} = props;
    return (
      <div  className={className} onClick={onClick}>
-       <ChevronRightOutlined style={{color:'black',  zIndex:'10',fontSize:'2.5rem'}} />
+       <ArrowRightOutlined sx={{color:'black',  zIndex:'10',fontSize:'2rem',border:'2px solid black',borderRadius:'50px',marginLeft:'20px'}} />
      </div>
    )
 }
@@ -127,10 +139,10 @@ const MiniSlider = (props) => {
     <SliderContainer> 
            
        <SliderInnerContainer>
-        <Box sx={{display:'flex', justifyContent:'space-between'}}>
+        {/* <Box sx={{display:'flex', justifyContent:'space-between'}}>
        <Typography variant='h3' sx={{fontSize: {xs:'15px',sm:'20px',md:'30px'},fontFamily:'inherit'}}>Fast Food</Typography> 
        <Typography variant='h3' sx={{fontSize: {xs:'15px',sm:'20px',md:'30px'},fontFamily:'inherit'}}>View More</Typography> 
-       </Box>  
+       </Box>   */}
     <Slider {...settings}>
      { props.sliderData.data.map((item)=>(
       <SliderItem posterLinks={item} />

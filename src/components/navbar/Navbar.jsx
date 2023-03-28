@@ -14,17 +14,24 @@ import {
     ListItemIcon,
     ListItemText,
     Badge,
+    Select,
+    MenuItem,
   } from "@mui/material";
 
-import { Help, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Search, ShoppingBag, ShoppingCart} from '@mui/icons-material';
+import { Help, Home, Menu, PercentRounded, PercentTwoTone, Person, Person2Outlined, Search, ShoppingBag, ShoppingCart} from '@mui/icons-material';
 
 import MenuButtons from 'components/menuButtons/MenuButtons';
+import { Link } from 'react-router-dom';
+import Login from 'components/pages/Login';
+import { getCordinate } from 'components/Location/Location';
+import { useEffect } from 'react';
 
 const StyleToolbar = styled(Toolbar)(({theme}) => ({
     display: 'flex',
     justifyContent: 'space-evenly',
     alignItems: 'center',
     position: 'relative',
+    height:'80px',
     [theme.breakpoints.down('md')]: {
         height: 'auto',
         // width: '93vw',
@@ -71,23 +78,31 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         
         //    flexDirection:"column",
         alignItems: 'center',
-        // [theme.breakpoints.down('md')]: {
-            //     justifyContent:"space-between"
-            // },
+        [theme.breakpoints.down('md')]: {
+            height: '70px',
+            justifyContent:'right',
+            gap:'20px',
+            },
             [theme.breakpoints.down('sm')]: {
                 height: '50px',
-                
+                justifyContent:'right',
+                gap:'10px',
             },
             
             
         }));
-        const MyIcons = styled(Box)((ListItemButton) => ({
+        const MyIcons = styled(Box)(({theme}) => ({
             display:'flex',
             justifyContent:'space-between',
             alignItems:'center', 
-           width:'100%'
-           
-           
+           width:'100%',
+           color:'black',
+           [theme.breakpoints.down('md')]: {
+            display:'none',
+        },
+        [theme.breakpoints.down('sm')]: {
+           display:'none',
+        },
             
             
 }));
@@ -96,8 +111,13 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
     color:'#333',
     [theme.breakpoints.down('md')]: {
         display: 'flex',
-        alignItems:'center'
-        
+        alignItems:'center',
+        justifyContent:'right',
+    },
+    [theme.breakpoints.down('sm')]: {
+        display: 'flex',
+        alignItems:'center',
+        justifyContent:'right',
     }
 }));
 
@@ -123,78 +143,139 @@ export default function Navbar() {
 
     const handleClose = ()=>{
         setOpen(false);
-    }
+    };
+
+   
+     const handleSignin = ()=>{
+        setOpen(true);
+        
+    };
+
+    const handleLogout = ()=>{
+        setOpen(false);
+    };
     
+    const [location,setLocation] = useState("");
+     const updateValue = (e,value) =>{
+         console.log(e.target.value)
+        setLocation(e.target.value);
+     }
+     const [address,setAddress]=useState([]);
+     const fetchData = async ()=>{
+        getCordinate(setAddress);
+     }
+     useEffect (()=>{
+        fetchData();
+     },[])
 
     
   return (
+
+    <>
       <NavBar position="sticky" >
         <StyleToolbar  >
         <NavLeft >
-            <MenuButton onClick={handleOpen}>
-                <Menu color='black'sx={{fontSize: {xs:'15px',sm:'25px'}}}/>
-            </MenuButton>
-            <Drawer open={open} onClose={handleClose} sx={{position:'absolute'}}>
-                <MenuButtons/>
-            </Drawer>
            
-                <Box  >
-                    <Typography  component="div" sx={{fontSize: {xs:'15px',sm:'25px',md:'60px'},fontFamily:'revert-layer',color:`${theme.header.textColor}`}}>
-                        TECHPYRO
-                    </Typography>
-                    {/* <Typography component="div" sx={{fontSize:{md:'13px',xs:'10px'}, fontWeight:100}}>
-                        Make a simple Bussiness
-                    </Typography> */}
+           
+                <Box sx={{display:{xs:'none',sm:'none',md:'block'}}} >
+                   <img src='/images/category/logo (2).png' style={{width:'130px',height:'70px'}}/>
+                   
                 </Box>
                 {/* <SearchBar/> */}
-                {/* <Badge sx={{display:{sm:'block',md:'none'}, left:'48px'}}>
-                    <ShoppingCart/>
-                </Badge> */}
-                <NavButton/>
+               
+                <Box 
+                value={location}
+                onChange={updateValue}
+                displayEmpty
+                label='Slect State'
+                sx={{width:'100px',borderBottom:'1px solid rgba(0,0,0,0.3)'}}
+                >
+                    <Typography sx={{fontSize:'20px',fontWeight:'500'}}>{address&&address.length!==0 && address[0].properties.county}</Typography>
+
+                </Box>
             </NavLeft >
+
+
             <NavRight >
+
+           
+
+
             <MyIcons sx={{justifyContent:{xs:'none',sm:'none'}}}>
-            <ListItemButton sx={{width:{xs:'10px' ,sm:'10px',md:'80px'}}} >
-        <ListItemIcon sx={{alignItems:'center',gap:'7px',fontSize: {xs:'7px',sm:'12px',md:'17px'}}}>
-          <Search sx={{fontSize: {xs:'9px',sm:'12px',md:'17px'}}}/>
-          <ListItemText primaryTypographyProps={{fontSize: {xs:'9px',sm:'12px',md:'17px'},fontWeight:'500',color:`${theme.header.textColor}`}} >Search
-            </ListItemText>
-        </ListItemIcon>
-      </ListItemButton >
+                <Link to='/search' style={{textDecoration:'none',color:'black'}}>
+           <Box sx={{"&:hover":{color:'orange'}}}>
+            <Typography sx={{display:'flex',fontSize:'17px',fontWeight:'600',alignItems:'center',gap:'5px'}}><Search sx={{fontSize:'20px'}}/>Search</Typography>
+           </Box>
+           </Link>
 
-      <ListItemButton sx={{display:{xs:'none', sm:'none',md:'block'},width:'80px'}}>
-        <ListItemIcon sx={{alignItems:'center',gap:'7px',justifyContent:'center'}}>
-        <PercentTwoTone />
-        <Badge badgeContent={"NEW"} >
-        <ListItemText primaryTypographyProps={{fontSize:'17px',fontWeight:'500',color:`${theme.header.textColor}`}} primary="Offers" />
-          </Badge>
-        </ListItemIcon>
-      </ListItemButton>
+           <Link to='/offers' style={{textDecoration:'none',color:'black'}}>
+           <Box  sx={{"&:hover":{color:'orange'}}}>
+            <Typography sx={{display:'flex',fontSize:'17px',fontWeight:'600',alignItems:'center',gap:'5px'}}><PercentRounded sx={{fontSize:'20px'}}/>Offers</Typography>
+           </Box>
+           </Link>
 
-      <ListItemButton sx={{display:{xs:'none', sm:'none',md:'block'},width:'80px'}} >
-        <ListItemIcon sx={{alignItems:'center',gap:'7px',justifyContent:'center'}}>
-          <Help />
-          <ListItemText primaryTypographyProps={{fontSize:'17px',fontWeight:'500',color:`${theme.header.textColor}`}} primary="Help" />
-        </ListItemIcon>
-      </ListItemButton>
+           <Box  sx={{"&:hover":{color:'orange'},display:{xs:'none',sm:'none',md:'block'}}} >
+            <Typography sx={{display:'flex',fontSize:'17px',fontWeight:'600',alignItems:'center',gap:'5px',cursor:'pointer'}} onClick={handleSignin}><Person2Outlined sx={{fontSize:'20px'}}/>Login</Typography>
+            <Drawer open={open} onClose={handleLogout} sx={{position:'absolute'}}>
+                <Login  setOpen={setOpen}/>
+            </Drawer>
+           </Box>
 
-      <ListItemButton sx={{width:{xs:'10px' ,sm:'10px',md:'80px'}}}>
-        <ListItemIcon sx={{alignItems:'center',gap:'7px',justifyContent:'center'}}>
-          <Person2Outlined sx={{fontSize: {xs:'9px',sm:'12px',md:'17px'}}}/>
-          <ListItemText primaryTypographyProps={{fontSize: {xs:'9px',sm:'12px',md:'17px'},fontWeight:'500',color:`${theme.header.textColor}`}} primary="Account" />
-        </ListItemIcon>
-      </ListItemButton>
+           <Link to='/cart'  style={{textDecoration:'none',color:'black'}}>
+           <Box  sx={{"&:hover":{color:'orange'}}}>
+            <Typography sx={{display:'flex',fontSize:'17px',fontWeight:'600',alignItems:'center',gap:'5px'}}><Help sx={{fontSize:'20px'}}/>Help</Typography>
+           </Box>
+           </Link>
 
-      <ListItemButton sx={{width:{xs:'10px' ,sm:'10px',md:'80px'}}}>
-        <ListItemIcon sx={{alignItems:'center',gap:'7px',justifyContent:'center'}}>
-          <ShoppingBag sx={{fontSize: {xs:'9px',sm:'12px',md:'17px'}}}/>
-          <ListItemText primaryTypographyProps={{fontSize: {xs:'9px',sm:'12px',md:'17px'},fontWeight:'500',color:`${theme.header.textColor}`}} primary="Cart" />
-        </ListItemIcon>
-      </ListItemButton>
+<Link to='/cart'  style={{textDecoration:'none',color:'black'}}>
+           <Box  sx={{"&:hover":{color:'orange'}}}>
+            <Typography sx={{display:'flex',fontSize:'17px',fontWeight:'600',alignItems:'center',gap:'5px'}}><ShoppingBag sx={{fontSize:'20px'}}/>Cart</Typography>
+           </Box>
+           </Link>
       </MyIcons>
+
+      <Link to='/search' style={{color:'black'}}>
+      <Box sx={{display:{xs:'flex',sm:'flex',md:'none'},alignItems:'center'}}>
+
+      <Search/>
+      </Box>
+      </Link>
+
+      <Link to='/login' style={{color:'black'}}>
+      <Box sx={{display:{xs:'flex',sm:'flex',md:'none'},alignItems:'center'}}>
+
+      <Person/>
+      </Box>
+      </Link>
+      <Box sx={{display:{xs:'flex',sm:'flex',md:'none'},justifyContent:'right'}}>
+            <MenuButton onClick={handleOpen}>
+                <Menu color='black'sx={{fontSize: {xs:'25px',sm:'25px'}}}/>
+            </MenuButton>
+            <Drawer open={open} onClose={handleClose} sx={{position:'absolute',display:{xs:'block',sm:'block',md:'none'}}}>
+                <MenuButtons setOpen={setOpen}/>
+            </Drawer>
+            </Box>
             </NavRight>
         </StyleToolbar>
       </NavBar>
+
+      <Box sx={{display:{xs:'flex',sm:'flex',md:'none'},justifyContent:'center',padding:'20px'}}>
+        <Box sx={{width:{xs:'300px',sm:'500px'},height:{xs:'120px',sm:'180px'},border:'1px solid rgba(0,0,0,0.2)',borderRadius:'20px'}}>
+            <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
+                <Box sx={{display:'flex',flexDirection:'column',margin:'10px',justifyContent:'center'}}>
+                    <Typography sx={{fontSize:'30px',fontWeight:'700'}}>Restaurents</Typography>
+                    <Typography>Enjoy your favourite treats</Typography>
+                    <Typography sx={{fontSize:'17px',fontWeight:'600'}}>View All</Typography>
+                </Box>
+                <Box sx={{margin:'10px'}}>
+                   <img src='https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/pneknawbadtvceqzwiep' style={{height:'100px',width:'100px',borderRadius:'10px'}}/>
+                </Box>
+            </Box>
+
+        </Box>
+
+      </Box>
+      </>
 
   )
 }

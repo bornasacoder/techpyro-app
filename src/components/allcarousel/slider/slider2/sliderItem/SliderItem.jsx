@@ -17,9 +17,10 @@ const ImageContainer = styled("div")({
 
 })
 const Image = styled("img")({
-    width:"150px",
-    height:"150px",
+    width:"100px",
+    height:"100px",
     objectFit:"cover",
+    borderRadius:'100px',
     margin:"10px",
     "@media (max-width: 960px)": {
         width:'200px',

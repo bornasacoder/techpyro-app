@@ -5,32 +5,52 @@ import "slick-carousel/slick/slick-theme.css";
 import { styled } from '@mui/styles';
 import "./swiggyslider.css"
 import SliderItem from '../../carousel/carousel2/sliderItem/SliderItem';
-import {  ArrowCircleLeftOutlined, ArrowCircleRightOutlined, } from '@mui/icons-material';
+import {  ArrowBack, ArrowCircleLeftOutlined, ArrowCircleRightOutlined, ArrowForward, } from '@mui/icons-material';
+import { Box, Typography } from '@mui/material';
 const SliderContainer = styled('div')({
 width:"100%",
 height:"auto",
-// margin:"2% 0.3%",
+display:'flex',
+
+justifyContent:'center',
+backgroundColor:'transparent',
 overflow:"hidden",
 backgroundColor:"#171A29",
-boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-"@media (max-width: 1490px)": {
+// boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+"@media (max-width: 900px)": {
 //  margin:"2% -1.5%"
-
+backgroundColor:'transparent',
+flexDirection:'column',
 
 },
 "@media (max-width: 480px)": {
-    backgroundColor:'white'
- 
+    backgroundColor:'transparent',
+    flexDirection:'column',
  },
 
 
 })
 const SliderInnerContainer = styled('div')({
   display: "flex",
-  justifyContent:"space-between",
+  justifyContent:"center",
+  backgroundColor:'transparent',
   flexDirection:"column",
-  boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-  padding:"20px 40px"
+  height:'350px',
+  width:'85%',
+  // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+  // padding:"20px 40px"
+  // border:'1px solid black'
+  "@media (max-width: 900px)": {
+    backgroundColor:'transparent',
+   height:'220px',
+ width:'100%'
+  
+  },
+  "@media (max-width: 600px)": {
+   backgroundColor:'transparent',
+   height:'220px',
+ width:'100%'
+ },
 })
 
 
@@ -39,7 +59,7 @@ const PreviousBtn = (props) =>{
   
    return (
          <div className={className}   onClick={onClick}>
-          <ArrowCircleLeftOutlined style={{color:'white',zIndex:'100',fontSize:'3rem' }} />
+          <ArrowBack sx={{color:'black',zIndex:'100',background:'white',borderRadius:'50px',fontSize:'40px',marginLeft:'20px' }} />
          </div>  
    )
 }
@@ -48,7 +68,7 @@ const NextBtn = (props) =>{
    const {className,onClick} = props;
    return (
      <div  className={className}  onClick={onClick}>
-       <ArrowCircleRightOutlined style={{color:'white',  zIndex:'20',fontSize:'3rem'}} />
+       <ArrowForward sx={{color:'black',zIndex:'100',background:'white',borderRadius:'50px',fontSize:'40px' }} />
      </div>
    )
 }
@@ -124,7 +144,11 @@ const SwiggySlider = (props) => {
   };
   return (
     <>
-    <SliderContainer>         
+    <SliderContainer>  
+    <Box sx={{display:{xs:'block',sm:'block',md:'none'},paddingLeft:'10px'}}>
+       <Typography variant='h3' sx={{fontSize: {xs:'25px',sm:'20px',md:'30px'},fontFamily:'inherit'}}>Today's Featured</Typography> 
+      
+       </Box>        
        <SliderInnerContainer>
     <Slider {...settings}>
      { props.sliderData.map((item)=>(

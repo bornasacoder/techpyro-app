@@ -6,22 +6,27 @@ import { styled } from '@mui/styles';
 // import "../minislider/minislider.css"
 import SliderItem from './sliderItem/SliderItem';
 import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
+import { Box, Typography } from '@mui/material';
 // import { createTheme } from '@mui/material';
 
 const SliderContainer = styled('div')({
 width:"99%",
 height:"auto",
+display:'flex',
+flexDirection:'column',
+alignItems:'center',
+justifyContent:'center',
 margin:"2% 0.3%",
 overflow:"hidden",
 backgroundColor:"primary",
-boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-"@media (max-width: 1490px)": {
- margin:"2% -1.5%"
+// boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+"@media (max-width: 900px)": {
+
 
 },
-"@media (max-width: 1200px)": {
-  width:"95%",
-  margin:"1% 1rem"
+"@media (max-width: 600px)": {
+  width:"100%",
+ 
  
  },
 
@@ -29,11 +34,21 @@ boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
 })
 const SliderInnerContainer = styled('div')({
   display: "flex",
+  width:"85%",
   justifyContent:"space-between",
   flexDirection:"column",
-  boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+  // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
   padding:"0px 40px",
-  backgroundColor:"primary"
+  backgroundColor:"primary",
+  "@media (max-width: 900px)": {
+
+
+  },
+  "@media (max-width: 600px)": {
+    width:"100%",
+   
+   
+   },
 })
 
 
@@ -122,7 +137,11 @@ const MiniSlider = (props) => {
   };
   return (
     <>
-    <SliderContainer>         
+    <SliderContainer>  
+       <Box sx={{display:'flex', justifyContent:'space-between',width:'80%'}}>
+       <Typography variant='h3' sx={{fontSize: {xs:'15px',sm:'20px',md:'30px'},fontFamily:'inherit'}}>Our Chef</Typography> 
+       <Typography variant='h3' sx={{fontSize: {xs:'15px',sm:'20px',md:'30px'},fontFamily:'inherit'}}>Know More</Typography> 
+       </Box>         
        <SliderInnerContainer>
     <Slider {...settings}>
      { props.sliderData.data.map((item)=>(

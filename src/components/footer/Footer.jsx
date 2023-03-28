@@ -7,10 +7,10 @@ import "./footer.css"
 const Ram = styled(Box)(({theme}) => ({
         display:'flex',
         justifyContent:'space-evenly',
-        backgroundColor:theme.colors.alpha.black[100],
+        backgroundColor:'black',
         height:'auto',
         width:'100%',
-        color:theme.colors.alpha.white[100],
+        color:'white',
         padding:'40px',
         [theme.breakpoints.down('md')]: {
          flexDirection:'column',
@@ -21,7 +21,7 @@ const Ram = styled(Box)(({theme}) => ({
 const Sita = styled(Box)(({theme}) => ({
   display:'flex',
   justifyContent:'space-evenly',
-  backgroundColor:theme.colors.alpha.black[100],
+  backgroundColor:'black',
   height:'auto',
   width:'100%',
   color:theme.colors.alpha.white[100],
@@ -35,15 +35,19 @@ const Footer = () => {
       <Ram >
         
         <Box sx={{fontSize: {xs:'8px',sm:'12px',md:'18px'},paddingBottom:{xs:'15px',sm:'18px',md:'none'}}}>
-        <Typography sx={{paddingBottom:{xs:'none',sm:'none',md:'20px'},fontSize: {xs:'8px',sm:'12px',md:'18px'}}}>COMPANY</Typography>
+        <Typography sx={{paddingBottom:{xs:'0px',sm:'0px',md:'20px'},fontSize: {xs:'16px',sm:'20px',md:'18px'}}}>COMPANY</Typography>
        
           <p>About us</p>
           <p>Team</p>
           <p>Career</p>
+          <p>Refund & Cancellation</p>
+          <p>Cookie policy</p>
+          <p>Offer Terms</p>
+          <p>Phising & Fraud</p>
         
         </Box>
         <Box sx={{fontSize: {xs:'8px',sm:'12px',md:'18px'},paddingBottom:{xs:'15px',sm:'18px',md:'none'}}}>
-        <Typography sx={{paddingBottom:{xs:'none',sm:'none',md:'20px'},fontSize:{xs:'8px',sm:'12px',md:'18px'}}}>CONTACT</Typography>
+        <Typography sx={{paddingBottom:{xs:'none',sm:'none',md:'20px'},fontSize:{xs:'16px',sm:'20px',md:'18px'}}}>CONTACT</Typography>
         
           <p>Help & Support</p>
           <p>Partner with us</p>
@@ -51,7 +55,7 @@ const Footer = () => {
         
         </Box>
         <Box sx={{fontSize: {xs:'8px',sm:'12px',md:'18px'}}}>
-        <Typography sx={{paddingBottom:{xs:'none',sm:'none',md:'20px'},fontSize: {xs:'8px',sm:'12px',md:'18px'}}}>LEGAL</Typography>
+        <Typography sx={{paddingBottom:{xs:'none',sm:'none',md:'20px'},fontSize: {xs:'16px',sm:'20px',md:'18px'}}}>LEGAL</Typography>
         
           <p>Terms & Conditions</p>
           <p>Privacy  Policy</p>

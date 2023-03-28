@@ -4,46 +4,75 @@ import zIndex from '@mui/material/styles/zIndex'
 
 const SliderContainer = styled("div")({
 width:"100%",
+display:'flex',
+width:"260px",
 height:"auto",
-paddingLeft:"px",
+marginLeft:'40px',
+justifyContent:'center',
+alignItems:'center',
 // zIndex:"1"
-
+// border:'1px solid black',
+"@media (max-width: 900px)": {
+    width:'100%',
+            height:'170px',
+           margin:'0px',
+    
+    },
+   
+        "@media (max-width: 600px)": {
+            width:'100%',
+            height:'170px',
+           margin:'0px',
+            
+            },
 })
 const ImageContainer = styled("div")({
     display:"flex",
+    width:"260px",
+    height:"250px",
     alignItems:"center",
     justifyContent:"center",
     flexDirection:"column",
     // margin:"10px 20px"
-
+    // border:'1px solid black',
+    "@media (max-width: 900px)": {
+        width:'100%',
+                height:'170px',
+        
+        },
+       
+            "@media (max-width: 600px)": {
+                width:'100%',
+                height:'170px',
+               
+                
+                },
 })
 const Image = styled("img")({
     width:"260px",
     height:"250px",
     objectFit:"cover",
-    margin:"40px",
+    // margin:"40px",
     zIndex:"1",
-    "@media (max-width: 960px)": {
-       width:'200px',
-       height:'230px',
+    transition:'linear all 0.5s ',
+    "&:hover":{
+        cursor:'pointer',
        
-       },
-       "@media (max-width: 770px)": {
-        width:'160px',
-        height:'200px',
+        transform:'scale(1.1)'
+    },
+   
+       "@media (max-width: 900px)": {
+        width:'95%',
+        height:'170px',
+        borderRadius:'10px',
         
         },
-        "@media (max-width: 600px)": {
-            width:'120px',
-            height:'170px',
-            
-            },
-            "@media (max-width: 480px)": {
-                width:'320px',
-                height:'120px',
-                margin:'0',
-                padding:'0',
-                gap:'20px'
+       
+            "@media (max-width: 600px)": {
+                width:'95%',
+                height:'170px',
+                borderRadius:'10px',
+               
                 
                 },
 })
