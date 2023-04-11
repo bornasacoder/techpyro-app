@@ -7,29 +7,13 @@ import {
 } from "@mui/icons-material";
 import { Button, styled, Typography } from "@mui/material";
 import { Box } from "@mui/system";
-import SearchBar from "components/navbar/searchbar/SearchBar";
+import SearchBar from "layouts/navbar/searchbar/SearchBar";
+// import SearchBar from "components/navbar/searchbar/SearchBar";
 import React from "react";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 const StyleToolbar = styled("div")(({ theme }) => ({}));
-const Top = styled("div")(({ theme }) => ({
-  display: "flex",
-  justifyContent: "space-around",
-  alignItems: "center",
-  borderBottom: "1px solid #CCCCCC",
-  background:"#0C487C",
-  
-  // paddingBottom:"20px",
-  // paddingTop:"20px",
-  padding: "20px 38px",
-  [theme.breakpoints.down("md")]:{
-    padding:"20px 20px"
-  },
-  [theme.breakpoints.down("sm")]:{
-    padding:"20px 20px",
-    flexDirection:"column"
-  }
-}));
+
 const Bottom = styled(Box)(({ theme }) => ({
   padding: "15px 58px",
   [theme.breakpoints.down("md")]: {
@@ -39,7 +23,7 @@ const Bottom = styled(Box)(({ theme }) => ({
     padding: "15px 20px",
   },
 }));
-const Product1 = ({ productDetail }) => {
+const Block1 = ({ productDetail }) => {
   useEffect(() => {
     //  console.log(productDetail);
   }, []);
@@ -49,36 +33,6 @@ const Product1 = ({ productDetail }) => {
   };
   return (
     <StyleToolbar>
-      <Top>
-        <Box>
-          <Typography variant="h1" sx={{ fontSize: {md:"30px",sm:"30px",xs:"24px"},color:"#fff" }}>
-            SWEETCART
-          </Typography>
-        </Box>
-        <br/>
-        <Box
-          sx={{
-            // display: "flex",
-            // justifyContent: "center",
-            // boxShadow: "2px gray",
-            // alignItems: "center",
-          }}
-        >
-          <SearchBar />
-        </Box>
-        <Box sx={{display:"flex",gap:'40px',}}>
-          <Typography
-            sx={{ fontSize: "18px", color:"#fff", cursor: "pointer" }}
-          >
-            Login
-          </Typography>
-          <Typography
-            sx={{ fontSize: "18px", color:"#fff", cursor: "pointer" }}
-            >
-            Signup
-          </Typography>
-            </Box>
-      </Top>
       <Box
         sx={{
           display: "flex",
@@ -362,4 +316,4 @@ const Product1 = ({ productDetail }) => {
   );
 };
 
-export default Product1;
+export default Block1;

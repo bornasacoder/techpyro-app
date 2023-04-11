@@ -3,7 +3,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import { Avatar, Button, Card,  } from '@mui/material';
+import { Avatar, Button, Card, Grid,  } from '@mui/material';
 import { pizzaPhotoes } from 'constants/slider/pizzaPhotoes';
 import { pizzaReview } from 'constants/slider/pizzaReview';
 import { Message, Share, Star,  ThumbUpOutlined } from '@mui/icons-material';
@@ -39,7 +39,7 @@ function a11yProps(index: Number) {
   };
 }
 
-export default function Product2({productDetail}) {
+export default function Block2({productDetail}) {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
@@ -115,17 +115,15 @@ export default function Product2({productDetail}) {
        <br/>
        <Box sx={{display:"flex",flexWrap:"wrap",width:"100%",gap:"20px",borderRadius:"auto" }} >
 
+         <Grid container columnSpacing={2} rowSpacing={2}>
       {pizzaPhotoes.map((item) => (
-          <Card sx={{ width: {md:"17%",sm:"30%",xs:"45%"}, height:"50%",boxShadow:"none","&:hover":{
-            transition: "transform .5s ease-out "
-          } }} >
-          <img
-            src={item.image}
-            style={{objectFit:"cover",objectPosition:"center",width:"100%",height:"100%"}}
-            alt="Pizza"
-            />
-    </Card>
+          <Grid md={2.4} sm={4} xs={12} item  sx={{"&:hover":{
+            transition: "all .3s ease-in-out"
+          }}} >
+          <Avatar src={item.image} alt='gallary ' sx={{width:"100%",height:"100%",borderRadius:"5px",}}/>
+    </Grid>
           ))}
+          </Grid>
           </Box>
       </TabPanel>
     </Box>

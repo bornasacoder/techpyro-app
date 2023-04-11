@@ -2,12 +2,12 @@
 import Sliders from 'components/slider/slider1/Sliders'
 import React from 'react'
 import MiniSlider from 'components/slider/slider2/MiniSlider';
-import Navbar from 'components/navbar/Navbar';
 import MiddleContent from 'components/middlecontent/MiddleContent';
 import Footer from 'components/footer/Footer';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {  getProducts,  } from 'redux/apiCalls';
+import Navbar from 'layouts/navbar/Navbar';
 
 
 
@@ -30,8 +30,6 @@ const Home = () => {
      <Sliders sliderData={products}   category='pizza'  />
      <Sliders sliderData={products}  category="thali"  />
     <Footer/>
-
-
     </div>
   )
 }

@@ -2,7 +2,7 @@ import { Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import React from 'react'
 
-const Product3 = () => {
+const Block3 = () => {
   return (
     <Box sx={{padding:{md:"20px 58px",sm:"20px 20px",xs:"20px 20px"}}}>
 <Typography sx={{fontSize:"16px"}}>RELATED TO DA PEPPER PIZZA, KAONLI</Typography>
@@ -17,4 +17,4 @@ const Product3 = () => {
   )
 }
 
-export default Product3
+export default Block3

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import SearchBar from "components/navbar/searchbar/SearchBar";
-import NavButton from "components/navbar/navButton/NavButton";
+// import SearchBar from "components/navbar/searchbar/SearchBar";
+// import NavButton from "components/navbar/navButton/NavButton";
 // import NavImage from 'images/category/png-10.jpeg'
 import {
   AppBar,
@@ -49,6 +49,8 @@ import { signUpSchema } from "schema";
 import { getCordinate } from "components/location/Location";
 import Login from "pages/auth/Login";
 import Signup from "pages/auth/Signup";
+import SearchBar from "./searchbar/SearchBar";
+import NavButton from "./navButton/NavButton";
 
 const StyleToolbar = styled(Toolbar)(({ theme }) => ({
   display: "flex",
@@ -199,7 +201,7 @@ export default function Navbar() {
           <MenuButtons sx={{marginTop:{sm:"20px",sx:"20px"}}} />
         </Drawer>
         <NavLeft>
-           <img src="/images/category/logo2.png" style={{height:"48px",width:"60px",objectFit:"contain",borderRadius:"0px"}}/>
+           <Avatar src="/images/category/logo2.png" sx={{height:"48px",width:"58px",borderRadius:"0px"}}/>
           <NavButton />
         </NavLeft>
         <Box display="flex">

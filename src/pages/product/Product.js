@@ -1,8 +1,9 @@
 import { Box } from '@mui/material'
 import Footer from 'components/footer/Footer';
-import Product1 from 'contents/Product1'
-import Product2 from 'contents/Product2';
-import Product3 from 'contents/Product3';
+import Block1 from 'contents/product/Block1';
+import Block2 from 'contents/product/Block2';
+import Block3 from 'contents/product/Block3';
+import Navbar2 from 'layouts/Navbar2/Navbar2';
 import React, { useState } from 'react'
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
@@ -26,9 +27,10 @@ const Product = () => {
     }, [dispatch])
   return (
     <>
-    <Product1 productDetail={productDetail}/>
-    <Product2 productDetail={productDetail}/>
-    <Product3 />
+    <Navbar2/>
+    <Block1 productDetail={productDetail}/>
+    <Block2 productDetail={productDetail}/>
+    <Block3 />
     <Footer/>
     </>
   )
