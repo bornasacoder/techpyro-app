@@ -3,15 +3,16 @@ export const other = [
         name:"Samba Vegan Shoes",
         style:'Men Life Style',
          price: {
-               mrp: "$599",
+               mrp: "$199",
                discount: "100",
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-           tagline: "new",
-      image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/homepage_banner/tinywow_ISRO-BANNER_7608846.webp",
+         image: "https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/homepage_banner/HOMEPAGE_BANNER_2_FkyZIdO.webp",
+         tagline: "new",
            rating:"4.3",
        },
+ 
 
        {
         name:"Samba Vegan Shoes",
@@ -35,7 +36,7 @@ export const other = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/section_2/tinywow_jpg_to_webp_4210423.webp",
+       image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/homepage_banner/tinywow_VKF-BANNER--SHOP-NOW_15973112.webp",
        tagline: "new",
            rating:"4.3",
        },
@@ -43,13 +44,13 @@ export const other = [
         name:"Samba Vegan Shoes",
         style:'Men Life Style',
          price: {
-               mrp: "$199",
+               mrp: "$599",
                discount: "100",
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/special_offers/tinywow_jpg_to_webp_4013467.webp",
-         tagline: "new",
+           tagline: "new",
+      image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/homepage_banner/tinywow_ISRO-BANNER_7608846.webp",
            rating:"4.3",
        },
     //    {
