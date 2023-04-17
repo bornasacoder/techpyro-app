@@ -4,7 +4,7 @@ import { Box, Typography,styled, TextField, Button } from '@mui/material'
 import React from 'react'
 import "./footer.css"
   
-const Ram = styled(Box)(({theme}) => ({
+const Footer1 = styled(Box)(({theme}) => ({
         display:'flex',
         // alignItems:'center',
         justifyContent:'center',
@@ -21,22 +21,8 @@ const Ram = styled(Box)(({theme}) => ({
       }
         
 }));
-const Lakshman = styled(Box)(({theme}) => ({
-  display:'flex',
-  justifyContent:'space-evenly',
-  // backgroundColor:theme.colors.alpha.black[100],
-  height:'auto',
-  width:'100%',
-  // color:theme.colors.alpha.white[100],
-  padding:'30px',
-  [theme.breakpoints.up('md')]: {
-  //  flexDirection:'column',
-  //   padding:'10px',
-  display:'none',
-}
-  
-}));
-const Sita = styled(Box)(({theme}) => ({
+
+const Footer2 = styled(Box)(({theme}) => ({
   display:'flex',
   justifyContent:'space-evenly',
   // backgroundColor:theme.colors.alpha.black[100],
@@ -62,7 +48,7 @@ const Footer = () => {
         <Typography sx={{display:'flex',flexDirection:'row',alignItems:'center',gap:'10px'}}> <LocalShippingTwoTone sx={{fontSize:'35px'}}/>Free Delievery</Typography>
         <Typography sx={{display:'flex',flexDirection:'row',alignItems:'center',gap:'10px'}}><CurrencyExchangeTwoTone sx={{fontSize:'35px',color:'red'}}/>Easy Exchange</Typography>
        </Box>
-      <Ram >
+      <Footer1 >
         
       
         <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'300px',sm:'350px',md:'300px'},display:'flex',flexDirection:'column',gap:'20px',color:'black'}}>
@@ -123,58 +109,13 @@ const Footer = () => {
         <Typography>HARIDWAR</Typography>
         </Box>
        
-      </Ram>
-      {/* <Lakshman >
-      
-      <Box sx={{fontSize: {xs:'18px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'}}}>
-      
+      </Footer1>
      
-        <p>Australia</p>
-        <p>Belgium</p>
-        <p>Bolivia</p>
-        <p>Canada</p>
-        <p>chile</p>
-        <p>Costarica</p>
-        <p>Dominican Republic</p>
-        <p>Ecuador</p>
-        <p>France</p>
-        <p>Germanys</p>
-        <p>El Salvador</p>
-         <p>Guatemala</p>
-      
-         </Box>
-     
-      <Box sx={{fontSize: {xs:'18px',sm:'18px',md:'18px'}}}>
-      
-      
-        <p>Mexico</p>
-        <p>Netherland</p>
-        <p>Newzealand</p>
-        <p>Panama</p>
-        <p>Poland</p>
-        <p>Portugal</p>
-        <p>South Africa</p>
-        <p>Spain</p>
-        <p>Ireland</p>
-          <p>Italy</p>
-           <p>Japan</p>
-         <p>Kenya</p>
-      
-      </Box>
-     
-    </Lakshman> */}
     <Box sx={{display:'flex',alignItems:'center',flexDirection:'column',paddingTop:'30px'}}>
-      {/* <Box>
-      <Typography>Enter your mail*</Typography>
-      <Box sx={{borderRadius:'0'}}>
-      <TextField variant='standard' sx={{width:{xs:'200px',sm:'300px',md:'600px'}}}></TextField>
-      <Button variant='contained'  sx={{borderRadius:'0'}}>SUBMIT</Button>
-      
-      </Box>
-      </Box> */}
+     
     </Box>
       <hr></hr>
-      <Sita>
+      <Footer2>
         <Box>
           <Typography>Privacy Policy</Typography>
         </Box>
@@ -186,7 +127,7 @@ const Footer = () => {
         <Typography>Cookie Policy</Typography>
       </Box>
         
-      </Sita>
+      </Footer2>
       </Box>
    
   )
