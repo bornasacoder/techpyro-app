@@ -176,11 +176,11 @@ export default function Navbar() {
         <StyleToolbar  >
         <NavLeft >
            
-           
-                <Box sx={{display:{xs:'none',sm:'none',md:'block'}}} >
-                   <Typography sx={{fontSize:'40px',fontWeight:'700'}}>BAKERY</Typography>
-                   
+           <Link to='/' style={{textDecoration:'none',color:'black'}}>
+                <Box sx={{display:{xs:'none',sm:'none',md:'block'},cursor:'pointer',textDecoration:'none'}} >
+                   <Typography sx={{fontSize:'40px',fontWeight:'700',color:'black',textDecoration:'none'}}>RESTAURENT</Typography>   
                 </Box>
+           </Link>
                 {/* <SearchBar/> */}
                
                 <Box 
