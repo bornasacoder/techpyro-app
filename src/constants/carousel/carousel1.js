@@ -6,7 +6,7 @@ export const mainCarousel = [
             cost: "299"
         },
         tagline: "Life's too short for boring food",
-        image: "https://images.pexels.com/photos/326278/pexels-photo-326278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        image:"https://images.pexels.com/photos/1639565/pexels-photo-1639565.jpeg?auto=compress&cs=tinysrgb&w=600", 
     },
 {
     price: {
@@ -15,7 +15,7 @@ export const mainCarousel = [
           cost: "199"
       },
       tagline: "End your hunger with us.",
-      image: "https://images.pexels.com/photos/775031/pexels-photo-775031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image:"https://images.pexels.com/photos/19642/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600",
      
 },
 {
@@ -26,7 +26,8 @@ export const mainCarousel = [
       },
 
       tagline: "Choose and taste to your place",
-      image: "https://images.pexels.com/photos/1152237/pexels-photo-1152237.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image:"https://images.pexels.com/photos/1583891/pexels-photo-1583891.jpeg?auto=compress&cs=tinysrgb&w=600",
+
       
 },
 {
@@ -37,7 +38,7 @@ export const mainCarousel = [
       },
   
       tagline: "A tasty burger is what you deserve",
-      image: "https://images.pexels.com/photos/1571077/pexels-photo-1571077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image:"https://images.pexels.com/photos/1390940/pexels-photo-1390940.jpeg?auto=compress&cs=tinysrgb&w=600",
        
 },
 {
@@ -47,7 +48,7 @@ export const mainCarousel = [
           cost: "399"
       },
       tagline: "A tasty burger is what you deserve",
-      image: "https://images.pexels.com/photos/4963957/pexels-photo-4963957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image:"https://images.pexels.com/photos/572981/pexels-photo-572981.jpeg?auto=compress&cs=tinysrgb&w=600 ",
    
 },
 {

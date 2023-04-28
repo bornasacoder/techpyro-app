@@ -178,7 +178,7 @@ export default function Navbar() {
            
            
                 <Box sx={{display:{xs:'none',sm:'none',md:'block'}}} >
-                   <img src='/images/category/logo (2).png' style={{width:'130px',height:'70px'}}/>
+                   <Typography sx={{fontSize:'40px',fontWeight:'700'}}>BAKERY</Typography>
                    
                 </Box>
                 {/* <SearchBar/> */}
