@@ -53,7 +53,7 @@ const Product = () => {
                 <Box sx={{display:'flex',justifyContent:'space-between',margin:'10px'}}>
                 <Box sx={{display:'flex',flexDirection:'column'}}>
                     <Typography sx={{fontSize:{xs:'18px',sm:'18px',md:'20px'},fontWeight:'700'}}>{productDetail.length>0 && productDetail[0].shopname}</Typography>
-                    <Typography>{productDetail.length>0 && productDetail[0].tagline}</Typography>
+                    {/* <Typography>{productDetail.length>0 && productDetail[0].tagline}</Typography> */}
                 </Box>
                 <Box sx={{border:'1px solid black',height:'70px',borderRadius:'10px',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center',padding:'5px'}}>
                    <Typography sx={{color:'green',display:'flex',alignItems:'center',gap:'5px',fontSize:'20px',fontWeight:'600'}}><Star/>{productDetail.length>0 && productDetail[0].rating}</Typography>
@@ -71,21 +71,21 @@ const Product = () => {
 
             <Typography sx={{fontSize:{xs:'18px',sm:'18px',md:'25px'},fontWeight:'700',padding:'10px'}}>Recommended(17)</Typography>
             <Box sx={{display:'flex',justifyContent:'space-between',padding:{xs:'10px',sm:'10px',md:'20px'}}}>
-                <Box>
+                {/* <Box>
                     <Typography sx={{color:'green',display:'flex',alignItems:'center',gap:'5px',fontSize:'20px',fontWeight:'600'}}><Star/>4.0</Typography>
                     <Typography sx={{fontSize:{xs:'18px',sm:'18px',md:'20px'},fontWeight:'700'}}>Paneer Butter Masala</Typography>
                     <Typography sx={{fontSize:'20px'}}>₹289</Typography>
-                </Box>
-
+                </Box> */}
+{/* 
                 <Box sx={{position:'relative'}}>
-                    <img src='https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/njhzjt4m6wqyublfqcvj' style={{height:'120px',width:'150px',borderRadius:'10px'}}/>
+                    <img src='https://www.shutterstock.com/image-photo/collection-electronic-gadgets-all-black-260nw-1936328692.jpg' style={{height:'120px',width:'150px',borderRadius:'10px'}}/>
 
                     <Box sx={{position:'absolute',top:'90px',left:'40px'}}>
                         <Button variant='outlined' sx={{background:'white',color:'green',"&:hover":{background:'white',color:'green'}}}>ADD</Button>
                     </Box>
-                </Box>
+                </Box> */}
             </Box>
-            <Divider/>
+            {/* <Divider/> */}
 
             <Menu/>
         
@@ -93,7 +93,7 @@ const Product = () => {
         </Box>
 
       </Box>
-      <BigSlider border='20' sliderData={content}/>
+      {/* <BigSlider border='20' sliderData={content}/> */}
       <Footer/>
     </>
   )
