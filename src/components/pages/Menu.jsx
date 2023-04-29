@@ -22,7 +22,7 @@ const Menu = () => {
        <Box sx={{display:'flex',justifyContent:'space-between',padding:{xs:'10px',sm:'10px',md:'20px'}}}>
                 <Box>
                     <Typography sx={{color:'green',display:'flex',alignItems:'center',gap:'5px',fontSize:'20px',fontWeight:'600'}}><Star/>4.0</Typography>
-                    <Typography sx={{fontSize:{xs:'18px',sm:'18px',md:'20px'},fontWeight:'700'}}>{item.tagline}</Typography>
+                    <Typography sx={{fontSize:{xs:'18px',sm:'18px',md:'20px'},fontWeight:'700'}}>{item.shopname}</Typography>
                     <Typography sx={{fontSize:'20px'}}>{item.price.mrp}</Typography>
                 </Box>
 
