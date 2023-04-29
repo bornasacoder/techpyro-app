@@ -178,7 +178,7 @@ export default function Navbar() {
            
            <Link to='/' style={{textDecoration:'none',color:'black'}}>
                 <Box sx={{display:{xs:'none',sm:'none',md:'block'},cursor:'pointer',textDecoration:'none'}} >
-                   <Typography sx={{fontSize:'40px',fontWeight:'700',color:'black',textDecoration:'none'}}>SHOES STORE</Typography>   
+                   <Typography sx={{fontSize:'40px',fontWeight:'700',color:'black',textDecoration:'none'}}>Clothes Store</Typography>   
                 </Box>
            </Link>
                 {/* <SearchBar/> */}

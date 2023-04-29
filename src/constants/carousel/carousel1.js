@@ -6,7 +6,7 @@ export const mainCarousel = [
             cost: "299"
         },
         tagline: "Life's too short for boring food",
-        image:"https://5.imimg.com/data5/SELLER/Default/2023/4/297911358/CC/RT/HF/116453489/runnig-rider-shoes-500x500.jpg", 
+        image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/top_categories/t_shirt.webp", 
     },
 {
     price: {
@@ -15,7 +15,7 @@ export const mainCarousel = [
           cost: "199"
       },
       tagline: "End your hunger with us.",
-      image:"https://sc04.alicdn.com/kf/Hfee5cc2d9f2f4e3e93f69e0e7fc43c5da/239174152/Hfee5cc2d9f2f4e3e93f69e0e7fc43c5da.png",
+      image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/top_categories/shirt.webp",
      
 },
 {
@@ -26,7 +26,7 @@ export const mainCarousel = [
       },
 
       tagline: "Choose and taste to your place",
-      image:"https://sc04.alicdn.com/kf/H7fed66294d4342a7af053ce0bb2ee141N.jpg",
+      image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/top_categories/jeans_zLmbNxi.webp",
 
       
 },
@@ -38,7 +38,7 @@ export const mainCarousel = [
       },
   
       tagline: "A tasty burger is what you deserve",
-      image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWnH5VMBYUDSCs8cfHQA0urHx9KcY2VPfSIw&usqp=CAU",
+      image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/top_categories/sweatshirt.webp",
        
 },
 {
@@ -48,7 +48,7 @@ export const mainCarousel = [
           cost: "399"
       },
       tagline: "A tasty burger is what you deserve",
-      image:"https://images.meesho.com/images/products/43218975/66dnk_512.jpg",
+      image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/top_categories/joggers_X4OUb1k.webp",
    
 },
 
