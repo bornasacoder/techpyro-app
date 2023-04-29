@@ -6,7 +6,7 @@ export const mainCarousel = [
             cost: "299"
         },
         tagline: "Life's too short for boring food",
-        image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/top_categories/t_shirt.webp", 
+        image:"https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?auto=compress&cs=tinysrgb&w=600", 
     },
 {
     price: {
@@ -15,7 +15,7 @@ export const mainCarousel = [
           cost: "199"
       },
       tagline: "End your hunger with us.",
-      image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/top_categories/shirt.webp",
+      image:"https://images.pexels.com/photos/5951182/pexels-photo-5951182.jpeg?auto=compress&cs=tinysrgb&w=600",
      
 },
 {
@@ -26,7 +26,7 @@ export const mainCarousel = [
       },
 
       tagline: "Choose and taste to your place",
-      image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/top_categories/jeans_zLmbNxi.webp",
+      image:"https://images.pexels.com/photos/6097861/pexels-photo-6097861.jpeg?auto=compress&cs=tinysrgb&w=600",
 
       
 },
@@ -38,7 +38,7 @@ export const mainCarousel = [
       },
   
       tagline: "A tasty burger is what you deserve",
-      image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/top_categories/sweatshirt.webp",
+      image:"https://images.pexels.com/photos/11608887/pexels-photo-11608887.jpeg?auto=compress&cs=tinysrgb&w=600",
        
 },
 {
@@ -48,7 +48,7 @@ export const mainCarousel = [
           cost: "399"
       },
       tagline: "A tasty burger is what you deserve",
-      image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/top_categories/joggers_X4OUb1k.webp",
+      image:"https://freepngimg.com/thumb/grocery/41619-7-groceries-free-download-image-thumb.png",
    
 },
 
