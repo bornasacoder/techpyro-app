@@ -1,7 +1,7 @@
 export const Product = [
     {
        maincategory:"fastfood",
-            shopname:"Om Restaurant",
+            shopname:"Chaiwala",
             id:100,
              price: {
                    mrp: "₹500 FOR TWO",
@@ -10,14 +10,14 @@ export const Product = [
                },
                category:["Pizza" ," Pasta", " Fast Food"],
                tagline: "Pizza Theory",
-               image:"https://images.pexels.com/photos/7353379/pexels-photo-7353379.jpeg?auto=compress&cs=tinysrgb&w=600 ",   
+               image:"https://images.pexels.com/photos/5808361/pexels-photo-5808361.jpeg?auto=compress&cs=tinysrgb&w=600",   
                  
                rating:"4.3",
         
    },
    {
    maincategory:"fastfood",
-    shopname:"Om Restaurant",
+   shopname:"Chaiwala",
     id:101,
      price: {
         mrp: "₹500 FOR TWO",
@@ -26,7 +26,7 @@ export const Product = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Testy bite Pizza",
-        image:"https://images.pexels.com/photos/5410400/pexels-photo-5410400.jpeg?auto=compress&cs=tinysrgb&w=600",
+        image:"https://images.pexels.com/photos/36756/food-pizza-roll-baked.jpg?auto=compress&cs=tinysrgb&w=600",
         image1:"https://b.zmtcdn.com/data/pictures/5/18285165/0fc8a333af04eb4fa92a59425972fed7.jpg?fit=around|300:273&crop=300:273;*,*",   
         image2:"https://b.zmtcdn.com/data/pictures/5/18285165/fe2cd6ca3f27e4a473241bcd9fb33a29.jpg?fit=around|300:273&crop=300:273;*,*",   
         image3:"https://b.zmtcdn.com/data/reviews_photos/975/334020e174222d65ee742abf75cce975_1567934297.jpg?fit=around|300:273&crop=300:273;*,*", 
@@ -35,7 +35,7 @@ export const Product = [
 },
 {
    maincategory:"fastfood",
-    shopname:"Om Restaurant",
+   shopname:"Chaiwala",
     id:102,
      price: {
         mrp: "₹500 FOR TWO",
@@ -44,7 +44,7 @@ export const Product = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Da Love bite Pizza",
-    image:"https://images.pexels.com/photos/9609835/pexels-photo-9609835.jpeg?auto=compress&cs=tinysrgb&w=600 ",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Masala_Chai.JPG/1200px-Masala_Chai.JPG ",
     image1:"https://b.zmtcdn.com/data/pictures/5/18285165/0fc8a333af04eb4fa92a59425972fed7.jpg?fit=around|300:273&crop=300:273;*,*",   
                image2:"https://b.zmtcdn.com/data/pictures/5/18285165/fe2cd6ca3f27e4a473241bcd9fb33a29.jpg?fit=around|300:273&crop=300:273;*,*",   
                image3:"https://b.zmtcdn.com/data/reviews_photos/975/334020e174222d65ee742abf75cce975_1567934297.jpg?fit=around|300:273&crop=300:273;*,*", 
@@ -53,7 +53,7 @@ export const Product = [
 },
 {
    maincategory:"fastfood",
-    shopname:"Om Restaurant",
+   shopname:"Chaiwala",
     id:103,
      price: {
         mrp: "₹500 FOR TWO",
@@ -62,7 +62,7 @@ export const Product = [
        },
        category:["Burger"," Pizza"," Sandwich"," Wraps", " Fast Food"," Street Food"," Beverages"],
        tagline: "Burger Monk",
-      image:"https://images.pexels.com/photos/9218754/pexels-photo-9218754.jpeg?auto=compress&cs=tinysrgb&w=600 ",
+      image:"https://akm-img-a-in.tosshub.com/indiatoday/images/story/202212/untitled_design_-_2022-12-07t181052.483-sixteen_nine.png?VersionId=DQThI35qNiMWppoR7_Z4nA5T_M38LP54 ",
       image1:"https://b.zmtcdn.com/data/pictures/5/18285165/0fc8a333af04eb4fa92a59425972fed7.jpg?fit=around|300:273&crop=300:273;*,*",   
        image2:"https://b.zmtcdn.com/data/pictures/5/18285165/fe2cd6ca3f27e4a473241bcd9fb33a29.jpg?fit=around|300:273&crop=300:273;*,*",   
       image3:"https://b.zmtcdn.com/data/reviews_photos/975/334020e174222d65ee742abf75cce975_1567934297.jpg?fit=around|300:273&crop=300:273;*,*", 
@@ -71,7 +71,7 @@ export const Product = [
 },
 {
    maincategory:"fastfood",
-    shopname:"Om Restaurant",
+   shopname:"Chaiwala",
     id:104,
      price: {
         mrp: "₹500 FOR TWO",
@@ -80,7 +80,7 @@ export const Product = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Pizza Hut",
-      image:"https://images.pexels.com/photos/10580197/pexels-photo-10580197.jpeg?auto=compress&cs=tinysrgb&w=600 ",
+      image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7NVORcuKFVNxxxMcrhAn0V2lCb1eAJPCQrQ&usqp=CAU ",
       image1:"https://b.zmtcdn.com/data/pictures/5/18285165/0fc8a333af04eb4fa92a59425972fed7.jpg?fit=around|300:273&crop=300:273;*,*",   
                image2:"https://b.zmtcdn.com/data/pictures/5/18285165/fe2cd6ca3f27e4a473241bcd9fb33a29.jpg?fit=around|300:273&crop=300:273;*,*",   
                image3:"https://b.zmtcdn.com/data/reviews_photos/975/334020e174222d65ee742abf75cce975_1567934297.jpg?fit=around|300:273&crop=300:273;*,*", 
@@ -89,7 +89,7 @@ export const Product = [
 },
 {
    maincategory:"fastfood",
-    shopname:"Om Restaurant",
+   shopname:"Chaiwala",
     id:105,
      price: {
         mrp: "₹500 FOR TWO",
@@ -98,7 +98,7 @@ export const Product = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "The King of Paranthas",
-      image:"https://images.pexels.com/photos/9609842/pexels-photo-9609842.jpeg?auto=compress&cs=tinysrgb&w=600 ",
+      image:"https://images.pexels.com/photos/298217/pexels-photo-298217.jpeg?auto=compress&cs=tinysrgb&w=600",
       image1:"https://b.zmtcdn.com/data/pictures/5/18285165/0fc8a333af04eb4fa92a59425972fed7.jpg?fit=around|300:273&crop=300:273;*,*",   
      image2:"https://b.zmtcdn.com/data/pictures/5/18285165/fe2cd6ca3f27e4a473241bcd9fb33a29.jpg?fit=around|300:273&crop=300:273;*,*",   
      image3:"https://b.zmtcdn.com/data/reviews_photos/975/334020e174222d65ee742abf75cce975_1567934297.jpg?fit=around|300:273&crop=300:273;*,*", 
@@ -108,7 +108,7 @@ export const Product = [
 
 {
    maincategory:"fastfood",
-    shopname:"Om Restaurant",
+   shopname:"Chaiwala",
     id:110,
      price: {
         mrp: "₹500 FOR TWO",
@@ -117,7 +117,7 @@ export const Product = [
        },
        category:[" Finger Chips"," Samosa"," Spring Rolls"],
        tagline: "Hukum Pizza",
-       image:"https://images.pexels.com/photos/9609843/pexels-photo-9609843.jpeg?auto=compress&cs=tinysrgb&w=600 ",
+       image:"https://images.pexels.com/photos/1028718/pexels-photo-1028718.jpeg?auto=compress&cs=tinysrgb&w=600",
        image1:"https://b.zmtcdn.com/data/pictures/5/18285165/0fc8a333af04eb4fa92a59425972fed7.jpg?fit=around|300:273&crop=300:273;*,*",   
                image2:"https://b.zmtcdn.com/data/pictures/5/18285165/fe2cd6ca3f27e4a473241bcd9fb33a29.jpg?fit=around|300:273&crop=300:273;*,*",   
                image3:"https://b.zmtcdn.com/data/reviews_photos/975/334020e174222d65ee742abf75cce975_1567934297.jpg?fit=around|300:273&crop=300:273;*,*", 
@@ -126,7 +126,7 @@ export const Product = [
 },
 {
    maincategory:"fastfood",
-    shopname:"Om Restaurant",
+   shopname:"Chaiwala",
     id:111,
      price: {
         mrp: "₹500 FOR TWO",
@@ -135,7 +135,7 @@ export const Product = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Da Piper Pizza",  
-        image:"https://images.pexels.com/photos/5410401/pexels-photo-5410401.jpeg?auto=compress&cs=tinysrgb&w=600",
+        image:"https://images.pexels.com/photos/2245293/pexels-photo-2245293.jpeg?auto=compress&cs=tinysrgb&w=600",
         image1:"https://b.zmtcdn.com/data/pictures/5/18285165/0fc8a333af04eb4fa92a59425972fed7.jpg?fit=around|300:273&crop=300:273;*,*",   
                image2:"https://b.zmtcdn.com/data/pictures/5/18285165/fe2cd6ca3f27e4a473241bcd9fb33a29.jpg?fit=around|300:273&crop=300:273;*,*",   
                image3:"https://b.zmtcdn.com/data/reviews_photos/975/334020e174222d65ee742abf75cce975_1567934297.jpg?fit=around|300:273&crop=300:273;*,*", 
@@ -144,7 +144,7 @@ export const Product = [
 },
 {
    maincategory:"fastfood",
-    shopname:"Om Restaurant",
+   shopname:"Chaiwala",
     id:112,
      price: {
         mrp: "₹500 FOR TWO",
@@ -153,7 +153,7 @@ export const Product = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Da Mexican Pizza",
-      image:"https://images.pexels.com/photos/9609846/pexels-photo-9609846.jpeg?auto=compress&cs=tinysrgb&w=600 ",
+      image:"https://images.pexels.com/photos/2606028/pexels-photo-2606028.jpeg?auto=compress&cs=tinysrgb&w=600 ",
       image1:"https://b.zmtcdn.com/data/pictures/5/18285165/0fc8a333af04eb4fa92a59425972fed7.jpg?fit=around|300:273&crop=300:273;*,*",   
       image2:"https://b.zmtcdn.com/data/pictures/5/18285165/fe2cd6ca3f27e4a473241bcd9fb33a29.jpg?fit=around|300:273&crop=300:273;*,*",   
       image3:"https://b.zmtcdn.com/data/reviews_photos/975/334020e174222d65ee742abf75cce975_1567934297.jpg?fit=around|300:273&crop=300:273;*,*", 
@@ -162,7 +162,7 @@ export const Product = [
 },
 {
     maincategory:"pizza",
-    shopname:"Ram Ji bhojnalaya",
+    shopname:"Chaiwala",
     id:113,
     price: {
         mrp: "₹500 FOR TWO",
@@ -171,7 +171,7 @@ export const Product = [
       },
       category:["Pizza","California Pizza","Detroit Pizza"],
       tagline: "Life's too short for boring food",
-      image: "https://images.pexels.com/photos/14731625/pexels-photo-14731625.jpeg?auto=compress&cs=tinysrgb&w=600 ",
+      image: "https://b.zmtcdn.com/data/pictures/chains/3/112843/046f1195ce487e2fbd8ce9087ebc7e05.jpg?fit=around|750:500&crop=750:500;*,* ",
       image1: "https://b.zmtcdn.com/data/pictures/9/19857789/dbe75c6d7ffda09b57ae01eed48deedf.jpg?fit=around|300:273&crop=300:273;*,*",
       image2: "https://b.zmtcdn.com/data/pictures/chains/4/19183764/eb85111153543e0d8e9f572914326738.jpg?fit=around|300:273&crop=300:273;*,* ",
       image3: "https://b.zmtcdn.com/data/pictures/9/19857789/99611fcc97908f4abd29d75590529640.jpg?fit=around|300:273&crop=300:273;*,*",
@@ -179,7 +179,7 @@ export const Product = [
   },
   {
     maincategory:"pizza",
-    shopname:"Ram Ji bhojnalaya",
+    shopname:"Chaiwala",
     id:114,
     price: {
         mrp: "₹500 FOR TWO",
@@ -188,7 +188,7 @@ export const Product = [
       },
       category:["Pizza","California Pizza","Detroit Pizza"],
       tagline: "Life's too short for boring food",
-      image: "https://images.pexels.com/photos/8625813/pexels-photo-8625813.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "https://b.zmtcdn.com/data/pictures/0/19623710/878f98953d6a8b92737fd9fa53d54170.jpeg?fit=around|750:500&crop=750:500;*,*",
       image1: "https://b.zmtcdn.com/data/pictures/chains/1/19461231/ca1f4478ebd73e06018d8dfd7ad3f06c.jpg?fit=around|300:273&crop=300:273;*,*",
       image2: "https://b.zmtcdn.com/data/pictures/chains/1/19461231/ca71b77e366f50dbd45501668de1bf5d.jpg?fit=around|300:273&crop=300:273;*,*",
       image3: "https://b.zmtcdn.com/data/pictures/chains/1/19461231/e0e6212c11a6b573e7b3ad4edfef97d5.jpg?fit=around|300:273&crop=300:273;*,*",
@@ -196,7 +196,7 @@ export const Product = [
   },
   {
     maincategory:"pizza",
-    shopname:"Ram Ji bhojnalaya",
+    shopname:"Chaiwala",
     id:115,
     price: {
         mrp: "₹500 FOR TWO",
@@ -213,7 +213,7 @@ export const Product = [
   },
   {
     maincategory:"pizza",
-    shopname:"Ram Ji bhojnalaya",
+    shopname:"Chaiwala",
     id:116,
     price: {
         mrp: "₹500 FOR TWO",
@@ -230,7 +230,7 @@ export const Product = [
   },
   {
     maincategory:"pizza",
-    shopname:"Ram Ji bhojnalaya",
+    shopname:"Chaiwala",
     id:117,
     price: {
         mrp: "₹500 FOR TWO",
@@ -249,7 +249,7 @@ export const Product = [
 
        {
         maincategory:"other",
-        shopname:"Gupta Fast Food",
+        shopname:"Chaiwala",
         id:131,
          price: {
             mrp: "₹500 FOR TWO",
@@ -262,4 +262,21 @@ export const Product = [
            tagline: "Life's too short for boring food",
            rating:"4.3",
        },
+       {
+        maincategory:"pizza",
+        shopname:"Chaiwala",
+        id:113,
+        price: {
+            mrp: "₹500 FOR TWO",
+            discount: "FLAT 25% OFF",
+              cost: "299"
+          },
+          category:["Pizza","California Pizza","Detroit Pizza"],
+          tagline: "Life's too short for boring food",
+          image: "https://b.zmtcdn.com/data/pictures/chains/3/112843/046f1195ce487e2fbd8ce9087ebc7e05.jpg?fit=around|750:500&crop=750:500;*,* ",
+          image1: "https://b.zmtcdn.com/data/pictures/9/19857789/dbe75c6d7ffda09b57ae01eed48deedf.jpg?fit=around|300:273&crop=300:273;*,*",
+          image2: "https://b.zmtcdn.com/data/pictures/chains/4/19183764/eb85111153543e0d8e9f572914326738.jpg?fit=around|300:273&crop=300:273;*,* ",
+          image3: "https://b.zmtcdn.com/data/pictures/9/19857789/99611fcc97908f4abd29d75590529640.jpg?fit=around|300:273&crop=300:273;*,*",
+          rating:"4.3",
+      },
 ]
