@@ -1,77 +1,197 @@
 export const  pizzaPhotoes =[
     {
-image :"https://b.zmtcdn.com/data/pictures/6/19039706/5203b05c643e66f81d79740d102954b8.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+image :"https://media.istockphoto.com/id/185283972/photo/colorful-high-heels-in-fashionable-wedge-style.jpg?s=612x612&w=0&k=20&c=HA5uVQNDoZJb3w_JwY3RRwp3NIGTCWsMUZdOhLjWGZ0="
     },
     {
-image :"https://b.zmtcdn.com/data/pictures/6/19039706/5203b05c643e66f81d79740d102954b8.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        image: "https://media.istockphoto.com/id/679539190/photo/indian-made-mens-shoes.jpg?s=612x612&w=0&k=20&c=1wTYVNCgSpNcnzfLxPzjfd1swEWXnUZHKzikNupEaWk=",
     },
     {
-image :"https://b.zmtcdn.com/data/pictures/chains/6/19039706/55dcdea3a7cec913c66c59c9d5057866.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+
+        image: "https://images.pexels.com/photos/5413302/pexels-photo-5413302.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
     },
     {
-image :"https://b.zmtcdn.com/data/pictures/chains/6/19039706/55dcdea3a7cec913c66c59c9d5057866.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        image: "https://images.pexels.com/photos/8456072/pexels-photo-8456072.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
     },
     {
-image :"https://b.zmtcdn.com/data/pictures/chains/6/19039706/b0eec18c4fd24a3e0ad43194e7b057e0.jpeg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        image: "https://images.pexels.com/photos/1886487/pexels-photo-1886487.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-image :"https://b.zmtcdn.com/data/pictures/6/19039706/d7f1580d136439cfae78b0a51d7fa257.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        image: "https://media.istockphoto.com/id/185408145/photo/a-pair-of-mens-black-dress-shoes.jpg?s=612x612&w=0&k=20&c=dhifi_LpBEI99vpQUtLcCoK62J4Ra523AdL1NYb79GU=",
     },
     {
-image :"https://b.zmtcdn.com/data/pictures/6/19039706/2e73d9e84a2ab5ac09510f8bab79faec.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        image: "https://media.istockphoto.com/id/172801724/photo/black-dress-shoes.jpg?s=612x612&w=0&k=20&c=H5zQ7h6xXlutYkN3egd1rEAhGGvMm9MZk1pXh2lDKXk= ",
+        
     },
     {
-image :"https://b.zmtcdn.com/data/pictures/6/19039706/1e3933bbf8c7c8f45dc8be934717c313.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        
+        image: "https://media.istockphoto.com/id/1191206049/photo/the-men-fashion-model-wearing-the-brown-shoes-leather-on-wooden-floor.jpg?s=612x612&w=0&k=20&c=fJVd-PsPvH8oBKbQWr0JaKKjRXFSAWVwfvutt5TJqc0=",
     },
     {
-image :"https://b.zmtcdn.com/data/pictures/6/19039706/67ee72bff02d358ec0262e6def51bc84.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        
+        image: "https://media.istockphoto.com/id/1277108970/photo/men-fashion-with-trousers-and-black-shoes-leather.jpg?s=612x612&w=0&k=20&c=APpudK2epcXr8_usC-ztn0s4J3QnMwJjeVItgBAQqGU=",
     },
     {
-image :"https://b.zmtcdn.com/data/reviews_photos/49b/55068f62a90a21ff4541429cada8a49b_1571306709.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        image: "https://media.istockphoto.com/id/173695280/photo/red-slippers.jpg?s=612x612&w=0&k=20&c=1_eVA6RaTVYd3j5-sRVKPj5kW4jlYH7RUca2rKX8gYE=",
     },
     {
-image :"https://b.zmtcdn.com/data/reviews_photos/45d/a02def6f23def9412c223e90fd6f245d_1554974646.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        image: "https://media.istockphoto.com/id/1200989115/photo/pair-of-male-shoes-isolated-on-the-white.jpg?s=612x612&w=0&k=20&c=9g3-KhuqKsln0yYyi3IGbcI6589_jSw95NOcnQa6vSc=",
+        
     },
     {
-image :"https://b.zmtcdn.com/data/reviews_photos/c4b/0167e72aacd30427ece20567367f7c4b_1612456288.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        image: "https://media.istockphoto.com/id/1210269974/photo/pair-of-male-shoes-isolated-on-the-white.jpg?s=612x612&w=0&k=20&c=tvT7qCrPrFeogwEevLAXb3AEkFcTDkwMK-YfS4z3RTE=",
+        
     },
     {
-image :"https://b.zmtcdn.com/data/reviews_photos/8dd/fd6808f5da51d56d0e99226eb3ff18dd_1605790747.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        
+        image: "https://media.istockphoto.com/id/864583128/photo/female-shoes-collection-woman-shoes-over-white-background.jpg?s=612x612&w=0&k=20&c=d_TW0UEr_mKNf5tcb4f0c9qWvjoq81QXKIV7RYeBMFs=",
     },
     {
-image :"https://b.zmtcdn.com/data/reviews_photos/978/5325de9072a3cb2055b771a3d55d6978_1605790746.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        image: "https://images.pexels.com/photos/7866269/pexels-photo-7866269.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-image :"https://b.zmtcdn.com/data/reviews_photos/f06/6cbc28c73b99b9c5ac37aad73621ff06_1571306747.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        image: "https://media.istockphoto.com/id/464621465/photo/old-leather-shoes.jpg?s=612x612&w=0&k=20&c=gCVRF591wKf2UIm2-z_mHtTQVW55uUNJv0-lwOImbHY=",
+        
     },
     {
-image :"https://b.zmtcdn.com/data/reviews_photos/f28/a51123d6c8881e2856a8b322e466ef28_1612456287.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        
+        image: "https://media.istockphoto.com/id/537314805/photo/hiking-feet-mountain-peak-rock.jpg?s=612x612&w=0&k=20&c=9te0C-t9X4sz7RuZ0eHiYVcsS5xnhSl68AvL6h26WZ0=",
     },
     {
-image :"https://b.zmtcdn.com/data/reviews_photos/098/7aa694310079ea7fa08f513d37d93098_1572861480.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+
+        image: "https://media.istockphoto.com/id/586058614/photo/five-pairs-of-a-colorful-rain-boots.jpg?s=612x612&w=0&k=20&c=XYJHqY5aNDGd8C9D5oxKbaSJOo1O_Hl0zN9lh1jBLwE=",
     },
     {
-image :"https://b.zmtcdn.com/data/reviews_photos/fee/0054d4b279937e329db8b0e951324fee_1605789979.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        image: "https://media.istockphoto.com/id/173845398/photo/girls-satin-newborn-baby-shoes-on-a-pink-background.jpg?s=612x612&w=0&k=20&c=8B31aoR47mHa_-phb7f3EuWVaoDFhFD3Te5x3oMyVZY=",
     },
     {
-image :"https://b.zmtcdn.com/data/reviews_photos/fee/0054d4b279937e329db8b0e951324fee_1605789979.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+    image: "https://images.pexels.com/photos/5154027/pexels-photo-5154027.jpeg?auto=compress&cs=tinysrgb&w=600 ",
+    
+},
+{
+    image: "https://images.pexels.com/photos/10640466/pexels-photo-10640466.jpeg?auto=compress&cs=tinysrgb&w=600",
+    
+},
+{
+        image: "https://images.pexels.com/photos/8463024/pexels-photo-8463024.jpeg?auto=compress&cs=tinysrgb&w=600", 
+
     },
     {
-image :"https://b.zmtcdn.com/data/reviews_photos/00c/7044d3a9ec429d3f1f53d0584084f00c_1611239763.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        image:"https://img.freepik.com/free-photo/men-shoes_1203-8387.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=robertav1_2_sidr",
+    },
+    { 
+        image: "https://images.pexels.com/photos/3488036/pexels-photo-3488036.jpeg?auto=compress&cs=tinysrgb&w=600",
+    },
+    {   
+        image: "https://images.pexels.com/photos/2610300/pexels-photo-2610300.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-image :"https://b.zmtcdn.com/data/reviews_photos/722/79090f4e719b6ff1c8c82e47945ca722_1632055635.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        
+        image:"https://images.pexels.com/photos/267202/pexels-photo-267202.jpeg?auto=compress&cs=tinysrgb&w=600",
     },
     {
-image :"https://b.zmtcdn.com/data/reviews_photos/cca/1d63a536c882a4fddeec3c8ffe887cca_1605625027.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        image: "https://media.istockphoto.com/id/464621465/photo/old-leather-shoes.jpg?s=612x612&w=0&k=20&c=gCVRF591wKf2UIm2-z_mHtTQVW55uUNJv0-lwOImbHY=",
     },
     {
-image :"https://b.zmtcdn.com/data/reviews_photos/cca/1d63a536c882a4fddeec3c8ffe887cca_1605625027.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        image: "https://images.pexels.com/photos/7866269/pexels-photo-7866269.jpeg?auto=compress&cs=tinysrgb&w=600",
+        
     },
     {
-image :"https://b.zmtcdn.com/data/reviews_photos/cca/1d63a536c882a4fddeec3c8ffe887cca_1605625027.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        image: "https://media.istockphoto.com/id/537314805/photo/hiking-feet-mountain-peak-rock.jpg?s=612x612&w=0&k=20&c=9te0C-t9X4sz7RuZ0eHiYVcsS5xnhSl68AvL6h26WZ0=",
+        
     },
     {
-image :"https://b.zmtcdn.com/data/reviews_photos/cca/1d63a536c882a4fddeec3c8ffe887cca_1605625027.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A"
+        
+        image: "https://media.istockphoto.com/id/586058614/photo/five-pairs-of-a-colorful-rain-boots.jpg?s=612x612&w=0&k=20&c=XYJHqY5aNDGd8C9D5oxKbaSJOo1O_Hl0zN9lh1jBLwE=",
     },
+    {
+        image:"https://media.istockphoto.com/id/942926448/photo/set-of-colored-womens-shoes-on-beige-background.jpg?s=612x612&w=0&k=20&c=OKPtxR0axe8D9mnBEdY63NQT9hiWwN7b8BGjj-YYhBg=",
+    },
+    {
+        image:"https://media.istockphoto.com/id/971618048/photo/partial-view-of-woman-in-red-pants-and-shoes-outstretching-legs-out-decorative-window.jpg?s=612x612&w=0&k=20&c=B2GIN6v9b8T11pWaJQf5i3nonGSnJdydP8nJpnsiuCo=",
+        
+    },
+    {
+        
+        image:"https://media.istockphoto.com/id/902488556/photo/women-force-rights-self-confident-concept.jpg?s=612x612&w=0&k=20&c=WmTsK5L-Q4zJIWh3y616XmYfov5j0XJ20WFYKWmNfdE=",
+    },
+    {
+        image:"https://images.pexels.com/photos/10341097/pexels-photo-10341097.jpeg?auto=compress&cs=tinysrgb&w=600",
+
+    },
+    {
+        image:"https://img.freepik.com/free-photo/pair-trainers_144627-3799.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=robertav1_2_sidr",
+    },
+    {
+        image:"https://img.freepik.com/premium-photo/dar-blue-marble-effect-background_236836-7407.jpg?w=900",
+        
+    },
+    {
+        
+        image: "https://as2.ftcdn.net/v2/jpg/02/70/62/09/1000_F_270620901_zGs4A0XeNPoeOZOxFJqDii4NZey6AzZ0.jpg",
+    },
+    {
+        
+        image: "https://images.pexels.com/photos/1102776/pexels-photo-1102776.jpeg?auto=compress&cs=tinysrgb&w=600",
+    },
+    {
+        image:"https://media.istockphoto.com/id/486996288/photo/skechers-athletic-shoe.jpg?s=612x612&w=0&k=20&c=liQWYknLS-b3ICZ4ajFHYM-WRUkh1Rh-bAGHBJs9PtE=",
+    },
+    {
+        image:"https://media.istockphoto.com/id/479282024/photo/skechers-kids-damager-stark-light-up-sneaker.jpg?s=612x612&w=0&k=20&c=RYYbvdPvTEP8NJrjh5vFraIrsQQ1mwnrCOlGd-HiW_A=",
+        
+    },
+    {
+        image: "https://media.istockphoto.com/id/459007915/photo/skechers-sneaker-boy-shoe.jpg?s=612x612&w=0&k=20&c=lEdiNTcefbYPppQxrhjWPqOEx7Hy0IMpE6FWU7H2ASQ=",
+        
+    },
+    {
+        image: "https://media.istockphoto.com/id/1226582237/photo/skechers-new-york-city.jpg?s=612x612&w=0&k=20&c=jv80NWeCTLFm7fztuJjQhOYmxa5CJIrdEnZmRD_hxU8=",
+
+    },
+    {
+        image:"https://media.istockphoto.com/id/458729529/photo/reebok-shaq-attaq-basketball-sneaker.jpg?s=612x612&w=0&k=20&c=j-YTYA3HFf9q8n2VvSnzeoUXHZUV7OPDsVWqlCYUF9A=",
+    },
+    {
+        image:"https://media.istockphoto.com/id/458729529/photo/reebok-shaq-attaq-basketball-sneaker.jpg?s=612x612&w=0&k=20&c=j-YTYA3HFf9q8n2VvSnzeoUXHZUV7OPDsVWqlCYUF9A=",
+        
+    },
+    {
+        
+        image: "https://media.istockphoto.com/id/458469367/photo/reebok-premier-verone-supreme-running-shoe.jpg?s=612x612&w=0&k=20&c=Gl9YDiy7OhVownS_a1LvB6vR0FEhzlCHKEsqM0wMx2s=",
+    },
+    {
+        image: "https://media.istockphoto.com/id/1089019298/photo/reebok-storefront-in-new-jersey.jpg?s=612x612&w=0&k=20&c=QmKFTJx3MmciRz4lTlowi9A8hqSe27BGKKHktJMCdMY=",
+
+    },
+    {
+        image: "https://media.istockphoto.com/id/89158922/photo/ballet-shoes.jpg?s=612x612&w=0&k=20&c=2gelLi0yIPwo-EEBg6DMyQeZLJlj-Vhi8ZYQJgUpFdE=",
+    },
+    {
+        image: "https://images.pexels.com/photos/5154027/pexels-photo-5154027.jpeg?auto=compress&cs=tinysrgb&w=600 ",
+        
+    },
+    {
+        
+        image: "https://images.pexels.com/photos/10640466/pexels-photo-10640466.jpeg?auto=compress&cs=tinysrgb&w=600",
+    },
+    {
+        image: "https://images.pexels.com/photos/40662/shoes-footwear-hiking-shoes-walking-40662.jpeg?auto=compress&cs=tinysrgb&w=600",
+    },
+    {
+        
+        image: "https://images.pexels.com/photos/167706/pexels-photo-167706.jpeg?auto=compress&cs=tinysrgb&w=600",
+    },
+    {
+        
+        image: "https://images.pexels.com/photos/1094794/pexels-photo-1094794.jpeg?auto=compress&cs=tinysrgb&w=600",  
+    },
+    {
+        
+        image: "https://images.pexels.com/photos/8463024/pexels-photo-8463024.jpeg?auto=compress&cs=tinysrgb&w=600",
+    },
+    {
+        
+        image: "https://images.pexels.com/photos/1047966/pexels-photo-1047966.jpeg?auto=compress&cs=tinysrgb&w=600",
+    },
+    
 ]
