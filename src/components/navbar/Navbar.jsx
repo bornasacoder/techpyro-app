@@ -178,7 +178,7 @@ export default function Navbar() {
            
            <Link to='/' style={{textDecoration:'none',color:'black'}}>
                 <Box sx={{display:{xs:'none',sm:'none',md:'block'},cursor:'pointer',textDecoration:'none'}} >
-                   <Typography sx={{fontSize:'40px',fontWeight:'700',color:'black',textDecoration:'none'}}>Medical Store</Typography>   
+                   <Typography sx={{fontSize:'40px',fontWeight:'700',color:'black',textDecoration:'none'}}>Beauty Products</Typography>   
                 </Box>
            </Link>
                 {/* <SearchBar/> */}
@@ -263,8 +263,8 @@ export default function Navbar() {
         <Box sx={{width:{xs:'300px',sm:'500px'},height:{xs:'120px',sm:'180px'},border:'1px solid rgba(0,0,0,0.2)',borderRadius:'20px'}}>
             <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
                 <Box sx={{display:'flex',flexDirection:'column',margin:'10px',justifyContent:'center'}}>
-                    <Typography sx={{fontSize:'30px',fontWeight:'700'}}>Medicals</Typography>
-                    <Typography> Your required medicines</Typography>
+                    <Typography sx={{fontSize:'30px',fontWeight:'700'}}>Beauty Products</Typography>
+                    <Typography> Your required beauty products</Typography>
                     <Typography sx={{fontSize:'17px',fontWeight:'600'}}>View All</Typography>
                 </Box>
                 <Box sx={{margin:'10px'}}>
