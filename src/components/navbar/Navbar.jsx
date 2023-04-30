@@ -109,17 +109,7 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         alignItems:'center'
           
       }));
-      // const Signup = styled(Button)(({theme}) => ({
-        
-      //   backgroundColor:theme.header.textColor,
-      //   boxShadow:theme.header.boxShadow,
-      //   ":hover":{
-      //     backgroundColor:theme.header.background,
-      //     color:theme.header.textColor,
-      //     boxShadow:theme.header.boxShadow,
-      //   }
-          
-      // }));
+     
       
 
 const MenuButton = styled(IconButton)(({ theme }) => ({
@@ -133,7 +123,7 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
 const Ram = styled(Box)(({ theme }) => ({
   height:'750px',
   width:'100%',
-    backgroundImage: `url(${"/images/category/bgdimg7.jpg"})`,
+    backgroundImage: `url(${"https://img.lovepik.com/photo/20211208/small/lovepik-dining-physical-restaurant-dining-environment-picture_501599799.jpg"})`,
    backgroundSize:'cover',
   position:'sticky',
       
@@ -203,18 +193,9 @@ export default function Navbar() {
                     <ListItemText primary={`ABOUT`}/>
                     <ListItemText primary={`CONTACT`}/>
                   </List>
-                    {/* <Typography  component="div" sx={{fontSize: {xs:'25px',sm:'25px',md:'40px'},fontFamily:'revert-layer',color:`${theme.header.textColor}`}}>
-                        Uber Eats
-                    </Typography> */}
-                    {/* <Typography component="div" sx={{fontSize:{md:'13px',xs:'10px'}, fontWeight:100}}>
-                        Make a simple Bussiness
-                    </Typography> */}
+                 
                 </Box>
-                {/* <SearchBar/> */}
-                {/* <Badge sx={{display:{sm:'block',md:'none'}, left:'48px'}}>
-                    <ShoppingCart/>
-                </Badge> */}
-                {/* <NavButton/> */}
+                
             </NavLeft >
             <NavRight > 
               <Box sx={{display:'flex',paddingRight:'20px'}}>
@@ -225,7 +206,7 @@ export default function Navbar() {
                <Login variant='contained' sx={{borderRadius:'30px',fontSize:'18px' ,display:{xs:'none',sm:'none',md:'block'},alignItems:'center'}}>Log in</Login>
               
                
-               {/* <Signup variant='contained' sx={{borderRadius:'30px',fontSize:{xs:'10px',sm:'15px',md:'20px'}}}>Sign up</Signup> */}
+               
               
             </NavRight>
         </StyleToolbar>
@@ -233,7 +214,7 @@ export default function Navbar() {
         </NavBar>
         <Downnav>
           <Typography sx={{fontSize:{xs:'100px',sm:'150px',md:'200px'},fontWeight:'1000',height:{xs:'110px',sm:'170px',md:'230px'},color:`${theme.header.background}`}}>
-            Coffee.
+            Restaurent
             
           </Typography>
           <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},color:`${theme.header.background}`}}>It's the Simple Pleasure in Life</Typography>

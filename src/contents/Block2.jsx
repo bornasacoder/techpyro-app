@@ -29,7 +29,7 @@ const Block2 = () => {
   const Box1= styled(Box)(({ theme }) => ({
     height:'680px',
     width:'100%',
-    backgroundImage: `url(${"/images/category/bgdimg4.jpeg"})`,
+    backgroundImage: `url(${"https://img.lovepik.com/photo/20211122/small/lovepik-panorama-of-simple-restaurant-picture_500759749.jpg"})`,
     backgroundSize:'cover',
     backgroundAttachment:'fixed'
     }
@@ -37,7 +37,7 @@ const Block2 = () => {
   const Box2= styled(Box)(({ theme }) => ({
     height:'680px',
     width:'100%',
-    backgroundImage: `url(${"/images/category/bgdimg5.webp"})`,
+    backgroundImage: `url(${"https://images.pexels.com/photos/2302809/pexels-photo-2302809.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
     backgroundSize:'cover',
     backgroundAttachment:'fixed',
     display:'flex',
@@ -72,7 +72,7 @@ const Block2 = () => {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="/images/category/blockimg4.webp"
+          image="https://images.pexels.com/photos/3338536/pexels-photo-3338536.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
      </Box>
@@ -87,7 +87,7 @@ const Block2 = () => {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="/images/category/blockimg5.webp"
+          image="https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
      </Box>
@@ -111,9 +111,9 @@ const Block2 = () => {
        <Box2>
            
          
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},height:{xs:'0px',sm:'170px',md:'0px'},color:`${theme.header.background}`}}>Just Start Your Day with Cold Bre</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},height:{xs:'0px',sm:'170px',md:'0px'},color:`${theme.header.background}`}}>Just Start Your Day with Hot & Spicy</Typography>
           <Typography sx={{fontSize:{xs:'100px',sm:'150px',md:'200px'},fontWeight:'1000',height:{xs:'110px',sm:'170px',md:'200px'},color:`${theme.header.background}`}}>
-            Coffee.
+            Biriyani.
             
           </Typography>
        </Box2>
