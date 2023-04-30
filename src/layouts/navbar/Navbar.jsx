@@ -106,7 +106,7 @@ const NavBar = styled(AppBar)(({ theme }) => ({
   color: "#fff",
   position: "static",
   background: `linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)
-  ),url("https://images.pexels.com/photos/2074130/pexels-photo-2074130.jpeg?auto=compress&cs=tinysrgb&w=600") 
+  ),url("https://images.pexels.com/photos/4021944/pexels-photo-4021944.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load") 
    center/cover no-repeat`,
   [theme.breakpoints.down("sm")]:{
     display:"flex",
@@ -241,7 +241,7 @@ export default function Navbar() {
         }}
       >
         <Typography sx={{ fontSize: { md: "60px", sm: "40px", xs: "35px" },fontFamily:"cursive",color:"#CFD1D1" }}>
-         Cofiee & Tea
+         Cafe
         </Typography>
       </Box>
       <Box
