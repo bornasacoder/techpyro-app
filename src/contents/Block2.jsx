@@ -29,7 +29,7 @@ const Block2 = () => {
   const Box1= styled(Box)(({ theme }) => ({
     height:'680px',
     width:'100%',
-    backgroundImage: `url(${"https://img.lovepik.com/photo/20211122/small/lovepik-panorama-of-simple-restaurant-picture_500759749.jpg"})`,
+    backgroundImage: `url(${"https://images.pexels.com/photos/2300334/pexels-photo-2300334.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
     backgroundSize:'cover',
     backgroundAttachment:'fixed'
     }
@@ -37,7 +37,7 @@ const Block2 = () => {
   const Box2= styled(Box)(({ theme }) => ({
     height:'680px',
     width:'100%',
-    backgroundImage: `url(${"https://images.pexels.com/photos/226004/pexels-photo-226004.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
+    backgroundImage: `url(${"https://images.pexels.com/photos/609771/pexels-photo-609771.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
     backgroundSize:'cover',
     backgroundAttachment:'fixed',
     display:'flex',
@@ -55,7 +55,7 @@ const Block2 = () => {
       <CardBox >
       
        <Box sx={{height:{xs:'100%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'50%'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',alignItems:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>About Our Chef</Typography>
+        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>About Our Shoes</Typography>
         <pre>This is your About section. It’s a great space to</pre>
           <pre> tell your story and to describe who you are and what</pre>
            <pre> you do. If you're a business, talk about how you </pre>
@@ -72,7 +72,7 @@ const Block2 = () => {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/3338536/pexels-photo-3338536.jpeg?auto=compress&cs=tinysrgb&w=600"
+          image="https://images.pexels.com/photos/12628400/pexels-photo-12628400.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
      </Box>
@@ -87,7 +87,7 @@ const Block2 = () => {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/1199958/pexels-photo-1199958.jpeg?auto=compress&cs=tinysrgb&w=600"
+          image="https://images.pexels.com/photos/7543638/pexels-photo-7543638.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
      </Box>
@@ -111,9 +111,9 @@ const Block2 = () => {
        <Box2>
            
          
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},height:{xs:'0px',sm:'170px',md:'0px'},color:`${theme.header.background}`}}>Just Start Your Day with Hot & Spicy</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},height:{xs:'0px',sm:'170px',md:'0px'},color:`${theme.header.background}`}}>Just Start Your Day with a walk</Typography>
           <Typography sx={{fontSize:{xs:'100px',sm:'150px',md:'200px'},fontWeight:'1000',height:{xs:'110px',sm:'170px',md:'200px'},color:`${theme.header.background}`}}>
-            Pasta.
+            Shoes
             
           </Typography>
        </Box2>

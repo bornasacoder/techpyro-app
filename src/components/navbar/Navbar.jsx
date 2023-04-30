@@ -123,7 +123,7 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
 const Ram = styled(Box)(({ theme }) => ({
   height:'750px',
   width:'100%',
-    backgroundImage: `url(${"https://img.lovepik.com/photo/20211208/small/lovepik-dining-physical-restaurant-dining-environment-picture_501599799.jpg"})`,
+    backgroundImage: `url(${"https://images.pexels.com/photos/5088874/pexels-photo-5088874.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
    backgroundSize:'cover',
   position:'sticky',
       
@@ -214,7 +214,7 @@ export default function Navbar() {
         </NavBar>
         <Downnav>
           <Typography sx={{fontSize:{xs:'100px',sm:'150px',md:'200px'},fontWeight:'1000',height:{xs:'110px',sm:'170px',md:'230px'},color:`${theme.header.background}`}}>
-            Fast Food
+            Fashion Shoes
             
           </Typography>
           <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},color:`${theme.header.background}`}}>It's the Simple Pleasure in Life</Typography>

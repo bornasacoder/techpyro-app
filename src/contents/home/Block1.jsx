@@ -36,7 +36,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=600"
+          image="https://images.pexels.com/photos/5771898/pexels-photo-5771898.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -45,7 +45,7 @@ export default function Card1() {
 
       </CardBox>
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'row',background:'#F6F7FB',justifyContent:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Burger</Typography>
+        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Snickers</Typography>
         {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
        </Box>
       </Box>
@@ -56,7 +56,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/1893556/pexels-photo-1893556.jpeg?auto=compress&cs=tinysrgb&w=600"
+          image="https://images.pexels.com/photos/1537671/pexels-photo-1537671.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -65,7 +65,7 @@ export default function Card1() {
 
       </CardBox>
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'row',background:'#F6F7FB',justifyContent:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>French Fries</Typography>
+        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Sport shoes</Typography>
         {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
        </Box>
       </Box>
@@ -76,7 +76,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/1633559/pexels-photo-1633559.jpeg?auto=compress&cs=tinysrgb&w=600"
+          image="https://images.pexels.com/photos/7289729/pexels-photo-7289729.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -85,7 +85,7 @@ export default function Card1() {
 
       </CardBox>
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'row',background:'#F6F7FB',justifyContent:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Hot Dog</Typography>
+        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Boot</Typography>
         {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
        </Box>
       </Box>
