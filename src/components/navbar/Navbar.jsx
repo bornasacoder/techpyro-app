@@ -263,12 +263,12 @@ export default function Navbar() {
         <Box sx={{width:{xs:'300px',sm:'500px'},height:{xs:'120px',sm:'180px'},border:'1px solid rgba(0,0,0,0.2)',borderRadius:'20px'}}>
             <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
                 <Box sx={{display:'flex',flexDirection:'column',margin:'10px',justifyContent:'center'}}>
-                    <Typography sx={{fontSize:'30px',fontWeight:'700'}}>Restaurents</Typography>
-                    <Typography>Enjoy your favourite treats</Typography>
+                    <Typography sx={{fontSize:'30px',fontWeight:'700'}}>Shoes</Typography>
+                    <Typography>Enjoy your favourite shoes</Typography>
                     <Typography sx={{fontSize:'17px',fontWeight:'600'}}>View All</Typography>
                 </Box>
                 <Box sx={{margin:'10px'}}>
-                   <img src='https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/pneknawbadtvceqzwiep' style={{height:'100px',width:'100px',borderRadius:'10px'}}/>
+                   <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwTKE0_amcc6eL5hfi5JZ8d2MAC8MchK1JgQ&usqp=CAU' style={{height:'100px',width:'100px',borderRadius:'10px'}}/>
                 </Box>
             </Box>
 
