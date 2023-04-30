@@ -137,8 +137,8 @@ const MiniSlider = ({sliderData,category}) => {
            
        <SliderInnerContainer>
         <Box sx={{display:'flex', justifyContent:'space-between' ,alignItems:"center", marginTop:"10px"}}>
-       <Typography variant='h3' sx={{fontSize: {xs:'15px',sm:'20px',md:'24px'},fontFamily:'inherit'}}>Fast Food</Typography> 
-       <Typography variant='h3' sx={{fontSize: {xs:'15px',sm:'20px',md:'24px'},fontFamily:'inherit'}}>View More</Typography> 
+       <Typography variant='h3' sx={{fontSize: {xs:'15px',sm:'20px',md:'24px'},fontFamily:'inherit',color:"#230101"}}>Cakes</Typography> 
+       <Typography variant='h3' sx={{fontSize: {xs:'15px',sm:'20px',md:'24px'},fontFamily:'inherit',color:"#230101"}}>View More</Typography> 
        </Box>  
     <Slider {...settings}>
      { filterData && filterData.map((item)=>(

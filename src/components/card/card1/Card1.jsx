@@ -39,7 +39,7 @@ export default function Card1({ sliderData }) {
 
   return (
     <MainCard>
-      <Card sx={{ maxWidth: { md: 250, sm: 220, xs: 150 }, }} onClick={() => handleClick(sliderData.id)}>
+      <Card sx={{ maxWidth: { md: 300, sm: 220, xs: 150 }, padding:"5px 5px"}} onClick={() => handleClick(sliderData.id)}>
         <CardHeader sx={{fontStyle:"italic", "& .MuiCardHeader-title":{fontSize:{xs:"13px"}}}} title={sliderData.shopname} subheader="September 14"  />
         <CardMedia
           component="img"
@@ -48,15 +48,7 @@ export default function Card1({ sliderData }) {
           sx={{ height: { md: "194px", sm: "165px", xs: "120px" } }}
           
         />
-        <Box
-          sx={{
-            display: "flex",
-            justifyContent: "center",
-            alignsliderDatas: "center",
-            padding: " 5px 16px 5px 16px",
-            display: { md: "flex", sm: "flex", xs: "none" },
-          }}
-        >
+       
           <b> Category: </b>
           {sliderData.category.map((cat) => (
             <Typography
@@ -65,13 +57,12 @@ export default function Card1({ sliderData }) {
                 color: "green",
                 padding: "2px 0px 0px 5px",
                 fontSize: "11px",
+                textAlign:"center"
               }}
-              color="text.primary"
             >
               {cat},
             </Typography>
           ))}
-        </Box>
         <Box
           sx={{
             display: "flex",

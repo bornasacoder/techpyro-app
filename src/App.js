@@ -16,7 +16,6 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/Product/:i" element={<Product/>} />
-        
       </Routes>
     </Router>
   );
