@@ -1,7 +1,8 @@
 import { Box, styled, Typography } from "@mui/material";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
-  bgColor: "#F8F8F8",
+  backgroundColor: "#0a0a7f",
+  color:"#fff",
   padding: "20px  20px",
   display: "flex",
   justifyContent: "space-around",
@@ -24,7 +25,7 @@ const Footer = () => {
         variant="h1"
         sx={{ bgColor: "#F8F8F8", padding: "10px 58px" }}
       >
-        Sweetcart
+       Shoes Store
       </Typography>
       <StyleToolbar>
         <Box>
@@ -34,7 +35,7 @@ const Footer = () => {
             display="flex"
             flexDirection="column"
           >
-            ABOUT SWEETCART
+            ABOUT SHOES STORE
           </Typography>
           <Box
             sx={{
@@ -54,7 +55,7 @@ const Footer = () => {
         </Box>
         <Box sx={{ display: "flex", flexDirection: "column" }}>
           <Typography variant="h4" margin="6px 0px">
-            SWEETAVERSE
+            SHOESVERSE
           </Typography>
           <Box
             sx={{
@@ -64,7 +65,7 @@ const Footer = () => {
               letterSpacing: 1,
             }}
           >
-            <Typography varient="p">Sweetcart</Typography>
+            <Typography varient="p">Shoes Store</Typography>
             <Typography varient="p">Blinkit</Typography>
             <Typography varient="p">Finding India</Typography>
             <Typography varient="p">Hyperpure</Typography>
@@ -83,7 +84,7 @@ const Footer = () => {
               letterSpacing: 1,
             }}
           >
-            <Typography varient="p">Sweetcart</Typography>
+            <Typography varient="p">Shoes Store</Typography>
             <Typography varient="p">Blinkit</Typography>
           </Box>
           <Typography variant="h4" margin="6px 0px">
@@ -103,7 +104,7 @@ const Footer = () => {
               letterSpacing: 1,
             }}
           >
-            <Typography varient="p">Sweetcart</Typography>
+            <Typography varient="p">Shoes Store</Typography>
             <Typography varient="p">Blinkit</Typography>
             <Typography varient="p">Finding India</Typography>
             <Typography varient="p">Hyperpure</Typography>

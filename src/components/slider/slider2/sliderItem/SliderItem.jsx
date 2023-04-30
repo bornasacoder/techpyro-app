@@ -1,9 +1,11 @@
 import React from 'react'
 import { styled } from '@mui/styles'
 import { useNavigate } from 'react-router-dom'
+import { Avatar, Grid, Typography } from '@mui/material'
 const SliderContainer = styled("div")({
 width:"100%",
 height:"auto",
+boxShadow:"none!important"
 })
 const ImageContainer = styled("div")({
     display:"flex",
@@ -44,9 +46,18 @@ const Image = styled("img")({
   return (
     <>
        <SliderContainer>
+        <Grid item sx={{display:"flex",
+flexDirection:"column",
+justifyContent:"center",
+alignItems:"center",marginY:"10px","&:hover":{
+  boxShadow:" rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px",
+  transition: "all 0.3s ease-out"
+}}}>
         <ImageContainer>
-            <Image src={posterLinks.image} onClick={()=>handleClick(posterLinks.id)} />
+            <Avatar src={posterLinks.image} onClick={()=>handleClick(posterLinks.id)} sx={{height:"170px",width:"170px"}}/>
         </ImageContainer>
+        <Typography sx={{fontSize:"20px",fontWeight:"600",marginBottom:"10px"}}>{posterLinks.brand}</Typography>
+        </Grid>
        </SliderContainer>
        </>
   )

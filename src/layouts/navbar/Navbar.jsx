@@ -106,7 +106,7 @@ const NavBar = styled(AppBar)(({ theme }) => ({
   color: "#fff",
   position: "static",
   background: `linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)
-  ),url("https://images.pexels.com/photos/4021944/pexels-photo-4021944.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load") 
+  ),url("https://media.istockphoto.com/id/531292745/photo/shoes-on-the-shelf.jpg?s=612x612&w=0&k=20&c=XuxZvRq9VUuFzEgjNtJ1dKcz41XkoE1M1KiWpnZxXzk=") 
    center/cover no-repeat`,
   [theme.breakpoints.down("sm")]:{
     display:"flex",
@@ -241,7 +241,7 @@ export default function Navbar() {
         }}
       >
         <Typography sx={{ fontSize: { md: "60px", sm: "40px", xs: "35px" },fontFamily:"cursive",color:"#CFD1D1" }}>
-         Cafe
+         Shoes Store
         </Typography>
       </Box>
       <Box
@@ -253,7 +253,7 @@ export default function Navbar() {
         }}
       >
         <Typography sx={{ fontSize: { md: "26px", sm: "20px", xs: "15px" },fontFamily:"cursive" }}>
-          Discover the best food & drinks in {address&&address.length!==0 && address[0].properties.county}
+          Discover the best shoes in {address&&address.length!==0 && address[0].properties.county}
         </Typography>
       </Box>
       <Box

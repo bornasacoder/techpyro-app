@@ -40,8 +40,8 @@ const PreviousBtn = (props) =>{
   const {className,onClick} = props;
   
    return (
-         <div className={className} onClick={onClick} style={{height:"40px",width:"40px",background:"gray",borderRadius:"50%",marginLeft:"-5px"}}>
-          <ChevronLeftOutlined style={{color:'black',zIndex:'10',fontSize:'2.5rem' }} />
+         <div className={className} onClick={onClick} style={{height:"40px",width:"40px",border:"3px solid #fff",borderRadius:"50%",marginLeft:"0px",display:"flex",justifyContent:"center",alignItems:"center"}}>
+          <ChevronLeftOutlined style={{color:'#fff',zIndex:'10',fontSize:'2.5rem', }} />
          </div>  
    )
 }
@@ -49,8 +49,8 @@ const PreviousBtn = (props) =>{
 const NextBtn = (props) =>{
    const {className,onClick} = props;
    return (
-     <div  className={className} onClick={onClick} style={{height:"40px",width:"40px",background:"gray",borderRadius:"50%",marginLeft:"-5px"}}>
-       <ChevronRightOutlined style={{color:'black',  zIndex:'10',fontSize:'2.5rem'}} />
+     <div  className={className} onClick={onClick} style={{height:"40px",width:"40px",borderRadius:"50%",marginLeft:"-5px",border:"3px solid #fff",display:"flex",justifyContent:"center",alignItems:"center"}}>
+       <ChevronRightOutlined style={{color:'#fff',  zIndex:'10',fontSize:'2.5rem'}} />
      </div>
    )
 }
@@ -137,7 +137,7 @@ const MiniSlider = ({sliderData,category}) => {
            
        <SliderInnerContainer>
         <Box sx={{display:'flex', justifyContent:'space-between' ,alignItems:"center", marginTop:"10px"}}>
-       <Typography variant='h3' sx={{fontSize: {xs:'15px',sm:'20px',md:'24px'},fontFamily:'inherit',color:"#230101"}}>Juice & Soup</Typography> 
+       <Typography variant='h3' sx={{fontSize: {xs:'15px',sm:'20px',md:'24px'},fontFamily:'inherit',color:"#230101"}}>Top Brands</Typography> 
        <Typography variant='h3' sx={{fontSize: {xs:'15px',sm:'20px',md:'24px'},fontFamily:'inherit',color:"#230101"}}>View More</Typography> 
        </Box>  
     <Slider {...settings}>

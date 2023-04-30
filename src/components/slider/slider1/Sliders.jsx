@@ -13,6 +13,7 @@ const SliderContainer = styled('div')({
 width:"100%",
 height:"auto",
 overflow:"hidden",
+
 })
 const SliderInnerContainer = styled('div')(({ theme })=>({
   display: "flex",
@@ -20,6 +21,7 @@ const SliderInnerContainer = styled('div')(({ theme })=>({
   flexDirection:"column",
   margin:"20px 0px 0px 20px",
   padding:"0px 40px ",
+  paddingY:"20px!important",
   [theme.breakpoints.down("sm")]: {
     marginLeft:'0px',
     padding:"0px",
@@ -33,7 +35,7 @@ const PreviousBtn = (props) =>{
   const {className,onClick} = props;
   
    return (
-         <div className={className}   onClick={onClick} style={{height:"40px",width:"40px",background:"gray",borderRadius:"50%",marginLeft:"-5px"}}>
+         <div className={className}   onClick={onClick} style={{height:"40px",width:"40px",background:"gray",borderRadius:"50%",marginLeft:"0px"}}>
           <ChevronLeftOutlined style={{color:'black',zIndex:'10',fontSize:'2.5rem' }} />
          </div>  
    )

@@ -9,7 +9,7 @@ import Typography from "@mui/material/Typography";
 
 
 
-import { Box } from "@mui/material";
+import { Avatar, Box, Grid } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 // import { handleClick } from "infinite-react-carousel/lib/carousel/listener";
 
@@ -29,6 +29,7 @@ const MainCard = styled(Box)(({theme})=>({
   flexWrap: "wrap",
   justifyContent: "space-evenly",
   gap: "10px",
+  
  
 }));
 export default function Card1({ sliderData }) {
@@ -39,15 +40,11 @@ export default function Card1({ sliderData }) {
 
   return (
     <MainCard>
-      <Card sx={{ maxWidth: { md: 300, sm: 220, xs: 150 }, padding:"5px 5px"}} onClick={() => handleClick(sliderData.id)}>
+      <Grid  item  sx={{  padding:"5px 5px",marginY:"10px","&:hover":{
+        boxShadow:" rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px"
+      }}} onClick={() => handleClick(sliderData.id)}>
         <CardHeader sx={{fontStyle:"italic", "& .MuiCardHeader-title":{fontSize:{xs:"13px"}}}} title={sliderData.shopname} subheader="September 14"  />
-        <CardMedia
-          component="img"
-          image={sliderData.image}
-          alt="Paella dish"
-          sx={{ height: { md: "194px", sm: "165px", xs: "120px" } }}
-          
-        />
+        <Avatar src={sliderData.image} sx={{width:"100%",height:"200px",borderRadius:"0px"}}/>
        
           <b> Category: </b>
           {sliderData.category.map((cat) => (
@@ -56,7 +53,7 @@ export default function Card1({ sliderData }) {
               sx={{
                 color: "green",
                 padding: "2px 0px 0px 5px",
-                fontSize: "11px",
+                fontSize: "14px",
                 textAlign:"center"
               }}
             >
@@ -145,7 +142,7 @@ export default function Card1({ sliderData }) {
             </Typography>
           </Box>
         </CardContent>
-      </Card>
+      </Grid>
     </MainCard>
   );
 }
