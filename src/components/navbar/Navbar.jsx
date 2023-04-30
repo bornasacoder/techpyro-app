@@ -263,12 +263,12 @@ export default function Navbar() {
         <Box sx={{width:{xs:'300px',sm:'500px'},height:{xs:'120px',sm:'180px'},border:'1px solid rgba(0,0,0,0.2)',borderRadius:'20px'}}>
             <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
                 <Box sx={{display:'flex',flexDirection:'column',margin:'10px',justifyContent:'center'}}>
-                    <Typography sx={{fontSize:'30px',fontWeight:'700'}}>Restaurents</Typography>
-                    <Typography>Enjoy your favourite treats</Typography>
+                    <Typography sx={{fontSize:'30px',fontWeight:'700'}}>Elelctronics</Typography>
+                    <Typography> Your favourite gadgets</Typography>
                     <Typography sx={{fontSize:'17px',fontWeight:'600'}}>View All</Typography>
                 </Box>
                 <Box sx={{margin:'10px'}}>
-                   <img src='https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_520,h_520/rng/md/carousel/production/pneknawbadtvceqzwiep' style={{height:'100px',width:'100px',borderRadius:'10px'}}/>
+                   <img src='https://img.lovepik.com/original_origin_pic/18/05/11/d092f44cd4ff8f25064d874f12ec0a56.png_wh300.png' style={{height:'100px',width:'100px',borderRadius:'10px'}}/>
                 </Box>
             </Box>
 
