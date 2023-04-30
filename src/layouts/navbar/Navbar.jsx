@@ -105,8 +105,8 @@ const NavBar = styled(AppBar)(({ theme }) => ({
   width: "100%",
   color: "#fff",
   position: "static",
-  background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)
-  ),url(${"https://img.freepik.com/free-photo/engagement-ring-chalkboard-near-pastry_23-2147743510.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=robertav1_2_sidr"}) 
+  background: `linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)
+  ),url("https://images.pexels.com/photos/2074130/pexels-photo-2074130.jpeg?auto=compress&cs=tinysrgb&w=600") 
    center/cover no-repeat`,
   [theme.breakpoints.down("sm")]:{
     display:"flex",
@@ -240,8 +240,8 @@ export default function Navbar() {
           paddingTop: "50px",
         }}
       >
-        <Typography sx={{ fontSize: { md: "60px", sm: "40px", xs: "35px" },fontFamily:"cursive",color:"#7E3926" }}>
-          Bakery
+        <Typography sx={{ fontSize: { md: "60px", sm: "40px", xs: "35px" },fontFamily:"cursive",color:"#CFD1D1" }}>
+         Cofiee & Tea
         </Typography>
       </Box>
       <Box

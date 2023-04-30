@@ -25,9 +25,9 @@ const Home = () => {
     <Navbar/>
     <MiddleContent/>
     {/* <MainCarousel/> */}
-     <Sliders sliderData={products}  category='fastfood' />
-     <MiniSlider sliderData = {products}  category="other"  />
-     <Sliders sliderData={products}   category='pizza'  />
+     <Sliders sliderData={products}  category='cofiee' />
+     <MiniSlider sliderData = {products}  category="cofieetype"  />
+     <Sliders sliderData={products}   category='tea'  />
      <Sliders sliderData={products}  category="thali"  />
     <Footer/>
     </div>
