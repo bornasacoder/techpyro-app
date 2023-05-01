@@ -97,7 +97,7 @@ const Block2 = () => {
            
       <Button variant='contained' sx={{borderRadius:'0',marginTop:'30px'}}>VIEW FULL MENU</Button>
       
-        {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
+        
         
       </Box>
        </Box>
@@ -106,75 +106,7 @@ const Block2 = () => {
       </CardBox>
       
        </Box>
-       {/* <Box sx={{padding:{xs:'30px',sm:'50px',md:'0'}}}>
-      <CardBox >
       
-      
-        <Box sx={{height:{xs:'50%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'50%'}}}>
-        <CardMedia
-        sx={{height:'100%'}}
-          component="img"
-          image="/images/category/blockimg5.webp"
-          alt="green iguana"
-        />
-     </Box> */}
-     {/* <Box sx={{height:{xs:'100%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'50%'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',alignItems:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>About Our Product</Typography>
-        <pre>This is your About section. It’s a great space to</pre>
-          <pre> tell your story and to describe who you are and what</pre>
-           <pre> you do. If you're a business, talk about how you </pre>
-          <pre>  started and tell the story of your professional journey. </pre>
-           <pre> People want to know the real you, so don't be afraid to </pre>
-           <pre>  share personal anecdotes. Explain your core values and how you,</pre>
-            <pre>  your organization, or your business stand out from the crowd.</pre> */}
-        {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
-        {/* <Box sx={{display:'flex',justifyContent:'center',padding:{xs:'30px',sm:'50px',md:'100px'},zIndex:'0'}}>
-      <Button variant='contained' sx={{borderRadius:'0'}}>Shop Now</Button>
-      </Box>
-       </Box>
-      </CardBox>
-      
-       </Box> */}
-       {/* <Box sx={{display:'flex',flexDirection:'column',alignItems:'center',padding:{xs:'100px 30px',sm:'100px 50px',md:'100px'}}}>
-       
-       <Typography sx={{fontSize:{xs:'40px',sm:'30px',md:'40px'}}}>What kind of food we serve for you</Typography>
-
-       <Typography>Who are in extremely love with eco friendly system.</Typography>
-       </Box> */}
-       {/* <Box2>
-           <Box sx={{width:{xs:'300px',sm:'400px',md:'450px'}}}>
-         
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'35px'},color:`${theme.header.background}`,fontWeight:'700'}}>Reserve your seats to confirm if you come with your famoly</Typography>
-          <Typography sx={{color:`${theme.header.background}`}}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          </Typography>
-          <Typography sx={{color:`${theme.header.background}`}}>
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          </Typography>
-          <Typography sx={{color:`${theme.header.background}`}}>
-          veniam. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
-          </Typography>
-          </Box>
-          <Box sx={{backgroundColor:`${theme.header.background}`,width:{xs:'300px',sm:'400px',md:'480px'},height:'500px',display:'flex',justifyContent:'center',alignItems:'center',paddingBottom:{xs:'50px',sm:'70px',md:'0px'}}}>
-          <Box sx={{backgroundColor:`${theme.header.background}`,display:'flex',flexDirection:'column',width:'400px',gap:'10px'}}>
-            <TextField variant='outlined' label='Name'></TextField>
-            <TextField variant='outlined' label='Email id' sx={{borderRadius:'0px'}}></TextField>
-            <TextField variant='outlined' label='Phone no'></TextField>
-            <TextField variant='outlined' label='Date & Time'></TextField>
-            <Select label="Select Event"></Select>
-            <Button variant='contained' sx={{borderRadius:'0',marginTop:'0px',width:'200px'}}>Make Reservation</Button>
-          </Box>
-          </Box>
-       </Box2> */}
-       {/* <Box sx={{display:'flex',flexDirection:'column',alignItems:'center',padding:{xs:'100px 30px',sm:'100px 50px',md:'100px'}}}>
-       
-       <Typography sx={{fontSize:{xs:'30px',sm:'30px',md:'35px'},fontWeight:'700'}}>Food and Customer Gallery</Typography>
-
-       <Typography>Who are in extremely love with eco friendly system.</Typography>
-       </Box> */}
-        {/* <Box1>
-
-     </Box1> */}
        </>
        
   )
