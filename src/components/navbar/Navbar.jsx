@@ -123,7 +123,7 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
 const Ram = styled(Box)(({ theme }) => ({
   height:'750px',
   width:'100%',
-    backgroundImage: `url(${"https://images.pexels.com/photos/2733918/pexels-photo-2733918.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
+    backgroundImage: `url(${"https://images.pexels.com/photos/1516357/pexels-photo-1516357.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
    backgroundSize:'cover',
   position:'sticky',
       
@@ -214,7 +214,7 @@ export default function Navbar() {
         </NavBar>
         <Downnav>
           <Typography sx={{fontSize:{xs:'100px',sm:'150px',md:'200px'},fontWeight:'1000',height:{xs:'110px',sm:'170px',md:'230px'},color:`${theme.header.background}`}}>
-            Grocery
+            Jewellery
             
           </Typography>
           <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},color:`${theme.header.background}`}}>It's the Simple Pleasure in Life</Typography>
