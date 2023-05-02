@@ -243,7 +243,7 @@ export default function Navbar() {
         }}
       >
         <Typography sx={{ fontSize: { md: "60px", sm: "40px", xs: "35px" },fontFamily:"cursive",color:"#CFD1D1" }}>
-         Shoes Store
+         Clothing Stores
         </Typography>
       </Box>
       <Box
@@ -255,7 +255,7 @@ export default function Navbar() {
         }}
       >
         <Typography sx={{ fontSize: { md: "26px", sm: "20px", xs: "15px" },fontFamily:"cursive" }}>
-          Discover the best shoes in {address&&address.length!==0 && address[0].properties.county}
+          Discover the best cloth in {address&&address.length!==0 && address[0].properties.county}
         </Typography>
       </Box>
       <Box
