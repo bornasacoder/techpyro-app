@@ -106,7 +106,7 @@ const NavBar = styled(AppBar)(({ theme }) => ({
   color: "#fff",
   position: "static",
   background: `linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)
-  ),url("https://media.istockphoto.com/id/531292745/photo/shoes-on-the-shelf.jpg?s=612x612&w=0&k=20&c=XuxZvRq9VUuFzEgjNtJ1dKcz41XkoE1M1KiWpnZxXzk=") 
+  ),url("https://images.pexels.com/photos/5490975/pexels-photo-5490975.jpeg?auto=compress&cs=tinysrgb&w=600") 
    center/cover no-repeat`,
   [theme.breakpoints.down("sm")]:{
     display:"flex",
@@ -211,7 +211,8 @@ export default function Navbar() {
               sx={{
                 fontSize: { md: "18px", xs: "15px" },
                 display: { xs: "none", sm: "none", md: "block" },
-                cursor:"pointer"
+                cursor:"pointer",
+                color:'#0B101A'
               }}
               onClick={handleSignupOpen}
             >
@@ -222,7 +223,8 @@ export default function Navbar() {
               sx={{
                 fontSize: { md: "18px", xs: "15px" },
                 display: { xs: "none", sm: "none", md: "block" },
-                cursor:"pointer"
+                cursor:"pointer",
+                color:"#0B101A"
               }}
               onClick={handleClickOpen}
             >
