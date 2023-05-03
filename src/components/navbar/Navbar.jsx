@@ -135,7 +135,7 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
 const Ram = styled(Box)(({ theme }) => ({
   height:'750px',
   width:'100%',
-    backgroundImage: `url(${"https://images.pexels.com/photos/45982/pexels-photo-45982.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
+    backgroundImage: `url(${"https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
    backgroundSize:'cover',
   position:'sticky',
       
@@ -206,18 +206,9 @@ export default function Navbar() {
                     <ListItemText primary={`PAGES`}/>
                     <ListItemText primary={`CONTACT`}/>
                   </List>
-                    {/* <Typography  component="div" sx={{fontSize: {xs:'25px',sm:'25px',md:'40px'},fontFamily:'revert-layer',color:`${theme.header.textColor}`}}>
-                        Uber Eats
-                    </Typography> */}
-                    {/* <Typography component="div" sx={{fontSize:{md:'13px',xs:'10px'}, fontWeight:100}}>
-                        Make a simple Bussiness
-                    </Typography> */}
+                   
                 </Box>
-                {/* <SearchBar/> */}
-                {/* <Badge sx={{display:{sm:'block',md:'none'}, left:'48px'}}>
-                    <ShoppingCart/>
-                </Badge> */}
-                {/* <NavButton/> */}
+               
                 <Box>
                 <List sx={{display:{xs:'block',sm:'block',md:'none'},gap:'30px',fontSize:'30px'}}>
                  
@@ -233,15 +224,7 @@ export default function Navbar() {
             <Drawer open={open} onClose={handleClose} sx={{position:'absolute'}}>
                 <MenuButtons/>
             </Drawer>
-              {/* <Box sx={{display:'flex',paddingRight:'20px'}}>
-              <Call sx={{fontSize:'30px'}}/>
-              <Typography sx={{fontSize:'20px'}}>+91-9999999999</Typography>
-              </Box>
-            <AccountCircle sx={{fontSize:'40px'}}/>
-               <Login variant='contained' sx={{borderRadius:'30px',fontSize:'18px' ,display:{xs:'none',sm:'none',md:'block'},alignItems:'center'}}>Log in</Login> */}
-              
-               
-               {/* <Signup variant='contained' sx={{borderRadius:'30px',fontSize:{xs:'10px',sm:'15px',md:'20px'}}}>Sign up</Signup> */}
+             
               
             </NavRight>
         </StyleToolbar>
