@@ -33,7 +33,7 @@ const Block2 = () => {
   const Box3= styled(Box)(({ theme }) => ({
     height:'auto',
     width:'100%',
-    backgroundImage: `url(${"/images/category/bgdimg4.jpeg"})`,
+    backgroundImage: `url(${"https://images.pexels.com/photos/179833/pexels-photo-179833.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
     backgroundSize:'cover',
     // backgroundAttachment:'fixed'
     }
@@ -61,7 +61,7 @@ const Block2 = () => {
         <CardMedia
         sx={{height:'100%',borderRadius:'50px'}}
           component="img"
-          image="/images/category/food1.jpeg"
+          image="https://images.pexels.com/photos/3738755/pexels-photo-3738755.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
      </Box>
@@ -86,7 +86,7 @@ const Block2 = () => {
         <CardMedia
         sx={{height:'100%',borderRadius:'50px'}}
           component="img"
-          image="/images/category/food2.jpeg"
+          image="https://images.pexels.com/photos/2267538/pexels-photo-2267538.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
      </Box>
@@ -111,7 +111,7 @@ const Block2 = () => {
         <CardMedia
         sx={{height:'100%',borderRadius:'50px'}}
           component="img"
-          image="/images/category/food3.jpeg"
+          image="https://images.pexels.com/photos/2874990/pexels-photo-2874990.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
      </Box>
@@ -136,7 +136,7 @@ const Block2 = () => {
         <CardMedia
         sx={{height:'100%',borderRadius:'50px'}}
           component="img"
-          image="/images/category/food4.jpeg"
+          image="https://images.pexels.com/photos/5836769/pexels-photo-5836769.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
      </Box>
