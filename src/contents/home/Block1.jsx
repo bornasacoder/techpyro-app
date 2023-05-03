@@ -71,7 +71,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="/images/category/blockimg9.jpeg"
+          image="https://images.pexels.com/photos/4920855/pexels-photo-4920855.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -101,7 +101,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="/images/category/blockimg10.jpeg"
+          image="https://images.pexels.com/photos/374147/pexels-photo-374147.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -131,7 +131,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="/images/category/blockimg11.jpeg"
+          image="https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>

@@ -135,7 +135,7 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
 const Ram = styled(Box)(({ theme }) => ({
   height:'750px',
   width:'100%',
-    backgroundImage: `url(${"/images/category/bgdimg9.jpeg"})`,
+    backgroundImage: `url(${"https://images.pexels.com/photos/2836945/pexels-photo-2836945.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
    backgroundSize:'cover',
   position:'sticky',
       
@@ -194,7 +194,7 @@ export default function Navbar() {
         <Box sx={{position:{xs:'fixed',sm:'fixed',md:'fixed'},width:'100%',alignItems:'center',backgroundColor:`${theme.header.textColor}`,zIndex:'100',height:'70px',display:'flex'}}>
         <StyleToolbar  >
         <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
-            <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'}}}>Restaurent</Typography>
+            <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'}}}>CoffeeShop</Typography>
            </Box>
         <NavLeft >
            <Box>
