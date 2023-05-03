@@ -135,7 +135,7 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
 const Ram = styled(Box)(({ theme }) => ({
   height:'750px',
   width:'100%',
-    backgroundImage: `url(${"https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
+    backgroundImage: `url(${"https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
    backgroundSize:'cover',
   position:'sticky',
       
@@ -194,7 +194,7 @@ export default function Navbar() {
         <Box sx={{position:{xs:'fixed',sm:'fixed',md:'fixed'},width:'100%',alignItems:'center',backgroundColor:`${theme.header.textColor}`,zIndex:'100',height:'70px',display:'flex'}}>
         <StyleToolbar  >
         <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
-            <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'}}}>Bakery</Typography>
+            <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'}}}>Shoes Store</Typography>
            </Box>
         <NavLeft >
            <Box>
@@ -233,7 +233,7 @@ export default function Navbar() {
                
             </NavLeft >
             <Box sx={{display:{xs:'block',sm:'block',md:'none'}}}>
-            <Typography sx={{fontSize:{xs:'30px',sm:'30px',md:'40px'}}}>Restaurent</Typography>
+            <Typography sx={{fontSize:{xs:'30px',sm:'30px',md:'40px'}}}>Shoes Store</Typography>
            </Box>
             <NavRight > 
               <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
@@ -243,7 +243,7 @@ export default function Navbar() {
             <Drawer open={open} onClose={handleClose} sx={{position:'absolute'}}>
                 <MenuButtons/>
             </Drawer>
-            <Button variant='contained' sx={{borderRadius:'0px'}}>BOOK A TABLE</Button>
+            <Button variant='contained' sx={{borderRadius:'0px'}}>BUY NOW</Button>
             </Box>
 
             <Box>
@@ -269,9 +269,9 @@ export default function Navbar() {
         </NavBar>
         <Downnav>
           <Box sx={{gap:'20px',display:{xs:'none',sm:'none',md:'block'}}}>
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'70px'},color:`${theme.header.background}`,fontWeight:'700'}}>Good Food Made Easy</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'70px'},color:`${theme.header.background}`,fontWeight:'700'}}>Good Quality Product</Typography>
           <Typography sx={{fontSize:{xs:'40px',sm:'40px',md:'50px'},fontWeight:'700',color:`${theme.header.background}`}}>
-            Are You Hungry?
+            Are You Intrested?
             
           </Typography>
           <Box sx={{color:`${theme.header.background}`}}>inappropriate behavior is often laughed off as “boys will be boys,” women</Box>

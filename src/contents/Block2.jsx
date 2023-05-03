@@ -95,7 +95,7 @@ const Block2 = () => {
             <Typography sx={{fontWeight:'500',fontSize:{xs:'15px',sm:'20px',md:'20px'}}}><TaskAlt />It Might be Finished or Unfinishaed</Typography>
            </Box>
            
-      <Button variant='contained' sx={{borderRadius:'0',marginTop:'30px'}}>VIEW FULL MENU</Button>
+      <Button variant='contained' sx={{borderRadius:'0',marginTop:'30px'}}>Sign up</Button>
       
         {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
         

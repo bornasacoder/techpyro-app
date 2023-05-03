@@ -16,13 +16,13 @@ const Home = () => {
     <div>
     
         <Navbar />
-        <Block2 />
+        {/* <Block2 /> */}
         <Block1 />
-        <Block3 />
+        {/* <Block3 /> */}
         <Block4 />
         <Box sx={{display:'flex',flexDirection:'column',alignItems:'center',padding:{xs:'100px 30px',sm:'100px 50px',md:'60px'}}}>
        <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'25px'},fontWeight:'700'}}>Amazing Team</Typography>
-       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'40px'},fontWeight:'700'}}>Meet Our Chefs</Typography>
+       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'40px'},fontWeight:'700'}}>Meet Our Team</Typography>
 
        
        </Box>

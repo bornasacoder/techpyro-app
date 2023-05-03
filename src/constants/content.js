@@ -2,17 +2,17 @@ export const content = {
     category:"chef",
     data:[
     {
-       image:"https://sktthemesdemo.net/restro/wp-content/uploads/2020/04/chef-img3.jpg",
+       image:"https://images.pexels.com/photos/6274712/pexels-photo-6274712.jpeg?auto=compress&cs=tinysrgb&w=600",
        name:"Martin Arnolds",
        type:"Head chef"
 },
 {
-    image:"https://www.pngitem.com/pimgs/m/112-1129335_chef-png-transparent-png.png",
+    image:"https://images.pexels.com/photos/4307869/pexels-photo-4307869.jpeg?auto=compress&cs=tinysrgb&w=600",
     name:"Martin Arnolds",
     type:"Senior chef"
 },
 {
-    image:"https://www.nicepng.com/png/detail/809-8097597_chef-transparent-background.png",
+    image:"https://images.pexels.com/photos/6976943/pexels-photo-6976943.jpeg?auto=compress&cs=tinysrgb&w=600",
     name:"Mr. John",
     type:"Junior chef"
 },

@@ -35,7 +35,7 @@ export default function Card1() {
 const Box1= styled(Box)(({ theme }) => ({
   height:'650px',
   width:'100%',
-  backgroundImage: `url(${"https://images.pexels.com/photos/2498440/pexels-photo-2498440.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
+  backgroundImage: `url(${"https://images.pexels.com/photos/637076/pexels-photo-637076.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
   backgroundSize:'cover',
   paddingTop:'10px'
   // backgroundAttachment:'fixed'
@@ -44,8 +44,8 @@ const Box1= styled(Box)(({ theme }) => ({
   return ( 
     <>
   <Box sx={{display:'flex',flexDirection:'column',alignItems:'center',padding:{xs:'80px 0px 0px 30px',sm:'100px 50px',md:'100px'}}}>
-       <Typography sx={{fontSize:{xs:'20px',sm:'25px',md:'25px'},fontWeight:'700'}}>Our Process</Typography>
-       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'40px'},fontWeight:'700'}}>Healthy and Improves Your Mood</Typography>
+       <Typography sx={{fontSize:{xs:'20px',sm:'25px',md:'25px'},fontWeight:'700'}}>Our Product</Typography>
+       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'40px'},fontWeight:'700'}}>We Provide Best Quality Brands</Typography>
 
        
        </Box>
@@ -54,12 +54,12 @@ const Box1= styled(Box)(({ theme }) => ({
    <Box sx={{padding:{xs:'30px',sm:'50px',md:'0'}}}>
    <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'350px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'20px'}}>
    <Box sx={{display:'flex',justifyContent:'space-between'}}>
-          <Typography><Liquor sx={{fontSize:'45px'}}/></Typography>
+          {/* <Typography><Liquor sx={{fontSize:'45px'}}/></Typography> */}
           <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},fontWeight:'700'}}>01</Typography>
         </Box>
         <Typography></Typography>
         
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Cleaned Bar</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Shoes</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         
         
@@ -71,7 +71,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=600"
+          image="https://images.pexels.com/photos/1478442/pexels-photo-1478442.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -84,12 +84,12 @@ const Box1= styled(Box)(({ theme }) => ({
       <Box sx={{padding:{xs:'30px',sm:'50px',md:'0'}}}>
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'350px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'20px'}}>
    <Box sx={{display:'flex',justifyContent:'space-between'}}>
-          <Typography><Coffee sx={{fontSize:'45px'}}/></Typography>
+          {/* <Typography><Coffee sx={{fontSize:'45px'}}/></Typography> */}
           <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},fontWeight:'700'}}>02</Typography>
         </Box>
         <Typography></Typography>
         
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Skilled Chef</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Shoes</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         
         
@@ -101,7 +101,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=600"
+          image="https://images.pexels.com/photos/292999/pexels-photo-292999.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -114,12 +114,12 @@ const Box1= styled(Box)(({ theme }) => ({
       <Box sx={{padding:{xs:'30px',sm:'50px',md:'0'}}}>
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'350px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'20px'}}>
    <Box sx={{display:'flex',justifyContent:'space-between'}}>
-          <Typography><DinnerDining sx={{fontSize:'45px'}}/></Typography>
+          {/* <Typography><DinnerDining sx={{fontSize:'45px'}}/></Typography> */}
           <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},fontWeight:'700'}}>03</Typography>
         </Box>
         <Typography></Typography>
         
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Fresh Product</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Shoes</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         
         
@@ -131,7 +131,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/842519/pexels-photo-842519.jpeg?auto=compress&cs=tinysrgb&w=600"
+          image="https://images.pexels.com/photos/1240892/pexels-photo-1240892.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>

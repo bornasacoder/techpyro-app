@@ -7,7 +7,7 @@ import React from 'react'
 const Box2= styled(Box)(({ theme }) => ({
     height:'680px',
     width:'100%',
-    backgroundImage: `url(${"https://images.pexels.com/photos/1301373/pexels-photo-1301373.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
+    backgroundImage: `url(${"https://images.pexels.com/photos/1598508/pexels-photo-1598508.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
     backgroundSize:'cover',
     // backgroundAttachment:'fixed',
     display:'flex',
@@ -31,8 +31,8 @@ const Block4 = () => {
   return (
     <>
          <Box sx={{display:'flex',flexDirection:'column',alignItems:'center',padding:{xs:'100px 30px',sm:'100px 50px',md:'100px'}}}>
-       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'25px'},fontWeight:'700'}}>Make an Reserve</Typography>
-       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'40px'},fontWeight:'700'}}>Online Reservation</Typography>
+       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'25px'},fontWeight:'700'}}>Make an Account</Typography>
+       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'40px'},fontWeight:'700'}}>Online Shopping</Typography>
 
        
        </Box>
@@ -58,7 +58,7 @@ const Block4 = () => {
             <TextField variant='outlined' label='Phone no'></TextField>
             <TextField variant='outlined' label='Date & Time'></TextField>
             <Select label="Select Event"></Select>
-            <Button variant='contained' sx={{borderRadius:'0',marginTop:'0px',width:'200px'}}>Make Reservation</Button>
+            <Button variant='contained' sx={{borderRadius:'0',marginTop:'0px',width:'200px'}}>Sign up</Button>
           </Box>
           </Box>
        </Box2> 
