@@ -44,7 +44,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/4621/fruits-grocery-bananas-market.jpg?auto=compress&cs=tinysrgb&w=600"
+          image="https://images.pexels.com/photos/5407203/pexels-photo-5407203.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -55,7 +55,7 @@ export default function Card1() {
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px'}}>
         <Typography></Typography>
         <Typography>12-01-2023</Typography>
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'700'}}>Grocery</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'700'}}>Medical</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         <Box sx={{display:'flex',justifyContent:'space-between'}}>
           <Typography><FavoriteBorder sx={{fontSize:'15px'}}/>10 likes</Typography>
@@ -72,7 +72,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/6097885/pexels-photo-6097885.jpeg?auto=compress&cs=tinysrgb&w=600"
+          image="https://images.pexels.com/photos/7526053/pexels-photo-7526053.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -83,7 +83,7 @@ export default function Card1() {
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px'}}>
         <Typography></Typography>
       <Typography>12-01-2023</Typography>
-        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Grocery</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Medical</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         <Box sx={{display:'flex',justifyContent:'space-between'}}>
           <Typography><FavoriteBorder sx={{fontSize:'15px'}}/>10 likes</Typography>
@@ -99,7 +99,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/4021628/pexels-photo-4021628.jpeg?auto=compress&cs=tinysrgb&w=600"
+          image="https://images.pexels.com/photos/9742885/pexels-photo-9742885.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -110,7 +110,7 @@ export default function Card1() {
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px'}}>
         <Typography></Typography>
       <Typography>12-01-2023</Typography>
-        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Grocery</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Medical</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         <Box sx={{display:'flex',justifyContent:'space-between'}}>
           <Typography><FavoriteBorder sx={{fontSize:'15px'}}/>10 likes</Typography>
@@ -127,7 +127,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/8475205/pexels-photo-8475205.jpeg?auto=compress&cs=tinysrgb&w=600"
+          image="https://images.pexels.com/photos/5995194/pexels-photo-5995194.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -138,7 +138,7 @@ export default function Card1() {
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px'}}>
         <Typography></Typography>
       <Typography>12-01-2023</Typography>
-        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Grocery</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Medical</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         <Box sx={{display:'flex',justifyContent:'space-between'}}>
           <Typography><FavoriteBorder sx={{fontSize:'15px'}}/>10 likes</Typography>
