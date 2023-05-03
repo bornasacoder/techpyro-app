@@ -44,7 +44,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/267301/pexels-photo-267301.jpeg?auto=compress&cs=tinysrgb&w=600"
+          image="https://images.pexels.com/photos/298863/pexels-photo-298863.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -55,7 +55,7 @@ export default function Card1() {
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px'}}>
         <Typography></Typography>
         <Typography>12-01-2023</Typography>
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'700'}}>shoes</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'700'}}>Clothes</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         <Box sx={{display:'flex',justifyContent:'space-between'}}>
           <Typography><FavoriteBorder sx={{fontSize:'15px'}}/>10 likes</Typography>
@@ -72,7 +72,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/1240892/pexels-photo-1240892.jpeg?auto=compress&cs=tinysrgb&w=600"
+          image="https://images.pexels.com/photos/1884581/pexels-photo-1884581.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -83,7 +83,7 @@ export default function Card1() {
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px'}}>
         <Typography></Typography>
       <Typography>12-01-2023</Typography>
-        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Shoes</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Clothes</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         <Box sx={{display:'flex',justifyContent:'space-between'}}>
           <Typography><FavoriteBorder sx={{fontSize:'15px'}}/>10 likes</Typography>
@@ -99,7 +99,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/292998/pexels-photo-292998.jpeg?auto=compress&cs=tinysrgb&w=600"
+          image="https://images.pexels.com/photos/297933/pexels-photo-297933.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -110,7 +110,7 @@ export default function Card1() {
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px'}}>
         <Typography></Typography>
       <Typography>12-01-2023</Typography>
-        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Shoes</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Clothes</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         <Box sx={{display:'flex',justifyContent:'space-between'}}>
           <Typography><FavoriteBorder sx={{fontSize:'15px'}}/>10 likes</Typography>
@@ -127,7 +127,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/637076/pexels-photo-637076.jpeg?auto=compress&cs=tinysrgb&w=600"
+          image="https://images.pexels.com/photos/264726/pexels-photo-264726.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -138,7 +138,7 @@ export default function Card1() {
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px'}}>
         <Typography></Typography>
       <Typography>12-01-2023</Typography>
-        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Shoes</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Clothes</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         <Box sx={{display:'flex',justifyContent:'space-between'}}>
           <Typography><FavoriteBorder sx={{fontSize:'15px'}}/>10 likes</Typography>
