@@ -135,7 +135,7 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
 const Ram = styled(Box)(({ theme }) => ({
   height:'750px',
   width:'100%',
-    backgroundImage: `url(${"https://images.pexels.com/photos/2725744/pexels-photo-2725744.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
+    backgroundImage: `url(${"https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
    backgroundSize:'cover',
   position:'sticky',
       
@@ -251,14 +251,14 @@ export default function Navbar() {
           <Box sx={{gap:'20px'}}>
         <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},color:`${theme.header.background}`}}>WIDE OPTIONS OF CHOICE</Typography>
           <Typography sx={{fontSize:{xs:'40px',sm:'40px',md:'50px'},fontWeight:'700',color:`${theme.header.background}`}}>
-            Delicious Recepies.
+            Quality Products.
             
           </Typography>
           <Box sx={{color:`${theme.header.background}`}}>inappropriate behavior is often laughed off as “boys will be boys,” women</Box>
           <Box sx={{color:`${theme.header.background}`}}>face higher conduct standards especially in the workplace. That’s why it’s</Box>
           <Box sx={{color:`${theme.header.background}`}}>crucial that, as women.</Box>
           <Box sx={{paddingTop:'30px'}}>
-          <Button variant='contained' sx={{borderRadius:'0'}}>CHECK OUR MENU</Button>
+          <Button variant='contained' sx={{borderRadius:'0'}}>CHECK OUR LIST</Button>
           </Box>
           </Box>
         </Downnav>
