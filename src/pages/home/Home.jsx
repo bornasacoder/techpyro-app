@@ -26,7 +26,7 @@ const Home = () => {
     <MiddleContent/>
     {/* <MainCarousel/> */}
      <Sliders sliderData={products}  category='cofiee' />
-     <MiniSlider sliderData = {products}  category="cofieetype"  />
+     <MiniSlider sliderData = {products}  category="fruititem"  />
      <Sliders sliderData={products}   category='tea'  />
      <Sliders sliderData={products}  category="thali"  />
     <Footer/>

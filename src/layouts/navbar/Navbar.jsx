@@ -106,7 +106,7 @@ const NavBar = styled(AppBar)(({ theme }) => ({
   color: "#fff",
   position: "static",
   background: `linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)
-  ),url("https://images.pexels.com/photos/5490975/pexels-photo-5490975.jpeg?auto=compress&cs=tinysrgb&w=600") 
+  ),url("https://images.pexels.com/photos/2733918/pexels-photo-2733918.jpeg?auto=compress&cs=tinysrgb&w=600") 
    center/cover no-repeat`,
   [theme.breakpoints.down("sm")]:{
     display:"flex",
@@ -212,7 +212,6 @@ export default function Navbar() {
                 fontSize: { md: "18px", xs: "15px" },
                 display: { xs: "none", sm: "none", md: "block" },
                 cursor:"pointer",
-                color:'#0B101A'
               }}
               onClick={handleSignupOpen}
             >
@@ -224,7 +223,6 @@ export default function Navbar() {
                 fontSize: { md: "18px", xs: "15px" },
                 display: { xs: "none", sm: "none", md: "block" },
                 cursor:"pointer",
-                color:"#0B101A"
               }}
               onClick={handleClickOpen}
             >
@@ -243,7 +241,7 @@ export default function Navbar() {
         }}
       >
         <Typography sx={{ fontSize: { md: "60px", sm: "40px", xs: "35px" },fontFamily:"cursive",color:"#CFD1D1" }}>
-         Clothing Stores
+        Grocery Stores
         </Typography>
       </Box>
       <Box
@@ -255,7 +253,7 @@ export default function Navbar() {
         }}
       >
         <Typography sx={{ fontSize: { md: "26px", sm: "20px", xs: "15px" },fontFamily:"cursive" }}>
-          Discover the best cloth in {address&&address.length!==0 && address[0].properties.county}
+          Discover the best Grocery product  in {address&&address.length!==0 && address[0].properties.county}
         </Typography>
       </Box>
       <Box
