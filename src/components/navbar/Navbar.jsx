@@ -137,7 +137,7 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
 const Ram = styled(Box)(({ theme }) => ({
   height:'750px',
   width:'100%',
-    backgroundImage: `url(${"https://images.pexels.com/photos/7679863/pexels-photo-7679863.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
+    backgroundImage: `url(${"https://images.pexels.com/photos/374147/pexels-photo-374147.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
    backgroundSize:'cover',
   
       
@@ -230,12 +230,7 @@ export default function Navbar() {
                     <ListItemText primary={`OUTLETS`}/>
                    
                   </List>
-                    {/* <Typography  component="div" sx={{fontSize: {xs:'25px',sm:'25px',md:'40px'},fontFamily:'revert-layer',color:`${theme.header.textColor}`}}>
-                        Uber Eats
-                    </Typography> */}
-                    {/* <Typography component="div" sx={{fontSize:{md:'13px',xs:'10px'}, fontWeight:100}}>
-                        Make a simple Bussiness
-                    </Typography> */}
+                    
                     
                 </Box>
                 
@@ -265,32 +260,7 @@ export default function Navbar() {
            <ShoppingBag sx={{color:'black'}} />
            </Box>
            
-              {/* <Box sx={{display:{xs:'none',sm:'none',md:'none'}}}>
-            <MenuButton onClick={handleOpen}>
-                <Menu color='black'sx={{display: {xs:'block',sm:'block',md:'block'}}}/>
-            </MenuButton>
-            <Drawer open={open} onClose={handleClose} sx={{position:'absolute'}}>
-                <MenuButtons/>
-            </Drawer>
-           
-            </Box> */}
-
-            {/* <Box>
-                <List sx={{display:{xs:'block',sm:'block',md:'none'},gap:'30px',fontSize:'30px'}}>
-                 
-                    <Search />
-                    
-                  </List>
-                </Box> */}
-              {/* <Box sx={{display:'flex',paddingRight:'20px'}}>
-              <Call sx={{fontSize:'30px'}}/>
-              <Typography sx={{fontSize:'20px'}}>+91-9999999999</Typography>
-              </Box>
-            <AccountCircle sx={{fontSize:'40px'}}/>
-               <Login variant='contained' sx={{borderRadius:'30px',fontSize:'18px' ,display:{xs:'none',sm:'none',md:'block'},alignItems:'center'}}>Log in</Login> */}
-              
-               
-               {/* <Signup variant='contained' sx={{borderRadius:'30px',fontSize:{xs:'10px',sm:'15px',md:'20px'}}}>Sign up</Signup> */}
+             
               
             </NavRight>
         </StyleToolbar>
@@ -300,14 +270,14 @@ export default function Navbar() {
         <Downnav>
           <Box sx={{gap:'20px',display:{xs:'block',sm:'block',md:'block'}}}>
         <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},color:`${theme.header.background}`,fontWeight:'700'}}>FLAT 40% OFF</Typography>
-          <Typography sx={{fontSize:{xs:'40px',sm:'40px',md:'20px'},fontWeight:'700',color:`${theme.header.background}`}}>
+          {/* <Typography sx={{fontSize:{xs:'40px',sm:'40px',md:'20px'},fontWeight:'700',color:`${theme.header.background}`}}>
             END OF  SEASON SALE
             
-          </Typography>
+          </Typography> */}
           <Box sx={{display:'flex',flexDirection:'column',width:'170px',gap:'20px'}}>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SHOP MEN  <EastOutlined /></Button>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SHOP WOMEN  <EastOutlined /></Button>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SHOP KIDS  <EastOutlined /></Button>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SHOP COFFEE  <EastOutlined /></Button>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SHOP TEA  <EastOutlined /></Button>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SHOP SNACKS  <EastOutlined /></Button>
           </Box>
           </Box>
           

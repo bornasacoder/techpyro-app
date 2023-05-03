@@ -22,8 +22,8 @@ const Block5 = () => {
       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'35px'},fontWeight:'700',color:''}}>BE SUPPORTED. BE .YOU</Typography>
       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'15px'},fontWeight:'600',color:''}}>Free your body to free your movement.</Typography>
       <Box sx={{display:'flex',gap:'20px',fontWeight:'400',flexDirection:'column',width:'180px',paddingTop:'20px'}}>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}> SHOP LEGGINS<EastOutlined /> </Button>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SHOP BRAS<EastOutlined /> </Button>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}> SHOP FASTFOOD<EastOutlined /> </Button>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SHOP NOODLES<EastOutlined /> </Button>
           
           </Box>
       </Box>

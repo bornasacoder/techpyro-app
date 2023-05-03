@@ -47,11 +47,11 @@ const Box1= styled(Box)(({ theme }) => ({
        
        <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'35px'},fontWeight:'700',color:'black'}}>POPULAR RIGHT NOW</Typography>
        <Box sx={{display:{xs:'none',sm:'none',md:'flex'},gap:'20px',fontWeight:'400'}}>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}> ARGENTINA </Button>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SAMBA</Button>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>FOOTBALL</Button>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>FORUM</Button>
-          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SHOES</Button>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>COFFEE</Button>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>TEA</Button>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>SNACKS</Button>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>FASTFOOD</Button>
+          <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black'}}>NOODLES</Button>
           </Box>
           <Box sx={{display:{xs:'block',sm:'block',md:'none'},gap:'20px',fontWeight:'300',width:'100%'}}>
           <Button variant='contained' sx={{borderRadius:'0px',backgroundColor:'white',color:'black',margin:'10px'}}> SHOES </Button>
@@ -62,7 +62,7 @@ const Box1= styled(Box)(({ theme }) => ({
           </Box>
        
        </Box>
-       <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'45px'},fontWeight:'700',color:'black',paddingLeft:{xs:'30px',sm:'60px',md:'120px'}}}>WHO ARE U SHOPPING FOR?</Typography>
+       <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'45px'},fontWeight:'700',color:'black',paddingLeft:{xs:'30px',sm:'60px',md:'120px'}}}>WHAR ARE U LOOKING FOR?</Typography>
        <Box sx={{display:'flex',gap:'20px'}}></Box>
     <Box  data-aos-duration="3000" sx={{display:'flex',justifyContent:'center',gap:{xs:'0px',sm:'50px',md:'30px'},flexDirection:{xs:'column',sm:'column',md:'row'}}}>
 
@@ -75,7 +75,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="/images/category/adidas1.jpeg"
+          image="https://images.pexels.com/photos/2228554/pexels-photo-2228554.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -86,7 +86,7 @@ const Box1= styled(Box)(({ theme }) => ({
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'400px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'20px'}}>
    <Box sx={{display:'flex',justifyContent:'center'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'700'}}>MEN</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'700'}}>TEA</Typography>
         </Box>
        
        
@@ -112,7 +112,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="/images/category/adidas2.webp"
+          image="https://images.pexels.com/photos/437716/pexels-photo-437716.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -123,7 +123,7 @@ const Box1= styled(Box)(({ theme }) => ({
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'400px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'20px'}}>
    <Box sx={{display:'flex',justifyContent:'center'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'700'}}>WOMEN</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'700'}}>COFFEE</Typography>
         </Box>
        
        
@@ -149,7 +149,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="/images/category/adidas3.webp"
+          image="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -160,7 +160,7 @@ const Box1= styled(Box)(({ theme }) => ({
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'400px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'20px'}}>
    <Box sx={{display:'flex',justifyContent:'center'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'700'}}>KIDS</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'700'}}>COFFEE</Typography>
         </Box>
        
        
