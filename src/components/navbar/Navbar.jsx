@@ -135,7 +135,7 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
 const Ram = styled(Box)(({ theme }) => ({
   height:'750px',
   width:'100%',
-    backgroundImage: `url(${"/images/category/bgdimg9.jpeg"})`,
+    backgroundImage: `url(${"https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
    backgroundSize:'cover',
   position:'sticky',
       

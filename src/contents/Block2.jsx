@@ -30,7 +30,7 @@ const Block2 = () => {
   const Box1= styled(Box)(({ theme }) => ({
     height:'600px',
     width:'100%',
-    backgroundImage: `url(${"/images/category/bgdimg4.jpeg"})`,
+    backgroundImage: `url(${"https://images.pexels.com/photos/954677/pexels-photo-954677.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
     backgroundSize:'cover',
     // backgroundAttachment:'fixed'
     }
@@ -38,7 +38,7 @@ const Block2 = () => {
   const Box2= styled(Box)(({ theme }) => ({
     height:'680px',
     width:'100%',
-    backgroundImage: `url(${"/images/category/bgdimg5.webp"})`,
+    backgroundImage: `url(${"https://images.pexels.com/photos/958547/pexels-photo-958547.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
     backgroundSize:'cover',
     // backgroundAttachment:'fixed',
     display:'flex',
@@ -83,42 +83,14 @@ const Block2 = () => {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="/images/category/blockimg2.jpeg"
+          image="https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
      </Box>
       </CardBox>
       
        </Box>
-       {/* <Box sx={{padding:{xs:'30px',sm:'50px',md:'0'}}}>
-      <CardBox >
-      
-      
-        <Box sx={{height:{xs:'50%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'50%'}}}>
-        <CardMedia
-        sx={{height:'100%'}}
-          component="img"
-          image="/images/category/blockimg5.webp"
-          alt="green iguana"
-        />
-     </Box> */}
-     {/* <Box sx={{height:{xs:'100%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'50%'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',alignItems:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>About Our Product</Typography>
-        <pre>This is your About section. It’s a great space to</pre>
-          <pre> tell your story and to describe who you are and what</pre>
-           <pre> you do. If you're a business, talk about how you </pre>
-          <pre>  started and tell the story of your professional journey. </pre>
-           <pre> People want to know the real you, so don't be afraid to </pre>
-           <pre>  share personal anecdotes. Explain your core values and how you,</pre>
-            <pre>  your organization, or your business stand out from the crowd.</pre> */}
-        {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
-        {/* <Box sx={{display:'flex',justifyContent:'center',padding:{xs:'30px',sm:'50px',md:'100px'},zIndex:'0'}}>
-      <Button variant='contained' sx={{borderRadius:'0'}}>Shop Now</Button>
-      </Box>
-       </Box>
-      </CardBox>
-      
-       </Box> */}
+  
        <Box sx={{display:'flex',flexDirection:'column',alignItems:'center',padding:{xs:'100px 30px',sm:'100px 50px',md:'100px'}}}>
        
        <Typography sx={{fontSize:{xs:'40px',sm:'30px',md:'40px'}}}>What kind of food we serve for you</Typography>

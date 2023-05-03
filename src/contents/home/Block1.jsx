@@ -44,7 +44,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="/images/category/blockimg2.jpeg"
+          image="https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -72,7 +72,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="/images/category/blockimg5.webp"
+          image="https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -99,7 +99,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="/images/category/blockimg7.webp"
+          image="https://images.pexels.com/photos/616354/pexels-photo-616354.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
@@ -127,7 +127,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="/images/category/blockimg5.webp"
+          image="https://images.pexels.com/photos/7592749/pexels-photo-7592749.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="green iguana"
         />
        </Box>
