@@ -35,7 +35,7 @@ export default function Card1() {
 const Box1= styled(Box)(({ theme }) => ({
   height:'650px',
   width:'100%',
-  backgroundImage: `url(${"https://img.freepik.com/free-photo/woman-black-trousers-purple-blouse-laughs-leaning-stand-with-elegant-clothes-pink-background_197531-17614.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"})`,
+  backgroundImage: `url(${"https://img.freepik.com/premium-psd/floating-connected-devices-mockup_117023-1154.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
   backgroundSize:'cover',
   paddingTop:'10px'
   // backgroundAttachment:'fixed'
@@ -59,7 +59,7 @@ const Box1= styled(Box)(({ theme }) => ({
         </Box>
         <Typography></Typography>
         
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Clothes</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Electronics</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         
         
@@ -71,7 +71,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/young-woman-with-black-hat-sunglasses-isolated-white-background_231208-2050.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-vector/household-appliances-realistic-composition_1284-65307.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -89,7 +89,7 @@ const Box1= styled(Box)(({ theme }) => ({
         </Box>
         <Typography></Typography>
         
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Clothes</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Electronics</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         
         
@@ -101,7 +101,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/woman-wearing-sundress_23-2150388778.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-psd/smart-home-air-conditioner-3d-illustration_596573-312.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -119,7 +119,7 @@ const Box1= styled(Box)(({ theme }) => ({
         </Box>
         <Typography></Typography>
         
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Clothes</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Electronics</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         
         
@@ -131,8 +131,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/pink-sweater-front_125540-746.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
-          alt="green iguana"
+          image="https://img.freepik.com/free-photo/black-wireless-earbud-with-charging-case_1268-14371.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
         />
        </Box>
    

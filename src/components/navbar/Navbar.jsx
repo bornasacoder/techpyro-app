@@ -135,7 +135,7 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
 const Ram = styled(Box)(({ theme }) => ({
   height:'750px',
   width:'100%',
-    backgroundImage: `url(${"https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448749.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"})`,
+    backgroundImage: `url(${"https://img.freepik.com/premium-photo/tech-fixes-motherboard-service-center_87646-3939.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"})`,
    backgroundSize:'cover',
   position:'sticky',
       
@@ -194,7 +194,7 @@ export default function Navbar() {
         <Box sx={{position:{xs:'fixed',sm:'fixed',md:'fixed'},width:'100%',alignItems:'center',backgroundColor:`${theme.header.textColor}`,zIndex:'100',height:'70px',display:'flex'}}>
         <StyleToolbar  >
         <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
-            <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'}}}>Clothes Store</Typography>
+            <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'}}}>Electronic Store</Typography>
            </Box>
         <NavLeft >
            <Box>
@@ -233,7 +233,7 @@ export default function Navbar() {
                
             </NavLeft >
             <Box sx={{display:{xs:'block',sm:'block',md:'none'}}}>
-            <Typography sx={{fontSize:{xs:'30px',sm:'30px',md:'40px'}}}>Clothes Store</Typography>
+            <Typography sx={{fontSize:{xs:'30px',sm:'30px',md:'40px'}}}>Electronic Store</Typography>
            </Box>
             <NavRight > 
               <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
