@@ -36,7 +36,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/blue-capsules-pills_155003-10291.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/assortment-with-foundation-bottle_23-2149030338.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
        </Box>
@@ -45,7 +45,7 @@ export default function Card1() {
 
       </CardBox>
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'row',background:'#F6F7FB',justifyContent:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Medical</Typography>
+        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Beauty</Typography>
         {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
        </Box>
       </Box>
@@ -56,7 +56,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/pill-box-arrangement-still-life_23-2149643910.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/creative-display-makeup-products-arrangement_23-2150063089.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
        </Box>
@@ -65,7 +65,7 @@ export default function Card1() {
 
       </CardBox>
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'row',background:'#F6F7FB',justifyContent:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Medical</Typography>
+        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Beauty</Typography>
         {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
        </Box>
       </Box>
@@ -76,7 +76,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/pill-box-arrangement-still-life_23-2149643891.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/make-up-concept-with-lipstick_23-2149030342.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
        </Box>
@@ -85,7 +85,7 @@ export default function Card1() {
 
       </CardBox>
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'row',background:'#F6F7FB',justifyContent:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Medical</Typography>
+        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Beauty</Typography>
         {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
        </Box>
       </Box>

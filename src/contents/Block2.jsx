@@ -29,7 +29,7 @@ const Block2 = () => {
   const Box1= styled(Box)(({ theme }) => ({
     height:'680px',
     width:'100%',
-    backgroundImage: `url(${"https://img.freepik.com/free-photo/flat-lay-health-still-life-arrangement-with-copy-space_23-2148854064.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
+    backgroundImage: `url(${"https://img.freepik.com/free-photo/we-are-hiring-digital-collage_23-2149667046.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
     backgroundSize:'cover',
     backgroundAttachment:'fixed'
     }
@@ -37,7 +37,7 @@ const Block2 = () => {
   const Box2= styled(Box)(({ theme }) => ({
     height:'680px',
     width:'100%',
-    backgroundImage: `url(${"https://img.freepik.com/free-photo/creative-collage-telehealth-consultation_23-2149488758.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
+    backgroundImage: `url(${"https://img.freepik.com/premium-photo/horizontal-photo-feminine-desk-with-make-up-accessories-copy-space-black-leather_35674-8387.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
     backgroundSize:'cover',
     backgroundAttachment:'fixed',
     display:'flex',
@@ -55,7 +55,7 @@ const Block2 = () => {
       <CardBox >
       
        <Box sx={{height:{xs:'100%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'50%'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',alignItems:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>About Our Medical</Typography>
+        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>About Our Beauty</Typography>
         <pre>This is your About section. It’s a great space to</pre>
           <pre> tell your story and to describe who you are and what</pre>
            <pre> you do. If you're a business, talk about how you </pre>
@@ -72,7 +72,7 @@ const Block2 = () => {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-vector/medicine-flat-design_1212-670.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/beauty-products-recipients-assortment-grey-stones_23-2148761390.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
      </Box>
@@ -87,7 +87,7 @@ const Block2 = () => {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/premium-psd/gravity-bottle-with-falling-pills-mockup_7956-710.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/different-cosmetics-types-scattered-pink-table_23-2148046961.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
         />
      </Box>
      <Box sx={{height:{xs:'100%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'50%'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',alignItems:'center'}}>
@@ -112,7 +112,7 @@ const Block2 = () => {
          
           <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},height:{xs:'0px',sm:'170px',md:'0px'},color:`${theme.header.background}`}}>Just Start Your Day with a walk</Typography>
           <Typography sx={{fontSize:{xs:'100px',sm:'150px',md:'200px'},fontWeight:'1000',height:{xs:'110px',sm:'170px',md:'200px'},color:`${theme.header.background}`}}>
-            Medical
+            Beauty
             
           </Typography>
        </Box2>
