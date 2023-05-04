@@ -61,7 +61,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.5)'
       },}}
           component="img"
-          image="https://img.freepik.com/premium-photo/fashion-male-sport-shoes-blue-background-stylish-man-sneakers-fitness-close-up_77190-1693.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/indian-woman-wearing-one-piece-swimsuit-summer_53876-102219.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -72,7 +72,7 @@ const Box1= styled(Box)(({ theme }) => ({
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
    <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>Shoes</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>CLOTHES</Typography>
           <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
           <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
             <Typography> <Person2Outlined /> By Admin</Typography>
@@ -95,7 +95,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.5)'
       }}}
           component="img"
-          image="https://img.freepik.com/premium-photo/unbranded-modern-sporty-shoes-sneakers-white-isolated_120794-337.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/woman-wearing-sundress_23-2150388770.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -106,7 +106,7 @@ const Box1= styled(Box)(({ theme }) => ({
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
     <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>Shoes</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>CLOTHES</Typography>
           <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
           <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
             <Typography> <Person2Outlined /> By Admin</Typography>
@@ -129,7 +129,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.5)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/3d-render-stylish-classic-womens-shoes-high-hills-color-background_460848-10720.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/mother-her-two-sons-wearing-denim-outfits-together_23-2150151069.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -140,7 +140,7 @@ const Box1= styled(Box)(({ theme }) => ({
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
       <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>Shoes</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>CLOTHES</Typography>
           <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
           <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
             <Typography> <Person2Outlined /> By Admin</Typography>
@@ -164,7 +164,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.5)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/handsome-guy-black-pants-beige-jacket-jumps-orange-background_197531-26938.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/elegant-asian-woman-white-dress-looking-camera-confident-chinese-woman-hat-holding-leather-jacket_197531-14542.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -175,7 +175,7 @@ const Box1= styled(Box)(({ theme }) => ({
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
       <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>Shoes</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>CLOTHES</Typography>
           <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
           <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
             <Typography> <Person2Outlined /> By Admin</Typography>

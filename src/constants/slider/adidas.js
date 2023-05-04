@@ -9,7 +9,7 @@ export const adidas = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "SHOP NOW",
-      image:"https://img.freepik.com/premium-photo/colorful-sport-shoes-mustard-color-wall_151013-4913.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+      image:"https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448749.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
            rating:"4.3",
        },
 
@@ -23,7 +23,7 @@ export const adidas = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "SHOP NOW",
-     image:"https://img.freepik.com/premium-photo/unbranded-modern-sporty-shoes-sneakers-white-isolated_120794-337.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+     image:"https://img.freepik.com/free-photo/young-woman-with-black-hat-sunglasses-isolated-white-background_231208-2050.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
            rating:"4.3",
        },
        {
@@ -35,7 +35,7 @@ export const adidas = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://img.freepik.com/premium-photo/pair-blue-running-sneakers-white-background-isolated_77190-7490.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+       image:"https://img.freepik.com/free-photo/clothing-rack-with-floral-hawaiian-shirts-hangers-hat_23-2149366018.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
        tagline: "SHOP NOW",
            rating:"4.3",
        },
@@ -48,7 +48,7 @@ export const adidas = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://img.freepik.com/premium-photo/blue-running-sneaker-motion-red-background-sport-male-shoe-steps-red-background-fitness-concept_77190-7436.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+         image: "https://img.freepik.com/free-photo/attractive-stylish-smiling-woman-choosing-apparel-clothing-store_285396-4753.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
          tagline: "new",
            rating:"4.3",
        },

@@ -2,7 +2,7 @@ export const pizza = {
   category:"Pizza",
    data:[ 
     {
-        name:"SHOES",
+        name:"CLOTHES",
         price: {
               mrp: "$499.00",
               discount: "50% OFF",
@@ -10,11 +10,11 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
-          image: "https://img.freepik.com/free-photo/pair-trainers_144627-3800.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
+          image: "https://img.freepik.com/premium-photo/feminine-summer-aesthetic-fashion-clothes-composition-with-sundress-slippers-sunglasses-straw-hat-earrings-white-background-flat-lay-top-view-minimal-cloth-concept_408798-9597.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
           rating:"*4.3",
       },
       {
-        name:"SHOES",
+        name:"CLOTHES",
         price: {
           mrp: "$499.00",
               discount: "50% OFF",
@@ -22,23 +22,23 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
-          image: "https://img.freepik.com/premium-photo/flying-trendy-sneakers-creative-colorful-background-stylish-fashionable-minimalism-concept-levita_77190-8701.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
+          image: "https://img.freepik.com/free-photo/graphic-shirt-trendy-design-mockup_460848-12971.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
           rating:"*4.3",
       },
       {
-        name:"SHOES",
+        name:"CLOTHES",
         price: {
           mrp: "$499.00",
               discount:"50% OFF",
               cost: "299"
           },
-         image: "https://img.freepik.com/free-photo/positive-carefree-african-man-sport-shoes-dancing-handsome-glad-guy-pink-pants-jumping-with-smile_197531-20246.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
+         image: "https://img.freepik.com/premium-photo/light-colored-womens-summer-clothes-CLOTHES-hanger_176873-11430.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
           rating:"*4.3",
       },
       {
-        name:"SHOES",
+        name:"CLOTHES",
         price: {
           mrp: "$499.00",
               discount: "50% OFF",
@@ -46,11 +46,11 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
-        image: "https://img.freepik.com/premium-photo/male-legs-wearing-sneakers-blue-wall-sport-shoes-training-gym-man-running-sneakers-near-color-wall-close-up_179369-790.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
+        image: "https://img.freepik.com/free-photo/view-hawaiian-shirt-with-pants-sneakers_23-2149366039.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
           rating:"*4.3",
       },
       {
-        name:"SHOES",
+        name:"CLOTHES",
         price: {
           mrp: "$499.00",
               discount: "50% OFF",
@@ -58,11 +58,11 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
-        image:"https://img.freepik.com/premium-photo/colorful-sport-shoes-green_151013-4554.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
+        image:"https://img.freepik.com/free-photo/funny-little-girl-is-fashionista-CLOTHES-mother_169016-3670.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
           rating:"4.3",
       },
       {
-        name:"SHOES",
+        name:"CLOTHES",
         price: {
           mrp: "$499.00",
               discount: "201",
@@ -70,7 +70,7 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
-       image: "https://img.freepik.com/premium-photo/fashion-male-sport-shoes-blue-background-stylish-man-sneakers-fitness-close-up_77190-1693.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
+       image: "https://img.freepik.com/free-photo/girl-purple-blouse-black-pants-is-sitting-chair-looking-into-camera-holding-folder-against-background-hangers-with-bright-dresses_197531-17617.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
           rating:"4.3",
       },
       // {
