@@ -135,7 +135,7 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
 const Ram = styled(Box)(({ theme }) => ({
   height:'750px',
   width:'100%',
-    backgroundImage: `url(${"https://img.freepik.com/free-photo/view-arrangement-with-make-up-brushes-eyeshadows_23-2148301855.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais"})`,
+    backgroundImage: `url(${"https://img.freepik.com/free-photo/armchair-green-living-room-with-copy-space_43614-910.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"})`,
    backgroundSize:'cover',
   position:'sticky',
       

@@ -30,7 +30,7 @@ const Block2 = () => {
   const Box1= styled(Box)(({ theme }) => ({
     height:'600px',
     width:'100%',
-    backgroundImage: `url(${"https://img.freepik.com/premium-photo/cosmetics-arranged-dusty-dark-background_23-2148181475.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
+    backgroundImage: `url(${"https://img.freepik.com/premium-photo/modern-interior-living-room-blueprint-home-decor-concept-blue-sofa-black-lamp-white-flooring-dark-blueprint-wall-3d-rendering_33739-484.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"})`,
     backgroundSize:'cover',
     // backgroundAttachment:'fixed'
     }
@@ -38,7 +38,7 @@ const Block2 = () => {
   const Box2= styled(Box)(({ theme }) => ({
     height:'680px',
     width:'100%',
-    backgroundImage: `url(${"https://img.freepik.com/free-photo/top-view-assortment-with-make-up-brushes-palettes_23-2148301886.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
+    backgroundImage: `url(${"https://img.freepik.com/premium-photo/interior-design-living-area-reception-with-armchair_38322-455.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"})`,
     backgroundSize:'cover',
     // backgroundAttachment:'fixed',
     display:'flex',
@@ -83,7 +83,7 @@ const Block2 = () => {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/premium-photo/skincare-cosmetics-makeup-brushes-grocery-shopping-cart-pink-background_323347-13.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-shelf-near-dining-table_105762-2053.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
      </Box>

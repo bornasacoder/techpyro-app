@@ -44,7 +44,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/premium-photo/top-view-decoration-with-beauty-products-pink-background_23-2148301810.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/pillow-sofa_74190-3846.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -55,7 +55,7 @@ export default function Card1() {
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px'}}>
         <Typography></Typography>
         <Typography>12-01-2023</Typography>
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'700'}}>shoes</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'20px'},fontWeight:'700'}}>Furniture</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         <Box sx={{display:'flex',justifyContent:'space-between'}}>
           <Typography><FavoriteBorder sx={{fontSize:'15px'}}/>10 likes</Typography>
@@ -72,7 +72,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/premium-photo/osmetics-tubes-skin-care-product-geometric-pedestal-branding-blank-unbranded-flacons-mockup-beauty-spa-concept_138888-1424.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/ancient-red-sofa_1150-18960.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -83,7 +83,7 @@ export default function Card1() {
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px'}}>
         <Typography></Typography>
       <Typography>12-01-2023</Typography>
-        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Shoes</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Furniture</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         <Box sx={{display:'flex',justifyContent:'space-between'}}>
           <Typography><FavoriteBorder sx={{fontSize:'15px'}}/>10 likes</Typography>
@@ -99,7 +99,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/minimal-arrangement-beauty-products_23-2148961322.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/premium-photo/modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background_41470-1528.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -110,7 +110,7 @@ export default function Card1() {
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px'}}>
         <Typography></Typography>
       <Typography>12-01-2023</Typography>
-        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Shoes</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Furniture</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         <Box sx={{display:'flex',justifyContent:'space-between'}}>
           <Typography><FavoriteBorder sx={{fontSize:'15px'}}/>10 likes</Typography>
@@ -127,7 +127,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/flat-lay-natural-self-care-products-composition_23-2148990019.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/chair-modern-table-interior-indoor_1122-2074.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -138,7 +138,7 @@ export default function Card1() {
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px'}}>
         <Typography></Typography>
       <Typography>12-01-2023</Typography>
-        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Shoes</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'700'}}>Furniture</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         <Box sx={{display:'flex',justifyContent:'space-between'}}>
           <Typography><FavoriteBorder sx={{fontSize:'15px'}}/>10 likes</Typography>
