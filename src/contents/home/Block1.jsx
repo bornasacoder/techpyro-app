@@ -59,7 +59,7 @@ const Box1= styled(Box)(({ theme }) => ({
         </Box>
         <Typography></Typography>
         
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Grocery</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Medicine</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         
         
@@ -71,7 +71,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/premium-photo/duty-free-dubai-international-airport_78361-14261.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/high-angle-pill-foils-plastic-containers_23-2148533456.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -89,7 +89,7 @@ const Box1= styled(Box)(({ theme }) => ({
         </Box>
         <Typography></Typography>
         
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Grocery</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Medicine</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         
         
@@ -101,7 +101,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/woman-choosing-products-super-market_1303-29621.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/premium-photo/pill-packaging-medical-supplies-white-background_97694-2632.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -119,7 +119,7 @@ const Box1= styled(Box)(({ theme }) => ({
         </Box>
         <Typography></Typography>
         
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Grocery</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Medicine</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         
         
@@ -131,7 +131,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/attractive-woman-choosing-cloths-shop_329181-8901.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/inventory-two-druggists-lab-coats-process-inventory-drugstore_259150-57974.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
         />
        </Box>
    
