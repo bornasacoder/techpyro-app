@@ -12,7 +12,7 @@ export default function MiddleContent() {
           variant="h1"
           sx={{ fontFamily: "Dancing Script", fontWeight: 600, fontSize:"3rem" }}
         >
-          About sweetcart
+          About Studio
         </Typography>
       </Box>
       <Box
@@ -71,7 +71,7 @@ export default function MiddleContent() {
           variant="h1"
           sx={{ fontFamily: "Dancing Script", fontWeight: 600, fontSize:"3rem",paddingTop:"70px",marginBottom:"-10px" }}
         >
-          Our Shopping Mall Items
+          Our Studio Items
         </Typography>
        
       </Box>

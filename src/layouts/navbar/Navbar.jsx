@@ -106,7 +106,7 @@ const NavBar = styled(AppBar)(({ theme }) => ({
   color: "#fff",
   position: "static",
   background: `linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)
-  ),url("https://images.pexels.com/photos/2954405/pexels-photo-2954405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") 
+  ),url("https://img.freepik.com/premium-photo/news-studio-blue-room-design-backdrop-tv-shows_43151-2086.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=robertav1_2_sidr") 
    center/cover no-repeat`,
   [theme.breakpoints.down("sm")]:{
     display:"flex",
@@ -240,8 +240,8 @@ export default function Navbar() {
           paddingTop: "50px",
         }}
       >
-        <Typography sx={{ fontSize: { md: "60px", sm: "40px", xs: "35px" },fontFamily:"cursive",color:"#CFD1D1" }}>
-        Shopping Mall
+        <Typography sx={{ fontSize: { md: "60px", sm: "40px", xs: "35px" },fontFamily:"cursive",color:"#000" }}>
+        Studio
         </Typography>
       </Box>
       <Box
@@ -252,8 +252,8 @@ export default function Navbar() {
           paddingTop: "30px",
         }}
       >
-        <Typography sx={{ fontSize: { md: "26px", sm: "20px", xs: "15px" },fontFamily:"cursive" }}>
-          Discover the best Shopping Mall  in {address&&address.length!==0 && address[0].properties.county}
+        <Typography sx={{ fontSize: { md: "26px", sm: "20px", xs: "15px" },fontFamily:"cursive",color:"#000" }}>
+          Discover the best Studio  in {address&&address.length!==0 && address[0].properties.county}
         </Typography>
       </Box>
       <Box
