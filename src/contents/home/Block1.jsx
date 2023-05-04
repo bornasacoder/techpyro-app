@@ -27,7 +27,7 @@ export default function Card1() {
 }))
   return ( 
     <>
-    <Typography sx={{fontSize:{xs:'30px',sm:'30px',md:'40px'},display:'flex',justifyContent:'center',padding:{xs:'30px',sm:'50px',md:'80'}}}>Fresh from Oven to Your Door Step</Typography>
+    <Typography sx={{fontSize:{xs:'30px',sm:'30px',md:'40px'},display:'flex',justifyContent:'center',padding:{xs:'30px',sm:'50px',md:'80'}}}>Fresh from shop to Your Door Step</Typography>
     <Box sx={{display:'flex',justifyContent:'center',gap:{xs:'0px',sm:'50px',md:'80px'},flexDirection:{xs:'column',sm:'column',md:'row'}}}>
    <Box sx={{padding:{xs:'30px',sm:'50px',md:'0'}}}>
       <CardBox >
@@ -36,7 +36,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/5771898/pexels-photo-5771898.jpeg?auto=compress&cs=tinysrgb&w=600"
+          image="https://img.freepik.com/free-photo/room-interior-design_23-2148899449.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -45,7 +45,7 @@ export default function Card1() {
 
       </CardBox>
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'row',background:'#F6F7FB',justifyContent:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Snickers</Typography>
+        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Furniture</Typography>
         {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
        </Box>
       </Box>
@@ -56,7 +56,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/1537671/pexels-photo-1537671.jpeg?auto=compress&cs=tinysrgb&w=600"
+          image="https://img.freepik.com/free-photo/mock-up-frame-cabinet_23-2148894142.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -65,7 +65,7 @@ export default function Card1() {
 
       </CardBox>
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'row',background:'#F6F7FB',justifyContent:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Sport shoes</Typography>
+        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Furniture</Typography>
         {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
        </Box>
       </Box>
@@ -76,7 +76,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/7289729/pexels-photo-7289729.jpeg?auto=compress&cs=tinysrgb&w=600"
+          image="https://img.freepik.com/free-photo/view-photo-frame-with-interior-home-decor_23-2149513974.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -85,7 +85,7 @@ export default function Card1() {
 
       </CardBox>
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'row',background:'#F6F7FB',justifyContent:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Boot</Typography>
+        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Furniture</Typography>
         {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
        </Box>
       </Box>

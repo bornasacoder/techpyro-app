@@ -29,7 +29,7 @@ const Block2 = () => {
   const Box1= styled(Box)(({ theme }) => ({
     height:'680px',
     width:'100%',
-    backgroundImage: `url(${"https://images.pexels.com/photos/2300334/pexels-photo-2300334.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
+    backgroundImage: `url(${"https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-design-chandelier_105762-2230.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"})`,
     backgroundSize:'cover',
     backgroundAttachment:'fixed'
     }
@@ -37,7 +37,7 @@ const Block2 = () => {
   const Box2= styled(Box)(({ theme }) => ({
     height:'680px',
     width:'100%',
-    backgroundImage: `url(${"https://images.pexels.com/photos/609771/pexels-photo-609771.jpeg?auto=compress&cs=tinysrgb&w=600"})`,
+    backgroundImage: `url(${"https://img.freepik.com/premium-photo/interior-design-living-area-reception-with-armchair_38322-455.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"})`,
     backgroundSize:'cover',
     backgroundAttachment:'fixed',
     display:'flex',
@@ -55,7 +55,7 @@ const Block2 = () => {
       <CardBox >
       
        <Box sx={{height:{xs:'100%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'50%'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',alignItems:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>About Our Shoes</Typography>
+        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>About Our Furniture</Typography>
         <pre>This is your About section. It’s a great space to</pre>
           <pre> tell your story and to describe who you are and what</pre>
            <pre> you do. If you're a business, talk about how you </pre>
@@ -72,7 +72,7 @@ const Block2 = () => {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/12628400/pexels-photo-12628400.jpeg?auto=compress&cs=tinysrgb&w=600"
+          image="https://img.freepik.com/free-photo/chair-modern-table-interior-indoor_1122-2074.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
      </Box>
@@ -87,7 +87,7 @@ const Block2 = () => {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://images.pexels.com/photos/7543638/pexels-photo-7543638.jpeg?auto=compress&cs=tinysrgb&w=600"
+          image="https://img.freepik.com/free-photo/room-interior-design_23-2148899449.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
      </Box>
@@ -113,7 +113,7 @@ const Block2 = () => {
          
           <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},height:{xs:'0px',sm:'170px',md:'0px'},color:`${theme.header.background}`}}>Just Start Your Day with a walk</Typography>
           <Typography sx={{fontSize:{xs:'100px',sm:'150px',md:'200px'},fontWeight:'1000',height:{xs:'110px',sm:'170px',md:'200px'},color:`${theme.header.background}`}}>
-            Shoes
+            Furniture
             
           </Typography>
        </Box2>
