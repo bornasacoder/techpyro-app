@@ -9,7 +9,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-      image:"https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image:"https://img.freepik.com/premium-photo/minimal-composition-with-summer-footwear-black-red-background_113876-3550.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
 
@@ -23,7 +23,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-     image:"https://images.pexels.com/photos/8986177/pexels-photo-8986177.jpeg?auto=compress&cs=tinysrgb&w=600",
+     image:"https://img.freepik.com/premium-photo/colorful-sport-shoes-green_151013-4554.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
        {
@@ -35,7 +35,7 @@ export const other = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://images.pexels.com/photos/6873180/pexels-photo-6873180.jpeg?auto=compress&cs=tinysrgb&w=600",
+       image:"https://img.freepik.com/free-photo/gym-composition-with-sport-elements_23-2147915644.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
        tagline: "new",
            rating:"4.3",
        },
@@ -48,7 +48,7 @@ export const other = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://images.pexels.com/photos/4489743/pexels-photo-4489743.jpeg?auto=compress&cs=tinysrgb&w=600",
+         image: "https://img.freepik.com/premium-photo/fashion-stylish-sneakers-with-flying-laces-running-sports-shoes-orange-background-close-up_179369-778.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
          tagline: "new",
            rating:"4.3",
        },

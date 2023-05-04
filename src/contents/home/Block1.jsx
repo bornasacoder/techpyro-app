@@ -46,7 +46,7 @@ const Box1= styled(Box)(({ theme }) => ({
   return ( 
     <>
 
-       <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'35px'},fontWeight:'600',color:'black',paddingLeft:{xs:'30px',sm:'60px',md:'120px'},paddingTop:'80px'}}>In The Garage</Typography>
+       <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'35px'},fontWeight:'600',color:'black',paddingLeft:{xs:'30px',sm:'60px',md:'120px'},paddingTop:'80px'}}>In The Store</Typography>
        <Box sx={{display:'flex',gap:'30px'}}></Box>
     <Box  data-aos-duration="3000" sx={{display:'flex',justifyContent:'center',gap:{xs:'0px',sm:'50px',md:'20px'},flexDirection:{xs:'column',sm:'column',md:'row'},paddingBottom:'100px'}}>
 
@@ -61,7 +61,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.5)'
       },}}
           component="img"
-          image="/images/category/garage1.jpeg"
+          image="https://img.freepik.com/premium-photo/fashion-male-sport-shoes-blue-background-stylish-man-sneakers-fitness-close-up_77190-1693.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -72,7 +72,7 @@ const Box1= styled(Box)(({ theme }) => ({
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
    <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>Clean the Engine compartment</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>Shoes</Typography>
           <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
           <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
             <Typography> <Person2Outlined /> By Admin</Typography>
@@ -95,7 +95,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.5)'
       }}}
           component="img"
-          image="/images/category/garage2.jpeg"
+          image="https://img.freepik.com/premium-photo/unbranded-modern-sporty-shoes-sneakers-white-isolated_120794-337.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -106,7 +106,7 @@ const Box1= styled(Box)(({ theme }) => ({
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
     <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>Replace Brakes Guide</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>Shoes</Typography>
           <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
           <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
             <Typography> <Person2Outlined /> By Admin</Typography>
@@ -129,7 +129,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.5)'
       }}}
           component="img"
-          image="/images/category/garage3.jpeg"
+          image="https://img.freepik.com/free-photo/3d-render-stylish-classic-womens-shoes-high-hills-color-background_460848-10720.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -140,7 +140,7 @@ const Box1= styled(Box)(({ theme }) => ({
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
       <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>Things to keep in mind while washing car</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>Shoes</Typography>
           <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
           <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
             <Typography> <Person2Outlined /> By Admin</Typography>
@@ -164,7 +164,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.5)'
       }}}
           component="img"
-          image="/images/category/garage4.jpeg"
+          image="https://img.freepik.com/free-photo/handsome-guy-black-pants-beige-jacket-jumps-orange-background_197531-26938.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -175,7 +175,7 @@ const Box1= styled(Box)(({ theme }) => ({
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
       <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>Autoparts for Audi</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>Shoes</Typography>
           <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
           <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
             <Typography> <Person2Outlined /> By Admin</Typography>

@@ -41,7 +41,7 @@ const Block6 = () => {
 
 
     <Box sx={{padding:{xs:'10px',sm:'30px',md:'50px 100px 0px 100px'}}}>
-        <Typography sx={{fontSize:{xs:'40px',sm:'30px',md:'30px'},fontWeight:'700'}}>Search by Vehicle</Typography>
+        <Typography sx={{fontSize:{xs:'40px',sm:'30px',md:'30px'},fontWeight:'700'}}>Search</Typography>
         <Typography>Filter your results by entering your Vehicle to ensure you find the parts that fit.</Typography>
 
         <Box sx={{display:'flex',flexDirection:{xs:'column',sm:'column',md:'row'},gap:{xs:'40px',sm:'40px',md:'20px'},border:'1px solid red',height:{xs:'580px',sm:'600px',md:'120px'},alignItems:'center',marginTop:'30px',backgroundColor:'#FFF5F3'}}>

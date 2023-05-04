@@ -28,7 +28,7 @@ const Home = () => {
        <Block6 />
         <BigSlider sliderData={adidas}/>
        <MiniSlider sliderData={pizza}/>
-       <Block5 />
+       {/* <Block5 /> */}
        <Block1 />
        <Footer />
       

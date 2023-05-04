@@ -2,7 +2,7 @@ export const pizza = {
   category:"Pizza",
    data:[ 
     {
-        name:"DISC BRAKE ",
+        name:"SHOES",
         price: {
               mrp: "$499.00",
               discount: "50% OFF",
@@ -10,11 +10,11 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
-          image: "https://images.pexels.com/photos/4022545/pexels-photo-4022545.jpeg?auto=compress&cs=tinysrgb&w=600",
+          image: "https://img.freepik.com/free-photo/pair-trainers_144627-3800.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
           rating:"*4.3",
       },
       {
-        name:"DISC BRAKE ",
+        name:"SHOES",
         price: {
           mrp: "$499.00",
               discount: "50% OFF",
@@ -22,23 +22,23 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
-          image: "https://images.pexels.com/photos/5008306/pexels-photo-5008306.jpeg?auto=compress&cs=tinysrgb&w=600",
+          image: "https://img.freepik.com/premium-photo/flying-trendy-sneakers-creative-colorful-background-stylish-fashionable-minimalism-concept-levita_77190-8701.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
           rating:"*4.3",
       },
       {
-        name:"DISC BRAKE ",
+        name:"SHOES",
         price: {
           mrp: "$499.00",
               discount:"50% OFF",
               cost: "299"
           },
-         image: "https://images.pexels.com/photos/5802394/pexels-photo-5802394.jpeg?auto=compress&cs=tinysrgb&w=600",
+         image: "https://img.freepik.com/free-photo/positive-carefree-african-man-sport-shoes-dancing-handsome-glad-guy-pink-pants-jumping-with-smile_197531-20246.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
           rating:"*4.3",
       },
       {
-        name:"DISC BRAKE ",
+        name:"SHOES",
         price: {
           mrp: "$499.00",
               discount: "50% OFF",
@@ -46,11 +46,11 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
-        image: "https://media.istockphoto.com/id/494540353/photo/side-view-mirror.jpg?b=1&s=612x612&w=0&k=20&c=O8mVSjWUq5BJ4fMQpown56FqYufsJB-YWC7Dnz6HJNE=",
+        image: "https://img.freepik.com/premium-photo/male-legs-wearing-sneakers-blue-wall-sport-shoes-training-gym-man-running-sneakers-near-color-wall-close-up_179369-790.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
           rating:"*4.3",
       },
       {
-        name:"DISC BRAKE ",
+        name:"SHOES",
         price: {
           mrp: "$499.00",
               discount: "50% OFF",
@@ -58,11 +58,11 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
-        image:"https://images.pexels.com/photos/193997/pexels-photo-193997.jpeg?auto=compress&cs=tinysrgb&w=600",
+        image:"https://img.freepik.com/premium-photo/colorful-sport-shoes-green_151013-4554.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
           rating:"4.3",
       },
       {
-        name:"DISC BRAKE ",
+        name:"SHOES",
         price: {
           mrp: "$499.00",
               discount: "201",
@@ -70,7 +70,7 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
-       image: "https://images.pexels.com/photos/165938/pexels-photo-165938.jpeg?auto=compress&cs=tinysrgb&w=600",
+       image: "https://img.freepik.com/premium-photo/fashion-male-sport-shoes-blue-background-stylish-man-sneakers-fitness-close-up_77190-1693.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
           rating:"4.3",
       },
       // {

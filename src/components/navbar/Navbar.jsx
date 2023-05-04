@@ -87,6 +87,7 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         // paddingRight:'30px',
            flexDirection:"column",
         alignItems: 'center',
+        justifyContent:'center',
         marginRight:'100px',
         // [theme.breakpoints.down('md')]: {
             //     justifyContent:"space-between"
@@ -236,7 +237,7 @@ export default function Navbar() {
        
           
         <Box sx={{display:{xs:'flex',sm:'flex',md:'block'}}}>
-            <Typography sx={{fontSize:{xs:'40px',sm:'30px',md:'50px'},color:'black',paddingLeft:'0px'}}>Brator</Typography>
+            <Typography sx={{fontSize:{xs:'40px',sm:'30px',md:'50px'},color:'black',paddingLeft:'0px'}}>Shoes</Typography>
            </Box>
            <Box>
            <MenuButton onClick={handleOpen}>
@@ -251,8 +252,8 @@ export default function Navbar() {
           </Box>
 
           <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'10px'}}>
-            <LocalCarWashOutlined sx={{color:'black',fontSize:'40px'}}/>
-            <Typography sx={{color:'black',fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'600'}}>Add Vehicle</Typography>
+            {/* <LocalCarWashOutlined sx={{color:'black',fontSize:'40px'}}/> */}
+            <Typography sx={{color:'black',fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'600'}}>Add Product</Typography>
           </Box>
            
                
@@ -264,7 +265,7 @@ export default function Navbar() {
           
             <NavRight > 
             
-        <Box sx={{display:{xs:'none',sm:'none',md:'flex'},gap:'30px'}}>
+        <Box sx={{display:{xs:'none',sm:'none',md:'flex'},gap:'30px',alignItems:'center'}}>
             
             <Person2Outlined sx={{color:'black',fontSize:{xs:'40px',sm:'30px',md:'40px'}}}/>
            <ShoppingCart sx={{color:'black',fontSize:{xs:'40px',sm:'30px',md:'40px'}}} />
@@ -318,7 +319,7 @@ export default function Navbar() {
                     <ListItemText primary={`About Us`}/>
                     <ListItemText primary={`Blogs`}/>
                     <ListItemText primary={`Pages`}/>
-                    <ListItemText primary={`Auto Parts`}/>
+                    {/* <ListItemText primary={`Auto Parts`}/> */}
                     <ListItemText primary={`Contact Us`}/>
                    
                    
