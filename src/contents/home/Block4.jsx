@@ -7,7 +7,7 @@ import React from 'react'
 const Box2= styled(Box)(({ theme }) => ({
     height:'680px',
     width:'100%',
-    backgroundImage: `url(${"https://img.freepik.com/premium-vector/realistic-electronic-devices-gadgets-isometry-vector-isometric-illustration-devices_480270-27.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
+    backgroundImage: `url(${"https://img.freepik.com/premium-photo/luxurious-designer-jewelry-your-wedding-gift-generative-ai_753390-337.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
     backgroundSize:'cover',
     // backgroundAttachment:'fixed',
     display:'flex',
