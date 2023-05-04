@@ -35,7 +35,7 @@ export default function Card1() {
 const Box1= styled(Box)(({ theme }) => ({
   height:'650px',
   width:'100%',
-  backgroundImage: `url(${"https://img.freepik.com/premium-photo/two-gold-wedding-rings-gold-background_170984-8130.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
+  backgroundImage: `url(${"https://img.freepik.com/free-psd/food-safety-banner-template-design_23-2149087468.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
   backgroundSize:'cover',
   paddingTop:'10px'
   // backgroundAttachment:'fixed'
@@ -59,7 +59,7 @@ const Box1= styled(Box)(({ theme }) => ({
         </Box>
         <Typography></Typography>
         
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Jewellery</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Grocery</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         
         
@@ -71,7 +71,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/closeup-diamond-ring_53876-147524.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/superfoods-seeds-grains-vegan-vegetarian-eating-clean-eating_114579-3939.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -89,7 +89,7 @@ const Box1= styled(Box)(({ theme }) => ({
         </Box>
         <Typography></Typography>
         
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Jewellery</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Grocery</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         
         
@@ -101,7 +101,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/jewels-sparkle-golden-wedding-rings-lying-leather_8353-763.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/beautiful-tasty-appetizing-ingredients-spices-grocery-cooking-healthy-kitchen-blue-old-wooden-background-top-view_1220-1739.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -119,7 +119,7 @@ const Box1= styled(Box)(({ theme }) => ({
         </Box>
         <Typography></Typography>
         
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Jewellery</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Grocery</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         
         
@@ -131,7 +131,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/premium-photo/royal-gold-jewellery-set_1396-371.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/high-angle-asian-food-ingredients-with-copy-space_23-2148377383.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
         />
        </Box>
    
