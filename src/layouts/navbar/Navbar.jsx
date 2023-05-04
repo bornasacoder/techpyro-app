@@ -106,7 +106,7 @@ const NavBar = styled(AppBar)(({ theme }) => ({
   color: "#fff",
   position: "static",
   background: `linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)
-  ),url("https://img.freepik.com/premium-photo/hall-shopping-center-shop-digital-equipment-electronics-sale-laptops_497171-106.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=robertav1_2_sidr") 
+  ),url("https://images.pexels.com/photos/2954405/pexels-photo-2954405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") 
    center/cover no-repeat`,
   [theme.breakpoints.down("sm")]:{
     display:"flex",
@@ -241,7 +241,7 @@ export default function Navbar() {
         }}
       >
         <Typography sx={{ fontSize: { md: "60px", sm: "40px", xs: "35px" },fontFamily:"cursive",color:"#CFD1D1" }}>
-        Electronic shop
+        Shopping Mall
         </Typography>
       </Box>
       <Box
@@ -253,7 +253,7 @@ export default function Navbar() {
         }}
       >
         <Typography sx={{ fontSize: { md: "26px", sm: "20px", xs: "15px" },fontFamily:"cursive" }}>
-          Discover the best Electronic shop  in {address&&address.length!==0 && address[0].properties.county}
+          Discover the best Shopping Mall  in {address&&address.length!==0 && address[0].properties.county}
         </Typography>
       </Box>
       <Box

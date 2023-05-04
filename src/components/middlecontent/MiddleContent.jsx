@@ -71,7 +71,7 @@ export default function MiddleContent() {
           variant="h1"
           sx={{ fontFamily: "Dancing Script", fontWeight: 600, fontSize:"3rem",paddingTop:"70px",marginBottom:"-10px" }}
         >
-          Our Electronics Items
+          Our Shopping Mall Items
         </Typography>
        
       </Box>
