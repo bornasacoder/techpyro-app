@@ -36,7 +36,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/room-interior-design_23-2148899449.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/blue-capsules-pills_155003-10291.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -45,7 +45,7 @@ export default function Card1() {
 
       </CardBox>
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'row',background:'#F6F7FB',justifyContent:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Furniture</Typography>
+        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Medical</Typography>
         {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
        </Box>
       </Box>
@@ -56,7 +56,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/mock-up-frame-cabinet_23-2148894142.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/pill-box-arrangement-still-life_23-2149643910.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -65,7 +65,7 @@ export default function Card1() {
 
       </CardBox>
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'row',background:'#F6F7FB',justifyContent:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Furniture</Typography>
+        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Medical</Typography>
         {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
        </Box>
       </Box>
@@ -76,7 +76,7 @@ export default function Card1() {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/view-photo-frame-with-interior-home-decor_23-2149513974.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/pill-box-arrangement-still-life_23-2149643891.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -85,7 +85,7 @@ export default function Card1() {
 
       </CardBox>
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'row',background:'#F6F7FB',justifyContent:'center'}}>
-        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Furniture</Typography>
+        <Typography sx={{fontSize:{xs:'35px',sm:'30px',md:'30px'},fontWeight:'700'}}>Medical</Typography>
         {/* <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Up To 25% off</Typography> */}
        </Box>
       </Box>
