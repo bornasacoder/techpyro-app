@@ -35,7 +35,7 @@ export default function Card1() {
 const Box1= styled(Box)(({ theme }) => ({
   height:'650px',
   width:'100%',
-  backgroundImage: `url(${"https://img.freepik.com/premium-photo/interior-wall-mockup-dark-tones-with-yellow-armchair-black-wall-background_41470-4673.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
+  backgroundImage: `url(${"https://img.freepik.com/premium-photo/elevated-view-cosmetic-products-forming-circular-frame-black-background_23-2147899432.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
   backgroundSize:'cover',
   paddingTop:'10px'
   // backgroundAttachment:'fixed'
@@ -59,7 +59,7 @@ const Box1= styled(Box)(({ theme }) => ({
         </Box>
         <Typography></Typography>
         
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Furniture</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Beauty</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         
         
@@ -71,7 +71,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/living-room-scandinavian-interior-design_53876-146865.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/premium-photo/osmetics-tubes-skin-care-product-geometric-pedestal-branding-blank-unbranded-flacons-beauty-spa-concept_138888-1400.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
        </Box>
@@ -89,7 +89,7 @@ const Box1= styled(Box)(({ theme }) => ({
         </Box>
         <Typography></Typography>
         
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Furniture</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Beauty</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         
         
@@ -101,7 +101,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/interior-design-with-photoframes-plants_23-2149385437.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/high-angle-view-cosmetic-products-white-backdrop_23-2147899548.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
        </Box>
@@ -119,7 +119,7 @@ const Box1= styled(Box)(({ theme }) => ({
         </Box>
         <Typography></Typography>
         
-        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Furniture</Typography>
+        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'30px'},fontWeight:'700'}}>Beauty</Typography>
         <Typography>inappropriate behavior ipsum dolor sit amet, consectetur.</Typography>
         
         
@@ -131,7 +131,7 @@ const Box1= styled(Box)(({ theme }) => ({
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/loft-luxury-living-room-with-bookshelf-near-dining-table_105762-1796.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/premium-photo/beauty-bag-with-facial-powders-eye-shadows-table_23-2148047054.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais"
         />
        </Box>
    
