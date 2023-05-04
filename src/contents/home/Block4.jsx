@@ -7,7 +7,7 @@ import React from 'react'
 const Box2= styled(Box)(({ theme }) => ({
     height:'680px',
     width:'100%',
-    backgroundImage: `url(${"https://img.freepik.com/premium-psd/fresh-healthy-vegetables-social-media-facebook-cover-template_356617-428.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
+    backgroundImage: `url(${"https://img.freepik.com/premium-photo/top-view-indoor-shopping-center_23-2148225020.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais"})`,
     backgroundSize:'cover',
     // backgroundAttachment:'fixed',
     display:'flex',
