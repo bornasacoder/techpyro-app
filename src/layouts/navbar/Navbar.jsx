@@ -106,7 +106,7 @@ const NavBar = styled(AppBar)(({ theme }) => ({
   color: "#fff",
   position: "static",
   background: `linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)
-  ),url("https://images.pexels.com/photos/2733918/pexels-photo-2733918.jpeg?auto=compress&cs=tinysrgb&w=600") 
+  ),url("https://img.freepik.com/premium-photo/gold-decoration-display_250469-3154.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=robertav1_2_sidr") 
    center/cover no-repeat`,
   [theme.breakpoints.down("sm")]:{
     display:"flex",
@@ -241,7 +241,7 @@ export default function Navbar() {
         }}
       >
         <Typography sx={{ fontSize: { md: "60px", sm: "40px", xs: "35px" },fontFamily:"cursive",color:"#CFD1D1" }}>
-        Grocery Stores
+        Jwellery Store
         </Typography>
       </Box>
       <Box

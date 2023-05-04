@@ -82,7 +82,7 @@ export default function Navbar2() {
           <Menu sx={{ margin: "25px 50px 0px " }} />
         </MenuButton>
           <Typography variant="h1" sx={{ fontSize: {md:"30px",sm:"30px",xs:"24px"},color:"#fff" }}>
-            SWEETCART
+            TECHPYRO
           </Typography>
         </Box>
         <br/>

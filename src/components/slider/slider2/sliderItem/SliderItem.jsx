@@ -54,9 +54,9 @@ alignItems:"center",marginY:"10px","&:hover":{
   transition: "all 0.3s ease-out"
 }}}>
         <ImageContainer>
-            <Avatar src={posterLinks.image} onClick={()=>handleClick(posterLinks.id)} sx={{height:"170px",width:"170px"}}/>
+            <Avatar src={posterLinks.image} onClick={()=>handleClick(posterLinks.id)} sx={{height:{md:"170px",sm:"150px",xs:"120px"},width:{md:"170px",sm:"150px",xs:"120px"}}}/>
         </ImageContainer>
-        <Typography sx={{fontSize:"20px",fontWeight:"600",marginBottom:"10px"}}>{posterLinks.brand}</Typography>
+        <Typography sx={{fontSize:{md:"20px",sm:"18px",xs:"16px"},fontWeight:"600",marginBottom:"10px"}}>{posterLinks.brand}</Typography>
         </Grid>
        </SliderContainer>
        </>

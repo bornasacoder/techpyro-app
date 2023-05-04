@@ -77,7 +77,7 @@ const MiniSlider = ({sliderData,category}) => {
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 5.3,
+            slidesToShow: 5,
             slidesToScroll: 1,
             speed: 300,
             arrows:true,
@@ -85,26 +85,6 @@ const MiniSlider = ({sliderData,category}) => {
         },
          {
           breakpoint: 960,
-          settings: {
-            slidesToShow: 4.4,
-            slidesToScroll: 1,
-            speed: 300,
-            arrows:false,
-            autoplay:false,
-          },
-        },
-        {
-          breakpoint: 770,
-          settings: {
-            slidesToShow: 3.4,
-            slidesToScroll: 1,
-            speed: 300,
-            arrows:false,
-            autoplay:false,
-          },
-        },
-        {
-          breakpoint: 600,
           settings: {
             slidesToShow: 4,
             slidesToScroll: 1,
@@ -114,10 +94,30 @@ const MiniSlider = ({sliderData,category}) => {
           },
         },
         {
+          breakpoint: 770,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            speed: 300,
+            arrows:false,
+            autoplay:false,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            speed: 300,
+            arrows:false,
+            autoplay:false,
+          },
+        },
+        {
           breakpoint: 500,
           settings: {
-            slidesToShow: 3.4,
-            slidesToScroll: 3,
+            slidesToShow: 2,
+            slidesToScroll: 1,
             speed: 300,
             arrows:false,
             autoplay:false,
