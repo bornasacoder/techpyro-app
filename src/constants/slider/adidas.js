@@ -9,7 +9,7 @@ export const adidas = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "SHOP NOW",
-      image:"https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448749.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
+      image:"https://img.freepik.com/free-photo/closeup-diamond-ring_53876-33672.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
 
@@ -23,7 +23,7 @@ export const adidas = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "SHOP NOW",
-     image:"https://img.freepik.com/free-photo/young-woman-with-black-hat-sunglasses-isolated-white-background_231208-2050.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
+     image:"https://img.freepik.com/premium-photo/gold-indian-earrings-set_1396-373.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
        {
@@ -35,7 +35,7 @@ export const adidas = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://img.freepik.com/free-photo/clothing-rack-with-floral-hawaiian-shirts-hangers-hat_23-2149366018.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
+       image:"https://img.freepik.com/premium-photo/indian-traditional-jewellery_136354-6544.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
        tagline: "SHOP NOW",
            rating:"4.3",
        },
@@ -48,7 +48,7 @@ export const adidas = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://img.freepik.com/free-photo/attractive-stylish-smiling-woman-choosing-apparel-clothing-store_285396-4753.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
+         image: "https://img.freepik.com/free-photo/gold-jewelry-with-gems-showcase_1398-4327.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
          tagline: "new",
            rating:"4.3",
        },
