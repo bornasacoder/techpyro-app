@@ -240,8 +240,8 @@ export default function Navbar() {
           paddingTop: "50px",
         }}
       >
-        <Typography sx={{ fontSize: { md: "60px", sm: "40px", xs: "35px" },fontFamily:"cursive",color:"#000" }}>
-        Studio
+        <Typography sx={{ fontSize: { md: "60px", sm: "40px", xs: "35px" },fontFamily:"cursive",color:"#FFF" }}>
+        Furniture Shop
         </Typography>
       </Box>
       <Box
@@ -252,8 +252,8 @@ export default function Navbar() {
           paddingTop: "30px",
         }}
       >
-        <Typography sx={{ fontSize: { md: "26px", sm: "20px", xs: "15px" },fontFamily:"cursive",color:"#000" }}>
-          Discover the best Studio  in {address&&address.length!==0 && address[0].properties.county}
+        <Typography sx={{ fontSize: { md: "26px", sm: "20px", xs: "15px" },fontFamily:"cursive",color:"#fff" }}>
+          Discover the best Furniture Shop  in {address&&address.length!==0 && address[0].properties.county}
         </Typography>
       </Box>
       <Box
