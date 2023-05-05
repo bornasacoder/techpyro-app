@@ -9,7 +9,7 @@ export const adidas = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "SHOP NOW",
-      image:"https://img.freepik.com/free-photo/packings-pills-capsules-medicines_1339-2254.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
+      image:"https://img.freepik.com/free-photo/flat-lay-assortment-vegetables-with-grocery-bag_23-2148853353.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
 
@@ -23,7 +23,7 @@ export const adidas = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "SHOP NOW",
-     image:"https://img.freepik.com/free-photo/inventory-two-druggists-lab-coats-process-inventory-drugstore_259150-57974.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sphs",
+     image:"https://img.freepik.com/free-photo/top-view-fruits-vegetables-with-copy-space_23-2149235858.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
        {
@@ -35,7 +35,7 @@ export const adidas = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://img.freepik.com/free-photo/pills-package_23-2147983066.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
+       image:"https://img.freepik.com/free-photo/flat-lay-vegetable-concept-arrangement_23-2148501528.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
        tagline: "SHOP NOW",
            rating:"4.3",
        },
@@ -48,7 +48,7 @@ export const adidas = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://img.freepik.com/free-photo/arrangement-medical-desk-with-copy-space_23-2148502989.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
+         image: "https://img.freepik.com/free-photo/top-view-delicious-fruits-vegetables_23-2149235824.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
          tagline: "new",
            rating:"4.3",
        },
