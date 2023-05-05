@@ -61,7 +61,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.5)'
       },}}
           component="img"
-          image="https://img.freepik.com/free-photo/digital-speedometer-glows-modern-car-dashboard-generated-by-ai_188544-13297.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/medicine-bottles-tablets-wooden-desk_1387-420.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -72,7 +72,7 @@ const Box1= styled(Box)(({ theme }) => ({
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
    <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>ELECTRONICS</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>MEDICALS</Typography>
           <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
           <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
             <Typography> <Person2Outlined /> By Admin</Typography>
@@ -95,7 +95,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.5)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/headphones-laptop-home_23-2149551432.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/premium-photo/drugs-medicines-ai-generated_406939-8984.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -106,7 +106,7 @@ const Box1= styled(Box)(({ theme }) => ({
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
     <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>ELECTRONICS</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>MEDICALS</Typography>
           <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
           <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
             <Typography> <Person2Outlined /> By Admin</Typography>
@@ -129,7 +129,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.5)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/smartwatch-screen-digital-device_53876-97321.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/medicines-palm-hand_1150-13868.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -140,7 +140,7 @@ const Box1= styled(Box)(({ theme }) => ({
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
       <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>ELECTRONICS</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>MEDICALS</Typography>
           <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
           <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
             <Typography> <Person2Outlined /> By Admin</Typography>
@@ -164,7 +164,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.5)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/headphones-balancing-with-blue-background_23-2150271756.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/various-pills-wooden-spoon_23-2147983105.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -175,7 +175,7 @@ const Box1= styled(Box)(({ theme }) => ({
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
       <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>ELECTRONICS</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>MEDICALS</Typography>
           <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
           <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
             <Typography> <Person2Outlined /> By Admin</Typography>
