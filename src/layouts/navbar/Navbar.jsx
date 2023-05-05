@@ -100,13 +100,13 @@ const MenuButton = styled(IconButton)(({ theme }) => ({
 
 const NavBar = styled(AppBar)(({ theme }) => ({
   background: theme.header.background,
-  color: theme.colors.alpha.black[100],
+  // color: theme.colors.alpha.black[100],
   height: "450px",
   width: "100%",
   color: "#fff",
   position: "static",
   background: `linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)
-  ),url("https://img.freepik.com/free-vector/living-room-interior-design_1284-11919.jpg?w=900&t=st=1683283041~exp=1683283641~hmac=b6e719965959246e0e6eb7346af3ecff6493dc487ff52181bf3351abd0977b70") 
+  ),url("https://img.freepik.com/free-photo/visit-friendly-hairdresser-salon_329181-1936.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") 
    center/cover no-repeat`,
   [theme.breakpoints.down("sm")]:{
     display:"flex",
@@ -201,7 +201,7 @@ export default function Navbar() {
           <MenuButtons sx={{marginTop:{sm:"20px",sx:"20px"}}} />
         </Drawer>
         <NavLeft>
-           <Avatar src="/images/category/logo2.png" sx={{height:"48px",width:"58px",borderRadius:"0px"}}/>
+           <Avatar src="/images/category/logo2.png" sx={{height:"48px",width:"58px",borderRadius:"0px",}}/>
           <NavButton />
         </NavLeft>
         <Box display="flex">
@@ -212,6 +212,7 @@ export default function Navbar() {
                 fontSize: { md: "18px", xs: "15px" },
                 display: { xs: "none", sm: "none", md: "block" },
                 cursor:"pointer",
+                color:"hotpink"
               }}
               onClick={handleSignupOpen}
             >
@@ -223,6 +224,7 @@ export default function Navbar() {
                 fontSize: { md: "18px", xs: "15px" },
                 display: { xs: "none", sm: "none", md: "block" },
                 cursor:"pointer",
+                color:"hotpink"
               }}
               onClick={handleClickOpen}
             >
@@ -240,8 +242,8 @@ export default function Navbar() {
           paddingTop: "50px",
         }}
       >
-        <Typography sx={{ fontSize: { md: "60px", sm: "40px", xs: "35px" },fontFamily:"cursive",color:"#FFF" }}>
-        Furniture Shop
+        <Typography sx={{ fontSize: { md: "60px", sm: "40px", xs: "35px" },fontFamily:"cursive",color:"hotpink" }}>
+        Beauty parlour
         </Typography>
       </Box>
       <Box
@@ -252,7 +254,7 @@ export default function Navbar() {
           paddingTop: "30px",
         }}
       >
-        <Typography sx={{ fontSize: { md: "26px", sm: "20px", xs: "15px" },fontFamily:"cursive",color:"#fff" }}>
+        <Typography sx={{ fontSize: { md: "26px", sm: "20px", xs: "15px" },fontFamily:"cursive",color:"hotpink" }}>
           Discover the best Furniture Shop  in {address&&address.length!==0 && address[0].properties.county}
         </Typography>
       </Box>
