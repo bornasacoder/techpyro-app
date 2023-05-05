@@ -9,7 +9,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-      image:"https://img.freepik.com/premium-photo/luxurious-designer-jewelry-your-wedding-gift-generative-ai_753390-337.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+      image:"https://img.freepik.com/premium-photo/household-appliances-set-blue-background-3d-rendering_476612-10946.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
 
@@ -23,7 +23,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-     image:"https://img.freepik.com/premium-photo/beautiful-golden-jewelry-with-jem-red-velvet-background_99074-47.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+     image:"https://img.freepik.com/free-photo/top-view-shopping-cart-with-bags-calculator-cyber-monday_23-2148657699.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
        {
@@ -35,7 +35,7 @@ export const other = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://img.freepik.com/premium-photo/royal-indian-jewellery_1396-364.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+       image:"https://img.freepik.com/free-photo/sale-with-special-discount-headphones_23-2150040376.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
        tagline: "new",
            rating:"4.3",
        },
@@ -48,7 +48,7 @@ export const other = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://img.freepik.com/free-photo/celebrate-sunset-beach-creative-gemstone_1232-3550.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+         image: "https://img.freepik.com/free-photo/sale-with-special-discount-vr-glasses_23-2150040383.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
          tagline: "new",
            rating:"4.3",
        },

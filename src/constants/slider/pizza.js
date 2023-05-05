@@ -2,7 +2,7 @@ export const pizza = {
   category:"Pizza",
    data:[ 
     {
-        name:"JEWELLERY",
+        name:"ELECTRONICS",
         price: {
               mrp: "$499.00",
               discount: "50% OFF",
@@ -10,11 +10,11 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
-          image: "https://img.freepik.com/free-photo/shiny-gemstone-necklace-reflects-elegance-glamour-generated-by-ai_188544-10583.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
+          image: "https://img.freepik.com/free-photo/pink-headphones-wireless-digital-device_53876-96804.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
           rating:"*4.3",
       },
       {
-        name:"JEWELLERY",
+        name:"ELECTRONICS",
         price: {
           mrp: "$499.00",
               discount: "50% OFF",
@@ -22,23 +22,23 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
-          image: "https://img.freepik.com/free-photo/ripple-ornament-forever-drop-costume_1232-3547.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
+          image: "https://img.freepik.com/free-photo/laptop-nature-concept_23-2150246082.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
           rating:"*4.3",
       },
       {
-        name:"JEWELLERY",
+        name:"ELECTRONICS",
         price: {
           mrp: "$499.00",
               discount:"50% OFF",
               cost: "299"
           },
-         image: "https://img.freepik.com/free-photo/portrait-hindu-bride-traditional-red-sari-with-golden-acce_8353-8861.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
+         image: "https://img.freepik.com/free-photo/black-headphones-digital-device_53876-96805.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
           rating:"*4.3",
       },
       {
-        name:"JEWELLERY",
+        name:"ELECTRONICS",
         price: {
           mrp: "$499.00",
               discount: "50% OFF",
@@ -46,11 +46,11 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
-        image: "https://img.freepik.com/premium-photo/royal-gold-jewellery-set_1396-371.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
+        image: "https://img.freepik.com/free-photo/smartphone-nature-concept_23-2150246099.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
           rating:"*4.3",
       },
       {
-        name:"JEWELLERY",
+        name:"ELECTRONICS",
         price: {
           mrp: "$499.00",
               discount: "50% OFF",
@@ -58,11 +58,11 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
-        image:"https://img.freepik.com/free-photo/still-life-aesthetic-earrings_23-2149649128.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
+        image:"https://img.freepik.com/free-photo/wireless-keyboard-balancing-with-green-background_23-2150271762.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
           rating:"4.3",
       },
       {
-        name:"JEWELLERY",
+        name:"ELECTRONICS",
         price: {
           mrp: "$499.00",
               discount: "201",
@@ -70,7 +70,7 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
-       image: "https://img.freepik.com/premium-photo/indian-traditional-jewellery_136354-3598.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
+       image: "https://img.freepik.com/free-photo/wireless-inear-headphones-with-case-pink-background-flat-lay_169016-23020.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
           rating:"4.3",
       },
       // {
