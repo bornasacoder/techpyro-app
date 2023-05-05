@@ -106,7 +106,7 @@ const NavBar = styled(AppBar)(({ theme }) => ({
   color: "#fff",
   position: "static",
   background: `linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)
-  ),url("https://img.freepik.com/premium-photo/news-studio-blue-room-design-backdrop-tv-shows_43151-2086.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=robertav1_2_sidr") 
+  ),url("https://img.freepik.com/free-vector/living-room-interior-design_1284-11919.jpg?w=900&t=st=1683283041~exp=1683283641~hmac=b6e719965959246e0e6eb7346af3ecff6493dc487ff52181bf3351abd0977b70") 
    center/cover no-repeat`,
   [theme.breakpoints.down("sm")]:{
     display:"flex",
