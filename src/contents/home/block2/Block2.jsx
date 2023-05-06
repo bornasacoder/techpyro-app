@@ -55,8 +55,8 @@ export default function Block2() {
          </Box>
      
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',alignItems:{xs:'flex-start',sm:'flex-start',md:'center'}}}>
-          <Typography sx={{color:'rgba(0,0,0,0.7)',fontSize:{xs:'22px',md:'42px'},fontWeight:'600'}}>Experience culinary delight here </Typography>
-          <Typography sx={{fontSize:{sm:'16px',md:'22px'},opacity:'0.8'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos hic, iure illo laboriosam libero neque vero, quaerat voluptates tempora deserunt est excepturi, asperiores blanditiis corrupti labore ullam? Provident, dolore facere?</Typography>
+          <Typography sx={{color:'rgba(0,0,0,0.7)',fontSize:{xs:'22px',md:'42px'},fontWeight:'600'}}>Tea soothes the soul </Typography>
+          <Typography sx={{fontSize:{sm:'16px',md:'22px'},opacity:'0.8'}}>At our tea shop, we believe that tea is more than just a drink; it's an experience that can transport you to another world. From the moment you step inside, you'll be surrounded by the aroma of freshly brewed tea and the soothing sounds of soft music.</Typography>
           <Box sx={{display:'flex',alignItems:'center',justifyContent:'center',gap:'10px',flexWrap:'wrap'}}>
           <img style={{height:'50px',width:'50px'}} src="https://images.pexels.com/photos/2144200/pexels-photo-2144200.jpeg?auto=compress&cs=tinysrgb&w=600" />
           <img style={{height:'50px',width:'50px'}} src="https://images.pexels.com/photos/940872/pexels-photo-940872.jpeg?auto=compress&cs=tinysrgb&w=600" />
