@@ -10,9 +10,9 @@ export default function MiddleContent() {
       <Box sx={{ display: "flex", justifyContent: "center" }}>
         <Typography
           variant="h1"
-          sx={{ fontFamily: "Dancing Script", fontWeight: 600, fontSize:"3rem" ,color:"hotpink"}}
+          sx={{ fontFamily: "Dancing Script", fontWeight: 600, fontSize:"3rem" ,}}
         >
-          About Studio
+          About Medical Store
         </Typography>
       </Box>
       <Box
@@ -69,9 +69,9 @@ export default function MiddleContent() {
       <Box sx={{ display: "flex", justifyContent: "center" }}>
         <Typography
           variant="h1"
-          sx={{ fontFamily: "Dancing Script", fontWeight: 600, fontSize:"3rem",paddingTop:"70px",marginBottom:"-10px",color:"hotpink" }}
+          sx={{ fontFamily: "Dancing Script", fontWeight: 600, fontSize:"3rem",paddingTop:"70px",marginBottom:"-10px"}}
         >
-          Our Studio Items
+          Our Medical Store
         </Typography>
        
       </Box>

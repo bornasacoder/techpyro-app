@@ -110,7 +110,7 @@ const [searchdata, setSearchdata] = useState([])
             // paddingRight:"100px",
             borderRadius: "1px",
             display: { md: "block", sm: "none", xs: "none" },
-            color:"hotpink"
+             color:"#000"
           }}
         >
           <MenuItem value="" width="100%">{address&&address.length!==0 && address[0].properties.county}</MenuItem>
@@ -126,7 +126,7 @@ const [searchdata, setSearchdata] = useState([])
             left: "20px",
             top: "15px",
             fontSize: "30px",
-            color:"hotpink"
+             color:"#000"
           }}
         />
         <SearchField
@@ -139,7 +139,7 @@ const [searchdata, setSearchdata] = useState([])
               position:"relative",
               width: "100%",
               outline: "none",
-              color:"hotpink"
+               color:"#000"
             },
             "& fieldset": { border: "none" },
           }}
@@ -172,7 +172,7 @@ const [searchdata, setSearchdata] = useState([])
           <StyledListItem button sx={{display:"flex",gap:"40px",alignItems:"center"}} onClick={()=>handleClick(item.id)} >
 <Avatar alt="Remy Sharp" src={item.image} sx={{height:"75px",width:"75px"}} />
 <Box>
-    <Typography  sx={{fontSize:"18px",fontWeight:"600",color:"hotpink"}} >{item.shopname}</Typography>
+    <Typography  sx={{fontSize:"18px",fontWeight:"600", color:"#000"}} >{item.shopname}</Typography>
     <Box sx={{display:"flex",color:"#000"}}>
     {item.category.map((value,index)=>(
     <Typography > {` ${value} `} {item.category.length-2>=index && ` | `} </Typography>

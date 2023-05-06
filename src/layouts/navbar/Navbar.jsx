@@ -106,7 +106,7 @@ const NavBar = styled(AppBar)(({ theme }) => ({
   color: "#fff",
   position: "static",
   background: `linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)
-  ),url("https://img.freepik.com/free-photo/visit-friendly-hairdresser-salon_329181-1936.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") 
+  ),url("https://img.freepik.com/premium-vector/pharmacy-with-pharmacist-client-counter_36082-529.jpg?w=900") 
    center/cover no-repeat`,
   [theme.breakpoints.down("sm")]:{
     display:"flex",
@@ -212,7 +212,7 @@ export default function Navbar() {
                 fontSize: { md: "18px", xs: "15px" },
                 display: { xs: "none", sm: "none", md: "block" },
                 cursor:"pointer",
-                color:"hotpink"
+                 color:"#000"
               }}
               onClick={handleSignupOpen}
             >
@@ -224,7 +224,7 @@ export default function Navbar() {
                 fontSize: { md: "18px", xs: "15px" },
                 display: { xs: "none", sm: "none", md: "block" },
                 cursor:"pointer",
-                color:"hotpink"
+                 color:"#000"
               }}
               onClick={handleClickOpen}
             >
@@ -242,8 +242,8 @@ export default function Navbar() {
           paddingTop: "50px",
         }}
       >
-        <Typography sx={{ fontSize: { md: "60px", sm: "40px", xs: "35px" },fontFamily:"cursive",color:"hotpink" }}>
-        Beauty parlour
+        <Typography sx={{ fontSize: { md: "60px", sm: "40px", xs: "35px" },fontFamily:"cursive", color:"#000" }}>
+        Medical Store
         </Typography>
       </Box>
       <Box
@@ -254,8 +254,8 @@ export default function Navbar() {
           paddingTop: "30px",
         }}
       >
-        <Typography sx={{ fontSize: { md: "26px", sm: "20px", xs: "15px" },fontFamily:"cursive",color:"hotpink" }}>
-          Discover the best Furniture Shop  in {address&&address.length!==0 && address[0].properties.county}
+        <Typography sx={{ fontSize: { md: "26px", sm: "20px", xs: "15px" },fontFamily:"cursive",color:"#000" }}>
+          Discover the best  Medical Store in {address&&address.length!==0 && address[0].properties.county}
         </Typography>
       </Box>
       <Box

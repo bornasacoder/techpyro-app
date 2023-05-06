@@ -56,7 +56,7 @@ alignItems:"center",marginY:"10px","&:hover":{
         <ImageContainer>
             <Avatar src={posterLinks.image} onClick={()=>handleClick(posterLinks.id)} sx={{height:{md:"170px",sm:"150px",xs:"120px"},width:{md:"170px",sm:"150px",xs:"120px"}}}/>
         </ImageContainer>
-        <Typography sx={{fontSize:{md:"20px",sm:"18px",xs:"16px"},fontWeight:"600",marginBottom:"10px",textAlign:"center",color:"hotpink"}}>{posterLinks.brand}</Typography>
+        <Typography sx={{fontSize:{md:"20px",sm:"18px",xs:"16px"},fontWeight:"600",marginBottom:"10px",textAlign:"center", color:"#000"}}>{posterLinks.brand}</Typography>
         </Grid>
        </SliderContainer>
        </>

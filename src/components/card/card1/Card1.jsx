@@ -51,7 +51,7 @@ export default function Card1({ sliderData }) {
             <Typography
               variant="subtitle"
               sx={{
-                color: "hotpink",
+                 color:"green",
                 padding: "2px 0px 0px 5px",
                 fontSize: "14px",
                 textAlign:"center",
@@ -81,7 +81,7 @@ export default function Card1({ sliderData }) {
           <Typography
             variant="body1"
             sx={{
-              background: "hotpink",
+              background: "green",
               color: "white",
               fontSize: "15px",
               fontWeight: "600",
@@ -100,7 +100,6 @@ export default function Card1({ sliderData }) {
         </Box>
         <CardContent
           sx={{
-            display: "flex",
             justifyContent: "space-between",
             display: { md: "flex", sm: "flex", xs: "none" },
           }}
@@ -135,7 +134,7 @@ export default function Card1({ sliderData }) {
               sx={{
                 fontSize: "15px",
                 fontWeight: "600",
-                color: "hotpink",
+                 color:"green",
                 borderTop: "2px solid #EEEEEE",
               }}
             >
