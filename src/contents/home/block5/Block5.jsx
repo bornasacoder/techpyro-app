@@ -38,13 +38,13 @@ export default function Block5() {
         <CardBox >
   
           <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'rgba(0,0,0,0.6)',fontSize:{xs:'40px',md:'50px'},fontWeight:{xs:'600'}}}>A complete toolkit for last mile delivery</Typography>
+             <Typography  sx={{color:'rgba(0,0,0,0.6)',textAlign:"center",fontSize:{xs:'30px',md:'40px'},fontWeight:{xs:'600'}}}>Welcome to our table, where every meal is a celebration of good taste.</Typography>
              
          </Box>
      
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',md:'center'}}}>
           
-          <Typography sx={{color:'#000',fontSize:{xs:'18px',md:'22px',opacity:'0.7'}}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos hic, iure illo laboriosam libero neque vero, quaerat voluptates tempora deserunt est excepturi, asperiores blanditiis corrupti labore ullam? Provident, dolore facere?</Typography>
+          <Typography sx={{color:'#000',fontSize:{xs:'18px',md:'22px',opacity:'0.7'}}}>At our restaurant, we believe that good food should be accessible to everyone. That's why we've created a menu that offers a variety of delicious dishes at an affordable price. From our famous burgers to our handmade pastas, every item on our menu is made with care and attention to detail. We believe that food is not just fuel for the body, but also nourishment for the soul. Come dine with us and discover why our restaurant is a favorite among locals and visitors alike.</Typography>
     
           <Typography sx={{color:'#000',fontSize:{xs:'18px',md:'22px'},color:'#2468F7',fontWeight:'500',opacity:'0.7'}}>Discover to build our buisness on techpyro</Typography>
          </Box>

@@ -35,8 +35,8 @@ export default function Block7() {
          </Box>
           <Box sx={{  display:'flex',flex:'1',flexDirection:'column',gap:'15px',justifyContent:'center',paddingLeft:'20px',alignItems:{xs:'flex-start'}}}>
              
-            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Streamline Operations</Typography>
-            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>Seamlessly connect your website, mobile app, online ordering system, ERP or inventory management system with our developer-friendly API.</Typography>
+            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Food, friends, forever</Typography>
+            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>We take pride in our culinary creations and strive to offer our guests a dining experience that is both delicious and memorable. Whether you're in the mood for a hearty steak or a delicate seafood dish, our menu has something for everyone. Sit back, relax, and let us take you on a culinary journey you won't forget.</Typography>
             <Button variant="outlined" sx={{width:'150px',height:'30px'}}>Learn More</Button>
          
          </Box>

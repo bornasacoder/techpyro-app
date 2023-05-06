@@ -94,7 +94,7 @@ const NavRight = styled(Box)(({ theme }) => ({
 
 const NavBar = styled(AppBar)(({ theme }) => ({
   // background: theme.header.background,
-  background:"rgba(0,0,0,0.8)",
+  background:"rgba(0,0,0,0.9)",
   color: theme.colors.alpha.black[100],
   // height: "450px",
   display: "flex",
@@ -136,7 +136,7 @@ export default function Navbar() {
          
           <Box gap={5} sx={{display:"flex", justifyContent:"center", alignItems:"center"}} >
           <Typography variant="h1" fontSize="26px">
-            Bakery
+            Restaurant
           </Typography>
           <NavButton/>
           </Box>

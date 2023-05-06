@@ -7,7 +7,7 @@ import {
   import React from "react";
   const StyleToolbar = styled(Box)(({ theme }) => ({
     padding: "80px 60px",
-    background: `url(${"https://img.freepik.com/free-photo/front-view-sweet-bakery-arrangement-with-copy-space_23-2148654059.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph"})
+    background: `url(${"https://img.freepik.com/free-photo/happy-waiter-serving-food-group-cheerful-friends-pub_637285-12525.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph"})
     center/cover no-repeat fixed`,
     // position:"relative",
   
@@ -19,7 +19,7 @@ import {
       <StyleToolbar>
         <Box sx={{ display: "flex", flexDirection: "column",gap:2.5, width:{md:"60%",sm:"100%",xs:"100%"} ,alignItems:{md:"start",sm:"flex-start",xs:"flex-start"}}}>
             <Typography variant="span" sx={{ fontWeight: 600,marginTop:"50px", fontSize:{md:'54px',sm:"48px",xs:"30px"},color:"#fff",justifyContent:{sm:"center",xs:"center"}}}>
-              Power Your Deliveries
+            Taste the good life
             </Typography>
             <Typography
               variant="p"
@@ -31,8 +31,7 @@ import {
                 color:"#fff"
               }}
             >
-              Delight customers, scale operations, and boost efficiency with the
-              world's most advanced logistics software.
+           "A recipe has no soul, you as the cook must bring soul to the recipe." - Thomas Keller. "Food is not just fuel, it's information. It talks to your DNA and tells it what to do." - Dr. Mark Hyman
             </Typography>
          
           <Box sx={{ display: "flex",justifyContent:"flex-start",alignItems:"center", gap: 2, position: "relative",flexDirection:{xs:'column',md:"row",sm:"row"},paddingLeft:{xs:"0px"} }}>
@@ -48,7 +47,7 @@ import {
                   
                 }}
               >
-                Start free trial
+                Start Now
               </Button>
               {/* <ArrowForwardIosOutlined sx={{position:'absolute'}}/> */}
            

@@ -33,8 +33,8 @@ export default function Block6() {
   
           <Box sx={{  display:'flex',flex:'1',flexDirection:'column',gap:'15px',justifyContent:'center',paddingLeft:'20px',alignItems:{xs:'flex-start'}}}>
              
-            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Streamline Operations</Typography>
-            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>Seamlessly connect your website, mobile app, online ordering system, ERP or inventory management system with our developer-friendly API.</Typography>
+            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Our passion is food</Typography>
+            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>Indulge in our menu of classic and contemporary dishes, expertly prepared by our talented chefs. Our restaurant is committed to using only the freshest ingredients, sourced from local farmers and producers whenever possible. </Typography>
             <Button variant="outlined" sx={{width:'150px',height:'30px'}}>Learn More</Button>
          
          </Box>

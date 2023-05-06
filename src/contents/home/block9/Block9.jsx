@@ -35,8 +35,8 @@ export default function Block9() {
          </Box>
           <Box sx={{  display:'flex',flex:'1',flexDirection:'column',gap:'15px',justifyContent:'center',paddingLeft:'20px',alignItems:{xs:'flex-start'}}}>
              
-            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Streamline Operations</Typography>
-            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>Seamlessly connect your website, mobile app, online ordering system, ERP or inventory management system with our developer-friendly API.</Typography>
+            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Savor the moment, always</Typography>
+            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>From the aromatic spices of our signature curries to the smoky flavors of our grilled meats, each bite is a journey of the senses. We believe that food is more than just fuel for the body – it's a celebration of life, love, and connection. Come share a meal with us and experience the true essence of our culture.</Typography>
             <Button variant="outlined" sx={{width:'150px',height:'30px'}}>Learn More</Button>
          
          </Box>
