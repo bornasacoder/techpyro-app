@@ -28,7 +28,7 @@ const Video= styled(Box)(({ theme }) => ({
   const Box1= styled(Box)(({ theme }) => ({
     height:'600px',
     width:'auto',
-    backgroundImage: `url(${"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/uspl/homepage_banner/tinywow_DC-BANNER_18914825_FSD0FAz.webp"})`,
+    backgroundImage: `url(${"https://img.freepik.com/premium-photo/beige-women-s-leather-sneakers-hand-pink-background_150893-7349.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"})`,
     backgroundSize:'cover',
      margin:'0px 80px',
      [theme.breakpoints.down('md')]: {
@@ -47,7 +47,7 @@ const Video= styled(Box)(({ theme }) => ({
    const Box2= styled(Box)(({ theme }) => ({
       height:'600px',
       width:'auto',
-      backgroundImage: `url(${"/images/category/wrognbgd2.webp"})`,
+      backgroundImage: `url(${"https://img.freepik.com/premium-photo/blue-sneakers-moving-copy-space-empty-background_780608-11032.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"})`,
       backgroundSize:'cover',
        margin:'0px 80px',
    //    position:'absolute'

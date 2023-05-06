@@ -9,7 +9,7 @@ export const adidas = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "Wrogn men solid black jeans",
-      image:"https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WNJN2217/1.jpeg",
+      image:"https://img.freepik.com/premium-photo/unbranded-modern-sporty-shoes-sneakers-white-isolated_120794-337.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
            rating:"4.3",
        },
 
@@ -23,7 +23,7 @@ export const adidas = [
         },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "Wrogn men solid black jeans",
-     image:"https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WNSH0283/1.jpeg",
+     image:"https://img.freepik.com/premium-photo/colorful-sport-shoes-green_151013-4554.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
            rating:"4.3",
        },
        {
@@ -35,7 +35,7 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WNJK6004/1.jpeg",
+       image:"https://img.freepik.com/free-photo/white-high-top-sneakers-unisex-footwear-fashion_53876-106036.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
        tagline: "Wrogn men solid black jeans",
            rating:"4.3",
        },
@@ -48,7 +48,7 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WKSH1811/1.jpeg",
+         image: "https://img.freepik.com/premium-photo/flying-trendy-sneakers-creative-colorful-background-stylish-fashionable-minimalism-concept-levita_77190-8701.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
          tagline: "Wrogn men solid black jeans",
            rating:"4.3",
        },
@@ -61,7 +61,7 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-     image:"https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WNSH0600/1.jpeg",
+     image:"https://img.freepik.com/premium-photo/colorful-sport-shoes-mustard-color-wall_151013-4913.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
      tagline: "Wrogn men solid black jeans",
            rating:"4.3",
        },
@@ -75,7 +75,7 @@ export const adidas = [
         },
            category:["Spring Rolls","RasGulla","sweets"],
            tagline: "Wrogn men solid black jeans",
-     image:"https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WNJK6269/1.jpeg",
+     image:"https://img.freepik.com/premium-photo/fashion-male-sport-shoes-blue-background-stylish-man-sneakers-fitness-close-up_77190-1693.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
 
            rating:"4.3",
        },
@@ -90,7 +90,7 @@ export const adidas = [
            category:["Spring Rolls","Thali","sweets"],
 
            tagline: "Wrogn men solid black jeans",
-          image:"https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WJSS1359/1.jpeg",
+          image:"https://img.freepik.com/free-photo/derby-shoes-men-formal-wear_53876-96609.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
            rating:"4.3",
        },
 

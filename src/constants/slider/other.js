@@ -8,7 +8,7 @@ export const other = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/homepage_banner/HOMEPAGE_BANNER_2_FkyZIdO.webp",
+         image: "https://img.freepik.com/premium-photo/woman-sitting-with-feet-up-desk_738298-3848.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
          tagline: "new",
            rating:"4.3",
        },
@@ -24,7 +24,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-     image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/homepage_banner/WEBSITE_BANNER_EOSS_50_OFF-01.jpg",
+     image:"https://img.freepik.com/premium-photo/pair-black-red-sneakers-dark-background-concept-healthy-lifestyle-banner-with-copy-space_380694-11099.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
        {
@@ -36,7 +36,7 @@ export const other = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/homepage_banner/tinywow_VKF-BANNER--SHOP-NOW_15973112.webp",
+       image:"https://img.freepik.com/premium-photo/closeup-female-highheeled-shoes-3d-rendering_256339-876.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
        tagline: "new",
            rating:"4.3",
        },
@@ -50,7 +50,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-      image:"https://d3tdx3c7l2rexw.cloudfront.net/media/img/page_section/wrogn/homepage_banner/tinywow_ISRO-BANNER_7608846.webp",
+      image:"https://img.freepik.com/premium-photo/fashion-white-sneakers-neon-light-sport-shoes-training-gym-creative-minimalism_179369-765.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
    

@@ -10,7 +10,7 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-          image: "https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WNSH0052/1.jpeg",
+          image: "https://img.freepik.com/free-photo/model-wearing-purple-sneakers-women-s-apparel_53876-97173.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
           rating:"*4.3",
       },
       {
@@ -22,7 +22,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-          image: "https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WNSW8260/1.jpeg",
+          image: "https://img.freepik.com/premium-photo/woman-s-feet-unbranded-modern-sporty-shoes-pink-background_120794-885.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
           rating:"*4.3",
       },
       {
@@ -32,7 +32,7 @@ export const pizza = {
           discount: "50% OFF",
           cost: "₹2,500"
       },
-         image: "https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WHSH1123/1.jpeg",
+         image: "https://img.freepik.com/premium-photo/model-wearing-blue-jeans-yellow-boots-floor_107612-25.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
           rating:"*4.3",
@@ -46,7 +46,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-        image: "https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WMSH0153/1.jpeg",
+        image: "https://img.freepik.com/free-photo/full-length-portrait-active-young-caucasian-running-jogging-man-gradient-studio-neon-light_155003-9974.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
           rating:"*4.3",
       },
       {
@@ -58,7 +58,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-        image:"https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WHJK5002/1.jpeg",
+        image:"https://img.freepik.com/premium-photo/white-urban-sneaker-orange-surface_75891-792.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
           rating:"4.3",
       },
       {
@@ -70,7 +70,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-       image: "https://d3tdx3c7l2rexw.cloudfront.net/static/img/wrogn/products/square/WKJN1921/1.jpeg",
+       image: "https://img.freepik.com/premium-photo/shoes-design-digital-illustration-painting-artwork-abstract-background_743855-4928.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
           rating:"4.3",
       },
       // {

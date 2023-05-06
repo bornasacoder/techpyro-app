@@ -200,7 +200,7 @@ const NavBar = styled(AppBar)(({theme}) =>({
     backgroundColor:theme.header.background,
    
     width:'100%',
-    height:'110px',
+    height:'80px',
     margin:"0",
     padding:'0',
     // zIndex:'100',
@@ -250,7 +250,7 @@ export default function Navbar() {
            </Box>
            </Link>
           <Box >
-          <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'30px'},fontWeight:'1000',color:'black'}}>WROGN</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'30px'},fontWeight:'1000',color:'black'}}>SHOES STORE</Typography>
           </Box>
           {/* <Box>
           <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'600',color:'red',fontFamily:'cursive'}}>IMARA</Typography>
@@ -385,7 +385,7 @@ export default function Navbar() {
         </StyleToolbar>
         </Box>
        
-        <Navbar2>
+        {/* <Navbar2>
                <Box sx={{cursor:'pointer',position:'relative',"&:hover .list":{display:'flex'}}}>
               <Typography sx={{color:'black',fontWeight:'600'}}>TOP WEAR</Typography>
                  <Box className={'list'} sx={{position:'absolute',display:'none',flexDirection:'column',width:'180px',background:'white',left:'0px',height:'auto',  zIndex:'100',border:'1px solid rgba(0,0,0,0.3)',borderRadius:'5px',padding:'20px',gap:'10px'}}>
@@ -481,7 +481,7 @@ export default function Navbar() {
              
               <Typography sx={{color:'red',fontWeight:'600'}}>CLEARANCE</Typography>
              
-        </Navbar2>
+        </Navbar2> */}
    
         </NavBar>
 
