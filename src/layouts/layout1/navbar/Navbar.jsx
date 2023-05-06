@@ -136,7 +136,7 @@ export default function Navbar() {
          
           <Box gap={5} sx={{display:"flex", justifyContent:"center", alignItems:"center"}} >
           <Typography variant="h1" fontSize="26px">
-            Restaurant
+            Cafe
           </Typography>
           <NavButton/>
           </Box>

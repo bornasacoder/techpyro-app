@@ -7,7 +7,7 @@ import {
   import React from "react";
   const StyleToolbar = styled(Box)(({ theme }) => ({
     padding: "80px 60px",
-    background: `url(${"https://img.freepik.com/free-photo/happy-waiter-serving-food-group-cheerful-friends-pub_637285-12525.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph"})
+    background: `url(${"https://img.freepik.com/free-photo/frothy-cappuccino-elegant-wooden-coffee-table-generated-by-ai_188544-9955.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"})
     center/cover no-repeat fixed`,
     // position:"relative",
   
@@ -18,8 +18,8 @@ import {
     return (
       <StyleToolbar>
         <Box sx={{ display: "flex", flexDirection: "column",gap:2.5, width:{md:"60%",sm:"100%",xs:"100%"} ,alignItems:{md:"start",sm:"flex-start",xs:"flex-start"}}}>
-            <Typography variant="span" sx={{ fontWeight: 600,marginTop:"50px", fontSize:{md:'54px',sm:"48px",xs:"30px"},color:"#fff",justifyContent:{sm:"center",xs:"center"}}}>
-            Taste the good life
+            <Typography variant="span" sx={{ fontWeight: 600,marginTop:"50px", fontSize:{md:'45px',sm:"35px",xs:"30px"},color:"#fff",justifyContent:{sm:"center",xs:"center"}}}>
+            Coffee, comfort, community
             </Typography>
             <Typography
               variant="p"
@@ -31,7 +31,7 @@ import {
                 color:"#fff"
               }}
             >
-           "A recipe has no soul, you as the cook must bring soul to the recipe." - Thomas Keller. "Food is not just fuel, it's information. It talks to your DNA and tells it what to do." - Dr. Mark Hyman
+           "Our restaurant is where food and hospitality come together to create a truly unforgettable dining experience."At our restaurant, we believe that good food is the foundation of a great dining experience."
             </Typography>
          
           <Box sx={{ display: "flex",justifyContent:"flex-start",alignItems:"center", gap: 2, position: "relative",flexDirection:{xs:'column',md:"row",sm:"row"},paddingLeft:{xs:"0px"} }}>
