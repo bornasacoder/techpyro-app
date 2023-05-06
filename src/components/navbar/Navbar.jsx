@@ -237,7 +237,7 @@ export default function Navbar() {
        
           
         <Box sx={{display:{xs:'flex',sm:'flex',md:'block'}}}>
-            <Typography sx={{fontSize:{xs:'40px',sm:'30px',md:'50px'},color:'black',paddingLeft:'0px'}}>CofffeeShop</Typography>
+            <Typography sx={{fontSize:{xs:'40px',sm:'30px',md:'50px'},color:'black',paddingLeft:'0px'}}>Bakery</Typography>
            </Box>
            <Box>
            <MenuButton onClick={handleOpen}>
