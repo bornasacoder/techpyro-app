@@ -37,7 +37,7 @@ export default function Block11() {
 
 <Box sx={{  padding:{xs:'20px',lg:'100px 0px 100px 100px'}, background:'#F6F7FB',display:'flex',flex:'1',flexDirection:'column',gap:'20px'}}>
               <Box>
-                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/premium-photo/french-croissants-pastry-products-basket-top-view_508835-3962.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+                <img style={{height:'300px',width:'100%'}} src="https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=600" />
               </Box>
               <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
              <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>Food for the soul</Typography>
@@ -51,7 +51,7 @@ export default function Block11() {
 
          <Box sx={{  padding:{xs:'20px',lg:'100px 0px 100px 0px'}, background:'#F6F7FB',display:'flex',flex:'1',flexDirection:'column',gap:'20px'}}>
               <Box>
-                <img style={{height:'300px',width:'100%'}} src="https://images.pexels.com/photos/1816092/pexels-photo-1816092.jpeg?auto=compress&cs=tinysrgb&w=600" />
+                <img style={{height:'300px',width:'100%'}} src="https://images.pexels.com/photos/6174870/pexels-photo-6174870.jpeg?auto=compress&cs=tinysrgb&w=600" />
               </Box>
               <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
              <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>Come hungry, leave happy</Typography>
