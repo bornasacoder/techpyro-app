@@ -2,7 +2,7 @@ export const pizza = {
   category:"Pizza",
    data:[ 
     {
-        name:"BEAUTY",
+        name:"FOOD",
         price: {
               mrp: "$499.00",
               discount: "50% OFF",
@@ -10,11 +10,11 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
-          image: "https://img.freepik.com/free-photo/foundation-with-dark-background_23-2148978146.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+          image: "https://img.freepik.com/free-photo/vertical-shot-traditional-indian-paneer-butter-masala-cheese-cottage-curry-black-surface_181624-32001.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
           rating:"*4.3",
       },
       {
-        name:"BEAUTY",
+        name:"FOOD",
         price: {
           mrp: "$499.00",
               discount: "50% OFF",
@@ -22,23 +22,23 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
-          image: "https://img.freepik.com/premium-photo/cosmetics-serum-oil-bottle-modern-podium-natural-colors-tropical-plant-leaf_721474-3.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+          image: "https://img.freepik.com/premium-photo/dum-handi-chicken-biryani-is-prepared-earthen-clay-pot-called-haandi-popular-indian-non-vegetarian-food_466689-52233.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
           rating:"*4.3",
       },
       {
-        name:"BEAUTY",
+        name:"FOOD",
         price: {
           mrp: "$499.00",
               discount:"50% OFF",
               cost: "299"
           },
-         image: "https://img.freepik.com/premium-photo/unbranded-perfume-spray-bottle-firecracker-gold-paper-copyspace-mockup-branded-bottle_410516-20478.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+         image: "https://img.freepik.com/premium-photo/dum-handi-muttona-biryania-gosht-pilaf-is-prepared-earthen-clay-pot-called-haandi-1-kilo-size-popular-indian-non-vegetarian-fooda_466689-52330.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
           rating:"*4.3",
       },
       {
-        name:"BEAUTY",
+        name:"FOOD",
         price: {
           mrp: "$499.00",
               discount: "50% OFF",
@@ -46,11 +46,11 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
-        image: "https://img.freepik.com/premium-photo/cosmetics-mockup-minimal-product-trendy-chic-design-background_176697-2468.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+        image: "https://img.freepik.com/free-photo/plate-food-with-different-dishes-including-chicken-rice-other-food_1340-24267.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
           rating:"*4.3",
       },
       {
-        name:"BEAUTY",
+        name:"FOOD",
         price: {
           mrp: "$499.00",
               discount: "50% OFF",
@@ -58,11 +58,11 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
-        image:"https://img.freepik.com/free-photo/elegant-skin-care-banner-design_23-2149480189.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+        image:"https://img.freepik.com/premium-photo/dum-handi-chicken-biryani-is-prepared-earthen-clay-pot-called-haandi-popular-indian-non-vegetarian-food_466689-52332.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
           rating:"4.3",
       },
       {
-        name:"BEAUTY",
+        name:"FOOD",
         price: {
           mrp: "$499.00",
               discount: "201",
@@ -70,7 +70,7 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Simple leather staring wheel new",
-       image: "https://img.freepik.com/premium-photo/bottles-jars-with-cream-white-table-against-blurred-background-close-up-view_392895-260092.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+       image: "https://img.freepik.com/free-photo/curry-with-chicken-onions-indian-food-asian-cuisine_2829-4415.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
           rating:"4.3",
       },
       // {

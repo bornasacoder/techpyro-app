@@ -9,7 +9,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-      image:"https://img.freepik.com/free-photo/creative-display-makeup-products_23-2150063088.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+      image:"https://img.freepik.com/free-photo/blackboard-among-mexican-food_23-2147740708.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
 
@@ -23,7 +23,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-     image:"https://img.freepik.com/free-photo/grouped-makeup-products-brushes_23-2148181394.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+     image:"https://img.freepik.com/free-photo/top-view-thanksgiving-food-border-with-copy-space_23-2149114413.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
        {
@@ -35,7 +35,7 @@ export const other = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://img.freepik.com/premium-photo/composition-with-natural-organic-cosmetic-product-illustration-ai-generative_118124-13197.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+       image:"https://img.freepik.com/premium-photo/italian-fusilli-pasta-caprese-salad-with-tomato-basil-mozzarella-appetizer-with-pesto-black-rustic-background-extra-wide-banner-top-view-food-italian-dinner-copy-space_430027-2670.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
        tagline: "new",
            rating:"4.3",
        },
@@ -48,7 +48,7 @@ export const other = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://img.freepik.com/free-photo/skin-oil-dropper-assortment-with-copy-space_23-2148761416.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+         image: "https://img.freepik.com/free-photo/tortilla-wrap-with-falafel-fresh-salad-vegan-tacos-vegetarian-healthy-food-top-view_2829-14380.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
          tagline: "new",
            rating:"4.3",
        },

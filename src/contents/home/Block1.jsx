@@ -46,7 +46,7 @@ const Box1= styled(Box)(({ theme }) => ({
   return ( 
     <>
 
-       <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'35px'},fontWeight:'600',color:'black',paddingLeft:{xs:'30px',sm:'60px',md:'120px'},paddingTop:'80px'}}>In The Store</Typography>
+       <Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'35px'},fontWeight:'600',color:'black',paddingLeft:{xs:'30px',sm:'60px',md:'120px'},paddingTop:'80px'}}>In The Menu</Typography>
        <Box sx={{display:'flex',gap:'30px'}}></Box>
     <Box  data-aos-duration="3000" sx={{display:'flex',justifyContent:'center',gap:{xs:'0px',sm:'50px',md:'20px'},flexDirection:{xs:'column',sm:'column',md:'row'},paddingBottom:'100px'}}>
 
@@ -61,7 +61,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.5)'
       },}}
           component="img"
-          image="https://img.freepik.com/free-photo/view-arrangement-with-make-up-brushes_23-2148301854.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/flat-lay-pakistani-food-arrangement_23-2148825110.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
        </Box>
@@ -72,7 +72,7 @@ const Box1= styled(Box)(({ theme }) => ({
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
    <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>BEAUTY</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>FOOD</Typography>
           <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
           <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
             <Typography> <Person2Outlined /> By Admin</Typography>
@@ -95,7 +95,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.5)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/fake-lavender-flower-soap-moisturizing-cream-colored-background_23-2147927108.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/side-view-baked-chicken-with-cucumber-lemon-seasoning-bread-table_141793-4757.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
        </Box>
@@ -106,7 +106,7 @@ const Box1= styled(Box)(({ theme }) => ({
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
     <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>BEAUTY</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>FOOD</Typography>
           <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
           <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
             <Typography> <Person2Outlined /> By Admin</Typography>
@@ -129,7 +129,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.5)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/skin-oil-droppers-face-cream-recipients-composition_23-2148761440.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/indian-butter-chicken-black-bowl-black-background_123827-20757.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
        </Box>
@@ -140,7 +140,7 @@ const Box1= styled(Box)(({ theme }) => ({
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
       <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>BEAUTY</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>FOOD</Typography>
           <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
           <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
             <Typography> <Person2Outlined /> By Admin</Typography>
@@ -164,7 +164,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.5)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/white-cream-containers-with-orange_23-2148549102.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/premium-photo/dum-handi-chicken-biryani-is-prepared-earthen-clay-pot-called-haandi-popular-indian-non-vegetarian-food_466689-52344.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
        </Box>
@@ -175,7 +175,7 @@ const Box1= styled(Box)(({ theme }) => ({
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',flexDirection:'column',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
       <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>BEAUTY</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'25px'},fontWeight:'700'}}>FOOD</Typography>
           <Typography>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, recusandae.</Typography>
           <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center'}}>
             <Typography> <Person2Outlined /> By Admin</Typography>
