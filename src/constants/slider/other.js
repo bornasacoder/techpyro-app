@@ -9,7 +9,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-      image:"https://img.freepik.com/free-photo/supermarket-banner-concept-with-ingredients_23-2149421127.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+      image:"https://img.freepik.com/free-photo/creative-display-makeup-products_23-2150063088.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
 
@@ -23,7 +23,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-     image:"https://img.freepik.com/premium-photo/shopping-cart-full-food-isolated-white-grocery-food-store-concept_708636-706.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+     image:"https://img.freepik.com/free-photo/grouped-makeup-products-brushes_23-2148181394.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
        {
@@ -35,7 +35,7 @@ export const other = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://img.freepik.com/free-photo/person-shopping-with-face-mask_23-2149565242.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+       image:"https://img.freepik.com/premium-photo/composition-with-natural-organic-cosmetic-product-illustration-ai-generative_118124-13197.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
        tagline: "new",
            rating:"4.3",
        },
@@ -48,7 +48,7 @@ export const other = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://img.freepik.com/free-photo/pots-vegetables-harvest_23-2147694057.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+         image: "https://img.freepik.com/free-photo/skin-oil-dropper-assortment-with-copy-space_23-2148761416.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
          tagline: "new",
            rating:"4.3",
        },
