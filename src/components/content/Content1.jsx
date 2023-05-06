@@ -1,20 +1,11 @@
 import { Cake, KebabDining, LunchDining, SetMeal } from "@mui/icons-material";
-import { Box, Grid, Paper, Toolbar, Typography } from "@mui/material";
+import { Avatar, Box, Grid, Paper, Toolbar, Typography } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
 const StyleToolbar = styled(Box)(({ theme }) => ({
-  // bgcolor: "#F4F4F4",
   padding: "38px 92px ",
-  background: `url(${"/images/category/middle2.jpg"})
+  background: `url(${"https://images.pexels.com/photos/139398/thermometer-headache-pain-pills-139398.jpeg?auto=compress&cs=tinysrgb&w=600"})
    center/cover no-repeat`,
-  //  backgroundColor: "none!important",
-  // [theme.breakpoints.down("sm")]: {
-
-  //   // left:'50px',
-  //   padding: "68px 42px ",
-  // },
-  // display: "flex",
-  // justifyContent:"space-between",
   gap: 2,
 }));
 const Item = styled(Paper)(({ theme }) => ({
@@ -22,18 +13,9 @@ const Item = styled(Paper)(({ theme }) => ({
   boxShadow: "none!important",
   textAlign: "center",
   backgroundColor:"#F4F4F4!important",
-  // bgcolor:"none!important",
-  // backgroundColor: "none!important",
-  //   padding:"20px 0px!important",
   fontSize: "18px",
-  // "&:hover": {
-  //   opacity: "0.3",
-  //   bgcolor: "black",
-  // },
   width: { md: "60%!important", sm: "80%!important", xs: "100%!important" },
-  //   [theme.breakpoints.down("sm")]: {
-  //     width: "150px",
-  //   },
+ 
 }));
 export default function Content1() {
   return (
@@ -91,118 +73,61 @@ export default function Content1() {
           columnSpacing={{ xs: 1, sm: 2, md: 3 }}
           //   xs={{xs:12,sm:6,md:4}}
         >
-          <Grid item xs={12} sm={6} md={3} data-aos="fade-up">
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                height: "200px",
-                width: "200px",
-                borderRadius: "50%!important",
-                border: "15px solid lightGray",
+          <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
+              <Avatar src="https://img.freepik.com/free-photo/doctor-writing-clipboard-close-up_23-2148285699.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
                 "&:hover": {
-                  border: "15px solid red",
+                  border: "15px solid #01808A",
   },
-              }}
-            >
-              <SetMeal sx={{ fontSize: "75px", color: "red" }} />
-            </Item>
+              }}/>
             <br />
-            <Item>
-              
-              <Typography
-                variant="h3"
-                sx={{ display: "flex", justifyContent: "center", borderRadius: "0px!important",
-                boxShadow: "none!important",backgroundColor:"transparent" }}
-              >
-                MEAL
-              </Typography>
-            </Item>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3} data-aos="fade-down">
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                height: "200px",
-                width: "200px",
-                borderRadius: "50%!important",
-                border: "15px solid lightGray",
-                "&:hover": {
-                  border: "15px solid red",
-  },
-              }}
-            >
-              <Cake sx={{ fontSize: "75px", color: "red" }} />
-            </Item>
-            <br />
-            <Item>
-              
               <Typography
                 variant="h3"
                 sx={{ display: "flex", justifyContent: "center" }}
               >
-               CAKE
+               Prescription filling
               </Typography>
-            </Item>
           </Grid>
-          <Grid item xs={12} sm={6} md={3} data-aos="fade-up">
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                height: "200px",
-                width: "200px",
-                borderRadius: "50%!important",
-                border: "15px solid lightGray",
+          <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
+              <Avatar src="https://img.freepik.com/free-vector/health-insurance-online-service-platform-idea-security-protection-person-s-life-from-damage-online-insurance-flat-vector-illustration_613284-1887.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
                 "&:hover": {
-                  border: "15px solid red",
+                  border: "15px solid #01808A",
   },
-              }}
-            >
-              <LunchDining sx={{ fontSize: "75px", color: "red" }} />
-            </Item>
+              }}/>
             <br />
-            <Item>
-              
-              <Typography
-                variant="h3"
-                sx={{ display: "flex", justifyContent: "center", }}
-              >
-                LUNCH
-              </Typography>
-            </Item>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3} data-aos="fade-down">
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                height: "200px",
-                width: "200px",
-                borderRadius: "50%!important",
-                border: "15px solid lightGray",
-                "&:hover": {
-                  border: "15px solid red",
-  },
-              }}
-            >
-              <KebabDining sx={{ fontSize: "75px", color: "red" }} />
-            </Item>
-            <br />
-            <Item>
-              
               <Typography
                 variant="h3"
                 sx={{ display: "flex", justifyContent: "center" }}
               >
-                KEBAB DINING
+              Insurance coordination
               </Typography>
-            </Item>
+          </Grid>
+          <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
+              <Avatar src="https://img.freepik.com/free-vector/hand-drawn-patient-taking-medical-examination_23-2148837416.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+                "&:hover": {
+                  border: "15px solid #01808A",
+  },
+              }}/>
+            <br />
+              <Typography
+                variant="h3"
+                sx={{ display: "flex", justifyContent: "center" }}
+              >
+              Health screenings
+              </Typography>
+          </Grid>
+          <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
+              <Avatar src="https://img.freepik.com/premium-photo/doctor-hand-holding-tablet-drug-explain-patient-hospital-room_1423-2580.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+                "&:hover": {
+                  border: "15px solid #01808A",
+  },
+              }}/>
+            <br />
+              <Typography
+                variant="h3"
+                sx={{ display: "flex", justifyContent: "center" }}
+              >
+               Medication counseling
+              </Typography>
           </Grid>
 
           

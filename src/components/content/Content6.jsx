@@ -1,21 +1,11 @@
-import { Button, Grid, Paper, Typography } from '@mui/material';
+import { Avatar, Button, Grid, Paper, Typography } from '@mui/material';
 import { Box, styled } from '@mui/system';
 import React from 'react'
 const StyleToolbar = styled(Box)(({ theme }) => ({
-    // bgcolor: "#F4F4F4",
     padding: "38px 58px ",
-    // background: `url(${"/images/category/middle2.jpg"})
-    //  center/cover no-repeat`,
-    //  backgroundColor: "none!important",
-    // [theme.breakpoints.down("sm")]: {
         background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.75)
-        ),url(${"/images/category/ourteam.jpg"})
+        ),url(${"https://img.freepik.com/free-photo/doctor-nurses-special-equipment_23-2148980721.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
          center/cover no-repeat`,
-    //   // left:'50px',
-    //   padding: "68px 42px ",
-    // },
-    // display: "flex",
-    // justifyContent:"space-between",
     gap: 2,
   }));
   const Item = styled(Paper)(({ theme }) => ({
@@ -23,18 +13,9 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
     boxShadow: "none!important",
     textAlign: "center",
     backgroundColor:"#F4F4F4!important",
-    // bgcolor:"none!important",
-    // backgroundColor: "none!important",
-    //   padding:"20px 0px!important",
     fontSize: "18px",
-    // "&:hover": {
-    //   opacity: "0.3",
-    //   bgcolor: "black",
-    // },
     width: { md: "60%!important", sm: "80%!important", xs: "100%!important" },
-    //   [theme.breakpoints.down("sm")]: {
-    //     width: "150px",
-    //   },
+  
   }));
 export default function Content6() {
   return (
@@ -66,7 +47,7 @@ export default function Content6() {
             fontWeight: "500",
             color:"#fff"
           }}>
-          Our Chefs
+          Our Doctors
         </Typography>
       </Box>
       <Box
@@ -90,25 +71,13 @@ export default function Content6() {
           columnSpacing={{ xs: 1, sm: 2, md: 3 }}
           //   xs={{xs:12,sm:6,md:4}}
         >
-          <Grid item xs={12} sm={6} md={3} data-aos="fade-up">
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-               height: "250px",
+          <Grid item xs={12} sm={6} md={3} data-aos="fade-up" sx={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+          <Avatar src='https://img.freepik.com/free-photo/confident-indian-doctor-adjusting-glasses-while-using-smartphone_1262-14181.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais' sx={{height: "250px",
                width: "250px",
-                borderRadius: "50%!important",
-                border: "15px solid lightGray",
-                "&:hover": {
-                    border: "15px solid red",
-    },
-                background: `url(${"/images/category/ourteam-1.png"})
-                center/cover no-repeat`,
-              }}
-            >
-              
-            </Item>
+               border: "15px solid lightGray","&:hover": {
+                border: "15px solid red",
+},
+    }}/>
             <br />
             <Item sx={{backgroundColor:"transparent!important",color:"white"}}>
               
@@ -121,7 +90,7 @@ export default function Content6() {
               >
                 JOHN DOE
               </Typography>
-              <Typography>Auto Car Manager</Typography>
+              <Typography>General Practitioners</Typography>
               <Typography>Mob : +1 (001) 6478</Typography>
               <br/>
               <Box display="flex" justifyContent="center">
@@ -143,27 +112,14 @@ export default function Content6() {
               </Box>
             </Item>
           </Grid>
-          <Grid item xs={12} sm={6} md={3} data-aos="fade-down">
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-               height: "250px",
+          <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+           
+             <Avatar src='https://img.freepik.com/free-photo/female-doctor-showing-thumbs-up-with-stethoscope-white-background_114579-22848.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais' sx={{height: "250px",
                width: "250px",
-                borderRadius: "50%!important",
-                border: "15px solid lightGray",
-                border: "15px solid lightGray",
-                "&:hover": {
-                    border: "15px solid red",
-    },
-        
-                background: `url(${"/images/category/ourteam-2.png"})
-                center/cover no-repeat`,
-              }}
-            >
-             
-            </Item>
+               border: "15px solid lightGray","&:hover": {
+                border: "15px solid red",
+},
+    }}/>
             <br />
             <Item sx={{backgroundColor:"transparent!important",color:"white"}}>
               
@@ -174,7 +130,7 @@ export default function Content6() {
               >
               MARTINA JOHNSON
               </Typography>
-              <Typography>Engine Specialist</Typography>
+              <Typography>Obstetricians/Gynecologists (OB/GYNs)</Typography>
               <Typography>Mob : +1 (001) 6478</Typography>
               <br/>
               <Box display="flex" justifyContent="center">
@@ -196,26 +152,13 @@ export default function Content6() {
               </Box>
             </Item>
           </Grid>
-          <Grid item xs={12} sm={6} md={3} data-aos="fade-up">
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-               height: "250px",
+          <Grid item xs={12} sm={6} md={3} data-aos="fade-up" sx={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+          <Avatar src='https://img.freepik.com/free-photo/smiling-young-male-chef-wearing-uniform-holding-mobile-phone-with-both-hands-looking-camera-isolated-white-background_141793-136655.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais' sx={{height: "250px",
                width: "250px",
-                borderRadius: "50%!important",
-                border: "15px solid lightGray",
-                border: "15px solid lightGray",
-                "&:hover": {
-                    border: "15px solid red",
-    },
-        
-                background: `url(${"/images/category/ourteam-3.png"})
-                center/cover no-repeat`,
-              }}
-            >
-            </Item>
+               border: "15px solid lightGray","&:hover": {
+                border: "15px solid red",
+},
+    }}/>
             <br />
             <Item sx={{backgroundColor:"transparent!important",color:"white"}}>
               
@@ -226,7 +169,7 @@ export default function Content6() {
               >
                ALEXANDER HORO
               </Typography>
-              <Typography>Wheel Alignment Specialist</Typography>
+              <Typography>Neurologists</Typography>
               <Typography>Mob : +1 (001) 6478</Typography>
               <br/>
               <Box display="flex" justifyContent="center">
@@ -248,26 +191,13 @@ export default function Content6() {
               </Box>
             </Item>
           </Grid>
-          <Grid item xs={12} sm={6} md={3} data-aos="fade-down">
-            <Item
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                height: "250px",
-                width: "250px",
-                borderRadius: "50%!important",
-                border: "15px solid lightGray",
-                border: "15px solid lightGray",
-                "&:hover": {
-                    border: "15px solid red",
-    },
-        
-                background: `url(${"/images/category/ourteam-4.png"})
-                center/cover no-repeat`,
-              }}
-            >
-            </Item>
+          <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+          <Avatar src='https://img.freepik.com/free-photo/smiling-young-female-doctor-wearing-medical-robe-stethoscope-standing-desk-with-medical-tools-putting-hands-waist-isolated-pink-wall_141793-59668.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais' sx={{height: "250px",
+               width: "250px",
+               border: "15px solid lightGray","&:hover": {
+                border: "15px solid red",
+},
+    }}/>
             <br />
             <Item sx={{backgroundColor:"transparent!important",color:"white"}}>
               
@@ -278,7 +208,7 @@ export default function Content6() {
               >
                VICTORIA DOE
               </Typography>
-              <Typography>Customer Support</Typography>
+              <Typography>Cardiologists</Typography>
               <Typography>Mob : +1 (001) 6478</Typography>
               <br/>
               <Box display="flex" justifyContent="center">

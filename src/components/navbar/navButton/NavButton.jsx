@@ -48,7 +48,6 @@ justifyContent:"flex-end",
   gap: "50px",
   // border:"2px solid black",
   alignItems: "center",
-  paddingRight: "30px",
   marginTop: "10px",
 
   
@@ -57,9 +56,6 @@ const Left = styled(Box)(({ theme }) => ({
   // gap: "120px",
   display: "flex",
   flex:1,
-  // border:"2px solid black",
-  // justifyContent:"flex",
-  // alignItems: "center",
   padding:"12px 0px",
   gap: 30,
   // marginLeft: "15px",
@@ -103,21 +99,6 @@ const MoreButton = styled(Box)(({ theme }) => ({
   },
 }));
 
-// const LoginButton = styled(Button)(({theme}) => ({
-//     background: '#fff',
-//     border:"none",
-//     // width: '100%',
-//     textTransform: 'none',
-//     [theme.breakpoints.down('sm')]: {
-//       background: 'none',
-//       color: '#fff',
-//       left: '35px'
-//   },
-//     [theme.breakpoints.down('md')]: {
-//       background: 'none',
-//       color: '#fff',
-//   }
-// }));
 
 export default function NavButton() {
   //   const [showLogin, setShowLogin] = useState("none");
@@ -135,53 +116,7 @@ export default function NavButton() {
 
   return (
     <CustomButton >
-      
-      {/* <Box  sx={{width:'50%', height: '64px',
-                alignItems: 'center',
-                cursor:'pointer',
-                display:'flex', "& Button:hover": { backgroundColor: "#fff" }, "&:hover .MuiBox-root": { display:'flex'}}}>
-                <LoginButton>
-                Login
-                </LoginButton>
-                <Box
-          sx={{
-            display: 'none',
-            flexDirection: "column",
-            width: "15%",
-            bgcolor: "background.paper",
-            position: "absolute",
-            color: "red",
-            margin: "275px 0 0 0",
-            zIndex:'100'
-          }}
-        >
-          <Box
-            sx={{
-              width: "100%",
-              height: "14px",
-              backgroundColor: "#FFFFFF",
-              clipPath: "polygon(50% 0, 46% 100%, 54% 100%)",
-              margin: "-13px 0 0 0",
-            }}
-          ></Box>
-          <List component="nav" aria-label="mailbox folders">
-            <ListItem button>
-              <ListItemText primary="Inbox" />
-              </ListItem>
-              <Divider />
-            <ListItem button divider>
-              <ListItemText primary="Drafts" />
-            </ListItem>
-            <ListItem button>
-              <ListItemText primary="Trash" />
-            </ListItem>
-            <Divider light />
-            <ListItem button>
-              <ListItemText primary="Spam" />
-            </ListItem>
-          </List>
-        </Box>
-      </Box> */}
+   
     <Left>
     <Box
         display="flex"
@@ -189,11 +124,11 @@ export default function NavButton() {
         textAlign="center"
         // padding="10px 0px 0px 0px"
       >
-        <Typography variant="div" sx={{fontSize:{md:"40px",sm:"30px",xs:"20px"}}} marginTop="5px">
-         SKT Food
+        <Typography variant="div" sx={{fontSize:{md:"30px",sm:"20px",xs:"18px"}}} marginTop="5px">
+         TECHPYRO MEDICAL STORE
         </Typography>
-        <Typography variant="p"  paddingBottom="20px">
-        FOOD WORDPRESS THEM
+        <Typography variant="p"  sx={{marginBottom:{md:"20px",sm:"30px",xs:"40px"}}}>
+        MEDICINE WORDPRESS THEM
         </Typography>
       </Box>
     </Left>

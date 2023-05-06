@@ -26,12 +26,7 @@ const Item = styled(Paper)(({ theme }) => ({
   display:"flex",
   flexDirection:"column",
   alignItems:"center",
-  // "&:hover": {
-  //   opacity: "0.3",
-  // },
-  //   [theme.breakpoints.down("sm")]: {
-  //     width: "150px",
-  //   },
+
 }));
 export default function Content2() {
   return (
@@ -92,15 +87,14 @@ export default function Content2() {
                 justifyContent:'flex-end',
                 alignItems:'center',
                 fontSize:'20px',
-                color:'white',
-                fontWeight:'600',
-                background: `url(${"/images/category/offer-image1.jpg"})
+                fontWeight:'700',
+                background: `url(${"https://img.freepik.com/free-vector/hand-drawn-flat-design-delivery-concept_23-2149157499.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,  
             height:'320px',
             // width:'350px'
               }}
             >
-              SANDWITCH
+              Free medication delivery
             </Item>
           </Grid>
           <Grid item xs={12} sm={4} md={4} data-aos="zoom-in">
@@ -110,14 +104,13 @@ export default function Content2() {
                 justifyContent:'flex-end',
                 alignItems:'center',
                 fontSize:'20px',
-                color:'white',
-                fontWeight:'600',
-                background: `url(${"/images/category/offer-image2.jpg"})
+                fontWeight:'700',
+                background: `url(${"https://img.freepik.com/free-vector/drug-prescription-medical-background-poster_1284-18187.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
                 center/cover no-repeat`,  
                          height:'320px',
               }}
               >
-              TOMATO SOUP
+              Discounted prescription medications
             </Item>
           </Grid>
           <Grid item xs={12} sm={4} md={4} data-aos="zoom-in">
@@ -127,165 +120,17 @@ export default function Content2() {
                 justifyContent:'flex-end',
                 alignItems:'center',
                 fontSize:'20px',
-                color:'white',
-                fontWeight:'600',
-                background: `url(${"/images/category/offer-image3.jpg"})
+                fontWeight:'700',
+                color:"#fff",
+                background: `url(${"https://img.freepik.com/free-vector/doctor-examining-patient-clinic-illustrated_23-2148856559.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
                 center/cover no-repeat`,  
                          height:'320px',
               }}
               >
-              ICE CREAM
+              Free health screenings
             </Item>
-          </Grid>
-          {/* <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <CameraAlt sx={{fontSize:"60px"}}/>
-              FOOD GALLERY
-            </Item>
-            <Item>Powerful Food Galleries</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <Menu sx={{fontSize:"60px"}}/>
-              4 HEADER TYPES
-            </Item>
-            <Item>4 Header styles with combination of displaying social header.</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <Image sx={{fontSize:"60px"}}/>
-              IMAGE GALLERIES
-            </Item>
-            <Item>Easily build photo galleries saving precious time.</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <LocalMall sx={{fontSize:"60px"}}/>
-              WOOCOMMERCE
-            </Item>
-            <Item>WooCommerce to build a delivery shop easily.</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <AcUnitOutlined sx={{fontSize:"60px"}}/>
-              MULTI-LINGUAL READY
-            </Item>
-            <Item>Use popular plugin WPML to translate the site to multiple languages</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <Token sx={{fontSize:"60px"}}/>
-              QUALITY SUPPORT
-            </Item>
-            <Item>After sales Support to ensure the your site works 100% through our Support Forum</Item>
           </Grid>
          
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <Collections sx={{fontSize:"60px"}}/>
-              BULK IMAGE UPLOADING
-            </Item>
-            <Item>Bulk image uploading and management</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <Apartment sx={{fontSize:"60px"}}/>
-              PAGEBUILDER
-            </Item>
-            <Item>Our Pagebuilder closely works with the theme making it lightweight and easy to build.</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <Power sx={{fontSize:"60px"}}/>
-              PREMIUM PLUGINS
-            </Item>
-            <Item>Packed with Premium plugins</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <ZoomIn sx={{fontSize:"60px"}}/>
-              RESPONSIVE LIGHBOX
-            </Item>
-            <Item>Fully responsive lightbox with zoom functionality. Even works on mobiles.</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-            
-              }}
-            >
-              <CurrencyRupee sx={{fontSize:"60px"}}/>
-              FOOD ITEM CURRENCY
-            </Item>
-            <Item>Easily change currency symbols via theme options</Item>
-          </Grid>
-          <Grid item xs={12} sm={4} md={4}>
-            <Item
-              sx={{
-                 
-             
-            
-                // justifyContent:"center"
-              }}
-            >
-              <MoreHoriz sx={{fontSize:"60px"}}/>
-              MANY MORE FEATURES INCLUDED
-            </Item>
-            <Item>View our demo to see the many features and varieties of grids and galleries it supports.</Item>
-          </Grid> */}
-         
-        
         </Grid>
       </Box>
     </StyleToolbar>

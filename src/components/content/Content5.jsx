@@ -11,8 +11,6 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
   [theme.breakpoints.down("md")]: {
     padding: "68px 20px ",
   },
-  // display: "flex",
-  // justifyContent:"space-between",
   gap: 2,
 }));
 const Item = styled(Paper)(({ theme }) => ({
@@ -24,13 +22,6 @@ const Item = styled(Paper)(({ theme }) => ({
   fontSize: "18px",
   display: "flex",
   flexDirection: "column",
-  //   alignItems: "center",
-  // "&:hover": {
-  //   opacity: "0.3",
-  // },
-  //   [theme.breakpoints.down("sm")]: {
-  //     width: "150px",
-  //   },
 }));
 export default function Content5() {
   return (
@@ -94,13 +85,12 @@ export default function Content5() {
                 fontSize: "20px",
                 color: "white",
                 fontWeight: "600",
-                background: `url(${"/images/category/food.jpg"})
+                background: `url(${"https://img.freepik.com/free-photo/young-doctor-holding-paper-idea-bubble-thumb-up-shape-smiling-high-quality-photo_144627-74821.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
                 // width:'350px'
               }}
             >
-              SANDWITCH
             </Item>
             <Box display="flex" gap={3}>
               <Typography display="flex">
@@ -111,7 +101,7 @@ export default function Content5() {
               </Typography>
               <Typography display="flex">
                 <Typography sx={{ color: "red" }}>in:</Typography>
-                Food 1
+                Medicine 1
               </Typography>
             </Box>
             <br />
@@ -161,24 +151,23 @@ export default function Content5() {
                 fontSize: "20px",
                 color: "white",
                 fontWeight: "600",
-                background: `url(${"/images/category/panini.jpg"})
+                background: `url(${"https://img.freepik.com/free-photo/female-client-standing-near-pharmacy-counter_259150-57994.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
                 // width:'350px'
               }}
             >
-              SANDWITCH
             </Item>
             <Box display="flex" gap={3}>
               <Typography display="flex">
                 on:
                 <Typography variant="span" sx={{ color: "red" }}>
-                  1 january 2023
+                  14 january 2023
                 </Typography>
               </Typography>
               <Typography display="flex">
                 <Typography sx={{ color: "red" }}>in:</Typography>
-                Food 1
+                Medicine 2
               </Typography>
             </Box>
             <br />
@@ -191,7 +180,7 @@ export default function Content5() {
                   },
                 }}
               >
-                BAKED SPAGHETTI
+                ARUGULA, MOZZARELLA, TOMATO ON FOCACCIA
               </Typography>
               <br />
               <Typography>
@@ -244,7 +233,7 @@ export default function Content5() {
             </Typography>
             <br />
             <Box display="flex" gap={3}>
-              <Avatar alt="Travis Howard" src="/images/category/panini.jpg" />
+              <Avatar alt="Travis Howard" src="https://img.freepik.com/free-photo/contented-long-haired-woman-looking-contented-after-buying-goods-drugstore_259150-57996.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" />
               <Typography variant="h5">
                 SAFIRA
                 <br />

@@ -9,26 +9,19 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
     [theme.breakpoints.down("sm")]: {
         justifyContent:'center' 
         },
-        background: `url(${"/images/category/popular.jpg"})
+        background: `url(${"https://img.freepik.com/free-vector/pharmacy-shelf-drugstore-rack-with-medicine-retail-products-shop-showcase-with-pharmaceutical-pills_107791-6663.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
          center/cover no-repeat`,
-    // [theme.breakpoints.down("md")]: {
-    // padding: "68px 20px ",
-          
-    //     },
-    // // display: "flex",
-    // // justifyContent:"space-between",
-    // gap: 2,
   }));
 export default function Content4() {
     const theme = useTheme();
   return (
     <StyleToolbar>
       <Box>
-<Typography  sx={{color:"red",fontFamily:'Dancing Script',fontSize:{md:"48px",sm:'38px',xs:"28px"} }} data-aos="zoom-out">
+<Typography  sx={{color:"#fff",fontFamily:'Dancing Script',fontSize:{md:"48px",sm:'38px',xs:"28px"} }} data-aos="zoom-out">
 Discover Our
 </Typography>
-<Typography  sx={{fontFamily:'Dancing Script',fontSize:{md:"88px",sm:'68px',xs:"38px"},color:"white"}} data-aos="zoom-out">
-Papular Dishes
+<Typography  sx={{fontFamily:'Dancing Script',fontSize:{md:"88px",sm:'68px',xs:"38px"},color:"#000"}} data-aos="zoom-out">
+Medical Store Items
 </Typography>
 <Box display="flex">
           <Button
