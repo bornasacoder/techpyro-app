@@ -133,9 +133,6 @@ const colors = {
 
 export const PureLightTheme = createTheme({
   // direction: i18n.dir(),
-  fontFamily:{
-      1:'Proxima Nova,Proxima Nova Condensed'
-  },
   colors: {
     gradients: {
       blue1: colors.gradients.blue1,
@@ -250,10 +247,8 @@ export const PureLightTheme = createTheme({
   header: {
     height: '80px',
     background: colors.alpha.white[100],
-    background2: colors.alpha.white[10],
     boxShadow: colors.shadows.cardSm,
-    textColor: colors.alpha.black[100],
-    textColor2: colors.alpha.black[50]
+    textColor: colors.secondary.main
   },
   spacing: 9,
   palette: {

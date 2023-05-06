@@ -1,57 +1,49 @@
+// import MainCarousel from 'components/carousel/MainCarousel'
 import React from 'react'
-import { Box, styled, Typography } from '@mui/material'
+import {pizza} from "../../constants/slider/pizza";
+import {thali} from "../../constants/slider/thali";
+import {fastFood} from "../../constants/slider/fastfood";
+import {other} from "../../constants/slider/other";
+import Block2 from '../../contents/home/block2/Block2';
+import Block3 from '../../contents/home/block3/Block3';
+import Block4 from '../../contents/home/block4/Block4';
+import Block5 from '../../contents/home/block5/Block5';
+import Block6 from '../../contents/home/block6/Block6';
+import Block7 from '../../contents/home/block7/Block7';
+import Block8 from '../../contents/home/block8/Block8';
+import Block9 from '../../contents/home/block9/Block9';
+import Block10 from '../../contents/home/block10/Block10';
+import Block11 from '../../contents/home/block11/Block11';
+import Block12 from '../../contents/home/block12/Block12';
+import Block1 from 'contents/home/block1/Block1';
 
-import Navbar from "../../components/navbar/Navbar";
 
-import Footer from '../../components/footer/Footer'
-import Block1 from '../../contents/home/Block1'
-import Block2 from 'contents/Block2';
-import Block3 from '../../contents/home/Block3'
-import Block4 from '../../contents/home/Block4'
-import { content } from 'constants/content';
-import Block5 from 'contents/home/Block5';
-import SwiggySlider from 'components/allcarousel/carousel/carousel2/SwiggySlider';
-import BigSlider from 'components/allcarousel/slider/slider3/BigSlider';
-import { other } from 'constants/slider/other';
-import { adidas } from '../../constants/slider/adidas'
-import Block6 from 'contents/home/Block6';
-import MiniSlider from 'components/allcarousel/slider/slider2/MiniSlider';
-import Sliders from 'components/allcarousel/slider/slider1/Sliders';
-import { pizza } from 'constants/slider/pizza';
-import Block7 from 'contents/home/Block7';
-import { fastfood } from 'constants/slider/fastfood';
-import Block8 from 'contents/home/Block8';
-import Block9 from 'contents/home/Block9';
-import Block10 from 'contents/home/Block10';
-import Block11 from 'contents/home/Block11';
-
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 const Home = () => {
-// console.log(mainCarousel);
   return (
     <div>
-    
-         <Navbar /> 
-         <SwiggySlider sliderData={other}/>
-         <Block1 />
-         <Block11 />
-         <Block2 />
-         <Block4 />
-         <Block9 />
-         <BigSlider sliderData={adidas}/>
-         <Footer /> 
-         
-        
-       
-         
-        
-       
-      
-      
-      
-      
-</div>
-    
+   
+    <Block1 />
+     <Block2 />
+    <Block3 />
+    <Block4 />
+    <Block5 />
+    <Block6 />
+    <Block7 />
+    <Block8 />
+    <Block9 />
+    <Block10 />
+    <Block11 />
+    <Block12 />
+   
+    {/* <MainCarousel/> */}
+     {/* <Sliders sliderData={pizza}   />
+     <MiniSlider sliderData = {fastFood}/>
+     <Sliders sliderData={thali}   />
+     <Sliders sliderData={other}   /> */}
+    {/* <Footer/> */}
+
+
+    </div>
   )
 }
 

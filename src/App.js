@@ -1,27 +1,24 @@
-import Home from "pages/home/Home";
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Card3 from "components/card/card2/Card3";
-import Card4 from "components/card/Card4";
-import Card5 from "components/card/Card5";
-import Login from "components/card/card2/Login";
-import Aboutus from "components/card/card2/Aboutus";
 
+import Home from "pages/home/Home";
+import Navbar from "./layouts/layout1/navbar/Navbar";
+import Footer from "./components/footer/Footer";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 
 function App() {
 
   return (
     <>
-     <BrowserRouter>
+    <Navbar />
+    <Router>
       <Routes>
-  
-        <Route path='/' element={  <Home />}/>
-        <Route path='/Admission Form' element={ <Card3 />}/>
-        <Route path="/Contact Us" element={<Card4 />}/>
-        <Route path="/Search" element={<Card5 />}/>
-        <Route path="Login" element={<Login />}/>
-        <Route path="About Us" element={<Aboutus />}/>
+        <Route exact path="/" element={<Home/>} />
       </Routes>
-      </BrowserRouter>
+    </Router>
+    <Footer />
     </>
   );
 }
