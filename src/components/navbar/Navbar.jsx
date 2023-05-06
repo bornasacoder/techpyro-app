@@ -28,7 +28,7 @@ const NavBar = styled(Box)(({ theme }) => ({
   // zIndex: 200,
   // position: "static",
   background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)
-  ),url(${"https://img.freepik.com/free-photo/young-woman-pharmacist-pharmacy_1303-25532.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-photo/medium-shot-smiley-woman-holding-tray_23-2149233715.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
 }));
 

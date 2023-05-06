@@ -101,15 +101,10 @@ const MoreButton = styled(Box)(({ theme }) => ({
 
 
 export default function NavButton() {
-  //   const [showLogin, setShowLogin] = useState("none");
-  //   const [showMore, setShowMore] = useState("none");
-  //   onMouseOver={() => setShowLogin("flex")} onMouseOut={() => setShowLogin("none")}
   const [open, setOpen] = useState(false);
   const handleOpen = () => {
     setOpen(true);
   };
-
-  // const [open, setOpen] = React.useState(false);
   const handleClose = () => {
     setOpen(false);
   };
@@ -125,10 +120,7 @@ export default function NavButton() {
         // padding="10px 0px 0px 0px"
       >
         <Typography variant="div" sx={{fontSize:{md:"30px",sm:"20px",xs:"18px"}}} marginTop="5px">
-         TECHPYRO MEDICAL STORE
-        </Typography>
-        <Typography variant="p"  sx={{marginBottom:{md:"20px",sm:"30px",xs:"40px"}}}>
-        MEDICINE WORDPRESS THEM
+         TECHPYRO BAKERY
         </Typography>
       </Box>
     </Left>

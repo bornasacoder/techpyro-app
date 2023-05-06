@@ -85,7 +85,7 @@ export default function Content5() {
                 fontSize: "20px",
                 color: "white",
                 fontWeight: "600",
-                background: `url(${"https://img.freepik.com/free-photo/young-doctor-holding-paper-idea-bubble-thumb-up-shape-smiling-high-quality-photo_144627-74821.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-vector/flat-design-bakery-shop-instagram-posts-template_23-2149414083.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
                 // width:'350px'
@@ -101,7 +101,7 @@ export default function Content5() {
               </Typography>
               <Typography display="flex">
                 <Typography sx={{ color: "red" }}>in:</Typography>
-                Medicine 1
+                Testimonial 1
               </Typography>
             </Box>
             <br />
@@ -151,7 +151,7 @@ export default function Content5() {
                 fontSize: "20px",
                 color: "white",
                 fontWeight: "600",
-                background: `url(${"https://img.freepik.com/free-photo/female-client-standing-near-pharmacy-counter_259150-57994.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-vector/food-youtube-cover-template_23-2148599062.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
                 // width:'350px'
@@ -167,7 +167,7 @@ export default function Content5() {
               </Typography>
               <Typography display="flex">
                 <Typography sx={{ color: "red" }}>in:</Typography>
-                Medicine 2
+                Testimonial 1
               </Typography>
             </Box>
             <br />
@@ -233,7 +233,7 @@ export default function Content5() {
             </Typography>
             <br />
             <Box display="flex" gap={3}>
-              <Avatar alt="Travis Howard" src="https://img.freepik.com/free-photo/contented-long-haired-woman-looking-contented-after-buying-goods-drugstore_259150-57996.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" />
+              <Avatar alt="Travis Howard" src="https://img.freepik.com/free-photo/medium-shot-smiley-baker_23-2149233681.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" />
               <Typography variant="h5">
                 SAFIRA
                 <br />

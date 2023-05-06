@@ -88,13 +88,13 @@ export default function Content2() {
                 alignItems:'center',
                 fontSize:'20px',
                 fontWeight:'700',
-                background: `url(${"https://img.freepik.com/free-vector/hand-drawn-flat-design-delivery-concept_23-2149157499.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-vector/bakery-ad-template-banner_23-2148706493.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,  
             height:'320px',
             // width:'350px'
               }}
             >
-              Free medication delivery
+             Discounted items
             </Item>
           </Grid>
           <Grid item xs={12} sm={4} md={4} data-aos="zoom-in">
@@ -105,12 +105,12 @@ export default function Content2() {
                 alignItems:'center',
                 fontSize:'20px',
                 fontWeight:'700',
-                background: `url(${"https://img.freepik.com/free-vector/drug-prescription-medical-background-poster_1284-18187.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-vector/combo-offers-banners-concept_23-2148657937.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
                 center/cover no-repeat`,  
                          height:'320px',
               }}
               >
-              Discounted prescription medications
+              Combo deals
             </Item>
           </Grid>
           <Grid item xs={12} sm={4} md={4} data-aos="zoom-in">
@@ -122,12 +122,12 @@ export default function Content2() {
                 fontSize:'20px',
                 fontWeight:'700',
                 color:"#fff",
-                background: `url(${"https://img.freepik.com/free-vector/doctor-examining-patient-clinic-illustrated_23-2148856559.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-vector/children-s-birthday-banner_23-2148779645.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
                 center/cover no-repeat`,  
                          height:'320px',
               }}
               >
-              Free health screenings
+             Birthday specials
             </Item>
           </Grid>
          

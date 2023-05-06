@@ -52,9 +52,9 @@ export default function MiddleContent() {
         >
            <Grid item xs={12} sm={12} md={12}>
             <Box display="flex" gap="20px" >
-                <Avatar src="https://img.freepik.com/free-photo/young-male-psysician-with-patient-measuring-blood-pressure_1303-17877.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
+                <Avatar src="https://img.freepik.com/free-photo/waiter-carries-plate-with-tasty-snacks_8353-1263.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
               <Box display="flex" flexDirection="column">
-            <Typography variant="h1"  fontSize="18px">Health screenings</Typography>
+            <Typography variant="h1"  fontSize="18px">Catering services</Typography>
                 <Typography>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </Typography>
@@ -63,9 +63,9 @@ export default function MiddleContent() {
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
             <Box display="flex" gap="20px" >
-                <Avatar src="https://img.freepik.com/free-vector/delivery-service-illustrated_23-2148505081.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
+                <Avatar src="https://img.freepik.com/free-photo/cream-pastry-bag-lady-with-baking-tool_1157-47274.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
               <Box display="flex" flexDirection="column">
-            <Typography variant="h1"  fontSize="18px"> Home delivery</Typography>
+            <Typography variant="h1"  fontSize="18px"> Baking classes</Typography>
                 <Typography>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </Typography>
@@ -74,9 +74,9 @@ export default function MiddleContent() {
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
             <Box display="flex" gap="20px" >
-                <Avatar src="https://img.freepik.com/free-photo/smart-attractive-asian-woman-doctor-explain-discuss-with-old-asian-man-consult-clinic-background-health-concept_609648-2339.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
+                <Avatar src="https://img.freepik.com/free-photo/confectioner-uniform-decorates-cake_1157-33245.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
               <Box display="flex" flexDirection="column">
-            <Typography variant="h1"  fontSize="18px"> Medication counseling</Typography>
+            <Typography variant="h1"  fontSize="18px"> Custom cake orders</Typography>
                 <Typography>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </Typography>

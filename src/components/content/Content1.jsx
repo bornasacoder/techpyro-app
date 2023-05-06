@@ -4,7 +4,7 @@ import React from "react";
 import styled from "styled-components";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   padding: "38px 92px ",
-  background: `url(${"https://images.pexels.com/photos/139398/thermometer-headache-pain-pills-139398.jpeg?auto=compress&cs=tinysrgb&w=600"})
+  background: `url(${"https://img.freepik.com/free-photo/sweet-pastry-assortment-top-view_23-2148516578.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
   gap: 2,
 }));
@@ -47,6 +47,7 @@ export default function Content1() {
             fontFamily: "Dancing Script",
             fontSize: { md: "58px", sm: "50px", xs: "28px" },
             fontWeight: "500",
+            color:"#fff"
             // width: { md: "60%", sm: "80%", xs: "100%" },
           }}>
           Services
@@ -58,6 +59,7 @@ export default function Content1() {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
+          
           // bgcolor: "#F4F4F4!important",
         }}
       >
@@ -74,7 +76,7 @@ export default function Content1() {
           //   xs={{xs:12,sm:6,md:4}}
         >
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
-              <Avatar src="https://img.freepik.com/free-photo/doctor-writing-clipboard-close-up_23-2148285699.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+              <Avatar src="https://img.freepik.com/free-vector/delivery-service-with-masks-concept_23-2148497067.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
                 "&:hover": {
                   border: "15px solid #01808A",
   },
@@ -82,13 +84,13 @@ export default function Content1() {
             <br />
               <Typography
                 variant="h3"
-                sx={{ display: "flex", justifyContent: "center" }}
+                sx={{ display: "flex", justifyContent: "center",color:"#fff" }}
               >
-               Prescription filling
+               Delivery services
               </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
-              <Avatar src="https://img.freepik.com/free-vector/health-insurance-online-service-platform-idea-security-protection-person-s-life-from-damage-online-insurance-flat-vector-illustration_613284-1887.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+              <Avatar src="https://img.freepik.com/free-vector/order-now-banner_52683-48697.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
                 "&:hover": {
                   border: "15px solid #01808A",
   },
@@ -96,13 +98,13 @@ export default function Content1() {
             <br />
               <Typography
                 variant="h3"
-                sx={{ display: "flex", justifyContent: "center" }}
+                sx={{ display: "flex", justifyContent: "center",color:"#fff" }}
               >
-              Insurance coordination
+              Special orders
               </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
-              <Avatar src="https://img.freepik.com/free-vector/hand-drawn-patient-taking-medical-examination_23-2148837416.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+              <Avatar src="https://img.freepik.com/free-vector/hand-drawn-flat-christmas-basket-illustration_23-2149183392.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
                 "&:hover": {
                   border: "15px solid #01808A",
   },
@@ -110,13 +112,13 @@ export default function Content1() {
             <br />
               <Typography
                 variant="h3"
-                sx={{ display: "flex", justifyContent: "center" }}
+                sx={{ display: "flex", justifyContent: "center",color:"#fff" }}
               >
-              Health screenings
+              Gift baskets
               </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
-              <Avatar src="https://img.freepik.com/premium-photo/doctor-hand-holding-tablet-drug-explain-patient-hospital-room_1423-2580.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+              <Avatar src="https://img.freepik.com/premium-vector/successful-small-business-owner_107173-9598.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
                 "&:hover": {
                   border: "15px solid #01808A",
   },
@@ -124,9 +126,9 @@ export default function Content1() {
             <br />
               <Typography
                 variant="h3"
-                sx={{ display: "flex", justifyContent: "center" }}
+                sx={{ display: "flex", justifyContent: "center",color:"#fff" }}
               >
-               Medication counseling
+               Wholesale orders
               </Typography>
           </Grid>
 

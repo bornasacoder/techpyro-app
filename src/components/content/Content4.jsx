@@ -9,7 +9,7 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
     [theme.breakpoints.down("sm")]: {
         justifyContent:'center' 
         },
-        background: `url(${"https://img.freepik.com/free-vector/pharmacy-shelf-drugstore-rack-with-medicine-retail-products-shop-showcase-with-pharmaceutical-pills_107791-6663.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+        background: `url(${"https://img.freepik.com/free-photo/engagement-ring-chalkboard-near-pastry_23-2147743510.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
          center/cover no-repeat`,
   }));
 export default function Content4() {
@@ -17,11 +17,11 @@ export default function Content4() {
   return (
     <StyleToolbar>
       <Box>
-<Typography  sx={{color:"#fff",fontFamily:'Dancing Script',fontSize:{md:"48px",sm:'38px',xs:"28px"} }} data-aos="zoom-out">
+<Typography  sx={{color:"red",fontFamily:'Dancing Script',fontSize:{md:"48px",sm:'38px',xs:"28px"} }} data-aos="zoom-out">
 Discover Our
 </Typography>
-<Typography  sx={{fontFamily:'Dancing Script',fontSize:{md:"88px",sm:'68px',xs:"38px"},color:"#000"}} data-aos="zoom-out">
-Medical Store Items
+<Typography  sx={{fontFamily:'Dancing Script',fontSize:{md:"88px",sm:'68px',xs:"38px"},color:"#fff"}} data-aos="zoom-out">
+Backery Items
 </Typography>
 <Box display="flex">
           <Button

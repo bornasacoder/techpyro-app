@@ -4,7 +4,7 @@ import React from 'react'
 const StyleToolbar = styled(Box)(({ theme }) => ({
     padding: "38px 58px ",
         background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.75)
-        ),url(${"https://img.freepik.com/free-photo/doctor-nurses-special-equipment_23-2148980721.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
+        ),url(${"https://images.pexels.com/photos/8511864/pexels-photo-8511864.jpeg?auto=compress&cs=tinysrgb&w=600"})
          center/cover no-repeat`,
     gap: 2,
   }));
@@ -47,7 +47,7 @@ export default function Content6() {
             fontWeight: "500",
             color:"#fff"
           }}>
-          Our Doctors
+          Our chef
         </Typography>
       </Box>
       <Box
@@ -72,7 +72,7 @@ export default function Content6() {
           //   xs={{xs:12,sm:6,md:4}}
         >
           <Grid item xs={12} sm={6} md={3} data-aos="fade-up" sx={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-          <Avatar src='https://img.freepik.com/free-photo/confident-indian-doctor-adjusting-glasses-while-using-smartphone_1262-14181.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais' sx={{height: "250px",
+          <Avatar src='https://img.freepik.com/free-photo/smiling-male-baker-holding-baked-bread-chopping-board_23-2147883367.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais' sx={{height: "250px",
                width: "250px",
                border: "15px solid lightGray","&:hover": {
                 border: "15px solid red",
@@ -90,7 +90,7 @@ export default function Content6() {
               >
                 JOHN DOE
               </Typography>
-              <Typography>General Practitioners</Typography>
+              <Typography>Bread Baker</Typography>
               <Typography>Mob : +1 (001) 6478</Typography>
               <br/>
               <Box display="flex" justifyContent="center">
@@ -114,7 +114,7 @@ export default function Content6() {
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
            
-             <Avatar src='https://img.freepik.com/free-photo/female-doctor-showing-thumbs-up-with-stethoscope-white-background_114579-22848.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais' sx={{height: "250px",
+             <Avatar src='https://img.freepik.com/free-photo/cream-pastry-bag-lady-with-baking-tool_1157-47274.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais' sx={{height: "250px",
                width: "250px",
                border: "15px solid lightGray","&:hover": {
                 border: "15px solid red",
@@ -130,7 +130,7 @@ export default function Content6() {
               >
               MARTINA JOHNSON
               </Typography>
-              <Typography>Obstetricians/Gynecologists (OB/GYNs)</Typography>
+              <Typography>Cake Decorator</Typography>
               <Typography>Mob : +1 (001) 6478</Typography>
               <br/>
               <Box display="flex" justifyContent="center">
@@ -153,7 +153,7 @@ export default function Content6() {
             </Item>
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-up" sx={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-          <Avatar src='https://img.freepik.com/free-photo/smiling-young-male-chef-wearing-uniform-holding-mobile-phone-with-both-hands-looking-camera-isolated-white-background_141793-136655.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais' sx={{height: "250px",
+          <Avatar src='https://img.freepik.com/free-photo/portrait-happy-male-chef-dressed-uniform_171337-5356.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph' sx={{height: "250px",
                width: "250px",
                border: "15px solid lightGray","&:hover": {
                 border: "15px solid red",
@@ -169,7 +169,7 @@ export default function Content6() {
               >
                ALEXANDER HORO
               </Typography>
-              <Typography>Neurologists</Typography>
+              <Typography>Confectioner</Typography>
               <Typography>Mob : +1 (001) 6478</Typography>
               <br/>
               <Box display="flex" justifyContent="center">
@@ -192,7 +192,7 @@ export default function Content6() {
             </Item>
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-          <Avatar src='https://img.freepik.com/free-photo/smiling-young-female-doctor-wearing-medical-robe-stethoscope-standing-desk-with-medical-tools-putting-hands-waist-isolated-pink-wall_141793-59668.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais' sx={{height: "250px",
+          <Avatar src='https://img.freepik.com/free-photo/cheerful-lady-baker-standing-holding-bread_171337-16135.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais' sx={{height: "250px",
                width: "250px",
                border: "15px solid lightGray","&:hover": {
                 border: "15px solid red",
@@ -208,7 +208,7 @@ export default function Content6() {
               >
                VICTORIA DOE
               </Typography>
-              <Typography>Cardiologists</Typography>
+              <Typography>Gluten-Free Baker</Typography>
               <Typography>Mob : +1 (001) 6478</Typography>
               <br/>
               <Box display="flex" justifyContent="center">
