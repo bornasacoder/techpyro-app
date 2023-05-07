@@ -28,7 +28,7 @@ const NavBar = styled(Box)(({ theme }) => ({
   // zIndex: 200,
   // position: "static",
   background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)
-  ),url(${"https://img.freepik.com/free-vector/realistic-coffee-cup-collection_23-2147746469.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/premium-photo/man-buying-monitor-mall_461973-1798.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
 }));
 

@@ -52,9 +52,9 @@ export default function MiddleContent() {
         >
            <Grid item xs={12} sm={12} md={12}>
             <Box display="flex" gap="20px" >
-                <Avatar src="https://img.freepik.com/free-photo/cup-coffee-with-heart-drawn-foam_1286-70.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
+                <Avatar src="https://img.freepik.com/free-photo/serviceman-uses-magnifier-screwdriver-repair-damaged-smartphone-electronic-workshop_613910-20797.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
               <Box display="flex" flexDirection="column">
-            <Typography variant="h1"  fontSize="18px">Coffee and tea</Typography>
+            <Typography variant="h1"  fontSize="18px">Repair services</Typography>
                 <Typography>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </Typography>
@@ -63,9 +63,9 @@ export default function MiddleContent() {
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
             <Box display="flex" gap="20px" >
-                <Avatar src="https://img.freepik.com/free-photo/barista-using-coffee-machine-cafe_1150-8040.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
+                <Avatar src="https://img.freepik.com/free-photo/laptop-near-smartphone-tags-gift-packets_23-2147961951.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
               <Box display="flex" flexDirection="column">
-            <Typography variant="h1"  fontSize="18px">Drip coffee</Typography>
+            <Typography variant="h1"  fontSize="18px">Trade-ins</Typography>
                 <Typography>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </Typography>
@@ -74,9 +74,9 @@ export default function MiddleContent() {
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
             <Box display="flex" gap="20px" >
-                <Avatar src="https://img.freepik.com/free-photo/hand-pouring-milk-into-coffee-cup_23-2149600729.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
+                <Avatar src="https://img.freepik.com/free-vector/technological-sales-background_3446-375.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
               <Box display="flex" flexDirection="column">
-            <Typography variant="h1"  fontSize="18px"> Espresso</Typography>
+            <Typography variant="h1"  fontSize="18px"> Sale</Typography>
                 <Typography>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </Typography>

@@ -88,13 +88,14 @@ export default function Content2() {
                 alignItems:'center',
                 fontSize:'20px',
                 fontWeight:'700',
-                background: `url(${"https://img.freepik.com/free-vector/people-line-waiting-pay_52683-14983.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/premium-vector/customer-channel_37225-317.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,  
             height:'320px',
             // width:'350px'
+            color:"#fff"
               }}
             >
-            Loyalty programs:
+            Free shipping
             </Item>
           </Grid>
           <Grid item xs={12} sm={4} md={4} data-aos="zoom-in">
@@ -105,12 +106,13 @@ export default function Content2() {
                 alignItems:'center',
                 fontSize:'20px',
                 fontWeight:'700',
-                background: `url(${"https://img.freepik.com/free-psd/horizontal-banner-takeaway-coffee_23-2148786019.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-vector/cyber-monday-sale-background-with-electronic-devices_23-2147959713.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
                 center/cover no-repeat`,  
                          height:'320px',
+                         color:"#000"
               }}
               >
-              Daily specials
+              Discounts
             </Item>
           </Grid>
           <Grid item xs={12} sm={4} md={4} data-aos="zoom-in">
@@ -122,12 +124,12 @@ export default function Content2() {
                 fontSize:'20px',
                 fontWeight:'700',
                 color:"#fff",
-                background: `url(${"https://img.freepik.com/free-vector/waitress-wearing-face-mask-serving_23-2148599615.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-vector/online-payment_23-2147671254.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
                 center/cover no-repeat`,  
                          height:'320px',
               }}
               >
-             Discounts for students or seniors
+            Financing options 
             </Item>
           </Grid>
          

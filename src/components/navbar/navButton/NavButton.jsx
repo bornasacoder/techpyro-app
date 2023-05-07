@@ -120,7 +120,7 @@ export default function NavButton() {
         // padding="10px 0px 0px 0px"
       >
         <Typography variant="div" sx={{fontSize:{md:"30px",sm:"20px",xs:"18px"}}} marginTop="5px">
-         TECHPYRO TEA/COFEE 
+         TECHPYRO ELECTRONICS 
         </Typography>
       </Box>
     </Left>

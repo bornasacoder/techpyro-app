@@ -4,7 +4,7 @@ import React from "react";
 import styled from "styled-components";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   padding: "38px 92px ",
-  background: `url(${"https://img.freepik.com/free-vector/top-view-cup-coffee-with-roasted-beans_52683-32340.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  background: `url(${"https://img.freepik.com/premium-photo/electronic-engineer-computer-technology-maintenance-computer-cpu-hardware_268174-1602.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
   gap: 2,
 }));
@@ -76,7 +76,35 @@ export default function Content1() {
           //   xs={{xs:12,sm:6,md:4}}
         >
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
-              <Avatar src="https://img.freepik.com/free-photo/person-pouring-hot-coffee-glass-with-ice_181624-28793.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+              <Avatar src="https://img.freepik.com/free-vector/system-administrator-technical-work-with-server-software-installation-configuration-computer-systems-networks-flat-vector-illustration_613284-1460.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+                "&:hover": {
+                  border: "15px solid #01808A",
+  },
+              }}/>
+            <br />
+              <Typography
+                variant="h3"
+                sx={{ display: "flex", justifyContent: "center",color:"#fff",textAlign:"center" }}
+              >
+             Installation and setup
+              </Typography>
+          </Grid>
+          <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
+              <Avatar src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041849.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+                "&:hover": {
+                  border: "15px solid #01808A",
+  },
+              }}/>
+            <br />
+              <Typography
+                variant="h3"
+                sx={{ display: "flex", justifyContent: "center",color:"#fff",textAlign:"center" }}
+              >
+             Extended warranties 
+              </Typography>
+          </Grid>
+          <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
+              <Avatar src="https://img.freepik.com/free-vector/internet-support-concept_1284-14625.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
                 "&:hover": {
                   border: "15px solid #01808A",
   },
@@ -86,39 +114,11 @@ export default function Content1() {
                 variant="h3"
                 sx={{ display: "flex", justifyContent: "center",color:"#fff" }}
               >
-              Cold brew coffee
+          Technical support
               </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
-              <Avatar src="https://img.freepik.com/free-photo/woman-pouring-tea-from-clay-teapot-clay-teacup_23-2148567530.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
-                "&:hover": {
-                  border: "15px solid #01808A",
-  },
-              }}/>
-            <br />
-              <Typography
-                variant="h3"
-                sx={{ display: "flex", justifyContent: "center",color:"#fff" }}
-              >
-             Loose-leaf tea
-              </Typography>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
-              <Avatar src="https://img.freepik.com/free-photo/two-tea-bags-glass-tea-marble_114579-58331.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
-                "&:hover": {
-                  border: "15px solid #01808A",
-  },
-              }}/>
-            <br />
-              <Typography
-                variant="h3"
-                sx={{ display: "flex", justifyContent: "center",color:"#fff" }}
-              >
-           Tea bags
-              </Typography>
-          </Grid>
-          <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
-              <Avatar src="https://img.freepik.com/premium-photo/cup-hot-tea-dry-tea-leaves-with-steam-mint-herb_39810-138.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+              <Avatar src="https://img.freepik.com/free-vector/online-shopping-flat-composition_98292-125.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
                 "&:hover": {
                   border: "15px solid #01808A",
   },
@@ -128,7 +128,7 @@ export default function Content1() {
                 variant="h3"
                 sx={{ display: "flex", justifyContent: "center",color:"#fff" ,textAlign:"center"}}
               >
-               Herbal tea
+               Online shopping
               </Typography>
           </Grid>
 
