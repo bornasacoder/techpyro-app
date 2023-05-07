@@ -56,7 +56,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       },}}
           component="img"
-          image="https://img.freepik.com/free-photo/beach-skincare-product-still-life_23-2150167972.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/view-photo-frame-with-interior-home-decor_23-2149513974.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -67,7 +67,7 @@ export default function Block2() {
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
    <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Beauty</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Furniture</Typography>
           
         </Box>
        
@@ -85,7 +85,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/selfcare-products-arrangement-still-life5_23-2149249544.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/vase-wooden-sideboard-table_53876-105830.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -96,7 +96,7 @@ export default function Block2() {
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
     <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Beauty</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Furniture</Typography>
          
         </Box>
        
@@ -115,7 +115,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/front-view-cream-colored-bottle-plastic-shampoo-can-with-black-cap-isolated-along-with-flowers-yellow-iced-blue-background-cosmetics-beauty-hair_140725-18097.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/vertical-shot-wooden-chair-white_181624-33157.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -126,7 +126,7 @@ export default function Block2() {
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
       <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Beauty</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Furniture</Typography>
          
         </Box>
        
@@ -146,7 +146,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/selfcare-products-flower-arrangement_23-2149249578.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/grey-comfortable-armchair-isolated-white-background_181624-25295.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -157,7 +157,7 @@ export default function Block2() {
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
       <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Beauty</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Furniture</Typography>
          
         </Box>
        
@@ -176,7 +176,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/low-angle-compostable-containers-rock_23-2149353115.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/premium-photo/modern-interior-living-room-blueprint-home-decor-concept-blue-sofa-black-lamp-white-flooring-dark-blueprint-wall-3d-rendering_33739-484.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -187,7 +187,7 @@ export default function Block2() {
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
     <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Beauty</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Furniture</Typography>
           
          
         </Box>
@@ -207,7 +207,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/creative-display-makeup-products-arrangement_23-2150063089.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/premium-photo/turquoise-blue-wall-with-furnituregenerative-ai_391052-11468.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -218,7 +218,7 @@ export default function Block2() {
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
     <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Beauty</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Furniture</Typography>
           
           
         </Box>

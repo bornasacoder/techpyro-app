@@ -9,7 +9,7 @@ export const adidas = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "Wrogn men solid black jeans",
-      image:"https://img.freepik.com/free-photo/skin-care-banner-concept-with-lotion_23-2149449116.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+      image:"https://img.freepik.com/free-photo/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_1258-152155.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
            rating:"4.3",
        },
 
@@ -23,7 +23,7 @@ export const adidas = [
         },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "Wrogn men solid black jeans",
-     image:"https://img.freepik.com/free-photo/skin-products-arrangement-wooden-blocks_23-2148761445.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+     image:"https://img.freepik.com/free-photo/wall-view-photo-frame-as-interior-decoration-generative-ai_191095-505.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
            rating:"4.3",
        },
        {
@@ -35,7 +35,7 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://img.freepik.com/free-photo/creative-display-makeup-products_23-2150063088.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+       image:"https://img.freepik.com/free-photo/armchair-green-living-room-with-copy-space_43614-910.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
            rating:"4.3",
        },
        {
@@ -47,7 +47,7 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://img.freepik.com/free-photo/skin-oil-dropper-assortment-with-copy-space_23-2148761416.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+         image: "https://img.freepik.com/free-psd/minimal-living-room-with-classic-sofa-carpet-interior-design-ideas_176382-1528.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
          tagline: "Wrogn men solid black jeans",
            rating:"4.3",
        },
@@ -60,7 +60,7 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-     image:"https://img.freepik.com/free-photo/beautiful-eucalyptus-with-beauty-products_23-2149440678.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+     image:"https://img.freepik.com/free-photo/empty-modern-room-with-furniture_23-2149178346.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
      tagline: "Wrogn men solid black jeans",
            rating:"4.3",
        },
@@ -74,7 +74,7 @@ export const adidas = [
         },
            category:["Spring Rolls","RasGulla","sweets"],
            tagline: "Wrogn men solid black jeans",
-     image:"https://img.freepik.com/premium-photo/pink-glass-bottle-cosmetic-liquid-gel-standing-pink-podium-with-golden-ring-flowers-petals-flying-air-dropper-bottle-hyaluronic-acid-oil-serum-skin-care-product-3d-rendering_429124-1318.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+     image:"https://img.freepik.com/premium-photo/brown-living-room-with-armchair-table-lamp-abstract-painting-art_258219-569.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
 
            rating:"4.3",
        },
@@ -89,7 +89,7 @@ export const adidas = [
            category:["Spring Rolls","Thali","sweets"],
 
            tagline: "Wrogn men solid black jeans",
-          image:"https://img.freepik.com/free-photo/top-view-arrangement-with-beauty-bag-copy-space_23-2148301851.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+          image:"https://img.freepik.com/free-photo/scandinavian-vintage-wood-cabinet-with-chair-by-dark-blue-wall_53876-98164.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sphs",
            rating:"4.3",
        },
 

@@ -10,7 +10,7 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-          image: "https://img.freepik.com/premium-photo/osmetics-tubes-skin-care-product-geometric-pedestal-branding-blank-unbranded-flacons-beauty-spa-concept_138888-1400.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+          image: "https://img.freepik.com/premium-psd/front-view-armchair-3d-rendering_252032-185.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
           rating:"*4.3",
       },
       {
@@ -22,7 +22,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-          image: "https://img.freepik.com/free-photo/view-arrangement-with-make-up-brushes-eyeshadows_23-2148301855.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+          image: "https://img.freepik.com/free-psd/armchair-pillow_176382-861.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
           rating:"*4.3",
       },
       {
@@ -32,7 +32,7 @@ export const pizza = {
           discount: "50% OFF",
           cost: "₹2,500"
       },
-         image: "https://img.freepik.com/free-photo/cosmetic-containers-with-orange_23-2148549144.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+         image: "https://img.freepik.com/free-photo/ancient-red-sofa_1150-18960.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
           rating:"*4.3",
@@ -46,7 +46,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-        image: "https://img.freepik.com/free-photo/creative-display-makeup-products-arrangement_23-2150063089.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+        image: "https://img.freepik.com/free-photo/living-room-with-white-desk-green-sofa_1340-25296.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
           rating:"*4.3",
       },
       {
@@ -58,7 +58,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-        image:"https://img.freepik.com/premium-photo/osmetics-tubes-skin-care-product-geometric-pedestal-branding-blank-unbranded-flacons-mockup-beauty-spa-concept_138888-1424.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+        image:"https://img.freepik.com/premium-photo/modern-interior-living-room-with-sofa-bold-dark-blue-wall-generative-ai_825385-189.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
           rating:"4.3",
       },
       {
@@ -70,7 +70,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-       image: "https://img.freepik.com/free-photo/front-view-skin-care-product-wooden-decorative-piece_23-2148761398.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+       image: "https://img.freepik.com/premium-photo/living-room-interior-armchair-pillow-lamp-table-with-plant-art-deco-style-modern-classic_258219-599.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
           rating:"4.3",
       },
       // {
