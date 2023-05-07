@@ -179,15 +179,15 @@ display:'none',
 ));
 const Ram = styled(Box)(({ theme }) => ({
   height:'540px',
-  width:'40%',
+  width:'100%',
 
-    backgroundImage: `url(${"/images/category/teach1.png"})`,
+    backgroundImage: `url(${"https://img.freepik.com/premium-psd/back-school-social-media-web-banner-flyer-facebook-cover-photo-design-template_220443-364.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
    backgroundSize:'cover',
   margin:'0px',
   [theme.breakpoints.down('sm')]: {
   //  display:'none'
   width:'100%',
-  height:'300px',
+  height:'540px',
  },
       
   }
@@ -257,7 +257,7 @@ export default function Navbar() {
         
           <Box sx={{display:{xs:'flex',sm:'flex',md:'flex'},alignItems:'center',gap:'5px'}}>
             <AutoStories sx={{color:'#1DA1F2',fontSize:{xs:'30px',sm:'20px',md:'40px'}}}/>
-          <Typography sx={{fontSize:{xs:'30px',sm:'20px',md:'40px'},fontWeight:'700',color:'#1F3965'}}>Tution</Typography>
+          <Typography sx={{fontSize:{xs:'25px',sm:'30px',md:'40px'},fontWeight:'700',color:'#1F3965'}}>ABC School</Typography>
           </Box>
 
 <Box sx={{display:'flex',gap:'30px'}}>
@@ -331,15 +331,7 @@ export default function Navbar() {
         <Box sx={{display:'flex',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
         
 
-        <Box sx={{width:{xs:'auto',sm:'100%',md:'600px'},display:'flex',paddingBottom:{xs:'0px',sm:'70px',md:'0px'},borderRadius:'20px',margin:{xs:'30px 40px 0px 40px',sm:'0px',md:'150px 0 0 200px'},flexDirection:'column',gap:'0px',textAlign:{xs:'center',sm:'center',md:'left'}}}>
-
-        <Typography sx={{fontSize:{xs:'35px',sm:'35px',md:'60px'},fontWeight:'800',color:'black'}}>Integrated</Typography>
-        <Typography sx={{fontSize:{xs:'35px',sm:'35px',md:'60px'},fontWeight:'800',color:'black'}}>School Platform</Typography>
-        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'400',color:'black'}}>Manage every need of your school on a single platform</Typography>
-<Box>
-        <Button variant='contained' sx={{width:'120px',marginTop:'10px',backgroundColor:'#1DA1F2'}}>Get Started</Button>
-        </Box>
-          </Box>
+      /
           <Ram>
        
         </Ram>
