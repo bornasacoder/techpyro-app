@@ -120,7 +120,7 @@ export default function NavButton() {
         // padding="10px 0px 0px 0px"
       >
         <Typography variant="div" sx={{fontSize:{md:"30px",sm:"20px",xs:"18px"}}} marginTop="5px">
-         TECHPYRO CLOTH SHOP 
+         TECHPYRO  GROCERY STORE
         </Typography>
       </Box>
     </Left>
@@ -155,19 +155,7 @@ export default function NavButton() {
             // zIndex:'1000!important'
           }}
         >
-          {/* <Box
-            sx={{
-              width: "100%",
-              display:"flex",
-              flexDirection:"column",
-              height: "14px",
-              backgroundColor: "#FFFFFF",
-              clipPath: "polygon(50% 0, 46% 100%, 54% 100%)",
-              margin: "-13px 0 0 0",
-              // zIndex:"210"
-            }}
-            >
-              </Box> */}
+          
           <List component="nav" aria-label="mailbox folders">
             <ListItem button>
               <ListItemText primary="Inbox" />

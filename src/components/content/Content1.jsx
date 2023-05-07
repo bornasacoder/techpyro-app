@@ -4,7 +4,7 @@ import React from "react";
 import styled from "styled-components";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   padding: "38px 92px ",
-  background: `url(${"https://img.freepik.com/premium-photo/female-seller-talking-with-buyer-store-fabrics-accessories-curtains_116407-3364.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  background: `url(${"https://img.freepik.com/free-photo/medium-shot-people-shopping-food_23-2149295017.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
   gap: 2,
 }));
@@ -76,7 +76,7 @@ export default function Content1() {
           //   xs={{xs:12,sm:6,md:4}}
         >
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
-              <Avatar src="https://img.freepik.com/free-vector/consumers-isometric-set_1284-26368.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+              <Avatar src="https://img.freepik.com/free-photo/medium-shot-people-holding-groceries-bag_23-2149663614.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
                 "&:hover": {
                   border: "15px solid #01808A",
   },
@@ -86,11 +86,11 @@ export default function Content1() {
                 variant="h3"
                 sx={{ display: "flex", justifyContent: "center",color:"#fff",textAlign:"center" }}
               >
-            Online shopping
+            Home delivery
               </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
-              <Avatar src="https://img.freepik.com/free-vector/webrooming-abstract-concept-illustration_335657-3898.jpg?w=740&t=st=1683459579~exp=1683460179~hmac=160737c244a8a3ddf4736ed02094bec3c6d4f7f1b4ba43eb73a933550adc9e1f" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+              <Avatar src="https://img.freepik.com/premium-vector/hand-drawn-people-shopping-supermarket-background_23-2148116975.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
                 "&:hover": {
                   border: "15px solid #01808A",
   },
@@ -100,11 +100,11 @@ export default function Content1() {
                 variant="h3"
                 sx={{ display: "flex", justifyContent: "center",color:"#fff",textAlign:"center" }}
               >
-            Rewards programs
+           Bulk purchasing
               </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
-              <Avatar src="https://img.freepik.com/free-photo/woman-putting-wrapped-gift-shopping-bag-close-up_23-2148302789.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+              <Avatar src="https://img.freepik.com/free-photo/lifestyle-people-learning-make-sushi_23-2149865358.jpg?w=900&t=st=1683464188~exp=1683464788~hmac=64440b3c3d7c2597e0dea6215f7c9ffedd63b1309fb897b678a22db0efa73b03" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
                 "&:hover": {
                   border: "15px solid #01808A",
   },
@@ -114,7 +114,7 @@ export default function Content1() {
                 variant="h3"
                 sx={{ display: "flex", justifyContent: "center",color:"#fff" }}
               >
-          Gift wrapping
+          Cooking classes
               </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>

@@ -26,7 +26,7 @@ const NavBar = styled(Box)(({ theme }) => ({
   // zIndex: 200,
   // position: "static",
   background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)
-  ),url(${"https://img.freepik.com/premium-photo/smiling-girl-clothing-shop-choosing_23-2147669918.jpg?w=900"})
+  ),url(${"https://img.freepik.com/free-photo/woman-with-tablet-checking-shopping-cart-see-if-she-has-everything-she-needs-lunch_342744-1111.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
    center/cover no-repeat`,
 }));
 

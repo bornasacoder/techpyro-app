@@ -88,14 +88,14 @@ export default function Content2() {
                 alignItems:'center',
                 fontSize:'20px',
                 fontWeight:'700',
-                background: `url(${"https://img.freepik.com/free-vector/flat-autumn-sale-instagram-stories-collection-with-photo_23-2149042350.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-vector/couple-outside-supermarket-building-scene_24877-59347.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,  
             height:'320px',
             // width:'350px'
             color:"#fff"
               }}
             >
-            Seasonal promotions
+           Cashback offers
             </Item>
           </Grid>
           <Grid item xs={12} sm={4} md={4} data-aos="zoom-in">
@@ -106,13 +106,13 @@ export default function Content2() {
                 alignItems:'center',
                 fontSize:'20px',
                 fontWeight:'700',
-                background: `url(${"https://img.freepik.com/premium-vector/download-premium-flat-illustration-discount-offer_203633-4924.jpg?w=740"})
+                background: `url(${"https://img.freepik.com/free-vector/flat-design-reseller-illustration_23-2149481433.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
                 center/cover no-repeat`,  
                          height:'320px',
                          color:"#000"
               }}
               >
-              Student discounts
+              Sales 
             </Item>
           </Grid>
           <Grid item xs={12} sm={4} md={4} data-aos="zoom-in">
@@ -129,7 +129,7 @@ export default function Content2() {
                          height:'320px',
               }}
               >
-            Financing options 
+            Free delivery
             </Item>
           </Grid>
          
