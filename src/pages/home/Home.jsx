@@ -32,8 +32,8 @@ const Home = () => {
          <Block8 />
          {/* <Block1 /> */}
          <MiniSlider sliderData={pizza} />
-         <Block4 />
-         <BigSlider sliderData={adidas}/>
+         {/* <Block4 />
+         <BigSlider sliderData={adidas}/> */}
          <Block2 />
          {/* <MiniSlider sliderData={pizza} /> */}
          <Footer /> 

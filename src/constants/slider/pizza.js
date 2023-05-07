@@ -9,7 +9,7 @@ export const pizza = [
          },
          category:["Spring Rolls","Thali","sweets"],
          tagline: "10 indian Women Who Helped Draft The Indian Constitution",
-    image:"https://img.freepik.com/free-photo/successful-child-with-graduation-cap-backpack-full-books_1098-3455.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+    image:"https://img.freepik.com/premium-photo/funny-asian-children_1098-9527.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
          rating:"Read More",
      },
 
@@ -23,7 +23,7 @@ export const pizza = [
       },
          category:["Spring Rolls","Thali","sweets"],
          tagline: "10 indian Women Who Helped Draft The Indian Constitution",
-   image:"https://img.freepik.com/free-photo/young-girl-reading-thinking_1150-4122.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+   image:"https://img.freepik.com/free-photo/front-view-children-playing-together-kindergarten_23-2148633303.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
    rating:"Read More",
      },
      {
@@ -35,7 +35,7 @@ export const pizza = [
           cost: "₹3,199"
       },
          category:["Spring Rolls","Thali","sweets"],
-     image:"https://img.freepik.com/free-photo/students-knowing-right-answer_329181-14271.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+     image:"https://img.freepik.com/free-photo/medium-shot-kids-sitting-together-table_23-2149355251.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
      tagline: "10 indian Women Who Helped Draft The Indian Constitution",
      rating:"Read More",
      },
@@ -48,7 +48,7 @@ export const pizza = [
           cost: "₹3,199"
       },
          category:["Spring Rolls","Thali","sweets"],
-       image: "https://img.freepik.com/free-photo/diverse-kids-reading-books_53876-146406.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+       image: "https://img.freepik.com/premium-photo/cute-little-indian-asian-girl-playing-with-colourful-block-toys-white-background_466689-46079.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
        tagline: "10 indian Women Who Helped Draft The Indian Constitution",
        rating:"Read More",
      },
@@ -61,7 +61,7 @@ export const pizza = [
           cost: "₹3,199"
       },
          category:["Spring Rolls","Thali","sweets"],
-   image:"https://images.pexels.com/photos/8554446/pexels-photo-8554446.jpeg?auto=compress&cs=tinysrgb&w=600",
+   image:"https://img.freepik.com/free-photo/play-colors-blots-hands-word_53876-121460.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
    tagline: "10 indian Women Who Helped Draft The Indian Constitution",
    rating:"Read More",
      },
