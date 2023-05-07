@@ -207,7 +207,7 @@ const Downnav = styled(Box)(({ theme }) => ({
 ));
 
 const NavBar = styled(AppBar)(({theme}) =>({
-  backgroundImage: `url(${"https://img.freepik.com/free-photo/wide-angle-shot-schonbrunn-palace-vienna-austria-with-cloudy-blue-sky_181624-9096.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"})`,
+  backgroundImage: `url(${"https://img.freepik.com/free-psd/kindergarten-ad-template-banner_23-2148613415.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
   backgroundSize:'cover',
    
     width:'100%',
@@ -262,7 +262,7 @@ export default function Navbar() {
             </Box>
         
           <Box sx={{display:{xs:'block',sm:'block',md:'block'}}}>
-          <Typography sx={{fontSize:{xs:'30px',sm:'20px',md:'40px'},fontWeight:'700',color:'white',fontFamily:'cursive'}}>University</Typography>
+          <Typography sx={{fontSize:{xs:'25px',sm:'30px',md:'40px'},fontWeight:'700',color:'white',fontFamily:'cursive'}}>Play School</Typography>
           </Box>
 
           <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        
@@ -322,10 +322,8 @@ export default function Navbar() {
             
         </StyleToolbar>
         </Box>
-        <Box sx={{display:'flex'}}>
-        {/* <Ram>
-       
-        </Ram> */}
+        {/* <Box sx={{display:'flex'}}>
+        
 
         <Box sx={{backgroundColor:'#FCFCFC',width:{xs:'100%',sm:'100%',md:'480px'},height:'500px',display:'flex',justifyContent:'center',alignItems:'center',paddingBottom:{xs:'30px',sm:'70px',md:'0px'},borderRadius:'20px',margin:{xs:'0px',sm:'0px',md:'50px 0 0 70px'},flexDirection:'column',gap:'10px'}}>
 
@@ -356,7 +354,7 @@ export default function Navbar() {
             <Button variant='contained' sx={{borderRadius:'10px',fontSize:'25px',backgroundColor:'#FF853A'}}>Shedule a  Class</Button>
           </Box>
           </Box>
-        </Box>
+        </Box> */}
         {/* <Navbar2>
                <Box sx={{display:'flex',gap:'30px',paddingLeft:'30px'}}>
                 <Typography sx={{fontWeight:'600'}}>How do you want your Items?</Typography>

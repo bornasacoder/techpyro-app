@@ -74,7 +74,7 @@ const Block9 = () => {
 <Box sx={{margin:{xs:'40px 10px',sm:'0px 50px',md:'40px 100px'},width:'auto',display:'flex',justifyContent:'center',flexDirection:{xs:'column',sm:'column',md:'row',gap:'40px'}}}>
 
 <Box sx={{backgroundColor:'#F2F2F2',display:'flex',flexDirection:'column',alignItems:'center',width:{xs:'100%',sm:'100%',md:'530px'},boxShadow:'1px 2px 5px 1px rgba(0,0,0,0.1)',borderRadius:'20px'}}>
-  <Typography sx={{backgroundColor:'#616DFF',color:'white',fontSize:'20px',fontWeight:'600',width:'150px',display:'flex',justifyContent:'center',borderRadius:'10px'}}>MBA</Typography>
+  <Typography sx={{backgroundColor:'#616DFF',color:'white',fontSize:'20px',fontWeight:'600',width:'150px',display:'flex',justifyContent:'center',borderRadius:'10px'}}>LKG</Typography>
 
       
       <CardBox >
@@ -101,7 +101,7 @@ const Block9 = () => {
 
 
 <Box sx={{backgroundColor:'#F2F2F2',display:'flex',flexDirection:'column',alignItems:'center',width:{xs:'100%',sm:'100%',md:'530px'},boxShadow:'1px 2px 5px 1px rgba(0,0,0,0.1)',borderRadius:'20px'}}>
-  <Typography sx={{backgroundColor:'#616DFF',color:'white',fontSize:'20px',fontWeight:'600',width:'150px',display:'flex',justifyContent:'center',borderRadius:'10px'}}>LLB</Typography>
+  <Typography sx={{backgroundColor:'#616DFF',color:'white',fontSize:'20px',fontWeight:'600',width:'150px',display:'flex',justifyContent:'center',borderRadius:'10px'}}>UKG</Typography>
 
       <CardBox >
       <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'50%',sm:'50%',md:'50%'},padding:{xs:'20px',sm:'0px',md:'50px'}}}>

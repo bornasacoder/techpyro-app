@@ -9,7 +9,7 @@ export const adidas = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "BYJU'S helped Manav pick up his learning pace in science",
-      image:"https://img.freepik.com/free-photo/front-view-male-student-wearing-black-backpack-holding-copybooks-files-blue-wall_140725-42636.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+      image:"https://img.freepik.com/free-photo/cute-little-girl-drawing-with-paint-paintbrush-home_155003-15806.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"class9|Banglore",
        },
 
@@ -23,7 +23,7 @@ export const adidas = [
         },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "BYJU'S helped Manav pick up his learning pace in science",
-     image:"https://img.freepik.com/free-photo/friendly-confident-woman-writing-her-organizer-isolated-white-wall_231208-1176.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+     image:"https://img.freepik.com/free-photo/group-children-sitting-table-with-markers-crayons-colored-cardboard_186202-6323.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
      rating:"class9|Banglore",
        },
        {
@@ -35,7 +35,7 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://img.freepik.com/free-photo/casual-clothes-portrait-attractive-young-woman-standing-office-with-black-bag_146671-16554.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+       image:"https://img.freepik.com/free-photo/children-group-reading-books_23-2148107425.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
        tagline: "BYJU'S helped Manav pick up his learning pace in science",
        rating:"class9|Banglore",
        },

@@ -29,7 +29,7 @@ const Home = () => {
     
          <Navbar /> 
          <Block2 />
-         <Block8 />
+         {/* <Block8 /> */}
          <Block9 />
          <Block1 />
          <BigSlider sliderData={adidas}/>
