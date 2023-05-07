@@ -68,7 +68,7 @@ const Block2 = () => {
 
      </Box1> */}
   <Box sx={{display:'flex',flexDirection:'column',alignItems:'center',padding:{xs:'50px 0px',sm:'70px 0px',md:'100px'},textAlign:'center'}}>
-       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'35px'},fontWeight:'700'}}>Campus Life</Typography>
+       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'35px'},fontWeight:'700'}}>School Life</Typography>
        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'500'}}>Building a vibrant community of creative and accomplished people</Typography>
 
        
@@ -85,7 +85,7 @@ const Block2 = () => {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="/images/category/edu5.webp"
+          image="https://img.freepik.com/premium-photo/old-university-library-faculty-geography-history_136875-466.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
      </Box>
@@ -106,7 +106,7 @@ const Block2 = () => {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="/images/category/edu6.webp"
+          image="https://img.freepik.com/free-photo/children-doing-experiments-laboratory_23-2148891875.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
      </Box>
@@ -129,7 +129,7 @@ const Block2 = () => {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="/images/category/edu7.webp"
+          image="https://img.freepik.com/premium-photo/interior-public-dining-area-with-colourul-plastic-chairs-tables_454047-2671.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
      </Box>

@@ -9,7 +9,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-      image:"https://images.pexels.com/photos/5676744/pexels-photo-5676744.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image:"https://img.freepik.com/free-psd/back-school-facebook-cover-banner-template_106176-1207.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
 
@@ -23,35 +23,35 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-     image:"https://images.pexels.com/photos/6146978/pexels-photo-6146978.jpeg?auto=compress&cs=tinysrgb&w=600",
+     image:"https://img.freepik.com/free-psd/back-school-facebook-cover-banner-template_106176-1193.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
-       {
-        name:"Samba Vegan Shoes",
-        style:'Men Life Style',
-         price: {
-               mrp: "$199",
-               discount: "100",
-               cost: "99"
-           },
-           category:["Spring Rolls","Thali","sweets"],
-       image:"https://images.pexels.com/photos/5940838/pexels-photo-5940838.jpeg?auto=compress&cs=tinysrgb&w=600",
-       tagline: "new",
-           rating:"4.3",
-       },
-       {
-        name:"Samba Vegan Shoes",
-        style:'Men Life Style',
-         price: {
-               mrp: "$199",
-               discount: "100",
-               cost: "99"
-           },
-           category:["Spring Rolls","Thali","sweets"],
-         image: "https://images.pexels.com/photos/6140909/pexels-photo-6140909.jpeg?auto=compress&cs=tinysrgb&w=600",
-         tagline: "new",
-           rating:"4.3",
-       },
+    //    {
+    //     name:"Samba Vegan Shoes",
+    //     style:'Men Life Style',
+    //      price: {
+    //            mrp: "$199",
+    //            discount: "100",
+    //            cost: "99"
+    //        },
+    //        category:["Spring Rolls","Thali","sweets"],
+    //    image:"https://images.pexels.com/photos/5940838/pexels-photo-5940838.jpeg?auto=compress&cs=tinysrgb&w=600",
+    //    tagline: "new",
+    //        rating:"4.3",
+    //    },
+    //    {
+    //     name:"Samba Vegan Shoes",
+    //     style:'Men Life Style',
+    //      price: {
+    //            mrp: "$199",
+    //            discount: "100",
+    //            cost: "99"
+    //        },
+    //        category:["Spring Rolls","Thali","sweets"],
+    //      image: "https://images.pexels.com/photos/6140909/pexels-photo-6140909.jpeg?auto=compress&cs=tinysrgb&w=600",
+    //      tagline: "new",
+    //        rating:"4.3",
+    //    },
     //    {
     //     name:"Samba Vegan Shoes",
     //     style:'Men Life Style',

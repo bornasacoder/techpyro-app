@@ -46,7 +46,7 @@ const Block4 = () => {
   return (
     <>
        
-        <Box2>
+        {/* <Box2>
           <Box sx={{backgroundColor:'rgba(0,0,0,0.4)',width:'100%',height:{xs:'auto',sm:'auto',md:'400px'}, display:'flex',justifyContent:'center',alignItems:'center',flexDirection:{xs:'column',sm:'column',md:'row'},gap:{xs:'20px',sm:'20px',md:'0px'}}}>
           <Box sx={{display:'flex',color:'white',flexDirection:'column',justifyContent:'center',alignItems:'center',width:'300px',borderRight:'1px solid ',gap:{xs:'10px',sm:'10px',md:'20px'}}}>
             <AutoStories sx={{fontSize:{xs:'60px',sm:'65px',md:'65px'}}}/>
@@ -72,7 +72,7 @@ const Block4 = () => {
             <Typography sx={{fontSize:{xs:'25px',sm:'25px',md:'25px'},fontWeight:'500'}}>Course Published</Typography>
           </Box>
            </Box>
-       </Box2> 
+       </Box2>  */}
 
        <Box sx={{display:'flex',flexDirection:'column',alignItems:'center',padding:{xs:'50px 0px',sm:'100px 50px',md:'100px'},textAlign:'center'}}>
        <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'35px'},fontWeight:'700'}}>Why Choose Us?</Typography>

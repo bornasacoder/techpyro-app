@@ -30,12 +30,12 @@ const Home = () => {
          <Navbar /> 
          <SwiggySlider sliderData={other}/>
          <Block8 />
-         <Block1 />
+         {/* <Block1 /> */}
          <MiniSlider sliderData={pizza} />
          <Block4 />
          <BigSlider sliderData={adidas}/>
          <Block2 />
-         <MiniSlider sliderData={pizza} />
+         {/* <MiniSlider sliderData={pizza} /> */}
          <Footer /> 
        
       

@@ -95,7 +95,7 @@ const Footer = () => {
         <Box sx={{fontSize: {xs:'15px',sm:'18px',md:'18px'},paddingBottom:{xs:'0px',sm:'18px',md:'none'},width:{xs:'150px',sm:'150px',md:'250px'},display:'flex',flexDirection:'column',gap:'20px',color:'#E1A910'}}>
         <Box sx={{display:{xs:'flex',sm:'flex',md:'flex'},alignItems:'center',gap:'5px'}}> 
         <School sx={{fontSize:'50px',color:'#FFB606'}}/>
-          <Typography sx={{fontSize:{xs:'30px',sm:'20px',md:'30px'},fontWeight:'700',color:'white'}}>EDUMA</Typography>
+          <Typography sx={{fontSize:{xs:'30px',sm:'20px',md:'30px'},fontWeight:'700',color:'white'}}>ABC School</Typography>
           </Box>
         <Box sx={{display:'flex',flexDirection:'column',gap:'10px',color:'white'}}>
         <Box sx={{display:{xs:'flex',sm:'flex',md:'flex'},alignItems:'center',gap:'5px'}}>  
