@@ -56,7 +56,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       },}}
           component="img"
-          image="https://img.freepik.com/free-photo/cool-earphones-with-blue-background_23-2150271766.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/premium-psd/luxury-jewelry-sale-instagram-story-social-media-story-template_185005-195.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -67,7 +67,7 @@ export default function Block2() {
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
    <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Electronics</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Jewelleries</Typography>
           
         </Box>
        
@@ -85,7 +85,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/new-smartphone-balancing-with-podium_23-2150296471.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/golden-chain-leaf-arrangement_23-2149836481.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -96,7 +96,7 @@ export default function Block2() {
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
     <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Electronics</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Jewelleries</Typography>
          
         </Box>
        
@@ -115,7 +115,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/premium-photo/modern-blue-wireless-headphones-isolated-white-background-with-clipping-path_685843-63.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-vector/jewelry-realistic-set_1284-6728.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -126,7 +126,7 @@ export default function Block2() {
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
       <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Electronics</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Jewelleries</Typography>
          
         </Box>
        
@@ -146,7 +146,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/new-smartphone-balancing-with-wavy-item_23-2150296467.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/expensive-golden-ring-with-human-hand-stand-display_23-2150347067.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -157,7 +157,7 @@ export default function Block2() {
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
       <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Electronics</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Jewelleries</Typography>
          
         </Box>
        
@@ -176,7 +176,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/new-laptop-balancing-with-geometric-shapes_23-2150296461.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/display-shiny-luxurious-golden-chain_23-2149635267.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -187,7 +187,7 @@ export default function Block2() {
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
     <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Electronics</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Jewelleries</Typography>
           
          
         </Box>
@@ -207,7 +207,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/premium-photo/laptop-camera-accessories-gray-background-generative-ai_634053-3578.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/premium-photo/indian-traditional-jewellery_136354-3542.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -218,7 +218,7 @@ export default function Block2() {
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
     <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Electronics</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Jewelleries</Typography>
           
           
         </Box>

@@ -28,7 +28,7 @@ const Video= styled(Box)(({ theme }) => ({
   const Box1= styled(Box)(({ theme }) => ({
     height:'600px',
     width:'auto',
-    backgroundImage: `url(${"https://img.freepik.com/premium-photo/workaholic-hand-typing-keyboard-dark-late-night-with-computer_1439-169.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"})`,
+    backgroundImage: `url(${"https://img.freepik.com/free-psd/indian-wedding-invitation-banner-template_23-2149359796.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"})`,
     backgroundSize:'cover',
      margin:'0px 80px',
      [theme.breakpoints.down('md')]: {
@@ -47,7 +47,7 @@ const Video= styled(Box)(({ theme }) => ({
    const Box2= styled(Box)(({ theme }) => ({
       height:'600px',
       width:'auto',
-      backgroundImage: `url(${"https://img.freepik.com/free-photo/smartphones-balancing-with-pink-background_23-2150271742.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"})`,
+      backgroundImage: `url(${"https://img.freepik.com/free-vector/golden-arabeqsue-mandala-pattern-arabis-style-backgroud_1017-26080.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"})`,
       backgroundSize:'cover',
        margin:'0px 80px',
    //    position:'absolute'
@@ -75,11 +75,11 @@ const Block5 = () => {
       
       <Box sx={{marginLeft:{xs:' 10px',sm:'30px',md:'50px'},width:'',height:{xs:' 500px',sm:'350px',md:'500px'},marginRight:{xs:' 10px',sm:'30px',md:'80px'},zIndex:'-1'}}>
         <Box sx={{display:{xs:'block',sm:'none',md:'block'}}}>
-      <video style={{height:'500px',zIndex:'-1',position:'absolute',objectFit:'cover',width:'93%',}}  src="https://player.vimeo.com/external/451464846.sd.mp4?s=f17fd0cf4fabbbe198a3e66cf1ed7a6fb0585836&profile_id=164&oauth2_token_id=57447761" autoPlay loop muted ></video>
+      <video style={{height:'500px',zIndex:'-1',position:'absolute',objectFit:'cover',width:'93%',}}  src="https://v4.cdnpk.net/videvo_files/video/free/video0453/large_watermarked/_import_605e56a9452f37.06850962_FPpreview.mp4" autoPlay loop muted ></video>
         </Box>
       
         <Box sx={{display:{xs:'none',sm:'block',md:'none'}}}>
-      <video style={{height:'350px',zIndex:'-1',position:'absolute',objectFit:'cover',width:'93%',}}  src="https://player.vimeo.com/external/451464846.sd.mp4?s=f17fd0cf4fabbbe198a3e66cf1ed7a6fb0585836&profile_id=164&oauth2_token_id=57447761" autoPlay loop muted ></video>
+      <video style={{height:'350px',zIndex:'-1',position:'absolute',objectFit:'cover',width:'93%',}}  src="https://v4.cdnpk.net/videvo_files/video/free/video0453/large_watermarked/_import_605e56a9452f37.06850962_FPpreview.mp4" autoPlay loop muted ></video>
         </Box>
       <Box sx={{display:'flex',flexDirection:'column',alignItem:'center',width:'auto',height:{xs:'500px',sm:'500px',md:'500px'},gap:'20px'}}>
       <Box sx={{height:'auto',width:{xs:'240px',sm:'300px',md:'320px'},color:'white',marginLeft:{xs:'10px',sm:'50px',md:'160px'}}}>

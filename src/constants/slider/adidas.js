@@ -9,7 +9,7 @@ export const adidas = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "Wrogn men solid black jeans",
-      image:"https://img.freepik.com/free-photo/pink-headphones-wireless-digital-device_53876-96804.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
+      image:"https://img.freepik.com/free-photo/shiny-gemstone-necklace-reflects-elegance-glamour-generated-by-ai_188544-10583.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
            rating:"4.3",
        },
 
@@ -23,7 +23,7 @@ export const adidas = [
         },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "Wrogn men solid black jeans",
-     image:"https://img.freepik.com/free-photo/wireless-inear-headphones-with-case-pink-background-flat-lay_169016-23020.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
+     image:"https://img.freepik.com/free-vector/jewelry-accessories-realistic-transparent-set-with-rings-necklace-earrings_1284-27175.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
            rating:"4.3",
        },
        {
@@ -35,8 +35,7 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://img.freepik.com/premium-photo/gamer-workspace_127657-18683.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
-       tagline: "Wrogn men solid black jeans",
+       image:"https://img.freepik.com/premium-photo/royal-gold-jewellery-set_1396-371.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
            rating:"4.3",
        },
        {
@@ -48,7 +47,7 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://img.freepik.com/free-photo/black-headphones-digital-device_53876-96805.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
+         image: "https://img.freepik.com/free-photo/bust-showcase-jewelry-display-necklace-pendant-jewelry-lifestyle-fashion-accessories-mockup_460848-14327.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
          tagline: "Wrogn men solid black jeans",
            rating:"4.3",
        },
@@ -61,7 +60,7 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-     image:"https://img.freepik.com/free-photo/wireless-keyboard-balancing-with-green-background_23-2150271762.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
+     image:"https://img.freepik.com/premium-psd/gold-jewelry-element-transparent-background_221414-278.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
      tagline: "Wrogn men solid black jeans",
            rating:"4.3",
        },
@@ -75,7 +74,7 @@ export const adidas = [
         },
            category:["Spring Rolls","RasGulla","sweets"],
            tagline: "Wrogn men solid black jeans",
-     image:"https://img.freepik.com/free-photo/tv-nature-concept_23-2150246085.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
+     image:"https://img.freepik.com/free-photo/beautiful-engagement-ring-with-diamonds_23-2149509236.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
 
            rating:"4.3",
        },
