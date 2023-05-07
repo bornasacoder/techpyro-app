@@ -9,7 +9,7 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
     [theme.breakpoints.down("sm")]: {
         justifyContent:'center' 
         },
-        background: `url(${"https://img.freepik.com/free-photo/engagement-ring-chalkboard-near-pastry_23-2147743510.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+        background: `url(${"https://img.freepik.com/premium-photo/restaurant-lunch-catering-buffet-with-different-dishes_219193-3429.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
          center/cover no-repeat`,
   }));
 export default function Content4() {
@@ -21,7 +21,7 @@ export default function Content4() {
 Discover Our
 </Typography>
 <Typography  sx={{fontFamily:'Dancing Script',fontSize:{md:"88px",sm:'68px',xs:"38px"},color:"#fff"}} data-aos="zoom-out">
-Backery Items
+Restaurant Items
 </Typography>
 <Box display="flex">
           <Button

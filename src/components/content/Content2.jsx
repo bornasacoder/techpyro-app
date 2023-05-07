@@ -88,13 +88,13 @@ export default function Content2() {
                 alignItems:'center',
                 fontSize:'20px',
                 fontWeight:'700',
-                background: `url(${"https://img.freepik.com/free-vector/bakery-ad-template-banner_23-2148706493.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-vector/colorful-sale-banner-design-template_1057-4435.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,  
             height:'320px',
             // width:'350px'
               }}
             >
-             Discounted items
+            Specials of the day week
             </Item>
           </Grid>
           <Grid item xs={12} sm={4} md={4} data-aos="zoom-in">
@@ -105,12 +105,12 @@ export default function Content2() {
                 alignItems:'center',
                 fontSize:'20px',
                 fontWeight:'700',
-                background: `url(${"https://img.freepik.com/free-vector/combo-offers-banners-concept_23-2148657937.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/premium-vector/discount-advertising-shopping-event-promotion-mobile-market-customer-attraction-manager-admn-working_566886-2352.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
                 center/cover no-repeat`,  
                          height:'320px',
               }}
               >
-              Combo deals
+              Events and promotions
             </Item>
           </Grid>
           <Grid item xs={12} sm={4} md={4} data-aos="zoom-in">
@@ -122,12 +122,12 @@ export default function Content2() {
                 fontSize:'20px',
                 fontWeight:'700',
                 color:"#fff",
-                background: `url(${"https://img.freepik.com/free-vector/children-s-birthday-banner_23-2148779645.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/premium-psd/food-menu-restaurant-flyer-template_120329-382.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
                 center/cover no-repeat`,  
                          height:'320px',
               }}
               >
-             Birthday specials
+             Prix fixe menus
             </Item>
           </Grid>
          
