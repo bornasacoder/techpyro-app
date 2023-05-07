@@ -10,7 +10,7 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-          image: "https://img.freepik.com/premium-photo/royal-indian-jewellery_1396-364.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
+          image: "https://img.freepik.com/free-photo/exotic-fruits-berries-spanish-market_1398-2235.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
           rating:"*4.3",
       },
       {
@@ -22,7 +22,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-          image: "https://img.freepik.com/free-photo/fine-jewelry-promotion-ears-woman_114579-11505.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
+          image: "https://img.freepik.com/free-photo/dried-fruits-nuts-counter_1398-2241.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
           rating:"*4.3",
       },
       {
@@ -32,7 +32,7 @@ export const pizza = {
           discount: "50% OFF",
           cost: "₹2,500"
       },
-         image: "https://img.freepik.com/premium-photo/indian-traditional-jewellery_136354-3598.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
+         image: "https://img.freepik.com/premium-photo/colorful-spice-background-top-view-seasonings-herbs-indian-food_84485-14.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
           rating:"*4.3",
@@ -46,7 +46,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-        image: "https://img.freepik.com/free-photo/wedding-rings-solo-woden-table_8353-55.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
+        image: "https://img.freepik.com/free-photo/various-legumes_53876-47070.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
           rating:"*4.3",
       },
       {
@@ -58,7 +58,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-        image:"https://img.freepik.com/premium-photo/fashion-gold-bracelet-isolated-wood-background-jewelry-gold-luxury_579873-110.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
+        image:"https://img.freepik.com/free-photo/top-view-arrangement-with-grains-bags_23-2148289429.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
           rating:"4.3",
       },
       {
@@ -70,7 +70,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-       image: "https://img.freepik.com/premium-photo/ai-genarated-photo-illustration-colored-gemstone-golden-jewelry-ring-with-ornamental-elements_812649-688.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
+       image: "https://img.freepik.com/free-photo/variety-fresh-tasty-vegetables-dark-background_1220-4537.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
           rating:"4.3",
       },
       // {

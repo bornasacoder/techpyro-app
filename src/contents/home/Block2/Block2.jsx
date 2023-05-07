@@ -56,7 +56,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       },}}
           component="img"
-          image="https://img.freepik.com/premium-psd/luxury-jewelry-sale-instagram-story-social-media-story-template_185005-195.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/spices-market-morocco_23-2148129885.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
        </Box>
@@ -67,7 +67,7 @@ export default function Block2() {
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
    <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Jewelleries</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Grocery</Typography>
           
         </Box>
        
@@ -85,7 +85,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/golden-chain-leaf-arrangement_23-2149836481.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/front-view-orange-lentils-with-nuts-eggs-vegetables-raw-pasta-seasonings-dark-gray-background-raw-meal-diet-kitchen-color-photo-nut-bean_140725-160627.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
        </Box>
@@ -96,7 +96,7 @@ export default function Block2() {
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
     <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Jewelleries</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Grocery</Typography>
          
         </Box>
        
@@ -115,7 +115,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-vector/jewelry-realistic-set_1284-6728.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/indian-condiments-with-copy-space-view_23-2148723492.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
        </Box>
@@ -126,7 +126,7 @@ export default function Block2() {
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
       <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Jewelleries</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Grocery</Typography>
          
         </Box>
        
@@ -146,7 +146,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/expensive-golden-ring-with-human-hand-stand-display_23-2150347067.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/sweet-nuts-counter_1398-2243.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
        </Box>
@@ -157,7 +157,7 @@ export default function Block2() {
       <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
       <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Jewelleries</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Grocery</Typography>
          
         </Box>
        
@@ -176,7 +176,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/display-shiny-luxurious-golden-chain_23-2149635267.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/top-view-bunch-food-provisions-donation-with-copy-space_23-2148733833.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
        </Box>
@@ -187,7 +187,7 @@ export default function Block2() {
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
     <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Jewelleries</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Grocery</Typography>
           
          
         </Box>
@@ -207,7 +207,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/premium-photo/indian-traditional-jewellery_136354-3542.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
+          image="https://img.freepik.com/free-photo/sacks-healthy-legumes-grains_53876-65444.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
        </Box>
@@ -218,7 +218,7 @@ export default function Block2() {
     <Box sx={{height:{xs:'40%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'200px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
     <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Jewelleries</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'500'}}>Grocery</Typography>
           
           
         </Box>

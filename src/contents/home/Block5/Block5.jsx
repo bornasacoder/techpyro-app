@@ -28,7 +28,7 @@ const Video= styled(Box)(({ theme }) => ({
   const Box1= styled(Box)(({ theme }) => ({
     height:'600px',
     width:'auto',
-    backgroundImage: `url(${"https://img.freepik.com/free-psd/indian-wedding-invitation-banner-template_23-2149359796.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"})`,
+    backgroundImage: `url(${"https://img.freepik.com/free-photo/supermarket-banner-concept-with-ingredients_23-2149421147.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais"})`,
     backgroundSize:'cover',
      margin:'0px 80px',
      [theme.breakpoints.down('md')]: {
@@ -47,7 +47,7 @@ const Video= styled(Box)(({ theme }) => ({
    const Box2= styled(Box)(({ theme }) => ({
       height:'600px',
       width:'auto',
-      backgroundImage: `url(${"https://img.freepik.com/free-vector/golden-arabeqsue-mandala-pattern-arabis-style-backgroud_1017-26080.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"})`,
+      backgroundImage: `url(${"https://img.freepik.com/free-photo/supermarket-banner-concept-with-ingredients_23-2149421132.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais"})`,
       backgroundSize:'cover',
        margin:'0px 80px',
    //    position:'absolute'
@@ -75,11 +75,11 @@ const Block5 = () => {
       
       <Box sx={{marginLeft:{xs:' 10px',sm:'30px',md:'50px'},width:'',height:{xs:' 500px',sm:'350px',md:'500px'},marginRight:{xs:' 10px',sm:'30px',md:'80px'},zIndex:'-1'}}>
         <Box sx={{display:{xs:'block',sm:'none',md:'block'}}}>
-      <video style={{height:'500px',zIndex:'-1',position:'absolute',objectFit:'cover',width:'93%',}}  src="https://v4.cdnpk.net/videvo_files/video/free/video0453/large_watermarked/_import_605e56a9452f37.06850962_FPpreview.mp4" autoPlay loop muted ></video>
+      <video style={{height:'500px',zIndex:'-1',position:'absolute',objectFit:'cover',width:'93%',}}  src="https://v4.cdnpk.net/videvo_files/video/free/video0458/large_watermarked/_import_60c2f471670331.73745820_FPpreview.mp4" autoPlay loop muted ></video>
         </Box>
       
         <Box sx={{display:{xs:'none',sm:'block',md:'none'}}}>
-      <video style={{height:'350px',zIndex:'-1',position:'absolute',objectFit:'cover',width:'93%',}}  src="https://v4.cdnpk.net/videvo_files/video/free/video0453/large_watermarked/_import_605e56a9452f37.06850962_FPpreview.mp4" autoPlay loop muted ></video>
+      <video style={{height:'350px',zIndex:'-1',position:'absolute',objectFit:'cover',width:'93%',}}  src="https://v4.cdnpk.net/videvo_files/video/free/video0458/large_watermarked/_import_60c2f471670331.73745820_FPpreview.mp4" autoPlay loop muted ></video>
         </Box>
       <Box sx={{display:'flex',flexDirection:'column',alignItem:'center',width:'auto',height:{xs:'500px',sm:'500px',md:'500px'},gap:'20px'}}>
       <Box sx={{height:'auto',width:{xs:'240px',sm:'300px',md:'320px'},color:'white',marginLeft:{xs:'10px',sm:'50px',md:'160px'}}}>
