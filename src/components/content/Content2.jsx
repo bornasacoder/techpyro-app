@@ -88,13 +88,13 @@ export default function Content2() {
                 alignItems:'center',
                 fontSize:'20px',
                 fontWeight:'700',
-                background: `url(${"https://img.freepik.com/free-vector/colorful-sale-banner-design-template_1057-4435.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-vector/people-line-waiting-pay_52683-14983.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,  
             height:'320px',
             // width:'350px'
               }}
             >
-            Specials of the day week
+            Loyalty programs:
             </Item>
           </Grid>
           <Grid item xs={12} sm={4} md={4} data-aos="zoom-in">
@@ -105,12 +105,12 @@ export default function Content2() {
                 alignItems:'center',
                 fontSize:'20px',
                 fontWeight:'700',
-                background: `url(${"https://img.freepik.com/premium-vector/discount-advertising-shopping-event-promotion-mobile-market-customer-attraction-manager-admn-working_566886-2352.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-psd/horizontal-banner-takeaway-coffee_23-2148786019.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
                 center/cover no-repeat`,  
                          height:'320px',
               }}
               >
-              Events and promotions
+              Daily specials
             </Item>
           </Grid>
           <Grid item xs={12} sm={4} md={4} data-aos="zoom-in">
@@ -122,12 +122,12 @@ export default function Content2() {
                 fontSize:'20px',
                 fontWeight:'700',
                 color:"#fff",
-                background: `url(${"https://img.freepik.com/premium-psd/food-menu-restaurant-flyer-template_120329-382.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-vector/waitress-wearing-face-mask-serving_23-2148599615.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
                 center/cover no-repeat`,  
                          height:'320px',
               }}
               >
-             Prix fixe menus
+             Discounts for students or seniors
             </Item>
           </Grid>
          

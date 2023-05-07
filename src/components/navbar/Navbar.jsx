@@ -28,7 +28,7 @@ const NavBar = styled(Box)(({ theme }) => ({
   // zIndex: 200,
   // position: "static",
   background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)
-  ),url(${"https://img.freepik.com/free-photo/happy-waiter-holding-plates-with-food-looking-camera-while-serving-guests-restaurant_637285-1707.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
+  ),url(${"https://img.freepik.com/free-vector/restaurant-mural-wallpaper_23-2148704223.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
    center/cover no-repeat`,
 }));
 

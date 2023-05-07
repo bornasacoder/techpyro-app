@@ -85,7 +85,7 @@ export default function Content5() {
                 fontSize: "20px",
                 color: "white",
                 fontWeight: "600",
-                background: `url(${"https://img.freepik.com/free-psd/moody-food-restaurant-template-concept_23-2148437111.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-photo/tasty-coffee-espresso-heart-shape-red-cup-chalkboard_1220-800.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
                 // width:'350px'
@@ -114,7 +114,7 @@ export default function Content5() {
                   },
                 }}
               >
-                ARUGULA, MOZZARELLA, TOMATO ON FOCACCIA
+                ARUGULA, MOZZARELLA, COFFIEE ON FOCACCIA
               </Typography>
               <br />
               <Typography>
@@ -151,7 +151,7 @@ export default function Content5() {
                 fontSize: "20px",
                 color: "white",
                 fontWeight: "600",
-                background: `url(${"https://img.freepik.com/premium-psd/burger-delicous-fast-food-social-media-instagram-post-template_660886-66.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-photo/coffee-break-time-leisure-concept_53876-124485.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
                 // width:'350px'
@@ -180,7 +180,7 @@ export default function Content5() {
                   },
                 }}
               >
-                ARUGULA, MOZZARELLA, TOMATO ON FOCACCIA
+                ARUGULA, MOZZARELLA, COFFIEE ON FOCACCIA
               </Typography>
               <br />
               <Typography>

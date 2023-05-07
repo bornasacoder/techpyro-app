@@ -52,9 +52,9 @@ export default function MiddleContent() {
         >
            <Grid item xs={12} sm={12} md={12}>
             <Box display="flex" gap="20px" >
-                <Avatar src="https://img.freepik.com/free-photo/close-up-woman-placing-order-restaurant_23-2147936255.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
+                <Avatar src="https://img.freepik.com/free-photo/cup-coffee-with-heart-drawn-foam_1286-70.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
               <Box display="flex" flexDirection="column">
-            <Typography variant="h1"  fontSize="18px">Menu selection and preparation</Typography>
+            <Typography variant="h1"  fontSize="18px">Coffee and tea</Typography>
                 <Typography>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </Typography>
@@ -63,9 +63,9 @@ export default function MiddleContent() {
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
             <Box display="flex" gap="20px" >
-                <Avatar src="https://img.freepik.com/free-vector/waiter-serving-silver-dish-with-lid-customer_3446-90.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
+                <Avatar src="https://img.freepik.com/free-psd/flat-design-food-template_23-2149817321.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
               <Box display="flex" flexDirection="column">
-            <Typography variant="h1"  fontSize="18px"> Table service</Typography>
+            <Typography variant="h1"  fontSize="18px">Breakfast and brunch</Typography>
                 <Typography>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </Typography>
@@ -74,9 +74,9 @@ export default function MiddleContent() {
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
             <Box display="flex" gap="20px" >
-                <Avatar src="https://img.freepik.com/free-vector/man-delivering-food-while-wearing-medical-mask_52683-39764.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
+                <Avatar src="https://img.freepik.com/free-photo/front-view-delicious-shaurma-sliced-pita-sandwich-with-french-fries-dark-surface-food-burger-bread-grill-meal-snack-toast_140725-153842.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
               <Box display="flex" flexDirection="column">
-            <Typography variant="h1"  fontSize="18px"> Takeout and delivery</Typography>
+            <Typography variant="h1"  fontSize="18px"> Sandwiches and wraps</Typography>
                 <Typography>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </Typography>

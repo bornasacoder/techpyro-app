@@ -72,7 +72,7 @@ export default function Content6() {
           //   xs={{xs:12,sm:6,md:4}}
         >
           <Grid item xs={12} sm={6} md={3} data-aos="fade-up" sx={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-          <Avatar src='https://img.freepik.com/free-photo/smiling-male-baker-holding-baked-bread-chopping-board_23-2147883367.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais' sx={{height: "250px",
+          <Avatar src='https://img.freepik.com/free-photo/confident-chef-wearing-uniform-posing-with-his-arms-crossed-looking-camera-restaurant-kitchen_613910-21338.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais' sx={{height: "250px",
                width: "250px",
                border: "15px solid lightGray","&:hover": {
                 border: "15px solid red",
@@ -153,7 +153,7 @@ export default function Content6() {
             </Item>
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-up" sx={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-          <Avatar src='https://img.freepik.com/free-photo/portrait-happy-male-chef-dressed-uniform_171337-5356.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph' sx={{height: "250px",
+          <Avatar src='https://img.freepik.com/free-photo/portrait-male-chef-kitchen_23-2149646278.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais' sx={{height: "250px",
                width: "250px",
                border: "15px solid lightGray","&:hover": {
                 border: "15px solid red",
