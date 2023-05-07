@@ -261,7 +261,7 @@ export default function Navbar() {
             </Box>
         
           <Box sx={{display:{xs:'block',sm:'block',md:'block'}}}>
-          <Typography sx={{fontSize:{xs:'30px',sm:'20px',md:'40px'},fontWeight:'700',color:'white',fontFamily:'cursive'}}>BYJU'S</Typography>
+          <Typography sx={{fontSize:{xs:'30px',sm:'20px',md:'40px'},fontWeight:'700',color:'white',fontFamily:'cursive'}}>Tution</Typography>
           </Box>
 
           <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        
