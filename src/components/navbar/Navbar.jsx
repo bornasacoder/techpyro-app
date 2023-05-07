@@ -359,8 +359,11 @@ export default function Navbar() {
 
           </Box> */}
           <Ram>
-       
+     
         </Ram>
+        {/* <Box>
+          <Typography sx={{fontSize:'30px'}}>A B C SCHOOL</Typography>
+        </Box> */}
 
         <Box sx={{}}>
             <MenuButton onClick={handleOpen}>
