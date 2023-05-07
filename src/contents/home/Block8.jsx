@@ -83,7 +83,7 @@ const Block8 = () => {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/woman-plying-toys-with-son_23-2147797956.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/student-online-cute-young-guy-studying-computer-glasses-green-shirt-with-cup-happy_140725-164742.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
      </Box>

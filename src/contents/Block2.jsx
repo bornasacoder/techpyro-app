@@ -68,7 +68,7 @@ const Block2 = () => {
 
      </Box1> */}
   <Box sx={{display:'flex',flexDirection:'column',alignItems:'center',padding:{xs:'50px 0px',sm:'70px 0px',md:'100px'},textAlign:'center'}}>
-       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'35px'},fontWeight:'700'}}>School Life</Typography>
+       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'35px'},fontWeight:'700'}}>Student's Life</Typography>
        <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'500'}}>Building a vibrant community of creative and accomplished people</Typography>
 
        
@@ -85,7 +85,7 @@ const Block2 = () => {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/premium-photo/portrait-little-asian-girl-cutting-paper-activities-diy-class-schoolscissors-cut-paper_29488-5753.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/premium-psd/front-view-man-student-with-tablet_23-2148300258.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
      </Box>
@@ -106,7 +106,7 @@ const Block2 = () => {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/kids-home-playing-with-toys_23-2148630637.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/woman-working-as-freelancer-from-home_23-2148604081.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
      </Box>
@@ -129,7 +129,7 @@ const Block2 = () => {
         <CardMedia
         sx={{height:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/top-view-non-binary-kids-playing-with-colorful-game_23-2148779611.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/beautiful-woman-enjoying-free-internet-home_329181-4319.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
      </Box>

@@ -9,7 +9,7 @@ export const pizza = [
          },
          category:["Spring Rolls","Thali","sweets"],
          tagline: "10 indian Women Who Helped Draft The Indian Constitution",
-    image:"https://img.freepik.com/premium-photo/funny-asian-children_1098-9527.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+    image:"https://img.freepik.com/premium-vector/process-education-laptop-as-ebook-online-education-concept-learning_212216-628.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
          rating:"Read More",
      },
 
@@ -23,7 +23,7 @@ export const pizza = [
       },
          category:["Spring Rolls","Thali","sweets"],
          tagline: "10 indian Women Who Helped Draft The Indian Constitution",
-   image:"https://img.freepik.com/free-photo/front-view-children-playing-together-kindergarten_23-2148633303.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+   image:"https://img.freepik.com/free-psd/e-learning-landing-page-template-design_23-2149585645.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
    rating:"Read More",
      },
      {
@@ -35,7 +35,7 @@ export const pizza = [
           cost: "₹3,199"
       },
          category:["Spring Rolls","Thali","sweets"],
-     image:"https://img.freepik.com/free-photo/medium-shot-kids-sitting-together-table_23-2149355251.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+     image:"https://img.freepik.com/free-photo/woman-attending-online-class_23-2148854913.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
      tagline: "10 indian Women Who Helped Draft The Indian Constitution",
      rating:"Read More",
      },
@@ -48,7 +48,7 @@ export const pizza = [
           cost: "₹3,199"
       },
          category:["Spring Rolls","Thali","sweets"],
-       image: "https://img.freepik.com/premium-photo/cute-little-indian-asian-girl-playing-with-colourful-block-toys-white-background_466689-46079.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+       image: "https://img.freepik.com/premium-photo/online-webinars-online-education-elearning-idea_27634-912.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
        tagline: "10 indian Women Who Helped Draft The Indian Constitution",
        rating:"Read More",
      },

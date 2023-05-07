@@ -355,7 +355,7 @@ export default function Navbar() {
           <Box sx={{display:'flex',justifyContent:'space-between',width:'100%'}}>
         <Box sx={{display:{xs:'flex',sm:'flex',md:'flex'},alignItems:'center',gap:'5px'}}> 
         <School sx={{fontSize:'50px',color:'#FFB606'}}/>
-          <Typography sx={{fontSize:{xs:'30px',sm:'20px',md:'30px'},fontWeight:'700',color:'white'}}>Play School</Typography>
+          <Typography sx={{fontSize:{xs:'30px',sm:'20px',md:'30px'},fontWeight:'700',color:'white'}}>Online Tution</Typography>
           </Box>
                <Box sx={{display: {xs:'none',sm:'none',md:'block'}}}> 
            <SearchBar />

@@ -9,7 +9,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-      image:"https://img.freepik.com/free-vector/back-chool-template-wooden-board_1308-33554.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+      image:"https://img.freepik.com/free-vector/digital-online-education-concept-blank-space-laptop_255625-422.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
 
@@ -23,7 +23,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-     image:"https://img.freepik.com/free-vector/hand-drawn-nursery-school-facebook-cover_23-2149759664.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+     image:"https://img.freepik.com/premium-vector/online-education-digital-learning-from-home_3589-1042.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
     //    {
