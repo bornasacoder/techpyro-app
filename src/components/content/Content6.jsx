@@ -47,7 +47,7 @@ export default function Content6() {
             fontWeight: "500",
             color:"#fff"
           }}>
-          Our chef
+          Our Engineer
         </Typography>
       </Box>
       <Box
