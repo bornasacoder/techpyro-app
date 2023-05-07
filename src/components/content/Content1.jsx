@@ -4,7 +4,7 @@ import React from "react";
 import styled from "styled-components";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   padding: "38px 92px ",
-  background: `url(${"https://media.istockphoto.com/id/1481259963/photo/portrait-of-a-women-in-a-shop.jpg?b=1&s=612x612&w=0&k=20&c=OvR7jyUk84eQHHlvt-L_m2dtfi0lAtCD9u2o1KUI3Ik="})
+  background: `url(${"https://img.freepik.com/premium-photo/female-seller-talking-with-buyer-store-fabrics-accessories-curtains_116407-3364.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
   gap: 2,
 }));
@@ -76,7 +76,7 @@ export default function Content1() {
           //   xs={{xs:12,sm:6,md:4}}
         >
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
-              <Avatar src="https://img.freepik.com/free-vector/load-more-concept-illustration_114360-4246.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+              <Avatar src="https://img.freepik.com/free-vector/consumers-isometric-set_1284-26368.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
                 "&:hover": {
                   border: "15px solid #01808A",
   },

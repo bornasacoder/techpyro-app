@@ -9,11 +9,10 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
     [theme.breakpoints.down("sm")]: {
         justifyContent:'center' 
         },
-        background: `url(${"https://img.freepik.com/premium-photo/colorful-shoe-store-rack_79390-1854.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+        background: `url(${"https://images.pexels.com/photos/3965543/pexels-photo-3965543.jpeg?auto=compress&cs=tinysrgb&w=600"})
          center/cover no-repeat`,
   }));
 export default function Content4() {
-    const theme = useTheme();
   return (
     <StyleToolbar>
       <Box>
@@ -21,7 +20,7 @@ export default function Content4() {
 Discover Our
 </Typography>
 <Typography  sx={{fontFamily:'Dancing Script',fontSize:{md:"88px",sm:'68px',xs:"38px"},color:"#fff"}} data-aos="zoom-out">
-SHOES
+CLOTH ITEMS
 </Typography>
 <Box display="flex">
           <Button

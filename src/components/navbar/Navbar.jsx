@@ -10,8 +10,6 @@ import {
 
 
 const NavBar = styled(Box)(({ theme }) => ({
-  // background: theme.header.background,
-  background: "#fff",
   display: "flex",
   alignItems:"space-between",
   gap: "50px",
@@ -28,7 +26,7 @@ const NavBar = styled(Box)(({ theme }) => ({
   // zIndex: 200,
   // position: "static",
   background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)
-  ),url(${"https://img.freepik.com/free-photo/man-choosing-foot-wear-mens-store_1303-30827.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/premium-photo/smiling-girl-clothing-shop-choosing_23-2147669918.jpg?w=900"})
    center/cover no-repeat`,
 }));
 

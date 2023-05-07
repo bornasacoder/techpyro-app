@@ -52,9 +52,9 @@ export default function MiddleContent() {
         >
            <Grid item xs={12} sm={12} md={12}>
             <Box display="flex" gap="20px" >
-                <Avatar src="https://img.freepik.com/premium-photo/bootmaker-shows-repaired-shoes_266732-204.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
+                <Avatar src="https://img.freepik.com/free-photo/boutique-owner-giving-yellow-paper-bag-smiling-young-woman_23-2148101564.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
               <Box display="flex" flexDirection="column">
-            <Typography variant="h1"  fontSize="18px">Shoe fitting</Typography>
+            <Typography variant="h1"  fontSize="18px">Personal shopping</Typography>
                 <Typography>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </Typography>
@@ -63,9 +63,9 @@ export default function MiddleContent() {
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
             <Box display="flex" gap="20px" >
-                <Avatar src="https://img.freepik.com/free-photo/concentrated-shoemaker-workshop-making-shoes_171337-12293.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
+                <Avatar src="https://img.freepik.com/free-photo/portrait-male-personal-shopper-working_23-2148924131.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
               <Box display="flex" flexDirection="column">
-            <Typography variant="h1"  fontSize="18px">Customization</Typography>
+            <Typography variant="h1"  fontSize="18px">Alterations</Typography>
                 <Typography>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </Typography>
@@ -74,9 +74,9 @@ export default function MiddleContent() {
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
             <Box display="flex" gap="20px" >
-                <Avatar src="https://img.freepik.com/premium-photo/man-changing-look-with-new-shoes_530697-39771.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
+                <Avatar src="https://img.freepik.com/free-photo/personal-shopper-helping-cutomer_23-2148924100.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
               <Box display="flex" flexDirection="column">
-            <Typography variant="h1"  fontSize="18px">Footwear advice</Typography>
+            <Typography variant="h1"  fontSize="18px">Styling advice</Typography>
                 <Typography>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </Typography>
