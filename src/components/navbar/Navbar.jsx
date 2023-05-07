@@ -213,7 +213,8 @@ const Downnav = styled(Box)(({ theme }) => ({
 
 const NavBar = styled(AppBar)(({theme}) =>({
     
-  backgroundColor:'#B2B2B2',
+  backgroundImage: `url(${"https://img.freepik.com/free-psd/school-admission-web-banner-social-banner-template_237398-65.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
+  backgroundSize:'cover',
     width:'100%',
     height:'750px',
     margin:"0",
@@ -222,7 +223,7 @@ const NavBar = styled(AppBar)(({theme}) =>({
 
 
 [theme.breakpoints.down('sm')]: {
-  height:'auto',
+  height:'600px',
   width:'100%',
   
  
@@ -342,7 +343,7 @@ export default function Navbar() {
         </Box>
         <Box sx={{display:'flex',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
         
-
+{/* 
         <Box sx={{width:{xs:'auto',sm:'100%',md:'600px'},display:'flex',paddingBottom:{xs:'0px',sm:'0px',md:'0px'},borderRadius:'20px',margin:{xs:'30px 10px 0px 10px',sm:'0px',md:'150px 0 0 200px'},flexDirection:'column',gap:'0px',textAlign:{xs:'center',sm:'center',md:'left'}}}>
         <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'400',color:'#DC3545',fontFamily:'cursive'}}>Welcome to Our Websites</Typography>
         <Typography sx={{fontSize:{xs:'35px',sm:'35px',md:'50px'},fontWeight:'700',color:'white'}}>Bring Fun Life to</Typography>
@@ -351,10 +352,10 @@ export default function Navbar() {
 <Box>
         <Button variant='contained' sx={{width:'150px',marginTop:'10px',backgroundColor:'#DC3545',borderRadius:'0px 50px 0px 50px'}}>LEARN MORE</Button>
         </Box>
-          </Box>
-          <Ram>
+          </Box> */}
+          {/* <Ram>
        
-        </Ram>
+        </Ram> */}
         </Box>
         {/* <Navbar2>
                <Box sx={{display:'flex',gap:'30px',paddingLeft:'30px'}}>
