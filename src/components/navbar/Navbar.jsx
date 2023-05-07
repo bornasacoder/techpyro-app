@@ -207,7 +207,7 @@ const Downnav = styled(Box)(({ theme }) => ({
 ));
 
 const NavBar = styled(AppBar)(({theme}) =>({
-  backgroundImage: `url(${"https://img.freepik.com/free-psd/kindergarten-ad-template-banner_23-2148613415.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
+  backgroundImage: `url(${"https://img.freepik.com/free-psd/back-school-facebook-cover-banner-template_106176-1197.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
   backgroundSize:'cover',
    
     width:'100%',
@@ -262,7 +262,7 @@ export default function Navbar() {
             </Box>
         
           <Box sx={{display:{xs:'block',sm:'block',md:'block'}}}>
-          <Typography sx={{fontSize:{xs:'25px',sm:'30px',md:'40px'},fontWeight:'700',color:'white',fontFamily:'cursive'}}>Play School</Typography>
+          <Typography sx={{fontSize:{xs:'25px',sm:'30px',md:'40px'},fontWeight:'700',color:'white',fontFamily:'cursive'}}>ABC School</Typography>
           </Box>
 
           <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        

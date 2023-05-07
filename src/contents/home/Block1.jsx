@@ -46,7 +46,7 @@ const Box1= styled(Box)(({ theme }) => ({
   return ( 
     <>
 <Box sx={{display:'flex',justifyContent:'center',alignItems:'center'}}>
-<Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'35px'},fontWeight:'700',color:'black',padding:{xs:'20px',sm:'40px',md:'30px'},display:'flex'}}>Get the Schools Advantages</Typography>
+<Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'35px'},fontWeight:'700',color:'black',padding:{xs:'20px',sm:'40px',md:'30px'},display:'flex'}}>Get the  Advantages</Typography>
 </Box>
        
        
@@ -66,7 +66,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.2)'
       },}}
           component="img"
-          image="https://img.freepik.com/free-vector/playground-scene-with-blank-banner-many-kids-doodle-cartoon-character_1308-68496.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/cafe-frankfurt-germany_1268-20912.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -95,7 +95,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/premium-vector/back-school-happy-children-holding-banner_29190-7516.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/close-up-researcher-holding-glassware_23-2148794430.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -127,7 +127,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-vector/kindergarten-cartoon-frame-with-little-kids-playing-together-with-toys-reading-books-vector-illustration_1284-69492.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/premium-photo/chef-standing-full-lunch-service-station_293953-195.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
