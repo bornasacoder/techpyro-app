@@ -85,7 +85,7 @@ export default function Content5() {
                 fontSize: "20px",
                 color: "white",
                 fontWeight: "600",
-                background: `url(${"https://img.freepik.com/free-vector/cyber-monday-flat-design_23-2148319887.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-psd/online-shopping-poster-template-style_23-2148539006.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
                 // width:'350px'
@@ -114,7 +114,7 @@ export default function Content5() {
                   },
                 }}
               >
-                ARUGULA, MOZZARELLA, ELECTRONIC ON FOCACCIA
+                ARUGULA, MOZZARELLA, SHOES ON FOCACCIA
               </Typography>
               <br />
               <Typography>
@@ -151,7 +151,7 @@ export default function Content5() {
                 fontSize: "20px",
                 color: "white",
                 fontWeight: "600",
-                background: `url(${"https://img.freepik.com/free-vector/shopping-online-template-futuristic-landing-page_23-2148530651.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-psd/online-shopping-banner-template-design_23-2148539002.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
                 // width:'350px'
@@ -180,7 +180,7 @@ export default function Content5() {
                   },
                 }}
               >
-                ARUGULA, MOZZARELLA, COFFIEE ON FOCACCIA
+                ARUGULA, MOZZARELLA, SHOES ON FOCACCIA
               </Typography>
               <br />
               <Typography>

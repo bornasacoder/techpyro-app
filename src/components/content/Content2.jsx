@@ -88,14 +88,14 @@ export default function Content2() {
                 alignItems:'center',
                 fontSize:'20px',
                 fontWeight:'700',
-                background: `url(${"https://img.freepik.com/premium-vector/customer-channel_37225-317.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-vector/skating-girl-winter-sport-sale-banner_23-2147991987.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,  
             height:'320px',
             // width:'350px'
             color:"#fff"
               }}
             >
-            Free shipping
+            Seasonal promotions
             </Item>
           </Grid>
           <Grid item xs={12} sm={4} md={4} data-aos="zoom-in">
@@ -106,13 +106,13 @@ export default function Content2() {
                 alignItems:'center',
                 fontSize:'20px',
                 fontWeight:'700',
-                background: `url(${"https://img.freepik.com/free-vector/cyber-monday-sale-background-with-electronic-devices_23-2147959713.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/premium-vector/download-premium-flat-illustration-discount-offer_203633-4924.jpg?w=740"})
                 center/cover no-repeat`,  
                          height:'320px',
                          color:"#000"
               }}
               >
-              Discounts
+              Student discounts
             </Item>
           </Grid>
           <Grid item xs={12} sm={4} md={4} data-aos="zoom-in">

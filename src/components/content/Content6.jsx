@@ -47,7 +47,7 @@ export default function Content6() {
             fontWeight: "500",
             color:"#fff"
           }}>
-          Our Engineer
+          Our Employ
         </Typography>
       </Box>
       <Box
@@ -72,7 +72,7 @@ export default function Content6() {
           //   xs={{xs:12,sm:6,md:4}}
         >
           <Grid item xs={12} sm={6} md={3} data-aos="fade-up" sx={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-          <Avatar src='https://img.freepik.com/free-photo/concentrated-technician-repairing-inside-smartphone-lap-top-by-multimeter-lab_176532-8219.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais' sx={{height: "250px",
+          <Avatar src='https://img.freepik.com/free-photo/mature-smiling-shoemaker-workshop-holding-shoes_171337-12244.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais' sx={{height: "250px",
                width: "250px",
                border: "15px solid lightGray","&:hover": {
                 border: "15px solid red",
@@ -90,7 +90,7 @@ export default function Content6() {
               >
                 JOHN DOE
               </Typography>
-              <Typography>Analog engineer</Typography>
+              <Typography>Shoe repair specialists</Typography>
               <Typography>Mob : +1 (001) 6478</Typography>
               <br/>
               <Box display="flex" justifyContent="center">
@@ -114,7 +114,7 @@ export default function Content6() {
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
            
-             <Avatar src='https://img.freepik.com/free-photo/portrait-smiling-male-technician-working-computer-motherboard_23-2147922367.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais' sx={{height: "250px",
+             <Avatar src='https://img.freepik.com/premium-photo/pretty-woman-shopping-shoes_13339-154720.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais' sx={{height: "250px",
                width: "250px",
                border: "15px solid lightGray","&:hover": {
                 border: "15px solid red",
@@ -130,7 +130,7 @@ export default function Content6() {
               >
               MARTINA JOHNSON
               </Typography>
-              <Typography>Digital engineer</Typography>
+              <Typography>Marketing and merchandising staff</Typography>
               <Typography>Mob : +1 (001) 6478</Typography>
               <br/>
               <Box display="flex" justifyContent="center">
@@ -153,7 +153,7 @@ export default function Content6() {
             </Item>
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-up" sx={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-          <Avatar src='https://img.freepik.com/free-photo/front-view-man-repairing-computer_23-2148419159.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais' sx={{height: "250px",
+          <Avatar src='https://img.freepik.com/free-photo/cobbler-works-his-workshop_641386-1145.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais' sx={{height: "250px",
                width: "250px",
                border: "15px solid lightGray","&:hover": {
                 border: "15px solid red",
@@ -169,7 +169,7 @@ export default function Content6() {
               >
                ALEXANDER HORO
               </Typography>
-              <Typography>Control systems engineer</Typography>
+              <Typography>Store managers</Typography>
               <Typography>Mob : +1 (001) 6478</Typography>
               <br/>
               <Box display="flex" justifyContent="center">
@@ -192,7 +192,7 @@ export default function Content6() {
             </Item>
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-          <Avatar src='https://img.freepik.com/premium-photo/young-people-robotics-classroom_52137-13413.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais' sx={{height: "250px",
+          <Avatar src='https://img.freepik.com/free-photo/woman-with-paper-bags-credit-card-near-laptop_23-2147786793.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais' sx={{height: "250px",
                width: "250px",
                border: "15px solid lightGray","&:hover": {
                 border: "15px solid red",
@@ -206,9 +206,9 @@ export default function Content6() {
                     color: "red",
                   }, }}
               >
-               RF/microwave engineer
+               Julliya
               </Typography>
-              <Typography>Gluten-Free Baker</Typography>
+              <Typography>Online customer service representatives</Typography>
               <Typography>Mob : +1 (001) 6478</Typography>
               <br/>
               <Box display="flex" justifyContent="center">
