@@ -9,7 +9,7 @@ export const adidas = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "Wrogn men solid black jeans",
-      image:"https://img.freepik.com/free-photo/side-view-two-cups-coffee-cookies-cinnamon-limes-old-newspaper-dark-surface_140725-142669.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+      image:"https://img.freepik.com/premium-photo/close-up-juicy-beef-burger-with-cheese-food-photography-generative-art-by-ai_35887-4005.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
            rating:"4.3",
        },
 
@@ -23,7 +23,7 @@ export const adidas = [
         },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "Wrogn men solid black jeans",
-     image:"https://img.freepik.com/free-photo/cup-coffee-with-heart-drawn-foam_1286-70.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+     image:"https://img.freepik.com/free-photo/delicious-hamburger-wooden-board_23-2149235947.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
            rating:"4.3",
        },
        {
@@ -35,7 +35,7 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://img.freepik.com/free-vector/coffee-poster-with-realistic-white-porcelain-cup-textured-background_1284-10871.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+       image:"https://img.freepik.com/free-photo/front-view-delicious-meat-cheeseburger-with-french-fries-tomatoes-dark-brown-background-fast-food-meal-dinner-dish-sandwich-snack-toast_140725-156310.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
            rating:"4.3",
        },
        {
@@ -47,7 +47,7 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://img.freepik.com/free-vector/realistic-coffee-cup-collection_23-2147746469.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+         image: "https://img.freepik.com/free-photo/homemade-hamburger-burger-with-fresh-vegetables-cheese-lettuce-mayonnaise-served-french-fries-pieces-brown-paper-black-stone-table-concept-fast-food-junk-food_1150-41842.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
          tagline: "Wrogn men solid black jeans",
            rating:"4.3",
        },
@@ -60,7 +60,7 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-     image:"https://img.freepik.com/premium-photo/heart-steam-hovering-red-coffee-cup-coffee-wooden-table-with-cream-wall_158502-206.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+     image:"https://img.freepik.com/premium-photo/pav-bhaji-is-fast-food-dish-from-india-thick-spicy-vegetable-curry-served-with-soft-bread-roll-bun-paav-butter-isolated-rustic-wooden-background-selective-focus_726363-887.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
      tagline: "Wrogn men solid black jeans",
            rating:"4.3",
        },
@@ -74,7 +74,7 @@ export const adidas = [
         },
            category:["Spring Rolls","RasGulla","sweets"],
            tagline: "Wrogn men solid black jeans",
-     image:"https://img.freepik.com/free-photo/steaming-coffee-cup-table_1373-58.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+     image:"https://img.freepik.com/premium-photo/chicken-meat-french-fries-vegetables-salad-are-wrapped-pita-bread-brown-wall-traditional-shawarma-side-view-copy-space_166116-3016.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
 
            rating:"4.3",
        },
@@ -89,7 +89,7 @@ export const adidas = [
            category:["Spring Rolls","Thali","sweets"],
 
            tagline: "Wrogn men solid black jeans",
-          image:"https://img.freepik.com/free-photo/frotn-view-kettle-with-tea-pouring-into-cup-dark-surface-tea-ceremony-morning_140725-82117.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+          image:"https://img.freepik.com/premium-photo/home-made-tasty-burgers-wooden-table_84176-3413.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
            rating:"4.3",
        },
 

@@ -56,7 +56,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       },}}
           component="img"
-          image="https://img.freepik.com/free-photo/vertical-shot-traditional-indian-paneer-butter-masala-cheese-cottage-curry-black-surface_181624-32001.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/club-sandwich-with-side-french-fries_140725-1744.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -85,7 +85,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/high-angle-indian-food-assortment_23-2148747704.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/premium-photo/grilled-cheeseburger-fast-food-american-delicious-burger-snack_124507-10863.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -115,7 +115,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/premium-photo/indian-hindu-veg-thali-food-platter-selective-focus_466689-35929.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/perfect-cheese-burger-with-vegetables-wooden-table-black-background-ai-generative_123827-23434.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -146,7 +146,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/premium-photo/indian-lunch-dinner-main-course-food-group-includes-paneer-butter-masala-dal-makhani-palak-paneer-roti-rice-etc-selective-focus_466689-6844.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/premium-photo/delicious-homemade-burgers-beef-cheese-vegetables_35766-1832.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -176,7 +176,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/free-photo/high-angle-pakistani-meal-with-meat_23-2148825108.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-8727.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -207,7 +207,7 @@ export default function Block2() {
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="https://img.freepik.com/premium-photo/masala-dosa-is-south-indian-meal-served-with-sambhar-coconut-chutney-selective-focus_466689-22925.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/premium-photo/burger-with-fries-cheese-ketchup-generative-ai_259696-1501.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
