@@ -46,7 +46,7 @@ const Box1= styled(Box)(({ theme }) => ({
   return ( 
     <>
 <Box sx={{display:'flex',justifyContent:'center',alignItems:'center'}}>
-<Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'35px'},fontWeight:'700',color:'black',padding:{xs:'20px',sm:'40px',md:'30px'},display:'flex'}}>Get the BYJU'S Advantages</Typography>
+<Typography sx={{fontSize:{xs:'25px',sm:'35px',md:'35px'},fontWeight:'700',color:'black',padding:{xs:'20px',sm:'40px',md:'30px'},display:'flex'}}>Get the Universities Advantages</Typography>
 </Box>
        
        
@@ -66,7 +66,7 @@ const Box1= styled(Box)(({ theme }) => ({
           transform:'scale(1.2)'
       },}}
           component="img"
-          image="/images/category/byjus9.png"
+          image="https://img.freepik.com/free-photo/cafe-frankfurt-germany_1268-20912.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -77,8 +77,7 @@ const Box1= styled(Box)(({ theme }) => ({
     <Box sx={{height:{xs:'20%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
    <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'25px'},fontWeight:'500'}}>Conceptual clarity
-through visualisation</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'25px'},fontWeight:'500'}}>Liabrary</Typography>
           
         </Box>
        
@@ -96,7 +95,7 @@ through visualisation</Typography>
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="/images/category/byjus10.png"
+          image="https://img.freepik.com/free-photo/close-up-researcher-holding-glassware_23-2148794430.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -107,7 +106,7 @@ through visualisation</Typography>
     <Box sx={{height:{xs:'20%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
     <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'25px'},fontWeight:'500'}}>Personalised learning programs</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'25px'},fontWeight:'500'}}>Lab</Typography>
          
         </Box>
        
@@ -128,7 +127,7 @@ through visualisation</Typography>
           transform:'scale(1.2)'
       }}}
           component="img"
-          image="/images/category/byjus11.png"
+          image="https://img.freepik.com/premium-photo/chef-standing-full-lunch-service-station_293953-195.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"
           alt="green iguana"
         />
        </Box>
@@ -139,8 +138,7 @@ through visualisation</Typography>
       <Box sx={{height:{xs:'20%',sm:'50%',md:'auto'},width:{xs:'100%',sm:'100%',md:'300px'},display:'flex',background:'#F6F7FB',justifyContent:'center',gap:'10px',padding:'0px'}}>
       <Box sx={{display:'flex',flexDirection:'column'}}>
           
-          <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'25px'},fontWeight:'500'}}>Unmatched individual
-attention</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'25px'},fontWeight:'500'}}>Canteen</Typography>
          
         </Box>
        

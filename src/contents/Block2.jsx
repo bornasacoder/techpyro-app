@@ -76,7 +76,7 @@ const Block2 = () => {
 
 <Box sx={{display:'flex',justifyContent:'center',}}>
 <Box sx={{backgroundColor:'#F2F2F2',display:'flex',flexDirection:'column',alignItems:'center',width:'1100px',boxShadow:'1px 2px 5px 1px rgba(0,0,0,0.1)',borderRadius:'20px',margin:'10px'}}>
-  <Typography sx={{backgroundColor:'#616DFF',color:'white',fontSize:'20px',fontWeight:'600',width:'150px',display:'flex',justifyContent:'center',borderRadius:'10px'}}>Classes 4-10</Typography>
+  <Typography sx={{backgroundColor:'#616DFF',color:'white',fontSize:'20px',fontWeight:'600',width:'150px',display:'flex',justifyContent:'center',borderRadius:'10px'}}>B-tech</Typography>
 
       <Box sx={{margin:{xs:'0px',sm:'0px 0px',md:'0px 100px'},width:'auto',display:'flex',justifyContent:'center',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
       <CardBox >

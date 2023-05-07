@@ -207,7 +207,8 @@ const Downnav = styled(Box)(({ theme }) => ({
 ));
 
 const NavBar = styled(AppBar)(({theme}) =>({
-    backgroundColor:'#7F3486',
+  backgroundImage: `url(${"https://img.freepik.com/free-photo/wide-angle-shot-schonbrunn-palace-vienna-austria-with-cloudy-blue-sky_181624-9096.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"})`,
+  backgroundSize:'cover',
    
     width:'100%',
     height:'750px',
@@ -261,7 +262,7 @@ export default function Navbar() {
             </Box>
         
           <Box sx={{display:{xs:'block',sm:'block',md:'block'}}}>
-          <Typography sx={{fontSize:{xs:'30px',sm:'20px',md:'40px'},fontWeight:'700',color:'white',fontFamily:'cursive'}}>Tution</Typography>
+          <Typography sx={{fontSize:{xs:'30px',sm:'20px',md:'40px'},fontWeight:'700',color:'white',fontFamily:'cursive'}}>University</Typography>
           </Box>
 
           <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        
@@ -270,7 +271,7 @@ export default function Navbar() {
           </Box>
 
           <Box sx={{display:{xs:'none',sm:'none',md:'block'}}}>
-          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'400',color:'#F1C543'}}>BYJU'S Answer</Typography>
+          <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'400',color:'#F1C543'}}> Answer</Typography>
           </Box>
 
           <Box sx={{display:{xs:'none',sm:'none',md:'flex'},alignItems:'center',gap:'5px'}}>        
@@ -322,13 +323,13 @@ export default function Navbar() {
         </StyleToolbar>
         </Box>
         <Box sx={{display:'flex'}}>
-        <Ram>
+        {/* <Ram>
        
-        </Ram>
+        </Ram> */}
 
         <Box sx={{backgroundColor:'#FCFCFC',width:{xs:'100%',sm:'100%',md:'480px'},height:'500px',display:'flex',justifyContent:'center',alignItems:'center',paddingBottom:{xs:'30px',sm:'70px',md:'0px'},borderRadius:'20px',margin:{xs:'0px',sm:'0px',md:'50px 0 0 70px'},flexDirection:'column',gap:'10px'}}>
 
-        <Typography sx={{fontSize:{xs:'25px',sm:'25px',md:'25px'},fontWeight:'600',color:'black'}}>Book your Free Class</Typography>
+        <Typography sx={{fontSize:{xs:'25px',sm:'25px',md:'25px'},fontWeight:'600',color:'black'}}>Book your sheat</Typography>
         <Typography sx={{fontSize:{xs:'15px',sm:'15px',md:'15px'},fontWeight:'300',color:'black'}}>Learn from India's best teachers</Typography>
         <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'500',color:'black'}}>Enter your Details</Typography>
 
@@ -352,7 +353,7 @@ export default function Navbar() {
         </Select>
       </FormControl>
     
-            <Button variant='contained' sx={{borderRadius:'10px',fontSize:'25px',backgroundColor:'#FF853A'}}>Shedule a Free Class</Button>
+            <Button variant='contained' sx={{borderRadius:'10px',fontSize:'25px',backgroundColor:'#FF853A'}}>Shedule a  Class</Button>
           </Box>
           </Box>
         </Box>
