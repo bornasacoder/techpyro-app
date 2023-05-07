@@ -10,7 +10,7 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-          image: "https://img.freepik.com/free-photo/young-woman-pharmacist-pharmacy_1303-25531.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+          image: "https://img.freepik.com/premium-photo/osmetics-tubes-skin-care-product-geometric-pedestal-branding-blank-unbranded-flacons-beauty-spa-concept_138888-1400.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
           rating:"*4.3",
       },
       {
@@ -22,7 +22,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-          image: "https://img.freepik.com/free-photo/packings-pills-capsules-medicines_1339-2251.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+          image: "https://img.freepik.com/free-photo/view-arrangement-with-make-up-brushes-eyeshadows_23-2148301855.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
           rating:"*4.3",
       },
       {
@@ -32,7 +32,7 @@ export const pizza = {
           discount: "50% OFF",
           cost: "₹2,500"
       },
-         image: "https://img.freepik.com/free-photo/high-angle-shopping-cart-with-pill-foils_23-2148533501.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+         image: "https://img.freepik.com/free-photo/cosmetic-containers-with-orange_23-2148549144.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
           rating:"*4.3",
@@ -46,7 +46,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-        image: "https://img.freepik.com/free-photo/front-view-shopping-cart-with-pill-foils-containers_23-2148533497.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+        image: "https://img.freepik.com/free-photo/creative-display-makeup-products-arrangement_23-2150063089.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
           rating:"*4.3",
       },
       {
@@ -58,7 +58,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-        image:"https://img.freepik.com/free-photo/colorful-pills-syringe_23-2147983123.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+        image:"https://img.freepik.com/premium-photo/osmetics-tubes-skin-care-product-geometric-pedestal-branding-blank-unbranded-flacons-mockup-beauty-spa-concept_138888-1424.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
           rating:"4.3",
       },
       {
@@ -70,7 +70,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-       image: "https://img.freepik.com/premium-photo/tablets_196038-10622.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+       image: "https://img.freepik.com/free-photo/front-view-skin-care-product-wooden-decorative-piece_23-2148761398.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
           rating:"4.3",
       },
       // {

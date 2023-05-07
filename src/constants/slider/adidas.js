@@ -9,7 +9,7 @@ export const adidas = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "Wrogn men solid black jeans",
-      image:"https://img.freepik.com/free-photo/various-plastic-bottles-pills_23-2147983054.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+      image:"https://img.freepik.com/free-photo/skin-care-banner-concept-with-lotion_23-2149449116.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
 
@@ -23,7 +23,7 @@ export const adidas = [
         },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "Wrogn men solid black jeans",
-     image:"https://img.freepik.com/free-photo/high-angle-pill-containers-with-foils_23-2148533502.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+     image:"https://img.freepik.com/free-photo/skin-products-arrangement-wooden-blocks_23-2148761445.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
        {
@@ -35,7 +35,7 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://img.freepik.com/premium-photo/pharmaceutical-packaging-3d-rendering_110893-894.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+       image:"https://img.freepik.com/free-photo/creative-display-makeup-products_23-2150063088.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
        {
@@ -47,7 +47,7 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://img.freepik.com/free-photo/pills-package_23-2147983066.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+         image: "https://img.freepik.com/free-photo/skin-oil-dropper-assortment-with-copy-space_23-2148761416.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
          tagline: "Wrogn men solid black jeans",
            rating:"4.3",
        },
@@ -60,7 +60,7 @@ export const adidas = [
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-     image:"https://img.freepik.com/free-photo/white-pill-container-blue-background_23-2148506747.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+     image:"https://img.freepik.com/free-photo/beautiful-eucalyptus-with-beauty-products_23-2149440678.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
      tagline: "Wrogn men solid black jeans",
            rating:"4.3",
        },
@@ -74,7 +74,7 @@ export const adidas = [
         },
            category:["Spring Rolls","RasGulla","sweets"],
            tagline: "Wrogn men solid black jeans",
-     image:"https://img.freepik.com/free-photo/woman-s-hand-pours-medicine-pills-out-bottle_1150-14190.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+     image:"https://img.freepik.com/premium-photo/pink-glass-bottle-cosmetic-liquid-gel-standing-pink-podium-with-golden-ring-flowers-petals-flying-air-dropper-bottle-hyaluronic-acid-oil-serum-skin-care-product-3d-rendering_429124-1318.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
 
            rating:"4.3",
        },
@@ -89,7 +89,7 @@ export const adidas = [
            category:["Spring Rolls","Thali","sweets"],
 
            tagline: "Wrogn men solid black jeans",
-          image:"https://img.freepik.com/free-photo/close-up-medicine-containers-table_23-2148704955.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+          image:"https://img.freepik.com/free-photo/top-view-arrangement-with-beauty-bag-copy-space_23-2148301851.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
 
