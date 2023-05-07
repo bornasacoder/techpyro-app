@@ -10,7 +10,7 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-          image: "https://img.freepik.com/free-photo/exotic-fruits-berries-spanish-market_1398-2235.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+          image: "https://img.freepik.com/free-photo/young-woman-pharmacist-pharmacy_1303-25531.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
           rating:"*4.3",
       },
       {
@@ -22,7 +22,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-          image: "https://img.freepik.com/free-photo/dried-fruits-nuts-counter_1398-2241.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+          image: "https://img.freepik.com/free-photo/packings-pills-capsules-medicines_1339-2251.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
           rating:"*4.3",
       },
       {
@@ -32,7 +32,7 @@ export const pizza = {
           discount: "50% OFF",
           cost: "₹2,500"
       },
-         image: "https://img.freepik.com/premium-photo/colorful-spice-background-top-view-seasonings-herbs-indian-food_84485-14.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+         image: "https://img.freepik.com/free-photo/high-angle-shopping-cart-with-pill-foils_23-2148533501.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
           rating:"*4.3",
@@ -46,7 +46,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-        image: "https://img.freepik.com/free-photo/various-legumes_53876-47070.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+        image: "https://img.freepik.com/free-photo/front-view-shopping-cart-with-pill-foils-containers_23-2148533497.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
           rating:"*4.3",
       },
       {
@@ -58,7 +58,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-        image:"https://img.freepik.com/free-photo/top-view-arrangement-with-grains-bags_23-2148289429.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=ais",
+        image:"https://img.freepik.com/free-photo/colorful-pills-syringe_23-2147983123.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
           rating:"4.3",
       },
       {
@@ -70,7 +70,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-       image: "https://img.freepik.com/free-photo/variety-fresh-tasty-vegetables-dark-background_1220-4537.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+       image: "https://img.freepik.com/premium-photo/tablets_196038-10622.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
           rating:"4.3",
       },
       // {
