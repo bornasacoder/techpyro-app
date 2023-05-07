@@ -250,7 +250,7 @@ export default function Navbar() {
            </Box>
            </Link>
           <Box >
-          <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'30px'},fontWeight:'1000',color:'black'}}>SHOES STORE</Typography>
+          <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'30px'},fontWeight:'1000',color:'black'}}>ELECTRONICS STORE</Typography>
           </Box>
           {/* <Box>
           <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'600',color:'red',fontFamily:'cursive'}}>IMARA</Typography>

@@ -28,7 +28,7 @@ const Video= styled(Box)(({ theme }) => ({
   const Box1= styled(Box)(({ theme }) => ({
     height:'600px',
     width:'auto',
-    backgroundImage: `url(${"https://img.freepik.com/premium-photo/beige-women-s-leather-sneakers-hand-pink-background_150893-7349.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"})`,
+    backgroundImage: `url(${"https://img.freepik.com/premium-photo/workaholic-hand-typing-keyboard-dark-late-night-with-computer_1439-169.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"})`,
     backgroundSize:'cover',
      margin:'0px 80px',
      [theme.breakpoints.down('md')]: {
@@ -47,7 +47,7 @@ const Video= styled(Box)(({ theme }) => ({
    const Box2= styled(Box)(({ theme }) => ({
       height:'600px',
       width:'auto',
-      backgroundImage: `url(${"https://img.freepik.com/premium-photo/blue-sneakers-moving-copy-space-empty-background_780608-11032.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"})`,
+      backgroundImage: `url(${"https://img.freepik.com/free-photo/smartphones-balancing-with-pink-background_23-2150271742.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph"})`,
       backgroundSize:'cover',
        margin:'0px 80px',
    //    position:'absolute'
@@ -99,7 +99,7 @@ const Block5 = () => {
 
 
       <Box sx={{display:'flex',justifyContent:'center',margin:'20px'}}>
-       <Typography sx={{fontSize:{xs:'20px',sm:'35px',md:'30px'},fontWeight:'400',color:''}}>Wear It Like Virat</Typography>
+       <Typography sx={{fontSize:{xs:'20px',sm:'35px',md:'30px'},fontWeight:'400',color:''}}>Use It Like Virat</Typography>
        </Box>
       <Box2>
 
