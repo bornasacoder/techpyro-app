@@ -143,7 +143,7 @@ const Block3 = (props) => {
   return (
     <>
      <Box sx={{display:'flex',justifyContent:'space-between',alignItems:'center',padding:{xs:'10px',sm:'30px',md:'40px'},display:'flex',justifyContent:'center'}}>
-       <Typography sx={{fontSize:{xs:'25px',sm:'30px',md:'30px'},fontWeight:'500',color:'black'}}>Trending in Furniture</Typography>
+       <Typography sx={{fontSize:{xs:'25px',sm:'30px',md:'30px'},fontWeight:'500',color:'black'}}>Trending in Food</Typography>
        
        </Box>
     <SliderContainer>         

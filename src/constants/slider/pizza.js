@@ -10,7 +10,7 @@ export const pizza = {
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-          image: "https://img.freepik.com/premium-psd/front-view-armchair-3d-rendering_252032-185.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
+          image: "https://img.freepik.com/free-photo/top-view-delicious-fish-meal_23-2148734691.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
           rating:"*4.3",
       },
       {
@@ -22,7 +22,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-          image: "https://img.freepik.com/free-psd/armchair-pillow_176382-861.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
+          image: "https://img.freepik.com/premium-photo/mumbai-style-pav-bhaji-is-fast-food-dish-from-india-consists-thick-vegetable-curry-served-with-soft-bread-roll-served-plate_466689-2238.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
           rating:"*4.3",
       },
       {
@@ -32,7 +32,7 @@ export const pizza = {
           discount: "50% OFF",
           cost: "₹2,500"
       },
-         image: "https://img.freepik.com/free-photo/ancient-red-sofa_1150-18960.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph",
+         image: "https://img.freepik.com/premium-photo/indian-style-meat-dish-mutton-gosht-masala-lamb-rogan-josh-served-bowl-selective-focus_466689-53460.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
           rating:"*4.3",
@@ -46,7 +46,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-        image: "https://img.freepik.com/free-photo/living-room-with-white-desk-green-sofa_1340-25296.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
+        image: "https://img.freepik.com/free-photo/curry-with-chicken-onions-indian-food-asian-cuisine-top-view_2829-6240.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
           rating:"*4.3",
       },
       {
@@ -58,7 +58,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-        image:"https://img.freepik.com/premium-photo/modern-interior-living-room-with-sofa-bold-dark-blue-wall-generative-ai_825385-189.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
+        image:"https://img.freepik.com/free-photo/flat-lay-indian-food-frame_23-2148747715.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
           rating:"4.3",
       },
       {
@@ -70,7 +70,7 @@ export const pizza = {
       },
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Wrogn Men Solid Yellow Shirt",
-       image: "https://img.freepik.com/premium-photo/living-room-interior-armchair-pillow-lamp-table-with-plant-art-deco-style-modern-classic_258219-599.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=sph",
+       image: "https://img.freepik.com/free-photo/dish-with-rice_144627-18096.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
           rating:"4.3",
       },
       // {

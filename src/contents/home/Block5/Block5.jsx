@@ -28,7 +28,7 @@ const Video= styled(Box)(({ theme }) => ({
   const Box1= styled(Box)(({ theme }) => ({
     height:'600px',
     width:'auto',
-    backgroundImage: `url(${"https://img.freepik.com/premium-photo/modern-living-room-interior-with-sofa-green-plants-lamp-table-dark-wall-background_41470-1528.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"})`,
+    backgroundImage: `url(${"https://img.freepik.com/free-vector/hand-drawn-indian-food-restaurant-sale-banner_23-2149420727.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
     backgroundSize:'cover',
      margin:'0px 80px',
      [theme.breakpoints.down('md')]: {
@@ -47,7 +47,7 @@ const Video= styled(Box)(({ theme }) => ({
    const Box2= styled(Box)(({ theme }) => ({
       height:'600px',
       width:'auto',
-      backgroundImage: `url(${"https://img.freepik.com/premium-photo/3d-rendering3d-illustration-interior-scene-mockupmodern-style-living-room-wall-decoration_454534-558.jpg?size=626&ext=jpg&ga=GA1.2.681071774.1670583833&semt=sph"})`,
+      backgroundImage: `url(${"https://img.freepik.com/free-vector/gradient-indian-restaurant-landing-page_23-2149417684.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
       backgroundSize:'cover',
        margin:'0px 80px',
    //    position:'absolute'
@@ -69,17 +69,17 @@ const Block5 = () => {
   return (
     <>
        <Box sx={{display:'flex',justifyContent:'center',alignItems:'center',paddingTop:'40px',flexDirection:'column'}}>
-       <Typography sx={{fontSize:{xs:'25px',sm:'30px',md:'30px'},fontWeight:'400',color:'black'}}>Why Furniture</Typography>
+       <Typography sx={{fontSize:{xs:'25px',sm:'30px',md:'30px'},fontWeight:'400',color:'black'}}>Why Food</Typography>
        <Typography sx={{color:'black'}}>We are many. We are one. We are not part of the herd. We are not like the rest. Join the Wrogn Tribe. And stay mad. Stay Wrogn.</Typography>
       </Box>
       
       <Box sx={{marginLeft:{xs:' 10px',sm:'30px',md:'50px'},width:'',height:{xs:' 500px',sm:'350px',md:'500px'},marginRight:{xs:' 10px',sm:'30px',md:'80px'},zIndex:'-1'}}>
         <Box sx={{display:{xs:'block',sm:'none',md:'block'}}}>
-      <video style={{height:'500px',zIndex:'-1',position:'absolute',objectFit:'cover',width:'93%',}}  src="https://v1.cdnpk.net/videvo_files/video/free/video0545/large_watermarked/_import_6300a7241a5694.41889990_FPpreview.mp4" autoPlay loop muted ></video>
+      <video style={{height:'500px',zIndex:'-1',position:'absolute',objectFit:'cover',width:'93%',}}  src="https://v1.cdnpk.net/videvo_files/video/free/video0538/large_watermarked/_import_63086ddf33e9b9.56131741_FPpreview.mp4" autoPlay loop muted ></video>
         </Box>
       
         <Box sx={{display:{xs:'none',sm:'block',md:'none'}}}>
-      <video style={{height:'350px',zIndex:'-1',position:'absolute',objectFit:'cover',width:'93%',}}  src="https://v1.cdnpk.net/videvo_files/video/free/video0545/large_watermarked/_import_6300a7241a5694.41889990_FPpreview.mp4" autoPlay loop muted ></video>
+      <video style={{height:'350px',zIndex:'-1',position:'absolute',objectFit:'cover',width:'93%',}}  src="https://v1.cdnpk.net/videvo_files/video/free/video0538/large_watermarked/_import_63086ddf33e9b9.56131741_FPpreview.mp4" autoPlay loop muted ></video>
         </Box>
       <Box sx={{display:'flex',flexDirection:'column',alignItem:'center',width:'auto',height:{xs:'500px',sm:'500px',md:'500px'},gap:'20px'}}>
       <Box sx={{height:'auto',width:{xs:'240px',sm:'300px',md:'320px'},color:'white',marginLeft:{xs:'10px',sm:'50px',md:'160px'}}}>
