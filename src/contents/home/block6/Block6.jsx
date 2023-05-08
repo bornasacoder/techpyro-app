@@ -33,14 +33,14 @@ export default function Block6() {
   
           <Box sx={{  display:'flex',flex:'1',flexDirection:'column',gap:'15px',justifyContent:'center',paddingLeft:'20px',alignItems:{xs:'flex-start'}}}>
              
-            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Your one-stop shop</Typography>
-            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>At our grocery shop, we understand the importance of quality and affordability when it comes to your food choices. That's why we offer a wide range of fresh and healthy food options at competitive prices. From fruits and vegetables to meats and dairy, we've got everything you need to nourish yourself and your family.</Typography>
+            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Jewelry that tells your story</Typography>
+            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>At our jewelry shop, we believe that everyone should have access to quality jewelry at an affordable price. That's why we offer a range of products to suit every budget. Our collection includes both classic and contemporary designs, so there is something for everyone. </Typography>
             <Button variant="outlined" sx={{width:'150px',height:'30px'}}>Learn More</Button>
          
          </Box>
      
          <Box sx={{  height:'350px',display:'flex',flex:'1',gap:'30px',flexDirection:'column',alignItems:{xs:'flex-start',sm:'flex-start',md:'center'}}}>
-          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-vector/butcher-shop-interior-isometric-scene_1284-23153.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-photo/beautiful-luxury-necklace-jewelry-stand-neck_1339-7948.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
          </Box>
   
         </CardBox>

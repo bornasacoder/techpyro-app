@@ -55,17 +55,17 @@ export default function Block2() {
          </Box>
      
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',alignItems:{xs:'flex-start',sm:'flex-start',md:'center'}}}>
-          <Typography sx={{color:'rgba(0,0,0,0.7)',fontSize:{xs:'22px',md:'42px'},fontWeight:'600'}}>A world of possibilities</Typography>
-          <Typography sx={{fontSize:{sm:'16px',md:'22px'},opacity:'0.8'}}>Our mall is more than just a place to shop - it's a community hub where you can connect with others and discover new experiences. We host a range of events and activities throughout the year, from cultural festivals to food fairs to live entertainment. So whether you're looking to shop, dine, or explore.</Typography>
+          <Typography sx={{color:'rgba(0,0,0,0.7)',fontSize:{xs:'22px',md:'42px'},fontWeight:'600'}}>A new level of luxury</Typography>
+          <Typography sx={{fontSize:{sm:'16px',md:'22px'},opacity:'0.8'}}>Whether you're looking for the perfect engagement ring, a statement necklace, or a pair of dazzling earrings, our knowledgeable and friendly staff is here to guide you through every step of the selection process. We take pride in the quality of our jewelry.</Typography>
           <Box sx={{display:'flex',alignItems:'center',justifyContent:'center',gap:'10px',flexWrap:'wrap'}}>
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/top-view-assortment-vegetables-paper-bag_23-2148853335.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/dried-food-products-sold-market_181624-60209.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/superfoods-seeds-grains-vegan-vegetarian-eating-clean-eating_114579-3939.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-vector/grocery-bags-set-plastic-paper-packages-supermarket-basket-with-food-packs-cans-bread-milk-products-flat-vector-illustrations-shopping-food-delivery-charity-concept_74855-10074.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/woman-with-tablet-checking-shopping-cart-see-if-she-has-everything-she-needs-lunch_342744-1111.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/food-cart_1098-14618.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/high-angle-asian-food-ingredients-with-copy-space_23-2148377383.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
-          <img style={{height:'50px',width:'50px'}} src="https://images.pexels.com/photos/3962285/pexels-photo-3962285.jpeg?auto=compress&cs=tinysrgb&w=600" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/shiny-gemstone-necklace-reflects-elegance-glamour-generated-by-ai_188544-10583.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/jewels-sparkle-golden-wedding-rings-lying-leather_8353-763.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-vector/realistic-gold-silver-jewelry-display-black-mannequins-stands-grey-surface_1284-9644.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-vector/realistic-gold-silver-jewelry-display-black-mannequins-stands-grey-surface_1284-9644.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-vector/raksha-bandhan-green-background_1035-3344.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-vector/jewelry-accessories-realistic-set-with-rings-earrings-black-background_1284-27174.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/woman-accessories-black-side-view_155003-7887.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-vector/jewelry-realistic-set_1284-6728.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
          
           </Box>
           <Typography sx={{fontSize:{sm:'18px',md:'22px'},color:'#3DCAD4',fontWeight:'500',}}>Discover to build our buisness on techpyro</Typography>

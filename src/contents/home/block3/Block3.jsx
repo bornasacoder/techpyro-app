@@ -132,35 +132,35 @@ const Block3 = (props) => {
   let arr=[
     {
       id:"1",
-      img:"https://img.freepik.com/free-vector/shopping-basket-with-food-vector-illustration-cart-with-product-buy-supermarket-vector-illustration_1284-47048.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/selective-focus-closeup-diamond-rings_181624-57691.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"2",
-      img:"https://img.freepik.com/free-photo/top-view-assortment-vegetables-paper-bag_23-2148853335.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/beautiful-engagement-ring-with-diamonds_23-2149509236.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph"
     },
     {
       id:"3",
-      img:"https://img.freepik.com/free-photo/two-excited-black-girls-pointing-shop-window_1262-3664.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400845.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"4",
-      img:"https://img.freepik.com/free-vector/hand-drawn-people-supermarket_52683-4931.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-psd/golden-rings-mock-up_1022-54.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"5",
-      img:"https://img.freepik.com/free-photo/good-looking-woman-standing-front-vegetable-shelves-choosing-what-buy_342744-1117.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/traditional-indian-wedding-jewelry_8353-9762.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"6",
-      img:"https://img.freepik.com/free-vector/people-supermarket_52683-6813.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-vector/colorful-jewelry-accessories-icons-set_1284-38179.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"7",
-      img:"https://img.freepik.com/free-photo/food-cart_1098-14618.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-vector/realistic-3d-jewelry-showcase-podium_52683-69102.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph"
     },
     {
       id:"8",
-      img:"https://img.freepik.com/free-photo/person-shopping-with-face-mask_23-2149565242.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/gorgeous-wedding-rings-sparklie-acorn_8353-704.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
   ]
   return (

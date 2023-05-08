@@ -7,7 +7,7 @@ import {
   import React from "react";
   const StyleToolbar = styled(Box)(({ theme }) => ({
     padding: "80px 60px",
-    background: `url(${"https://img.freepik.com/free-photo/young-couple-protection-mask-holding-multiple-paper-shopping-bag-walking-corridor-large-shopping-mall_1150-47177.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"})
+    background: `url(${"https://img.freepik.com/free-photo/shiny-gemstone-necklace-reflects-elegance-glamour-generated-by-ai_188544-13941.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"})
     center/cover no-repeat fixed`,
     // position:"relative",
   
@@ -19,7 +19,7 @@ import {
       <StyleToolbar>
         <Box sx={{ display: "flex", flexDirection: "column",gap:2.5, width:{md:"60%",sm:"100%",xs:"100%"} ,alignItems:{md:"start",sm:"flex-start",xs:"flex-start"}}}>
             <Typography variant="span" sx={{ fontWeight: 600,marginTop:"50px", fontSize:{md:'54px',sm:"48px",xs:"30px"},color:"#fff",justifyContent:{sm:"center",xs:"center"}}}>
-            More than just shopping
+            The art of jewelry
             </Typography>
             <Typography
               variant="p"
@@ -31,7 +31,8 @@ import {
                 color:"#fff"
               }}
             >
-Our mall is more than just a shopping destination - it's a place where you can experience a world of possibilities. Whether you're looking for the latest fashion trends, the newest technology, or a delicious meal, you'll find it all here.             </Typography>
+At our jewelry shop, we believe that every piece of jewelry is a work of art. That's why we carefully curate our collection to offer you the finest selection of exquisite jewelry that will inspire you to elevate your personal style. 
+</Typography>
          
           <Box sx={{ display: "flex",justifyContent:"flex-start",alignItems:"center", gap: 2, position: "relative",flexDirection:{xs:'column',md:"row",sm:"row"},paddingLeft:{xs:"0px"} }}>
             
