@@ -37,13 +37,13 @@ export default function Block4() {
         <CardBox >
   
           <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'#ffff',fontSize:{xs:'50px'},fontWeight:{xs:'900'}}}>Clothes</Typography>
+             <Typography  sx={{color:'#ffff',fontSize:{xs:'50px'},fontWeight:{xs:'900'}}}>Grocery</Typography>
              <Typography sx={{color:'#ffff',fontSize:{xs:'20px',md:'25px'},fontWeight:{xs:'500'}}}>Supermarkets</Typography>
          </Box>
      
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',sm:'start'}}}>
           
-          <Typography sx={{color:'#ffff',fontSize:{xs:'20px',md:'22px'}}}> From statement earrings to classic watches, our selection of accessories is carefully curated to offer you the best quality and style. So whether you're looking for a new outfit or just want to accessorize your existing wardrobe, we've got everything you need to make a statement.</Typography>
+          <Typography sx={{color:'#ffff',fontSize:{xs:'20px',md:'22px'}}}> We believe that fresh food is the key to a healthy lifestyle, which is why we prioritize freshness and quality in all our products. Our staff is trained to select only the freshest and highest quality produce for our customers, ensuring that you get the best possible experience every time you shop with us.</Typography>
     
           <Typography sx={{color:'#ffff',fontSize:{xs:'18px',md:'22px'},color:'#ffff',fontWeight:'500',opacity:'0.7'}}>Discover to build our buisness on techpyro</Typography>
          </Box>

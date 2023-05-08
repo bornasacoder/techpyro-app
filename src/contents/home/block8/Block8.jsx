@@ -33,14 +33,14 @@ export default function Block8() {
   
           <Box sx={{  display:'flex',flex:'1',flexDirection:'column',gap:'15px',justifyContent:'center',paddingLeft:'20px',alignItems:{xs:'flex-start'}}}>
              
-            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Timeless fashion, modern twist</Typography>
-            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>That's why we offer a range of sizes and styles to fit every body type and every fashion preference. Our staff is trained to help you find the perfect outfit for any occasion, whether you're looking for something casual or dressy. And with our affordable prices, you won't have to sacrifice quality for style.</Typography>
+            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Freshness delivered to you</Typography>
+            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>TAt our grocery shop, we're committed to sustainability and eco-friendliness. We work with local farmers and suppliers to reduce our carbon footprint and support local communities. We also offer a range of organic and sustainable products, so you can feel good about your food choices while also supporting a healthier planet.</Typography>
             <Button variant="outlined" sx={{width:'150px',height:'30px'}}>Learn More</Button>
          
          </Box>
      
          <Box sx={{  height:'350px',display:'flex',flex:'1',gap:'30px',flexDirection:'column',alignItems:{xs:'flex-start',sm:'flex-start',md:'center'}}}>
-          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-photo/front-back-isolated-white-t-shirts_1409-2223.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais" />
+          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-photo/basket-full-vegetables_1112-316.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais" />
          </Box>
   
         </CardBox>

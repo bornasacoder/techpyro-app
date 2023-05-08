@@ -33,14 +33,14 @@ export default function Block6() {
   
           <Box sx={{  display:'flex',flex:'1',flexDirection:'column',gap:'15px',justifyContent:'center',paddingLeft:'20px',alignItems:{xs:'flex-start'}}}>
              
-            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Elevate your wardrobe today</Typography>
-            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>We're passionate about fashion and are always on the lookout for the latest trends and styles. We work with some of the top brands in the industry to bring you the best products on the market. From sustainable and eco-friendly materials to bold and daring designs.</Typography>
+            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Your one-stop shop</Typography>
+            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>At our grocery shop, we understand the importance of quality and affordability when it comes to your food choices. That's why we offer a wide range of fresh and healthy food options at competitive prices. From fruits and vegetables to meats and dairy, we've got everything you need to nourish yourself and your family.</Typography>
             <Button variant="outlined" sx={{width:'150px',height:'30px'}}>Learn More</Button>
          
          </Box>
      
          <Box sx={{  height:'350px',display:'flex',flex:'1',gap:'30px',flexDirection:'column',alignItems:{xs:'flex-start',sm:'flex-start',md:'center'}}}>
-          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-photo/shirt_1203-8194.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
+          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-vector/shopping-basket-with-food-vector-illustration-cart-with-product-buy-supermarket-vector-illustration_1284-47048.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
          </Box>
   
         </CardBox>

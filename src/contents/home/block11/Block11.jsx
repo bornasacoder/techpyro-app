@@ -37,10 +37,10 @@ export default function Block11() {
 
 <Box sx={{  padding:{xs:'20px',lg:'100px 0px 100px 100px'}, background:'#F6F7FB',display:'flex',flex:'1',flexDirection:'column',gap:'20px'}}>
               <Box>
-                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/free-psd/poster-online-fashion-sale_23-2148585406.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/free-vector/gradient-flyer-supermarket-poster_23-2149611746.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
               </Box>
               <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>Latest Clothes</Typography>
+             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>Good Foods</Typography>
              
          </Box>
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',md:'center'}}}>
@@ -51,10 +51,10 @@ export default function Block11() {
 
          <Box sx={{  padding:{xs:'20px',lg:'100px 0px 100px 0px'}, background:'#F6F7FB',display:'flex',flex:'1',flexDirection:'column',gap:'20px'}}>
               <Box>
-                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/free-psd/fashion-concept-flyer-template_23-2148636594.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/free-vector/flat-design-supermarket-poster-template_23-2149569404.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
               </Box>
               <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>Latest Suit and Shirt</Typography>
+             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>Good Dry Food</Typography>
              
          </Box>
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',md:'center'}}}>
@@ -65,10 +65,10 @@ export default function Block11() {
 
          <Box sx={{  padding:{xs:'20px',lg:'100px 100px 100px 20px'}, background:'#F6F7FB',display:'flex',flex:'1',flexDirection:'column',gap:'20px'}}>
               <Box>
-                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/free-psd/vertical-poster-template-fashion-collection_23-2149039579.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/free-vector/healthy-food-restaurant-poster-template_23-2148508118.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
               </Box>
               <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>Latest Jeans</Typography>
+             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>More Discount</Typography>
              
          </Box>
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',md:'center'}}}>

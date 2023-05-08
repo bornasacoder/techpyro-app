@@ -7,7 +7,7 @@ import {
   import React from "react";
   const StyleToolbar = styled(Box)(({ theme }) => ({
     padding: "80px 60px",
-    background: `url(${"https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448749.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"})
+    background: `url(${"https://img.freepik.com/free-photo/flat-lay-vegetables-frame_23-2148516769.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"})
     center/cover no-repeat fixed`,
     // position:"relative",
   
@@ -19,7 +19,7 @@ import {
       <StyleToolbar>
         <Box sx={{ display: "flex", flexDirection: "column",gap:2.5, width:{md:"60%",sm:"100%",xs:"100%"} ,alignItems:{md:"start",sm:"flex-start",xs:"flex-start"}}}>
             <Typography variant="span" sx={{ fontWeight: 600,marginTop:"50px", fontSize:{md:'54px',sm:"48px",xs:"30px"},color:"#fff",justifyContent:{sm:"center",xs:"center"}}}>
-            Timeless fashion, modern twist
+            reshness delivered to you
             </Typography>
             <Typography
               variant="p"
@@ -31,7 +31,7 @@ import {
                 color:"#fff"
               }}
             >
-      Our clothes shop is dedicated to bringing you the latest fashion trends and timeless classics. We believe that fashion is a form of self-expression and that everyone deserves to feel confident and stylish. 
+    We believe that fresh food is the key to a healthy lifestyle, which is why we prioritize freshness and quality in all our products. Our staff is trained to select only the freshest and highest quality produce for our customers.
             </Typography>
          
           <Box sx={{ display: "flex",justifyContent:"flex-start",alignItems:"center", gap: 2, position: "relative",flexDirection:{xs:'column',md:"row",sm:"row"},paddingLeft:{xs:"0px"} }}>

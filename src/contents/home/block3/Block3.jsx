@@ -132,35 +132,35 @@ const Block3 = (props) => {
   let arr=[
     {
       id:"1",
-      img:"https://img.freepik.com/free-photo/beautiful-young-woman-wearing-sari_23-2149502963.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-vector/shopping-basket-with-food-vector-illustration-cart-with-product-buy-supermarket-vector-illustration_1284-47048.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"2",
-      img:"https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400873.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/top-view-assortment-vegetables-paper-bag_23-2148853335.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
     },
     {
       id:"3",
-      img:"https://img.freepik.com/free-photo/elegant-indian-macho-man-model-suit-pink-tie-walking-cross-pedestrian_627829-1674.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-vector/outdoor-fruit-counter-street-illustration_1262-16588.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"4",
-      img:"https://img.freepik.com/free-photo/fast-fashion-vs-slow-sustainable-fashion_23-2149133967.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-vector/hand-drawn-people-supermarket_52683-4931.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"5",
-      img:"https://img.freepik.com/free-photo/stack-clothes-white-background-closeup_93675-132644.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/good-looking-woman-standing-front-vegetable-shelves-choosing-what-buy_342744-1117.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"6",
-      img:"https://img.freepik.com/free-psd/mens-tri-blend-crew-tee-mockup_126278-130.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-vector/people-supermarket_52683-6813.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"7",
-      img:"https://img.freepik.com/free-photo/groom-s-arms-with-red-bracelet-button-up-golden-wedding-suit_8353-767.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/food-cart_1098-14618.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"8",
-      img:"https://img.freepik.com/free-photo/young-woman-beautiful-dress_1303-17516.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/person-shopping-with-face-mask_23-2149565242.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
   ]
   return (
