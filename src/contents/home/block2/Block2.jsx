@@ -55,8 +55,8 @@ export default function Block2() {
          </Box>
      
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',alignItems:{xs:'flex-start',sm:'flex-start',md:'center'}}}>
-          <Typography sx={{color:'rgba(0,0,0,0.7)',fontSize:{xs:'22px',md:'42px'},fontWeight:'600'}}>Groceries for your home</Typography>
-          <Typography sx={{fontSize:{sm:'16px',md:'22px'},opacity:'0.8'}}>That's why we offer a wide range of fresh and healthy food options at competitive prices. From fruits and vegetables to meats and dairy, we've got everything you need to nourish yourself and your family.</Typography>
+          <Typography sx={{color:'rgba(0,0,0,0.7)',fontSize:{xs:'22px',md:'42px'},fontWeight:'600'}}>A world of possibilities</Typography>
+          <Typography sx={{fontSize:{sm:'16px',md:'22px'},opacity:'0.8'}}>Our mall is more than just a place to shop - it's a community hub where you can connect with others and discover new experiences. We host a range of events and activities throughout the year, from cultural festivals to food fairs to live entertainment. So whether you're looking to shop, dine, or explore.</Typography>
           <Box sx={{display:'flex',alignItems:'center',justifyContent:'center',gap:'10px',flexWrap:'wrap'}}>
           <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/top-view-assortment-vegetables-paper-bag_23-2148853335.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
           <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/dried-food-products-sold-market_181624-60209.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />

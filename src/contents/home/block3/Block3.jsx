@@ -140,7 +140,7 @@ const Block3 = (props) => {
     },
     {
       id:"3",
-      img:"https://img.freepik.com/free-vector/outdoor-fruit-counter-street-illustration_1262-16588.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/two-excited-black-girls-pointing-shop-window_1262-3664.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"4",
