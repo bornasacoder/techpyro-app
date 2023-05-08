@@ -33,14 +33,14 @@ export default function Block8() {
   
           <Box sx={{  display:'flex',flex:'1',flexDirection:'column',gap:'15px',justifyContent:'center',paddingLeft:'20px',alignItems:{xs:'flex-start'}}}>
              
-            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Ac, Telivision, enjoy</Typography>
-            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>At our electronic shop, we understand that technology can be complicated. That's why we're committed to making the buying process as easy and stress-free as possible. From browsing our selection of products to making a purchase.</Typography>
+            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Walking on cloud nine.</Typography>
+            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>Our staff is trained to help you find the perfect pair of shoes to meet your needs, whether you're looking for something casual or dressy. And with our affordable prices, you won't have to break the bank to step up your style.</Typography>
             <Button variant="outlined" sx={{width:'150px',height:'30px'}}>Learn More</Button>
          
          </Box>
      
          <Box sx={{  height:'350px',display:'flex',flex:'1',gap:'30px',flexDirection:'column',alignItems:{xs:'flex-start',sm:'flex-start',md:'center'}}}>
-          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-photo/air-conditioner-mounted-white-wall_53876-142861.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-vector/women-shoes-realistic-set_1284-23173.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
          </Box>
   
         </CardBox>

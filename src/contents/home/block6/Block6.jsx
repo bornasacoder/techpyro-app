@@ -33,14 +33,14 @@ export default function Block6() {
   
           <Box sx={{  display:'flex',flex:'1',flexDirection:'column',gap:'15px',justifyContent:'center',paddingLeft:'20px',alignItems:{xs:'flex-start'}}}>
              
-            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Experience the latest gadgets.</Typography>
-            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>From browsing our selection of products to making a purchase, we strive to provide a seamless experience for our customers. And if you're not satisfied with your purchase, we offer hassle-free returns and exchanges. </Typography>
+            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Shoes for every occasion</Typography>
+            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>The best quality and the most fashionable options on the market. Whether you're looking for a comfortable pair of shoes for everyday wear or a statement piece for a special occasion, we've got you covered.</Typography>
             <Button variant="outlined" sx={{width:'150px',height:'30px'}}>Learn More</Button>
          
          </Box>
      
          <Box sx={{  height:'350px',display:'flex',flex:'1',gap:'30px',flexDirection:'column',alignItems:{xs:'flex-start',sm:'flex-start',md:'center'}}}>
-          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-psd/modern-tv-mockup_1310-792.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-photo/pair-trainers_144627-3799.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
          </Box>
   
         </CardBox>

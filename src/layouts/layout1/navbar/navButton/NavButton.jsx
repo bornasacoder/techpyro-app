@@ -140,18 +140,18 @@ export default function NavButton() {
               </Box>
           <List component="nav" aria-label="mailbox folders">
             <ListItem button>
-              <ListItemText primary="Smartphones" />
+              <ListItemText primary="Shoes" />
             </ListItem>
             <Divider />
             <ListItem button divider>
-              <ListItemText primary="Headphones" />
+              <ListItemText primary="Shleepers" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="Televisions" />
+              <ListItemText primary="Sandals" />
             </ListItem>
             <Divider light />
             <ListItem button>
-              <ListItemText primary="Speakers" />
+              <ListItemText primary="Heels" />
             </ListItem>
           </List>
  
@@ -188,18 +188,18 @@ export default function NavButton() {
               </Box>
           <List component="nav" aria-label="mailbox folders">
             <ListItem button>
-              <ListItemText primary="Samsung" />
+              <ListItemText primary="Adidas" />
             </ListItem>
             <Divider />
             <ListItem button divider>
-              <ListItemText primary="Sony" />
+              <ListItemText primary="Rebok" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="Boat" />
+              <ListItemText primary="Nike" />
             </ListItem>
             <Divider light />
             <ListItem button>
-              <ListItemText primary="Apple" />
+              <ListItemText primary="Sparx" />
             </ListItem>
           </List>
  
@@ -281,18 +281,18 @@ export default function NavButton() {
               </Box>
           <List component="nav" aria-label="mailbox folders">
             <ListItem button>
-              <ListItemText primary="Samsung" />
+              <ListItemText primary="Nike" />
             </ListItem>
             <Divider />
             <ListItem button divider>
-              <ListItemText primary="Lenovo" />
+              <ListItemText primary="Rebok" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="Bolt" />
+              <ListItemText primary="Adidas" />
             </ListItem>
             <Divider light />
             <ListItem button>
-              <ListItemText primary="Philips" />
+              <ListItemText primary="Sparx" />
             </ListItem>
           </List>
  

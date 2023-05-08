@@ -132,19 +132,19 @@ const Block3 = (props) => {
   let arr=[
     {
       id:"1",
-      img:"https://img.freepik.com/free-vector/remote-control-streaming-media-home-networking-access-idea-integrated-entertainment-technology-internet-television-show-broadcasting-vector-isolated-concept-metaphor-illustration_335657-2216.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/sport-running-shoes_1203-3414.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"2",
-      img:"https://img.freepik.com/free-vector/man-watching-television-armchair-tv-sitting-chair-drinking-eating-vector-flat-illustration_1284-42407.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/women-s-red-high-heel-shoes-formal-fashion_53876-103574.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"3",
-      img:"https://img.freepik.com/free-vector/desktop-computer-concept-illustration_114360-13052.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/flipflops-yellow-pair-isolated-white-background_1101-1998.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"4",
-      img:"https://img.freepik.com/free-vector/isometric-isolated-sound-speakers-concept-three-large-speakers-floor-turned-different-directions-better-sound-vector-illustration_1284-81836.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/brown-flip-flops-summer-footwear-fashion_53876-106037.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph"
     },
     {
       id:"5",
@@ -152,15 +152,15 @@ const Block3 = (props) => {
     },
     {
       id:"6",
-      img:"https://img.freepik.com/free-photo/headphones-stereo-equipment-single-object-technology-generated-by-ai_188544-10146.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/leather-shoes-sandal_1203-7615.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph"
     },
     {
       id:"7",
-      img:"https://img.freepik.com/free-psd/3d-rendering-hotel-icon_23-2150102380.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/men-shoes_1203-8387.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph"
     },
     {
       id:"8",
-      img:"https://img.freepik.com/free-vector/realistic-smartphone-device_52683-29765.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/sport-running-shoes_1203-3414.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph"
     },
   ]
   return (

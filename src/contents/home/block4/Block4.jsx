@@ -37,13 +37,13 @@ export default function Block4() {
         <CardBox >
   
           <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'#ffff',fontSize:{xs:'50px'},fontWeight:{xs:'900'}}}>Electronic</Typography>
+             <Typography  sx={{color:'#ffff',fontSize:{xs:'50px'},fontWeight:{xs:'900'}}}>Shoes</Typography>
              <Typography sx={{color:'#ffff',fontSize:{xs:'20px',md:'25px'},fontWeight:{xs:'500'}}}>Supermarkets</Typography>
          </Box>
      
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',sm:'start'}}}>
           
-          <Typography sx={{color:'#ffff',fontSize:{xs:'20px',md:'22px'}}}>We're passionate about technology and are always on the lookout for the latest trends and innovations. That's why we work with some of the top brands in the industry to bring you the best products on the market. Whether you're a tech enthusiast </Typography>
+          <Typography sx={{color:'#ffff',fontSize:{xs:'20px',md:'22px'}}}>We're passionate about shoes and are always on the lookout for the latest trends and innovations in footwear. We work with some of the top brands in the industry to bring you the best products on the market.</Typography>
     
           <Typography sx={{color:'#ffff',fontSize:{xs:'18px',md:'22px'},color:'#ffff',fontWeight:'500',opacity:'0.7'}}>Discover to build our buisness on techpyro</Typography>
          </Box>

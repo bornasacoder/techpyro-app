@@ -7,7 +7,7 @@ import {
   import React from "react";
   const StyleToolbar = styled(Box)(({ theme }) => ({
     padding: "80px 60px",
-    background: `url(${"https://img.freepik.com/free-vector/realistic-microchip-processor-background_23-2148886012.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph"})
+    background: `url(${"https://img.freepik.com/free-photo/closeup-jogger-man-near-sea_273609-14992.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"})
     center/cover no-repeat fixed`,
     // position:"relative",
   
@@ -19,7 +19,7 @@ import {
       <StyleToolbar>
         <Box sx={{ display: "flex", flexDirection: "column",gap:2.5, width:{md:"60%",sm:"100%",xs:"100%"} ,alignItems:{md:"start",sm:"flex-start",xs:"flex-start"}}}>
             <Typography variant="span" sx={{ fontWeight: 600,marginTop:"50px", fontSize:{md:'54px',sm:"48px",xs:"30px"},color:"#fff",justifyContent:{sm:"center",xs:"center"}}}>
-            Connecting you with technology
+            Stepping up your style
             </Typography>
             <Typography
               variant="p"
@@ -31,7 +31,7 @@ import {
                 color:"#fff"
               }}
             >
-         Our electronic shop is the perfect place to find the latest technology and gadgets. Whether you're looking for a new smartphone, laptop, or gaming console, we've got you covered. 
+        Our shoe shop is dedicated to bringing you the latest styles and trends in footwear. From sneakers to heels, boots to sandals, we've got it all. 
             </Typography>
          
           <Box sx={{ display: "flex",justifyContent:"flex-start",alignItems:"center", gap: 2, position: "relative",flexDirection:{xs:'column',md:"row",sm:"row"},paddingLeft:{xs:"0px"} }}>
