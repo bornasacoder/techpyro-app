@@ -47,6 +47,7 @@ import {
   Diamond,
   Search,
 } from "@mui/icons-material";
+import BreakfastDiningIcon from '@mui/icons-material/BreakfastDining';
 // import MenuButtons from "./menuButtons/MenuButtons";
 import MainCarousel from "components/carousel/MainCarousel";
 import Content from "components/content/Content";
@@ -197,7 +198,7 @@ export default function Navbar() {
 
        <StyleToolbar>
         <NavLeft>
-        <Diamond sx={{fontSize:"60px",color:'red'}}/>
+        <BreakfastDiningIcon sx={{fontSize:"60px",color:'red'}}/>
         <NavButton/>
           {/* <MenuButtons >
           <Menu   sx={{color:"black"}}/>

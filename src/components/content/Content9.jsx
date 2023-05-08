@@ -36,40 +36,18 @@ const Content9 = () => {
         >
           <Grid item xs={12} sm={6} md={6} data-aos="zoom-in">
             <Typography variant="h4">
-              Athletic Shoes and Classic Shoes Driven by Bold Movement
+              Cakes is best dessert
             </Typography>
             <Typography>
-              Whether you’re moving your body or moving ideas forward, aim to
-              move in the direction of progress. Day after day, find time to
-              lace up your gym shoes and get in your workout, wherever, whenever
-              and whatever it might be. There’s no one way approach fitness as
-              long as you’re living an active life. If you’re passionate about
-              running, weightlifting, cross training or studio workouts, Reebok
-              has a range of athletic shoes designed to support you with
-              technology and comfort. And no matter how you move, do it with
-              purpose and style. Reebok’s retro sneakers were born from sports
-              out of the 80s and 90s. Then, they were gamechangers on the
-              basketball and tennis courts, track and trails. Now, they’re
-              timelessly authentic classic shoes. Iconic since day one.
+            A cake is a baked dessert that is typically made with flour, sugar, eggs, butter or oil, and a leavening agent such as baking powder or baking soda. Cakes can come in many different flavors and forms, from simple vanilla or chocolate cakes to more elaborate creations such as layered cakes, cheesecakes, and fruitcakes.The texture and flavor of a cake can be influenced by a variety of factors, including the type of flour used, the ratio of ingredients, and any additional flavorings or ingredients that are added, such as cocoa powder, fruit, or nuts.
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={6} data-aos="zoom-in">
             <Typography variant="h4">
-              Workout Clothes and Apparel for Getting After It
+              Muffins is best dessert 
             </Typography>
             <Typography>
-              From running to dance, boxing to cross training and weightlifting
-              to yoga, find workout clothes to support your moves. Inspired by
-              the breadth of human movement, Reebok’s men’s, women’s, kids’ and
-              unisex apparel is crafted in a range of inclusive sizes and
-              styles. Fitness and movement are for all, full stop. So, power
-              through your sweat sessions without distraction in
-              performance-driven designs and technologically enhanced fabrics.
-              Go about your day in comfortable athleisure and loungewear styles
-              paired with gym shoes or retro sneakers. And experiment with style
-              because sameness is the enemy of greatness. If what you wear is a
-              reflection of who you are, express yourself boldly and
-              unapologetically.
+            A muffin is a small, individual-sized baked good that is typically made with flour, sugar, eggs, butter or oil, and a leavening agent such as baking powder or baking soda. Muffins can come in many different flavors and varieties, from sweet blueberry or chocolate chip muffins to savory cheese or corn muffins.Muffins are typically baked in a muffin tin, which is a special pan with individual cup-shaped molds. The batter is poured into each mold and then baked in an oven until the muffins are golden brown and springy to the touch.
             </Typography>
           </Grid>
         </Grid>

@@ -41,9 +41,7 @@ export default function Content4() {
             color: "white",
           }}
         >
-          New pullover hoodies and t-shirts in divine color pairings. With this
-          Yard Love capsule, Reebok pledges to make a donation to UNCF (The
-          United Negro College Fund).
+          Get Fresh cakes, Pastries, Sanwiches, Cookies and more...
         </Typography>
         <br/>
         <Box display="flex">

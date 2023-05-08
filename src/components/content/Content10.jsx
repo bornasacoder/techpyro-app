@@ -34,7 +34,7 @@ export default function Content10() {
               
             }}
           >
-           JOIN REEBOK UNLOCKED 
+           JOIN BAKES UNLOCKED 
            <br/>
            AND GET 15% OFF
           </Typography>

@@ -85,7 +85,7 @@ export default function Content1() {
             <Item
               sx={{
                 height: "300px", 
-   background: `url(${"/images/category/popular1.webp"})
+   background: `url(${"/images/category/popular1.jpg"})
    center/cover no-repeat`,
   
               }}
@@ -101,7 +101,7 @@ export default function Content1() {
                 color:'#fff'
               }}}
               >
-               WOMEN
+               CAKES
               </Typography>
             </Item>
           </Grid>
@@ -109,7 +109,7 @@ export default function Content1() {
             <Item
               sx={{
                 height: "300px",
-   background: `url(${"/images/category/popular2.webp"})
+   background: `url(${"/images/category/popular2.jpg"})
    center/cover no-repeat`,
   
               }}
@@ -125,7 +125,7 @@ export default function Content1() {
                 backgroundColor:"#000",
                 color:'#fff'}}}
               >
-               MEN
+               COOKIES
               </Typography>
             </Item>
           </Grid>
@@ -133,7 +133,7 @@ export default function Content1() {
             <Item
               sx={{
                 height: "300px",
-   background: `url(${"/images/category/popular3.webp"})
+   background: `url(${"/images/category/popular3.jpg"})
    center/cover no-repeat`,
   
               }}
@@ -149,7 +149,7 @@ export default function Content1() {
                   backgroundColor:"#000",
                   color:'#fff'} }}
               >
-               KIDS
+               MUFFINS
               </Typography>
             </Item>
           </Grid>

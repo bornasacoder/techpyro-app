@@ -72,7 +72,7 @@ export default function Content8() {
               alignItems: "center",
             }}
           >
-            You kick it hard with style and fitness. Now get 
+             You must remember when you taste!. Now get
             <br/>
             rewarded for it
             with a loyalty program that gets you.
