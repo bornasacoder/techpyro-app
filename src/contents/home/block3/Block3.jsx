@@ -132,35 +132,35 @@ const Block3 = (props) => {
   let arr=[
     {
       id:"1",
-      img:"https://img.freepik.com/free-photo/sport-running-shoes_1203-3414.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/beautiful-young-woman-wearing-sari_23-2149502963.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"2",
-      img:"https://img.freepik.com/free-photo/women-s-red-high-heel-shoes-formal-fashion_53876-103574.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400873.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"3",
-      img:"https://img.freepik.com/free-photo/flipflops-yellow-pair-isolated-white-background_1101-1998.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/elegant-indian-macho-man-model-suit-pink-tie-walking-cross-pedestrian_627829-1674.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"4",
-      img:"https://img.freepik.com/free-photo/brown-flip-flops-summer-footwear-fashion_53876-106037.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/fast-fashion-vs-slow-sustainable-fashion_23-2149133967.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"5",
-      img:"https://img.freepik.com/free-photo/chocolate-chip-muffin_74190-7122.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/stack-clothes-white-background-closeup_93675-132644.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"6",
-      img:"https://img.freepik.com/free-photo/leather-shoes-sandal_1203-7615.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-psd/mens-tri-blend-crew-tee-mockup_126278-130.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
     },
     {
       id:"7",
-      img:"https://img.freepik.com/free-photo/men-shoes_1203-8387.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/groom-s-arms-with-red-bracelet-button-up-golden-wedding-suit_8353-767.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"8",
-      img:"https://img.freepik.com/free-photo/sport-running-shoes_1203-3414.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/young-woman-beautiful-dress_1303-17516.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
   ]
   return (

@@ -38,13 +38,13 @@ export default function Block5() {
         <CardBox >
   
           <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'rgba(0,0,0,0.6)',textAlign:"center",fontSize:{xs:'30px',md:'40px'},fontWeight:{xs:'600'}}}>Our shoe shop offers the latest trends at affordable prices.</Typography>
+             <Typography  sx={{color:'rgba(0,0,0,0.6)',textAlign:"center",fontSize:{xs:'30px',md:'40px'},fontWeight:{xs:'600'}}}>Our clothes shop offers a range of sizes and styles to fit every body type.</Typography>
              
          </Box>
      
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',md:'center'}}}>
           
-          <Typography sx={{color:'#000',fontSize:{xs:'18px',md:'22px',opacity:'0.7'}}}>At our shoe shop, we believe that everyone deserves to have access to stylish and comfortable shoes. That's why we offer a range of sizes and styles to fit every foot and every taste. Our staff is trained to help you find the perfect pair of shoes to meet your needs.</Typography>
+          <Typography sx={{color:'#000',fontSize:{xs:'18px',md:'22px',opacity:'0.7'}}}>At our clothes shop, we believe that fashion should be accessible to everyone. That's why we offer a range of sizes and styles to fit every body type and every fashion preference. Our staff is trained to help you find the perfect outfit for any occasion.</Typography>
     
           <Typography sx={{color:'#000',fontSize:{xs:'18px',md:'22px'},color:'#2468F7',fontWeight:'500',opacity:'0.7'}}>Discover to build our buisness on techpyro</Typography>
          </Box>
