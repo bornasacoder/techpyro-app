@@ -132,35 +132,35 @@ const Block3 = (props) => {
   let arr=[
     {
       id:"1",
-      img:"https://img.freepik.com/free-photo/selective-focus-closeup-diamond-rings_181624-57691.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/professional-indian-young-photographer-taking-photos-studio-with-leight_231208-3780.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
     },
     {
       id:"2",
-      img:"https://img.freepik.com/free-photo/beautiful-engagement-ring-with-diamonds_23-2149509236.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/model-getting-ready-photoshoot_23-2149305175.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
     },
     {
       id:"3",
-      img:"https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400845.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-vector/studio-photo-shoot-with-model-posing-backstage_33099-1844.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
     },
     {
       id:"4",
-      img:"https://img.freepik.com/free-psd/golden-rings-mock-up_1022-54.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-vector/remote-controlled-quadrocopter-composition_1284-29759.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"5",
-      img:"https://img.freepik.com/free-photo/traditional-indian-wedding-jewelry_8353-9762.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-vector/group-people-doing-journalism_23-2148518532.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
     },
     {
       id:"6",
-      img:"https://img.freepik.com/free-vector/colorful-jewelry-accessories-icons-set_1284-38179.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/top-view-vintage-camera-composition_23-2148913949.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"7",
-      img:"https://img.freepik.com/free-vector/realistic-3d-jewelry-showcase-podium_52683-69102.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/professional-young-photographer-taking-photos-indian-model-studio-with-leight_231208-3803.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
     },
     {
       id:"8",
-      img:"https://img.freepik.com/free-photo/gorgeous-wedding-rings-sparklie-acorn_8353-704.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-vector/photo-studio-with-white-panel-spotlights_107791-1163.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
     },
   ]
   return (

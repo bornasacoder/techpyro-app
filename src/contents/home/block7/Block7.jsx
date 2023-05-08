@@ -31,12 +31,12 @@ export default function Block7() {
      
         <CardBox >
     <Box sx={{  height:'350px',display:'flex',flex:'1',gap:'30px',flexDirection:'column',alignItems:{xs:'flex-start',sm:'flex-start',md:'center'}}}>
-          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-vector/realistic-pair-golden-wedding-rings_52683-13737.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
+          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-vector/studio-photographer-concept-illustration_114360-2306.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
          </Box>
           <Box sx={{  display:'flex',flex:'1',flexDirection:'column',gap:'15px',justifyContent:'center',paddingLeft:'20px',alignItems:{xs:'flex-start'}}}>
              
-            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>The perfect expression of love</Typography>
-            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>That's why we have made it our mission to offer the finest selection of jewelry that will help our customers celebrate life's most special moments. From diamond engagement rings to statement necklaces and bracelets.</Typography>
+            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Creating timeless portraits</Typography>
+            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>Whether you need family portraits, professional headshots, or wedding photos, our team is here to help. We use state-of-the-art equipment and the latest techniques to ensure that your photographs are of the highest quality. We take the time to get to know you and your needs.</Typography>
             <Button variant="outlined" sx={{width:'150px',height:'30px'}}>Learn More</Button>
          
          </Box>

@@ -55,18 +55,18 @@ export default function Block2() {
          </Box>
      
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',alignItems:{xs:'flex-start',sm:'flex-start',md:'center'}}}>
-          <Typography sx={{color:'rgba(0,0,0,0.7)',fontSize:{xs:'22px',md:'42px'},fontWeight:'600'}}>A new level of luxury</Typography>
-          <Typography sx={{fontSize:{sm:'16px',md:'22px'},opacity:'0.8'}}>Whether you're looking for the perfect engagement ring, a statement necklace, or a pair of dazzling earrings, our knowledgeable and friendly staff is here to guide you through every step of the selection process. We take pride in the quality of our jewelry.</Typography>
+          <Typography sx={{color:'rgba(0,0,0,0.7)',fontSize:{xs:'22px',md:'42px'},fontWeight:'600'}}>our moments, our expertise</Typography>
+          <Typography sx={{fontSize:{sm:'16px',md:'22px'},opacity:'0.8'}}>Whether you need family portraits, professional headshots, or wedding photos, our team is here to help. We use state-of-the-art equipment and the latest techniques to ensure that your photographs are of the highest quality. We take the time to get to know you and your needs, and we work closely with you throughout the entire process to ensure that you are completely satisfied with the end result.</Typography>
           <Box sx={{display:'flex',alignItems:'center',justifyContent:'center',gap:'10px',flexWrap:'wrap'}}>
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/shiny-gemstone-necklace-reflects-elegance-glamour-generated-by-ai_188544-10583.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/jewels-sparkle-golden-wedding-rings-lying-leather_8353-763.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-vector/realistic-gold-silver-jewelry-display-black-mannequins-stands-grey-surface_1284-9644.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-vector/realistic-gold-silver-jewelry-display-black-mannequins-stands-grey-surface_1284-9644.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-vector/raksha-bandhan-green-background_1035-3344.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-vector/jewelry-accessories-realistic-set-with-rings-earrings-black-background_1284-27174.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/woman-accessories-black-side-view_155003-7887.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-vector/jewelry-realistic-set_1284-6728.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
-         
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-vector/spotlights-realistic-composition-with-cyclorama-studio-spot-lights-hanging-reel-mounted-stands_1284-31591.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+          <img style={{height:'50px',width:'50px'}} src="https://images.pexels.com/photos/134469/pexels-photo-134469.jpeg?auto=compress&cs=tinysrgb&w=600" />
+          <img style={{height:'50px',width:'50px'}} src="https://images.pexels.com/photos/2388569/pexels-photo-2388569.jpeg?auto=compress&cs=tinysrgb&w=600" />
+          <img style={{height:'50px',width:'50px'}} src="https://images.pexels.com/photos/106011/pexels-photo-106011.jpeg?auto=compress&cs=tinysrgb&w=600" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/side-view-woman-holding-camera_23-2149893853.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-vector/spotlights-realistic-composition-with-cyclorama-studio-spot-lights-hanging-reel-mounted-stands_1284-31591.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+          <img style={{height:'50px',width:'50px'}} src="https://images.pexels.com/photos/134469/pexels-photo-134469.jpeg?auto=compress&cs=tinysrgb&w=600" />
+          <img style={{height:'50px',width:'50px'}} src="https://images.pexels.com/photos/2388569/pexels-photo-2388569.jpeg?auto=compress&cs=tinysrgb&w=600" />
+          
           </Box>
           <Typography sx={{fontSize:{sm:'18px',md:'22px'},color:'#3DCAD4',fontWeight:'500',}}>Discover to build our buisness on techpyro</Typography>
          </Box>

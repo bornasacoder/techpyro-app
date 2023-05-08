@@ -140,18 +140,18 @@ export default function NavButton() {
               </Box>
           <List component="nav" aria-label="mailbox folders">
             <ListItem button>
-              <ListItemText primary="Rings" />
+              <ListItemText primary="Drone" />
             </ListItem>
             <Divider />
             <ListItem button divider>
-              <ListItemText primary="Necklaces" />
+              <ListItemText primary="Camera" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="Bracelets" />
+              <ListItemText primary="LED" />
             </ListItem>
             <Divider light />
             <ListItem button>
-              <ListItemText primary="Lockets" />
+              <ListItemText primary="Crane" />
             </ListItem>
           </List>
  
@@ -188,14 +188,14 @@ export default function NavButton() {
               </Box>
           <List component="nav" aria-label="mailbox folders">
           <ListItem button>
-              <ListItemText primary="Tanishq" />
+              <ListItemText primary="T-Series" />
             </ListItem>
             <Divider />
             <ListItem button divider>
-              <ListItemText primary="PC Jewellers" />
+              <ListItemText primary="Dharma Productions" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="Joyalukkas" />
+              <ListItemText primary="Z-Studio" />
             </ListItem>
           </List>
  
@@ -277,14 +277,14 @@ export default function NavButton() {
               </Box>
           <List component="nav" aria-label="mailbox folders">
           <ListItem button>
-              <ListItemText primary="Tanishq" />
+              <ListItemText primary="T-Series" />
             </ListItem>
             <Divider />
             <ListItem button divider>
-              <ListItemText primary="PC Jewellers" />
+              <ListItemText primary="Dharma Productions" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="Joyalukkas" />
+              <ListItemText primary="Z-Studio" />
             </ListItem>
 
           </List>

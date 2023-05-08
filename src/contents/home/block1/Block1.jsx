@@ -7,7 +7,7 @@ import {
   import React from "react";
   const StyleToolbar = styled(Box)(({ theme }) => ({
     padding: "80px 60px",
-    background: `url(${"https://img.freepik.com/free-photo/shiny-gemstone-necklace-reflects-elegance-glamour-generated-by-ai_188544-13941.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"})
+    background: `url(${"https://img.freepik.com/free-photo/high-angle-shot-lens-headphones-gimbal-phone_181624-43878.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"})
     center/cover no-repeat fixed`,
     // position:"relative",
   
@@ -19,7 +19,7 @@ import {
       <StyleToolbar>
         <Box sx={{ display: "flex", flexDirection: "column",gap:2.5, width:{md:"60%",sm:"100%",xs:"100%"} ,alignItems:{md:"start",sm:"flex-start",xs:"flex-start"}}}>
             <Typography variant="span" sx={{ fontWeight: 600,marginTop:"50px", fontSize:{md:'54px',sm:"48px",xs:"30px"},color:"#fff",justifyContent:{sm:"center",xs:"center"}}}>
-            The art of jewelry
+            Capturing life's moments beautifully
             </Typography>
             <Typography
               variant="p"
@@ -31,7 +31,7 @@ import {
                 color:"#fff"
               }}
             >
-At our jewelry shop, we believe that every piece of jewelry is a work of art. That's why we carefully curate our collection to offer you the finest selection of exquisite jewelry that will inspire you to elevate your personal style. 
+At our photo studio, we understand the importance of capturing life's precious moments. We strive to create beautiful, timeless portraits that you and your loved ones will cherish for years to come. 
 </Typography>
          
           <Box sx={{ display: "flex",justifyContent:"flex-start",alignItems:"center", gap: 2, position: "relative",flexDirection:{xs:'column',md:"row",sm:"row"},paddingLeft:{xs:"0px"} }}>

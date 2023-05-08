@@ -37,13 +37,13 @@ export default function Block4() {
         <CardBox >
   
           <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'#ffff',fontSize:{xs:'50px'},fontWeight:{xs:'900'}}}>Jwellery</Typography>
+             <Typography  sx={{color:'#ffff',fontSize:{xs:'50px'},fontWeight:{xs:'900'}}}>Studio</Typography>
              <Typography sx={{color:'#ffff',fontSize:{xs:'20px',md:'25px'},fontWeight:{xs:'500'}}}>Supermarkets</Typography>
          </Box>
      
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',sm:'start'}}}>
           
-          <Typography sx={{color:'#ffff',fontSize:{xs:'20px',md:'22px'}}}> We believe that every piece of jewelry should tell a story. That's why we work with some of the most talented jewelry designers to create pieces that are not only beautiful but also meaningful. Our collection is designed to be unique and to make a statement.</Typography>
+          <Typography sx={{color:'#ffff',fontSize:{xs:'20px',md:'22px'}}}> At our photo studio, we believe that everyone deserves to have beautiful, professional photographs. That's why we offer a range of affordable packages to suit every budget. We understand that every client is unique.</Typography>
     
           <Typography sx={{color:'#ffff',fontSize:{xs:'18px',md:'22px'},color:'#ffff',fontWeight:'500',opacity:'0.7'}}>Discover to build our buisness on techpyro</Typography>
          </Box>
