@@ -31,12 +31,12 @@ export default function Block7() {
      
         <CardBox >
     <Box sx={{  height:'350px',display:'flex',flex:'1',gap:'30px',flexDirection:'column',alignItems:{xs:'flex-start',sm:'flex-start',md:'center'}}}>
-          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-psd/food-packaging-mockup_1310-788.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-vector/drinks-closed-fridges-set_1284-54577.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais" />
          </Box>
           <Box sx={{  display:'flex',flex:'1',flexDirection:'column',gap:'15px',justifyContent:'center',paddingLeft:'20px',alignItems:{xs:'flex-start'}}}>
              
-            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Coffee, friends, forever</Typography>
-            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>We take pride in our culinary creations and strive to offer our guests a dining experience that is both delicious and memorable. Whether you're in the mood for a hearty steak or a delicate seafood dish, our menu has something for everyone. Sit back, relax, and let us take you on a culinary journey you won't forget.</Typography>
+            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Electronic, friends, forever</Typography>
+            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>Our electronic shop is the perfect place to find the latest technology and gadgets. Whether you're looking for a new smartphone, laptop, or gaming console, we've got you covered. We pride ourselves on offering a wide selection of products at competitive prices, so you can be sure you're getting the best deal. </Typography>
             <Button variant="outlined" sx={{width:'150px',height:'30px'}}>Learn More</Button>
          
          </Box>

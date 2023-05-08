@@ -132,19 +132,19 @@ const Block3 = (props) => {
   let arr=[
     {
       id:"1",
-      img:"https://img.freepik.com/free-photo/sweet-pastry-assortment-top-view_23-2148516578.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-vector/remote-control-streaming-media-home-networking-access-idea-integrated-entertainment-technology-internet-television-show-broadcasting-vector-isolated-concept-metaphor-illustration_335657-2216.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph"
     },
     {
       id:"2",
-      img:"https://img.freepik.com/free-photo/fresh-danish-bread-with-milk-fruit-blueberry-cherry-sauce-served-with-milk_1150-23544.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-vector/man-watching-television-armchair-tv-sitting-chair-drinking-eating-vector-flat-illustration_1284-42407.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"3",
-      img:"https://img.freepik.com/free-photo/croissants-wooden-cutting-board_1150-28480.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-vector/desktop-computer-concept-illustration_114360-13052.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"4",
-      img:"https://img.freepik.com/free-photo/front-view-delicious-choco-eclairs-dark-background_140725-91663.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-vector/isometric-isolated-sound-speakers-concept-three-large-speakers-floor-turned-different-directions-better-sound-vector-illustration_1284-81836.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"5",
@@ -152,15 +152,15 @@ const Block3 = (props) => {
     },
     {
       id:"6",
-      img:"https://img.freepik.com/free-photo/sweet-pastry-assortment-top-view_23-2148516578.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/headphones-stereo-equipment-single-object-technology-generated-by-ai_188544-10146.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"7",
-      img:"https://img.freepik.com/free-photo/fresh-danish-bread-with-milk-fruit-blueberry-cherry-sauce-served-with-milk_1150-23544.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-psd/3d-rendering-hotel-icon_23-2150102380.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
     {
       id:"8",
-      img:"https://img.freepik.com/free-photo/croissants-wooden-cutting-board_1150-28480.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-vector/realistic-smartphone-device_52683-29765.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
     },
   ]
   return (

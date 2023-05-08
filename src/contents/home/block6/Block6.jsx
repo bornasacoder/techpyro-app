@@ -33,14 +33,14 @@ export default function Block6() {
   
           <Box sx={{  display:'flex',flex:'1',flexDirection:'column',gap:'15px',justifyContent:'center',paddingLeft:'20px',alignItems:{xs:'flex-start'}}}>
              
-            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Our passion is Coffee</Typography>
-            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>Indulge in our menu of classic and contemporary dishes, expertly prepared by our talented chefs. Our restaurant is committed to using only the freshest ingredients, sourced from local farmers and producers whenever possible. </Typography>
+            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Experience the latest gadgets.</Typography>
+            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>From browsing our selection of products to making a purchase, we strive to provide a seamless experience for our customers. And if you're not satisfied with your purchase, we offer hassle-free returns and exchanges. </Typography>
             <Button variant="outlined" sx={{width:'150px',height:'30px'}}>Learn More</Button>
          
          </Box>
      
          <Box sx={{  height:'350px',display:'flex',flex:'1',gap:'30px',flexDirection:'column',alignItems:{xs:'flex-start',sm:'flex-start',md:'center'}}}>
-          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-psd/paper-coffee-bags-mockup_58466-11166.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-psd/modern-tv-mockup_1310-792.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
          </Box>
   
         </CardBox>

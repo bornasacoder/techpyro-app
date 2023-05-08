@@ -31,12 +31,12 @@ export default function Block9() {
      
         <CardBox >
     <Box sx={{  height:'350px',display:'flex',flex:'1',gap:'30px',flexDirection:'column',alignItems:{xs:'flex-start',sm:'flex-start',md:'center'}}}>
-          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-psd/paper-coffee-bag-mockup_58466-11147.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais" />
+          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-vector/wireless-headphones-set_1284-20423.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
          </Box>
           <Box sx={{  display:'flex',flex:'1',flexDirection:'column',gap:'15px',justifyContent:'center',paddingLeft:'20px',alignItems:{xs:'flex-start'}}}>
              
             <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Savor the moment, always</Typography>
-            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>From the aromatic spices of our signature curries to the smoky flavors of our grilled meats, each bite is a journey of the senses. We believe that food is more than just fuel for the body – it's a celebration of life, love, and connection. Come share a meal with us and experience the true essence of our culture.</Typography>
+            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>That's why we're committed to making the buying process as easy and stress-free as possible. From browsing our selection of products to making a purchase, we strive to provide a seamless experience for our customers.</Typography>
             <Button variant="outlined" sx={{width:'150px',height:'30px'}}>Learn More</Button>
          
          </Box>

@@ -37,10 +37,10 @@ export default function Block11() {
 
 <Box sx={{  padding:{xs:'20px',lg:'100px 0px 100px 100px'}, background:'#F6F7FB',display:'flex',flex:'1',flexDirection:'column',gap:'20px'}}>
               <Box>
-                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/free-psd/coffee-shop-flyer-template_23-2148870906.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/free-psd/modern-minimal-headphone-branding-mockup_439185-11916.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
               </Box>
               <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>Coffee for the soul</Typography>
+             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>Latest Headphones</Typography>
              
          </Box>
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',md:'center'}}}>
@@ -51,10 +51,10 @@ export default function Block11() {
 
          <Box sx={{  padding:{xs:'20px',lg:'100px 0px 100px 0px'}, background:'#F6F7FB',display:'flex',flex:'1',flexDirection:'column',gap:'20px'}}>
               <Box>
-                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/free-psd/coffee-bags-mockup_15879-581.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/free-photo/smartphone-balancing-with-pink-background_23-2150271746.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph" />
               </Box>
               <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>Come hungry, leave happy</Typography>
+             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>Latest Phones</Typography>
              
          </Box>
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',md:'center'}}}>
@@ -65,10 +65,10 @@ export default function Block11() {
 
          <Box sx={{  padding:{xs:'20px',lg:'100px 100px 100px 20px'}, background:'#F6F7FB',display:'flex',flex:'1',flexDirection:'column',gap:'20px'}}>
               <Box>
-                <img style={{height:'300px',width:'100%'}} src="https://images.pexels.com/photos/7893103/pexels-photo-7893103.jpeg?auto=compress&cs=tinysrgb&w=600" />
+                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/free-psd/3d-rendering-hotel-icon_23-2150102380.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph" />
               </Box>
               <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>Where taste buds dance</Typography>
+             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>Latest Ac</Typography>
              
          </Box>
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',md:'center'}}}>

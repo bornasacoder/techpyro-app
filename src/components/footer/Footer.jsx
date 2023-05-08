@@ -36,7 +36,7 @@ export default function Footer() {
         <CardBox >
   
           <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'30px',justifyContent:'center',alignItems:{xs:'flex-start'}}}>
-             <Typography  sx={{color:'#fff',fontSize:{xs:'25px'},fontWeight:{xs:'600'}}}>Coffee</Typography>
+             <Typography  sx={{color:'#fff',fontSize:{xs:'25px'},fontWeight:{xs:'600'}}}>Electronic</Typography>
              <Typography sx={{color:'#fff',fontSize:{xs:'15px',opacity:'0.6'},fontWeight:{xs:'600'}}}>Built with ♥ in San Francisco and around the world.Onfleet, Inc. © 2023</Typography>
              <Typography  sx={{color:'#fff',fontSize:{xs:'15px'},fontWeight:{xs:'600'}}}>Sign up to receive news and announcements</Typography>
              <Box>

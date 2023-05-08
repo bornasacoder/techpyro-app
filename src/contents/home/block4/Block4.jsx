@@ -37,13 +37,13 @@ export default function Block4() {
         <CardBox >
   
           <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'#ffff',fontSize:{xs:'50px'},fontWeight:{xs:'900'}}}>Coffee</Typography>
+             <Typography  sx={{color:'#ffff',fontSize:{xs:'50px'},fontWeight:{xs:'900'}}}>Electronic</Typography>
              <Typography sx={{color:'#ffff',fontSize:{xs:'20px',md:'25px'},fontWeight:{xs:'500'}}}>Supermarkets</Typography>
          </Box>
      
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',sm:'start'}}}>
           
-          <Typography sx={{color:'#ffff',fontSize:{xs:'20px',md:'22px'}}}>Our tea shop is a place where you can come to escape the stresses of everyday life and find a moment of calm. Whether you're catching up with friends, reading a book, or just looking for a quiet moment to yourself.</Typography>
+          <Typography sx={{color:'#ffff',fontSize:{xs:'20px',md:'22px'}}}>We're passionate about technology and are always on the lookout for the latest trends and innovations. That's why we work with some of the top brands in the industry to bring you the best products on the market. Whether you're a tech enthusiast </Typography>
     
           <Typography sx={{color:'#ffff',fontSize:{xs:'18px',md:'22px'},color:'#ffff',fontWeight:'500',opacity:'0.7'}}>Discover to build our buisness on techpyro</Typography>
          </Box>
