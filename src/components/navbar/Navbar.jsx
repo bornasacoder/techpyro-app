@@ -362,7 +362,7 @@ export default function Navbar() {
      
         </Ram> */}
         <Box>
-          <Typography sx={{fontSize:'30px'}}>University</Typography>
+          <Typography sx={{fontSize:'30px'}}>Online Learning</Typography>
         </Box>
 
         <Box sx={{}}>
