@@ -221,7 +221,7 @@ const NavBar = styled(AppBar)(({theme}) =>({
     
   backgroundColor:'#0D2D62',
     width:'100%',
-    height:'230px',
+    height:'180px',
     margin:"0",
     padding:'0',
     position:'sticky',
@@ -358,12 +358,12 @@ export default function Navbar() {
         <Typography sx={{fontSize:{xs:'20px',sm:'20px',md:'20px'},fontWeight:'400',color:'black'}}>Amazing Playground for your kids</Typography>
 
           </Box> */}
-          <Ram>
+          {/* <Ram>
      
-        </Ram>
-        {/* <Box>
-          <Typography sx={{fontSize:'30px'}}>A B C SCHOOL</Typography>
-        </Box> */}
+        </Ram> */}
+        <Box>
+          <Typography sx={{fontSize:'30px'}}>PLAY SCHOOL</Typography>
+        </Box>
 
         <Box sx={{}}>
             <MenuButton onClick={handleOpen}>

@@ -9,7 +9,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-      image:"https://images.pexels.com/photos/207692/pexels-photo-207692.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image:"https://img.freepik.com/free-vector/flat-design-nursery-school-template_23-2149633008.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
 
@@ -23,7 +23,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            tagline: "new",
-     image:"https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&w=600",
+     image:"https://img.freepik.com/premium-vector/back-school-concept-with-funny-children_29937-6100.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
            rating:"4.3",
        },
        {
@@ -35,7 +35,7 @@ export const other = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://images.pexels.com/photos/2132891/pexels-photo-2132891.jpeg?auto=compress&cs=tinysrgb&w=600",
+       image:"https://img.freepik.com/free-psd/children-s-day-banner-template_23-2148680856.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
        tagline: "new",
            rating:"4.3",
        },
@@ -48,7 +48,7 @@ export const other = [
                cost: "99"
            },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://images.pexels.com/photos/618116/pexels-photo-618116.jpeg?auto=compress&cs=tinysrgb&w=600",
+         image: "https://img.freepik.com/free-vector/flat-design-nursery-school-template_23-2149632986.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
          tagline: "new",
            rating:"4.3",
        },

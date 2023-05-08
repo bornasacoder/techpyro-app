@@ -34,9 +34,9 @@ const Home = () => {
          <Navbar /> 
          <SwiggySlider sliderData={other}/>
          <Block1 />
-         <Block11 />
+         {/* <Block11 /> */}
          <Block2 />
-         <Block4 />
+         {/* <Block4 /> */}
          <Block9 />
          <BigSlider sliderData={adidas}/>
          <Footer /> 
