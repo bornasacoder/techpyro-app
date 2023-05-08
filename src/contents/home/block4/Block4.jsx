@@ -37,13 +37,13 @@ export default function Block4() {
         <CardBox >
   
           <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'#ffff',fontSize:{xs:'50px'},fontWeight:{xs:'900'}}}>Studio</Typography>
+             <Typography  sx={{color:'#ffff',fontSize:{xs:'50px'},fontWeight:{xs:'900'}}}>Furniture</Typography>
              <Typography sx={{color:'#ffff',fontSize:{xs:'20px',md:'25px'},fontWeight:{xs:'500'}}}>Supermarkets</Typography>
          </Box>
      
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',sm:'start'}}}>
           
-          <Typography sx={{color:'#ffff',fontSize:{xs:'20px',md:'22px'}}}> At our photo studio, we believe that everyone deserves to have beautiful, professional photographs. That's why we offer a range of affordable packages to suit every budget. We understand that every client is unique.</Typography>
+          <Typography sx={{color:'#ffff',fontSize:{xs:'20px',md:'22px'}}}> In addition to our wide selection of furniture, we also offer personalized design services to help you create a space that is uniquely yours. Our team of experienced designers will work closely with you to understand your needs and preferences.</Typography>
     
           <Typography sx={{color:'#ffff',fontSize:{xs:'18px',md:'22px'},color:'#ffff',fontWeight:'500',opacity:'0.7'}}>Discover to build our buisness on techpyro</Typography>
          </Box>

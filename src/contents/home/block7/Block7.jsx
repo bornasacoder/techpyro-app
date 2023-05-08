@@ -31,12 +31,12 @@ export default function Block7() {
      
         <CardBox >
     <Box sx={{  height:'350px',display:'flex',flex:'1',gap:'30px',flexDirection:'column',alignItems:{xs:'flex-start',sm:'flex-start',md:'center'}}}>
-          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-vector/studio-photographer-concept-illustration_114360-2306.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-psd/armchair-pillow_176382-862.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
          </Box>
           <Box sx={{  display:'flex',flex:'1',flexDirection:'column',gap:'15px',justifyContent:'center',paddingLeft:'20px',alignItems:{xs:'flex-start'}}}>
              
-            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Creating timeless portraits</Typography>
-            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>Whether you need family portraits, professional headshots, or wedding photos, our team is here to help. We use state-of-the-art equipment and the latest techniques to ensure that your photographs are of the highest quality. We take the time to get to know you and your needs.</Typography>
+            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Customized furniture to suit your style</Typography>
+            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>From the moment you step into our store, you'll be greeted by our friendly and knowledgeable staff, who will be happy to answer any questions you may have. We believe that buying furniture should be a fun and enjoyable experience, and we are dedicated to making sure that every customer leaves our store satisfied with their purchase.</Typography>
             <Button variant="outlined" sx={{width:'150px',height:'30px'}}>Learn More</Button>
          
          </Box>

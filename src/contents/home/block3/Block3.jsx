@@ -132,35 +132,35 @@ const Block3 = (props) => {
   let arr=[
     {
       id:"1",
-      img:"https://img.freepik.com/free-photo/professional-indian-young-photographer-taking-photos-studio-with-leight_231208-3780.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/mid-century-modern-living-room-interior-design-with-monstera-tree_53876-129804.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"2",
-      img:"https://img.freepik.com/free-photo/model-getting-ready-photoshoot_23-2149305175.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/white-sideboard-living-room-interior-with-copy-space_43614-800.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"3",
-      img:"https://img.freepik.com/free-vector/studio-photo-shoot-with-model-posing-backstage_33099-1844.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/blue-wall-with-red-sofa_1286-149.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"4",
-      img:"https://img.freepik.com/free-vector/remote-controlled-quadrocopter-composition_1284-29759.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-photo/empty-modern-room-with-furniture_23-2149178345.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"5",
-      img:"https://img.freepik.com/free-vector/group-people-doing-journalism_23-2148518532.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/mid-century-modern-living-room-interior-design-with-monstera-tree_53876-129803.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"6",
-      img:"https://img.freepik.com/free-photo/top-view-vintage-camera-composition_23-2148913949.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"
+      img:"https://img.freepik.com/free-psd/living-room-wall-mockup-psd-modern-interior-design_53876-130139.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"7",
-      img:"https://img.freepik.com/free-photo/professional-young-photographer-taking-photos-indian-model-studio-with-leight_231208-3803.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/wood-sideboard-living-room-interior-with-copy-space_43614-827.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"8",
-      img:"https://img.freepik.com/free-vector/photo-studio-with-white-panel-spotlights_107791-1163.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/gray-sofa-brown-living-room-with-copy-space_43614-954.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
   ]
   return (

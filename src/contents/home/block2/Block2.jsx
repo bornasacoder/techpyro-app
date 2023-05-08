@@ -55,17 +55,17 @@ export default function Block2() {
          </Box>
      
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',alignItems:{xs:'flex-start',sm:'flex-start',md:'center'}}}>
-          <Typography sx={{color:'rgba(0,0,0,0.7)',fontSize:{xs:'22px',md:'42px'},fontWeight:'600'}}>our moments, our expertise</Typography>
-          <Typography sx={{fontSize:{sm:'16px',md:'22px'},opacity:'0.8'}}>Whether you need family portraits, professional headshots, or wedding photos, our team is here to help. We use state-of-the-art equipment and the latest techniques to ensure that your photographs are of the highest quality. We take the time to get to know you and your needs, and we work closely with you throughout the entire process to ensure that you are completely satisfied with the end result.</Typography>
+          <Typography sx={{color:'rgba(0,0,0,0.7)',fontSize:{xs:'22px',md:'42px'},fontWeight:'600'}}>Quality furniture at affordable prices</Typography>
+          <Typography sx={{fontSize:{sm:'16px',md:'22px'},opacity:'0.8'}}>We understand that buying furniture can be a big investment, which is why we take great care to ensure that every piece of furniture we sell is of the highest quality. We source our products from trusted manufacturers and use only the finest materials to ensure that our furniture is not only beautiful but also built to last.</Typography>
           <Box sx={{display:'flex',alignItems:'center',justifyContent:'center',gap:'10px',flexWrap:'wrap'}}>
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-vector/spotlights-realistic-composition-with-cyclorama-studio-spot-lights-hanging-reel-mounted-stands_1284-31591.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
-          <img style={{height:'50px',width:'50px'}} src="https://images.pexels.com/photos/134469/pexels-photo-134469.jpeg?auto=compress&cs=tinysrgb&w=600" />
-          <img style={{height:'50px',width:'50px'}} src="https://images.pexels.com/photos/2388569/pexels-photo-2388569.jpeg?auto=compress&cs=tinysrgb&w=600" />
-          <img style={{height:'50px',width:'50px'}} src="https://images.pexels.com/photos/106011/pexels-photo-106011.jpeg?auto=compress&cs=tinysrgb&w=600" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/side-view-woman-holding-camera_23-2149893853.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-vector/spotlights-realistic-composition-with-cyclorama-studio-spot-lights-hanging-reel-mounted-stands_1284-31591.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
-          <img style={{height:'50px',width:'50px'}} src="https://images.pexels.com/photos/134469/pexels-photo-134469.jpeg?auto=compress&cs=tinysrgb&w=600" />
-          <img style={{height:'50px',width:'50px'}} src="https://images.pexels.com/photos/2388569/pexels-photo-2388569.jpeg?auto=compress&cs=tinysrgb&w=600" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/retro-living-room-interior-design_53876-145503.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/loft-home-office-interior-design_53876-143117.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/loft-home-office-interior-design_53876-143117.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-psd/living-room-wall-mockup-psd-modern-interior-design_53876-130140.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/retro-living-room-interior-design_53876-145503.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/loft-home-office-interior-design_53876-143117.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/loft-home-office-interior-design_53876-143117.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-psd/living-room-wall-mockup-psd-modern-interior-design_53876-130140.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
           
           </Box>
           <Typography sx={{fontSize:{sm:'18px',md:'22px'},color:'#3DCAD4',fontWeight:'500',}}>Discover to build our buisness on techpyro</Typography>
