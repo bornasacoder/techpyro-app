@@ -51,7 +51,7 @@ padding:'50px 0px'
     <>
 
        <Box sx={{textAlign:'center',marginTop:{xs:'20px',sm:'40px',md:'80px'},color:'#0D2D62'}}>
-       <Typography sx={{fontSize:{xs:'30px',sm:'30px',md:'50px'},fontWeight:'700',fontFamily:'Butler'}}>Welcome to Play School </Typography>
+       <Typography sx={{fontSize:{xs:'30px',sm:'30px',md:'50px'},fontWeight:'700',fontFamily:'Butler'}}>Welcome to our University </Typography>
        <Typography sx={{fontSize:{xs:'30px',sm:'30px',md:'50px'},fontWeight:'700',fontFamily:'Butler'}}>Azaad Nagar</Typography>
        <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'40px'},fontWeight:'500',color:'black',fontFamily:"Satisfy"}}>Giving wings to thoughts </Typography>
        </Box>
@@ -66,7 +66,7 @@ padding:'50px 0px'
         <CardMedia
         sx={{height:'100%',width:'100%'}}
           component="img"
-          image="https://img.freepik.com/free-photo/full-shot-kids-sitting-together-table_23-2149355252.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
+          image="https://img.freepik.com/free-psd/realistic-banner-graduation-template_23-2149237586.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"
           alt="green iguana"
         />
        </Box>

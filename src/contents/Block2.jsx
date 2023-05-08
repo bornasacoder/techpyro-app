@@ -34,7 +34,7 @@ const Block2 = () => {
   const Box1= styled(Box)(({ theme }) => ({
     height:'600px',
     width:'100%',
-    backgroundImage: `url(${"https://img.freepik.com/premium-photo/kids-playing-room_52137-5230.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
+    backgroundImage: `url(${"https://img.freepik.com/free-psd/horizontal-banner-university-education_23-2148957607.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais"})`,
     backgroundSize:'cover',
     backgroundAttachment:'fixed',
     display:'flex',

@@ -362,7 +362,7 @@ export default function Navbar() {
      
         </Ram> */}
         <Box>
-          <Typography sx={{fontSize:'30px'}}>PLAY SCHOOL</Typography>
+          <Typography sx={{fontSize:'30px'}}>University</Typography>
         </Box>
 
         <Box sx={{}}>
