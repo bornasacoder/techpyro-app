@@ -6,7 +6,7 @@ import Navbar from "components/navbar/Navbar";
 
 import Footer from 'components/footer/Footer';
 
-import Card1 from 'components/card/Card1';
+import Card1 from '../../components/Card/Card1';
 // import Card2 from 'components/Card/Card2';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
