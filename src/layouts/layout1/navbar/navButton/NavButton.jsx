@@ -140,18 +140,18 @@ export default function NavButton() {
               </Box>
           <List component="nav" aria-label="mailbox folders">
             <ListItem button>
-              <ListItemText primary="Chair" />
+              <ListItemText primary="Moisturizers" />
             </ListItem>
             <Divider />
             <ListItem button divider>
-              <ListItemText primary="Table" />
+              <ListItemText primary="Makeup" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="Bed" />
+              <ListItemText primary="Lipsticks" />
             </ListItem>
             <Divider light />
             <ListItem button>
-              <ListItemText primary="Pillow" />
+              <ListItemText primary="Sunscreen " />
             </ListItem>
           </List>
  
@@ -188,14 +188,14 @@ export default function NavButton() {
               </Box>
           <List component="nav" aria-label="mailbox folders">
           <ListItem button>
-              <ListItemText primary="Jaguar" />
+              <ListItemText primary="Nivia" />
             </ListItem>
             <Divider />
             <ListItem button divider>
-              <ListItemText primary="Cello" />
+              <ListItemText primary="Lakme" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="Sleepwel" />
+              <ListItemText primary="mamaearth" />
             </ListItem>
           </List>
  
@@ -277,16 +277,15 @@ export default function NavButton() {
               </Box>
           <List component="nav" aria-label="mailbox folders">
           <ListItem button>
-              <ListItemText primary="Jaguar" />
+              <ListItemText primary="Nivia" />
             </ListItem>
             <Divider />
             <ListItem button divider>
-              <ListItemText primary="Cello" />
+              <ListItemText primary="Lakme" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="Sleepwel" />
+              <ListItemText primary="mamaearth" />
             </ListItem>
-
           </List>
  
               </Box>

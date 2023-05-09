@@ -132,35 +132,35 @@ const Block3 = (props) => {
   let arr=[
     {
       id:"1",
-      img:"https://img.freepik.com/free-photo/mid-century-modern-living-room-interior-design-with-monstera-tree_53876-129804.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/beautiful-face-young-woman-with-maroon-makeup-portrait-gorgeous-girl-with-vinous-lips_186202-7456.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"2",
-      img:"https://img.freepik.com/free-photo/white-sideboard-living-room-interior-with-copy-space_43614-800.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-psd/make-up-banner-template_23-2148663849.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"3",
-      img:"https://img.freepik.com/free-photo/blue-wall-with-red-sofa_1286-149.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/premium-photo/women-holding-make-up-brushes_23-2148332535.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
     },
     {
       id:"4",
-      img:"https://img.freepik.com/free-photo/empty-modern-room-with-furniture_23-2149178345.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/top-view-assortment-make-up-beauty-products_23-2148620013.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"5",
-      img:"https://img.freepik.com/free-photo/mid-century-modern-living-room-interior-design-with-monstera-tree_53876-129803.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/portrait-beautiful-woman-with-blue-nails-blue-makeup-long-red-hairs-black-wall_186202-7670.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"6",
-      img:"https://img.freepik.com/free-psd/living-room-wall-mockup-psd-modern-interior-design_53876-130139.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/female-hairdresser-using-hairbrush-hair-dryer_329181-1929.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"7",
-      img:"https://img.freepik.com/free-photo/wood-sideboard-living-room-interior-with-copy-space_43614-827.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/attractive-young-woman-beauty-salon_197531-1288.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"8",
-      img:"https://img.freepik.com/free-photo/gray-sofa-brown-living-room-with-copy-space_43614-954.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-psd/make-up-concept-landing-page-template_23-2148608279.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
   ]
   return (

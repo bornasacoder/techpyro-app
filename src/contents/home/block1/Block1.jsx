@@ -7,7 +7,7 @@ import {
   import React from "react";
   const StyleToolbar = styled(Box)(({ theme }) => ({
     padding: "80px 60px",
-    background: `url(${"https://img.freepik.com/free-photo/armchair-green-living-room-with-copy-space_43614-910.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"})
+    background: `url(${"https://img.freepik.com/free-photo/cosmetic-brush-cloud-pink-powder-dark-background_23-2148209048.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"})
     center/cover no-repeat fixed`,
     // position:"relative",
   
@@ -19,7 +19,7 @@ import {
       <StyleToolbar>
         <Box sx={{ display: "flex", flexDirection: "column",gap:2.5, width:{md:"60%",sm:"100%",xs:"100%"} ,alignItems:{md:"start",sm:"flex-start",xs:"flex-start"}}}>
             <Typography variant="span" sx={{ fontWeight: 600,marginTop:"50px", fontSize:{md:'54px',sm:"48px",xs:"30px"},color:"#fff",justifyContent:{sm:"center",xs:"center"}}}>
-            Furnish your dream home
+            Indulge in luxury beauty
             </Typography>
             <Typography
               variant="p"
@@ -31,7 +31,7 @@ import {
                 color:"#fff"
               }}
             >
-At our furniture shop, we believe that your home is a reflection of your personality and style. That's why we offer a wide range of furniture to suit every taste and budget. Whether you're looking for a new sofa, a dining table, or a complete bedroom set.
+We understand that beauty is not just skin deep, which is why we focus on providing holistic treatments that relax your mind, body, and soul. 
 </Typography>
          
           <Box sx={{ display: "flex",justifyContent:"flex-start",alignItems:"center", gap: 2, position: "relative",flexDirection:{xs:'column',md:"row",sm:"row"},paddingLeft:{xs:"0px"} }}>

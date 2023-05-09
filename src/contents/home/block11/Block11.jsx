@@ -37,10 +37,10 @@ export default function Block11() {
 
 <Box sx={{  padding:{xs:'20px',lg:'100px 0px 100px 100px'}, background:'#F6F7FB',display:'flex',flex:'1',flexDirection:'column',gap:'20px'}}>
               <Box>
-                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/free-psd/furniture-quality-sofa-post-design_424377-79.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
+                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/free-psd/make-up-concept-flyer-template_23-2148608289.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
               </Box>
               <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>Latest Furniture</Typography>
+             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>Latest Makeup</Typography>
              
          </Box>
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',md:'center'}}}>
@@ -51,10 +51,10 @@ export default function Block11() {
 
          <Box sx={{  padding:{xs:'20px',lg:'100px 0px 100px 0px'}, background:'#F6F7FB',display:'flex',flex:'1',flexDirection:'column',gap:'20px'}}>
               <Box>
-                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/free-psd/modern-furniture-discount-square-flyer_23-2148679826.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/free-psd/beauty-natural-cosmetics-poster_23-2148894944.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
               </Box>
               <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>Your story in Furnitures</Typography>
+             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>Your story in Beauty Parlour</Typography>
              
          </Box>
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',md:'center'}}}>
@@ -65,7 +65,7 @@ export default function Block11() {
 
          <Box sx={{  padding:{xs:'20px',lg:'100px 100px 100px 20px'}, background:'#F6F7FB',display:'flex',flex:'1',flexDirection:'column',gap:'20px'}}>
               <Box>
-                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/free-psd/furniture-sale-social-media-instagram-post-template-banner_237398-327.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/free-psd/make-up-concept-poster-design_23-2148608288.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
               </Box>
               <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
              <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>More Discount</Typography>

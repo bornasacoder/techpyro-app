@@ -38,13 +38,13 @@ export default function Block5() {
         <CardBox >
   
           <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'rgba(0,0,0,0.6)',textAlign:"center",fontSize:{xs:'30px',md:'40px'},fontWeight:{xs:'600'}}}>Beautiful furniture for every room</Typography>
+             <Typography  sx={{color:'rgba(0,0,0,0.6)',textAlign:"center",fontSize:{xs:'30px',md:'40px'},fontWeight:{xs:'600'}}}>A place where beauty flourishes</Typography>
              
          </Box>
      
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',md:'center'}}}>
           
-          <Typography sx={{color:'#000',fontSize:{xs:'18px',md:'22px',opacity:'0.7'}}}>At our furniture shop, we are committed to providing our customers with the best possible experience. From the moment you step into our store, you'll be greeted by our friendly and knowledgeable staff, who will be happy to answer any questions you may have. We believe that buying furniture should be a fun and enjoyable experience.</Typography>
+          <Typography sx={{color:'#000',fontSize:{xs:'18px',md:'22px',opacity:'0.7'}}}>Our salon is designed to create a calming and welcoming environment where you can sit back, relax, and enjoy the experience. Our goal is to make sure that when you leave our salon, you feel renewed, refreshed, and beautiful from the inside out.</Typography>
     
           <Typography sx={{color:'#000',fontSize:{xs:'18px',md:'22px'},color:'#2468F7',fontWeight:'500',opacity:'0.7'}}>Discover to build our buisness on techpyro</Typography>
          </Box>
