@@ -132,35 +132,35 @@ const Block3 = (props) => {
   let arr=[
     {
       id:"1",
-      img:"https://img.freepik.com/free-photo/beautiful-face-young-woman-with-maroon-makeup-portrait-gorgeous-girl-with-vinous-lips_186202-7456.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-vector/pharmacy-medical-shop-concept_74855-7815.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"2",
-      img:"https://img.freepik.com/free-psd/make-up-banner-template_23-2148663849.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/shopping-cart-with-pill-foils-copy-space_23-2148533453.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
     },
     {
       id:"3",
-      img:"https://img.freepik.com/premium-photo/women-holding-make-up-brushes_23-2148332535.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-vector/isometric-pharmacy-concept_23-2148548664.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais"
     },
     {
       id:"4",
-      img:"https://img.freepik.com/free-photo/top-view-assortment-make-up-beauty-products_23-2148620013.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-vector/pharmacy-isometric-background-composition-with-indoor-view-medicine-store-human-characters-racks-with-shelves-illustration_1284-28924.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"5",
-      img:"https://img.freepik.com/free-photo/portrait-beautiful-woman-with-blue-nails-blue-makeup-long-red-hairs-black-wall_186202-7670.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/inventory-two-druggists-lab-coats-process-inventory-drugstore_259150-57974.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"6",
-      img:"https://img.freepik.com/free-photo/female-hairdresser-using-hairbrush-hair-dryer_329181-1929.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-photo/young-woman-pharmacist-pharmacy_1303-25541.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"7",
-      img:"https://img.freepik.com/free-photo/attractive-young-woman-beauty-salon_197531-1288.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-vector/pharmacist_23-2148185551.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
     {
       id:"8",
-      img:"https://img.freepik.com/free-psd/make-up-concept-landing-page-template_23-2148608279.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
+      img:"https://img.freepik.com/free-vector/pharmacy-concept-illustration_1284-11599.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais"
     },
   ]
   return (

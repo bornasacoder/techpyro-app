@@ -55,19 +55,19 @@ export default function Block2() {
          </Box>
      
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',alignItems:{xs:'flex-start',sm:'flex-start',md:'center'}}}>
-          <Typography sx={{color:'rgba(0,0,0,0.7)',fontSize:{xs:'22px',md:'42px'},fontWeight:'600'}}>The ultimate beauty experience
+          <Typography sx={{color:'rgba(0,0,0,0.7)',fontSize:{xs:'22px',md:'42px'},fontWeight:'600'}}>Radiant skin, radiant life
 </Typography>
-          <Typography sx={{fontSize:{sm:'16px',md:'22px'},opacity:'0.8'}}>At our beauty parlour, we believe that beauty is for everyone. We offer a range of services that are tailored to suit all budgets and needs. Our prices are competitive, and we use only the highest quality products to ensure that you get the best results. We believe that everyone deserves to look and feel their best, and we are committed to making that a reality for all our clients.</Typography>
+          <Typography sx={{fontSize:{sm:'16px',md:'22px'},opacity:'0.8'}}>As a leading medical store in the community, we take pride in offering a wide selection of high-quality medical supplies, including durable medical equipment, orthopedic supplies, and more. We understand that every individual has unique needs, which is why we offer personalized services to help you find the right products to manage your health. </Typography>
           <Box sx={{display:'flex',alignItems:'center',justifyContent:'center',gap:'10px',flexWrap:'wrap'}}>
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/top-view-assortment-make-up-beauty-products_23-2148620013.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-psd/make-up-banner-template_23-2148663849.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/grouped-makeup-products-brushes_23-2148181394.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/beautiful-woman-with-roses-hair_144627-16462.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/top-view-assortment-make-up-beauty-products_23-2148620013.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-psd/make-up-banner-template_23-2148663849.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/grouped-makeup-products-brushes_23-2148181394.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
-          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/beautiful-woman-with-roses-hair_144627-16462.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais" />
-         
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-psd/medical-healthcare-poster-template_23-2148940481.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/high-angle-pill-foils-plastic-containers_23-2148533456.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/buying-medical-supplies-with-shopping-cart-concept_23-2148439068.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/two-african-american-pharmacist-working-drugstore-hospital-pharmacy-african-healthcare_627829-3327.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-psd/medical-healthcare-poster-template_23-2148940481.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/high-angle-pill-foils-plastic-containers_23-2148533456.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/buying-medical-supplies-with-shopping-cart-concept_23-2148439068.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais" />
+          <img style={{height:'50px',width:'50px'}} src="https://img.freepik.com/free-photo/two-african-american-pharmacist-working-drugstore-hospital-pharmacy-african-healthcare_627829-3327.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+          
           </Box>
           <Typography sx={{fontSize:{sm:'18px',md:'22px'},color:'#3DCAD4',fontWeight:'500',}}>Discover to build our buisness on techpyro</Typography>
          </Box>

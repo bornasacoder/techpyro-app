@@ -140,18 +140,18 @@ export default function NavButton() {
               </Box>
           <List component="nav" aria-label="mailbox folders">
             <ListItem button>
-              <ListItemText primary="Moisturizers" />
+              <ListItemText primary="Over-the-counter" />
             </ListItem>
             <Divider />
             <ListItem button divider>
-              <ListItemText primary="Makeup" />
+              <ListItemText primary="Home diagnostic" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="Lipsticks" />
+              <ListItemText primary="Orthopedic" />
             </ListItem>
             <Divider light />
             <ListItem button>
-              <ListItemText primary="Sunscreen " />
+              <ListItemText primary="Vitamins" />
             </ListItem>
           </List>
  
@@ -188,14 +188,14 @@ export default function NavButton() {
               </Box>
           <List component="nav" aria-label="mailbox folders">
           <ListItem button>
-              <ListItemText primary="Nivia" />
+              <ListItemText primary="Emcure" />
             </ListItem>
             <Divider />
             <ListItem button divider>
-              <ListItemText primary="Lakme" />
+              <ListItemText primary="Patanjali" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="mamaearth" />
+              <ListItemText primary="Himalaya" />
             </ListItem>
           </List>
  
@@ -276,15 +276,15 @@ export default function NavButton() {
             >
               </Box>
           <List component="nav" aria-label="mailbox folders">
-          <ListItem button>
-              <ListItemText primary="Nivia" />
+            <ListItem>
+          <ListItemText primary="Emcure" />
             </ListItem>
             <Divider />
             <ListItem button divider>
-              <ListItemText primary="Lakme" />
+              <ListItemText primary="Patanjali" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="mamaearth" />
+              <ListItemText primary="Himalaya" />
             </ListItem>
           </List>
  

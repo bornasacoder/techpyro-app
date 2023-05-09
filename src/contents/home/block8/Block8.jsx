@@ -33,14 +33,14 @@ export default function Block8() {
   
           <Box sx={{  display:'flex',flex:'1',flexDirection:'column',gap:'15px',justifyContent:'center',paddingLeft:'20px',alignItems:{xs:'flex-start'}}}>
              
-            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Pampering made affordable</Typography>
-            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>Our team is constantly updating their skills to stay on top of the latest beauty trends and techniques, ensuring that you receive the best possible service. Whether you need a simple haircut or a full body massage, our team is dedicated to providing you with the highest quality service that you deserve.</Typography>
+            <Typography sx={{color:'rgba(0,0,0,0.6)',fontSize:'32px',fontWeight:'600'}}>Health and beauty solutions</Typography>
+            <Typography sx={{color:'#C4CBD6',fontSize:'20px',fontWeight:'600'}}>We believe that maintaining good health is essential to living a happy, fulfilling life, which is why we offer a comprehensive selection of medical products to help you stay healthy. From vitamins and supplements to first aid supplies and prescription medications, we have everything you need to take charge of your health.</Typography>
             <Button variant="outlined" sx={{width:'150px',height:'30px'}}>Learn More</Button>
          
          </Box>
      
          <Box sx={{  height:'350px',display:'flex',flex:'1',gap:'30px',flexDirection:'column',alignItems:{xs:'flex-start',sm:'flex-start',md:'center'}}}>
-          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-vector/colored-cosmetic-template-composition-business-presentation-with-label-with-brand_1284-17379.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+          <img style={{height:'350px',width:'100%'}} src="https://img.freepik.com/free-vector/colorful-isometric-pharmacy-concept_1284-38148.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
          </Box>
   
         </CardBox>

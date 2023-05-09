@@ -37,13 +37,13 @@ export default function Block4() {
         <CardBox >
   
           <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'#ffff',fontSize:{xs:'30px'},fontWeight:{xs:'600'}}}>Beauty Parlour</Typography>
+             <Typography  sx={{color:'#ffff',fontSize:{xs:'30px'},fontWeight:{xs:'600'}}}>Medical Store</Typography>
              <Typography sx={{color:'#ffff',fontSize:{xs:'20px',md:'25px'},fontWeight:{xs:'500'}}}>Supermarkets</Typography>
          </Box>
      
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',sm:'start'}}}>
           
-          <Typography sx={{color:'#ffff',fontSize:{xs:'20px',md:'22px'}}}> We pride ourselves on our team of expert beauticians who are passionate about their work. Our team is constantly updating their skills to stay on top of the latest beauty trends and techniques, ensuring that you receive the best possible service.</Typography>
+          <Typography sx={{color:'#ffff',fontSize:{xs:'20px',md:'22px'}}}> ur medical store is dedicated to providing exceptional service and top-quality products to our customers. We believe that maintaining good health is essential to living a happy, fulfilling life, which is why we offer a comprehensive selection of medical products to help you stay healthy.</Typography>
     
           <Typography sx={{color:'#ffff',fontSize:{xs:'18px',md:'22px'},color:'#ffff',fontWeight:'500',opacity:'0.7'}}>Discover to build our buisness on techpyro</Typography>
          </Box>
