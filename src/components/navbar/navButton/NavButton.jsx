@@ -216,7 +216,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography variant="h5">PASTRIES</Typography>
+        <Typography variant="h5">MENUS</Typography>
         <Badge>{/* <ExpandMoreIcon /> */}</Badge>
         <Box
           sx={{
@@ -267,7 +267,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography variant="h5">CAKES</Typography>
+        <Typography variant="h5">CATERING</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
@@ -318,7 +318,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography variant="h5">COOKIES</Typography>
+        <Typography variant="h5">LOCATIONS</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
@@ -370,7 +370,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography variant="h5">MUFFINS</Typography>
+        <Typography variant="h5">ABOUT</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
@@ -401,7 +401,7 @@ export default function NavButton() {
           </List>
         </Box>
       </MoreButton>
-      <MoreButton
+      {/* <MoreButton
         sx={{
           cursor: "pointer",
           "&:hover .MuiBox-root": { display: "flex" },
@@ -409,7 +409,6 @@ export default function NavButton() {
         }}
       >
         <Typography variant="h5">BREAD</Typography>
-        {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
             display: "none",
@@ -447,7 +446,6 @@ export default function NavButton() {
         }}
       >
         <Typography variant="h5">BAGELS</Typography>
-        {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
             display: "none",
@@ -476,7 +474,7 @@ export default function NavButton() {
             </ListItem>
           </List>
         </Box>
-      </MoreButton>
+      </MoreButton> */}
       {/* <MoreButton
         sx={{
           cursor: "pointer",

@@ -46,11 +46,11 @@ export const shoes= [
         price: {
               mrp: "500",
               discount: "201",
-              cost: "149"
+              cost: "449"
           },
-         image: "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2Farchive%2Ff4dae094beaaec0a347425d06b0d1bac56fa04a2 ",
+         image: "https://images.pexels.com/photos/3843224/pexels-photo-3843224.jpeg ",
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Banana Chocolate Chip Crumb Muffins",
+          tagline: "Banquet dish of fried shrimps with herbs",
           tagline1: "classic",
           new:"New",
           rating:"4.3",
@@ -104,9 +104,9 @@ export const shoes= [
               discount: "201",
               cost: "149"
           },
-         image: "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2Farchive%2Ff4dae094beaaec0a347425d06b0d1bac56fa04a2 ",
+         image: "https://images.pexels.com/photos/3843224/pexels-photo-3843224.jpeg ",
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Banana Chocolate Chip Crumb Muffins",
+          tagline: "Banquet dish of fried shrimps with herbs",
           tagline1: "classic",
           new:"New",
           rating:"4.3",

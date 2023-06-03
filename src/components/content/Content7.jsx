@@ -34,7 +34,7 @@ export default function Content7() {
               
             }}
           >
-            GET THE LATEST ON NANO
+            GET THE LATEST ON MENU, LOCATION
           </Typography>
         </Box>
           <Typography  sx={{ color:"white",fontSize: {md:'25px',sm:"18px",xs:"14px"},}}>

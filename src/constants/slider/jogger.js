@@ -7,8 +7,8 @@ export const jogger = [
                    cost: "299"
                },
                category:["Finger Chips","Samosa","Spring Rolls"],
-               tagline: "Pavola Cakes, famous in New Zealand",
-               image:"https://cdn.tasteatlas.com//images/dishes/8d59f2125e374599b64bf29985b3b064.jpg",   
+               tagline: "Book Your Table, Enjoy!",
+               image:"https://images.pexels.com/photos/1310777/pexels-photo-1310777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",   
                rating:"4.3",
         
    },

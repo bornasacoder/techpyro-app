@@ -10,6 +10,7 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
   [theme.breakpoints.down("sm")]: {
     justifyContent: "center",
   },
+  height:'80vh',
   background: `url(${"/images/category/shopheader.jpg"})
          center/cover no-repeat`,
   // [theme.breakpoints.down("md")]: {
@@ -41,7 +42,7 @@ export default function Content4() {
             color: "white",
           }}
         >
-          Get Fresh cakes, Pastries, Sanwiches, Cookies and more...
+          In Our restaurant, choose a table near a waiter.
         </Typography>
         <br/>
         <Box display="flex">

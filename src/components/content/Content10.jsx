@@ -34,7 +34,7 @@ export default function Content10() {
               
             }}
           >
-           JOIN BAKES UNLOCKED 
+           JOIN WITH US
            <br/>
            AND GET 15% OFF
           </Typography>

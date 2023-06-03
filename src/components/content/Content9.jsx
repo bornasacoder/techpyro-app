@@ -36,10 +36,10 @@ const Content9 = () => {
         >
           <Grid item xs={12} sm={6} md={6} data-aos="zoom-in">
             <Typography variant="h4">
-              Cakes is best dessert
+              Our Restaurent
             </Typography>
             <Typography>
-            A cake is a baked dessert that is typically made with flour, sugar, eggs, butter or oil, and a leavening agent such as baking powder or baking soda. Cakes can come in many different flavors and forms, from simple vanilla or chocolate cakes to more elaborate creations such as layered cakes, cheesecakes, and fruitcakes.The texture and flavor of a cake can be influenced by a variety of factors, including the type of flour used, the ratio of ingredients, and any additional flavorings or ingredients that are added, such as cocoa powder, fruit, or nuts.
+            Our restaurants are establishments that offer prepared meals and beverages to customers in exchange for payment. They play a significant role in our society, serving as gathering places for friends, families, and colleagues to come together and enjoy a shared dining experience. Restaurants provide a wide range of culinary options, catering to different tastes, dietary preferences, and cultural backgrounds.
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={6} data-aos="zoom-in">

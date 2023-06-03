@@ -52,6 +52,7 @@ import BreakfastDiningIcon from '@mui/icons-material/BreakfastDining';
 import MainCarousel from "components/carousel/MainCarousel";
 import Content from "components/content/Content";
 import MenuButtons from "./menuButtons/MenuButtons";
+import RestaurantIcon from '@mui/icons-material/Restaurant';
 
 const StyleToolbar = styled(Toolbar)(({ theme }) => ({
   bgcolor: "#575B5C",
@@ -198,7 +199,7 @@ export default function Navbar() {
 
        <StyleToolbar>
         <NavLeft>
-        <BreakfastDiningIcon sx={{fontSize:"60px",color:'red'}}/>
+        <RestaurantIcon sx={{fontSize:"60px",color:'red'}}/>
         <NavButton/>
           {/* <MenuButtons >
           <Menu   sx={{color:"black"}}/>
