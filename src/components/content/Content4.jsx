@@ -30,7 +30,7 @@ export default function Content4() {
           variant="h1"
           sx={{color:"#fff", fontSize: { md: "58px", sm: "38px", xs: "28px" } }}
         >
-          COFFEE SERVED RIGHT
+          New Launches
           {/* <br />
           YARD */}
         </Typography>

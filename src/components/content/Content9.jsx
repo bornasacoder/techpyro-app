@@ -36,24 +36,24 @@ const Content9 = () => {
         >
           <Grid item xs={12} sm={6} md={6} data-aos="zoom-in">
             <Typography variant="h4">
-              Americano Coffee
+              Phones
             </Typography>
             <Typography>
-            An Americano coffee is a popular espresso-based beverage that originated in Europe and gained popularity in the United States. It is a simple yet satisfying drink that consists of hot water poured over a shot or two of espresso, creating a milder and more diluted version of espresso.
+            Phones, also known as smartphones or mobile phones, have become an integral part of our modern lives. These devices have revolutionized communication, enabling us to stay connected with others, access information, and perform various tasks conveniently. Phones have evolved significantly over the years, offering a wide range of features and capabilities.
 
-The process of making an Americano starts with brewing a shot or two of espresso using an espresso machine. Espresso is a concentrated form of coffee made by forcing hot water through finely ground coffee beans under high pressure. The result is a strong and flavorful coffee concentrate.
+The primary function of a phone is to make and receive calls. With advancements in technology, phones now offer crystal-clear voice calls and improved network coverage, allowing us to communicate with others across different locations and even internationally. In addition to voice calls, phones also provide options for video calls, enabling face-to-face conversations with friends, family, and colleagues regardless of distance.
 
 
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={6} data-aos="zoom-in">
             <Typography variant="h4">
-              Cappuccino Coffee
+              Laptop
             </Typography>
             <Typography>
-            A cappuccino is a classic Italian coffee beverage that is enjoyed by coffee lovers worldwide. It is made using equal parts of espresso, steamed milk, and milk foam, resulting in a rich and velvety textured drink. The cappuccino is known for its distinct layers and a touch of artistry that often adorns the foam on top.
+            A laptop, also known as a notebook computer, is a portable computing device designed for personal and professional use. Laptops offer the convenience of a desktop computer while allowing users to work, study, or entertain themselves on the go.
 
-The process of making a cappuccino starts with brewing a shot of espresso using an espresso machine. Espresso is a concentrated form of coffee made by forcing hot water through finely ground coffee beans under high pressure. It provides the strong and bold foundation for the cappuccino.
+Laptops consist of several key components that enable their functionality. The central processing unit (CPU) serves as the brain of the laptop, executing instructions and performing calculations. The CPU's speed and power determine the overall performance of the laptop.
 
 
             </Typography>

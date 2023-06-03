@@ -10,7 +10,7 @@ export const other = [
            shop:"SHOP NOW",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
-      image:"https://images.pexels.com/photos/10970632/pexels-photo-10970632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image:"https://img.etimg.com/photo/msid-93779686/oneplus-nord-ce-2-lite-5g.jpg",
            rating:"4.3",
        },
 
@@ -25,7 +25,7 @@ export const other = [
            shop:"SHOP NOW",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
-           image:"https://images.pexels.com/photos/4552115/pexels-photo-4552115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+           image:"https://img.etimg.com/photo/msid-93779629/redmi-note-11-pro-5g.jpg",
            rating:"4.3",
        },
        {
@@ -37,7 +37,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-           image:"https://images.pexels.com/photos/5946975/pexels-photo-5946975.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+           image:"https://cdn.thewirecutter.com/wp-content/media/2022/07/laptop-under-500-2048px-acer-1.jpg",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
            rating:"4.3",
@@ -51,7 +51,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-         image: "https://images.pexels.com/photos/2638019/pexels-photo-2638019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+         image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXBwbGUlMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
            rating:"4.3",
@@ -67,7 +67,7 @@ export const other = [
            shop:"SHOP NOW",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
-      image:"https://images.pexels.com/photos/10970632/pexels-photo-10970632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image:"https://img.etimg.com/photo/msid-93779686/oneplus-nord-ce-2-lite-5g.jpg",
            rating:"4.3",
        },
 
@@ -82,7 +82,7 @@ export const other = [
            shop:"SHOP NOW",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
-           image:"https://images.pexels.com/photos/4552115/pexels-photo-4552115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+           image:"https://img.etimg.com/photo/msid-93779629/redmi-note-11-pro-5g.jpg",
            rating:"4.3",
        },
        {
@@ -94,7 +94,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-           image:"https://images.pexels.com/photos/5946975/pexels-photo-5946975.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+           image:"https://cdn.thewirecutter.com/wp-content/media/2022/07/laptop-under-500-2048px-acer-1.jpg",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
            rating:"4.3",
@@ -108,11 +108,12 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-         image: "https://images.pexels.com/photos/2638019/pexels-photo-2638019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+         image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXBwbGUlMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
            rating:"4.3",
        },
+    
       
 
 ]

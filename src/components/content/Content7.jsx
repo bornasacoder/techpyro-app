@@ -34,12 +34,11 @@ export default function Content7() {
               
             }}
           >
-            A CUP OF COFFEE IS CUP OF PEACE
+            {/* A CUP OF COFFEE IS CUP OF PEACE */}
           </Typography>
         </Box>
           <Typography  sx={{ color:"white",fontSize: {md:'25px',sm:"18px",xs:"14px"},}}>
-            Come with more than 8 people get 20% off. Bring all your friends
-            here!
+            Purchase more than 2 items get upto 20% off. Purchase more get more!
           </Typography>
           </Box> 
           <Box >

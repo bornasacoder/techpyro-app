@@ -4,11 +4,11 @@ export const jogger = [
              price: {
                    mrp: "500",
                    discount: "201",
-                   cost: "299"
+                   cost: "18999"
                },
                category:["Finger Chips","Samosa","Spring Rolls"],
-               tagline: "Book Your Table, Enjoy!",
-               image:"https://images.pexels.com/photos/2956954/pexels-photo-2956954.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",   
+               tagline: "Vivo T2 5G",
+               image:"https://i.gadgets360cdn.com/products/large/vivo-t2-5g-db-709x800-1681200173.jpg?downsize=240:*",   
                rating:"4.3",
         
    },
@@ -17,11 +17,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "299"
+           cost: "19999"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Americano",
-        image:"https://images.pexels.com/photos/4195599/pexels-photo-4195599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       tagline: "OnePlus Nord CE 3 Lite 5G",
+        image:"https://i.gadgets360cdn.com/products/large/oneplus-nord-ce-3-lite-5g-DB-709x800-1680617419.jpg?downsize=240:*",
 
        rating:"4.3",
 
@@ -31,11 +31,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "299"
+           cost: "18999"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Iced Milk Cappuccino",
-    image:"https://images.pexels.com/photos/15813374/pexels-photo-15813374/free-photo-of-a-cup-of-coffee-with-foam-milk.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       tagline: "iQOO Z7 5G",
+    image:"https://i.gadgets360cdn.com/products/large/iqoo-z7-5g-db-644x800-1679383425.jpg?downsize=*:420&output-quality=80",
        rating:"4.3",
 
 },
@@ -44,11 +44,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "299"
+           cost: "16999"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Cortado",
-      image:"https://images.pexels.com/photos/14704662/pexels-photo-14704662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       tagline: "Motorola Moto G72",
+      image:"https://motorolain.vtexassets.com/arquivos/ids/157796-800-auto?width=800&height=auto&aspect=true",
        rating:"4.3",
 
 },
@@ -57,11 +57,11 @@ export const jogger = [
              price: {
                    mrp: "500",
                    discount: "201",
-                   cost: "299"
+                   cost: "18999"
                },
                category:["Finger Chips","Samosa","Spring Rolls"],
-               tagline: "Book Your Table, Enjoy!",
-               image:"https://images.pexels.com/photos/2956954/pexels-photo-2956954.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",   
+               tagline: "Vivo T2 5G",
+               image:"https://i.gadgets360cdn.com/products/large/vivo-t2-5g-db-709x800-1681200173.jpg?downsize=240:*",   
                rating:"4.3",
         
    },
@@ -70,11 +70,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "299"
+           cost: "19999"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Americano",
-        image:"https://images.pexels.com/photos/4195599/pexels-photo-4195599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       tagline: "OnePlus Nord CE 3 Lite 5G",
+        image:"https://i.gadgets360cdn.com/products/large/oneplus-nord-ce-3-lite-5g-DB-709x800-1680617419.jpg?downsize=240:*",
 
        rating:"4.3",
 
@@ -84,11 +84,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "299"
+           cost: "18999"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Iced Milk Cappuccino",
-    image:"https://images.pexels.com/photos/15813374/pexels-photo-15813374/free-photo-of-a-cup-of-coffee-with-foam-milk.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       tagline: "iQOO Z7 5G",
+    image:"https://i.gadgets360cdn.com/products/large/iqoo-z7-5g-db-644x800-1679383425.jpg?downsize=*:420&output-quality=80",
        rating:"4.3",
 
 },
@@ -97,14 +97,15 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "299"
+           cost: "16999"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Cortado",
-      image:"https://images.pexels.com/photos/14704662/pexels-photo-14704662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       tagline: "Motorola Moto G72",
+      image:"https://motorolain.vtexassets.com/arquivos/ids/157796-800-auto?width=800&height=auto&aspect=true",
        rating:"4.3",
 
 },
+    
     
 
 
