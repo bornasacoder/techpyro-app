@@ -10,7 +10,7 @@ export const other = [
            shop:"SHOP NOW",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
-      image:"https://images.pexels.com/photos/1484516/pexels-photo-1484516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image:"https://images.pexels.com/photos/4553110/pexels-photo-4553110.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
            rating:"4.3",
        },
 
@@ -25,7 +25,7 @@ export const other = [
            shop:"SHOP NOW",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
-           image:"https://assets.winni.in/product/primary/2023/3/83221.jpeg?dpr=2&w=220",
+           image:"https://images.pexels.com/photos/4552115/pexels-photo-4552115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
            rating:"4.3",
        },
        {

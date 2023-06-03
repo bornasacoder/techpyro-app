@@ -34,8 +34,8 @@ export const jogger = [
            cost: "299"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Schwarzwälder Kirschtorte Cakes, Famous in Germany",
-    image:"https://cdn.tasteatlas.com//Images/Dishes/b19aebb29acd4062b729913ed0af1692.jpg?w=905&h=510",
+       tagline: "Iced Milk Cappuccino",
+    image:"https://images.pexels.com/photos/15813374/pexels-photo-15813374/free-photo-of-a-cup-of-coffee-with-foam-milk.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
        rating:"4.3",
 
 },

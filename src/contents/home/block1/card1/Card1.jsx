@@ -38,7 +38,8 @@ export default function Card1({ sliderData }) {
     <MainCard>
       <Card
         sx={{
-          maxWidth: { md: "20vw", sm: "25vw", xs:"40vw"  },
+          // maxWidth: { md: "20vw", sm: "25vw", xs:"40vw"  },
+          width:'95%',
           borderRadius: "0px",
           boxShadow: "none",
           backgroundColor: "#F2F5F9",

@@ -36,18 +36,26 @@ const Content9 = () => {
         >
           <Grid item xs={12} sm={6} md={6} data-aos="zoom-in">
             <Typography variant="h4">
-              Our Restaurent
+              Coffee
             </Typography>
             <Typography>
-            Our restaurants are establishments that offer prepared meals and beverages to customers in exchange for payment. They play a significant role in our society, serving as gathering places for friends, families, and colleagues to come together and enjoy a shared dining experience. Restaurants provide a wide range of culinary options, catering to different tastes, dietary preferences, and cultural backgrounds.
+            Coffee is one of the most beloved and widely consumed beverages in the world. Originating from the seeds of the Coffea plant, coffee has a rich and fascinating history that spans centuries. Today, it has become an integral part of our daily routines, offering not only a stimulating boost but also a comforting and enjoyable experience.
+
+One of the key reasons for coffee's popularity is its stimulating effect. Coffee contains caffeine, a natural stimulant that enhances alertness and reduces fatigue. Many people rely on their morning cup of coffee to kick-start their day and feel more energized.
+
+
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={6} data-aos="zoom-in">
             <Typography variant="h4">
-              Muffins is best dessert 
+              Snacks
             </Typography>
             <Typography>
-            A muffin is a small, individual-sized baked good that is typically made with flour, sugar, eggs, butter or oil, and a leavening agent such as baking powder or baking soda. Muffins can come in many different flavors and varieties, from sweet blueberry or chocolate chip muffins to savory cheese or corn muffins.Muffins are typically baked in a muffin tin, which is a special pan with individual cup-shaped molds. The batter is poured into each mold and then baked in an oven until the muffins are golden brown and springy to the touch.
+            Snacks are a beloved part of our culinary culture, providing delicious and convenient bites to satisfy cravings and keep us fueled between meals. Whether enjoyed during a movie night, as a quick pick-me-up during a busy day, or as a tasty accompaniment to social gatherings, snacks have become a staple in our daily lives.
+
+Snacks come in a wide variety of forms, catering to different tastes, preferences, and dietary needs. They can range from sweet to savory, crunchy to chewy, and simple to complex in flavor profiles. From classic options like potato chips, cookies, and popcorn to more specialized choices like granola bars, fruit cups, or vegetable sticks with dip, there is a snack for everyone.
+
+
             </Typography>
           </Grid>
         </Grid>

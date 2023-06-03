@@ -101,7 +101,7 @@ export default function Content1() {
                 color:'#fff'
               }}}
               >
-               MENU
+               COFFEE
               </Typography>
             </Item>
           </Grid>
@@ -125,7 +125,7 @@ export default function Content1() {
                 backgroundColor:"#000",
                 color:'#fff'}}}
               >
-               LOCATION
+               SNACKS
               </Typography>
             </Item>
           </Grid>
@@ -149,7 +149,7 @@ export default function Content1() {
                   backgroundColor:"#000",
                   color:'#fff'} }}
               >
-               CATERING
+               DONUTS
               </Typography>
             </Item>
           </Grid>

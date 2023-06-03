@@ -4,27 +4,13 @@ export const shoes= [
         price: {
               mrp: "500",
               discount: "201",
-              cost: "299"
-          },
-          category:["Cakes","California Cakes","Detroit Cakes"],
-          tagline: "California Cakes",
-          tagline1: "Cakes",
-          new:"New",
-          image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FrZXN8ZW58MHx8MHx8&w=1000&q=80",
-          rating:"4.3",
-      },
-      {
-        shopname:"Ram Ji bhojnalaya",
-        price: {
-              mrp: "500",
-              discount: "201",
               cost: "99"
           },
-          category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Blueberry Muffins",
-          tagline1: "Muffins",
+          category:["Cakes","California Cakes","Detroit Cakes"],
+          tagline: "Americano",
+          tagline1: "Coffee",
           new:"New",
-          image: "https://images.unsplash.com/photo-1585665187093-a3511c2fe57a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bXVmZmluc3xlbnwwfHwwfHw%3D&w=1000&q=80",
+          image: "https://images.pexels.com/photos/4195599/pexels-photo-4195599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
           rating:"4.3",
       },
       {
@@ -32,13 +18,27 @@ export const shoes= [
         price: {
               mrp: "500",
               discount: "201",
-              cost: "129"
+              cost: "149"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Roast Beef Sandwich",
-          tagline1: "Sandwich",
+          tagline: "French Fries",
+          tagline1: "Snacks",
           new:"New",
-        image: "https://amandascookin.com/wp-content/uploads/2023/01/Roast-Beef-Sandwich-RCSQ.jpg",
+          image: "https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          rating:"4.3",
+      },
+      {
+        shopname:"Ram Ji bhojnalaya",
+        price: {
+              mrp: "500",
+              discount: "201",
+              cost: "199"
+          },
+          category:["Pizza","California Pizza","Detroit Pizza"],
+          tagline: "Chicken Bread",
+          tagline1: "Bread",
+          new:"New",
+        image: "https://images.pexels.com/photos/6605644/pexels-photo-6605644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
           rating:"4.3",
       },
       {

@@ -16,12 +16,12 @@ const ImageContainer = styled("div")({
 
 })
 const Image = styled("img")({
-    width:"170px",
+    width:"100%",
     height:"200px",
     objectFit:"cover",
     margin:"10px",
     '@media(maxWidth: 768px)':{
-        width:"180px",
+        width:"100%",
         height:"180px"
     }
 })
