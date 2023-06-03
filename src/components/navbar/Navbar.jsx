@@ -21,12 +21,9 @@ const NavBar = styled(Box)(({ theme }) => ({
   [theme.breakpoints.down("sm")]: {
     height: "120vh",
   },
-  // width: "100%",
-  // color: "#fff",
-  // zIndex: 200,
-  // position: "static",
+  
   background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)
-  ),url(${"https://img.freepik.com/free-photo/woman-with-tablet-checking-shopping-cart-see-if-she-has-everything-she-needs-lunch_342744-1111.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
+  ),url(${"https://img.freepik.com/free-photo/female-hairdresser-styling-clients-hair_107420-94691.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
 }));
 

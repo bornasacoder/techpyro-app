@@ -9,7 +9,7 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
     [theme.breakpoints.down("sm")]: {
         justifyContent:'center' 
         },
-        background: `url(${"https://img.freepik.com/free-photo/top-view-assortment-vegetables-paper-bag_23-2148853335.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+        background: `url(${"https://img.freepik.com/premium-photo/cosmetic-beauty-product-spilled-from-wicker-basket-table_23-2148031372.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
          center/cover no-repeat`,
   }));
 export default function Content4() {
@@ -20,7 +20,7 @@ export default function Content4() {
 Discover Our
 </Typography>
 <Typography  sx={{fontFamily:'Dancing Script',fontSize:{md:"88px",sm:'68px',xs:"38px"},color:"#fff"}} data-aos="zoom-out">
-GROCERY ITEMS
+BEAUTIPLOUR ITEMS
 </Typography>
 <Box display="flex">
           <Button
