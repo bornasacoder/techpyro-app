@@ -30,9 +30,9 @@ export default function Content4() {
           variant="h1"
           sx={{color:"#fff", fontSize: { md: "58px", sm: "38px", xs: "28px" } }}
         >
-          CELEBRATE THE
-          <br />
-          YARD
+          COFFEE SERVED RIGHT
+          {/* <br />
+          YARD */}
         </Typography>
         <br/>
         <Typography

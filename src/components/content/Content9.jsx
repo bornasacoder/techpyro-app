@@ -36,24 +36,24 @@ const Content9 = () => {
         >
           <Grid item xs={12} sm={6} md={6} data-aos="zoom-in">
             <Typography variant="h4">
-              Coffee
+              Americano Coffee
             </Typography>
             <Typography>
-            Coffee is one of the most beloved and widely consumed beverages in the world. Originating from the seeds of the Coffea plant, coffee has a rich and fascinating history that spans centuries. Today, it has become an integral part of our daily routines, offering not only a stimulating boost but also a comforting and enjoyable experience.
+            An Americano coffee is a popular espresso-based beverage that originated in Europe and gained popularity in the United States. It is a simple yet satisfying drink that consists of hot water poured over a shot or two of espresso, creating a milder and more diluted version of espresso.
 
-One of the key reasons for coffee's popularity is its stimulating effect. Coffee contains caffeine, a natural stimulant that enhances alertness and reduces fatigue. Many people rely on their morning cup of coffee to kick-start their day and feel more energized.
+The process of making an Americano starts with brewing a shot or two of espresso using an espresso machine. Espresso is a concentrated form of coffee made by forcing hot water through finely ground coffee beans under high pressure. The result is a strong and flavorful coffee concentrate.
 
 
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={6} data-aos="zoom-in">
             <Typography variant="h4">
-              Snacks
+              Cappuccino Coffee
             </Typography>
             <Typography>
-            Snacks are a beloved part of our culinary culture, providing delicious and convenient bites to satisfy cravings and keep us fueled between meals. Whether enjoyed during a movie night, as a quick pick-me-up during a busy day, or as a tasty accompaniment to social gatherings, snacks have become a staple in our daily lives.
+            A cappuccino is a classic Italian coffee beverage that is enjoyed by coffee lovers worldwide. It is made using equal parts of espresso, steamed milk, and milk foam, resulting in a rich and velvety textured drink. The cappuccino is known for its distinct layers and a touch of artistry that often adorns the foam on top.
 
-Snacks come in a wide variety of forms, catering to different tastes, preferences, and dietary needs. They can range from sweet to savory, crunchy to chewy, and simple to complex in flavor profiles. From classic options like potato chips, cookies, and popcorn to more specialized choices like granola bars, fruit cups, or vegetable sticks with dip, there is a snack for everyone.
+The process of making a cappuccino starts with brewing a shot of espresso using an espresso machine. Espresso is a concentrated form of coffee made by forcing hot water through finely ground coffee beans under high pressure. It provides the strong and bold foundation for the cappuccino.
 
 
             </Typography>

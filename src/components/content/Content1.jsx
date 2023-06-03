@@ -101,7 +101,7 @@ export default function Content1() {
                 color:'#fff'
               }}}
               >
-               COFFEE
+               AMERICANO
               </Typography>
             </Item>
           </Grid>
@@ -125,7 +125,7 @@ export default function Content1() {
                 backgroundColor:"#000",
                 color:'#fff'}}}
               >
-               SNACKS
+               Cappuccino
               </Typography>
             </Item>
           </Grid>
@@ -149,7 +149,7 @@ export default function Content1() {
                   backgroundColor:"#000",
                   color:'#fff'} }}
               >
-               DONUTS
+               Espresso
               </Typography>
             </Item>
           </Grid>

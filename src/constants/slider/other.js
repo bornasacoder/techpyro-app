@@ -10,7 +10,7 @@ export const other = [
            shop:"SHOP NOW",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
-      image:"https://images.pexels.com/photos/4553110/pexels-photo-4553110.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      image:"https://images.pexels.com/photos/10970632/pexels-photo-10970632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
            rating:"4.3",
        },
 
@@ -37,7 +37,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-           image:"https://images.pexels.com/photos/1861785/pexels-photo-1861785.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+           image:"https://images.pexels.com/photos/5946975/pexels-photo-5946975.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
            rating:"4.3",
@@ -51,27 +51,26 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-         image: "https://static.toiimg.com/photo/83740315.cms",
+         image: "https://images.pexels.com/photos/2638019/pexels-photo-2638019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
            rating:"4.3",
        },
-       
-       {
+    {
         shopname:"Gupta Fast Food",
          price: {
                mrp: "199",
                discount: "100",
                cost: "99"
            },
-           category:["Spring Rolls","RasGulla","sweets"],
+           category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
-     image:"https://www.spiceupthecurry.com/wp-content/uploads/2022/08/Eggless-chocolate-muffins-1.jpg",
+      image:"https://images.pexels.com/photos/10970632/pexels-photo-10970632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+           rating:"4.3",
+       },
 
-           rating:"4.3",
-       },
        {
         shopname:"Gupta Fast Food",
          price: {
@@ -83,9 +82,38 @@ export const other = [
            shop:"SHOP NOW",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
-          image:"https://www.joyofbaking.com/images/facebook/homemadebagels.jpg",
+           image:"https://images.pexels.com/photos/4552115/pexels-photo-4552115.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
            rating:"4.3",
        },
+       {
+        shopname:"Gupta Fast Food",
+         price: {
+               mrp: "199",
+               discount: "100",
+               cost: "99"
+           },
+           category:["Spring Rolls","Thali","sweets"],
+           shop:"SHOP NOW",
+           image:"https://images.pexels.com/photos/5946975/pexels-photo-5946975.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+           tagline: "New Year,New Routine",
+           tagline1: "Get Fresh and Enjoy!😊.",
+           rating:"4.3",
+       },
+       {
+        shopname:"Gupta Fast Food",
+         price: {
+               mrp: "199",
+               discount: "100",
+               cost: "99"
+           },
+           category:["Spring Rolls","Thali","sweets"],
+           shop:"SHOP NOW",
+         image: "https://images.pexels.com/photos/2638019/pexels-photo-2638019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+           tagline: "New Year,New Routine",
+           tagline1: "Get Fresh and Enjoy!😊.",
+           rating:"4.3",
+       },
+      
 
 ]
 
