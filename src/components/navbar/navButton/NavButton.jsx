@@ -22,6 +22,7 @@ const CustomButton = styled(Box)(({ theme }) => ({
  // width: 19%;
 //  height: '64px',
  display: 'flex',
+ marginLeft:'40px',
 // color:"#A4A6A7",
  gap: '15px',
 // justifyContent:"space-between",
@@ -29,7 +30,7 @@ const CustomButton = styled(Box)(({ theme }) => ({
  alignItems: 'center',
  opacity:"0.8",
  [theme.breakpoints.down("md")]: {
-  
+    marginLeft:0
 },
 //  fontFamily: "Dancing Script",
 //  color:"white"
@@ -216,7 +217,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography variant="h5">SHOP</Typography>
+        <Typography variant="h5">PUMA</Typography>
         <Badge>{/* <ExpandMoreIcon /> */}</Badge>
         <Box
           sx={{
@@ -267,7 +268,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography variant="h5">MOBILE</Typography>
+        <Typography variant="h5">SKECHERS</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
@@ -318,7 +319,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography variant="h5">TV</Typography>
+        <Typography variant="h5">NIKE</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
@@ -370,7 +371,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography variant="h5">LAPTOP</Typography>
+        <Typography variant="h5">ADIDAS</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
@@ -408,7 +409,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography variant="h5">HOME APPLIANCES</Typography>
+        <Typography variant="h5">MORE</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{

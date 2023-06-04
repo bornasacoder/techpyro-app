@@ -199,7 +199,8 @@ export default function Navbar() {
 
        <StyleToolbar>
         <NavLeft>
-        <ElectricBoltIcon sx={{fontSize:"60px",color:'blue'}}/>
+        {/* <ElectricBoltIcon sx={{fontSize:"60px",color:'blue'}}/> */}
+        <Box sx={{width:50,height:50}}><img style={{width:'100%',height:'100%'}} src="/images/category/logo.png"/></Box>
         <NavButton/>
           {/* <MenuButtons >
           <Menu   sx={{color:"black"}}/>

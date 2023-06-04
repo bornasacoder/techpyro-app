@@ -10,13 +10,13 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
   [theme.breakpoints.down("sm")]: {
     justifyContent: "center",
   },
-  // height:'80vh',
+  height:'50vh',
   background: `url(${"/images/category/shopheader.jpg"})
          center/cover no-repeat`,
-  // [theme.breakpoints.down("md")]: {
-  // padding: "68px 20px ",
+  [theme.breakpoints.down("md")]: {
+        height:'auto'
 
-  //     },
+      },
   // // display: "flex",
   // // justifyContent:"space-between",
   // gap: 2,
@@ -26,13 +26,13 @@ export default function Content4() {
   return (
     <StyleToolbar>
       <Box  sx={{width:{md:"40%",sm:'100%',sx:"100%"}}}>
-        <Typography
+        {/* <Typography
           variant="h1"
           sx={{color:"#fff", fontSize: { md: "58px", sm: "38px", xs: "28px" } }}
         >
           New Launches
-          {/* <br />
-          YARD */}
+          <br />
+          YARD
         </Typography>
         <br/>
         <Typography
@@ -61,8 +61,8 @@ export default function Content4() {
             }}
           >
             READ MORE
-          </Button>
-        </Box>
+          </Button> 
+        </Box>*/}
       </Box>
     </StyleToolbar>
   );

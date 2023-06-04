@@ -10,7 +10,7 @@ export const other = [
            shop:"SHOP NOW",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
-      image:"https://img.etimg.com/photo/msid-93779686/oneplus-nord-ce-2-lite-5g.jpg",
+      image:"https://assets.ajio.com/medias/sys_master/root/20220721/uEYv/62d8f713f997dd03e2e66b13/-473Wx593H-464114535-white-MODEL.jpg",
            rating:"4.3",
        },
 
@@ -25,7 +25,7 @@ export const other = [
            shop:"SHOP NOW",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
-           image:"https://img.etimg.com/photo/msid-93779629/redmi-note-11-pro-5g.jpg",
+           image:"https://5.imimg.com/data5/SELLER/Default/2022/4/ZD/TL/AE/151793842/new-product-500x500.jpeg",
            rating:"4.3",
        },
        {
@@ -37,7 +37,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-           image:"https://cdn.thewirecutter.com/wp-content/media/2022/07/laptop-under-500-2048px-acer-1.jpg",
+           image:"https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
            rating:"4.3",
@@ -51,7 +51,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-         image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXBwbGUlMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+         image: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/93869e23-0dba-425d-b20b-b12893181d68/air-max-pulse-shoes-QShhG8.png",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
            rating:"4.3",
@@ -67,7 +67,7 @@ export const other = [
            shop:"SHOP NOW",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
-      image:"https://img.etimg.com/photo/msid-93779686/oneplus-nord-ce-2-lite-5g.jpg",
+      image:"https://assets.ajio.com/medias/sys_master/root/20220721/uEYv/62d8f713f997dd03e2e66b13/-473Wx593H-464114535-white-MODEL.jpg",
            rating:"4.3",
        },
 
@@ -82,7 +82,7 @@ export const other = [
            shop:"SHOP NOW",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
-           image:"https://img.etimg.com/photo/msid-93779629/redmi-note-11-pro-5g.jpg",
+           image:"https://5.imimg.com/data5/SELLER/Default/2022/4/ZD/TL/AE/151793842/new-product-500x500.jpeg",
            rating:"4.3",
        },
        {
@@ -94,7 +94,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-           image:"https://cdn.thewirecutter.com/wp-content/media/2022/07/laptop-under-500-2048px-acer-1.jpg",
+           image:"https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
            rating:"4.3",
@@ -108,11 +108,12 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-         image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXBwbGUlMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+         image: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/93869e23-0dba-425d-b20b-b12893181d68/air-max-pulse-shoes-QShhG8.png",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
            rating:"4.3",
        },
+    
     
       
 

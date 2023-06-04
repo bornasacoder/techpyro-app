@@ -38,7 +38,7 @@ export default function Content7() {
           </Typography>
         </Box>
           <Typography  sx={{ color:"white",fontSize: {md:'25px',sm:"18px",xs:"14px"},}}>
-            Purchase more than 2 items get upto 20% off. Purchase more get more!
+            Purchase more than 2 items get extra 20% off. Purchase more get more!
           </Typography>
           </Box> 
           <Box >

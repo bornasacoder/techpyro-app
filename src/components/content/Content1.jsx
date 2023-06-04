@@ -93,7 +93,7 @@ export default function Content1() {
               {/* <Cake sx={{ fontSize: "75px", color: "red" }} /> */}
             </Item>
             <br />
-            <Item sx={{display:"flex",justifyContent:"flex-start"}}>
+            <Item sx={{display:"flex",justifyContent:"center"}}>
               <Typography
               variant="span"
               sx={{ borderBottom:"1px solid #000","&:hover":{
@@ -101,7 +101,7 @@ export default function Content1() {
                 color:'#fff'
               }}}
               >
-               Mobile
+               Puma
               </Typography>
             </Item>
           </Grid>
@@ -117,7 +117,7 @@ export default function Content1() {
               {/* <Cake sx={{ fontSize: "75px", color: "red" }} /> */}
             </Item>
             <br />
-            <Item sx={{display:"flex",justifyContent:"flex-start"}}>
+            <Item sx={{display:"flex",justifyContent:"center"}}>
               
               <Typography
               variant="span"
@@ -125,7 +125,7 @@ export default function Content1() {
                 backgroundColor:"#000",
                 color:'#fff'}}}
               >
-               Laptop
+               Nike
               </Typography>
             </Item>
           </Grid>
@@ -141,7 +141,7 @@ export default function Content1() {
               {/* <Cake sx={{ fontSize: "75px", color: "red" }} /> */}
             </Item>
             <br />
-            <Item sx={{display:"flex",justifyContent:"flex-start"}}>
+            <Item sx={{display:"flex",justifyContent:"center"}}>
               
               <Typography
               variant="span"
@@ -149,7 +149,7 @@ export default function Content1() {
                   backgroundColor:"#000",
                   color:'#fff'} }}
               >
-               Refrigerator
+               Adidas
               </Typography>
             </Item>
           </Grid>

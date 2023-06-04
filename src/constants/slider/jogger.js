@@ -4,11 +4,11 @@ export const jogger = [
              price: {
                    mrp: "500",
                    discount: "201",
-                   cost: "18999"
+                   cost: "1599.00"
                },
                category:["Finger Chips","Samosa","Spring Rolls"],
-               tagline: "Vivo T2 5G",
-               image:"https://i.gadgets360cdn.com/products/large/vivo-t2-5g-db-709x800-1681200173.jpg?downsize=240:*",   
+               tagline: "Mens Midout New Training Shoe",
+               image:"https://m.media-amazon.com/images/I/71-ub3Kv8KL._AC_UL600_FMwebp_QL65_.jpg",   
                rating:"4.3",
         
    },
@@ -17,11 +17,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "19999"
+           cost: "1634.00"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "OnePlus Nord CE 3 Lite 5G",
-        image:"https://i.gadgets360cdn.com/products/large/oneplus-nord-ce-3-lite-5g-DB-709x800-1680617419.jpg?downsize=240:*",
+       tagline: "Puma Mens Joy Run Sneaker",
+        image:"https://m.media-amazon.com/images/I/81VBbkJoHbL._AC_UL600_FMwebp_QL65_.jpg",
 
        rating:"4.3",
 
@@ -31,11 +31,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "18999"
+           cost: "5319.00"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "iQOO Z7 5G",
-    image:"https://i.gadgets360cdn.com/products/large/iqoo-z7-5g-db-644x800-1679383425.jpg?downsize=*:420&output-quality=80",
+       tagline: "Nike Mens Quest 5 Running",
+    image:"https://m.media-amazon.com/images/I/41Udu3OhyrL._AC_UL600_FMwebp_QL65_.jpg",
        rating:"4.3",
 
 },
@@ -44,11 +44,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "16999"
+           cost: "8012.00"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Motorola Moto G72",
-      image:"https://motorolain.vtexassets.com/arquivos/ids/157796-800-auto?width=800&height=auto&aspect=true",
+       tagline: "Nike Mens Zoom Prevail Running Shoe",
+      image:"https://m.media-amazon.com/images/I/61MT5lh63aL._AC_UL600_FMwebp_QL65_.jpg",
        rating:"4.3",
 
 },
@@ -57,11 +57,11 @@ export const jogger = [
              price: {
                    mrp: "500",
                    discount: "201",
-                   cost: "18999"
+                   cost: "1599.00"
                },
                category:["Finger Chips","Samosa","Spring Rolls"],
-               tagline: "Vivo T2 5G",
-               image:"https://i.gadgets360cdn.com/products/large/vivo-t2-5g-db-709x800-1681200173.jpg?downsize=240:*",   
+               tagline: "Mens Midout New Training Shoe",
+               image:"https://m.media-amazon.com/images/I/71-ub3Kv8KL._AC_UL600_FMwebp_QL65_.jpg",   
                rating:"4.3",
         
    },
@@ -70,11 +70,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "19999"
+           cost: "1634.00"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "OnePlus Nord CE 3 Lite 5G",
-        image:"https://i.gadgets360cdn.com/products/large/oneplus-nord-ce-3-lite-5g-DB-709x800-1680617419.jpg?downsize=240:*",
+       tagline: "Puma Mens Joy Run Sneaker",
+        image:"https://m.media-amazon.com/images/I/81VBbkJoHbL._AC_UL600_FMwebp_QL65_.jpg",
 
        rating:"4.3",
 
@@ -84,11 +84,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "18999"
+           cost: "5319.00"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "iQOO Z7 5G",
-    image:"https://i.gadgets360cdn.com/products/large/iqoo-z7-5g-db-644x800-1679383425.jpg?downsize=*:420&output-quality=80",
+       tagline: "Nike Mens Quest 5 Running",
+    image:"https://m.media-amazon.com/images/I/41Udu3OhyrL._AC_UL600_FMwebp_QL65_.jpg",
        rating:"4.3",
 
 },
@@ -97,17 +97,13 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "16999"
+           cost: "8012.00"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Motorola Moto G72",
-      image:"https://motorolain.vtexassets.com/arquivos/ids/157796-800-auto?width=800&height=auto&aspect=true",
+       tagline: "Nike Mens Zoom Prevail Running Shoe",
+      image:"https://m.media-amazon.com/images/I/61MT5lh63aL._AC_UL600_FMwebp_QL65_.jpg",
        rating:"4.3",
 
 },
-    
-    
-
-
 
 ]

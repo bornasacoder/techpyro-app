@@ -36,25 +36,22 @@ const Content9 = () => {
         >
           <Grid item xs={12} sm={6} md={6} data-aos="zoom-in">
             <Typography variant="h4">
-              Phones
+              Sports Shoes
             </Typography>
             <Typography>
-            Phones, also known as smartphones or mobile phones, have become an integral part of our modern lives. These devices have revolutionized communication, enabling us to stay connected with others, access information, and perform various tasks conveniently. Phones have evolved significantly over the years, offering a wide range of features and capabilities.
+            Sports shoes, also known as athletic shoes or sneakers, are specially designed footwear intended for sports and physical activities. They are designed to provide comfort, support, and protection for the feet during athletic movements. Sports shoes come in various styles and are engineered to cater to different sports and activities.
 
-The primary function of a phone is to make and receive calls. With advancements in technology, phones now offer crystal-clear voice calls and improved network coverage, allowing us to communicate with others across different locations and even internationally. In addition to voice calls, phones also provide options for video calls, enabling face-to-face conversations with friends, family, and colleagues regardless of distance.
+The construction and features of sports shoes vary depending on the intended purpose. Here are some general details about sports shoes
 
 
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={6} data-aos="zoom-in">
             <Typography variant="h4">
-              Laptop
+              Formal Shoes
             </Typography>
             <Typography>
-            A laptop, also known as a notebook computer, is a portable computing device designed for personal and professional use. Laptops offer the convenience of a desktop computer while allowing users to work, study, or entertain themselves on the go.
-
-Laptops consist of several key components that enable their functionality. The central processing unit (CPU) serves as the brain of the laptop, executing instructions and performing calculations. The CPU's speed and power determine the overall performance of the laptop.
-
+            Formal shoes, also known as dress shoes or business shoes, are footwear designed to be worn on formal occasions, professional settings, or business events. They are typically made of high-quality materials and feature a polished and sophisticated appearance. Formal shoes are characterized by their sleek and refined design, intended to complement formal attire. Here are some general details about formal shoes.
 
             </Typography>
           </Grid>

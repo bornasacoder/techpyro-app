@@ -73,7 +73,7 @@ export default function Content8() {
               alignItems: "center",
             }}
           >
-             You must remember when you taste!. Now get
+             You must remember when you choose!. Now get
             <br/>
             rewarded for it
             with a loyalty program that gets you.
