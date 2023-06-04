@@ -13,7 +13,7 @@ import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    backgroundImage: 'url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)',
+    backgroundImage: 'url(https://images.pexels.com/photos/131683/pexels-photo-131683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     width: "98%",
@@ -112,7 +112,7 @@ export default function Footer() {
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                   View our gallery to see some of our delicious dishes and
-                  beautiful restaurant.
+                  beautiful cafe.
                 </Typography>
               </CardContent>
             </Card>
@@ -124,7 +124,9 @@ export default function Footer() {
         className={classes.backToTop}
         onClick={() => {
           window.scrollTo(0, 0);
+
         }}
+        style={{marginBottom:"30px"}}
       >
         <ArrowUpwardIcon  />  <Button
         variant="contained"

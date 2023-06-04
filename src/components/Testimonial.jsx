@@ -1,14 +1,6 @@
 import React from "react";
-import { Carousel } from "react-responsive-carousel";
 import { makeStyles } from "@material-ui/core/styles";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
-import Slider from "@material-ui/core/Slider";
-import Input from "@material-ui/core/Input";
-import InputLabel from "@material-ui/core/InputLabel";
-import FormControl from "@material-ui/core/FormControl";
 import Typography from "@material-ui/core/Typography";
 import { Grid, Box ,TextField } from "@material-ui/core";
 import { Avatar } from "@material-ui/core";
@@ -16,12 +8,12 @@ import { Avatar } from "@material-ui/core";
 // import "./testimonial.css"
 import SwiggySlider from "./MySecondCarousel/SwiggySlider";
 import Divider from "@material-ui/core/Divider";
-import { margin } from '@mui/system';
+
 const sliderData = [
   {
     id: 1,
     image: "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
-    title: "The best Restaurant",
+    title: "The best Cafe",
     description:
       "Et recusandae nihil et perferendis dolor ab totam eveniet aut quod accusamus aut officia aperiam aut explicabo ipsum! Sit aperiam aspernatur cum libero veritatis cum magnam itaque vel enim consequatur non porro aliquam a maiores ipsum. Hic odio quaerat et rerum deserunt hic consequuntur vitae et placeat doloribus aut magnam possimus.",
     author: "Van Chuan",
@@ -57,7 +49,7 @@ const sliderData = [
   {
     id: 5,
     image: "https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg",
-    title: "The Restaurant",
+    title: "The Cafe",
     description:
       "Et recusandae nihil et perferendis dolor ab totam eveniet aut quod accusamus aut officia aperiam aut explicabo ipsum! Sit aperiam aspernatur cum libero veritatis cum magnam itaque vel enim consequatur non porro aliquam a maiores ipsum. Hic odio quaerat et rerum deserunt hic consequuntur vitae et placeat doloribus aut magnam possimus.",
     author: "Van Chuan",
@@ -215,7 +207,7 @@ Repudiandae dignissimos fugiat sit nam.
                     style={{ height: "15.625vw", width: "28.125vw", margin: " 0.78125vw", "@media (max-width: 500px)": {
                       height: "500px", Width:"500px"
                     }, }}
-                    src={"https://images.pexels.com/photos/7390/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600"}
+                    src={"https://images.pexels.com/photos/2836945/pexels-photo-2836945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}
                   />
                   <Typography style={{ margin: " 0.78125vw  " }} variant="h5">
                     Supporting Bakery flavours
@@ -244,7 +236,7 @@ Repudiandae dignissimos fugiat sit nam.
                 <div className={classes.divin}>
                   <img
                     style={{ height: "15.625vw", width: "28.125vw", margin: " 0.78125vw" }}
-                    src={"https://images.pexels.com/photos/1028714/pexels-photo-1028714.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}
+                    src={"https://images.pexels.com/photos/1473714/pexels-photo-1473714.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}
                   />
                   <Typography style={{ margin: " 0.78125vw  " }} variant="h5">
                   Creamy Alfredo 
@@ -273,7 +265,7 @@ Repudiandae dignissimos fugiat sit nam.
                 <div className={classes.divin}>
                   <img
                     style={{ height: "15.625vw", width: "28.125vw", margin: " 0.78125vw" }}
-                    src={"https://images.pexels.com/photos/6879442/pexels-photo-6879442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}
+                    src={"https://images.pexels.com/photos/2133535/pexels-photo-2133535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}
                   />
                   <Typography style={{ margin: " 0.78125vw  " }} variant="h5">
                     Supporting food flavors
@@ -319,7 +311,7 @@ Repudiandae dignissimos fugiat sit nam.
             <div style={{ margin: "10%" }}>
               {" "}
               NEWSLETTER
-              <Typography className={classes.heading1} variant="h3">
+              <Typography className={classes.heading1} variant="h4">
                 Subscribe our newsletter
               </Typography>
               Rolorem, beatae dolorum, praesentium itaque et quam quaerat.

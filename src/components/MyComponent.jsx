@@ -38,11 +38,14 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: " 0.78125vw",
     backgroundColor: "white",
     border: "1px solid black",
+    marginTop:"50px"
   },
   parent: {
     display: "flex",
     direction: "row",
-    margin: "1.5625vw",
+
+    margin:"20px",
+    padding:"30px 0px",
     "@media (max-width: 1000px)": {
               display: "block",
               direction:"column",
@@ -56,6 +59,7 @@ const useStyles = makeStyles((theme) => ({
   sibling1: {
     backgroundColor: "blue",
     display: "flex",
+   
     direction: "row",
     alignItems: "center",
     "@media (max-width: 680px)": {
@@ -129,7 +133,7 @@ const useStyles = makeStyles((theme) => ({
   imgContainer: {
     marginleft: "5%",
 
-    backgroundImage: `url(https://images.pexels.com/photos/1775050/pexels-photo-1775050.jpeg?auto=compress&cs=tinysrgb&w=600)`,
+    backgroundImage: `url(https://images.pexels.com/photos/2836945/pexels-photo-2836945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     height: "27.34375vw",
@@ -169,7 +173,7 @@ export default function MyComponent() {
           <Container>
             ABOUT US
             <Typography className={classes.heading1} variant="h4">
-              We invite you to visit our Bakery
+              We invite you to visit our Cafe
             </Typography>{" "}
             Assumenda possimus eaque illo iste, autem. Porro eveniet, autem
             ipsam vitae amet repellat repudiandae tenetur, quod corrupti
