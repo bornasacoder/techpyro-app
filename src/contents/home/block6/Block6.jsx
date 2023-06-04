@@ -129,19 +129,21 @@ export default function Block6(props) {
       };
 
       const data = [
-        {img:'https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-        {img:'https://images.pexels.com/photos/2425705/pexels-photo-2425705.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-        {img:'https://images.pexels.com/photos/3686791/pexels-photo-3686791.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-        {img:'https://images.pexels.com/photos/2983100/pexels-photo-2983100.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-        {img:'https://images.pexels.com/photos/2287810/pexels-photo-2287810.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-        {img:'https://images.pexels.com/photos/7192144/pexels-photo-7192144.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://img.freepik.com/premium-photo/gulab-jamun-bowl-copper-antique-bowl-with-spoon-indian-dessert-sweet-dish_136354-7666.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais',name:'Gulab Jamun'},
+        {img:'https://img.freepik.com/free-photo/close-up-chicken-with-rice-cooked-indian-style_23-2148294965.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph',name:'Pulao'},
+        {img:'https://img.freepik.com/free-photo/high-angle-pakistani-meal-with-meat_23-2148825108.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Chilli Paneer'},
+        
+        {img:'https://img.freepik.com/free-photo/fresh-soup-with-spices_144627-34284.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Mushroom'},
     
+        {img:'https://img.freepik.com/free-photo/vertical-shot-traditional-indian-paneer-butter-masala-cheese-cottage-curry-black-surface_181624-32001.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Paneer'},
+        {img:'https://img.freepik.com/free-photo/vertical-shot-chickpea-curry-chana-masala-with-lime-bowl-white-surf_181624-31989.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Pav Bhaji'},
+       
       ]
   return (
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <SliderHeader sliderH='Veg Pizza'/>
+        <SliderHeader sliderH='Veg Foods'/>
         <Slider {...settings}>
         { data.map((item)=>(
         <SliderItem data={item} />

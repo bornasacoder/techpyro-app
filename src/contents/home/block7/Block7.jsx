@@ -129,19 +129,21 @@ export default function Block7(props) {
       };
 
       const data = [
-        {img:'https://images.pexels.com/photos/372959/pexels-photo-372959.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-        {img:'https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-        {img:'https://images.pexels.com/photos/404178/pexels-photo-404178.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-        {img:'https://images.pexels.com/photos/2983100/pexels-photo-2983100.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-        {img:'https://images.pexels.com/photos/2287810/pexels-photo-2287810.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-        {img:'https://images.pexels.com/photos/7192144/pexels-photo-7192144.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://img.freepik.com/free-photo/indian-dhal-spicy-curry-bowl-spices-herbs-rustic-black-wooden-table_2829-18712.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais',name:'Dal'},
+        {img:'https://img.freepik.com/free-photo/chocolate-balls-with-cocoa-powder_114579-12451.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais',name:'Gulab Jamun'},
+        {img:'https://img.freepik.com/free-photo/appetizing-healthy-rice-with-vegetables-white-plate-wooden-table_2829-19773.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph',name:'Pulao'},
+        {img:'https://img.freepik.com/free-photo/organic-berry-granola-bowl-with-almond-milk-generated-by-ai_188544-10905.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph',name:'Kheer'},
     
+        {img:'https://img.freepik.com/free-photo/flat-lay-pakistani-food-arrangement_23-2148825110.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph',name:'Paneer'},
+        {img:'https://img.freepik.com/free-photo/high-angle-chicken-meal_23-2148825122.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'chicken'},
+    
+       
       ]
   return (
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <SliderHeader sliderH='Veg Pizza'/>
+        <SliderHeader sliderH='Veg Foods'/>
         <Slider {...settings}>
         { data.map((item)=>(
         <SliderItem data={item} />

@@ -130,12 +130,12 @@ export default function Block9(props) {
       };
 
       const data = [
-        {img:'https://images.pexels.com/photos/3219547/pexels-photo-3219547.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Burger'},
-        {img:'https://images.pexels.com/photos/2498440/pexels-photo-2498440.jpeg?auto=compress&cs=tinysrgb&w=600',name:'French Fries'},
-        {img:'https://images.pexels.com/photos/4389660/pexels-photo-4389660.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Coka cola'},
-        {img:'https://images.pexels.com/photos/2456434/pexels-photo-2456434.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Noodles'},
-        {img:'https://images.pexels.com/photos/7890010/pexels-photo-7890010.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Vegetable'},
-        {img:'https://images.pexels.com/photos/14000427/pexels-photo-14000427.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://img.freepik.com/free-photo/gourmet-chicken-biryani-with-steamed-basmati-rice-generated-by-ai_188544-13480.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph',name:'Chicken Biryani'},
+        {img:'https://img.freepik.com/free-photo/closeup-shot-deliciously-prepared-chicken-served-with-onions-chili-sauce_181624-61705.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais',name:'Tandoori Chicken'},
+        {img:'https://img.freepik.com/free-photo/curry-with-chicken-onions-indian-food-asian-cuisine_2829-4415.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais',name:'Chicken Korma'},
+        {img:'https://img.freepik.com/free-photo/massaman-curry-frying-pan-with-spices-cement-floor_1150-20777.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais0',name:'Fish Korma'},
+        {img:'https://img.freepik.com/free-photo/chicken-skewers-with-slices-apples-chili_2829-19992.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Tandoori Mutton'},
+        {img:'https://img.freepik.com/free-photo/beef-shish-kebab-with-hot-chili-sauce_114579-2351.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Fri Mutton'},
     
       ]
 
@@ -143,7 +143,7 @@ export default function Block9(props) {
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <Header sliderH='pizza'/>
+        <Header sliderH='Non Veg Foods'/>
         <Slider {...settings}>
         {data.map((item)=>(
         <Item data={item} />

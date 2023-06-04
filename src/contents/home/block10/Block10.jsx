@@ -129,19 +129,20 @@ export default function Block10(props) {
       };
 
       const data = [
-        {img:'https://images.pexels.com/photos/372959/pexels-photo-372959.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-        {img:'https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-        {img:'https://images.pexels.com/photos/404178/pexels-photo-404178.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-        {img:'https://images.pexels.com/photos/2983100/pexels-photo-2983100.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-        {img:'https://images.pexels.com/photos/2287810/pexels-photo-2287810.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-        {img:'https://images.pexels.com/photos/7192144/pexels-photo-7192144.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://img.freepik.com/free-photo/massaman-curry-frying-pan-with-spices-cement-floor_1150-20777.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais0',name:'Fish Korma'},
+        {img:'https://img.freepik.com/free-photo/chicken-skewers-with-slices-apples-chili_2829-19992.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Tandoori Mutton'},
+        {img:'https://img.freepik.com/free-photo/beef-shish-kebab-with-hot-chili-sauce_114579-2351.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Fri Mutton'},
     
+        {img:'https://img.freepik.com/free-photo/gourmet-chicken-biryani-with-steamed-basmati-rice-generated-by-ai_188544-13480.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph',name:'Chicken Biryani'},
+        {img:'https://img.freepik.com/free-photo/closeup-shot-deliciously-prepared-chicken-served-with-onions-chili-sauce_181624-61705.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais',name:'Tandoori Chicken'},
+        {img:'https://img.freepik.com/free-photo/curry-with-chicken-onions-indian-food-asian-cuisine_2829-4415.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais',name:'Chicken Korma'},
+      
       ]
   return (
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <SliderHeader sliderH='Veg Pizza'/>
+        <SliderHeader sliderH='Non Veg Foods'/>
         <Slider {...settings}>
         { data.map((item)=>(
         <SliderItem data={item} />

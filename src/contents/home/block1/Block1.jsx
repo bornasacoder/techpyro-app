@@ -116,31 +116,31 @@ const MainCarousel = () => {
     <Box sx={{marginTop:{xs:'120px',md:'65px',lg:'50px'}}}>
     <Slider {...settings1}>
       <Item>
-        <Img src='https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' />
+        <Img src='https://img.freepik.com/free-photo/freshly-baked-naan-bread-rustic-wood-bowl-generated-by-ai_188544-11765.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph' />
         <Head>upto 40% off</Head>
       </Item>
     <Item>
-      <Img src='https://api.pizzahut.io/v1/content/en-in/in-1/images/deal/wow-199.b2334aba0b78ee4ccb456584195a97b6.1.jpg' />
+      <Img src='https://img.freepik.com/free-photo/indian-dhal-spicy-curry-bowl-spices-herbs-rustic-black-wooden-table_2829-18712.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
     <Item>
-      <Img src='https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&w=600' />
+      <Img src='https://img.freepik.com/free-photo/gourmet-chicken-biryani-with-steamed-basmati-rice-generated-by-ai_188544-13480.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
     <Item>
-      <Img src='https://images.pexels.com/photos/3915857/pexels-photo-3915857.jpeg?auto=compress&cs=tinysrgb&w=600' />
+      <Img src='https://img.freepik.com/free-photo/traditional-azerbaijan-indian-turkish-sweet-dessert-halvah-with-nuts-top_114579-1310.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais' />
       <Head>upto 40% off</Head>
     </Item>
     <Item>
-      <Img src='https://images.pexels.com/photos/3762069/pexels-photo-3762069.jpeg?auto=compress&cs=tinysrgb&w=600' />
+      <Img src='https://img.freepik.com/free-photo/wooden-bowl-with-dried-tasty-dates-white-background-high-quality-photo_114579-75751.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais' />
       <Head>upto 40% off</Head>
      </Item>
     <Item> 
-      <Img src='https://images.pexels.com/photos/3682837/pexels-photo-3682837.jpeg?auto=compress&cs=tinysrgb&w=600' />
+      <Img src='https://img.freepik.com/free-photo/organic-berry-granola-bowl-with-almond-milk-generated-by-ai_188544-10905.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
      <Item>
-      <Img src='https://images.pexels.com/photos/6605224/pexels-photo-6605224.jpeg?auto=compress&cs=tinysrgb&w=600' />
+      <Img src='https://img.freepik.com/free-photo/deep-fried-samosas-dumplings-gourmet-appetizer-generated-by-ai_188544-13491.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
   </Slider>

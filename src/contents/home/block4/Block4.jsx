@@ -130,13 +130,13 @@ export default function Block3(props) {
       };
 
       const data = [
-        {img:'https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Burger'},
-        {img:'https://images.pexels.com/photos/2983100/pexels-photo-2983100.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Coke'},
-        {img:'https://images.pexels.com/photos/1721934/pexels-photo-1721934.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Cake'},
-        {img:'https://images.pexels.com/photos/3686792/pexels-photo-3686792.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Noodles'},
-        {img:'https://images.pexels.com/photos/116738/pexels-photo-116738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',name:'pasta'},
+        {img:'https://img.freepik.com/free-photo/vertical-shot-traditional-indian-paneer-butter-masala-cheese-cottage-curry-black-surface_181624-32001.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Paneer'},
+        {img:'https://img.freepik.com/free-photo/vertical-shot-chickpea-curry-chana-masala-with-lime-bowl-white-surf_181624-31989.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Pav Bhaji'},
+        {img:'https://img.freepik.com/premium-photo/gulab-jamun-bowl-copper-antique-bowl-with-spoon-indian-dessert-sweet-dish_136354-7666.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais',name:'Gulab Jamun'},
+        {img:'https://img.freepik.com/free-photo/close-up-chicken-with-rice-cooked-indian-style_23-2148294965.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph',name:'Pulao'},
+        {img:'https://img.freepik.com/free-photo/high-angle-pakistani-meal-with-meat_23-2148825108.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Chilli Paneer'},
         
-        {img:'https://images.pexels.com/photos/14000427/pexels-photo-14000427.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://img.freepik.com/free-photo/fresh-soup-with-spices_144627-34284.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Mushroom'},
     
       ]
 
@@ -144,7 +144,7 @@ export default function Block3(props) {
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <Header sliderH='pizza'/>
+        <Header sliderH='Foods'/>
         <Slider {...settings}>
         {data.map((item)=>(
         <Item data={item} />

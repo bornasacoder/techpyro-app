@@ -168,7 +168,7 @@ export default function Navbar() {
             <Menu/>
             </MenuButtons>
           <Typography variant="h1" fontSize="20px">
-          Bakery
+           Restaurant
           </Typography>
           </Box>
            <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
@@ -222,18 +222,18 @@ export default function Navbar() {
     </NavBarTop>
 
     <NavBarBottom>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Bread</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Pizza</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Burger</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Cold Drink</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Energy Drink</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Pasta</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Noodles</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Chocolates</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Momos</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Patties</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Cakes</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Biscuits and Rusk</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Paneer</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Dal</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Chhola</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Chicken</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Biryani</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Gajar Halwa</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Kheer</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Pulao</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Gulab Jamun</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Pav Bhaji</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Dosa</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Aloo Gobi</Typography>
 
     </NavBarBottom>
 

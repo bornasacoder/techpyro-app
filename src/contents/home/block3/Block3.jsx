@@ -130,12 +130,13 @@ export default function Block3(props) {
       };
 
       const data = [
-        {img:'https://images.pexels.com/photos/3219547/pexels-photo-3219547.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Burger'},
-        {img:'https://images.pexels.com/photos/2498440/pexels-photo-2498440.jpeg?auto=compress&cs=tinysrgb&w=600',name:'French Fries'},
-        {img:'https://images.pexels.com/photos/4389660/pexels-photo-4389660.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Coka cola'},
-        {img:'https://images.pexels.com/photos/2456434/pexels-photo-2456434.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Noodles'},
-        {img:'https://images.pexels.com/photos/7890010/pexels-photo-7890010.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Vegetable'},
-        {img:'https://images.pexels.com/photos/14000427/pexels-photo-14000427.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://img.freepik.com/free-photo/flat-lay-pakistani-food-arrangement_23-2148825110.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph',name:'Paneer'},
+        {img:'https://img.freepik.com/free-photo/high-angle-chicken-meal_23-2148825122.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'chicken'},
+    
+        {img:'https://img.freepik.com/free-photo/indian-dhal-spicy-curry-bowl-spices-herbs-rustic-black-wooden-table_2829-18712.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais',name:'Dal'},
+        {img:'https://img.freepik.com/free-photo/chocolate-balls-with-cocoa-powder_114579-12451.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais',name:'Gulab Jamun'},
+        {img:'https://img.freepik.com/free-photo/appetizing-healthy-rice-with-vegetables-white-plate-wooden-table_2829-19773.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph',name:'Pulao'},
+        {img:'https://img.freepik.com/free-photo/organic-berry-granola-bowl-with-almond-milk-generated-by-ai_188544-10905.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph',name:'Kheer'},
     
       ]
 
@@ -143,7 +144,7 @@ export default function Block3(props) {
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <Header sliderH='pizza'/>
+        <Header sliderH='Foods'/>
         <Slider {...settings}>
         {data.map((item)=>(
         <Item data={item} />
