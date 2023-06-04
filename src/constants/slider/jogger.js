@@ -4,11 +4,11 @@ export const jogger = [
              price: {
                    mrp: "500",
                    discount: "201",
-                   cost: "275.00"
+                   cost: "12849"
                },
                category:["Finger Chips","Samosa","Spring Rolls"],
-               tagline: "Dettol Bathing Soap Bar - Original, 99.99% Germ Protection, Dermatologically Tested, 125G Buy 4 Get 1 Free",
-               image:"https://www.bigbasket.com/media/uploads/p/l/40194529_7-dettol-original-bathing-soap-bar-with-76-tfm-protects-from-germs.jpg",   
+               tagline: "The Ezra Diamond Silver Ring",
+               image:"https://cf-cdn.pcjeweller.com/public/uploads/catalog/product/custom/s/SLR00019-6_234.jpg",   
                rating:"4.3",
         
    },
@@ -17,11 +17,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "491.00"
+           cost: "59449"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Wagh Bakri Premium Leaf Tea - Strong & Refreshing, 1 kg Pouch",
-        image:"https://www.bigbasket.com/media/uploads/p/l/20003982_3-wagh-bakri-premium-leaf-tea.jpg",
+       tagline: "The Kavya Diamond Silver Goggl...",
+        image:"https://cf-cdn.pcjeweller.com/public/uploads/catalog/product/custom/g/GCH00006-4A__1119932722.jpg",
 
        rating:"4.3",
 
@@ -31,11 +31,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "46.00"
+           cost: "59861"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Fresho Farm Eggs - Regular, Medium, Antibiotic Residue-Free, 6 pcs",
-    image:"https://www.bigbasket.com/media/uploads/p/l/281204_9-fresho-farm-eggs-regular-medium-antibiotic-residue-free.jpg",
+       tagline: "The Ipsita Diamond Mangalsutra",
+    image:"https://cf-cdn.pcjeweller.com/public/uploads/catalog/product/custom/m/MS00117-4__16250578.jpg",
        rating:"4.3",
 
 },
@@ -44,11 +44,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "369.00"
+           cost: "30174"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "BB Popular Almond/Badam - Californian, Giri, 500 g Pouch",
-      image:"https://www.bigbasket.com/media/uploads/p/l/10000549_14-bb-popular-almondbadam-californian-giri.jpg",
+       tagline: "The Zrimat Diamond Ring",
+      image:"https://cf-cdn.pcjeweller.com/public/uploads/catalog/product/custom/g/GR00518-1__7191132.jpg",
        rating:"4.3",
 
 },
@@ -57,11 +57,11 @@ export const jogger = [
              price: {
                    mrp: "500",
                    discount: "201",
-                   cost: "275.00"
+                   cost: "12849"
                },
                category:["Finger Chips","Samosa","Spring Rolls"],
-               tagline: "Dettol Bathing Soap Bar - Original, 99.99% Germ Protection, Dermatologically Tested, 125G Buy 4 Get 1 Free",
-               image:"https://www.bigbasket.com/media/uploads/p/l/40194529_7-dettol-original-bathing-soap-bar-with-76-tfm-protects-from-germs.jpg",   
+               tagline: "The Ezra Diamond Silver Ring",
+               image:"https://cf-cdn.pcjeweller.com/public/uploads/catalog/product/custom/s/SLR00019-6_234.jpg",   
                rating:"4.3",
         
    },
@@ -70,11 +70,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "491.00"
+           cost: "59449"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Wagh Bakri Premium Leaf Tea - Strong & Refreshing, 1 kg Pouch",
-        image:"https://www.bigbasket.com/media/uploads/p/l/20003982_3-wagh-bakri-premium-leaf-tea.jpg",
+       tagline: "The Kavya Diamond Silver Goggl...",
+        image:"https://cf-cdn.pcjeweller.com/public/uploads/catalog/product/custom/g/GCH00006-4A__1119932722.jpg",
 
        rating:"4.3",
 
@@ -84,11 +84,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "46.00"
+           cost: "59861"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Fresho Farm Eggs - Regular, Medium, Antibiotic Residue-Free, 6 pcs",
-    image:"https://www.bigbasket.com/media/uploads/p/l/281204_9-fresho-farm-eggs-regular-medium-antibiotic-residue-free.jpg",
+       tagline: "The Ipsita Diamond Mangalsutra",
+    image:"https://cf-cdn.pcjeweller.com/public/uploads/catalog/product/custom/m/MS00117-4__16250578.jpg",
        rating:"4.3",
 
 },
@@ -97,11 +97,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "369.00"
+           cost: "30174"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "BB Popular Almond/Badam - Californian, Giri, 500 g Pouch",
-      image:"https://www.bigbasket.com/media/uploads/p/l/10000549_14-bb-popular-almondbadam-californian-giri.jpg",
+       tagline: "The Zrimat Diamond Ring",
+      image:"https://cf-cdn.pcjeweller.com/public/uploads/catalog/product/custom/g/GR00518-1__7191132.jpg",
        rating:"4.3",
 
 },

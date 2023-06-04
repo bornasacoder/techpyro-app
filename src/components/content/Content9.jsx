@@ -36,19 +36,19 @@ const Content9 = () => {
         >
           <Grid item xs={12} sm={6} md={6} data-aos="zoom-in">
             <Typography variant="h4">
-              Fruits
+              Gold
             </Typography>
             <Typography>
-            Fruits are the edible reproductive structures of flowering plants, typically containing seeds. They are known for their vibrant colors, delicious flavors, and nutritional benefits. Fruits are an essential part of a balanced diet and offer a wide range of vitamins, minerals, antioxidants, and dietary fiber. Here are some general details about fruits
+            Gold is a precious metal that has been valued for its beauty, rarity, and durability for thousands of years. Here are some general details about gold.Gold is a dense, soft, and malleable metal. It has a bright yellow color, which is one of its most distinctive characteristics. Gold is resistant to tarnish, corrosion, and oxidation, making it highly durable
 
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={6} data-aos="zoom-in">
             <Typography variant="h4">
-              FoodGrains
+              Diamond
             </Typography>
             <Typography>
-            Food grains, also known as cereals or staple crops, are agricultural crops that are primarily cultivated for their edible seeds. They form the basis of the human diet in many parts of the world and provide essential nutrients and energy. Here are some common types of food grains
+            Diamonds are precious gemstones known for their exceptional brilliance, clarity, and durability. Here are some general details about diamonds.Diamonds are formed deep within the Earth's mantle under high pressure and temperature conditions. They are composed of carbon atoms arranged in a crystal lattice structure. Diamonds are the hardest naturally occurring substance, scoring a 10 on the Mohs scale of mineral hardness.
 
             </Typography>
           </Grid>
