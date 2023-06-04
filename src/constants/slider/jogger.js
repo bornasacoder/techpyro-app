@@ -4,11 +4,11 @@ export const jogger = [
              price: {
                    mrp: "500",
                    discount: "201",
-                   cost: "599.00"
+                   cost: "275.00"
                },
                category:["Finger Chips","Samosa","Spring Rolls"],
-               tagline: "RENOWNED CELINES Quote Printed Tshirt (Printed T Shirt)",
-               image:"https://m.media-amazon.com/images/I/51A5zw8t14L._SY679_.jpg",   
+               tagline: "Dettol Bathing Soap Bar - Original, 99.99% Germ Protection, Dermatologically Tested, 125G Buy 4 Get 1 Free",
+               image:"https://www.bigbasket.com/media/uploads/p/l/40194529_7-dettol-original-bathing-soap-bar-with-76-tfm-protects-from-germs.jpg",   
                rating:"4.3",
         
    },
@@ -17,11 +17,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "360.00"
+           cost: "491.00"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Buy Blue Tshirts for Men by GESPO Online",
-        image:"https://assets.ajio.com/medias/sys_master/root/20230602/JRvr/64793436d55b7d0c6336ff24/-473Wx593H-461571257-blue-MODEL.jpg",
+       tagline: "Wagh Bakri Premium Leaf Tea - Strong & Refreshing, 1 kg Pouch",
+        image:"https://www.bigbasket.com/media/uploads/p/l/20003982_3-wagh-bakri-premium-leaf-tea.jpg",
 
        rating:"4.3",
 
@@ -31,11 +31,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "919.00"
+           cost: "46.00"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "GAP Brand Print Crew-Neck T-Shirt For Men (White, S)",
-    image:"https://assets.ajio.com/medias/sys_master/root/20230417/f2jW/643ceff8711cf97ba72bc6f0/-473Wx593H-442064334-white-MODEL.jpg",
+       tagline: "Fresho Farm Eggs - Regular, Medium, Antibiotic Residue-Free, 6 pcs",
+    image:"https://www.bigbasket.com/media/uploads/p/l/281204_9-fresho-farm-eggs-regular-medium-antibiotic-residue-free.jpg",
        rating:"4.3",
 
 },
@@ -44,11 +44,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "949.00"
+           cost: "369.00"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Levis White Printed T-shirt For Women",
-      image:"https://tiimg.tistatic.com/fp/1/006/157/levis-t-shirts-102.jpg",
+       tagline: "BB Popular Almond/Badam - Californian, Giri, 500 g Pouch",
+      image:"https://www.bigbasket.com/media/uploads/p/l/10000549_14-bb-popular-almondbadam-californian-giri.jpg",
        rating:"4.3",
 
 },
@@ -57,11 +57,11 @@ export const jogger = [
              price: {
                    mrp: "500",
                    discount: "201",
-                   cost: "1599.00"
+                   cost: "275.00"
                },
                category:["Finger Chips","Samosa","Spring Rolls"],
-               tagline: "Mens Midout New Training Shoe",
-               image:"https://m.media-amazon.com/images/I/71-ub3Kv8KL._AC_UL600_FMwebp_QL65_.jpg",   
+               tagline: "Dettol Bathing Soap Bar - Original, 99.99% Germ Protection, Dermatologically Tested, 125G Buy 4 Get 1 Free",
+               image:"https://www.bigbasket.com/media/uploads/p/l/40194529_7-dettol-original-bathing-soap-bar-with-76-tfm-protects-from-germs.jpg",   
                rating:"4.3",
         
    },
@@ -70,11 +70,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "1634.00"
+           cost: "491.00"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Puma Mens Joy Run Sneaker",
-        image:"https://m.media-amazon.com/images/I/81VBbkJoHbL._AC_UL600_FMwebp_QL65_.jpg",
+       tagline: "Wagh Bakri Premium Leaf Tea - Strong & Refreshing, 1 kg Pouch",
+        image:"https://www.bigbasket.com/media/uploads/p/l/20003982_3-wagh-bakri-premium-leaf-tea.jpg",
 
        rating:"4.3",
 
@@ -84,11 +84,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "5319.00"
+           cost: "46.00"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Nike Mens Quest 5 Running",
-    image:"https://m.media-amazon.com/images/I/41Udu3OhyrL._AC_UL600_FMwebp_QL65_.jpg",
+       tagline: "Fresho Farm Eggs - Regular, Medium, Antibiotic Residue-Free, 6 pcs",
+    image:"https://www.bigbasket.com/media/uploads/p/l/281204_9-fresho-farm-eggs-regular-medium-antibiotic-residue-free.jpg",
        rating:"4.3",
 
 },
@@ -97,13 +97,14 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "8012.00"
+           cost: "369.00"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Nike Mens Zoom Prevail Running Shoe",
-      image:"https://m.media-amazon.com/images/I/61MT5lh63aL._AC_UL600_FMwebp_QL65_.jpg",
+       tagline: "BB Popular Almond/Badam - Californian, Giri, 500 g Pouch",
+      image:"https://www.bigbasket.com/media/uploads/p/l/10000549_14-bb-popular-almondbadam-californian-giri.jpg",
        rating:"4.3",
 
 },
+    
 
 ]

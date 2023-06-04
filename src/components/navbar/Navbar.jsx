@@ -52,7 +52,7 @@ import BreakfastDiningIcon from '@mui/icons-material/BreakfastDining';
 import MainCarousel from "components/carousel/MainCarousel";
 import Content from "components/content/Content";
 import MenuButtons from "./menuButtons/MenuButtons";
-import ElectricBoltIcon from '@mui/icons-material/ElectricBolt';
+import StorefrontIcon from '@mui/icons-material/Storefront';
 
 const StyleToolbar = styled(Toolbar)(({ theme }) => ({
   bgcolor: "#575B5C",
@@ -199,8 +199,8 @@ export default function Navbar() {
 
        <StyleToolbar>
         <NavLeft>
-        {/* <ElectricBoltIcon sx={{fontSize:"60px",color:'blue'}}/> */}
-        <Box sx={{width:50,height:50}}><img style={{width:'100%',height:'100%'}} src="/images/category/logo.png"/></Box>
+        <StorefrontIcon sx={{fontSize:"60px",color:'#60bcba'}}/>
+        {/* <Box sx={{width:50,height:50}}><img style={{width:'100%',height:'100%'}} src="/images/category/logo.png"/></Box> */}
         <NavButton/>
           {/* <MenuButtons >
           <Menu   sx={{color:"black"}}/>

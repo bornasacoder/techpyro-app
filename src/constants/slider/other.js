@@ -10,7 +10,7 @@ export const other = [
            shop:"SHOP NOW",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
-      image:"https://cdn.pixabay.com/photo/2016/12/06/09/31/blank-1886008_640.png",
+      image:"https://www.bigbasket.com/media/uploads/p/l/20004414_4-sesa-ayurvedic-hair-oil-reduces-hairfall-supports-growth.jpg",
            rating:"4.3",
        },
 
@@ -25,7 +25,7 @@ export const other = [
            shop:"SHOP NOW",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
-           image:"https://timesofindia.indiatimes.com/photo/95888215/95888215.jpg?v=3",
+           image:"https://www.bigbasket.com/media/uploads/p/l/202239_11-head-shoulders-anti-dandruff-shampoo-for-hairfall-reduces-breakage.jpg",
            rating:"4.3",
        },
        {
@@ -37,7 +37,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-           image:"https://assets.designhill.com/resize_img.php?atyp=st_page_file&pth=ft_bt_tiwhili_org||BT23074||two_image_with_heading_info_link_image2_img&flp=1641549248-130972946261d80dc0a68d03-39459501.png",
+           image:"https://www.bigbasket.com/media/uploads/p/l/40227888_1-lakme-compact-face-it-matte-finish-powder-for-instant-glow.jpg",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
            rating:"4.3",
@@ -51,7 +51,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-         image: "https://images.unsplash.com/photo-1615397587950-3cbb55f95b77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+         image: "https://www.bigbasket.com/media/uploads/p/l/40137271_8-biotique-facial-kit-gold-radiance.jpg",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
            rating:"4.3",
@@ -67,7 +67,7 @@ export const other = [
            shop:"SHOP NOW",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
-      image:"https://cdn.pixabay.com/photo/2016/12/06/09/31/blank-1886008_640.png",
+      image:"https://www.bigbasket.com/media/uploads/p/l/20004414_4-sesa-ayurvedic-hair-oil-reduces-hairfall-supports-growth.jpg",
            rating:"4.3",
        },
 
@@ -82,7 +82,7 @@ export const other = [
            shop:"SHOP NOW",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
-           image:"https://timesofindia.indiatimes.com/photo/95888215/95888215.jpg?v=3",
+           image:"https://www.bigbasket.com/media/uploads/p/l/202239_11-head-shoulders-anti-dandruff-shampoo-for-hairfall-reduces-breakage.jpg",
            rating:"4.3",
        },
        {
@@ -94,7 +94,7 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-           image:"https://assets.designhill.com/resize_img.php?atyp=st_page_file&pth=ft_bt_tiwhili_org||BT23074||two_image_with_heading_info_link_image2_img&flp=1641549248-130972946261d80dc0a68d03-39459501.png",
+           image:"https://www.bigbasket.com/media/uploads/p/l/40227888_1-lakme-compact-face-it-matte-finish-powder-for-instant-glow.jpg",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
            rating:"4.3",
@@ -108,13 +108,11 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-         image: "https://images.unsplash.com/photo-1615397587950-3cbb55f95b77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+         image: "https://www.bigbasket.com/media/uploads/p/l/40137271_8-biotique-facial-kit-gold-radiance.jpg",
            tagline: "New Year,New Routine",
            tagline1: "Get Fresh and Enjoy!😊.",
            rating:"4.3",
        },
-    
-    
       
 
 ]

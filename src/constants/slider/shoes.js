@@ -4,13 +4,13 @@ export const shoes= [
         price: {
               mrp: "29999",
               discount: "10000",
-              cost: "995.00"
+              cost: "467.00"
           },
           category:["Cakes","California Cakes","Detroit Cakes"],
-          tagline: "New BALANCE Brand Print Crew-Neck T-Shirt For Men (Grey, XS)",
-          tagline1: "New Balance",
+          tagline: "Aashirvaad Atta/Godihittu - Whole Wheat, 10 kg",
+          tagline1: "Aashirvaad",
           new:"New",
-          image: "https://assets.ajio.com/medias/sys_master/root/20210624/WqaM/60d386edaeb269a9e30999e1/-473Wx593H-460862426-blue-MODEL.jpg",
+          image: "https://www.bigbasket.com/media/uploads/p/l/126906_8-aashirvaad-atta-whole-wheat.jpg",
           rating:"4.3",
       },
       {
@@ -18,13 +18,13 @@ export const shoes= [
         price: {
               mrp: "12999",
               discount: "4000",
-              cost: "1199.00"
+              cost: "383.00"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Flying Mechine Brand Jeans For Women",
-          tagline1: "Flying Mechine",
+          tagline: "Surf Excel Detergent - Liquid, Matic, Front Load, 2 L Pouch",
+          tagline1: "Surf Excel",
           new:"New",
-          image: "https://images.pexels.com/photos/2343661/pexels-photo-2343661.jpeg",
+          image: "https://www.bigbasket.com/media/uploads/p/l/40130610_3-surf-excel-detergent-liquid-matic-front-load.jpg",
           rating:"4.3",
       },
       {
@@ -32,13 +32,13 @@ export const shoes= [
         price: {
               mrp: "44990",
               discount: "0",
-              cost: "4631.00"
+              cost: "70.00"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Cardinal Red Small Butta Woven Banarasi Saree",
-          tagline1: "Banarasi",
+          tagline: "Fresho Banganapalli Mango, 1 kg",
+          tagline1: "Fresho",
           new:"New",
-        image: "https://cdn.shopify.com/s/files/1/1760/4649/products/banarasi-saree-cardinal-red-small-butta-woven-banarasi-saree-silk-saree-online-28552047493313.jpg?v=1648496287",
+        image: "https://www.bigbasket.com/media/uploads/p/l/10000298_10-fresho-banganapalli-mango.jpg",
           rating:"4.3",
       },
       {
@@ -46,12 +46,12 @@ export const shoes= [
         price: {
               mrp: "500",
               discount: "201",
-              cost: "999.00"
+              cost: "213.00"
           },
-         image: "https://assets.ajio.com/medias/sys_master/root/20211217/ag9T/61bb99ebaeb2690110108a9f/-473Wx593H-469081270-white-MODEL.jpg",
+         image: "https://www.bigbasket.com/media/uploads/p/l/40186855_7-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti-formula-provides-fresher-breath.jpg",
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Puma Graphic Print Crew-Neck T-shirt For Men (White, M)",
-          tagline1: "Puma",
+          tagline: "Colgate Strong Teeth : India's No.1 Toothpaste | Anticavity Toothpaste With Amino Shakti Formula - 500g, 2x200g + 100g., 500 g",
+          tagline1: "Colgate",
           new:"New",
           rating:"4.3",
       },
@@ -60,13 +60,13 @@ export const shoes= [
         price: {
               mrp: "29999",
               discount: "10000",
-              cost: "995.00"
+              cost: "467.00"
           },
           category:["Cakes","California Cakes","Detroit Cakes"],
-          tagline: "New BALANCE Brand Print Crew-Neck T-Shirt For Men (Grey, XS)",
-          tagline1: "New Balance",
+          tagline: "Aashirvaad Atta/Godihittu - Whole Wheat, 10 kg",
+          tagline1: "Aashirvaad",
           new:"New",
-          image: "https://assets.ajio.com/medias/sys_master/root/20210624/WqaM/60d386edaeb269a9e30999e1/-473Wx593H-460862426-blue-MODEL.jpg",
+          image: "https://www.bigbasket.com/media/uploads/p/l/126906_8-aashirvaad-atta-whole-wheat.jpg",
           rating:"4.3",
       },
       {
@@ -74,13 +74,13 @@ export const shoes= [
         price: {
               mrp: "12999",
               discount: "4000",
-              cost: "1199.00"
+              cost: "383.00"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Flying Mechine Brand Jeans For Women",
-          tagline1: "Flying Mechine",
+          tagline: "Surf Excel Detergent - Liquid, Matic, Front Load, 2 L Pouch",
+          tagline1: "Surf Excel",
           new:"New",
-          image: "https://images.pexels.com/photos/2343661/pexels-photo-2343661.jpeg",
+          image: "https://www.bigbasket.com/media/uploads/p/l/40130610_3-surf-excel-detergent-liquid-matic-front-load.jpg",
           rating:"4.3",
       },
       {
@@ -88,13 +88,13 @@ export const shoes= [
         price: {
               mrp: "44990",
               discount: "0",
-              cost: "4631.00"
+              cost: "70.00"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Cardinal Red Small Butta Woven Banarasi Saree",
-          tagline1: "Banarasi",
+          tagline: "Fresho Banganapalli Mango, 1 kg",
+          tagline1: "Fresho",
           new:"New",
-        image: "https://cdn.shopify.com/s/files/1/1760/4649/products/banarasi-saree-cardinal-red-small-butta-woven-banarasi-saree-silk-saree-online-28552047493313.jpg?v=1648496287",
+        image: "https://www.bigbasket.com/media/uploads/p/l/10000298_10-fresho-banganapalli-mango.jpg",
           rating:"4.3",
       },
       {
@@ -102,15 +102,16 @@ export const shoes= [
         price: {
               mrp: "500",
               discount: "201",
-              cost: "999.00"
+              cost: "213.00"
           },
-         image: "https://assets.ajio.com/medias/sys_master/root/20211217/ag9T/61bb99ebaeb2690110108a9f/-473Wx593H-469081270-white-MODEL.jpg",
+         image: "https://www.bigbasket.com/media/uploads/p/l/40186855_7-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti-formula-provides-fresher-breath.jpg",
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Puma Graphic Print Crew-Neck T-shirt For Men (White, M)",
-          tagline1: "Puma",
+          tagline: "Colgate Strong Teeth : India's No.1 Toothpaste | Anticavity Toothpaste With Amino Shakti Formula - 500g, 2x200g + 100g., 500 g",
+          tagline1: "Colgate",
           new:"New",
           rating:"4.3",
-      }, 
+      },
+    
       
 ]
 
