@@ -173,7 +173,7 @@ export default function MyComponent() {
           <Container>
             ABOUT US
             <Typography className={classes.heading1} variant="h4">
-              We invite you to visit our Cafe
+              We invite you to visit our Coffee Cafe
             </Typography>{" "}
             Assumenda possimus eaque illo iste, autem. Porro eveniet, autem
             ipsam vitae amet repellat repudiandae tenetur, quod corrupti

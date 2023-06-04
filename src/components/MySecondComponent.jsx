@@ -9,7 +9,7 @@ import AOS from 'aos';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    backgroundImage: "url(https://images.pexels.com/photos/131683/pexels-photo-131683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)",
+    backgroundImage: "url(https://images.pexels.com/photos/4098903/pexels-photo-4098903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     zIndex: 1,
@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   },
   flexbox2: {
     backgroundImage:
-      "url(https://images.pexels.com/photos/164005/pexels-photo-164005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)",
+      "url(https://images.pexels.com/photos/4098903/pexels-photo-4098903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
   },
