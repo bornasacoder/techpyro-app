@@ -10,7 +10,7 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
   [theme.breakpoints.down("sm")]: {
     justifyContent: "center",
   },
-  height:'50vh',
+  height:'80vh',
   background: `url(${"/images/category/shopheader.jpg"})
          center/cover no-repeat`,
   [theme.breakpoints.down("md")]: {
@@ -26,11 +26,11 @@ export default function Content4() {
   return (
     <StyleToolbar>
       <Box  sx={{width:{md:"40%",sm:'100%',sx:"100%"}}}>
-        {/* <Typography
+        <Typography
           variant="h1"
           sx={{color:"#fff", fontSize: { md: "58px", sm: "38px", xs: "28px" } }}
         >
-          New Launches
+          Celebrate The
           <br />
           YARD
         </Typography>
@@ -42,7 +42,7 @@ export default function Content4() {
             color: "white",
           }}
         >
-          
+          Get 50% - 90% OFF On Tshirts
         </Typography>
         <br/>
         <Box display="flex">
@@ -62,7 +62,7 @@ export default function Content4() {
           >
             READ MORE
           </Button> 
-        </Box>*/}
+        </Box>
       </Box>
     </StyleToolbar>
   );

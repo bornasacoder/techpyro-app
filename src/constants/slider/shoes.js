@@ -4,13 +4,13 @@ export const shoes= [
         price: {
               mrp: "29999",
               discount: "10000",
-              cost: "9695.00"
+              cost: "995.00"
           },
           category:["Cakes","California Cakes","Detroit Cakes"],
-          tagline: "Nike Air Force 1 '07 FlyEase Men's Shoes",
-          tagline1: "Nike",
+          tagline: "New BALANCE Brand Print Crew-Neck T-Shirt For Men (Grey, XS)",
+          tagline1: "New Balance",
           new:"New",
-          image: "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/13721f24-2774-443e-a27d-998d2c6be068/air-force-1-07-flyease-shoes-LKXPhZ.png",
+          image: "https://assets.ajio.com/medias/sys_master/root/20210624/WqaM/60d386edaeb269a9e30999e1/-473Wx593H-460862426-blue-MODEL.jpg",
           rating:"4.3",
       },
       {
@@ -18,13 +18,13 @@ export const shoes= [
         price: {
               mrp: "12999",
               discount: "4000",
-              cost: "6499.00"
+              cost: "1199.00"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Puma Men Shuffle One8 V3 Better Sneakers At NykaaMan",
-          tagline1: "Puma",
+          tagline: "Flying Mechine Brand Jeans For Women",
+          tagline1: "Flying Mechine",
           new:"New",
-          image: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRBb8VCj7m00gSAWCA83IbvzXFCLO0LwrG3dUi2TsvQgRg1pRdOkbkVKoQjXq_r_nZYI3tRr7Ds_YF3H1a2zDpcRcMjQjAXjO7LUH9pFvR2HsiMsn71IE8yyg",
+          image: "https://images.pexels.com/photos/2343661/pexels-photo-2343661.jpeg",
           rating:"4.3",
       },
       {
@@ -32,13 +32,13 @@ export const shoes= [
         price: {
               mrp: "44990",
               discount: "0",
-              cost: "8995.00"
+              cost: "4631.00"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Mens Jordan Air 1 Low",
-          tagline1: "Nike",
+          tagline: "Cardinal Red Small Butta Woven Banarasi Saree",
+          tagline1: "Banarasi",
           new:"New",
-        image: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQRUlKHATyvG2oCcnS7dUqW8jYNdlayQNVO1aZcFfNPYGvIz60Zb4uOibv8Hno7ZcX1VpDujARpuU9ayySTui676aV_AEVapUaJlRrHgBk4fZy9aTKwE3BicA",
+        image: "https://cdn.shopify.com/s/files/1/1760/4649/products/banarasi-saree-cardinal-red-small-butta-woven-banarasi-saree-silk-saree-online-28552047493313.jpg?v=1648496287",
           rating:"4.3",
       },
       {
@@ -46,12 +46,12 @@ export const shoes= [
         price: {
               mrp: "500",
               discount: "201",
-              cost: "18999.00"
+              cost: "999.00"
           },
-         image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSN1q7RpeApTk2EWzJkyN5-_5QcD5sPmQ4W-KdpB1GlOnOg7arF7CPCpKe2b9cX79Vhpx_38ejx51xsnv1SUjFX3Bx1Q8OC0iKUOnES69GZSFbTFLsdmq-1Ag",
+         image: "https://assets.ajio.com/medias/sys_master/root/20211217/ag9T/61bb99ebaeb2690110108a9f/-473Wx593H-469081270-white-MODEL.jpg",
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "ADIDAS Men Woven Design Ultraboost Light Running Shoes",
-          tagline1: "Adidas",
+          tagline: "Puma Graphic Print Crew-Neck T-shirt For Men (White, M)",
+          tagline1: "Puma",
           new:"New",
           rating:"4.3",
       },
@@ -60,13 +60,13 @@ export const shoes= [
         price: {
               mrp: "29999",
               discount: "10000",
-              cost: "9695.00"
+              cost: "995.00"
           },
           category:["Cakes","California Cakes","Detroit Cakes"],
-          tagline: "Nike Air Force 1 '07 FlyEase Men's Shoes",
-          tagline1: "Nike",
+          tagline: "New BALANCE Brand Print Crew-Neck T-Shirt For Men (Grey, XS)",
+          tagline1: "New Balance",
           new:"New",
-          image: "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/13721f24-2774-443e-a27d-998d2c6be068/air-force-1-07-flyease-shoes-LKXPhZ.png",
+          image: "https://assets.ajio.com/medias/sys_master/root/20210624/WqaM/60d386edaeb269a9e30999e1/-473Wx593H-460862426-blue-MODEL.jpg",
           rating:"4.3",
       },
       {
@@ -74,13 +74,13 @@ export const shoes= [
         price: {
               mrp: "12999",
               discount: "4000",
-              cost: "6499.00"
+              cost: "1199.00"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Puma Men Shuffle One8 V3 Better Sneakers At NykaaMan",
-          tagline1: "Puma",
+          tagline: "Flying Mechine Brand Jeans For Women",
+          tagline1: "Flying Mechine",
           new:"New",
-          image: "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRBb8VCj7m00gSAWCA83IbvzXFCLO0LwrG3dUi2TsvQgRg1pRdOkbkVKoQjXq_r_nZYI3tRr7Ds_YF3H1a2zDpcRcMjQjAXjO7LUH9pFvR2HsiMsn71IE8yyg",
+          image: "https://images.pexels.com/photos/2343661/pexels-photo-2343661.jpeg",
           rating:"4.3",
       },
       {
@@ -88,13 +88,13 @@ export const shoes= [
         price: {
               mrp: "44990",
               discount: "0",
-              cost: "8995.00"
+              cost: "4631.00"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Mens Jordan Air 1 Low",
-          tagline1: "Nike",
+          tagline: "Cardinal Red Small Butta Woven Banarasi Saree",
+          tagline1: "Banarasi",
           new:"New",
-        image: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQRUlKHATyvG2oCcnS7dUqW8jYNdlayQNVO1aZcFfNPYGvIz60Zb4uOibv8Hno7ZcX1VpDujARpuU9ayySTui676aV_AEVapUaJlRrHgBk4fZy9aTKwE3BicA",
+        image: "https://cdn.shopify.com/s/files/1/1760/4649/products/banarasi-saree-cardinal-red-small-butta-woven-banarasi-saree-silk-saree-online-28552047493313.jpg?v=1648496287",
           rating:"4.3",
       },
       {
@@ -102,17 +102,15 @@ export const shoes= [
         price: {
               mrp: "500",
               discount: "201",
-              cost: "18999.00"
+              cost: "999.00"
           },
-         image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSN1q7RpeApTk2EWzJkyN5-_5QcD5sPmQ4W-KdpB1GlOnOg7arF7CPCpKe2b9cX79Vhpx_38ejx51xsnv1SUjFX3Bx1Q8OC0iKUOnES69GZSFbTFLsdmq-1Ag",
+         image: "https://assets.ajio.com/medias/sys_master/root/20211217/ag9T/61bb99ebaeb2690110108a9f/-473Wx593H-469081270-white-MODEL.jpg",
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "ADIDAS Men Woven Design Ultraboost Light Running Shoes",
-          tagline1: "Adidas",
+          tagline: "Puma Graphic Print Crew-Neck T-shirt For Men (White, M)",
+          tagline1: "Puma",
           new:"New",
           rating:"4.3",
-      },
-    
-    
+      }, 
       
 ]
 

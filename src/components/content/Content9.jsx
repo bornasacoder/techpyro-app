@@ -36,22 +36,20 @@ const Content9 = () => {
         >
           <Grid item xs={12} sm={6} md={6} data-aos="zoom-in">
             <Typography variant="h4">
-              Sports Shoes
+              T-shirts
             </Typography>
             <Typography>
-            Sports shoes, also known as athletic shoes or sneakers, are specially designed footwear intended for sports and physical activities. They are designed to provide comfort, support, and protection for the feet during athletic movements. Sports shoes come in various styles and are engineered to cater to different sports and activities.
-
-The construction and features of sports shoes vary depending on the intended purpose. Here are some general details about sports shoes
-
+            T-shirts are a staple item of clothing that is widely worn by people of all ages and genders. They are known for their simple design, comfort, and versatility. T-shirts are typically made of soft and breathable fabric, and they come in various styles, colors, and patterns. Here are some general details about T-shirts.
+            T-shirts have become a wardrobe essential due to their comfort, simplicity, and ability to showcase personal style. Whether worn alone or as part of a layered ensemble, T-shirts offer a versatile and timeless option for everyday wear.
 
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={6} data-aos="zoom-in">
             <Typography variant="h4">
-              Formal Shoes
+              Sarees
             </Typography>
             <Typography>
-            Formal shoes, also known as dress shoes or business shoes, are footwear designed to be worn on formal occasions, professional settings, or business events. They are typically made of high-quality materials and feature a polished and sophisticated appearance. Formal shoes are characterized by their sleek and refined design, intended to complement formal attire. Here are some general details about formal shoes.
+            A saree, also spelled as sari, is a traditional garment worn by women in South Asia, particularly in India, Bangladesh, Sri Lanka, and Nepal. It is a long piece of fabric, usually ranging from 4 to 9 yards in length, that is draped around the body in various styles to create a complete outfit. Sarees are known for their elegance, versatility, and intricate designs. Here are some general details about sarees.
 
             </Typography>
           </Grid>

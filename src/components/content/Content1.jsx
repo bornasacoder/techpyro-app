@@ -101,7 +101,7 @@ export default function Content1() {
                 color:'#fff'
               }}}
               >
-               Puma
+               Tshirt
               </Typography>
             </Item>
           </Grid>
@@ -125,7 +125,7 @@ export default function Content1() {
                 backgroundColor:"#000",
                 color:'#fff'}}}
               >
-               Nike
+               Jeans
               </Typography>
             </Item>
           </Grid>
@@ -149,7 +149,7 @@ export default function Content1() {
                   backgroundColor:"#000",
                   color:'#fff'} }}
               >
-               Adidas
+               Saree
               </Typography>
             </Item>
           </Grid>
