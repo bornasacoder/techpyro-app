@@ -217,7 +217,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography variant="h5">FRUITS</Typography>
+        <Typography variant="h5">SHOPPING</Typography>
         <Badge>{/* <ExpandMoreIcon /> */}</Badge>
         <Box
           sx={{
@@ -268,7 +268,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography variant="h5">FOODGRAINS</Typography>
+        <Typography variant="h5">FOOD</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
@@ -319,7 +319,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography variant="h5">BAKERY</Typography>
+        <Typography variant="h5">ENTERTAINMENT</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
@@ -371,7 +371,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography  variant="h5">BEAUTY</Typography>
+        <Typography  variant="h5">BLOG</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{

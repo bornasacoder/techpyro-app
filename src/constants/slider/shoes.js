@@ -7,10 +7,10 @@ export const shoes= [
               cost: "467.00"
           },
           category:["Cakes","California Cakes","Detroit Cakes"],
-          tagline: "Aashirvaad Atta/Godihittu - Whole Wheat, 10 kg",
-          tagline1: "Aashirvaad",
+          tagline: "AMERICAN EAGLE",
+          tagline1: "American Eagle",
           new:"New",
-          image: "https://www.bigbasket.com/media/uploads/p/l/126906_8-aashirvaad-atta-whole-wheat.jpg",
+          image: "https://cdn.dribbble.com/users/6291341/screenshots/15203003/media/90c96d7733a0e3e194e6e99a41c3b772.jpg?compress=1&resize=400x300&vertical=top",
           rating:"4.3",
       },
       {
@@ -21,10 +21,10 @@ export const shoes= [
               cost: "383.00"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Surf Excel Detergent - Liquid, Matic, Front Load, 2 L Pouch",
-          tagline1: "Surf Excel",
+          tagline: "GAS",
+          tagline1: "Gas",
           new:"New",
-          image: "https://www.bigbasket.com/media/uploads/p/l/40130610_3-surf-excel-detergent-liquid-matic-front-load.jpg",
+          image: "https://assets.vogue.in/photos/5ce47039b8031139b98fc8dd/2:3/w_2560%2Cc_limit/GAS-Ambience-Mall-Gurgaon.jpg",
           rating:"4.3",
       },
       {
@@ -35,10 +35,10 @@ export const shoes= [
               cost: "70.00"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Fresho Banganapalli Mango, 1 kg",
-          tagline1: "Fresho",
+          tagline: "OCTAVE",
+          tagline1: "Octave",
           new:"New",
-        image: "https://www.bigbasket.com/media/uploads/p/l/10000298_10-fresho-banganapalli-mango.jpg",
+        image: "https://imgmedia.lbb.in/media/2019/09/5d8df5004a8cb2564d7847b2_1569584384359.jpg",
           rating:"4.3",
       },
       {
@@ -48,10 +48,10 @@ export const shoes= [
               discount: "201",
               cost: "213.00"
           },
-         image: "https://www.bigbasket.com/media/uploads/p/l/40186855_7-colgate-strong-teeth-anticavity-toothpaste-with-amino-shakti-formula-provides-fresher-breath.jpg",
+         image: "https://rossobrunello.files.wordpress.com/2016/06/6s5a1717.jpg?w=620",
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Colgate Strong Teeth : India's No.1 Toothpaste | Anticavity Toothpaste With Amino Shakti Formula - 500g, 2x200g + 100g., 500 g",
-          tagline1: "Colgate",
+          tagline: "ROSSO BRUNELLO",
+          tagline1: "Rosso Brunello",
           new:"New",
           rating:"4.3",
       },
@@ -114,20 +114,3 @@ export const shoes= [
     
       
 ]
-
-
-
-
-
-
-
-// export const other = [
-//     "https://images.pexels.com/photos/9027521/pexels-photo-9027521.jpeg?auto=compress&cs=tinysrgb&w=600",
-//     "https://images.pexels.com/photos/1103909/pexels-photo-1103909.jpeg?auto=compress&cs=tinysrgb&w=600",
-//     "https://images.pexels.com/photos/4964114/pexels-photo-4964114.jpeg?auto=compress&cs=tinysrgb&w=600",
-//     "https://images.pexels.com/photos/684965/pexels-photo-684965.jpeg?auto=compress&cs=tinysrgb&w=600",
-//     "https://images.pexels.com/photos/8951498/pexels-photo-8951498.jpeg?auto=compress&cs=tinysrgb&w=600",
-//     "https://images.pexels.com/photos/2144112/pexels-photo-2144112.jpeg?auto=compress&cs=tinysrgb&w=600",
-//     "https://images.pexels.com/photos/827516/pexels-photo-827516.jpeg?auto=compress&cs=tinysrgb&w=600",
-    
-// ]

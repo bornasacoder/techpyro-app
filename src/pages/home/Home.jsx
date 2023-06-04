@@ -35,7 +35,7 @@ const Home = () => {
     <Content1/>
   <Block1/>
   <Block2/>
-  <Block3/>
+  {/* <Block3/> */}
   <Content8/>
   <Content9/>
   <Content10/>

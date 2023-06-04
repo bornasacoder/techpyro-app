@@ -136,9 +136,9 @@ const Sliders = (props) => {
     <>
     <SliderContainer>  
     <Typography variant='h1' sx={{margin:"20px 0px 0px 8px",
-  padding:"0px 40px ",letterSpacing:"2px",fontSize:{md:'38px',sm:"38px",xs:"28px"}, fontFamily:"  sans-serif"}}>FEATURING THE BEST</Typography>       
-    <Typography variant='h5'  sx={{margin:"5px 0px 0px 8px",
-  padding:"0px 40px ",}}>Top new drops, sales, collabs and collections available now and coming soon.</Typography> 
+  padding:"0px 40px ",letterSpacing:"2px",fontSize:{md:'38px',sm:"38px",xs:"28px"}, fontFamily:"  sans-serif"}}>BRANDS</Typography>       
+    {/* <Typography variant='h5'  sx={{margin:"5px 0px 0px 8px",
+  padding:"0px 40px ",}}>Top new drops, sales, collabs and collections available now and coming soon.</Typography>  */}
 
        <SliderInnerContainer>
       {/* <SliderHeader /> */}
