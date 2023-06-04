@@ -116,31 +116,31 @@ const MainCarousel = () => {
     <Box sx={{marginTop:{xs:'120px',md:'65px',lg:'50px'}}}>
     <Slider {...settings1}>
       <Item>
-        <Img src='https://img.freepik.com/free-photo/freshly-baked-naan-bread-rustic-wood-bowl-generated-by-ai_188544-11765.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph' />
+        <Img src='https://img.freepik.com/premium-photo/cup-filled-with-coffee-beans-generative-ai_384720-1827.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph' />
         <Head>upto 40% off</Head>
       </Item>
     <Item>
-      <Img src='https://img.freepik.com/free-photo/indian-dhal-spicy-curry-bowl-spices-herbs-rustic-black-wooden-table_2829-18712.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph' />
+      <Img src='https://images.pexels.com/photos/2836945/pexels-photo-2836945.jpeg?auto=compress&cs=tinysrgb&w=600' />
       <Head>upto 40% off</Head>
     </Item>
     <Item>
-      <Img src='https://img.freepik.com/free-photo/gourmet-chicken-biryani-with-steamed-basmati-rice-generated-by-ai_188544-13480.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-vector/realistic-coffee-time-background-with-coffee-cup_79603-1559.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
     <Item>
-      <Img src='https://img.freepik.com/free-photo/traditional-azerbaijan-indian-turkish-sweet-dessert-halvah-with-nuts-top_114579-1310.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais' />
+      <Img src='https://img.freepik.com/free-psd/coffee-shop-banner-template_23-2148870902.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais' />
       <Head>upto 40% off</Head>
     </Item>
     <Item>
-      <Img src='https://img.freepik.com/free-photo/wooden-bowl-with-dried-tasty-dates-white-background-high-quality-photo_114579-75751.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais' />
+      <Img src='https://img.freepik.com/free-photo/coffee-bag-with-coffee-beans-around_1232-1358.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais' />
       <Head>upto 40% off</Head>
      </Item>
     <Item> 
-      <Img src='https://img.freepik.com/free-photo/organic-berry-granola-bowl-with-almond-milk-generated-by-ai_188544-10905.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-vector/hand-drawn-coffee-label-template-design_23-2149824186.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais' />
       <Head>upto 40% off</Head>
     </Item>
      <Item>
-      <Img src='https://img.freepik.com/free-photo/deep-fried-samosas-dumplings-gourmet-appetizer-generated-by-ai_188544-13491.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-photo/package-near-yellow-cup-sugar-bowl_23-2148180248.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais' />
       <Head>upto 40% off</Head>
     </Item>
   </Slider>

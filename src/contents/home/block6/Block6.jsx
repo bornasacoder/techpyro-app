@@ -129,15 +129,13 @@ export default function Block6(props) {
       };
 
       const data = [
+        {img:'https://img.freepik.com/free-photo/cup-hot-mint-tea_144627-34459.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Leamon Tea'},
+        {img:'https://img.freepik.com/free-photo/breakfast-with-coffee-fresh-croissants_2829-17547.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph',name:'Masala Tea'},
+        {img:'https://img.freepik.com/free-photo/high-angle-coffee-cup-with-cinnamon-sticks-copy-space_23-2148808590.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph',name:'Assam Tea'},
+        {img:'https://img.freepik.com/free-vector/iced-coffee-concept-illustration_114360-9714.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Cold Coffee'},
+        {img:'https://img.freepik.com/free-vector/flat-paper-coffee-cup_23-2147741046.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais',name:'Hot Coffee'},
         {img:'https://img.freepik.com/premium-photo/gulab-jamun-bowl-copper-antique-bowl-with-spoon-indian-dessert-sweet-dish_136354-7666.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais',name:'Gulab Jamun'},
-        {img:'https://img.freepik.com/free-photo/close-up-chicken-with-rice-cooked-indian-style_23-2148294965.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph',name:'Pulao'},
-        {img:'https://img.freepik.com/free-photo/high-angle-pakistani-meal-with-meat_23-2148825108.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Chilli Paneer'},
         
-        {img:'https://img.freepik.com/free-photo/fresh-soup-with-spices_144627-34284.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Mushroom'},
-    
-        {img:'https://img.freepik.com/free-photo/vertical-shot-traditional-indian-paneer-butter-masala-cheese-cottage-curry-black-surface_181624-32001.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Paneer'},
-        {img:'https://img.freepik.com/free-photo/vertical-shot-chickpea-curry-chana-masala-with-lime-bowl-white-surf_181624-31989.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Pav Bhaji'},
-       
       ]
   return (
     <>

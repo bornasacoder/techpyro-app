@@ -168,7 +168,7 @@ export default function Navbar() {
             <Menu/>
             </MenuButtons>
           <Typography variant="h1" fontSize="20px">
-           Cafe
+          Tea & Coffee
           </Typography>
           </Box>
            <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
@@ -222,18 +222,18 @@ export default function Navbar() {
     </NavBarTop>
 
     <NavBarBottom>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Paneer</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Soups</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Breads</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Chicken</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Biryani</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Gajar Halwa</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Kheer</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Pulao</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Gulab Jamun</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Pav Bhaji</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Dosa</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Aloo Gobi</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Masala Chai</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Lemon Tea</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Darjeeling Tea</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Green Tea</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Assam Tea</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Hot Coffee</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Cold Coffee</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Filter Coffee</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>South Indian Filter Kaapi</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Cappuccino</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Indian Spiced Coffee</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Instant Coffee</Typography>
 
     </NavBarBottom>
 
