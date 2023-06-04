@@ -144,7 +144,7 @@ export default function Block3(props) {
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <Header sliderH='Foods'/>
+        <Header sliderH='Tea & Cofee'/>
         <Slider {...settings}>
         {data.map((item)=>(
         <Item data={item} />

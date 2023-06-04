@@ -143,7 +143,7 @@ export default function Block9(props) {
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <Header sliderH='Non Veg Foods'/>
+        <Header sliderH='Tea & Cofee'/>
         <Slider {...settings}>
         {data.map((item)=>(
         <Item data={item} />
