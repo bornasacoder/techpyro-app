@@ -1,53 +1,154 @@
-import * as React from 'react';
-import {Card, CardMedia, Typography, Box,useTheme,styled} from '@mui/material';
+import React from 'react'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import { styled } from '@mui/styles';
+import SliderItem from './Item';
+import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
+import SliderHeader from './Header';
+import "./block10.css";
 
-export default function Block10() {
-    const theme = useTheme();
-    const CardBox = styled(Box)(({theme})=>({
-        background:'#F6F7FB',
-    display:'flex',
-    justifyContent:'center',
-    alignItems:'center',
-    fontFamily:' "Fakt Pro" "Helvetica Neue" Arial sans-serif',
-    flexDirection:'column',
-    gap:'40px',
-    margin:'0px 0 10px',
-   padding:'100px 100px 50px',
-    
-    [theme.breakpoints.down('lg')]: {
-        padding:'100px 50px',
-    },
-    [theme.breakpoints.down('md')]: {
-     flexDirection:'column',
-     padding:'50px 20px',
-     gap:'50px'
-    },
-    [theme.breakpoints.down('sm')]: {
-      
-    }
-  }));
+const SliderContainer = styled('div')({
+width:"99%",
+height:"auto",
+margin:"0 2px 10px 2px",
+overflow:"hidden",
+// boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+// "@media (max-width: 1490px)": {
+//  margin:"2% -1.5%"
 
-  const Image = styled(Card)(({img})=>({
-      height:'50px',
-      width:'50px',
-      objectFit:'cover'
-  }));
+// },
+// "@media (max-width: 1200px)": {
+//   width:"95%",
+//   margin:"1% 1rem"
+ 
+//  },
 
-    return (
-     
-        <CardBox >
+})
+const SliderInnerContainer = styled('div')(({ theme }) => ({
+  display: "flex",
+  justifyContent:"space-between",
+  flexDirection:"column",
+  boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+  padding:"0 10px 0 20px",
+  [theme.breakpoints.down('sm')]: {
+    padding:"0 0 0 4px",
+},
+}));
+
+
+const PreviousBtn = (props) =>{
+  const {className,onClick} = props;
   
-          <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'rgba(0,0,0,0.6)',fontSize:{xs:'40px',md:'50px'},fontWeight:{xs:'600'}}}>Hot off Press</Typography>
-             
-         </Box>
-     
-         <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',md:'center'}}}>
+   return (
+         <div className={className}   onClick={onClick}>
+          <ChevronLeftOutlined style={{color:'black',zIndex:'10',fontSize:'2.5rem' }} />
+         </div>  
+   )
+}
+
+const NextBtn = (props) =>{
+   const {className,onClick} = props;
+   return (
+     <div  className={className}  onClick={onClick}>
+       <ChevronRightOutlined style={{color:'black',  zIndex:'10',fontSize:'2.5rem'}} />
+     </div>
+   )
+}
+
+export default function Block10(props) {
+    const settings = {
+        dots: false,
+        arrows:true,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 2.5,
+        slidesToScroll: 4,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        cssEase: "linear",
+        initialSlide:0,
+        prevArrow:<PreviousBtn />,
+        nextArrow:<NextBtn />,
+          responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 2.5,
+                slidesToScroll: 4,
+                speed: 300,
+                arrows:false,
+              },
+            },
+             {
+              breakpoint: 960,
+              settings: {
+                slidesToShow: 2.5,
+                slidesToScroll: 3,
+                speed: 300,
+                arrows:false,
+              },
+            },
+            {
+              breakpoint: 800,
+              settings: {
+                slidesToShow: 2.5,
+                slidesToScroll: 2,
+                speed: 300,
+                arrows:false,
+              },
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1.5,
+                slidesToScroll: 1,
+                speed: 300,
+                arrows:false,
+              },
+            },
+            // {
+            //   breakpoint: 500,
+            //   settings: {
+            //     slidesToShow: 3,
+            //     slidesToScroll: 2,
+            //     speed: 300,
+            //     arrows:false,
+            //   },
+            // },
+            // {
+            //   breakpoint: 365,
+            //   settings: {
+            //     slidesToShow: 3,
+            //     slidesToScroll: 2,
+            //     speed: 300,
+            //     arrows:false,
+            //   },
+            // },
+        ]
+      };
+
+      const data = [
+        {img:'https://images.pexels.com/photos/372959/pexels-photo-372959.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://images.pexels.com/photos/404178/pexels-photo-404178.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://images.pexels.com/photos/2983100/pexels-photo-2983100.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://images.pexels.com/photos/2287810/pexels-photo-2287810.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://images.pexels.com/photos/7192144/pexels-photo-7192144.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
     
-          <Typography sx={{color:'#000',fontSize:{xs:'18px',md:'22px'},fontWeight:'500',opacity:'0.5'}}>Discover to build our buisness on techpyro</Typography>
-         </Box>
-  
-        </CardBox>
-     
-    );
+      ]
+  return (
+    <>
+    <SliderContainer>         
+      <SliderInnerContainer>
+        <SliderHeader sliderH='Veg Pizza'/>
+        <Slider {...settings}>
+        { data.map((item)=>(
+        <SliderItem data={item} />
+        ))}
+        </Slider>
+      </SliderInnerContainer>  
+    </SliderContainer>
+    </>
+  )
 }

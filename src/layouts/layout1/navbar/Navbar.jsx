@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import NavButton from "./navButton/NavButton";
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import Siderbar from '../sideBar/Siderbar';
 // import NavImage from 'images/category/png-10.jpeg'
 import {
@@ -48,12 +50,13 @@ const StyleToolbar = styled(Toolbar)(({ theme }) => ({
   },
 }));
 const MenuButtons = styled(IconButton)(({theme})=>({
-  display:'none',
+ 
   color:theme.colors.alpha.white[100],
-  [theme.breakpoints.down('md')]:{
+/*  [theme.breakpoints.down('md')]:{
     display:'block',
     left:'12px'
   },
+  */
 }));
 // const Cart = styled(Box)`
 //   flex: 1;
@@ -70,45 +73,70 @@ const NavLeft = styled(Box)(({ theme }) => ({
   // border:"2px solid black",
   justifyContent: "flex-start",
   alignItems: "center",
-  marginLeft: "40px",
-  marginTop: "20px",
-  [theme.breakpoints.down("sm")]: {
-    height: "50px",
+  [theme.breakpoints.down("md")]: {
+    alignSelf:'center'
   },
 }));
 const NavRight = styled(Box)(({ theme }) => ({
   display: "flex",
-
+   
   gap: "20px",
   // border:"2px solid black",
   alignItems: "center",
-  marginRight: "40px",
-  marginTop: "20px",
-
+  
   [theme.breakpoints.down("sm")]: {
-    height: "50px",
     gap: "15px",
   },
 }));
 
 
-const NavBar = styled(AppBar)(({ theme }) => ({
+const NavBarTop = styled(Box)(({ theme }) => ({
   // background: theme.header.background,
-  background:"rgba(0,0,0,0.9)",
+  background:"#0066A7",
   color: theme.colors.alpha.black[100],
   // height: "450px",
   display: "flex",
   justifyContent: "space-between",
   flexDirection:"row",
   alignItems:"center",
-
-  // width: "100%",
   color: "#fff",
-  zIndex:2
-  // position: "static",
-  // background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)
-  // ),url(${"/images/category/header.jpg"})
-  //  center/cover no-repeat`,
+  width:'100%',
+  padding:'0px 40px',
+  
+  [theme.breakpoints.down("md")]: {
+   flexDirection:'column',
+   alignItems:'flex-start',
+   padding:'15px 10px',
+   gap:'15px'
+  },
+}));
+
+const NavBarBottom = styled(Box)(({ theme }) => ({
+  // background: theme.header.background,
+  background:"#fff",
+  color: '#000',
+  // height: "450px",
+  display: "flex",
+  justifyContent: "space-between",
+  flexDirection:"row",
+  alignItems:"center",
+  color: "#fff",
+   width:'100%',
+   padding:'10px 40px',
+   [theme.breakpoints.down("md")]: {
+      display:'none'
+   },
+}));
+
+const NavBar = styled(AppBar)(({ theme }) => ({
+  // background: theme.header.background,
+  background:"#fff",
+  color: theme.colors.alpha.black[100],
+  // height: "450px",
+  display: "flex",
+  justifyContent: "space-between",
+  flexDirection:"column",
+  alignItems:"center",
 }));
 
 export default function Navbar() {
@@ -131,14 +159,17 @@ export default function Navbar() {
   // };
   return (
     <NavBar>
+    <NavBarTop>
       {/* <StyleToolbar> */}
         <NavLeft>
          
-          <Box gap={5} sx={{display:"flex", justifyContent:"center", alignItems:"center"}} >
-          <Typography variant="h1" fontSize="26px">
-           Medical
+          <Box  sx={{display:"flex", justifyContent:"center", alignItems:"center",gap:'20px'}} >
+          <MenuButtons sx={{display:{xs:'none',md:'flex'}}} onClick={handleOpen}>
+            <Menu/>
+            </MenuButtons>
+          <Typography variant="h1" fontSize="20px">
+          Bakery
           </Typography>
-          <NavButton/>
           </Box>
            <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
           <Siderbar />
@@ -169,32 +200,43 @@ export default function Navbar() {
         </NavLeft>
        
           <NavRight>
-          
-            <Button
-              variant="contained"
-              sx={{ color: "#AC78F6", bgcolor: "white",
-              padding: "0px 10px",display:{xs:"none",md:"block",sm:"block"} }}
-            >
-              Sign up
-            </Button>
-            <Button
-              variant="contained"
-              sx={{
-                color: "#fff",
-                bgcolor: "transparent",
-                border: "1px solid white",
-               
-                padding: "0px 10px",display:{xs:"none",md:"block",sm:"block"}
-              }}
-            >
-              Log in
-            </Button>
-            <MenuButtons onClick={handleOpen}>
-            <Menu/>
+          <MenuButtons  onClick={handleOpen}>
+            <Menu sx={{display:{xs:'flex',md:'none'}}} />
             </MenuButtons>
-            </NavRight>
+          <Box sx={{display:'flex',gap:'10px',background:'#005899',padding:'10px'}}>
+        <LocationOnIcon />
+        <Typography >Sector 46, Gurugram</Typography>
+        </Box>
+          <Box sx={{display:'flex',alignItems:'center',justifyContent:'center',gap:'10px',display:{xs:'none',md:'flex'}}}>
+            <Box>
+            <AccountCircleIcon sx={{fontSize:'30px'}} />
+            </Box>
+            <Box >
+              <Typography sx={{fontSize:'10px'}}>MY ACCOUNT</Typography>
+              <Typography sx={{fontSize:'8px',opacity:'.8'}}>Login | Signup</Typography>
+            </Box>
+         </Box> 
+           </NavRight>
    
       {/* </StyleToolbar> */}
+    </NavBarTop>
+
+    <NavBarBottom>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Bread</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Pizza</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Burger</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Cold Drink</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Energy Drink</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Pasta</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Noodles</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Chocolates</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Momos</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Patties</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Cakes</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Biscuits and Rusk</Typography>
+
+    </NavBarBottom>
+
     </NavBar>
   );
 }

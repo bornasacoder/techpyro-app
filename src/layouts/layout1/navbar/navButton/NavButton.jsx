@@ -117,9 +117,9 @@ export default function NavButton() {
           sx={{
             display: 'none',
             flexDirection: "column",
-            bgcolor: "rgba(0,0,0,0.8)",
+            bgcolor: "background.paper",
             position: "absolute",
-            color: "#fff",
+            color: "red",
             margin: "250px 0 0 0px",
             zIndex:'1000!important'
           }}
@@ -130,8 +130,7 @@ export default function NavButton() {
               display:"flex",
               flexDirection:"column",
               height: "14px",
-              backgroundColor: "rgba(0,0,0,0.8)",
-              color:"#fff",
+              backgroundColor: "#FFFFFF",
               clipPath: "polygon(50% 0, 46% 100%, 54% 100%)",
               margin: "-13px 0 0 0",
               zIndex:"210"
@@ -140,18 +139,18 @@ export default function NavButton() {
               </Box>
           <List component="nav" aria-label="mailbox folders">
             <ListItem button>
-              <ListItemText primary="Over-the-counter" />
+              <ListItemText primary="Inbox" />
             </ListItem>
             <Divider />
             <ListItem button divider>
-              <ListItemText primary="Home diagnostic" />
+              <ListItemText primary="Drafts" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="Orthopedic" />
+              <ListItemText primary="Trash" />
             </ListItem>
             <Divider light />
             <ListItem button>
-              <ListItemText primary="Vitamins" />
+              <ListItemText primary="Spam" />
             </ListItem>
           </List>
  
@@ -166,7 +165,7 @@ export default function NavButton() {
           sx={{
             display: 'none',
             flexDirection: "column",
-            backgroundColor: "rgba(0,0,0,0.8)",
+            bgcolor: "background.paper",
             position: "absolute",
             color: "red",
             margin: "250px 0 0 0px",
@@ -179,7 +178,7 @@ export default function NavButton() {
               display:"flex",
               flexDirection:"column",
               height: "14px",
-              backgroundColor: "rgba(0,0,0,0.8)",
+              backgroundColor: "#FFFFFF",
               clipPath: "polygon(50% 0, 46% 100%, 54% 100%)",
               margin: "-13px 0 0 0",
               zIndex:"210"
@@ -187,15 +186,19 @@ export default function NavButton() {
             >
               </Box>
           <List component="nav" aria-label="mailbox folders">
-          <ListItem button>
-              <ListItemText primary="Emcure" />
+            <ListItem button>
+              <ListItemText primary="Inbox" />
             </ListItem>
             <Divider />
             <ListItem button divider>
-              <ListItemText primary="Patanjali" />
+              <ListItemText primary="Drafts" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="Himalaya" />
+              <ListItemText primary="Trash" />
+            </ListItem>
+            <Divider light />
+            <ListItem button>
+              <ListItemText primary="Spam" />
             </ListItem>
           </List>
  
@@ -210,7 +213,7 @@ export default function NavButton() {
           sx={{
             display: 'none',
             flexDirection: "column",
-            backgroundColor: "rgba(0,0,0,0.8)",
+            bgcolor: "background.paper",
             position: "absolute",
             color: "red",
             margin: "250px 0 0 0px",
@@ -223,7 +226,7 @@ export default function NavButton() {
               display:"flex",
               flexDirection:"column",
               height: "14px",
-              backgroundColor: "rgba(0,0,0,0.8)",
+              backgroundColor: "#FFFFFF",
               clipPath: "polygon(50% 0, 46% 100%, 54% 100%)",
               margin: "-13px 0 0 0",
               zIndex:"210"
@@ -232,16 +235,19 @@ export default function NavButton() {
               </Box>
           <List component="nav" aria-label="mailbox folders">
             <ListItem button>
-              <ListItemText primary="Help" />
+              <ListItemText primary="Inbox" />
             </ListItem>
             <Divider />
             <ListItem button divider>
-              <ListItemText primary="Docs" />
+              <ListItemText primary="Drafts" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="Support" />
+              <ListItemText primary="Trash" />
             </ListItem>
-           
+            <Divider light />
+            <ListItem button>
+              <ListItemText primary="Spam" />
+            </ListItem>
           </List>
  
               </Box>
@@ -255,7 +261,7 @@ export default function NavButton() {
           sx={{
             display: 'none',
             flexDirection: "column",
-            backgroundColor: "rgba(0,0,0,0.8)",
+            bgcolor: "background.paper",
             position: "absolute",
             color: "red",
             margin: "250px 0 0 0px",
@@ -268,7 +274,7 @@ export default function NavButton() {
               display:"flex",
               flexDirection:"column",
               height: "14px",
-              backgroundColor: "rgba(0,0,0,0.8)",
+              backgroundColor: "#FFFFFF",
               clipPath: "polygon(50% 0, 46% 100%, 54% 100%)",
               margin: "-13px 0 0 0",
               zIndex:"210"
@@ -276,15 +282,19 @@ export default function NavButton() {
             >
               </Box>
           <List component="nav" aria-label="mailbox folders">
-            <ListItem>
-          <ListItemText primary="Emcure" />
+            <ListItem button>
+              <ListItemText primary="Inbox" />
             </ListItem>
             <Divider />
             <ListItem button divider>
-              <ListItemText primary="Patanjali" />
+              <ListItemText primary="Drafts" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="Himalaya" />
+              <ListItemText primary="Trash" />
+            </ListItem>
+            <Divider light />
+            <ListItem button>
+              <ListItemText primary="Spam" />
             </ListItem>
           </List>
  

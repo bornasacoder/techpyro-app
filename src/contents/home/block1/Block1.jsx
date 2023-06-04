@@ -1,140 +1,153 @@
-import {
-    ArrowForwardIosOutlined,
-    LocalFlorist,
-    Send,
-  } from "@mui/icons-material";
-  import { Box, Button, styled, Typography } from "@mui/material";
-  import React from "react";
-  const StyleToolbar = styled(Box)(({ theme }) => ({
-    padding: "80px 60px",
-    background: `url(${"https://img.freepik.com/free-vector/healthcare-background-with-medical-symbols-hexagonal-frame_1017-26363.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph"})
-    center/cover no-repeat fixed`,
-    // position:"relative",
+import React from 'react'
+// import Carousel from "react-material-ui-carousel"
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import {styled} from "@mui/styles"
+import "./block1.css";
+import {Card,Box } from '@mui/material';
+// import { FaChevronRight,FaChevronLeft } from 'react-icons/fa';
+import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+
+const Item = styled(Card)(({theme}) => ({
+  width: '98%!important',
+  height: '400px',
+  boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+  //margin:'35px 0px 20px 0px',
+  margin:'35px 15px 0!important' ,
+  // textAlign:'center',
+  [theme.breakpoints.down('sm')]: {
+    height: '200px!important',
+    margin:'16px 8px!important',
+},
+  [theme.breakpoints.down('md')]: {
+    height: '350px',
+    margin:'24px 12px!important',
+},
+}));
+const Img = styled("img")(({theme}) => ({
+  objectFit: "cover",
+  width:"100%",
+  height: "400px",
+  [theme.breakpoints.down('sm')]: {
+    height: '150px!important',
+  },
+  [theme.breakpoints.down('md')]: {
+    height: '300px',
+  },
   
-    zIndex:"0",
+}));
+const Head = styled("h3")({
+  display:'none',
+  fontSize: "16px",
+  fontWeight:"500",
+  paddingLeft:'15px',
+  paddingTop:'10px',
+  // textAlign:"center",
+  marginBottom:"5px",
+  "@media (max-width: 600px)": {
+     fontSize: "17px!important",
+     display:'block',
+     },
+  "@media (max-width: 980px)": {
+     fontSize: "20px",
+     display:'block',
+    },
+})
+
+const PreviousBtn = (props) =>{
     
-  }));
-  export default function Block1() {
-    return (
-      <StyleToolbar>
-        <Box sx={{ display: "flex", flexDirection: "column",gap:2.5, width:{md:"60%",sm:"100%",xs:"100%"} ,alignItems:{md:"start",sm:"flex-start",xs:"flex-start"}}}>
-            <Typography variant="span" sx={{ fontWeight: 600,marginTop:"50px", fontSize:{md:'54px',sm:"48px",xs:"30px"},color:"#fff",justifyContent:{sm:"center",xs:"center"}}}>
-            Health at your doorstep
-            </Typography>
-            <Typography
-              variant="p"
-              sx={{
-                // padding: "0px 270px",
-                fontFamily: "sans-serif",
-                fontSize: "17px",
-                // textAlign:"center"
-                color:"#fff"
-              }}
-            >
-At our medical store, we're committed to helping you take care of your health. Whether you need over-the-counter medications, prescription refills, or medical supplies, we have everything you need to feel your best.
-</Typography>
-         
-          <Box sx={{ display: "flex",justifyContent:"flex-start",alignItems:"center", gap: 2, position: "relative",flexDirection:{xs:'column',md:"row",sm:"row"},paddingLeft:{xs:"0px"} }}>
-            
-              <Button
-                variant="contained"
-                endIcon={<ArrowForwardIosOutlined />}
-                sx={{
-                  color: "#AC78F6",
-                  bgcolor: "white",
-                  fontSize:{md:"14px",sm:"14px",xs:"10px"},
-                  width:{md:"200px",sm:"180px",xs:"130px"},
-                  
-                }}
-              >
-                Start Now
-              </Button>
-              {/* <ArrowForwardIosOutlined sx={{position:'absolute'}}/> */}
-           
-            
-              <Button
-                variant="contained"
-                endIcon={<Send />}
-                sx={{
-                  color: "#fff",
-                  bgcolor: "transparent",
-                  border: "1px solid white",
-                  fontSize:{md:"14px",sm:"14px",xs:"10px"},
-                  width:{md:"200px",sm:"180px",xs:"130px"}
-                }}
-              >
-                Contact sales
-              </Button>
-          </Box>
-        </Box>
-       
-        {/* <Box
-          sx={{
-            display: "flex",
-            justifyContent: "center",
-            
-            margin: "20px 0px",
-            color: "#C9A46B",
-          }}
-        >
-          <LocalFlorist />
-          <LocalFlorist />
-          <LocalFlorist />
-          <LocalFlorist />
-          <LocalFlorist />
-        </Box> */}
-        <Box
-          sx={{
-            display: "flex",
-            color: "#666666",
-            padding: { sm: "0px 25px", md: "0px 270px", xs: "0px 25px" },
-          }}
-        ></Box>
-        {/* <Box
-          sx={{
-            display: "flex",
-            justifyContent: "center",
-            textAlign: "center",
-            fontFamily: "Sofia",
-            fontSize: "25px",
-            //   padding: "0px 170px",
-            marginTop: "55px",
-            padding: { md: "0px 170px", sm: "0px 30px", xs: "0px 30px" },
-          }}
-        >
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni illum
-          sed ipsum aliquid! Sunt laudantium totam optio rem ad. Quos dolorum
-          facere veritatis commodi sint. In possimus harum nesciunt ipsum
-        </Box> */}
-        {/* <Box sx={{ display: "flex", justifyContent: "center" }}>
-          <Typography
-            variant="h1"
-            sx={{
-              fontFamily: "Dancing Script",
-              fontWeight: 600,
-              fontSize: "3rem",
-              paddingTop: "70px",
-              marginBottom: "-10px",
-            }}
-          >
-            Our Food Items
-          </Typography>
-        </Box>
-        <Box
-          sx={{
-            display: "flex",
-            justifyContent: "center",
-            margin: "30px 0px",
-            color: "#C9A46B",
-          }}
-        >
-          <LocalFlorist />
-          <LocalFlorist />
-          <LocalFlorist />
-          <LocalFlorist />
-          <LocalFlorist />
-        </Box> */}
-      </StyleToolbar>
-    );
-  }
-  
+  const {onClick} = props;
+   return (
+         <div className='carousel1-Slick-prev'  onClick={onClick}>
+          <ChevronLeftIcon className='iconLeft' style={{color:'white',zIndex:'2',fontSize:'2rem'}}/>
+         </div>  
+   )
+}
+
+const NextBtn = (props) =>{
+   const {onClick} = props;
+   return (
+     <div  className='carousel1-Slick-next'  onClick={onClick}>
+       <ChevronRightIcon className='iconRight' style={{color:'white',zIndex:'2',fontSize:'2rem'}} />
+     </div>
+   )
+}
+
+
+const MainCarousel = () => {
+
+  const settings1 = {
+    className: "center",
+    centerMode: true,
+    centerPadding: "60px",
+    dots: false,
+    arrows:true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 500,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    prevArrow:<PreviousBtn />,
+    nextArrow:<NextBtn />,
+    responsive: [
+        {
+          breakpoint: 960,
+          settings: {
+            arrows:false
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            arrows:false,
+            centerPadding: "20px",
+          },
+        },
+    ] 
+    
+  };
+
+  return (
+    // <CarouselCard>
+    <Box sx={{marginTop:{xs:'120px',md:'65px',lg:'50px'}}}>
+    <Slider {...settings1}>
+      <Item>
+        <Img src='https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' />
+        <Head>upto 40% off</Head>
+      </Item>
+    <Item>
+      <Img src='https://api.pizzahut.io/v1/content/en-in/in-1/images/deal/wow-199.b2334aba0b78ee4ccb456584195a97b6.1.jpg' />
+      <Head>upto 40% off</Head>
+    </Item>
+    <Item>
+      <Img src='https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&w=600' />
+      <Head>upto 40% off</Head>
+    </Item>
+    <Item>
+      <Img src='https://images.pexels.com/photos/3915857/pexels-photo-3915857.jpeg?auto=compress&cs=tinysrgb&w=600' />
+      <Head>upto 40% off</Head>
+    </Item>
+    <Item>
+      <Img src='https://images.pexels.com/photos/3762069/pexels-photo-3762069.jpeg?auto=compress&cs=tinysrgb&w=600' />
+      <Head>upto 40% off</Head>
+     </Item>
+    <Item> 
+      <Img src='https://images.pexels.com/photos/3682837/pexels-photo-3682837.jpeg?auto=compress&cs=tinysrgb&w=600' />
+      <Head>upto 40% off</Head>
+    </Item>
+     <Item>
+      <Img src='https://images.pexels.com/photos/6605224/pexels-photo-6605224.jpeg?auto=compress&cs=tinysrgb&w=600' />
+      <Head>upto 40% off</Head>
+    </Item>
+  </Slider>
+  </Box>
+  // </CarouselCard>
+
+  )
+}
+
+export default MainCarousel

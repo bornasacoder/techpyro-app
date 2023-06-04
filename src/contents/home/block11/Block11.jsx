@@ -37,10 +37,10 @@ export default function Block11() {
 
 <Box sx={{  padding:{xs:'20px',lg:'100px 0px 100px 100px'}, background:'#F6F7FB',display:'flex',flex:'1',flexDirection:'column',gap:'20px'}}>
               <Box>
-                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/free-psd/healthcare-banner-square-flyer-with-doctor-theme-social-media-post-template_202595-585.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+                <img style={{height:'300px',width:'100%'}} src="https://images.pexels.com/photos/303317/pexels-photo-303317.jpeg?auto=compress&cs=tinysrgb&w=600" />
               </Box>
               <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>Good Medicine Solutions</Typography>
+             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>5 Predictors got Delivery in 2023</Typography>
              
          </Box>
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',md:'center'}}}>
@@ -51,10 +51,10 @@ export default function Block11() {
 
          <Box sx={{  padding:{xs:'20px',lg:'100px 0px 100px 0px'}, background:'#F6F7FB',display:'flex',flex:'1',flexDirection:'column',gap:'20px'}}>
               <Box>
-                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/free-psd/medical-care-poster-flyer-template-design_23-2148951768.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+                <img style={{height:'300px',width:'100%'}} src="https://images.pexels.com/photos/1816092/pexels-photo-1816092.jpeg?auto=compress&cs=tinysrgb&w=600" />
               </Box>
               <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>Best Medical store</Typography>
+             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>5 Predictors got Delivery in 2023</Typography>
              
          </Box>
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',md:'center'}}}>
@@ -65,10 +65,10 @@ export default function Block11() {
 
          <Box sx={{  padding:{xs:'20px',lg:'100px 100px 100px 20px'}, background:'#F6F7FB',display:'flex',flex:'1',flexDirection:'column',gap:'20px'}}>
               <Box>
-                <img style={{height:'300px',width:'100%'}} src="https://img.freepik.com/free-vector/coronavirus-medical-products-flyer-template-with-photo_23-2148870395.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais" />
+                <img style={{height:'300px',width:'100%'}} src="https://images.pexels.com/photos/1091028/pexels-photo-1091028.jpeg?auto=compress&cs=tinysrgb&w=600" />
               </Box>
               <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>More Discount</Typography>
+             <Typography  sx={{color:'rgba(0,0,0,0.8)',fontSize:{xs:'22px',md:'25px'},fontWeight:{xs:'600'}}}>5 Predictors got Delivery in 2023</Typography>
              
          </Box>
          <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',md:'center'}}}>

@@ -1,54 +1,157 @@
-import * as React from 'react';
-import {Card, CardMedia, Typography, Box,useTheme,styled} from '@mui/material';
+import React from 'react'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import { styled } from '@mui/styles';
+import Item from './Item';
+import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
+import Header from './Header';
+import "./block4.css";
 
-export default function Block4() {
-    const theme = useTheme();
-    const CardBox = styled(Box)(({theme})=>({
-    background:'grey',
-    display:'flex',
-    justifyContent:'space-between',
-    alignItems:'center',
-    fontFamily:' "Fakt Pro" "Helvetica Neue" Arial sans-serif',
-    flexDirection:'row',
-    margin:'0px 0 100px',
-   padding:'100px 50px',
-    
-    [theme.breakpoints.down('lg')]: {
-        padding:'100px 50px',
-    },
-    [theme.breakpoints.down('md')]: {
-     flexDirection:'column',
-     padding:'50px 20px',
-     gap:'50px'
-    },
-    [theme.breakpoints.down('sm')]: {
-       
-    }
-  }));
+const SliderContainer = styled('div')({
+width:"99%",
+height:"auto",
+margin:"0 2px 10px 2px",
+overflow:"hidden",
+// boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+// "@media (max-width: 1490px)": {
+//  margin:"2% -1.5%"
 
-  const Image = styled(Card)(({img})=>({
-      height:'50px',
-      width:'50px',
-      objectFit:'cover'
-  }));
+// },
+// "@media (max-width: 1200px)": {
+//   width:"95%",
+//   margin:"1% 1rem"
+ 
+//  },
 
-    return (
-     
-        <CardBox >
+})
+const SliderInnerContainer = styled('div')(({ theme }) => ({
+  display: "flex",
+  justifyContent:"space-between",
+  flexDirection:"column",
+  boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+  padding:"0 10px 0 20px",
+  [theme.breakpoints.down('sm')]: {
+    padding:"0 0 0 4px",
+},
+}));
+
+
+const PreviousBtn = (props) =>{
+  const {className,onClick} = props;
   
-          <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'0px',justifyContent:'center',alignItems:{xs:'center',sm:'center'}}}>
-             <Typography  sx={{color:'#ffff',fontSize:{xs:'30px'},fontWeight:{xs:'600'}}}>Medical Store</Typography>
-             <Typography sx={{color:'#ffff',fontSize:{xs:'20px',md:'25px'},fontWeight:{xs:'500'}}}>Supermarkets</Typography>
-         </Box>
-     
-         <Box sx={{height:'100%',display:'flex',flex:'3',gap:'30px',flexDirection:'column',justifyContent:'center',alignItems:{xs:'flex-start',sm:'start'}}}>
-          
-          <Typography sx={{color:'#ffff',fontSize:{xs:'20px',md:'22px'}}}> ur medical store is dedicated to providing exceptional service and top-quality products to our customers. We believe that maintaining good health is essential to living a happy, fulfilling life, which is why we offer a comprehensive selection of medical products to help you stay healthy.</Typography>
+   return (
+         <div className={className}   onClick={onClick}>
+          <ChevronLeftOutlined style={{color:'black',zIndex:'10',fontSize:'2.5rem' }} />
+         </div>  
+   )
+}
+
+const NextBtn = (props) =>{
+   const {className,onClick} = props;
+   return (
+     <div  className={className}  onClick={onClick}>
+       <ChevronRightOutlined style={{color:'black',  zIndex:'10',fontSize:'2.5rem'}} />
+     </div>
+   )
+}
+
+export default function Block3(props) {
+
+    const settings = {
+        dots: false,
+        arrows:true,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 4.5,
+        slidesToScroll: 3,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        cssEase: "linear",
+        initialSlide:0,
+        prevArrow:<PreviousBtn />,
+        nextArrow:<NextBtn />,
+          responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 4.5,
+                slidesToScroll: 3,
+                speed: 300,
+                arrows:false,
+              },
+            },
+             {
+              breakpoint: 960,
+              settings: {
+                slidesToShow: 3.5,
+                slidesToScroll: 3,
+                speed: 300,
+                arrows:false,
+              },
+            },
+            {
+              breakpoint: 800,
+              settings: {
+                slidesToShow: 3.5,
+                slidesToScroll: 2,
+                speed: 300,
+                arrows:false,
+              },
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2.5,
+                slidesToScroll: 1,
+                speed: 300,
+                arrows:false,
+              },
+            },
+            // {
+            //   breakpoint: 500,
+            //   settings: {
+            //     slidesToShow: 3,
+            //     slidesToScroll: 2,
+            //     speed: 300,
+            //     arrows:false,
+            //   },
+            // },
+            // {
+            //   breakpoint: 365,
+            //   settings: {
+            //     slidesToShow: 3,
+            //     slidesToScroll: 2,
+            //     speed: 300,
+            //     arrows:false,
+            //   },
+            // },
+        ]
+      };
+
+      const data = [
+        {img:'https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Burger'},
+        {img:'https://images.pexels.com/photos/2983100/pexels-photo-2983100.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Coke'},
+        {img:'https://images.pexels.com/photos/1721934/pexels-photo-1721934.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Cake'},
+        {img:'https://images.pexels.com/photos/3686792/pexels-photo-3686792.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Noodles'},
+        {img:'https://images.pexels.com/photos/116738/pexels-photo-116738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',name:'pasta'},
+        
+        {img:'https://images.pexels.com/photos/14000427/pexels-photo-14000427.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
     
-          <Typography sx={{color:'#ffff',fontSize:{xs:'18px',md:'22px'},color:'#ffff',fontWeight:'500',opacity:'0.7'}}>Discover to build our buisness on techpyro</Typography>
-         </Box>
-  
-        </CardBox>
-     
-    );
+      ]
+
+  return (
+    <>
+    <SliderContainer>         
+      <SliderInnerContainer>
+        <Header sliderH='pizza'/>
+        <Slider {...settings}>
+        {data.map((item)=>(
+        <Item data={item} />
+        ))}
+        </Slider>
+      </SliderInnerContainer>  
+    </SliderContainer>
+    </>
+  )
 }
