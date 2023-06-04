@@ -9,7 +9,7 @@ import AOS from 'aos';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    backgroundImage: "url(https://wallpaperaccess.com/full/1288325.jpg)",
+    backgroundImage: "url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     zIndex: 1,
@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
   },
   flexbox2: {
     backgroundImage:
-      "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5IEAFFBWlXFq6lI1WCKKga32X8Cm8T-Kyww&usqp=CAU)",
+      "url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
   },

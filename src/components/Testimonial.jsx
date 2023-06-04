@@ -215,10 +215,10 @@ Repudiandae dignissimos fugiat sit nam.
                     style={{ height: "15.625vw", width: "28.125vw", margin: " 0.78125vw", "@media (max-width: 500px)": {
                       height: "500px", Width:"500px"
                     }, }}
-                    src={"https://elanta.app/nazar/tastyc-demo/img/blog/1.jpg"}
+                    src={"https://images.pexels.com/photos/7390/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600"}
                   />
                   <Typography style={{ margin: " 0.78125vw  " }} variant="h5">
-                    Supporting food flavors
+                    Supporting Bakery flavours
                   </Typography>
                   <Typography style={{ margin: " 0.78125vw  " }} variant="body1">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
@@ -229,7 +229,7 @@ Repudiandae dignissimos fugiat sit nam.
                       style={{ marginRight: "5%" }}
                       alt="Profile Picture"
                       src={
-                        "https://elanta.app/nazar/tastyc-demo/img/faces/1.jpg"
+                        "https://elanta.app/nazar/tastyc-demo/img/faces/2.jpg"
                       }
                     />
 
@@ -244,10 +244,10 @@ Repudiandae dignissimos fugiat sit nam.
                 <div className={classes.divin}>
                   <img
                     style={{ height: "15.625vw", width: "28.125vw", margin: " 0.78125vw" }}
-                    src={"https://elanta.app/nazar/tastyc-demo/img/blog/2.jpg"}
+                    src={"https://images.pexels.com/photos/1028714/pexels-photo-1028714.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}
                   />
                   <Typography style={{ margin: " 0.78125vw  " }} variant="h5">
-                  Creamy Chicken Alfredo 
+                  Creamy Alfredo 
                   </Typography>
                   <Typography style={{ margin: " 0.78125vw  " }} variant="body1">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
@@ -273,7 +273,7 @@ Repudiandae dignissimos fugiat sit nam.
                 <div className={classes.divin}>
                   <img
                     style={{ height: "15.625vw", width: "28.125vw", margin: " 0.78125vw" }}
-                    src={"https://elanta.app/nazar/tastyc-demo/img/blog/3.jpg"}
+                    src={"https://images.pexels.com/photos/6879442/pexels-photo-6879442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}
                   />
                   <Typography style={{ margin: " 0.78125vw  " }} variant="h5">
                     Supporting food flavors

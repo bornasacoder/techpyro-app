@@ -129,7 +129,7 @@ const useStyles = makeStyles((theme) => ({
   imgContainer: {
     marginleft: "5%",
 
-    backgroundImage: `url(https://images.unsplash.com/photo-1602253057119-44d745d9b860?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzaHxlbnwwfHwwfHw%3D&w=1000&q=80)`,
+    backgroundImage: `url(https://images.pexels.com/photos/1775050/pexels-photo-1775050.jpeg?auto=compress&cs=tinysrgb&w=600)`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     height: "27.34375vw",
@@ -169,7 +169,7 @@ export default function MyComponent() {
           <Container>
             ABOUT US
             <Typography className={classes.heading1} variant="h4">
-              We invite you to visit our restaurant
+              We invite you to visit our Bakery
             </Typography>{" "}
             Assumenda possimus eaque illo iste, autem. Porro eveniet, autem
             ipsam vitae amet repellat repudiandae tenetur, quod corrupti

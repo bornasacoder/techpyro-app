@@ -21,7 +21,7 @@ export default  function Home  ()  {
 
   return (
     <div style={{ maxwidth:'100%',
-    overflowx: 'hidden',  backgroundImage: "url(https://wallpaperaccess.com/full/1288325.jpg)",
+    overflowx: 'hidden',  backgroundImage: "url(https://img.myloview.com/posters/bakery-background-top-view-ingredients-for-cooking-raspberry-and-chocolate-pie-on-dark-background-with-place-for-text-700-215996627.jpg)",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",}}>
        

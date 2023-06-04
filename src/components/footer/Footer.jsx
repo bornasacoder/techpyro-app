@@ -10,7 +10,7 @@ const Ram = styled(Box)(({theme}) => ({
         justifyContent:'center',
         // backgroundColor:theme.colors.alpha.black[100],
         height:'auto',
-        width:'100%',
+        width:'98%',
         gap:'20px',
         // color:theme.colors.alpha.white[100],
         paddingTop:'20px',
@@ -26,7 +26,7 @@ const Lakshman = styled(Box)(({theme}) => ({
   justifyContent:'space-evenly',
   // backgroundColor:theme.colors.alpha.black[100],
   height:'auto',
-  width:'100%',
+  width:'98%',
   // color:theme.colors.alpha.white[100],
   padding:'30px',
   [theme.breakpoints.up('md')]: {
@@ -57,7 +57,7 @@ const Sita = styled(Box)(({theme}) => ({
 const Footer = () => {
   return (
     <Box sx={{backgroundColor:'#DFE2E7',marginTop:'80px'}}>
-       <Box sx={{display:'flex',justifyContent:'space-evenly',height:'80px',border:'1px solid rgba(0,0,0,0.1)',alignItems:'center'}}>
+       <Box sx={{display:'flex',justifyContent:'space-evenly',height:'80px',alignItems:'center'}}>
         <Typography sx={{display:'flex',flexDirection:'row',alignItems:'center',gap:'10px'}}> <MoneyTwoTone sx={{fontSize:'35px',color:'green'}}/>Cash On Delievery</Typography>
         <Typography sx={{display:'flex',flexDirection:'row',alignItems:'center',gap:'10px'}}> <LocalShippingTwoTone sx={{fontSize:'35px'}}/>Free Delievery</Typography>
         <Typography sx={{display:'flex',flexDirection:'row',alignItems:'center',gap:'10px'}}><CurrencyExchangeTwoTone sx={{fontSize:'35px',color:'red'}}/>Easy Exchange</Typography>

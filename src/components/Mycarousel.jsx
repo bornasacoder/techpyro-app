@@ -61,7 +61,7 @@ const  Mycarousel = () => {
  <div  data-aos="fade-right" data-aos-duration="2000" style={{
       width: '100%',
       height: '600px',
-      backgroundImage: 'url(https://elanta.app/nazar/tastyc-demo/img/banners/banner-1.jpg)',
+      backgroundImage: 'url(https://images.pexels.com/photos/6150203/pexels-photo-6150203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)',
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'center',
@@ -101,7 +101,7 @@ const  Mycarousel = () => {
     <div data-aos="fade-left" data-aos-duration="3000" style={{
       width: '100%',
       height: '600px',
-      backgroundImage: 'url(https://elanta.app/nazar/tastyc-demo/img/banners/banner-2.jpg)',
+      backgroundImage: 'url(https://images.pexels.com/photos/1619574/pexels-photo-1619574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)',
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'center',
@@ -135,7 +135,7 @@ const  Mycarousel = () => {
     <div data-aos="fade-left" data-aos-duration="3000" style={{
       width: '100%',
       height: '600px',
-      backgroundImage: 'url(https://elanta.app/nazar/tastyc-demo/img/banners/banner-3.jpg)',
+      backgroundImage: 'url(https://images.pexels.com/photos/1546890/pexels-photo-1546890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)',
       display: 'flex',
       flexDirection: 'row',
       alignItems: 'center',

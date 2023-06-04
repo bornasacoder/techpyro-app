@@ -13,13 +13,12 @@ import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    backgroundImage: 'url(https://wallpaperaccess.com/full/1288325.jpg)',
+    backgroundImage: 'url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
-    width: "100%",
+    width: "98%",
 overflow:"hidden",
 
-    border: "2px solid white"
   },
   cardContainer: {
     backgroundColor : "#00411C",
