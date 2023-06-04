@@ -168,7 +168,7 @@ export default function Navbar() {
             <Menu/>
             </MenuButtons>
           <Typography variant="h1" fontSize="20px">
-           Restaurant
+           Cafe
           </Typography>
           </Box>
            <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
@@ -223,8 +223,8 @@ export default function Navbar() {
 
     <NavBarBottom>
       <Typography sx={{color:'black',fontSize:'12px'}}>Paneer</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Dal</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Chhola</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Soups</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Breads</Typography>
       <Typography sx={{color:'black',fontSize:'12px'}}>Chicken</Typography>
       <Typography sx={{color:'black',fontSize:'12px'}}>Biryani</Typography>
       <Typography sx={{color:'black',fontSize:'12px'}}>Gajar Halwa</Typography>
