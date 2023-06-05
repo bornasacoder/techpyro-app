@@ -54,7 +54,7 @@ export default function Content10() {
                   transform:" scale(1.05)",
             transition:"all",
                 },
-                background: `url(${"https://www.oxfordlearning.com/wp-content/uploads/2016/09/AdobeStock_47186368.jpeg"})
+                background: `url(${"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7A-jGPcN3_OhbK9velV4uJZgtE8I9zNCB8g&usqp=CAU"})
                 center/cover no-repeat`,
               }}/>
             </Item>
@@ -74,7 +74,7 @@ export default function Content10() {
                 "&:hover":{
                   transform:" scale(1.05)",
                 },
-                background: `url(${"https://media.istockphoto.com/id/501543368/photo/smiling-student-boy-writing-to-notebook-at-home.jpg?s=612x612&w=0&k=20&c=BuQDgd5xvgVaA8YpXXD5zxDfO5ukC02Gk0fPVjeXd5Y="})
+                background: `url(${"https://www.uchicagomedicine.org/-/media/images/ucmc/forefront/channel-pages/gastroenterology/college-celiac-disease.jpg?sc_lang=en&h=385&as=1&hash=80BCC18EA40F3281C3ACA0C964E2816B"})
                 center/cover no-repeat`,
               }}
               />
@@ -95,7 +95,7 @@ export default function Content10() {
                 "&:hover":{
                   transform:" scale(1.05)",
                 },
-                background: `url(${"https://img.freepik.com/free-photo/medium-shot-little-kids-studying-bible_23-2149613739.jpg"})
+                background: `url(${"https://www.globalcareercounsellor.com/blog/wp-content/uploads/2021/03/ow-to-Effectively-Guide-Students-on-College-Admissions.jpg"})
                 center/cover no-repeat`,
               }}
               />

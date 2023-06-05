@@ -81,7 +81,7 @@ export default function Content13() {
                   filter: "brightness(80%)",
                 },
 
-                background: `url(${"https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
+                background: `url(${"https://images.pexels.com/photos/4308095/pexels-photo-4308095.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
                 center/cover no-repeat`,
               }}
             >
@@ -180,7 +180,7 @@ export default function Content13() {
                   filter: "brightness(80%)",
                 },
 
-                background: `url(${"https://images.pexels.com/photos/5905480/pexels-photo-5905480.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
+                background: `url(${"https://images.pexels.com/photos/8197543/pexels-photo-8197543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
                 center/cover no-repeat`,
               }}
             >
@@ -279,7 +279,7 @@ export default function Content13() {
                   filter: "brightness(80%)",
                 },
 
-                background: `url(${"https://images.pexels.com/photos/4260325/pexels-photo-4260325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
+                background: `url(${"https://images.pexels.com/photos/7092460/pexels-photo-7092460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
                 center/cover no-repeat`,
               }}
             >
@@ -378,7 +378,7 @@ export default function Content13() {
                   filter: "brightness(80%)",
                 },
 
-                background: `url(${"https://images.pexels.com/photos/5212700/pexels-photo-5212700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
+                background: `url(${"https://images.pexels.com/photos/8419196/pexels-photo-8419196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
                 center/cover no-repeat`,
               }}
             >
@@ -477,7 +477,7 @@ export default function Content13() {
                   filter: "brightness(80%)",
                 },
 
-                background: `url(${"https://images.pexels.com/photos/8617731/pexels-photo-8617731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
+                background: `url(${"https://images.pexels.com/photos/5940841/pexels-photo-5940841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
                 center/cover no-repeat`,
               }}
             >
@@ -576,7 +576,7 @@ export default function Content13() {
                   filter: "brightness(80%)",
                 },
 
-                background: `url(${"https://images.pexels.com/photos/8466775/pexels-photo-8466775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
+                background: `url(${"https://images.pexels.com/photos/5940831/pexels-photo-5940831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
                 center/cover no-repeat`,
               }}
             >
@@ -675,7 +675,7 @@ export default function Content13() {
                   filter: "brightness(80%)",
                 },
 
-                background: `url(${"https://images.pexels.com/photos/8618080/pexels-photo-8618080.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
+                background: `url(${"https://images.pexels.com/photos/6503101/pexels-photo-6503101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
                 center/cover no-repeat`,
               }}
             >
@@ -774,7 +774,7 @@ export default function Content13() {
                   filter: "brightness(80%)",
                 },
 
-                background: `url(${"https://images.pexels.com/photos/4019754/pexels-photo-4019754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
+                background: `url(${"https://images.pexels.com/photos/6981013/pexels-photo-6981013.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
                 center/cover no-repeat`,
               }}
             >

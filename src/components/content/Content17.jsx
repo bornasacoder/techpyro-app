@@ -13,7 +13,7 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
   gap: "50px",
   color: "#fff",
   background: `linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)
-    ),url(${"https://ifs.org.uk/sites/default/files/styles/full_height_banner/public/2022-12/Children%20running%20into%20school.jpg?itok=EdnkvFS4"})
+    ),url(${"https://assets-global.website-files.com/61bc763d72a0c6a0551afca9/61fae2e765cf91320d339691_5f57c8a1af62c26203e95f54_students2.jpeg"})
                 center/cover no-repeat`,
   [theme.breakpoints.down("sm")]: {
     flexDirection: "column",
