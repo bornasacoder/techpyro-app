@@ -54,7 +54,7 @@ export default function Content10() {
                   transform:" scale(1.05)",
             transition:"all",
                 },
-                background: `url(${"https://images.pexels.com/photos/1462630/pexels-photo-1462630.jpeg?auto=compress&cs=tinysrgb&w=600"})
+                background: `url(${"https://images.pexels.com/photos/3194521/pexels-photo-3194521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
                 center/cover no-repeat`,
               }}/>
             </Item>
@@ -63,7 +63,7 @@ export default function Content10() {
               "&:hover":{
                 borderBottom:"2px solid #000"
               }
-            }}>Top Titorial code for Startup</Typography> 
+            }}>Startup culture </Typography> 
           </Grid>
          <Grid item xs={12} sm={6} md={4} sx={{display:"flex",flexDirection:"column",alignItems:"center"}}>
             <Item >
@@ -74,7 +74,7 @@ export default function Content10() {
                 "&:hover":{
                   transform:" scale(1.05)",
                 },
-                background: `url(${"https://images.pexels.com/photos/1595391/pexels-photo-1595391.jpeg?auto=compress&cs=tinysrgb&w=600"})
+                background: `url(${"https://images.pexels.com/photos/8197526/pexels-photo-8197526.jpeg?auto=compress&cs=tinysrgb&w=600"})
                 center/cover no-repeat`,
               }}
               />
@@ -84,7 +84,7 @@ export default function Content10() {
               "&:hover":{
                 borderBottom:"2px solid #000"
               }
-            }}>The Top NodeJs Titorial</Typography>
+            }}>Top Level Faculty</Typography>
           </Grid>
          <Grid item xs={12} sm={6} md={4} sx={{display:"flex",flexDirection:"column",alignItems:"center"}}>
             <Item>
@@ -105,7 +105,7 @@ export default function Content10() {
               "&:hover":{
                 borderBottom:"2px solid #000"
               }
-            }}>Education WordPress Theme</Typography> 
+            }}>Explore your journey of your life</Typography> 
           </Grid>
          
         </Grid>

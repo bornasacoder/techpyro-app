@@ -81,7 +81,7 @@ export default function Content13() {
                   filter: "brightness(80%)",
                 },
 
-                background: `url(${"https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=600"})
+                background: `url(${"https://www.ed.ac.uk/sites/default/files/styles/panel_breakpoints_theme_uoe_tv_1x/public/thumbnails/image/studying-postgraduate-facilities-libraries.jpg?itok=XIBkJfkl"})
                 center/cover no-repeat`,
               }}
             >
@@ -113,7 +113,7 @@ export default function Content13() {
               >
                 <Avatar
                   alt="Remy Sharp"
-                  src="https://secure.gravatar.com/avatar/b08d0d3bc9bf251a412e53566ac82b54?s=500&r=g"
+                  src="https://www.ed.ac.uk/sites/default/files/styles/panel_breakpoints_theme_uoe_tv_1x/public/thumbnails/image/studying-postgraduate-facilities-libraries.jpg?itok=XIBkJfkl"
                 />
               </Box>
             </Item>
@@ -180,7 +180,7 @@ export default function Content13() {
                   filter: "brightness(80%)",
                 },
 
-                background: `url(${"https://images.pexels.com/photos/1595391/pexels-photo-1595391.jpeg?auto=compress&cs=tinysrgb&w=600"})
+                background: `url(${"https://live-uoe-edweb.pantheonsite.io/sites/default/files/styles/panel_breakpoints_theme_uoe_tv_1x/public/thumbnails/image/extraordinary_marque_homepage_graduations.png?itok=oo1jky9F"})
                 center/cover no-repeat`,
               }}
             >
@@ -279,7 +279,7 @@ export default function Content13() {
                   filter: "brightness(80%)",
                 },
 
-                background: `url(${"https://images.pexels.com/photos/3768123/pexels-photo-3768123.jpeg?auto=compress&cs=tinysrgb&w=600"})
+                background: `url(${"https://www.ed.ac.uk/sites/default/files/styles/panel_breakpoints_theme_uoe_tv_1x/public/thumbnails/image/s2030-our-values-3_0.jpg?itok=OkEwqxDU"})
                 center/cover no-repeat`,
               }}
             >

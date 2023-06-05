@@ -13,7 +13,7 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
   gap: "50px",
   color: "#fff",
   background: `linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)
-    ),url(${"https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg?auto=compress&cs=tinysrgb&w=600"})
+    ),url(${"https://www.ul.ie/sites/default/files/styles/banner_wide/public/2022-09/UL%20Conferring%20Celebration%20033_1.jpg?h=20d7ef5c&itok=cuwHlteB"})
                 center/cover no-repeat`,
   [theme.breakpoints.down("sm")]: {
     flexDirection: "column",
@@ -60,7 +60,7 @@ const Content17 = () => {
     <StyleToolbar>
       <Box textAlign="center">
         <Typography variant="h1" sx={{ letterSpacing: "2px" }}>
-          ONLINE COURSES TO LEARN
+        Unlock Your Potential, Illuminate Your Future
         </Typography>
         <Typography
           sx={{
@@ -68,7 +68,7 @@ const Content17 = () => {
             display: "flex",justifyContent:"center"
           }}
         >
-          Own your future learning new skills online
+          Empowering Education, Anywhere, Anytime
         </Typography>
       </Box>
       <Box>

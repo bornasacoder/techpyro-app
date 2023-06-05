@@ -24,6 +24,7 @@ import {
 } from "@mui/material";
 import Footer from "components/footer/Footer";
 import React from "react";
+import { Link } from "react-router-dom";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   // padding:"58px 58px",
   [theme.breakpoints.down("md")]: {},
@@ -68,15 +69,16 @@ export default function Content4() {
           <br />
           <Typography sx={{ display: "flex", gap: "8px", color: "#AAAAAA" }}>
             <Phone sx={{ color: "#FAB519" }} />
-            <Typography>+91 9999093930</Typography>
+            <Typography>+91 7300639790</Typography>
           </Typography>
           <br />
           <Typography sx={{ display: "flex", gap: "8px", color: "#AAAAAA" }}>
             <Mail sx={{ color: "#FAB519" }} />
-            <Typography>domain@mail.com</Typography>
+            <Typography>contact@techpyro.com</Typography>
           </Typography>
           <br />
           <Box display="flex" gap={1}>
+           <a href="https://www.facebook.com/profile.php?id=100089947674592" target="_blank"  style={{textDecoration:"none"}} >
             <FacebookTwoTone
               sx={{
                 color: "#000",
@@ -84,15 +86,20 @@ export default function Content4() {
                   color: "#FAB519",
                 },
               }}
-            />
+              />
+              </a>
+              <a href="https://twitter.com/techpyrofficial" target="_blank" style={{textDecoration:"none"}} >
             <Twitter
-              sx={{
-                color: "#000",
-                "&:hover": {
-                  color: "#FAB519",
-                },
-              }}
-            />
+
+sx={{
+  color: "#000",
+  "&:hover": {
+    color: "#FAB519",
+  },
+}}
+/>
+</a>
+<Link  style={{textDecoration:"none"}} >
             <Pinterest
               sx={{
                 color: "#000",
@@ -100,7 +107,9 @@ export default function Content4() {
                   color: "#FAB519",
                 },
               }}
-            />
+              />
+              </Link>
+              <a href="https://www.instagram.com/techpyroofficial/" target="_blank" style={{textDecoration:"none"}} >
             <Instagram
               sx={{
                 color: "#000",
@@ -108,7 +117,8 @@ export default function Content4() {
                   color: "#FAB519",
                 },
               }}
-            />
+              />
+              </a>
           </Box>
         </Box>
         <br/>
@@ -117,7 +127,7 @@ export default function Content4() {
             variant="h4"
             sx={{ color: "#fff", fontfamily: " trirong" }}
           >
-            Company
+            company
           </Typography>
           <br />
           <br />

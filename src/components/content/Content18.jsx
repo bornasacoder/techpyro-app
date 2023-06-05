@@ -84,7 +84,7 @@ export default function Content18() {
                   filter: "brightness(80%)",
                 },
 
-                background: `url(${"https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=600"})
+                background: `url(${"https://images.pexels.com/photos/7944052/pexels-photo-7944052.jpeg?cs=srgb&dl=pexels-pavel-danilyuk-7944052.jpg&fm=jpg"})
                 center/cover no-repeat`,
               }}
             >
