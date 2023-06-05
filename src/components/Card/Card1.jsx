@@ -7,7 +7,7 @@ import { useEffect } from 'react';
 import { getProducts } from 'redux/apiCalls';
 import Skeleton from '@mui/material/Skeleton';
 import InfiniteScroll from 'react-infinite-scroll-component';
-import CardSkeleton from 'components/Skeletons/CardSkeleton';
+import CardSkeleton from '../../components/Skeletons/CardSkeleton'
 
 const CardBox = styled(Card)(({theme})=>({
     display:'flex',

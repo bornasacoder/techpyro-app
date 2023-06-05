@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
-import SearchBar from 'components/navbar/searchbar/SearchBar'
-import NavButton from 'components/navButton/NavButton'
+import SearchBar from '../../components/navbar/searchbar/SearchBar'
+import NavButton from '../../components/navButton/NavButton'
 import {
     AppBar,
     Box,

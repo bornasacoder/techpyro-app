@@ -2,12 +2,12 @@ import React from 'react'
 import { Box, styled, Typography } from '@mui/material'
 import SwiggySlider from '../../components/allcarousel/carousel/carousel2/SwiggySlider'
 import { mainCarousel } from '../../constants/carousel/carousel1'
-import Navbar from "components/navbar/Navbar";
+import Navbar from "../../components/navbar/Navbar";
 
-import Footer from 'components/footer/Footer';
+import Footer from '../../components/footer/Footer';
 
 import Card1 from '../../components/Card/Card1';
-// import Card2 from 'components/Card/Card2';
+// import Card2 from '../../components/Card/Card2';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { getProducts } from 'redux/apiCalls';
