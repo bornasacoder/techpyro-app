@@ -136,7 +136,7 @@ const Sliders = (props) => {
     <>
     <SliderContainer>  
     <Typography variant='h1' sx={{margin:"20px 0px 0px 8px",
-  padding:"0px 40px ",letterSpacing:"2px",fontSize:{md:'38px',sm:"38px",xs:"28px"}, fontFamily:"  sans-serif"}}>Best Offer</Typography>       
+  padding:"0px 40px ",letterSpacing:"2px",fontSize:{md:'38px',sm:"38px",xs:"28px"}, fontFamily:"  sans-serif"}}>Makeup under 500</Typography>       
        <SliderInnerContainer>
       {/* <SliderHeader /> */}
     <Slider {...settings}>

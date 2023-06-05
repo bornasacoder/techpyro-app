@@ -11,7 +11,7 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
     justifyContent: "center",
   },
   height:'70vh',
-  background: `url(${"/images/category/shopheader.jpg"})
+  background: `url(${"/images/category/shopheader.gif"})
          center/cover no-repeat`,
   [theme.breakpoints.down("md")]: {
         height:'auto'
@@ -26,7 +26,7 @@ export default function Content4() {
   return (
     <StyleToolbar>
       <Box  sx={{width:{md:"40%",sm:'100%',sx:"100%"}}}>
-        <Typography
+        {/* <Typography
           variant="h1"
           sx={{color:"#fff", fontSize: { md: "58px", sm: "38px", xs: "28px" } }}
         >
@@ -62,7 +62,7 @@ export default function Content4() {
           >
             READ MORE
           </Button> 
-        </Box>
+        </Box> */}
       </Box>
     </StyleToolbar>
   );

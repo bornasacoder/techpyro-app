@@ -4,11 +4,11 @@ export const jogger = [
              price: {
                    mrp: "500",
                    discount: "201",
-                   cost: "12849"
+                   cost: "164"
                },
                category:["Finger Chips","Samosa","Spring Rolls"],
-               tagline: "Madonna Lounge Chair In White Leatherette",
-               image:"https://www.ulcdn.net/images/products/434792/product/Madonna_Swivel_Lounge_Chair_White_LP.jpg?1637584352",   
+               tagline: "Lakeme Makeup Primer",
+               image:"https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,dpr-2/static/img/product/212136/lakme-absolute-blur-perfect-makeup-primer-10-g_1_display_1602322486_88491a0d.jpg",   
                rating:"4.3",
         
    },
@@ -17,11 +17,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "9449"
+           cost: "357"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Draper Leatherette Bar Stool In Finish",
-        image:"https://www.ulcdn.net/images/products/470007/product/Draper_Bar_Chair_white_LP.jpg?1641791375",
+       tagline: "Purpulle Blushing in Berry",
+        image:"https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,oi-@@mediafiles@mailers@banners@1659451450_new-tag.png,ow-115,ofo-top_right,dpr-2/static/img/product/270340/purplle-blushing-in-berry-matte-blush-palette-10-5-gm_8_display_1662362057_74213ad9.jpg",
 
        rating:"4.3",
 
@@ -31,11 +31,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "59861"
+           cost: "191"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Athens Solid Wood Queen Size Box Storage Bed In Dark Walnut Finish",
-    image:"https://www.ulcdn.net/images/products/557813/product/Athens_Storage_Bed_Dark_Walnut_Queen_LP.jpg?1653539391",
+       tagline: "Purpelle Kajal - Black",
+    image:"https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,oi-purplle_exclusive_base_1__1__BytKq6D4b.png,ofo-top_right,dpr-2/static/img/product/180172/purplle-kajal-winking-together-black-0-25-g_10_display_1666086140_04ba0f84.jpg",
        rating:"4.3",
 
 },
@@ -44,11 +44,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "30174"
+           cost: "202"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Bornholm Engineered Wood King Size Drawer Storage Upholstered Bed In Finish",
-      image:"https://www.ulcdn.net/images/products/428212/product/Borholm_upholstered_stor_bed_beige_king_LP.jpg?1637242390",
+       tagline: "Maybelline Compact Powder",
+      image:"https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,dpr-2/static/img/product/337925/maybelline-new-york-fit-me-12hr-oil-control-compact-shade-220-8-g_1_display_1612766020_ad6f0df3.jpg",
        rating:"4.3",
 
 },
@@ -57,11 +57,11 @@ export const jogger = [
              price: {
                    mrp: "500",
                    discount: "201",
-                   cost: "12849"
+                   cost: "164"
                },
                category:["Finger Chips","Samosa","Spring Rolls"],
-               tagline: "Madonna Lounge Chair In White Leatherette",
-               image:"https://www.ulcdn.net/images/products/434792/product/Madonna_Swivel_Lounge_Chair_White_LP.jpg?1637584352",   
+               tagline: "Lakeme Makeup Primer",
+               image:"https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,dpr-2/static/img/product/212136/lakme-absolute-blur-perfect-makeup-primer-10-g_1_display_1602322486_88491a0d.jpg",   
                rating:"4.3",
         
    },
@@ -70,11 +70,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "9449"
+           cost: "357"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Draper Leatherette Bar Stool In Finish",
-        image:"https://www.ulcdn.net/images/products/470007/product/Draper_Bar_Chair_white_LP.jpg?1641791375",
+       tagline: "Purpulle Blushing in Berry",
+        image:"https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,oi-@@mediafiles@mailers@banners@1659451450_new-tag.png,ow-115,ofo-top_right,dpr-2/static/img/product/270340/purplle-blushing-in-berry-matte-blush-palette-10-5-gm_8_display_1662362057_74213ad9.jpg",
 
        rating:"4.3",
 
@@ -84,11 +84,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "59861"
+           cost: "191"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Athens Solid Wood Queen Size Box Storage Bed In Dark Walnut Finish",
-    image:"https://www.ulcdn.net/images/products/557813/product/Athens_Storage_Bed_Dark_Walnut_Queen_LP.jpg?1653539391",
+       tagline: "Purpelle Kajal - Black",
+    image:"https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,oi-purplle_exclusive_base_1__1__BytKq6D4b.png,ofo-top_right,dpr-2/static/img/product/180172/purplle-kajal-winking-together-black-0-25-g_10_display_1666086140_04ba0f84.jpg",
        rating:"4.3",
 
 },
@@ -97,11 +97,11 @@ export const jogger = [
      price: {
            mrp: "500",
            discount: "201",
-           cost: "30174"
+           cost: "202"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Bornholm Engineered Wood King Size Drawer Storage Upholstered Bed In Finish",
-      image:"https://www.ulcdn.net/images/products/428212/product/Borholm_upholstered_stor_bed_beige_king_LP.jpg?1637242390",
+       tagline: "Maybelline Compact Powder",
+      image:"https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,dpr-2/static/img/product/337925/maybelline-new-york-fit-me-12hr-oil-control-compact-shade-220-8-g_1_display_1612766020_ad6f0df3.jpg",
        rating:"4.3",
 
 },

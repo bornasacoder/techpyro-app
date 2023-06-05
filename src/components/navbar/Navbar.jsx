@@ -200,7 +200,7 @@ export default function Navbar() {
        <StyleToolbar>
         <NavLeft>
         {/* <StorefrontIcon sx={{fontSize:"60px",color:'#60bcba'}}/> */}
-        <Box sx={{width:50,height:50}}><img style={{width:'100%',height:'100%'}} src="/images/category/logo.jpg"/></Box>
+        <Box sx={{width:80,height:80}}><img style={{width:'100%',height:'100%'}} src="/images/category/logo.jpg"/></Box>
         <NavButton/>
           {/* <MenuButtons >
           <Menu   sx={{color:"black"}}/>

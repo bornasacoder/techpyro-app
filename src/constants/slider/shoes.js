@@ -4,13 +4,13 @@ export const shoes= [
         price: {
               mrp: "29999",
               discount: "10000",
-              cost: "12691"
+              cost: "519"
           },
           category:["Cakes","California Cakes","Detroit Cakes"],
-          tagline: "Charlie Rectangular Solid Wood Coffee Table In Semi Gloss Finish",
-          tagline1: "Table",
+          tagline: "Maybelline New York Lash Sensational Sky High..",
+          tagline1: "Eye Makeup",
           new:"New",
-          image: "https://www.ulcdn.net/images/products/372637/product/Charlie_Coffee_Table_Natural_Color_Semi_Gloss_Finish_LP.jpg?1628856721",
+          image: "https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,oi-AD_35x235_small_kJWM53nMn1.png,ow-60,ofo-top_right,dpr-2/static/img/product/307565/maybelline-new-york-lash-sensational-sky-high-waterproof-mascara-lengthening-and-volumizing-mascara-with-bamboo-exract-and-fibres-very-black-6-ml_1_display_1678336663_76640fad.jpg",
           rating:"4.3",
       },
       {
@@ -18,13 +18,13 @@ export const shoes= [
         price: {
               mrp: "12999",
               discount: "4000",
-              cost: "26646"
+              cost: "149"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Minnelli 3 Seater Fabric Loveseat In Retro Patchwork Colour",
-          tagline1: "Sofas",
+          tagline: "Lotus Herbal Teatreewash Facewash",
+          tagline1: "FaceWash",
           new:"New",
-          image: "https://www.ulcdn.net/images/products/613355/product/Minnelli_3_Seater_Loveseat_Colour_Retro_Patchwork_LP.jpg?1657514921",
+          image: "https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,oi-AD_35x235_small_kJWM53nMn1.png,ow-60,ofo-top_right,dpr-2/static/img/product/347858/lotus-herbals-teatreewash-tea-tree-absolute-oil-control-face-wash-80-g_1_display_1674808529_f80861fa.jpg",
           rating:"4.3",
       },
       {
@@ -32,13 +32,13 @@ export const shoes= [
         price: {
               mrp: "44990",
               discount: "0",
-              cost: "5798"
+              cost: "619"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Soncy Shoe Rack In Walnut Finish",
-          tagline1: "Rack",
+          tagline: "Pond's Glow Day Cream",
+          tagline1: "Cream",
           new:"New",
-        image: "https://www.ulcdn.net/images/products/723649/product/FVSGSR33WA67702_LP.jpg?1675427017",
+        image: "https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,oi-AD_35x235_small_kJWM53nMn1.png,ow-60,ofo-top_right,dpr-2/static/img/product/312290/pond-s-age-miracle-wrinkle-corrector-day-cream-50g-16-69-11_17_display_1677562654_a4eea007.jpg",
           rating:"4.3",
       },
       {
@@ -46,12 +46,12 @@ export const shoes= [
         price: {
               mrp: "500",
               discount: "201",
-              cost: "3587"
+              cost: "148"
           },
-         image: "https://www.ulcdn.net/images/products/568947/product/FVSTCH61SB21282_LP.jpg?1654259726",
+         image: "https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,oi-AD_35x235_small_kJWM53nMn1.png,ow-60,ofo-top_right,dpr-2/static/img/product/259395/alps-goodness-coconut-argan-oil-and-hyaluronic-acid-hydrating-and-moisturizing-conditioner-for-dry-hair-200-ml_15_display_1667380679_c0a62b5e.jpg",
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Seoul Metal Study Chair In Black Colour",
-          tagline1: "Chair",
+          tagline: "Alpas Coconut Oil",
+          tagline1: "Oil",
           new:"New",
           rating:"4.3",
       },
@@ -60,13 +60,13 @@ export const shoes= [
         price: {
               mrp: "29999",
               discount: "10000",
-              cost: "12691"
+              cost: "519"
           },
           category:["Cakes","California Cakes","Detroit Cakes"],
-          tagline: "Charlie Rectangular Solid Wood Coffee Table In Semi Gloss Finish",
-          tagline1: "Table",
+          tagline: "Maybelline New York Lash Sensational Sky High..",
+          tagline1: "Eye Makeup",
           new:"New",
-          image: "https://www.ulcdn.net/images/products/372637/product/Charlie_Coffee_Table_Natural_Color_Semi_Gloss_Finish_LP.jpg?1628856721",
+          image: "https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,oi-AD_35x235_small_kJWM53nMn1.png,ow-60,ofo-top_right,dpr-2/static/img/product/307565/maybelline-new-york-lash-sensational-sky-high-waterproof-mascara-lengthening-and-volumizing-mascara-with-bamboo-exract-and-fibres-very-black-6-ml_1_display_1678336663_76640fad.jpg",
           rating:"4.3",
       },
       {
@@ -74,13 +74,13 @@ export const shoes= [
         price: {
               mrp: "12999",
               discount: "4000",
-              cost: "26646"
+              cost: "149"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Minnelli 3 Seater Fabric Loveseat In Retro Patchwork Colour",
-          tagline1: "Sofas",
+          tagline: "Lotus Herbal Teatreewash Facewash",
+          tagline1: "FaceWash",
           new:"New",
-          image: "https://www.ulcdn.net/images/products/613355/product/Minnelli_3_Seater_Loveseat_Colour_Retro_Patchwork_LP.jpg?1657514921",
+          image: "https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,oi-AD_35x235_small_kJWM53nMn1.png,ow-60,ofo-top_right,dpr-2/static/img/product/347858/lotus-herbals-teatreewash-tea-tree-absolute-oil-control-face-wash-80-g_1_display_1674808529_f80861fa.jpg",
           rating:"4.3",
       },
       {
@@ -88,13 +88,13 @@ export const shoes= [
         price: {
               mrp: "44990",
               discount: "0",
-              cost: "5798"
+              cost: "619"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Soncy Shoe Rack In Walnut Finish",
-          tagline1: "Rack",
+          tagline: "Pond's Glow Day Cream",
+          tagline1: "Cream",
           new:"New",
-        image: "https://www.ulcdn.net/images/products/723649/product/FVSGSR33WA67702_LP.jpg?1675427017",
+        image: "https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,oi-AD_35x235_small_kJWM53nMn1.png,ow-60,ofo-top_right,dpr-2/static/img/product/312290/pond-s-age-miracle-wrinkle-corrector-day-cream-50g-16-69-11_17_display_1677562654_a4eea007.jpg",
           rating:"4.3",
       },
       {
@@ -102,12 +102,12 @@ export const shoes= [
         price: {
               mrp: "500",
               discount: "201",
-              cost: "3584"
+              cost: "148"
           },
-         image: "https://www.ulcdn.net/images/products/568947/product/FVSTCH61SB21282_LP.jpg?1654259726",
+         image: "https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,oi-AD_35x235_small_kJWM53nMn1.png,ow-60,ofo-top_right,dpr-2/static/img/product/259395/alps-goodness-coconut-argan-oil-and-hyaluronic-acid-hydrating-and-moisturizing-conditioner-for-dry-hair-200-ml_15_display_1667380679_c0a62b5e.jpg",
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Seoul Metal Study Chair In Black Colour",
-          tagline1: "Chair",
+          tagline: "Alpas Coconut Oil",
+          tagline1: "Oil",
           new:"New",
           rating:"4.3",
       },

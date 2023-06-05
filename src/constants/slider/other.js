@@ -4,14 +4,14 @@ export const other = [
          price: {
                mrp: "199",
                discount: "100",
-               cost: "99"
+               cost: "374"
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-           tagline: "Farina Half Leather Sectional Sofa",
+           tagline: "ColorBar cosmetic primer",
         //    tagline1: "Get Fresh and Enjoy!😊.",
-           tagline1: "Sofa",
-      image:"https://www.ulcdn.net/images/products/313542/product/FNSF52FACA3L_-_category.png?1611552736",
+           tagline1: "Primer",
+      image:"https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,dpr-2/static/img/product/206610/colorbar-cosmetics-flawless-finish-primer-30ml-ffp001_2_display_1599304855_7a10b52e.jpg",
            rating:"4.3",
        },
 
@@ -20,13 +20,13 @@ export const other = [
          price: {
                mrp: "199",
                discount: "100",
-               cost: "99"
+               cost: "199"
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-           tagline: "Helena 2 Seater Fabric Loveseat In Natural Colour",
-           tagline1: "Sofa",
-           image:"https://www.ulcdn.net/images/products/420810/product/Helena_Loveseat-2_Seater_Sofa_NA_LP.jpg?1638103355",
+           tagline: "Swiss Beauty Eyelinear",
+           tagline1: "Eyelinear",
+           image:"https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,dpr-2/static/img/product/285015/swiss-beauty-eyebrow-and-gel-eyeliner-2-in-1-01-3-g-4-gm_1_display_1610893820_88735530.jpg",
            rating:"4.3",
        },
        {
@@ -38,9 +38,9 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-           image:"https://www.ulcdn.net/images/products/792314/product/FNSF51DEGY3A_-_category.jpg?1681454464",
-           tagline: "Cedar Fabric Sofa",
-           tagline1: "Sofa",
+           image:"https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,dpr-2/static/img/product/269646/1-percentage-salicylic-acid-gel-face-wash-with-salicylic-acid-and-witch-hazel-for-active-acne-100-ml_2_display_1660631715_6d2975a8.jpg",
+           tagline: "The Derma Gel FaceWash",
+           tagline1: "FaceWash",
            rating:"4.3",
        },
        {
@@ -48,13 +48,13 @@ export const other = [
          price: {
                mrp: "199",
                discount: "100",
-               cost: "99"
+               cost: "749"
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-         image: "https://www.ulcdn.net/images/products/770946/product/FNSF51NKRDA_-_category.jpg?1679553458",
-           tagline: "Niki Velvet Fabric Sofa",
-           tagline1: "Sofa",
+         image: "https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,oi-AD_35x235_small_kJWM53nMn1.png,ow-60,ofo-top_right,dpr-2/static/img/product/294329/dove-intense-repair-shampoo-1-ltr_1_display_1563250763_a2f26bf0.jpg",
+           tagline: "Dove RepairHair Shampoo (1L)",
+           tagline1: "Shampoo",
            rating:"4.3",
        },
     {
@@ -62,14 +62,14 @@ export const other = [
          price: {
                mrp: "199",
                discount: "100",
-               cost: "99"
+               cost: "374"
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-           tagline: "Farina Half Leather Sectional Sofa",
+           tagline: "ColorBar cosmetic primer",
         //    tagline1: "Get Fresh and Enjoy!😊.",
-           tagline1: "Sofa",
-      image:"https://www.ulcdn.net/images/products/313542/product/FNSF52FACA3L_-_category.png?1611552736",
+           tagline1: "Primer",
+      image:"https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,dpr-2/static/img/product/206610/colorbar-cosmetics-flawless-finish-primer-30ml-ffp001_2_display_1599304855_7a10b52e.jpg",
            rating:"4.3",
        },
 
@@ -78,13 +78,13 @@ export const other = [
          price: {
                mrp: "199",
                discount: "100",
-               cost: "99"
+               cost: "199"
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-           tagline: "Helena 2 Seater Fabric Loveseat In Natural Colour",
-           tagline1: "Sofa",
-           image:"https://www.ulcdn.net/images/products/420810/product/Helena_Loveseat-2_Seater_Sofa_NA_LP.jpg?1638103355",
+           tagline: "Swiss Beauty Eyelinear",
+           tagline1: "Eyelinear",
+           image:"https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,dpr-2/static/img/product/285015/swiss-beauty-eyebrow-and-gel-eyeliner-2-in-1-01-3-g-4-gm_1_display_1610893820_88735530.jpg",
            rating:"4.3",
        },
        {
@@ -96,9 +96,9 @@ export const other = [
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-           image:"https://www.ulcdn.net/images/products/792314/product/FNSF51DEGY3A_-_category.jpg?1681454464",
-           tagline: "Cedar Fabric Sofa",
-           tagline1: "Sofa",
+           image:"https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,dpr-2/static/img/product/269646/1-percentage-salicylic-acid-gel-face-wash-with-salicylic-acid-and-witch-hazel-for-active-acne-100-ml_2_display_1660631715_6d2975a8.jpg",
+           tagline: "The Derma Gel FaceWash",
+           tagline1: "FaceWash",
            rating:"4.3",
        },
        {
@@ -106,13 +106,13 @@ export const other = [
          price: {
                mrp: "199",
                discount: "100",
-               cost: "99"
+               cost: "749"
            },
            category:["Spring Rolls","Thali","sweets"],
            shop:"SHOP NOW",
-         image: "https://www.ulcdn.net/images/products/770946/product/FNSF51NKRDA_-_category.jpg?1679553458",
-           tagline: "Niki Velvet Fabric Sofa",
-           tagline1: "Sofa",
+         image: "https://media6.ppl-media.com/tr:h-235,w-235,c-at_max,oi-AD_35x235_small_kJWM53nMn1.png,ow-60,ofo-top_right,dpr-2/static/img/product/294329/dove-intense-repair-shampoo-1-ltr_1_display_1563250763_a2f26bf0.jpg",
+           tagline: "Dove RepairHair Shampoo (1L)",
+           tagline1: "Shampoo",
            rating:"4.3",
        },
     
