@@ -1,4 +1,4 @@
-import Product from 'components/pages/Product'
+import Product from '../pages/Product'
 import React from 'react'
 
 const common = () => {
