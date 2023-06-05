@@ -54,7 +54,7 @@ export default function SecondaryCard() {
     <Card style={{backgroundColor: "#f3e5f5", height: 390, width: 300, zIndex:999}}  >
         <div className={classes.root}>
       <CardActions  className={classes.cardActions}>
-      <Avatar className={classes.avatar} src="https://img.freepik.com/free-photo/how-is-your-deals-group-people-business-conference-modern-classroom-daytime_146671-16408.jpg?size=626&ext=jpg" />
+      <Avatar className={classes.avatar} src="https://img.freepik.com/free-photo/full-shot-kids-sitting-together-table_23-2149355252.jpg?size=626&ext=jpg" />
 
       <Typography variant="body1">
         Author

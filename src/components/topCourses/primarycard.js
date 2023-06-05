@@ -24,7 +24,7 @@ export default function PrimaryCard() {
     <Card style={{backgroundColor: "#f3e5f5",height: 390, width: 300, zIndex: -1}}  >
       <CardMedia
         sx={{ height: 200 }}
-        image="https://img.freepik.com/free-photo/funny-coach-group-people-business-conference-modern-classroom-daytime_146671-16295.jpg?size=626&ext=jpg"
+        image="https://img.freepik.com/free-photo/front-view-children-playing-together-kindergarten_23-2148633303.jpg?size=626&ext=jpg"
         title="green iguana"
       />
       <CardContent className={classes.cardContent}>
