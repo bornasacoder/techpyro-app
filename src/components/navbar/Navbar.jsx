@@ -20,10 +20,10 @@ import {
 
 import { Help, Home, Menu, PercentRounded, PercentTwoTone, Person, Person2Outlined, Search, ShoppingBag, ShoppingCart} from '@mui/icons-material';
 
-import MenuButtons from 'components/menuButtons/MenuButtons';
+import MenuButtons from '../../components/menuButtons/MenuButtons';
 import { Link } from 'react-router-dom';
-import Login from 'components/pages/Login';
-import { getCordinate } from 'components/Location/Location';
+import Login from '../../components/pages/Login';
+import { getCordinate } from '../../components/Location/Location';
 import { useEffect } from 'react';
 
 const StyleToolbar = styled(Toolbar)(({theme}) => ({
