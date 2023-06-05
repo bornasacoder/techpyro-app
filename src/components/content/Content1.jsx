@@ -63,7 +63,7 @@ export default function Content1() {
       >
         <Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm: 1, md: 2 }}>
           <Grid item xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-            <Image src="https://img.freepik.com/free-photo/medium-shot-smiley-woman-holding-tray_23-2149233715.jpg?size=626&ext=jpg" />
+            <Image src="https://img.freepik.com/free-photo/happy-waiter-serving-food-group-cheerful-friends-pub_637285-12525.jpg?size=626&ext=jpg" />
           </Grid>
 
           <Grid item xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
@@ -82,27 +82,27 @@ export default function Content1() {
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <Bluetooth />
-              Reduced Sugar
+              Spring rolls
             </Typography>
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <Battery90 />
-              Pastries
+              Bruschetta
             </Typography>
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <TouchApp />
-              Doughnuts
+              Nachos
             </Typography>
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <VolumeUp />
-              Bagels
+              Mozzarella sticks
             </Typography>
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <Water />
-              Buns and Rolls
+              Chicken wings
             </Typography>
             <br />
             <Box>

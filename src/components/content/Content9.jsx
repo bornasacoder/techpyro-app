@@ -26,7 +26,7 @@ const Content9 = () => {
           justifyContent: "center",
         }}
       >
-        <Image src="https://img.freepik.com/free-vector/bakery-shop-logo-emblem-template_17005-1482.jpg?size=626&ext=jpg" />
+        <Image src="https://img.freepik.com/premium-vector/letter-d-delicious-logo-premium-vector_152437-324.jpg?size=626&ext=jpg" />
       </Box>
       <Box
         sx={{

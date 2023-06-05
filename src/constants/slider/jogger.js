@@ -7,8 +7,8 @@ export const jogger = [
                    cost: "299"
                },
                category:["Finger Chips","Samosa","Spring Rolls"],
-               tagline: "Doughnuts",
-               image:"https://img.freepik.com/free-photo/cookies-rope-with-cinnamon-sticks-white-surface_114579-32425.jpg?size=626&ext=jpg",   
+               tagline: "Hummus and pita bread",
+               image:"https://img.freepik.com/premium-photo/3d-rendering-luxury-hotel-reception-lounge-restaurant_105762-1599.jpg?size=626&ext=jpg",   
                rating:"4.3",
         
    },
@@ -20,8 +20,8 @@ export const jogger = [
            cost: "299"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Balance and Moderation",
-        image:"https://img.freepik.com/free-photo/cookies-rope-with-cinnamon-sticks-white-surface_114579-32425.jpg?size=626&ext=jpg ",
+       tagline: "Onion rings",
+        image:"https://img.freepik.com/premium-photo/people-group-catering-buffet-food-indoor-luxury-restaurant-with-meat-colorful-fruits-vegetables_530697-10690.jpg?size=626&ext=jpg ",
 
        rating:"4.3",
 
@@ -35,7 +35,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Homemade or Artisan Bakeries",
-    image:"https://img.freepik.com/free-vector/bakery-background-with-bread-flat-style_23-2147777950.jpg?size=626&ext=jpg ",
+    image:"https://img.freepik.com/free-photo/life-style_1122-1996.jpg?size=626&ext=jpg ",
        rating:"4.3",
 
 },
@@ -48,7 +48,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Mindful Ingredients",
-      image:"https://img.freepik.com/premium-photo/french-croissants-pastry-products-basket-top-view_508835-3962.jpg?size=626&ext=jpg ",
+      image:"https://img.freepik.com/free-photo/abstract-blur-restaurant_74190-5736.jpg?size=626&ext=jpg ",
        rating:"4.3",
 
 },
@@ -61,7 +61,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Healthier Filling Choices",
-      image:"https://img.freepik.com/free-photo/zeri-national-pakhlava-shekerbura-gogal_140725-5631.jpg?size=626&ext=jpg ",
+      image:"https://img.freepik.com/free-vector/flat-design-people-sitting-cafe_52683-24023.jpg?size=626&ext=jpg ",
        rating:"4.3",
 
 },
@@ -74,7 +74,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Gluten-Free Options",
-      image:"https://img.freepik.com/free-photo/side-view-mix-cookies-with-walnut-chocolate-chips-cottage-cheese-puff-pastry-vanilla-sugar-powder_141793-5018.jpg?size=626&ext=jpg",
+      image:"https://img.freepik.com/premium-photo/cozy-restaurant-with-people-waiter_175935-230.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },
@@ -87,7 +87,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Portion Control:",
-      image:"https://img.freepik.com/free-photo/close-up-baker-holding-basket-with-bread-sticks_23-2149233688.jpg?size=626&ext=jpg",
+      image:"https://img.freepik.com/premium-photo/3d-rendering-loft-luxury-hotel-reception-cafe-lounge-restaurant_105762-557.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },
@@ -100,7 +100,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Reduced Sugar",
-      image:"https://img.freepik.com/free-photo/muffins-isolated-blue-surface_114579-17113.jpg?size=626&ext=jpg ",
+      image:"https://img.freepik.com/premium-photo/interior-view-hotel-restaurant_1417-14174.jpg?size=626&ext=jpg ",
        rating:"4.3",
 
 },
@@ -113,7 +113,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Whole Grains",
-      image:"https://img.freepik.com/premium-photo/breads_87414-2654.jpg?size=626&ext=jpg",
+      image:"https://img.freepik.com/free-photo/group-asian-friends-eating-pizza-during-party-pizzeria-happy-indian-people-having-fun-together-eating-italian-food-sitting-couch_627829-1285.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },

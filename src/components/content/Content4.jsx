@@ -11,7 +11,7 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
   [theme.breakpoints.down("sm")]: {
     justifyContent: "center",
   },
-  background: `url(${"https://img.freepik.com/free-photo/overhead-shot-appetizing-delicious-sweet-confectionery-products-containing-much-sugar-which-can-cause-obesity-chronical-diseases-various-croissants-buns-swirls-choose-bakers-shop_273609-37928.jpg?size=626&ext=jpg"})
+  background: `url(${"https://img.freepik.com/free-vector/street-cafe-terrace_1284-11404.jpg?size=626&ext=jpg"})
          center/cover no-repeat`,
   // [theme.breakpoints.down("md")]: {
   // padding: "68px 20px ",
@@ -31,9 +31,9 @@ export default function Content4() {
           variant="h1"
           sx={{color:"#FC6539", fontSize: { md: "58px", sm: "38px", xs: "28px" } }}
           data-aos="fade-left" >
-         Whole Grains: Look for bakery items
+          The professional cook who oversees ,
           <br />
-          that are made with whole grains
+          the kitchen and is responsible
         </Typography>
         <br/>
         <Typography

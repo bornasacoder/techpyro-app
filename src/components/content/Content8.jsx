@@ -15,7 +15,7 @@ export default function Content8() {
         width="100%"
         height="500px"
         style={{ position: "absolute", zIndex: "-1", objectFit: "cover" }}
-        src="https://player.vimeo.com/external/399885540.sd.mp4?s=00905693fceb723c5fd6b25a967e3235c58c5fa4&profile_id=164&oauth2_token_id=57447761"
+        src="https://media.istockphoto.com/id/1383511394/video/happy-group-of-latin-american-friends-eating-together-at-a-restaurant-while-talking-and.mp4?s=mp4-640x640-is&k=20&c=5tEl6gWB09BfXNKNLWxoRC5Z2kezZYUcLvcoBbWZFBM="
         autoPlay
         loop
         muted
