@@ -108,7 +108,7 @@ const useStyles = makeStyles({
   },
   firstpart: {
     backgroundImage:
-      "url(https://www.realmenrealstyle.com/wp-content/uploads/2021/06/man-30s-smart-dressed.jpg)",
+      "url(https://img.freepik.com/free-vector/gradient-golden-luxury-facebook-cover_23-2149068434.jpg?size=626&ext=jpg)",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     height: "100%",
@@ -116,7 +116,7 @@ const useStyles = makeStyles({
   },
   secondpart: {
     backgroundImage:
-      "url(https://i.pinimg.com/originals/eb/80/2c/eb802c071fde1f7b81bf38927893f3f1.jpg)",
+      "url(https://img.freepik.com/free-vector/e-learning-education-template-vector-technology-ad-banner_53876-125996.jpg?size=626&ext=jpg)",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     height: "100%",
@@ -239,11 +239,11 @@ const MasterStudyBlog = () => {
       component="img"
       alt="Example Image"
       height="400" className={classes.imageContainer}
-      image="https://www.transparentpng.com/thumb/man/rTkJ7v-man-png-image.png"
+      image="https://img.freepik.com/free-photo/medium-shot-girl-portrait-with-graduation-background_23-2150293683.jpg?size=626&ext=jpg"
     /> </div>
         </div>
         <Typography style={{ marginLeft: "40px", color: "white" }} variant="h5">
-          TEACHER COURSES:
+          Children COURSES:
         </Typography>
         <Grid style={{ margin : "20px",  justifyContent: "center" }} container spacing={2}>
           <Grid
@@ -274,7 +274,9 @@ const MasterStudyBlog = () => {
             onMouseEnter={() => handleMouseEnter(2)}
             onMouseLeave={handleMouseLeave}
           >
-            {hoveredIndex === 2 ? <SecondaryCard /> : <PrimaryCard />}
+            {hoveredIndex === 2 ?
+               <SecondaryCard /> 
+             : <PrimaryCard />}
           </Grid>
           <Grid
             item

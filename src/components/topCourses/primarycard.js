@@ -24,7 +24,7 @@ export default function PrimaryCard() {
     <Card style={{backgroundColor: "#f3e5f5",height: 390, width: 300, zIndex: -1}}  >
       <CardMedia
         sx={{ height: 200 }}
-        image="https://media.gettyimages.com/id/1048883214/photo/portrait-of-american-singer-debbie-harry-from-the-band-blondie-new-york-new-york-1970s.jpg?s=612x612&w=0&k=20&c=pcVBTg41IN6Yh2NGWjbkwQ5nw4DtrfUZgGvEdEgb5Mc="
+        image="https://img.freepik.com/free-photo/funny-coach-group-people-business-conference-modern-classroom-daytime_146671-16295.jpg?size=626&ext=jpg"
         title="green iguana"
       />
       <CardContent className={classes.cardContent}>

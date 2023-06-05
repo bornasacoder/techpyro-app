@@ -3,7 +3,7 @@ import Navbar from './navbar';
 import Mycarousel from './Mycarousel';
 import MyComponent from './MyComponent';
 import Testimonial from './Testimonial';
-import Footer from './Footer';
+// import Footer from './Footer';
 import MySecondComponent from './MySecondComponent';
 import  useMedia  from 'react-media';
 import Hambar from './Hambar';
@@ -32,7 +32,7 @@ export default  function Home  ()  {
       <MyComponent />
       <MySecondComponent/>
       <Testimonial/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 

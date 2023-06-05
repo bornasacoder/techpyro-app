@@ -30,7 +30,7 @@ export default function Blog() {
   return (
     <div className={classes.root}>
       <Typography className={classes.heading} variant="h3">
-      MASTERSTUDY BLOG
+      MASTER STUDY BLOG
 
       </Typography>
    

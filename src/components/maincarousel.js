@@ -19,7 +19,7 @@ import HighlightAltIcon from '@mui/icons-material/HighlightAlt';
 import Hambar from "./Hambar";
 const useStyles = makeStyles((theme) => ({
   root: {
-    backgroundImage: `url(https://w0.peakpx.com/wallpaper/892/33/HD-wallpaper-girl-lying-laptop-girls-laptop.jpg)`,
+    backgroundImage: `url(https://img.freepik.com/free-vector/coaching-concept-illustration-idea-strategy-skills-improvement_613284-2305.jpg?size=626&ext=jpg)`,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     height: '100%',

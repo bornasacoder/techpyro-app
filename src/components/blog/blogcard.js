@@ -13,7 +13,7 @@ export default function BlogCard() {
     <Card sx={{ maxWidth: 345,  }}>
       <CardMedia
         sx={{ height: 240 }}
-        image="https://images.pexels.com/photos/1382728/pexels-photo-1382728.jpeg?auto=compress&cs=tinysrgb&w=600"
+        image="https://img.freepik.com/free-photo/doing-it-together-business-people-manager-working-their-new-project-classroom_146671-16298.jpg?size=626&ext=jpg"
         title="green iguana"
       />      <div style={{display:"flex",}}>
       <CardContent maxWidth="15%">

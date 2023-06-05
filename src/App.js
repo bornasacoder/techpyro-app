@@ -20,7 +20,7 @@ function App() {
        < TopCourses />
        < MasterStudyBlog />
        <  Blog />
-<Footer />
+       <Footer />
     </div>
   );
 }
