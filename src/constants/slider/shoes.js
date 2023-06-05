@@ -7,10 +7,10 @@ export const shoes= [
               cost: "10970"
           },
           category:["Cakes","California Cakes","Detroit Cakes"],
-          tagline: "The Arthur Diamond Silver Ring",
-          tagline1: "Silver",
+          tagline: "Marriage",
+          tagline1: "Haridwar",
           new:"New",
-          image: "https://cf-cdn.pcjeweller.com/public/uploads/catalog/product/custom/s/SLR00108-6_269.jpg",
+          image: "https://picit.in/wp-content/uploads/2020/09/Wedding-Photographer-Near-Me.jpg",
           rating:"4.3",
       },
       {
@@ -21,10 +21,10 @@ export const shoes= [
               cost: "26646"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "The Gold Chain GCH00361660 Shi..",
-          tagline1: "Gold",
+          tagline: "Marriage",
+          tagline1: "Goa",
           new:"New",
-          image: "https://cf-cdn.pcjeweller.com/public/uploads/catalog/product/custom/g/GCH00361660_368.jpg",
+          image: "https://blog.peppynite.com/wp-content/uploads/2019/07/Screenshot_1-690x438.png",
           rating:"4.3",
       },
       {
@@ -35,10 +35,10 @@ export const shoes= [
               cost: "5798"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "The Initial S Ganesha Diamond ...",
-          tagline1: "Diamond",
+          tagline: "Birthday",
+          tagline1: "Patna",
           new:"New",
-        image: "https://cf-cdn.pcjeweller.com/public/uploads/catalog/product/custom/a/ABPT0019L-1__1571611311.jpg",
+        image: "https://phometo.com/images/gallery/Photographer-for-Birthday-Party.jpg",
           rating:"4.3",
       },
       {
@@ -48,10 +48,10 @@ export const shoes= [
               discount: "201",
               cost: "137884"
           },
-         image: "https://cf-cdn.pcjeweller.com/public/uploads/catalog/product/custom/d/DS00885P-4__47374216.jpg",
+         image: "https://photobymaug.com/wp-content/uploads/2022/08/Engagement-Ring-detail-image-Tabacon-Thermal-Resort-Spa-jpg.webp",
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "The Shriya Diamond Necklace",
-          tagline1: "Diamond",
+          tagline: "Engagement",
+          tagline1: "Delhi",
           new:"New",
           rating:"4.3",
       },
@@ -63,10 +63,10 @@ export const shoes= [
               cost: "10970"
           },
           category:["Cakes","California Cakes","Detroit Cakes"],
-          tagline: "The Arthur Diamond Silver Ring",
-          tagline1: "Silver",
+          tagline: "Marriage",
+          tagline1: "Haridwar",
           new:"New",
-          image: "https://cf-cdn.pcjeweller.com/public/uploads/catalog/product/custom/s/SLR00108-6_269.jpg",
+          image: "https://picit.in/wp-content/uploads/2020/09/Wedding-Photographer-Near-Me.jpg",
           rating:"4.3",
       },
       {
@@ -77,10 +77,10 @@ export const shoes= [
               cost: "26646"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "The Gold Chain GCH00361660 Shi..",
-          tagline1: "Gold",
+          tagline: "Marriage",
+          tagline1: "Goa",
           new:"New",
-          image: "https://cf-cdn.pcjeweller.com/public/uploads/catalog/product/custom/g/GCH00361660_368.jpg",
+          image: "https://blog.peppynite.com/wp-content/uploads/2019/07/Screenshot_1-690x438.png",
           rating:"4.3",
       },
       {
@@ -91,10 +91,10 @@ export const shoes= [
               cost: "5798"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "The Initial S Ganesha Diamond ...",
-          tagline1: "Diamond",
+          tagline: "Birthday",
+          tagline1: "Patna",
           new:"New",
-        image: "https://cf-cdn.pcjeweller.com/public/uploads/catalog/product/custom/a/ABPT0019L-1__1571611311.jpg",
+        image: "https://phometo.com/images/gallery/Photographer-for-Birthday-Party.jpg",
           rating:"4.3",
       },
       {
@@ -104,14 +104,13 @@ export const shoes= [
               discount: "201",
               cost: "137884"
           },
-         image: "https://cf-cdn.pcjeweller.com/public/uploads/catalog/product/custom/d/DS00885P-4__47374216.jpg",
+         image: "https://photobymaug.com/wp-content/uploads/2022/08/Engagement-Ring-detail-image-Tabacon-Thermal-Resort-Spa-jpg.webp",
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "The Shriya Diamond Necklace",
-          tagline1: "Diamond",
+          tagline: "Engagement",
+          tagline1: "Delhi",
           new:"New",
           rating:"4.3",
       },
-    
     
       
 ]

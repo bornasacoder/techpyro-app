@@ -144,7 +144,8 @@ const Sliders = (props) => {
             fontFamily: "  sans-serif",
           }}
         >
-          NEW ARRIVALS
+          {/* NEW ARRIVALS */}
+          New Pictures
         </Typography>
         <SliderInnerContainer>
           {/* <SliderHeader /> */}

@@ -158,7 +158,7 @@ export default function Card1({ sliderData }) {
                 backgroundColor:"#000",
                 color:'#fff'}}}
               >
-              {sliderData.shop}
+              {/* {sliderData.shop} */}
               </Typography>
         </Box>
         

@@ -35,7 +35,7 @@ export default function Content10() {
             }}
           >
            {/* JOIN WITH US */}
-           FIRST PURCHASE
+           PREORDER
            <br/>
            AND GET 15% OFF
           </Typography>
