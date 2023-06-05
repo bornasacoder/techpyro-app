@@ -19,7 +19,7 @@ export default function University4() {
   return (
     <StyleToolbar>
       <Box sx={{padding:{md:"50px 0px 50px 50px",sm:"50px 0px 50px 50px",xs:"0px"},flex:"2"}}>
-      <Box sx={{background: `url(${"https://images.ctfassets.net/2pudprfttvy6/22Idxx2D2dyALpIoJznkQD/fba6cc9a2cce8aa1832a5af642af6dfb/c4c-image-home-career-academy.jpg"})
+      <Box sx={{background: `url(${"https://img.freepik.com/free-photo/people-work_144627-43046.jpg?w=996&t=st=1685975118~exp=1685975718~hmac=caf57dcca407ac48b9cb066e30adad9850d16ae2e1c49ba68e07deb7a06ca5ff"})
                     center/cover no-repeat`,height:{md:"80vh",sm:"120vh",xs:"50vh"},width:{md:"38vw",sm:"50vw",xs:"100vw"},borderRadius:"10px"}}/>
       </Box>
       <Box sx={{flex:"2",padding:{md:"50px 58px",sm:"58px 10px",xs:"48px 10px"}}}>

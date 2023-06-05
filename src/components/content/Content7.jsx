@@ -39,7 +39,7 @@ export default function Content7() {
         <br/>
         <Typography sx={{display:"flex",gap:"5px",flexDirection:{md:"row",sm:"row",xs:"column"}}}>Upskilling a small team? <Typography color="primary" sx={{textDecoration:"underline",cursor:"pointer",display:"flex",alignItems:"center"}}> Check out Coursera for Teams <OpenInNew sx={{fontSize:"14px"}}/></Typography> </Typography>
       </Box>
-      <Box sx={{background: `url(${"https://images.ctfassets.net/2pudprfttvy6/2hQa2f3MzHpFV9WbTKn98v/5ec924309d126da32c64dea61472f4a5/Homepage_hero.jpg"})
+      <Box sx={{background: `url(${"https://img.freepik.com/free-photo/front-view-female-student-white-shirt-holding-pen-copybook-blue-desk_140725-38454.jpg?w=996&t=st=1685974445~exp=1685975045~hmac=e8bc297ef74281cc7b870c44fd890a6b75c9910648adc9d4c53c1000ae9e9232"})
                     center/cover no-repeat`,height:{md:"120vh",sm:"120vh",xs:"50vh"},width:{md:"48vw",sm:"50vw",xs:"100vw"}}}/>
     </StyleToolbar>
   );

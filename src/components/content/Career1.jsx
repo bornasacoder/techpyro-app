@@ -15,7 +15,7 @@ const Career1 = () => {
   return (
     <StyleToolbar>
       <Box sx={{flex:"3",padding:{md:"48px 0px 58px 40px",sm:"58px 10px",xs:"28px 10px"}}}>
-        <Typography  sx={{fontSize:{md:"36px",sm:"30px",xs:"20px"},fontWeight:"600",lineHeight:{md:"48px",sm:"30px",xs:"20px"}}}>Launch your new career with a Professional Certificate on Coursera</Typography>
+        <Typography  sx={{fontSize:{md:"36px",sm:"30px",xs:"20px"},fontWeight:"600",lineHeight:{md:"48px",sm:"30px",xs:"20px"}}}>Discover, Innovate, Succeed</Typography>
         <br/>
         <Typography  sx={{fontSize:{md:"20px",sm:"20px",xs:"20px"},fontWeight:"400",lineHeight:"28px"}}>Professional certificates offer flexible, online training designed to get you job-ready for high-growth fields.</Typography>
         <br/>
@@ -35,7 +35,7 @@ const Career1 = () => {
           </Button>
         </Box>
       </Box>
-      <Box sx={{background: `url(${"https://images.ctfassets.net/wp1lcwdav1p1/5MeAXCoQVVbMTiqEmLwvd8/9e3a544103cecacecca1b718168a4138/learner-header-image-4x.png"})
+      <Box sx={{background: `url(${"https://img.freepik.com/free-photo/front-view-young-beautiful-lady-red-t-shirt-black-jeans-holding-different-copybooks-files-smiling-with-bag-white_140725-18638.jpg?w=996&t=st=1685974551~exp=1685975151~hmac=cb3ec19cffbbc7082cfcfbc47527eb53632debcd9238b48561a4fd8f650658ab"})
                     center/cover no-repeat`,height:{md:"70vh",sm:"120vh",xs:"50vh"},width:{md:"45vw",sm:"50vw",xs:"100vw"}}}/>
     </StyleToolbar>
   )

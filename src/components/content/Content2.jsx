@@ -75,7 +75,7 @@ export default function Content2({setJoinopen}) {
           </Box>
       </Right>
       <Left>
-        <Box sx={{height:"65vh",width:"35vw",background: `url(${"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/5CFC8u8XiXcbSOlVv6JZQx/4e6f898f57f9d798437b3aa22026e30b/CourseraLearners_C_Composition_Hillary_copy__3_.png?auto=format%2Ccompress&dpr=2&w=459&h=497&q=40"})
+        <Box sx={{height:"65vh",width:"35vw",background: `url(${"https://img.freepik.com/free-photo/female-student-with-books-paperworks_1258-48204.jpg?w=996&t=st=1685973919~exp=1685974519~hmac=ff39dfcda8ebf3c52319fc6bea5c9b5190053bd62230976413459bd998a13783"})
    center/cover no-repeat`,display:{md:"flex",sm:"none",xs:"none"}}}/>
       </Left>
     </StyleToolbar>

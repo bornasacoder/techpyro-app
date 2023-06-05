@@ -35,7 +35,7 @@ export default function University1() {
         <br/>
         <Typography sx={{display:"flex",gap:"5px",flexDirection:{md:"row",sm:"row",xs:"column"}}}>Upskilling a small team? <Typography color="primary" sx={{textDecoration:"underline",cursor:"pointer",display:"flex",alignItems:"center"}}> Check out Coursera for Teams <OpenInNew sx={{fontSize:"14px"}}/></Typography> </Typography>
       </Box>
-      <Box sx={{background: `url(${"https://images.ctfassets.net/2pudprfttvy6/4Flr3pfiVTFES3TdTJrZiZ/f3985ddcfd98b7d0acd0760243cb4875/c4c-homepage-hero.jpg"})
+      <Box sx={{background: `url(${"https://img.freepik.com/free-photo/college-girl-boy-studying-together_23-2149038395.jpg?w=996&t=st=1685975015~exp=1685975615~hmac=8397b76b1912be741cf9973bda6f63dcc908139d53bbb83824255381e3adcd63"})
                     center/cover no-repeat`,height:{md:"120vh",sm:"120vh",xs:"50vh"},width:{md:"48vw",sm:"50vw",xs:"100vw"}}}/>
     </StyleToolbar>
   );

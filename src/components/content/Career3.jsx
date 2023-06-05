@@ -17,7 +17,7 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
 const Career3 = () => {
   return (
     <StyleToolbar>
-         <Box sx={{background: `url(${"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/51y3a8YEIvgFTS2qrYNB7s/f806d317ff47487a3d9a2704f4ab9296/iStock-1130519249__1__1.jpg?auto=format%2Ccompress&dpr=2&w=&h="})
+         <Box sx={{background: `url(${"https://img.freepik.com/free-photo/portrait-pensive-young-girl-making-notes_171337-1646.jpg?w=996&t=st=1685974625~exp=1685975225~hmac=87fc03f8bd646a47e6917db0e9b57e6deed057da521eb2843bc1a54ef0a044ac"})
                     center/cover no-repeat`,height:{md:"70vh",sm:"120vh",xs:"30vh"},width:{md:"48vw",sm:"50vw",xs:"100vw"},margin:{md:"50px 30px",sm:"50px 30px",xs:"0px"}}}/>
       <Box sx={{flex:"2",padding:{md:"58px 58px",sm:"58px 10px",xs:"48px 10px"}}}>
         <Typography sx={{fontWeight:"600",color:"#382DA9"}}>Finished a Professional Certificate?</Typography>
