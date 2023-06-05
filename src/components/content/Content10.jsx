@@ -63,7 +63,7 @@ export default function Content10() {
           //   xs={{xs:12,sm:6,md:4}}
         >
           <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-<Image src="/images/category/product1.webp"/>
+<Image src="https://img.freepik.com/premium-photo/pastries-croissants-muffins_160315-23.jpg?size=626&ext=jpg"/>
       </Grid>
         <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
           <Typography fontSize="20px">FEATURED PRODUCT</Typography>
@@ -75,9 +75,9 @@ export default function Content10() {
               // textAlign:"center"
             }}
           >
-            Minimal Headphone
+            Bread, pastries, 
             <br />
-            For Music Lover
+            and muffins
           </Typography>
           <Typography variant="h1" color= "#FC6539">_______</Typography>
           <br/>
@@ -118,9 +118,9 @@ export default function Content10() {
               // textAlign:"center"
             }}
           >
-           Minimal Headphone
+           Bread, pastries, 
             <br />
-            For Music Lover
+            And muffins
           </Typography>
           <Typography variant="h1" color= "#FC6539">_______</Typography>
           <br/>
@@ -156,7 +156,7 @@ export default function Content10() {
         </Grid>
        
         <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-<Image src="/images/category/product2.webp"/>
+<Image src="https://img.freepik.com/free-vector/bakery-basket-with-bread-realistic-image_1284-15069.jpg?size=626&ext=jpg"/>
       </Grid>
         </Grid>
       </Box>

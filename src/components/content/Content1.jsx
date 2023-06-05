@@ -63,7 +63,7 @@ export default function Content1() {
       >
         <Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm: 1, md: 2 }}>
           <Grid item xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-            <Image src="https://cdn.thewirecutter.com/wp-content/media/2022/05/runningheadphones-2048px-2395-2x1-1.jpg?auto=webp&quality=75&crop=2:1&dpr=2" />
+            <Image src="https://img.freepik.com/free-photo/medium-shot-smiley-woman-holding-tray_23-2149233715.jpg?size=626&ext=jpg" />
           </Grid>
 
           <Grid item xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
@@ -82,27 +82,27 @@ export default function Content1() {
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <Bluetooth />
-              Smart Connectivity
+              Reduced Sugar
             </Typography>
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <Battery90 />
-              Long lasting battery
+              Pastries
             </Typography>
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <TouchApp />
-              Touch Control Panel
+              Doughnuts
             </Typography>
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <VolumeUp />
-              Volume Up Control
+              Bagels
             </Typography>
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <Water />
-              Water Dust Proof
+              Buns and Rolls
             </Typography>
             <br />
             <Box>

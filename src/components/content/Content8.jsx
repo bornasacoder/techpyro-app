@@ -15,7 +15,7 @@ export default function Content8() {
         width="100%"
         height="500px"
         style={{ position: "absolute", zIndex: "-1", objectFit: "cover" }}
-        src="https://player.vimeo.com/external/444586868.sd.mp4?s=bf79ca5c05b60cfdf42e9892c263e5b9ca49ff20&profile_id=164&oauth2_token_id=57447761"
+        src="https://player.vimeo.com/external/399885540.sd.mp4?s=00905693fceb723c5fd6b25a967e3235c58c5fa4&profile_id=164&oauth2_token_id=57447761"
         autoPlay
         loop
         muted
@@ -44,7 +44,7 @@ export default function Content8() {
                 // fontFamily: "Dancing Script",
               }}
             >
-              The Right Headphones
+              The Right pista cake
             </Typography>
           </Box>
           <br/>

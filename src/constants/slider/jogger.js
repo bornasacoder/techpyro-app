@@ -7,8 +7,8 @@ export const jogger = [
                    cost: "299"
                },
                category:["Finger Chips","Samosa","Spring Rolls"],
-               tagline: "Donec tellus Nulla lorem",
-               image:"https://htmldemo.net/sinp/sinp/assets/images/blog/blog1.webp",   
+               tagline: "Doughnuts",
+               image:"https://img.freepik.com/free-photo/cookies-rope-with-cinnamon-sticks-white-surface_114579-32425.jpg?size=626&ext=jpg",   
                rating:"4.3",
         
    },
@@ -20,8 +20,8 @@ export const jogger = [
            cost: "299"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Donec tellus Nulla lorem",
-        image:"https://htmldemo.net/sinp/sinp/assets/images/blog/blog2.webp ",
+       tagline: "Balance and Moderation",
+        image:"https://img.freepik.com/free-photo/cookies-rope-with-cinnamon-sticks-white-surface_114579-32425.jpg?size=626&ext=jpg ",
 
        rating:"4.3",
 
@@ -34,8 +34,8 @@ export const jogger = [
            cost: "299"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Donec tellus Nulla lorem",
-    image:"https://htmldemo.net/sinp/sinp/assets/images/blog/blog3.webp ",
+       tagline: "Homemade or Artisan Bakeries",
+    image:"https://img.freepik.com/free-vector/bakery-background-with-bread-flat-style_23-2147777950.jpg?size=626&ext=jpg ",
        rating:"4.3",
 
 },
@@ -47,8 +47,8 @@ export const jogger = [
            cost: "299"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Donec tellus Nulla lorem",
-      image:"https://htmldemo.net/sinp/sinp/assets/images/blog/blog4.webp ",
+       tagline: "Mindful Ingredients",
+      image:"https://img.freepik.com/premium-photo/french-croissants-pastry-products-basket-top-view_508835-3962.jpg?size=626&ext=jpg ",
        rating:"4.3",
 
 },
@@ -60,8 +60,8 @@ export const jogger = [
            cost: "299"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Donec tellus Nulla lorem",
-      image:"https://assets.reebok.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/a41a447c0067475c8abdae930109eb04_9366/HH8325_01_standard.jpg ",
+       tagline: "Healthier Filling Choices",
+      image:"https://img.freepik.com/free-photo/zeri-national-pakhlava-shekerbura-gogal_140725-5631.jpg?size=626&ext=jpg ",
        rating:"4.3",
 
 },
@@ -73,8 +73,8 @@ export const jogger = [
            cost: "299"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Training Essentials Woven Unlined Pants",
-      image:"https://assets.reebok.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/03a9e295a41f43c2ba57ad2c000ee4a3_9366/H62762_01_standard.jpg",
+       tagline: "Gluten-Free Options",
+      image:"https://img.freepik.com/free-photo/side-view-mix-cookies-with-walnut-chocolate-chips-cottage-cheese-puff-pastry-vanilla-sugar-powder_141793-5018.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },
@@ -86,8 +86,8 @@ export const jogger = [
            cost: "299"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Reebok Identity Logo Fleece Joggers",
-      image:"https://assets.reebok.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/a0dd724693024a57aedaae9200b68a46_9366/HS7118_01_standard.jpg",
+       tagline: "Portion Control:",
+      image:"https://img.freepik.com/free-photo/close-up-baker-holding-basket-with-bread-sticks_23-2149233688.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },
@@ -99,8 +99,8 @@ export const jogger = [
            cost: "299"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Reebok Identity Logo Fleece Joggers",
-      image:"https://assets.reebok.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/74fe0d057ea740aeb8baae0d00e3fdd3_9366/HG4456_01_standard.jpg ",
+       tagline: "Reduced Sugar",
+      image:"https://img.freepik.com/free-photo/muffins-isolated-blue-surface_114579-17113.jpg?size=626&ext=jpg ",
        rating:"4.3",
 
 },
@@ -112,8 +112,8 @@ export const jogger = [
            cost: "299"
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
-       tagline: "Reebok Identity Logo Fleece Joggers",
-      image:"https://assets.reebok.com/images/w_276,h_276,f_auto,q_auto,fl_lossy,c_fill,g_auto/c12d0ba9619244c8a0eaae970101acc4_9366/HI2826_01_standard.jpg",
+       tagline: "Whole Grains",
+      image:"https://img.freepik.com/premium-photo/breads_87414-2654.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },
