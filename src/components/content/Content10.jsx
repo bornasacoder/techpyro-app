@@ -63,7 +63,7 @@ export default function Content10() {
           //   xs={{xs:12,sm:6,md:4}}
         >
           <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-<Image src="https://img.freepik.com/free-photo/restaurant-hall-with-lots-table_140725-6309.jpg?size=626&ext=jpg"/>
+<Image src="https://img.freepik.com/free-vector/coffee-shop-concept-illustration_114360-6551.jpg?size=626&ext=jpg"/>
       </Grid>
         <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
           <Typography fontSize="20px">FEATURED PRODUCT</Typography>
@@ -156,7 +156,7 @@ export default function Content10() {
         </Grid>
        
         <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-<Image src="https://img.freepik.com/free-vector/vintage-restaurant-menu_23-2147491098.jpg?size=626&ext=jpg"/>
+<Image src="https://img.freepik.com/free-vector/set-coffee-elements-coffee-accessories-vector_53876-66783.jpg?size=626&ext=jpg"/>
       </Grid>
         </Grid>
       </Box>

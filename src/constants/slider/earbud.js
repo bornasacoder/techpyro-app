@@ -10,7 +10,7 @@ export const earbud= [
           tagline: "Club C Extra Women Shoes",
           tagline1: "Airpod Product ides",
           new:"New",
-          image: "https://img.freepik.com/premium-photo/3d-rendering-loft-luxury-hotel-reception-vintage-cafe-lounge-restaurant_105762-1102.jpg?size=626&ext=jpg ",
+          image: "https://img.freepik.com/free-vector/hand-drawn-street-cafe-menu_1284-47504.jpg?size=626&ext=jpg ",
           rating:"4.3",
       },
       {
@@ -34,7 +34,7 @@ export const earbud= [
               discount: "201",
               cost: "9800"
           },
-         image: "https://img.freepik.com/free-vector/pack-people-sitting-cafe_52683-19613.jpg?size=626&ext=jpg ",
+         image: "https://img.freepik.com/free-photo/cafe-bar-hotel-loft-style_1150-10724.jpg?size=626&ext=jpg",
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Nano X2 TR Adventure Men's Training Shoes",
           tagline1: "Birpod product unsde",
@@ -52,7 +52,7 @@ export const earbud= [
           tagline: "Nano X2 TR Adventure Men's Training Shoes",
           tagline1: "New minia nidesd",
           new:"New",
-        image: "https://img.freepik.com/free-photo/young-happy-waitress-serving-food-guests-restaurant_637285-8962.jpg?size=626&ext=jpg",
+        image: "https://img.freepik.com/free-vector/espresso-coffee-cup-coffee-beans_79603-1038.jpg?size=626&ext=jpg",
           rating:"4.3",
       },
      

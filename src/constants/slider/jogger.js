@@ -21,7 +21,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Onion rings",
-        image:"https://img.freepik.com/premium-photo/people-group-catering-buffet-food-indoor-luxury-restaurant-with-meat-colorful-fruits-vegetables_530697-10690.jpg?size=626&ext=jpg ",
+        image:"https://img.freepik.com/free-vector/espresso-coffee-cup-coffee-beans_79603-1038.jpg?size=626&ext=jpg ",
 
        rating:"4.3",
 
@@ -35,7 +35,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Homemade or Artisan Bakeries",
-    image:"https://img.freepik.com/free-photo/life-style_1122-1996.jpg?size=626&ext=jpg ",
+    image:"https://img.freepik.com/free-photo/frothy-cappuccino-elegant-wooden-coffee-table-generated-by-ai_188544-9955.jpg?size=626&ext=jpg ",
        rating:"4.3",
 
 },
@@ -113,7 +113,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Whole Grains",
-      image:"https://img.freepik.com/free-photo/group-asian-friends-eating-pizza-during-party-pizzeria-happy-indian-people-having-fun-together-eating-italian-food-sitting-couch_627829-1285.jpg?size=626&ext=jpg",
+      image:"https://img.freepik.com/free-vector/hand-drawn-blackboard-coffee-collection_79603-1653.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },
