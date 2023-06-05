@@ -34,8 +34,7 @@ export default function Content10() {
               
             }}
           >
-           {/* JOIN WITH US */}
-           PREORDER
+           JOIN TO UNLOCKED 
            <br/>
            AND GET 15% OFF
           </Typography>

@@ -26,7 +26,7 @@ export default function Content4() {
   return (
     <StyleToolbar>
       <Box  sx={{width:{md:"40%",sm:'100%',sx:"100%"}}}>
-        {/* <Typography
+        <Typography
           variant="h1"
           sx={{color:"#fff", fontSize: { md: "58px", sm: "38px", xs: "28px" } }}
         >
@@ -42,7 +42,7 @@ export default function Content4() {
             color: "white",
           }}
         >
-          Get 50% - 90% OFF On Tshirts
+          Get More Than 10% OFF On Sofas
         </Typography>
         <br/>
         <Box display="flex">
@@ -62,7 +62,7 @@ export default function Content4() {
           >
             READ MORE
           </Button> 
-        </Box> */}
+        </Box>
       </Box>
     </StyleToolbar>
   );

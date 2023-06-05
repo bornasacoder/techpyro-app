@@ -101,7 +101,7 @@ export default function Content1() {
                 color:'#fff'
               }}}
               >
-               Marriage
+               Sofas
               </Typography>
             </Item>
           </Grid>
@@ -125,7 +125,7 @@ export default function Content1() {
                 backgroundColor:"#000",
                 color:'#fff'}}}
               >
-               Birthday Party
+               BedRoom
               </Typography>
             </Item>
           </Grid>
@@ -149,7 +149,7 @@ export default function Content1() {
                   backgroundColor:"#000",
                   color:'#fff'} }}
               >
-               Engagement
+               Interiors
               </Typography>
             </Item>
           </Grid>

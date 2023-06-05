@@ -66,7 +66,7 @@ export default function Card1({ sliderData }) {
             checkedIcon={<Favorite sx={{ color: "#000" }} />}
           />
         </Box>
-        {/* <Box
+        <Box
           sx={{
             position: "absolute",
             top:{md:'64%',sm:'65%',xs:'60%'},
@@ -79,7 +79,7 @@ export default function Card1({ sliderData }) {
         >
           <CurrencyRupee sx={{ fontSize: "14px" }} />
           {sliderData.price.cost}
-        </Box> */}
+        </Box>
         {/* <Box
           sx={{
             display: "flex",
