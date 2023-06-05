@@ -81,7 +81,7 @@ export default function Content13() {
                   filter: "brightness(80%)",
                 },
 
-                background: `url(${"https://www.ed.ac.uk/sites/default/files/styles/panel_breakpoints_theme_uoe_tv_1x/public/thumbnails/image/studying-postgraduate-facilities-libraries.jpg?itok=XIBkJfkl"})
+                background: `url(${"https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
                 center/cover no-repeat`,
               }}
             >
@@ -180,7 +180,7 @@ export default function Content13() {
                   filter: "brightness(80%)",
                 },
 
-                background: `url(${"https://live-uoe-edweb.pantheonsite.io/sites/default/files/styles/panel_breakpoints_theme_uoe_tv_1x/public/thumbnails/image/extraordinary_marque_homepage_graduations.png?itok=oo1jky9F"})
+                background: `url(${"https://images.pexels.com/photos/5905480/pexels-photo-5905480.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
                 center/cover no-repeat`,
               }}
             >
@@ -279,7 +279,7 @@ export default function Content13() {
                   filter: "brightness(80%)",
                 },
 
-                background: `url(${"https://www.ed.ac.uk/sites/default/files/styles/panel_breakpoints_theme_uoe_tv_1x/public/thumbnails/image/s2030-our-values-3_0.jpg?itok=OkEwqxDU"})
+                background: `url(${"https://images.pexels.com/photos/4260325/pexels-photo-4260325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
                 center/cover no-repeat`,
               }}
             >
@@ -378,7 +378,7 @@ export default function Content13() {
                   filter: "brightness(80%)",
                 },
 
-                background: `url(${"https://images.pexels.com/photos/4049635/pexels-photo-4049635.jpeg?auto=compress&cs=tinysrgb&w=600"})
+                background: `url(${"https://images.pexels.com/photos/5212700/pexels-photo-5212700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
                 center/cover no-repeat`,
               }}
             >
@@ -477,7 +477,7 @@ export default function Content13() {
                   filter: "brightness(80%)",
                 },
 
-                background: `url(${"https://images.pexels.com/photos/267491/pexels-photo-267491.jpeg?auto=compress&cs=tinysrgb&w=600"})
+                background: `url(${"https://images.pexels.com/photos/8617731/pexels-photo-8617731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
                 center/cover no-repeat`,
               }}
             >
@@ -576,7 +576,7 @@ export default function Content13() {
                   filter: "brightness(80%)",
                 },
 
-                background: `url(${"https://images.pexels.com/photos/258353/pexels-photo-258353.jpeg?auto=compress&cs=tinysrgb&w=600"})
+                background: `url(${"https://images.pexels.com/photos/8466775/pexels-photo-8466775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
                 center/cover no-repeat`,
               }}
             >
@@ -675,7 +675,7 @@ export default function Content13() {
                   filter: "brightness(80%)",
                 },
 
-                background: `url(${"https://images.pexels.com/photos/351961/pexels-photo-351961.jpeg?auto=compress&cs=tinysrgb&w=600"})
+                background: `url(${"https://images.pexels.com/photos/8618080/pexels-photo-8618080.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
                 center/cover no-repeat`,
               }}
             >
@@ -774,7 +774,7 @@ export default function Content13() {
                   filter: "brightness(80%)",
                 },
 
-                background: `url(${"https://images.pexels.com/photos/68761/pexels-photo-68761.jpeg?auto=compress&cs=tinysrgb&w=600"})
+                background: `url(${"https://images.pexels.com/photos/4019754/pexels-photo-4019754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
                 center/cover no-repeat`,
               }}
             >

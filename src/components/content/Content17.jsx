@@ -13,7 +13,7 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
   gap: "50px",
   color: "#fff",
   background: `linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.3)
-    ),url(${"https://www.ul.ie/sites/default/files/styles/banner_wide/public/2022-09/UL%20Conferring%20Celebration%20033_1.jpg?h=20d7ef5c&itok=cuwHlteB"})
+    ),url(${"https://ifs.org.uk/sites/default/files/styles/full_height_banner/public/2022-12/Children%20running%20into%20school.jpg?itok=EdnkvFS4"})
                 center/cover no-repeat`,
   [theme.breakpoints.down("sm")]: {
     flexDirection: "column",

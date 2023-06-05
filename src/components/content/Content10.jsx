@@ -54,7 +54,7 @@ export default function Content10() {
                   transform:" scale(1.05)",
             transition:"all",
                 },
-                background: `url(${"https://images.pexels.com/photos/3194521/pexels-photo-3194521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"})
+                background: `url(${"https://www.oxfordlearning.com/wp-content/uploads/2016/09/AdobeStock_47186368.jpeg"})
                 center/cover no-repeat`,
               }}/>
             </Item>
@@ -63,7 +63,7 @@ export default function Content10() {
               "&:hover":{
                 borderBottom:"2px solid #000"
               }
-            }}>Startup culture </Typography> 
+            }}>Make Future of students</Typography> 
           </Grid>
          <Grid item xs={12} sm={6} md={4} sx={{display:"flex",flexDirection:"column",alignItems:"center"}}>
             <Item >
@@ -74,7 +74,7 @@ export default function Content10() {
                 "&:hover":{
                   transform:" scale(1.05)",
                 },
-                background: `url(${"https://images.pexels.com/photos/8197526/pexels-photo-8197526.jpeg?auto=compress&cs=tinysrgb&w=600"})
+                background: `url(${"https://media.istockphoto.com/id/501543368/photo/smiling-student-boy-writing-to-notebook-at-home.jpg?s=612x612&w=0&k=20&c=BuQDgd5xvgVaA8YpXXD5zxDfO5ukC02Gk0fPVjeXd5Y="})
                 center/cover no-repeat`,
               }}
               />
@@ -84,7 +84,7 @@ export default function Content10() {
               "&:hover":{
                 borderBottom:"2px solid #000"
               }
-            }}>Top Level Faculty</Typography>
+            }}>Top Level Teacher</Typography>
           </Grid>
          <Grid item xs={12} sm={6} md={4} sx={{display:"flex",flexDirection:"column",alignItems:"center"}}>
             <Item>
@@ -95,7 +95,7 @@ export default function Content10() {
                 "&:hover":{
                   transform:" scale(1.05)",
                 },
-                background: `url(${"https://images.pexels.com/photos/1467564/pexels-photo-1467564.jpeg?auto=compress&cs=tinysrgb&w=600"})
+                background: `url(${"https://img.freepik.com/free-photo/medium-shot-little-kids-studying-bible_23-2149613739.jpg"})
                 center/cover no-repeat`,
               }}
               />
