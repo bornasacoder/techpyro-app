@@ -101,7 +101,7 @@ export default function Content1() {
                 color:'#fff'
               }}}
               >
-               Makeup
+               Medicine
               </Typography>
             </Item>
           </Grid>
@@ -125,7 +125,7 @@ export default function Content1() {
                 backgroundColor:"#000",
                 color:'#fff'}}}
               >
-               Hair
+               BabyCare
               </Typography>
             </Item>
           </Grid>

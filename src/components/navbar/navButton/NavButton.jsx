@@ -217,7 +217,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography variant="h5">Makeup</Typography>
+        <Typography variant="h5">Medicine</Typography>
         <Badge>{/* <ExpandMoreIcon /> */}</Badge>
         <Box
           sx={{
@@ -268,7 +268,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography variant="h5">Skin</Typography>
+        <Typography variant="h5">LabTests</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
@@ -319,7 +319,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography variant="h5">Hair</Typography>
+        <Typography variant="h5">HealthCare</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
@@ -371,45 +371,7 @@ export default function NavButton() {
           "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
         }}
       >
-        <Typography  variant="h5">Appliances</Typography>
-        {/* <Badge><ExpandMoreIcon /></Badge> */}
-        <Box
-          sx={{
-            display: "none",
-            flexDirection: "column",
-            bgcolor: "background.paper",
-            position: "absolute",
-            color: "red",
-            margin: "250px 0 0 0px",
-            // zIndex:'1000!important'
-          }}
-        >
-          <List component="nav" aria-label="mailbox folders">
-            <ListItem button>
-              <ListItemText primary="Inbox" />
-            </ListItem>
-            <Divider />
-            <ListItem button divider>
-              <ListItemText primary="Drafts" />
-            </ListItem>
-            <ListItem button>
-              <ListItemText primary="Trash" />
-            </ListItem>
-            <Divider light />
-            <ListItem button>
-              <ListItemText primary="Spam" />
-            </ListItem>
-          </List>
-        </Box>
-      </MoreButton>
-      <MoreButton
-        sx={{
-          cursor: "pointer",
-          "&:hover .MuiBox-root": { display: "flex" },
-          "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
-        }}
-      >
-        <Typography variant="h5">Bath</Typography>
+        <Typography  variant="h5">Offer</Typography>
         {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
@@ -448,6 +410,7 @@ export default function NavButton() {
         }}
       >
         <Typography variant="h5">More</Typography>
+        {/* <Badge><ExpandMoreIcon /></Badge> */}
         <Box
           sx={{
             display: "none",
@@ -477,6 +440,43 @@ export default function NavButton() {
           </List>
         </Box>
       </MoreButton>
+      {/* <MoreButton
+        sx={{
+          cursor: "pointer",
+          "&:hover .MuiBox-root": { display: "flex" },
+          "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
+        }}
+      >
+        <Typography variant="h5">More</Typography>
+        <Box
+          sx={{
+            display: "none",
+            flexDirection: "column",
+            bgcolor: "background.paper",
+            position: "absolute",
+            color: "red",
+            margin: "250px 0 0 0px",
+            // zIndex:'1000!important'
+          }}
+        >
+          <List component="nav" aria-label="mailbox folders">
+            <ListItem button>
+              <ListItemText primary="Inbox" />
+            </ListItem>
+            <Divider />
+            <ListItem button divider>
+              <ListItemText primary="Drafts" />
+            </ListItem>
+            <ListItem button>
+              <ListItemText primary="Trash" />
+            </ListItem>
+            <Divider light />
+            <ListItem button>
+              <ListItemText primary="Spam" />
+            </ListItem>
+          </List>
+        </Box>
+      </MoreButton> */}
       {/* <MoreButton
         sx={{
           cursor: "pointer",

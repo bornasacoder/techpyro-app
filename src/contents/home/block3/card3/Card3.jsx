@@ -145,7 +145,7 @@ export default function Card1({ sliderData }) {
         </Box>
         <Box sx={{ paddingLeft: "13px", marginTop: { sx: "6px" } }}>
           <Typography variant="subtitle" sx={{}}>
-            Sports
+            Medicine
           </Typography>
         </Box>
         <Box sx={{ paddingLeft: "13px", marginTop: { sx: "6px" } }}>

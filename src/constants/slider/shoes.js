@@ -7,10 +7,10 @@ export const shoes= [
               cost: "519"
           },
           category:["Cakes","California Cakes","Detroit Cakes"],
-          tagline: "Maybelline New York Lash Sensational Sky High..",
-          tagline1: "Eye Makeup",
+          tagline: "Winsten Hair Dryer",
+          tagline1: "Hair Dryer",
           new:"New",
-          image: "https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,oi-AD_35x235_small_kJWM53nMn1.png,ow-60,ofo-top_right,dpr-2/static/img/product/307565/maybelline-new-york-lash-sensational-sky-high-waterproof-mascara-lengthening-and-volumizing-mascara-with-bamboo-exract-and-fibres-very-black-6-ml_1_display_1678336663_76640fad.jpg",
+          image: "https://www.netmeds.com/images/cms/aw_rbslider/slides/1685526192_Winston_mini_web.jpg",
           rating:"4.3",
       },
       {
@@ -21,10 +21,10 @@ export const shoes= [
               cost: "149"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Lotus Herbal Teatreewash Facewash",
-          tagline1: "FaceWash",
+          tagline: "Simila Homopathy",
+          tagline1: "Homopathy",
           new:"New",
-          image: "https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,oi-AD_35x235_small_kJWM53nMn1.png,ow-60,ofo-top_right,dpr-2/static/img/product/347858/lotus-herbals-teatreewash-tea-tree-absolute-oil-control-face-wash-80-g_1_display_1674808529_f80861fa.jpg",
+          image: "https://www.netmeds.com/images/cms/aw_rbslider/slides/1685526232_Similia_Homeo_mini_web.jpg",
           rating:"4.3",
       },
       {
@@ -35,10 +35,10 @@ export const shoes= [
               cost: "619"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Pond's Glow Day Cream",
-          tagline1: "Cream",
+          tagline: "Body Nutrians",
+          tagline1: "Body Nutrians",
           new:"New",
-        image: "https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,oi-AD_35x235_small_kJWM53nMn1.png,ow-60,ofo-top_right,dpr-2/static/img/product/312290/pond-s-age-miracle-wrinkle-corrector-day-cream-50g-16-69-11_17_display_1677562654_a4eea007.jpg",
+        image: "https://cdn01.pharmeasy.in/dam/banner/banner/3666abf1ec5-NATIV-03.jpg?dim=1440x0",
           rating:"4.3",
       },
       {
@@ -46,12 +46,12 @@ export const shoes= [
         price: {
               mrp: "500",
               discount: "201",
-              cost: "148"
+              cost: "948"
           },
-         image: "https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,oi-AD_35x235_small_kJWM53nMn1.png,ow-60,ofo-top_right,dpr-2/static/img/product/259395/alps-goodness-coconut-argan-oil-and-hyaluronic-acid-hydrating-and-moisturizing-conditioner-for-dry-hair-200-ml_15_display_1667380679_c0a62b5e.jpg",
+         image: "https://cdn01.pharmeasy.in/dam/banner/banner/5e9dc201ab9-DevicesClearanceStore.jpg?dim=1440x0",
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Alpas Coconut Oil",
-          tagline1: "Oil",
+          tagline: "Accu-Check Instant",
+          tagline1: "Accu-Check Instant",
           new:"New",
           rating:"4.3",
       },
@@ -63,10 +63,10 @@ export const shoes= [
               cost: "519"
           },
           category:["Cakes","California Cakes","Detroit Cakes"],
-          tagline: "Maybelline New York Lash Sensational Sky High..",
-          tagline1: "Eye Makeup",
+          tagline: "Winsten Hair Dryer",
+          tagline1: "Hair Dryer",
           new:"New",
-          image: "https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,oi-AD_35x235_small_kJWM53nMn1.png,ow-60,ofo-top_right,dpr-2/static/img/product/307565/maybelline-new-york-lash-sensational-sky-high-waterproof-mascara-lengthening-and-volumizing-mascara-with-bamboo-exract-and-fibres-very-black-6-ml_1_display_1678336663_76640fad.jpg",
+          image: "https://www.netmeds.com/images/cms/aw_rbslider/slides/1685526192_Winston_mini_web.jpg",
           rating:"4.3",
       },
       {
@@ -77,10 +77,10 @@ export const shoes= [
               cost: "149"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Lotus Herbal Teatreewash Facewash",
-          tagline1: "FaceWash",
+          tagline: "Simila Homopathy",
+          tagline1: "Homopathy",
           new:"New",
-          image: "https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,oi-AD_35x235_small_kJWM53nMn1.png,ow-60,ofo-top_right,dpr-2/static/img/product/347858/lotus-herbals-teatreewash-tea-tree-absolute-oil-control-face-wash-80-g_1_display_1674808529_f80861fa.jpg",
+          image: "https://www.netmeds.com/images/cms/aw_rbslider/slides/1685526232_Similia_Homeo_mini_web.jpg",
           rating:"4.3",
       },
       {
@@ -91,10 +91,10 @@ export const shoes= [
               cost: "619"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Pond's Glow Day Cream",
-          tagline1: "Cream",
+          tagline: "Body Nutrians",
+          tagline1: "Body Nutrians",
           new:"New",
-        image: "https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,oi-AD_35x235_small_kJWM53nMn1.png,ow-60,ofo-top_right,dpr-2/static/img/product/312290/pond-s-age-miracle-wrinkle-corrector-day-cream-50g-16-69-11_17_display_1677562654_a4eea007.jpg",
+        image: "https://cdn01.pharmeasy.in/dam/banner/banner/3666abf1ec5-NATIV-03.jpg?dim=1440x0",
           rating:"4.3",
       },
       {
@@ -102,12 +102,12 @@ export const shoes= [
         price: {
               mrp: "500",
               discount: "201",
-              cost: "148"
+              cost: "948"
           },
-         image: "https://media6.ppl-media.com/tr:h-250,w-250,c-at_max,oi-AD_35x235_small_kJWM53nMn1.png,ow-60,ofo-top_right,dpr-2/static/img/product/259395/alps-goodness-coconut-argan-oil-and-hyaluronic-acid-hydrating-and-moisturizing-conditioner-for-dry-hair-200-ml_15_display_1667380679_c0a62b5e.jpg",
+         image: "https://cdn01.pharmeasy.in/dam/banner/banner/5e9dc201ab9-DevicesClearanceStore.jpg?dim=1440x0",
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Alpas Coconut Oil",
-          tagline1: "Oil",
+          tagline: "Accu-Check Instant",
+          tagline1: "Accu-Check Instant",
           new:"New",
           rating:"4.3",
       },

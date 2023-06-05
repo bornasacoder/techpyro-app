@@ -11,7 +11,7 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
     justifyContent: "center",
   },
   height:'70vh',
-  background: `url(${"/images/category/shopheader.gif"})
+  background: `url(${"/images/category/shopheader.jpg"})
          center/cover no-repeat`,
   [theme.breakpoints.down("md")]: {
         height:'auto'
