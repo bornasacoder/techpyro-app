@@ -1,7 +1,7 @@
-import { FacebookOutlined, Instagram, Public, Twitter, YouTube } from "@mui/icons-material";
-import { Avatar, Grid, Typography } from "@mui/material";
+// import { FacebookOutlined, Instagram, Public, Twitter, YouTube } from "@mui/icons-material";
+import {  Typography } from "@mui/material";
 import { Box, styled } from "@mui/system";
-import SearchBar from "components/navbar/searchbar/SearchBar";
+
 import Sliders from "components/slider/slider1/Sliders";
 import { studentPortfolio } from "constants/studentportfollio";
 import React from "react";

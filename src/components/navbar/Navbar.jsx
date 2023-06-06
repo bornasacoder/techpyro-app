@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import SearchBar from "components/navbar/searchbar/SearchBar";
-import NavButton from "components/navbar/navButton/NavButton";
+// import SearchBar from "./searchbar/SearchBar";
+import NavButton from "./navButton/NavButton";
 import {
   Box,
   styled,
