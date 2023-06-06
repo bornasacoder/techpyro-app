@@ -49,8 +49,8 @@ import {
 } from "@mui/icons-material";
 import BreakfastDiningIcon from '@mui/icons-material/BreakfastDining';
 // import MenuButtons from "./menuButtons/MenuButtons";
-import MainCarousel from "components/carousel/MainCarousel";
-import Content from "components/content/Content";
+import MainCarousel from "../../components/carousel/MainCarousel";
+import Content from "../../components/content/Content";
 import MenuButtons from "./menuButtons/MenuButtons";
 
 const StyleToolbar = styled(Toolbar)(({ theme }) => ({
