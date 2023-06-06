@@ -6,7 +6,7 @@ import { styled } from '@mui/styles';
 // import SliderItem from './sliderItem/SliderItem';
 import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
 // import SliderHeader from './sliderhead/SliderHeader';
-import Card1 from 'components/card/card1/Card1';
+import Card1 from '../../../components/card/card1/Card1';
 import "./minislider.css"
 import { useEffect } from 'react';
 const SliderContainer = styled('div')({

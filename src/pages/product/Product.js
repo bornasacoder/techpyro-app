@@ -1,14 +1,13 @@
 import { Box } from '@mui/material'
-import Footer from 'components/footer/Footer';
-import Block1 from 'contents/product/Block1';
-import Block2 from 'contents/product/Block2';
-import Block3 from 'contents/product/Block3';
-import Navbar2 from 'layouts/Navbar2/Navbar2';
+import Footer from '../../components/footer/Footer';
+import Block1 from '../../contents/product/Block1';
+import Block2 from '../../contents/product/Block2';
+import Block3 from '../../contents/product/Block3';
+import Navbar2 from '../../layouts/Navbar2/Navbar2';
 import React, { useState } from 'react'
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { getProducts } from 'redux/apiCalls';
-// import { getProducts } from 'redux/apiCalls';
+import { getProducts } from '../../redux/apiCalls';
 
 
 const Product = () => {
