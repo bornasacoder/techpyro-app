@@ -3,9 +3,8 @@ import { Button, Card, CardActions, CardContent, Grid, TextField, Typography } f
 import { Box } from '@mui/system'
 import { useFormik } from 'formik'
 import React from 'react'
-import { useState } from 'react'
-import { signUpSchema } from '../../schemas/index'
-// import { signUpSchema } from '../schemas'
+import { signUpSchema } from '../../schemas'
+
  const initialValues = {
     name:"",
     email:"",
