@@ -1,7 +1,7 @@
 import { FacebookOutlined, Instagram, Public, Twitter, YouTube } from "@mui/icons-material";
 import { Grid, Typography } from "@mui/material";
 import { Box, styled } from "@mui/system";
-import SearchBar from "components/navbar/searchbar/SearchBar";
+import SearchBar from "../../components/navbar/searchbar/SearchBar";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   // bgcolor: "#FFFFFF!important",
