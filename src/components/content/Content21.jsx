@@ -1,7 +1,7 @@
 import { ArrowForward, Campaign } from "@mui/icons-material";
 import { Button, Grid, Paper, Typography } from "@mui/material";
 import { Box, styled } from "@mui/system";
-import SearchBar from "components/navbar/searchbar/SearchBar";
+import SearchBar from "../navbar/searchbar/SearchBar";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   display: "flex",
