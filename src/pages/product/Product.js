@@ -7,8 +7,7 @@ import Navbar2 from '../../layouts/Navbar2/Navbar2';
 import React, { useState } from 'react'
 import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { getProducts } from 'redux/apiCalls';
-// import { getProducts } from 'redux/apiCalls';
+import { getProducts } from '../../redux/apiCalls';
 
 
 const Product = () => {

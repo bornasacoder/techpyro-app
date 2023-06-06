@@ -6,7 +6,7 @@ import MiddleContent from '../../components/middlecontent/MiddleContent';
 import Footer from '../../components/footer/Footer';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import {  getProducts,  } from 'redux/apiCalls';
+import {  getProducts,  } from '../../redux/apiCalls';
 import Navbar from '../../layouts/navbar/Navbar';
 
 
