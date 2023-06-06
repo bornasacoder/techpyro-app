@@ -22,7 +22,7 @@ import {
 
 import { AccountCircle, Call, Help, LocationCityRounded, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  ShoppingBag, ShoppingCart} from '@mui/icons-material';
 
-import MenuButtons from 'components/menuButtons/MenuButtons';
+import MenuButtons from '../../components/menuButtons/MenuButtons';
 
 
 const StyleToolbar = styled(Toolbar)(({theme}) => ({
