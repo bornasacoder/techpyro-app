@@ -1,6 +1,4 @@
 import React,{useState} from 'react';
-import SearchBar from '../searchbar/SearchBar'
-import NavButton from 'components/navButton/NavButton'
 import {
     AppBar,
     Box,
@@ -11,12 +9,9 @@ import {
     Drawer,
     IconButton,
     Button,
-    InputBase,
-    Autocomplete,
+  
     TextField,
-    List,
-    ListItemText,
-    Badge,
+ 
     Select,
     InputLabel,
     FormControl,
@@ -24,9 +19,9 @@ import {
     
   } from "@mui/material";
 
-import { AccountCircle, ArrowDropDownCircle, Bungalow, Call, EastOutlined, FavoriteBorder, GridView, Help, Home, HomeOutlined, LocalCarWashOutlined, LocationCityRounded, LocationCitySharp, LocationOn, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  Search,  SearchOffOutlined,  ShoppingBag, ShoppingCart, Window} from '@mui/icons-material';
+import { ArrowDropDownCircle,  Call,  Menu, Search,} from '@mui/icons-material';
 
-import MenuButtons from 'components/menuButtons/MenuButtons';
+import MenuButtons from '../menuButtons/MenuButtons';
 
 
 const StyleToolbar = styled(Toolbar)(({theme}) => ({

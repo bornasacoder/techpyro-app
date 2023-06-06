@@ -1,6 +1,6 @@
 import * as React from 'react';
-import {Card, CardMedia, Typography, Box,useTheme,styled, Button} from '@mui/material';
-import { CalendarMonth, ChatBubbleOutlineRounded, Coffee, DinnerDining, EastOutlined, FavoriteBorder, Liquor, Mood, Person2Outlined, RiceBowlTwoTone, Star, StarHalf } from '@mui/icons-material';
+import {Card, CardMedia, Typography, Box,styled} from '@mui/material';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
@@ -8,7 +8,7 @@ AOS.init();
 
 
 export default function Block7() {
-  const theme = useTheme();
+ 
   const CardBox = styled(Card)(({theme})=>({
   display:'flex',
   flexDirection:'column',
@@ -34,15 +34,7 @@ export default function Block7() {
     padding:'0px'
   }
 }));
-const Box1= styled(Box)(({ theme }) => ({
-  height:'650px',
-  width:'100%',
-  backgroundImage: `url(${"/images/category/bgdimg4.jpeg"})`,
-  backgroundSize:'cover',
-  paddingTop:'10px'
-  // backgroundAttachment:'fixed'
-  }
-));
+
   return ( 
     <>
     <Box sx={{display:'flex',margin:{xs:'0px',sm:'0px 50px',md:'0px 100px'},gap:'30px',justifyContent:'center',backgroundColor:'#FFFFFF',flexDirection:{xs:'column',sm:'column',md:'row'}}}>
