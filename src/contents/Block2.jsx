@@ -1,9 +1,9 @@
 import React from 'react'
-import {Card, CardMedia, Typography, Box,useTheme,styled, Button, TextField, Select} from '@mui/material';
-import { TaskAlt } from '@mui/icons-material';
+import {Card, CardMedia, Typography, Box,styled, Button, } from '@mui/material';
+
 
 const Block2 = () => {
-    const theme = useTheme();
+  
     const CardBox = styled(Card)(({theme})=>({
     display:'flex',
     flexDirection:'row',
@@ -33,35 +33,7 @@ const Block2 = () => {
     },
    
   }))
-  const Box1= styled(Box)(({ theme }) => ({
-    height:'600px',
-    width:'100%',
-    backgroundImage: `url(${"/images/category/bgdimg4.jpeg"})`,
-    backgroundSize:'cover',
-    // backgroundAttachment:'fixed'
-    }
-  ));
-  const Box2= styled(Box)(({ theme }) => ({
-    height:'680px',
-    width:'100%',
-    backgroundImage: `url(${"/images/category/bgdimg5.webp"})`,
-    backgroundSize:'cover',
-    // backgroundAttachment:'fixed',
-    display:'flex',
-    justifyContent:'space-evenly',
-    alignItems:'center',
-    gap:'150px',
-    // flexDirection:'column'
-    [theme.breakpoints.down('sm')]: {
-      width:'100%',
-      height:'900px',
-      flexDirection:'column',
-      padding:'0px',
-      justifyContent:'center',
-      gap:'50px'
-    },
-    }
-  ));
+
   return (
     <>
      {/* <Box1>
