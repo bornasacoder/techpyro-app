@@ -4,7 +4,7 @@ import React from "react";
 import styled from "styled-components";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   padding: "38px 92px ",
-  background: `url(${"https://img.freepik.com/free-photo/hair-stylist-drying-woman-s-hair_329181-1944.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  background: `url(${"https://img.freepik.com/free-photo/workers-talking-phone-doing-paperwork_23-2147668775.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
   gap: 2,
 }));
@@ -76,7 +76,7 @@ export default function Content1() {
           //   xs={{xs:12,sm:6,md:4}}
         >
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
-              <Avatar src="https://img.freepik.com/free-photo/medium-shot-woman-delivering-pack_23-2149035940.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+              <Avatar src="https://img.freepik.com/free-vector/house-moving-illustration_52683-46999.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
                 "&:hover": {
                   border: "15px solid #01808A",
   },
@@ -90,7 +90,7 @@ export default function Content1() {
               </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
-              <Avatar src="https://img.freepik.com/free-photo/clothes-shop-cashier-giving-paper-bag-customer-desk-with-cash-register-side-view-shopping-consumerism-concept_74855-11616.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+              <Avatar src="https://img.freepik.com/premium-photo/young-multiracial-couple-considering-furniture-store-assortment_266732-30348.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
                 "&:hover": {
                   border: "15px solid #01808A",
   },
@@ -104,7 +104,7 @@ export default function Content1() {
               </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
-              <Avatar src="https://img.freepik.com/premium-photo/three-professional-make-up-artists-work-with-beautiful-young_104603-2149.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+              <Avatar src="https://img.freepik.com/premium-photo/sales-assistant-furniture-store_85869-9455.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
                 "&:hover": {
                   border: "15px solid #01808A",
   },
@@ -118,7 +118,7 @@ export default function Content1() {
               </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
-              <Avatar src="https://img.freepik.com/premium-photo/beauty-salon-administrator-customer-with-euro-banknotes_359031-1207.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+              <Avatar src="https://img.freepik.com/premium-photo/young-couple-assembling-shelf-as-team-their-new-apartment-reading-instructions_482257-29472.jpg?w=1060" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
                 "&:hover": {
                   border: "15px solid #01808A",
   },

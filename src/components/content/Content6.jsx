@@ -4,7 +4,7 @@ import React from 'react'
 const StyleToolbar = styled(Box)(({ theme }) => ({
     padding: "38px 58px ",
         background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.75)
-        ),url(${"https://img.freepik.com/free-photo/beautiful-women-trying-out-make-up-accessories_23-2148431588.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+        ),url(${"https://img.freepik.com/free-photo/couple-choosing-fabric-furniture-store_1157-37473.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
          center/cover no-repeat`,
     gap: 2,
   }));
@@ -72,7 +72,7 @@ export default function Content6() {
           //   xs={{xs:12,sm:6,md:4}}
         >
           <Grid item xs={12} sm={6} md={3} data-aos="fade-up" sx={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-          <Avatar src='https://img.freepik.com/free-photo/vertical-portrait-young-lady-smiling-camera-high-quality-photo_144627-75331.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais' sx={{height: "250px",
+          <Avatar src='https://img.freepik.com/free-photo/man-working-cutting-mdf-board_23-2149384776.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais' sx={{height: "250px",
                width: "250px",
                border: "15px solid lightGray","&:hover": {
                 border: "15px solid red",
@@ -114,7 +114,7 @@ export default function Content6() {
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
            
-             <Avatar src='https://img.freepik.com/premium-photo/portrait-smiling-woman-cosmetologist-with-with-different-banks-creams-female-beautician-her-workplace-cosmetology-clinic_194143-9286.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais' sx={{height: "250px",
+             <Avatar src='https://img.freepik.com/free-photo/portrait-smiling-male-carpenter-standing-front-workbench_23-2147944930.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais' sx={{height: "250px",
                width: "250px",
                border: "15px solid lightGray","&:hover": {
                 border: "15px solid red",
@@ -153,7 +153,7 @@ export default function Content6() {
             </Item>
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-up" sx={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-          <Avatar src='https://img.freepik.com/premium-photo/cabinet-cosmetologist-dermatologist-massage-therapist-portrait-business-confident-woman-owner-manager-background-working-masseur-beautician-with-client_116407-9574.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais' sx={{height: "250px",
+          <Avatar src='https://img.freepik.com/free-photo/couple-sorting-belongings-from-cardboard-boxes-after-moving-new-home_23-2149086885.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais' sx={{height: "250px",
                width: "250px",
                border: "15px solid lightGray","&:hover": {
                 border: "15px solid red",
@@ -192,7 +192,7 @@ export default function Content6() {
             </Item>
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-          <Avatar src='https://img.freepik.com/free-photo/woman-with-paper-bags-credit-card-near-laptop_23-2147786793.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais' sx={{height: "250px",
+          <Avatar src='https://img.freepik.com/free-photo/man-woman-ecommerce-bussines-workers-working-office_839833-1638.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais' sx={{height: "250px",
                width: "250px",
                border: "15px solid lightGray","&:hover": {
                 border: "15px solid red",

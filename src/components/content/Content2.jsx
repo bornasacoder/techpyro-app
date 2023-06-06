@@ -88,7 +88,7 @@ export default function Content2() {
                 alignItems:'center',
                 fontSize:'20px',
                 fontWeight:'700',
-                background: `url(${"https://img.freepik.com/free-vector/watercolor-floral-sale-composition_23-2147819318.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-vector/gradient-furniture-sale-banner-template_23-2148919731.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,  
             height:'320px',
             // width:'350px'
@@ -106,7 +106,7 @@ export default function Content2() {
                 alignItems:'center',
                 fontSize:'20px',
                 fontWeight:'700',
-                background: `url(${"https://img.freepik.com/premium-vector/purple-website-template-with-valentine-s-day-design_7993-1305.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/premium-vector/social-media-design-post-template-fashion-furniture-offer-sale_698982-2.jpg"})
                 center/cover no-repeat`,  
                          height:'320px',
                          color:"#000"
@@ -124,7 +124,7 @@ export default function Content2() {
                 fontSize:'20px',
                 fontWeight:'700',
                 color:"#fff",
-                background: `url(${"https://img.freepik.com/premium-vector/art-illustration_618890-440.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-psd/furniture-store-poster-template_23-2148795316.jpg?w=740&t=st=1685790417~exp=1685791017~hmac=c4955f8b42c0c160c647194922aa4765a1a1838f53fae5f476586e3a074228d2"})
                 center/cover no-repeat`,  
                          height:'320px',
               }}
