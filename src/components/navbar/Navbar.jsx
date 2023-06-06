@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import SearchBar from "components/navbar/searchbar/SearchBar";
-import NavButton from "components/navbar/navButton/NavButton";
+import SearchBar from "../../components/navbar/searchbar/SearchBar";
+import NavButton from "../../components/navbar/navButton/NavButton";
 // import NavImage from 'images/category/png-10.jpeg'
 import {
   AppBar,
@@ -50,8 +50,8 @@ import {
   SettingsOutlined,
 } from "@mui/icons-material";
 // import MenuButtons from "./menuButtons/MenuButtons";
-import MainCarousel from "components/carousel/MainCarousel";
-import Content from "components/content/Content";
+import MainCarousel from "../../components/carousel/MainCarousel";
+import Content from "../../components/content/Content";
 import MenuButtons from "./menuButtons/MenuButtons";
 
 const StyleToolbar = styled(Toolbar)(({ theme }) => ({
