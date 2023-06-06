@@ -27,7 +27,7 @@ import {
 
 import { AccountCircle, Call, EastOutlined, ExpandMore, Favorite, FavoriteBorder, Help, Home, HomeOutlined, LocalCarWashOutlined, LocationCityRounded, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  Redeem,  Search,  SearchOffOutlined,  ShoppingBag, ShoppingCart} from '@mui/icons-material';
 
-import MenuButtons from 'components/menuButtons/MenuButtons';
+import MenuButtons from '../../components/menuButtons/MenuButtons';
 import { Link } from 'react-router-dom';
 
 
