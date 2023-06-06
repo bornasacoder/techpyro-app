@@ -1,6 +1,4 @@
-import React from 'react';
 
-import { Theme } from '@mui/material';
 import { PureLightTheme } from './schemes/PureLightTheme';
 import { GreyGooseTheme } from './schemes/GreyGooseTheme';
 import { NebulaFighterTheme } from './schemes/NebulaFighterTheme';
