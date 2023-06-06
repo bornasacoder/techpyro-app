@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import SearchBar from "components/navbar/searchbar/SearchBar";
-import NavButton from "components/navbar/navButton/NavButton";
+import SearchBar from "../../components/navbar/searchbar/SearchBar";
+import NavButton from "../../components/navbar/navButton/NavButton";
 // import NavImage from 'images/category/png-10.jpeg'
 import {
   AppBar,
