@@ -12,7 +12,7 @@ import { Box } from "@mui/system";
 import { useFormik } from "formik";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { signUpSchema } from "schema";
+import { signUpSchema } from "../../schema";
 const initialValues = {
   name: "",
   lastname: "",

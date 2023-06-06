@@ -3,7 +3,7 @@ import { Avatar, Button, Card, CardContent, Grid, TextField, Typography } from '
 import { Box } from '@mui/system'
 import { useFormik } from 'formik'
 import React from 'react'
-import { signUpSchema } from 'schema'
+import { signUpSchema } from '../../schema'
 const initialValues = {
     name:"",
     lastname:"",

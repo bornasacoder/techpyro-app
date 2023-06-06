@@ -43,7 +43,7 @@ import MenuButtons from "./menuButtons/MenuButtons";
 import MainCarousel from "../../components/carousel/MainCarousel";
 import { useNavigate } from "react-router-dom";
 import { useFormik } from "formik";
-import { signUpSchema } from "schema";
+import { signUpSchema } from "../../schema";
 import { getCordinate } from "../../components/location/Location";
 import Login from "../../pages/auth/Login";
 import Signup from "../../pages/auth/Signup";
