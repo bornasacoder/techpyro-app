@@ -63,7 +63,7 @@ export default function Content10() {
           //   xs={{xs:12,sm:6,md:4}}
         >
           <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-<Image src="https://img.freepik.com/free-psd/coffee-store-banner-template_23-2148715687.jpg?size=626&ext=jpg"/>
+<Image src="https://img.freepik.com/free-photo/male-technician-examining-mother-board-with-digital-multimeter_23-2147922353.jpg?size=626&ext=jpg"/>
       </Grid>
         <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
           <Typography fontSize="20px">FEATURED PRODUCT</Typography>
@@ -75,9 +75,9 @@ export default function Content10() {
               // textAlign:"center"
             }}
           >
-            Michelin-starred, 
+            A portable computer, 
             <br />
-            Buffet: A self-service
+            designed for ease of use and mobility
           </Typography>
           <Typography variant="h1" color= "#FC6539">_______</Typography>
           <br/>
@@ -118,9 +118,9 @@ export default function Content10() {
               // textAlign:"center"
             }}
           >
-          Buffet: A self-service 
+           A portable computer
             <br />
-            And cofee
+            designed for ease of use and mobility
           </Typography>
           <Typography variant="h1" color= "#FC6539">_______</Typography>
           <br/>
@@ -156,7 +156,7 @@ export default function Content10() {
         </Grid>
        
         <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-<Image src="https://img.freepik.com/free-vector/set-coffee-elements-coffee-accessories-vector_53876-66783.jpg?size=626&ext=jpg"/>
+<Image src="https://img.freepik.com/premium-photo/old-electronic-devices-dark-background-concept-recycling-disposal-electronic-waste_76255-1714.jpg?size=626&ext=jpg"/>
       </Grid>
         </Grid>
       </Box>
