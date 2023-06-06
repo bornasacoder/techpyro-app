@@ -15,7 +15,7 @@ export default function Content8() {
         width="100%"
         height="500px"
         style={{ position: "absolute", zIndex: "-1", objectFit: "cover" }}
-        src="https://player.vimeo.com/external/510343119.sd.mp4?s=f3f0507936c61e2015eea5a083e9c9060947f655&profile_id=164&oauth2_token_id=57447761"
+        src="https://player.vimeo.com/external/278874541.sd.mp4?s=bb2a8e96863867f10e700256373a6ba864a79ab6&profile_id=164&oauth2_token_id=57447761"
         autoPlay
         loop
         muted

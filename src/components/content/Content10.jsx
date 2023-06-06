@@ -63,7 +63,7 @@ export default function Content10() {
           //   xs={{xs:12,sm:6,md:4}}
         >
           <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-<Image src="https://img.freepik.com/free-vector/coffee-shop-concept-illustration_114360-6551.jpg?size=626&ext=jpg"/>
+<Image src="https://img.freepik.com/free-psd/coffee-store-banner-template_23-2148715687.jpg?size=626&ext=jpg"/>
       </Grid>
         <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
           <Typography fontSize="20px">FEATURED PRODUCT</Typography>
@@ -120,7 +120,7 @@ export default function Content10() {
           >
           Buffet: A self-service 
             <br />
-            And muffins
+            And cofee
           </Typography>
           <Typography variant="h1" color= "#FC6539">_______</Typography>
           <br/>

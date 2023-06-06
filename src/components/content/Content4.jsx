@@ -11,7 +11,7 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
   [theme.breakpoints.down("sm")]: {
     justifyContent: "center",
   },
-  background: `url(${"https://img.freepik.com/free-vector/pack-people-sitting-cafe_52683-19613.jpg?size=626&ext=jpg"})
+  background: `url(${"https://img.freepik.com/premium-psd/delicious-coffee-social-media-facebook-cover-post-template_264308-128.jpg?size=626&ext=jpg"})
          center/cover no-repeat`,
   // [theme.breakpoints.down("md")]: {
   // padding: "68px 20px ",
