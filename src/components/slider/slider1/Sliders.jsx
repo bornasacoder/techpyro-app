@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { styled } from '@mui/styles';
 import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
-import Card1 from 'components/card/card1/Card1';
+
 import "./minislider.css"
 import { Typography } from '@mui/material';
 import SliderItem from './sliderItem/SliderItem';
