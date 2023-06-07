@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import NavButton from "components/navbar/navButton/NavButton";
+import NavButton from "../navbar/navButton/NavButton";
 import {
   Box,
   Typography,
