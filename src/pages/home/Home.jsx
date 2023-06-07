@@ -1,18 +1,18 @@
 import React from "react";
-import Navbar from "components/navbar/Navbar";
-import Content4 from "components/content/Content4";
-import Content6 from "components/content/Content6";
-import Content8 from "components/content/Content8";
-import Content9 from "components/content/Content9";
-import Content2 from "components/content/Content2";
-import Content3 from "components/content/Content3";
-import Content5 from "components/content/Content5";
-import Block2 from "contents/home/block2/Block2";
-import Block3 from "contents/home/block3/Block3";
-import Block7 from "contents/home/block7/Block7";
-import Content20 from "components/content/Content20";
+import Navbar from "../../components/navbar/Navbar";
+import Content4 from "../../components/content/Content4";
+import Content6 from "../../components/content/Content6";
+import Content8 from "../../components/content/Content8";
+import Content9 from "../../components/content/Content9";
+import Content2 from "../../components/content/Content2";
+import Content3 from "../../components/content/Content3";
+import Content5 from "../../components/content/Content5";
+import Block2 from "../../contents/home/block2/Block2";
+import Block3 from "../../contents/home/block3/Block3";
+import Block7 from "../../contents/home/block7/Block7";
+import Content20 from "../../components/content/Content20";
 import { Box } from "@mui/material";
-import Content21 from "components/content/Content21";
+import Content21 from "../../components/content/Content21";
 import { useState } from "react";
 
 const Home = () => {

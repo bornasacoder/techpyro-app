@@ -22,7 +22,7 @@ import {
   Typography,
   useTheme,
 } from "@mui/material";
-import Footer from "components/footer/Footer";
+import Footer from "../../components/footer/Footer";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   // padding:"58px 58px",

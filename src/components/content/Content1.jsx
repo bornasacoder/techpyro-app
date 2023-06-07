@@ -11,7 +11,7 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
-import NavButton from "components/navbar/navButton/NavButton";
+import NavButton from "../../components/navbar/navButton/NavButton";
 import React from "react";
 // import styled from "styled-components";
 const StyleToolbar = styled(Box)(({ theme }) => ({

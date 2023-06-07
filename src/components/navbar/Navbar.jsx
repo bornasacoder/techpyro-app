@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import SearchBar from "components/navbar/searchbar/SearchBar";
-import NavButton from "components/navbar/navButton/NavButton";
+import SearchBar from "../../components/navbar/searchbar/SearchBar";
+import NavButton from "../../components/navbar/navButton/NavButton";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import "./Navbar.css";
 import {
@@ -44,7 +44,7 @@ import {
 import MenuButtons from "./menuButtons/MenuButtons";
 import { useNavigate } from "react-router-dom";
 import { useFormik } from "formik";
-import { joinSchema, signUpSchema } from "components/schemas";
+import { joinSchema, signUpSchema } from "../../components/schemas";
 const MenuButton = styled(IconButton)(({ theme }) => ({
   display: "none",
   zIndex: "200",
