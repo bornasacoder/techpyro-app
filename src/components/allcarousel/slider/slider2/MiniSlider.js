@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { styled } from '@mui/styles';
 // import "./BigSlider.css"
-import SliderItem from '../../carousel/carousel2/sliderItem/SliderItem';
+
 import {  ArrowCircleLeftOutlined, ArrowCircleRightOutlined, ChevronLeftOutlined, ChevronRightOutlined, } from '@mui/icons-material';
 import { color } from '@mui/system';
 import { Box, Button, Typography } from '@mui/material';
