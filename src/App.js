@@ -1,10 +1,10 @@
-import Home from "pages/home/Home";
+import Home from "./pages/home/Home";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Card3 from "components/card/card2/Card3";
-import Card4 from "components/card/Card4";
-import Card5 from "components/card/Card5";
-import Login from "components/card/card2/Login";
-import Aboutus from "components/card/card2/Aboutus";
+import Card3 from "./components/card/card2/Card3";
+import Card4 from "./components/card/Card4";
+import Card5 from "./components/card/Card5";
+import Login from "./components/card/card2/Login";
+import Aboutus from "./components/card/card2/Aboutus";
 
 
 function App() {
