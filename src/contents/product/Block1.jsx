@@ -7,7 +7,7 @@ import {
 } from "@mui/icons-material";
 import { Button, styled, Typography } from "@mui/material";
 import { Box } from "@mui/system";
-import SearchBar from "layouts/navbar/searchbar/SearchBar";
+import SearchBar from "../../layouts/navbar/searchbar/SearchBar";
 // import SearchBar from "components/navbar/searchbar/SearchBar";
 import React from "react";
 import { useEffect } from "react";
