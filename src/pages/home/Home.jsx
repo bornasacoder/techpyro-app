@@ -1,5 +1,5 @@
 
-import Sliders from '../../components/slider/slider1/Sliders../../'
+import Sliders from '../../components/slider/slider1/Sliders'
 import React from 'react'
 import MiniSlider from '../../components/slider/slider2/MiniSlider';
 import MiddleContent from '../../components/middlecontent/MiddleContent';
