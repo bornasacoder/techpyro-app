@@ -4,6 +4,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import { Avatar, Button, Card, Grid,  } from '@mui/material';
+import PropTypes from 'prop-types';
 import { pizzaPhotoes } from '../../constants/slider/pizzaPhotoes';
 import { pizzaReview } from '../../constants/slider/pizzaReview';
 import { Message, Share, Star,  ThumbUpOutlined } from '@mui/icons-material';
