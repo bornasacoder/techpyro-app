@@ -1,6 +1,5 @@
 import React,{useState} from 'react';
-import SearchBar from '../searchbar/SearchBar'
-import NavButton from 'components/navButton/NavButton'
+
 import {
     AppBar,
     Box,
@@ -21,8 +20,7 @@ import {
   } from "@mui/material";
 
 import { AccountCircle, Call, Help, LocationCityRounded, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  ShoppingBag, ShoppingCart} from '@mui/icons-material';
-
-import MenuButtons from 'components/menuButtons/MenuButtons';
+import MenuButtons from '../menuButtons/MenuButtons';
 
 
 const StyleToolbar = styled(Toolbar)(({theme}) => ({
