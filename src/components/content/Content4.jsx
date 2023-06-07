@@ -22,7 +22,7 @@ import {
   Typography,
   useTheme,
 } from "@mui/material";
-import Footer from "components/footer/Footer";
+import Footer from "../../components/footer/Footer";
 import React from "react";
 import { Link } from "react-router-dom";
 const StyleToolbar = styled(Box)(({ theme }) => ({
