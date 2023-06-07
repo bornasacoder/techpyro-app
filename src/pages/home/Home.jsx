@@ -15,7 +15,7 @@ import Block9 from '../../contents/home/block9/Block9';
 import Block10 from '../../contents/home/block10/Block10';
 import Block11 from '../../contents/home/block11/Block11';
 import Block12 from '../../contents/home/block12/Block12';
-import Block1 from 'contents/home/block1/Block1';
+import Block1 from '../../contents/home/block1/Block1';
 
 
 const Home = () => {
