@@ -3,8 +3,8 @@ import { Button, styled, Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import React from 'react'
 import { useTheme } from 'styled-components';
-import Sliders from 'components/allcarousel/slider/slider1/Sliders';
-import { fastfood } from 'constants/slider/fastfood';
+import Sliders from '../../components/allcarousel/slider/slider1/Sliders';
+import { fastfood } from '../../constants/slider/fastfood';
 const Box1 = styled(Box)((({theme}) =>({
  
 //    backgroundColor:'black',
