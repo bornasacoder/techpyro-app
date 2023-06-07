@@ -23,7 +23,7 @@ const NavBar = styled(Box)(({ theme }) => ({
   },
   
   background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)
-  ),url(${"https://img.freepik.com/premium-photo/samara-russia-january-10-2022-ikea-store-interior-people-are-shopping-ikea-is-world-s-largest-furniture-retailer_89718-1142.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/premium-photo/empty-stage-with-lighting-equipment-stage-spotlight-shines-stage-3d-rendering_39972-795.jpg?w=900"})
    center/cover no-repeat`,
 }));
 

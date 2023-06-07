@@ -85,7 +85,7 @@ export default function Content5() {
                 fontSize: "20px",
                 color: "white",
                 fontWeight: "600",
-                background: `url(${"https://img.freepik.com/free-vector/gradient-interior-design-landing-page_23-2149777512.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-vector/two-journalists-sitting-desk-tv-studio-isolated-flat-illustration_74855-15558.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
                 // width:'350px'
@@ -151,7 +151,7 @@ export default function Content5() {
                 fontSize: "20px",
                 color: "white",
                 fontWeight: "600",
-                background: `url(${"https://img.freepik.com/free-vector/gradient-furniture-sale-landing-page-template-with-photo_23-2148939516.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-photo/video-camera-viewfinder-recording-show-tv-studio-focus-camera_1157-47920.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
                 // width:'350px'

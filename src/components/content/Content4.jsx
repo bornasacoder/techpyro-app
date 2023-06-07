@@ -9,7 +9,7 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
     [theme.breakpoints.down("sm")]: {
         justifyContent:'center' 
         },
-        background: `url(${"https://img.freepik.com/free-vector/furniture-sale-ig-post-collection-with-picture_23-2148692618.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+        background: `url(${"https://img.freepik.com/free-vector/hand-drawn-photo-studio-elements_23-2147560302.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
          center/cover no-repeat`,
   }));
 export default function Content4() {
@@ -20,7 +20,7 @@ export default function Content4() {
 Discover Our
 </Typography>
 <Typography  sx={{fontFamily:'Dancing Script',fontSize:{md:"88px",sm:'68px',xs:"38px"},}} data-aos="zoom-out">
-Furniture items
+Studio items
 </Typography>
 <Box display="flex">
           <Button

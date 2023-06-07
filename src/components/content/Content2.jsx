@@ -88,7 +88,7 @@ export default function Content2() {
                 alignItems:'center',
                 fontSize:'20px',
                 fontWeight:'700',
-                background: `url(${"https://img.freepik.com/free-vector/gradient-furniture-sale-banner-template_23-2148919731.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-vector/modern-sale-banner_1361-1451.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,  
             height:'320px',
             // width:'350px'
@@ -106,7 +106,7 @@ export default function Content2() {
                 alignItems:'center',
                 fontSize:'20px',
                 fontWeight:'700',
-                background: `url(${"https://img.freepik.com/premium-vector/social-media-design-post-template-fashion-furniture-offer-sale_698982-2.jpg"})
+                background: `url(${"https://img.freepik.com/free-vector/vintage-rose-studio-photographer-flyer_742173-610.jpg?w=740&t=st=1686039894~exp=1686040494~hmac=f1c5bccc3fc9b8ed771ae0f330217c1b4d7ea856d4850ae97e7c62f152149446"})
                 center/cover no-repeat`,  
                          height:'320px',
                          color:"#000"
@@ -124,7 +124,7 @@ export default function Content2() {
                 fontSize:'20px',
                 fontWeight:'700',
                 color:"#fff",
-                background: `url(${"https://img.freepik.com/free-psd/furniture-store-poster-template_23-2148795316.jpg?w=740&t=st=1685790417~exp=1685791017~hmac=c4955f8b42c0c160c647194922aa4765a1a1838f53fae5f476586e3a074228d2"})
+                background: `url(${"https://img.freepik.com/free-psd/music-flyer-template-concept_23-2148542773.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
                 center/cover no-repeat`,  
                          height:'320px',
               }}

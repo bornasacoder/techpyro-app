@@ -24,6 +24,7 @@ const CustomButton = styled(Box)(({ theme }) => ({
  display: 'flex',
 // color:"#A4A6A7",
  gap: '15px',
+ color:"red",
 // justifyContent:"space-between",
 //  marginRight:'120px',
  alignItems: 'center',
@@ -120,7 +121,7 @@ export default function NavButton() {
         // padding="10px 0px 0px 0px"
       >
         <Typography variant="div" sx={{fontSize:{md:"30px",sm:"20px",xs:"18px"}}} marginTop="5px">
-         TECHPYRO FURNITURE STORE
+         TECHPYRO STUDIO
         </Typography>
       </Box>
     </Left>
