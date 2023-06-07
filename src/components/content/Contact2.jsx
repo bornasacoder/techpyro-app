@@ -1,11 +1,11 @@
 import { Google } from '@mui/icons-material'
 import { Button, Card, CardActions, CardContent, Grid, TextField, Typography } from '@mui/material'
 import { Box } from '@mui/system'
-import { useFormik } from 'formik'
+import {useFormik} from 'formik'
 import React from 'react'
 import { useState } from 'react'
-import { signUpSchema } from 'schemas'
-// import { signUpSchema } from '../schemas'
+
+import { signUpSchema } from '../../schemas'
  const initialValues = {
     name:"",
     email:"",
