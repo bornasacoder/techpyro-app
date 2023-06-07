@@ -1,9 +1,9 @@
 import { FacebookOutlined, Instagram, Public, Twitter, YouTube } from "@mui/icons-material";
 import { Avatar, Grid, Typography } from "@mui/material";
 import { Box, styled } from "@mui/system";
-import SearchBar from "components/navbar/searchbar/SearchBar";
-import Sliders from "components/slider/slider1/Sliders";
-import { studentPortfolio } from "constants/studentportfollio";
+import SearchBar from "../../components/navbar/searchbar/SearchBar";
+import Sliders from "../../components/slider/slider1/Sliders";
+import { studentPortfolio } from "../../constants/studentportfollio";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   padding: "78px 48px ",

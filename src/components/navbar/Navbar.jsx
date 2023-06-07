@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import SearchBar from "components/navbar/searchbar/SearchBar";
-import NavButton from "components/navbar/navButton/NavButton";
+import SearchBar from "../../components/navbar/searchbar/SearchBar";
+import NavButton from "../../components/navbar/navButton/NavButton";
 import {
   Box,
   styled,
@@ -17,7 +17,7 @@ import {
   Search,
   SearchRounded,
 } from "@mui/icons-material";
-import MenuButtons from "./menuButtons/MenuButtons";
+import MenuButtons from "../navbar/menuButtons/MenuButtons";
 const MenuButton = styled(IconButton)(({ theme }) => ({
   display: "none",
   zIndex:"200",

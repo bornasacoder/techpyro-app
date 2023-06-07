@@ -4,7 +4,7 @@ import { Box } from '@mui/system'
 import { useFormik } from 'formik'
 import React from 'react'
 import { useState } from 'react'
-import { signUpSchema } from 'schemas'
+import { signUpSchema } from '../../schemas'
 // import { signUpSchema } from '../schemas'
  const initialValues = {
     name:"",

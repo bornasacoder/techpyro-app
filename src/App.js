@@ -1,8 +1,8 @@
-import Navbar from "components/navbar/Navbar";
-import Blog from "pages/blog/Blog";
-import Contact from "pages/contact/Contact";
-import Event from "pages/events/Event";
-import Home from "pages/home/Home";
+import Navbar from "./components/navbar/Navbar";
+import Blog from "./pages/blog/Blog";
+import Contact from "./pages/contact/Contact";
+import Event from "./pages/events/Event";
+import Home from "./pages/home/Home";
 import {
   BrowserRouter as Router,
   Routes,
