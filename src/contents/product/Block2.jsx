@@ -2,19 +2,15 @@ import * as React from 'react';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
+import PropTypes from 'prop-types';
 import Box from '@mui/material/Box';
 import { Avatar, Button, Card, Grid,  } from '@mui/material';
-import { pizzaPhotoes } from 'constants/slider/pizzaPhotoes';
-import { pizzaReview } from 'constants/slider/pizzaReview';
+import { pizzaPhotoes } from '../../constants/slider/pizzaPhotoes';
+import { pizzaReview } from '../../constants/slider/pizzaReview';
 import { Message, Share, Star,  ThumbUpOutlined } from '@mui/icons-material';
-interface TabPanelProps {
-  children?: React.ReactNode;
-  index: number;
-  value: number;
-}
-
-function TabPanel(props: TabPanelProps) {
+function TabPanel(props) {
   const { children, value, index, ...other } = props;
+
   return (
     <div
       role="tabpanel"
@@ -24,7 +20,7 @@ function TabPanel(props: TabPanelProps) {
       {...other}
     >
       {value === index && (
-        <Box sx={{  }}>
+        <Box sx={{ p: 3 }}>
           <Typography>{children}</Typography>
         </Box>
       )}
@@ -32,7 +28,13 @@ function TabPanel(props: TabPanelProps) {
   );
 }
 
-function a11yProps(index: Number) {
+TabPanel.propTypes = {
+  children: PropTypes.node,
+  index: PropTypes.number.isRequired,
+  value: PropTypes.number.isRequired,
+};
+
+function a11yProps(index) {
   return {
     id: `simple-tab-${index}`,
     'aria-controls': `simple-tabpanel-${index}`,
@@ -42,9 +44,10 @@ function a11yProps(index: Number) {
 export default function Block2({productDetail}) {
   const [value, setValue] = React.useState(0);
 
-  const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+  const handleChange = (event, newValue) => {
     setValue(newValue);
   };
+
 
   return (
     <Box sx={{ width: '100%',padding:{md:"20px 58px",sm:"20px 20px",xs:"20px 20px" }}}>
