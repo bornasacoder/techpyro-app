@@ -19,7 +19,7 @@ import MiniSlider from '../../components/allcarousel/slider/slider2/MiniSlider';
 import Sliders from '../../components/allcarousel/slider/slider1/Sliders';
 import { pizza } from '../../constants/slider/pizza';
 import Block7 from '../../contents/home/Block7';
-import { fastfood } from '../../constants/slider/fastfood';
+
 import Block8 from '../../contents/home/Block8';
 import Block9 from '../../contents/home/Block9';
 import Block10 from '../../contents/home/Block10';
