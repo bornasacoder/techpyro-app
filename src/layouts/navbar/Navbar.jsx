@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import SearchBar from "components/navbar/searchbar/SearchBar";
-// import NavButton from "components/navbar/navButton/NavButton";
-// import NavImage from 'images/category/png-10.jpeg'
+
 import {
   AppBar,
   Box,
@@ -13,15 +11,7 @@ import {
   IconButton,
   Select,
   MenuItem,
-  Button,
-  Grid,
-  InputAdornment,
-  OutlinedInput,
-  FormControl,
-  TextField,
-  DialogTitle,
-  CardContent,
-  Card,
+
   DialogContent,
   Dialog,
   DialogActions,
@@ -31,24 +21,14 @@ import {
 import {
   ShoppingCart,
   Menu,
-  Padding,
-  GetApp,
-  Title,
-  LocalActivity,
-  Facebook,
-  Google,
-  VisibilityOff,
-  Visibility,
-  Apple,
+
 } from "@mui/icons-material";
 import MenuButtons from "./menuButtons/MenuButtons";
-import MainCarousel from "components/carousel/MainCarousel";
 import { useNavigate } from "react-router-dom";
-import { useFormik } from "formik";
-import { signUpSchema } from "schema";
-import { getCordinate } from "components/location/Location";
-import Login from "pages/auth/Login";
-import Signup from "pages/auth/Signup";
+
+import { getCordinate } from "../../components/location/Location";
+import Login from "../../pages/auth/Login";
+import Signup from "../../pages/auth/Signup";
 import SearchBar from "./searchbar/SearchBar";
 import NavButton from "./navButton/NavButton";
 

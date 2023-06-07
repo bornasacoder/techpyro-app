@@ -1,6 +1,6 @@
 // import Navbar from "components/navbar/Navbar";
-import Home from "pages/home/Home";
-import Product from "pages/product/Product";
+import Home from "./pages/home/Home";
+import Product from "./pages/product/Product";
 import {
   BrowserRouter as Router,
   Routes,

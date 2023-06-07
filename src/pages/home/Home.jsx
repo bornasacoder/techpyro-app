@@ -1,13 +1,13 @@
 // import MainCarousel from 'components/carousel/MainCarousel'
-import Sliders from 'components/slider/slider1/Sliders'
+import Sliders from '../../components/slider/slider1/Sliders'
 import React from 'react'
-import MiniSlider from 'components/slider/slider2/MiniSlider';
-import MiddleContent from 'components/middlecontent/MiddleContent';
-import Footer from 'components/footer/Footer';
+import MiniSlider from '../../components/slider/slider2/MiniSlider';
+import MiddleContent from '../../components/middlecontent/MiddleContent';
+import Footer from '../../components/footer/Footer';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import {  getProducts,  } from 'redux/apiCalls';
-import Navbar from 'layouts/navbar/Navbar';
+import {  getProducts,  } from '../../redux/apiCalls';
+import Navbar from '../../layouts/navbar/Navbar';
 
 
 
