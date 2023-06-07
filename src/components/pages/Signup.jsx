@@ -11,9 +11,7 @@ import {
     Typography,
     TextField,
   } from "@mui/material";
-import { Clear, Close } from '@mui/icons-material';
-import { Link } from 'react-router-dom';
-import { useState } from 'react';
+
 
 export default function signup() {
    
