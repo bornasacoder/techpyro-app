@@ -1,6 +1,5 @@
 import React,{useState} from 'react';
-import SearchBar from 'components/navbar/searchbar/SearchBar'
-import NavButton from 'components/navButton/NavButton'
+
 import {
     AppBar,
     Box,
@@ -20,10 +19,10 @@ import {
 
 import { Help, Home, Menu, PercentRounded, PercentTwoTone, Person, Person2Outlined, Search, ShoppingBag, ShoppingCart} from '@mui/icons-material';
 
-import MenuButtons from 'components/menuButtons/MenuButtons';
+import MenuButtons from '../menuButtons/MenuButtons';
 import { Link } from 'react-router-dom';
-import Login from 'components/pages/Login';
-import { getCordinate } from 'components/Location/Location';
+import Login from '../../components/pages/Login';
+import { getCordinate } from '../../components/Location/Location';
 import { useEffect } from 'react';
 
 const StyleToolbar = styled(Toolbar)(({theme}) => ({
