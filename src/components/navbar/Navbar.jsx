@@ -1,7 +1,7 @@
 
 import React,{useState} from 'react';
 import SearchBar from '../searchbar/SearchBar'
-import NavButton from 'components/navButton/NavButton'
+import NavButton from '../navButton/NavButton'
 import {
     AppBar,
     Box,
@@ -12,22 +12,13 @@ import {
     Drawer,
     IconButton,
     Button,
-    InputBase,
-    Autocomplete,
-    TextField,
-    List,
-    ListItemText,
-    Badge,
-    Select,
-    InputLabel,
-    FormControl,
-    
+
     
   } from "@mui/material";
 
 import { AccountCircle, ArrowDropDownCircle, AutoStories, Bungalow, Call, EastOutlined, FavoriteBorder, GridView, Help, Home, HomeOutlined, LocalCarWashOutlined, LocationCityRounded, LocationCitySharp, LocationOn, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  Search,  SearchOffOutlined,  ShoppingBag, ShoppingCart, Window} from '@mui/icons-material';
 
-import MenuButtons from 'components/menuButtons/MenuButtons';
+import MenuButtons from '../menuButtons/MenuButtons';
 
 
 const StyleToolbar = styled(Toolbar)(({theme}) => ({
@@ -122,17 +113,7 @@ const StyleToolbar = styled(Toolbar)(({theme}) => ({
         alignItems:'center'
           
       }));
-      // const Signup = styled(Button)(({theme}) => ({
-        
-      //   backgroundColor:theme.header.textColor,
-      //   boxShadow:theme.header.boxShadow,
-      //   ":hover":{
-      //     backgroundColor:theme.header.background,
-      //     color:theme.header.textColor,
-      //     boxShadow:theme.header.boxShadow,
-      //   }
-          
-      // }));
+
       
 
 const MenuButton = styled(IconButton)(({ theme }) => ({
