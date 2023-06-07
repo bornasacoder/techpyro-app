@@ -1,5 +1,5 @@
 import { Typography } from '@mui/material'
-import Block1 from 'contents/signup/Block1'
+import Block1 from '../../contents/signup/Block1'
 import Navbar from 'layouts/Navbar/Navbar'
 import React from 'react'
 
