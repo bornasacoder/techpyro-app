@@ -1,4 +1,4 @@
-import Home from "pages/home/Home";
+import Home from "./pages/home/Home";
 import {
   BrowserRouter as Router,
   Routes,
