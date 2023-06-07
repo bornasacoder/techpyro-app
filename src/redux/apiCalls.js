@@ -1,9 +1,9 @@
 //import { useDispatch } from "react-redux";
 // import { publicRequest} from "../requestMethods";
 import {  getProductFailure, getProductStart, getProductSuccess, } from "./productRedux";
-// import { fastFood } from "constants/slider/fastfood";
+// import { fastFood } from "../constants/slider/fastfood";
 // import axios from "axios";
-import {  Product } from "constants/slider/fastfood";
+import {  Product } from "../constants/slider/fastfood";
 // import { loginFailure, loginStart, loginSuccess } from "./userRedux";
 // import { addUserFailure, addUserStart, addUserSuccess, deleteUserFailure, deleteUserStart, deleteUserSuccess, getUserFailure, getUserStart, getUserSuccess, updateUserFailure, updateUserStart, updateUserSuccess } from "./usersCallRedux";
 
