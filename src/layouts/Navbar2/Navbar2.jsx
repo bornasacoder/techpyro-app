@@ -1,8 +1,8 @@
 import { Avatar, Box, Dialog, DialogContent, IconButton, Menu, Typography, styled } from '@mui/material';
 import React, { useState } from 'react'
 import SearchBar from './searchbar/SearchBar';
-import Login from 'pages/auth/Login';
-import Signup from 'pages/auth/Signup';
+import Login from '../../pages/auth/Login';
+import Signup from '../../pages/auth/Signup';
 const Top = styled("div")(({ theme }) => ({
     display: "flex",
     justifyContent: "space-around",

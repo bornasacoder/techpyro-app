@@ -12,8 +12,8 @@ import {
     Dialog,
     DialogContent,
   } from "@mui/material";
-import Login from 'pages/auth/Login';
-import Signup from 'pages/auth/Signup';
+import Login from '../../../pages/auth/Login';
+import Signup from '../../../pages/auth/Signup';
 
 export default function MenuButtons() {
   const handleCloseForm = () => {

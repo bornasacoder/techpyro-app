@@ -14,7 +14,7 @@ import {
 import React, { useRef, useState } from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import { useEffect } from "react";
-import { getCordinate } from "components/location/Location";
+import { getCordinate } from "../../../components/location/Location";
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from "react-router-dom";
 const Search = styled(Box)(({ theme }) => ({
