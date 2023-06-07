@@ -4,7 +4,7 @@ import { Star } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
-import { getProducts } from 'redux/apiCalls';
+import { getProducts } from '../../redux/apiCalls';
 
 const CardBox = styled(Card)(({theme})=>({
     display:'flex',
