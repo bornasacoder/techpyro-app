@@ -8,7 +8,7 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { getProducts } from '../../redux/apiCalls'
 import BigSlider from '../allcarousel/slider/slider3/BigSlider'
-import Menu from '../redux/apiCalls'
+import Menu from '../../redux/apiCalls'
 
 
 const Product = () => {
