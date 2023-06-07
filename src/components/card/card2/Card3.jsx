@@ -1,8 +1,8 @@
 import { Button, TextField, Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import React from 'react'
-import Select1 from 'components/selectType/Select1'
-import Select2 from 'components/selectType/Select2'
+import Select1 from '../../selectType/Select1'
+import Select2 from '../../selectType/Select2'
 const card3 = () => {
   return (
    <Box sx={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>

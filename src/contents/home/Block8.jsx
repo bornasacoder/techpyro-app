@@ -104,7 +104,7 @@ const Block8 = () => {
       <Typography sx={{color:'white',fontSize:'20px',fontFamily:'cursive'}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nesciunt, mollitia, hic enim id culpa.</Typography>
 
       </Box>
-      <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'50%'},padding:{xs:'0px',sm:'0px',md:'40px'},display:'flex',justifyContent:'center',alignItems:'center',backgroundColor:'#EEFDFF',display:{xs:'none',sm:'none',md:'none'}}}>
+      <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'50%'},padding:{xs:'0px',sm:'0px',md:'40px'},justifyContent:'center',alignItems:'center',backgroundColor:'#EEFDFF',display:{xs:'none',sm:'none',md:'none'}}}>
       
         <CardMedia
         sx={{height:'100%',width:'100%'}}
@@ -130,7 +130,7 @@ const Block8 = () => {
       <Typography sx={{color:'white',fontSize:'20px',fontFamily:'cursive'}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nesciunt, mollitia, hic enim id culpa.</Typography>
 
       </Box>
-      <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'50%'},padding:{xs:'0px',sm:'0px',md:'40px'},display:'flex',justifyContent:'center',alignItems:'center',backgroundColor:'#F5EEFE',display:{xs:'none',sm:'none',md:'none'}}}>
+      <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'100%',sm:'100%',md:'50%'},padding:{xs:'0px',sm:'0px',md:'40px'},justifyContent:'center',alignItems:'center',backgroundColor:'#F5EEFE',display:{xs:'none',sm:'none',md:'none'}}}>
       
         <CardMedia
         sx={{height:'100%',width:'100%'}}

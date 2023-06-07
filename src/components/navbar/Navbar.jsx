@@ -1,7 +1,7 @@
 
 import React,{useState} from 'react';
 import SearchBar from '../searchbar/SearchBar'
-import NavButton from 'components/navButton/NavButton'
+import NavButton from '../navButton/NavButton'
 import {
     AppBar,
     Box,
@@ -27,8 +27,8 @@ import {
 
 import { AccountCircle, ArrowDropDown, ArrowDropDownCircle, AutoStories, Bungalow, Call, EastOutlined, Facebook, FavoriteBorder, GridView, Help, Home, HomeOutlined, House, Instagram, LinkedIn, LocalCarWashOutlined, LocationCityRounded, LocationCitySharp, LocationOn, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  Search,  SearchOffOutlined,  ShoppingBag, ShoppingCart, Twitter, Window, YouTube, YoutubeSearchedFor} from '@mui/icons-material';
 
-import MenuButtons from 'components/menuButtons/MenuButtons';
-import card3 from 'components/card/card2/Card3';
+import MenuButtons from '../menuButtons/MenuButtons';
+import card3 from '../card/card2/Card3';
 import { Link } from 'react-router-dom';
 
 const StyleToolbar = styled(Toolbar)(({theme}) => ({
