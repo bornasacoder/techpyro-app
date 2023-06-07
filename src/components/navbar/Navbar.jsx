@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import SearchBar from '../searchbar/SearchBar'
-import NavButton from 'components/navButton/NavButton'
+import NavButton from '../../components/navButton/NavButton'
 import {
     AppBar,
     Box,
@@ -26,7 +26,7 @@ import {
 
 import { AccountCircle, ArrowDropDownCircle, Bungalow, Call, EastOutlined, Facebook, FavoriteBorder, GridView, Help, Home, HomeOutlined, Instagram, LocalCarWashOutlined, LocationCityRounded, LocationCitySharp, LocationOn, Mail, Menu, PercentRounded, PercentTwoTone, Person, Person2Outlined, Person3Outlined,  Pinterest,  School,  Search,  SearchOffOutlined,  ShoppingBag, ShoppingCart, Twitter, Window} from '@mui/icons-material';
 
-import MenuButtons from 'components/menuButtons/MenuButtons';
+import MenuButtons from '../../components/menuButtons/MenuButtons';
 
 
 const StyleToolbar = styled(Toolbar)(({theme}) => ({
