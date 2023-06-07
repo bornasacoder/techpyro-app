@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import ThemeProviderWrapper from 'theme/ThemeProvider';
+import ThemeProviderWrapper from './theme/ThemeProvider';
 import { CssBaseline } from '@mui/material';
 import { Provider } from 'react-redux';
 import { persistor, store } from 'redux/store';

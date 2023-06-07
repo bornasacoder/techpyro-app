@@ -4,9 +4,9 @@ import { Star } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
-import { getProducts } from 'redux/apiCalls';
+import { getProducts } from '../../redux/apiCalls';
 import Skeleton from '@mui/material/Skeleton';
-import InfiniteScroll from 'react-infinite-scroll-component';
+
 
 const CardBox = styled(Card)(({theme})=>({
     display:'flex',
