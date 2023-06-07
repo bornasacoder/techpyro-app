@@ -1,9 +1,9 @@
-import About from "components/card/card2/About";
-import Contact from "components/card/card2/Contact";
-import Gallery from "components/card/card2/Gallery";
-import Packages from "components/card/card2/Packages";
-import Pricing from "components/card/card2/Pricing";
-import Home from "pages/home/Home";
+import About from "./components/card/card2/About";
+import Contact from "./components/card/card2/Contact";
+import Gallery from "./components/card/card2/Gallery";
+import Packages from "./components/card/card2/Packages";
+import Pricing from "./components/card/card2/Pricing";
+import Home from "./pages/home/Home";
 import {
   BrowserRouter as Router,
   Routes,
