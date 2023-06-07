@@ -1,5 +1,5 @@
-import Navbar from "components/navbar/Navbar";
-import Home from "pages/home/Home";
+import Navbar from "./components/navbar/Navbar";
+import Home from "./pages/home/Home";
 import {
   BrowserRouter as Router,
   Routes,
