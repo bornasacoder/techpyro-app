@@ -3,7 +3,7 @@ import { Button, Divider, Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { getProducts } from '../../redux/apiCalls'
+import {getProducts } from '../../redux/apiCalls'
 
 const Menu = () => {
     const products = useSelector((state) => state.product.products);
