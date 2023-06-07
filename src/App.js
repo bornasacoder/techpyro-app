@@ -1,9 +1,9 @@
-import Cart from "../../components/pages/Cart";
-import Login from "../../components/pages/Login";
-import Offers from "../../components/pages/Offers";
-import Product from "../../components/pages/Product";
-import Search from "../../components/pages/Search";
-import Signup from "../../components/pages/Signup";
+import Cart from "./components/pages/Cart";
+import Login from "./components/pages/Login";
+import Offers from "./components/pages/Offers";
+import Product from "./components/pages/Product";
+import Search from "./components/pages/Search";
+import Signup from "./components/pages/Signup";
 import Home from "./pages/home/Home";
 import {
   BrowserRouter as Router,
