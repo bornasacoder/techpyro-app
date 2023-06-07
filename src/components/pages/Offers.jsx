@@ -1,9 +1,9 @@
 import { Typography } from '@mui/material'
 import { Box } from '@mui/system'
-import Card1 from 'components/card/Card1'
-import Card2 from 'components/card/Card2'
-import Footer from 'components/footer/Footer'
-import Navbar from 'components/navbar/Navbar'
+import Card1 from '../../components/Card/Card1'
+import Card2 from '../../components/Card/Card2'
+import Footer from '../../components/footer/Footer'
+import Navbar from '../../components/navbar/Navbar'
 import React from 'react'
 
 const Offers = () => {
