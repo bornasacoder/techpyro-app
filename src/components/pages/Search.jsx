@@ -4,7 +4,7 @@ import { FormControl, InputLabel, TextField, Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import MiniSlider from '../../components/allcarousel/slider/slider2/MiniSlider'
 import Navbar from '../../components/navbar/Navbar'
-import SearchBar from '../../components/searchbar/SearchBar'
+
 import { fastFood } from '../../constants/slider/fastfood'
 import React from 'react'
 

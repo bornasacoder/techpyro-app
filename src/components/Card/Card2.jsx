@@ -1,7 +1,7 @@
 import React from 'react'
 import {Card, CardMedia, Typography, Box,useTheme,styled, Button} from '@mui/material';
 import { Star } from '@mui/icons-material';
-import { Link } from 'react-router-dom';
+
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { getProducts } from '../../redux/apiCalls';
