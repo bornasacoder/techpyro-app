@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Footer from '../../components/footer/Footer'
-import { other } from 'constants/slider/other';
+import { other } from '../../constants/slider/other';
 import { adidas } from '../../constants/slider/adidas'
 import { pizza } from '../../constants/slider/pizza';
 import Block2 from '../../contents/home/Block2/Block2';
