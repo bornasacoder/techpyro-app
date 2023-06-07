@@ -10,7 +10,7 @@ import Card1 from '../../components/Card/Card1';
 // import Card2 from '../../components/Card/Card2';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
-import { getProducts } from './redux/apiCalls';
+import { getProducts } from '../../redux/apiCalls';
 const MySlider = styled(Box)(({theme}) => ({
     
   }

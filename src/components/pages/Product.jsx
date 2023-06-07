@@ -6,7 +6,7 @@ import Navbar from '../../components/navbar/Navbar'
 import { content } from '../../constants/content'
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { getProducts } from './redux/apiCalls'
+import { getProducts } from '../../redux/apiCalls'
 import BigSlider from '../allcarousel/slider/slider3/BigSlider'
 import Menu from '../pages/Menu'
 
