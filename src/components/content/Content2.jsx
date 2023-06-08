@@ -88,7 +88,7 @@ export default function Content2() {
                 alignItems:'center',
                 fontSize:'20px',
                 fontWeight:'700',
-                background: `url(${"https://img.freepik.com/free-vector/modern-sale-banner_1361-1451.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/free-vector/raksha-bandhan-sales_23-2148582070.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,  
             height:'320px',
             // width:'350px'
@@ -106,7 +106,7 @@ export default function Content2() {
                 alignItems:'center',
                 fontSize:'20px',
                 fontWeight:'700',
-                background: `url(${"https://img.freepik.com/free-vector/vintage-rose-studio-photographer-flyer_742173-610.jpg?w=740&t=st=1686039894~exp=1686040494~hmac=f1c5bccc3fc9b8ed771ae0f330217c1b4d7ea856d4850ae97e7c62f152149446"})
+                background: `url(${"https://img.freepik.com/free-vector/set-elegant-christmas-discount-banners_23-2147582754.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
                 center/cover no-repeat`,  
                          height:'320px',
                          color:"#000"
@@ -124,7 +124,7 @@ export default function Content2() {
                 fontSize:'20px',
                 fontWeight:'700',
                 color:"#fff",
-                background: `url(${"https://img.freepik.com/free-psd/music-flyer-template-concept_23-2148542773.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+                background: `url(${"https://img.freepik.com/premium-psd/jewelry-social-media-instagram-story-template_185005-95.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
                 center/cover no-repeat`,  
                          height:'320px',
               }}

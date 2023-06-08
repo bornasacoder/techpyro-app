@@ -4,7 +4,7 @@ import React from "react";
 import styled from "styled-components";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   padding: "38px 92px ",
-  background: `url(${"https://img.freepik.com/free-vector/flat-design-photo-camera-facebook-template_23-2149481633.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  background: `url(${"https://img.freepik.com/free-photo/couple-jewelry-shop-choosing-necklace-together_1303-30656.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
   gap: 2,
 }));
@@ -76,7 +76,7 @@ export default function Content1() {
           //   xs={{xs:12,sm:6,md:4}}
         >
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
-              <Avatar src="https://img.freepik.com/free-photo/professional-indian-young-photographer-taking-photos-studio-with-leight_231208-3780.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+              <Avatar src="https://img.freepik.com/free-photo/cheerful-female-jeweler-handing-purchase-shopping-bag-he_7502-7616.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
                 "&:hover": {
                   border: "15px solid #01808A",
   },
@@ -86,11 +86,11 @@ export default function Content1() {
                 variant="h3"
                 sx={{ display: "flex", justifyContent: "center",color:"#fff",textAlign:"center" }}
               >
-            Photo Shooting
+           Retail Sales
               </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
-              <Avatar src="https://img.freepik.com/free-photo/traveller-blogger-kit-summer-vacation-top-view-flat-lay-camera-with-accessories-sunglasses-books-smartphone-paper-notebook-passport_482257-32966.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+              <Avatar src="https://img.freepik.com/free-photo/master-processes-valuable-metal-home-workshop_1153-3524.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
                 "&:hover": {
                   border: "15px solid #01808A",
   },
@@ -100,11 +100,11 @@ export default function Content1() {
                 variant="h3"
                 sx={{ display: "flex", justifyContent: "center",color:"#fff",textAlign:"center" }}
               >
-           Bulk purchasing
+          Custom Design
               </Typography>
           </Grid>
-          <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
-              <Avatar src="https://img.freepik.com/free-photo/man-filming-with-professional-camera_23-2149066355.jpg?w=900&t=st=1686039652~exp=1686040252~hmac=aa60fccb061009f402817ec4479a88338a3b95786417d77a38792176661deea8" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+          <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center",textAlign:'center'}}>
+              <Avatar src="https://img.freepik.com/premium-photo/craft-jewelery-making-ring-polishing_38705-47.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
                 "&:hover": {
                   border: "15px solid #01808A",
   },
@@ -114,11 +114,11 @@ export default function Content1() {
                 variant="h3"
                 sx={{ display: "flex", justifyContent: "center",color:"#fff" }}
               >
-          Classes
+          Jewelry Cleaning and Polishing
               </Typography>
           </Grid>
           <Grid item xs={12} sm={6} md={3} data-aos="fade-down" sx={{display:"flex",flexDirection:'column',justifyContent:"center",alignItems:"center"}}>
-              <Avatar src="https://img.freepik.com/premium-photo/photography-partners-male-photographer-female-assistant-work-discussing-details-video_116547-60550.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
+              <Avatar src="https://img.freepik.com/free-photo/jeweler-working-his-workshop-cutting-gold-ring-with-saw_181624-55539.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"200px",width:"200px", border: "15px solid lightGray",
                 "&:hover": {
                   border: "15px solid #01808A",
   },
@@ -128,7 +128,7 @@ export default function Content1() {
                 variant="h3"
                 sx={{ display: "flex", justifyContent: "center",color:"#fff" ,textAlign:"center"}}
               >
-               Return policy
+               Jewelry Repairs
               </Typography>
           </Grid>
 

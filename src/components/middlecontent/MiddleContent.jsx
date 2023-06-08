@@ -52,7 +52,7 @@ export default function MiddleContent() {
         >
            <Grid item xs={12} sm={12} md={12}>
             <Box display="flex" gap="20px" >
-                <Avatar src="https://img.freepik.com/free-photo/full-shot-happy-people-with-camera_23-2148503470.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
+                <Avatar src="https://img.freepik.com/free-photo/female-sales-person-jewelry-shop_1303-30688.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
               <Box display="flex" flexDirection="column">
             <Typography variant="h1"  fontSize="18px">Product selection</Typography>
                 <Typography>
@@ -63,7 +63,7 @@ export default function MiddleContent() {
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
             <Box display="flex" gap="20px" >
-                <Avatar src="https://img.freepik.com/free-photo/pleased-young-call-center-man-wearing-headset-his-thumbs-up-isolated-white-background_141793-63592.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
+                <Avatar src="https://img.freepik.com/free-photo/young-couple-buying-jewelry_7502-7603.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
               <Box display="flex" flexDirection="column">
             <Typography variant="h1"  fontSize="18px">Customer service</Typography>
                 <Typography>
@@ -74,7 +74,7 @@ export default function MiddleContent() {
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
             <Box display="flex" gap="20px" >
-                <Avatar src="https://img.freepik.com/premium-photo/indoor-studio-shot-surprised-housewife-having-shocked-facial-expression_176532-7631.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
+                <Avatar src="https://img.freepik.com/free-photo/numerology-concept-with-hand-writing-paper_23-2150062962.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais" sx={{height:"100px",width:"100px",borderRadius:"20px"}} />
               <Box display="flex" flexDirection="column">
             <Typography variant="h1"  fontSize="18px">Recipe ideas</Typography>
                 <Typography>

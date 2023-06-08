@@ -23,7 +23,7 @@ const NavBar = styled(Box)(({ theme }) => ({
   },
   
   background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)
-  ),url(${"https://img.freepik.com/premium-photo/empty-stage-with-lighting-equipment-stage-spotlight-shines-stage-3d-rendering_39972-795.jpg?w=900"})
+  ),url(${"https://img.freepik.com/free-vector/realistic-gold-silver-jewelry-display-black-mannequins-stands-grey-surface_1284-9644.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
 }));
 

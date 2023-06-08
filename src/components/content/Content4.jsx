@@ -9,7 +9,7 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
     [theme.breakpoints.down("sm")]: {
         justifyContent:'center' 
         },
-        background: `url(${"https://img.freepik.com/free-vector/hand-drawn-photo-studio-elements_23-2147560302.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+        background: `url(${"https://img.freepik.com/premium-photo/gold-decoration_250469-2964.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
          center/cover no-repeat`,
   }));
 export default function Content4() {
@@ -19,8 +19,8 @@ export default function Content4() {
 <Typography  sx={{color:"red",fontFamily:'Dancing Script',fontSize:{md:"48px",sm:'38px',xs:"28px"} }} data-aos="zoom-out">
 Discover Our
 </Typography>
-<Typography  sx={{fontFamily:'Dancing Script',fontSize:{md:"88px",sm:'68px',xs:"38px"},}} data-aos="zoom-out">
-Studio items
+<Typography  sx={{fontFamily:'Dancing Script',fontSize:{md:"88px",sm:'68px',xs:"38px"},color:"#fff"}} data-aos="zoom-out">
+Jwellery items
 </Typography>
 <Box display="flex">
           <Button
