@@ -1,0 +1,28 @@
+export const block2Data = {
+    data:[
+        {
+            id:1,
+            image:'https://img.freepik.com/free-photo/modern-studio-apartment-design-with-bedroom-living-space_1262-12375.jpg?size=626&ext=jpg'
+        },
+        {
+            id:2,
+            image:'https://img.freepik.com/free-photo/sunset-pool_1203-3192.jpg?size=626&ext=jpg'
+        },
+        {
+            id:3,
+            image:'https://img.freepik.com/free-photo/chambermaid-preparing-hotel-room_23-2148095219.jpg?size=626&ext=jpg'
+        },
+        {
+            id:4,
+            image:'https://img.freepik.com/premium-photo/brightly-colored-bedroom-with-bed-generative-ai_900958-5585.jpg?size=626&ext=jpg'
+        },
+        {
+            id:5,
+            image:'https://img.freepik.com/free-photo/beautiful-luxury-outdoor-swimming-pool-hotel-resort_74190-7433.jpg?size=626&ext=jpg'
+        },
+        {
+            id:6,
+            image:'https://img.freepik.com/free-photo/swimming-pool-beach-luxury-hotel-type-entertainment-complex-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer-turkey_146671-18726.jpg?size=626&ext=jpg'
+        },
+    ]
+}

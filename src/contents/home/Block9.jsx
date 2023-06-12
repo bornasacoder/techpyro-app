@@ -1,136 +1,30 @@
+import { Box, Button, TextField, Typography } from '@mui/material'
 import React from 'react'
-import {Card, CardMedia, Typography, Box,useTheme,styled, Button, TextField, Select} from '@mui/material';
-import { TaskAlt } from '@mui/icons-material';
 
-const Block9 = () => {
-    const theme = useTheme();
-    const CardBox = styled(Card)(({theme})=>({
-    display:'flex',
-    flexDirection:'row',
-    width:'530px',
-    height:'300px',
-    backgroundColor:'#F2F2F2',
-    borderRadius:'20px',
-    boxShadow:'none',
-    [theme.breakpoints.down('lg')]: {
-      width:'100vw',
-      height:'400px',
-     
-    },
-    [theme.breakpoints.down('md')]: {
-      width:'100vw',
-      height:'250px',
-      flexDirection:'row',
-      // paddingTop:'50px',
-      // gap:'50px',
-    },
-    [theme.breakpoints.down('sm')]: {
-      width:'100%',
-      height:'250px',
-      flexDirection:'row',
-      
-      // paddingTop:'50px',
-      // gap:'50px',
-    },
-   
-  }))
-  const Box1= styled(Box)(({ theme }) => ({
-    height:'600px',
-    width:'100%',
-    backgroundImage: `url(${"/images/category/bgdimg4.jpeg"})`,
-    backgroundSize:'cover',
-    // backgroundAttachment:'fixed'
-    }
-  ));
-  const Box2= styled(Box)(({ theme }) => ({
-    height:'680px',
-    width:'100%',
-    backgroundImage: `url(${"/images/category/bgdimg5.webp"})`,
-    backgroundSize:'cover',
-    // backgroundAttachment:'fixed',
-    display:'flex',
-    justifyContent:'space-evenly',
-    alignItems:'center',
-    gap:'150px',
-    // flexDirection:'column'
-    [theme.breakpoints.down('sm')]: {
-      width:'100%',
-      height:'900px',
-      flexDirection:'column',
-      padding:'0px',
-      
-      gap:'50px'
-    },
-    }
-  ));
+export default function Block9() {
   return (
-    <>
-     {/* <Box1>
 
-     </Box1> */}
-  
+     <Box sx={{marginTop:{xs:'20px',sm:'30px',md:''} ,width:'100%',background:{xs:'#FC5B62',sm:'#FC5B62',md:'#fff',lg:'#fff'} ,display:'flex',flexDirection:{xs:'column',sm:'column',md:'row',lg:'row'}}}>
+            <Box sx={{width:{xs:'100%',sm:'100%', md:'80%' , lg:'60%'},height:'100%',background:'#FC5B62',clipPath:{ md:'polygon(0 0, 100% 0%, 80% 100%, 0% 100%)'}}}>
+                <Box sx={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center',padding:' 0px 10px'}}>
+                    <Typography sx={{color:'#fff',margin:'10px 0px',fontSize:{md:'45px',xs:'25px'}}}>Sign up to our newsletter</Typography>
+                    <Typography sx={{color:'#fff',fontSize:{md:'18px',xs:'16px'}}}>Get latest deals, giveaways & tips delivered straight to your inbox once or twice</Typography>
+                    <Typography sx={{color:'#fff',fontSize:{md:'18px',xs:'16px'}}}> a month! You can unsubscribe at any time. Your information will be treated with</Typography>
+                    <Typography sx={{color:'#fff',fontSize:{md:'18px',xs:'16px'}}}>respect.</Typography>
+                </Box>
+            </Box>
 
-<Box sx={{display:'flex',justifyContent:'center',}}>
-<Box sx={{margin:{xs:'40px 10px',sm:'0px 50px',md:'40px 100px'},width:'auto',display:'flex',justifyContent:'center',flexDirection:{xs:'column',sm:'column',md:'row',gap:'40px'}}}>
-
-<Box sx={{backgroundColor:'#F2F2F2',display:'flex',flexDirection:'column',alignItems:'center',width:{xs:'100%',sm:'100%',md:'530px'},boxShadow:'1px 2px 5px 1px rgba(0,0,0,0.1)',borderRadius:'20px'}}>
-  <Typography sx={{backgroundColor:'#616DFF',color:'white',fontSize:'20px',fontWeight:'600',width:'150px',display:'flex',justifyContent:'center',borderRadius:'10px'}}>LKG</Typography>
-
-      
-      <CardBox >
-      <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'50%',sm:'50%',md:'50%'},margin:{xs:'20px',sm:'0px',md:'50px'},paddingTop:'40px'}}>
-      
-        <CardMedia
-       sx={{height:{xs:'auto',sm:'50%',md:'50%'},width:{xs:'100%',sm:'100%',md:'100%'}}}
-          component="img"
-          image="/images/category/byjus7.png"
-          alt="green iguana"
-        />
+            <Box sx={{display:'flex',alignItems:'center',justifyContent:'center',height:'auto',width:{xs:'90%',sm:'80%',md:'80%', lg:'50%'}}}>
+                    <Box component="form"sx={{'& > :not(style)': { m: 1, width: '35ch' }, display:'flex',flexDirection:'column',}}
+                    noValidate
+                    autoComplete="off"
+                    >
+                    <Typography sx={{color:{xs:'#fff' ,sm:'#fff',md:'#222',lg:'#222222'},fontSize:{md:'18px',xs:'16px'}}}>Enter your E-mail id</Typography>
+                    <TextField id="outlined-basic" sx={{background:{xs:'#fff',sm:'#fff',md:'',lg:'',fontSize:{md:'20px',xs:'16px'}}}} label=" Enter your email address here" variant="outlined" />
+                    <Button sx={{background:'#FC5B62',color:'#fff',} } variant='outlined'>Get Started</Button>
+                    </Box>
+            </Box>
      </Box>
-       <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'50%',sm:'50%',md:'50%'},display:'flex',flexDirection:'column',padding:{xs:'15px',sm:'20px',md:'40px'},gap:'20px'}}>
-       
-        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'600',}}>Personalised learning app to learn anytime,anywhere</Typography>
-        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500',textDecoration:'underline'}}>Know More  </Typography>
-        <Button variant='contained' sx={{backgroundColor:'#FC6570',color:'black',border:'1px solid black',borderRadius:'10px',"&:hover":{backgroundColor:'black',color:'white'},width:'100px'}}>Explore</Button>
-     
-       </Box>
-      
-      
-      </CardBox>
-</Box>
-
-
-<Box sx={{backgroundColor:'#F2F2F2',display:'flex',flexDirection:'column',alignItems:'center',width:{xs:'100%',sm:'100%',md:'530px'},boxShadow:'1px 2px 5px 1px rgba(0,0,0,0.1)',borderRadius:'20px'}}>
-  <Typography sx={{backgroundColor:'#616DFF',color:'white',fontSize:'20px',fontWeight:'600',width:'150px',display:'flex',justifyContent:'center',borderRadius:'10px'}}>UKG</Typography>
-
-      <CardBox >
-      <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'50%',sm:'50%',md:'50%'},padding:{xs:'20px',sm:'0px',md:'50px'}}}>
-      
-        <CardMedia
-         sx={{height:{xs:'100%',sm:'80%',md:'100%'},width:{xs:'100%',sm:'100%',md:'100%'}}}
-          component="img"
-          image="/images/category/byjus8.png"
-          alt="green iguana"
-        />
-     </Box>
-       <Box sx={{height:{xs:'100%',sm:'100%',md:'100%'},width:{xs:'50%',sm:'50%',md:'50%'},display:'flex',flexDirection:'column',padding:{xs:'15px',sm:'20px',md:'40px'},gap:'20px'}}>
-       
-       <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'20px'},fontWeight:'600',}}>Personalised learning program for the leaders of tomorrrow</Typography>
-        <Typography sx={{fontSize:{xs:'15px',sm:'20px',md:'15px'},fontWeight:'500',textDecoration:'underline'}}>Know More </Typography>
-        <Button variant='contained' sx={{backgroundColor:'#FC6570',color:'black',border:'1px solid black',borderRadius:'10px',"&:hover":{backgroundColor:'black',color:'white'},width:'100px'}}>Explore</Button>
-       </Box>
-      
-      </CardBox>
-
-
-       </Box>
-       
-       </Box>
-       </Box>
-       
-       
-       </>
-       
+    
   )
-    }
-export default Block9
+}

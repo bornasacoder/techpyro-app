@@ -1,0 +1,39 @@
+.images{
+    background-image:url('https://img.freepik.com/free-photo/light-view-nature-blue-health_1203-4895.jpg?size=626&ext=jpg'); 
+    background-size: cover;
+    background-origin:center;
+    height:700px;
+    width: 100%;
+   animation:showcase-animation 6s infinite alternate ease-in-out;
+    transition:all 10s;
+}
+@keyframes showcase-animation{
+    0%{
+        background-image:url('https://img.freepik.com/premium-photo/traditional-inner-yard-mexican-mansion-with-turquoise-swimming-pool_272335-1729.jpg?size=626&ext=jpg'); 
+    }
+ 
+    33%{
+        background-image: url('https://img.freepik.com/premium-photo/concepts-ratings-food-reviews_150418-528.jpg?size=626&ext=jpg');
+    }
+    66%{
+      background-image: url('https://img.freepik.com/free-photo/close-up-smiley-friends-restaurant_23-2148965380.jpg?size=626&ext=jpg');
+    }
+    100%{
+      background-image: url('https://img.freepik.com/free-photo/outdoor-patio-with-table-chair_74190-7542.jpg?size=626&ext=jpg');
+    }
+    
+}
+
+@media (max-width:600px){
+  .images{
+    height: 400px;
+  }
+}
+@media (max-width:400px){
+  .images{
+    height: 350px;
+  }
+}
+
+
+

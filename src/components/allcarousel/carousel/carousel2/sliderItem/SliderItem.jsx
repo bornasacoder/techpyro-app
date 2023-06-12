@@ -17,18 +17,17 @@ const ImageContainer = styled("div")({
     alignItems:"center",
     // justifyContent:"center",
     flexDirection:"column",
-    // margin:"0px 20px"
+    // margin:"10px 20px"
     // border:'1px solid black'
 
 })
 const Image = styled("img")({
     width:"100%",
-    height:"500px",
+    height:"600px",
     objectFit:"cover",
     // margin:"40px",
     zIndex:"1",
     // border:'1px solid black',
-    borderRadius:'10px',
     "@media (max-width: 960px)": {
        width:'100%',
        height:'500px',
@@ -46,7 +45,7 @@ const Image = styled("img")({
             },
             "@media (max-width: 480px)": {
                 width:'100%',
-                height:'300px',
+                height:'200px',
                 margin:'0',
                 padding:'0',
                 // gap:'20px'
@@ -69,22 +68,22 @@ const Head = styled("h3")({
 //         fontSize: "12px",
 //         },
 // })
- const SliderItem = ({posterLinks}) => {
-    console.log(posterLinks)
+ const SliderItem = () => {
+    // console.log(posterLinks)
   return (
        <>
       
-       <SliderContainer>
+       {/* <SliderContainer>
         <ImageContainer>
             <Image src={posterLinks.image} />
-            {/* <Box sx={{width:{xs:'140px',sm:'200px',md:'260px'}}}>
+            <Box sx={{width:{xs:'140px',sm:'200px',md:'260px'}}}>
             <Head>{posterLinks.price.mrp}</Head>
             <Head>{posterLinks.name}</Head>
             <Head>{posterLinks.style}</Head>
             <Head>{posterLinks.tagline}</Head>
-            </Box> */}
+            </Box>
         </ImageContainer>
-       </SliderContainer>
+       </SliderContainer> */}
        </>
   )
 }

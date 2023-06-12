@@ -7,16 +7,15 @@ const Search = styled(Box)(({theme}) => ({
 
     // border:'1px solid black',
     // margin-left: 10px;
-    width: '600px',
-    height:'40px',
-    borderRadius:'50px',
-    backgroundColor: 'white',
+    width: '300px',
+    height:'35px',
+    borderRadius:'5px',
+    backgroundColor: '#ECEFF1',
     display: 'flex',
     alignItems:'center',
     border:'1px solid rgba(0,0,0,0.3)',
     [theme.breakpoints.down('sm')]: {
-       
-        width: '200px',
+        width: '100%',
         // position: 'absolute',
         // top : '80px',
         // right: '4.5px',
@@ -44,11 +43,11 @@ const SearchField = styled(TextField)(({theme}) => ({
     // padding: 8.5px 21px;
     // fontSize: 'unset',
     // paddingLeft:'px',
-    width:'600px' ,
+    width:'70px' ,
     height:'40px',
     borderRadius:'0px',
     [theme.breakpoints.down('sm')]: {
-        width:'200px' ,
+        width: '100%',
 
         padding:'0'
         // position: 'absolute',
@@ -89,10 +88,11 @@ export default function SearchBar() {
   return (
     <Search>
        
-        <SearchField   placeholder='Search everything in Walmart and in store.....' sx={{"& fieldset": {border:'none'}, '& .MuiInputBase-input': {paddingBottom:{xs:'20px',sm:'20px',md:'50px'},
-     height:{xs:'10px',sm:'10px',md:'10px',},borderRadius:'0px'
-    },border:'none'}} onClick={searchHandler} ref={catMenu}  ></SearchField>
-    <SearchOutlined sx={{fontSize:'30px',color:'black',margin:'5px',backgroundColor:'#FFC220',borderRadius:'50px',}}/>
+        <SearchField   placeholder='search for products ,brands.....' sx={{"& fieldset": {border:'none'}, '& .MuiInputBase-input': {paddingBottom:{xs:'0px',sm:'0px',md:'50px'},
+     height:{xs:'25px',sm:'25px',md:'0px',},borderRadius:'0px'
+    },border:'none'}} onClick={searchHandler} ref={catMenu}></SearchField>
+
+    <SearchOutlined sx={{fontSize:'20px',color:'white',marginLeft:'0px',backgroundColor:'red',height:'35px',width:'30px',borderRadius:'5px',}}/>
         <SearchList sx={{display: showSearch,
             flexDirection:'column', 
             width: '39.95%',
