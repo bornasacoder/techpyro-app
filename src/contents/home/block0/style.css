@@ -1,0 +1,39 @@
+.images{
+    background-image:url('https://img.freepik.com/free-photo/mock-up-poster-frame-boho-interior-background-wooden-living-room-design-scandinavian-style-genera_1258-151572.jpg?size=626&ext=jpg'); 
+    background-size: cover;
+    background-origin:center;
+    height:650px;
+    width: 100%;
+   animation:showcase-animation 6s infinite alternate ease-in-out;
+    transition:all 5s;
+}
+@keyframes showcase-animation{
+    0%{
+        background-image:url('https://img.freepik.com/free-photo/mock-up-poster-frame-boho-interior-background-wooden-living-room-design-scandinavian-style-genera_1258-151572.jpg?size=626&ext=jpg'); 
+    }
+ 
+    33%{
+        background-image: url('https://img.freepik.com/premium-photo/modern-gallery-interior-with-color-backlight_670147-24099.jpg?size=626&ext=jpg');
+    }
+    66%{
+      background-image: url('https://img.freepik.com/free-photo/professional-lighting-equipment-movie-set-with-smoke-air_1268-17216.jpg?size=626&ext=jpg');
+    }
+    100%{
+      background-image: url('https://img.freepik.com/free-photo/closeup-digital-camera-with-lenses_181624-59757.jpg?size=626&ext=jpg');
+    }
+    
+}
+
+@media (max-width:600px){
+  .images{
+    height: 400px;
+  }
+}
+@media (max-width:400px){
+  .images{
+    height: 350px;
+  }
+}
+
+
+

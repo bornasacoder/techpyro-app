@@ -1,0 +1,27 @@
+.slick-prev::before,
+.slick-next::before{
+    display:none;
+}
+/* .slick-next{
+width: 4vw;
+} */
+.slick-next{
+    right:0px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    color: black;
+    
+}
+.slick-prev{
+    left:10px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    z-index: 200;
+    color: black;
+}
+.css-u6v8er{
+    display: flex !important;
+}
+.css-wkpw2c{
+    display: flex !important;
+}

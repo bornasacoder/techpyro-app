@@ -1,66 +1,65 @@
 import React from 'react'
 import {
-    styled,
-    Badge,
-    Button,
-    Box,
     Divider,
     List,
     ListItem,
     ListItemText,
-    Typography,
   } from "@mui/material";
+  
 
 export default function MenuButtons() {
   return (
-    <List component="nav" aria-label="mailbox folders">
+    <List component="nav" aria-label="mailbox folders" width="60%">
       <ListItem button>
-        <ListItemText primary="FACE COVERS" />
+        <ListItemText primary="Sign-In/Sign-Up" />
       </ListItem>
       <Divider />
       <ListItem button divider>
-        <ListItemText primary="MEN" />
+        <ListItemText primary="TV&AV" />
       </ListItem>
       <ListItem button>
-        <ListItemText primary="WOMEN" />
-      </ListItem>
-      <Divider light />
-      <ListItem button>
-        <ListItemText primary="KIDS" />
+        <ListItemText primary="Home Appliances" />
       </ListItem>
       <Divider light />
       <ListItem button>
-        <ListItemText primary="SPORTS" />
-      </ListItem>
-      <ListItem button>
-        <ListItemText primary="BRANDS" />
-      </ListItem>
-      <ListItem button>
-        <ListItemText primary="COLLECTIONS" />
-      </ListItem>
-      <ListItem button>
-        <ListItemText primary="WINTER SHOP" />
-      </ListItem>
-      <ListItem button>
-        <ListItemText primary="OUTLET" />
+        <ListItemText primary="Laptop & Monitors" />
       </ListItem>
       <Divider light />
       <ListItem button>
-        <ListItemText primary="Order tracker" />
+        <ListItemText primary="Display" />
       </ListItem>
       <ListItem button>
-        <ListItemText primary="My Profile" />
+        <ListItemText primary="Accessories" />
       </ListItem>
       <ListItem button>
+        <ListItemText primary="Smart Things" />
+      </ListItem>
+      <ListItem button>
+        <ListItemText primary="Others" />
+      </ListItem>
+      <Divider light />
+      <ListItem button>
+        <ListItemText primary="Supports" />
+      </ListItem>
+      <ListItem button>
+        <ListItemText primary="For Business" />
+      </ListItem>
+      {/* <ListItem button>
         <ListItemText primary="Store Finder" />
       </ListItem>
       <ListItem button>
         <ListItemText primary="Help & Customer service" />
-      </ListItem>
+      </ListItem> */}
 
       <Divider light />
       <ListItem button>
-        <ListItemText primary="INDIA" />
+        <ListItemText primary="Others" />
+      </ListItem>
+      <ListItem >
+       <ListItemText>Product Registration</ListItemText>
+      </ListItem>
+      <ListItem >
+       <ListItemText> Service Center</ListItemText>
       </ListItem>
     </List>
   )

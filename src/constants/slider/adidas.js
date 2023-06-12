@@ -1,98 +1,105 @@
 export const adidas = [
     {
-        name:"Samba Vegan Shoes",
+        name:"Galaxy S22",
         style:'Men Life Style',
          price: {
-               mrp: "Father of Manav",
-               discount: "50% 0FF",
-               cost: "₹3,199"
+               mrp: "₹57,599",
+               discount: "20% 0FF",
+               cost: "₹1,999"
            },
            category:["Spring Rolls","Thali","sweets"],
-           tagline: "BYJU'S helped Manav pick up his learning pace in science",
-      image:"https://img.freepik.com/free-photo/cute-little-girl-drawing-with-paint-paintbrush-home_155003-15806.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
-           rating:"class9|Banglore",
+           tagline: "Wrogn men solid black jeans",
+           id:1,
+          image:"https://img.freepik.com/free-vector/studio-photographer-concept-illustration_114360-2306.jpg?size=626&ext=jpg",
+           rating:"4.3",
        },
 
        {
-        name:"Samba Vegan Shoes",
+        name:"Galaxy S20",
         style:'Men Life Style',
         price: {
-            mrp: "Father of Manav",
+            mrp: "₹1,599",
             discount: "50% 0FF",
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-           tagline: "BYJU'S helped Manav pick up his learning pace in science",
-     image:"https://img.freepik.com/free-photo/group-children-sitting-table-with-markers-crayons-colored-cardboard_186202-6323.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
-     rating:"class9|Banglore",
+           tagline: "Wrogn men solid black jeans",
+           id:2,
+     image:"https://img.freepik.com/free-vector/interior-with-sofa-realistic-illustration_1284-16882.jpg?size=626&ext=jpg",
+           rating:"4.3",
        },
        {
-        name:"Samba Vegan Shoes",
+        name:"GalaxyZ flip4",
         style:'Men Life Style',
         price: {
-            mrp: "Father of Manav",
+            mrp: "₹10599",
             discount: "50% 0FF",
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-       image:"https://img.freepik.com/free-photo/children-group-reading-books_23-2148107425.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
-       tagline: "BYJU'S helped Manav pick up his learning pace in science",
-       rating:"class9|Banglore",
+           id:3,
+       image:"https://img.freepik.com/premium-photo/scenes-filming-films-video-products-film-crew-film-crew-set-pavilion-film-studio_124865-1835.jpg?size=626&ext=jpg",
+       tagline: "Wrogn men solid black jeans",
+           rating:"4.3",
        },
        {
-        name:"Samba Vegan Shoes",
+        name:"Tecnology Rs",
         style:'Men Life Style',
         price: {
-            mrp: "Father of Manav",
+            mrp: "₹10599",
             discount: "50% 0FF",
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-         image: "https://img.freepik.com/premium-photo/young-asian-indian-college-students-reading-books-studying-laptop-preparing-exam-working-group-project-while-sitting-grass-staircase-steps-college-campus_466689-7729.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
-         tagline: "BYJU'S helped Manav pick up his learning pace in science",
-         rating:"class9|Banglore",
+           id:4,
+         image: "https://img.freepik.com/free-vector/talk-show-studio-interior_1284-9411.jpg?size=626&ext=jpg",
+         tagline: "Wrogn men solid black jeans",
+           rating:"4.3",
        },
        {
-        name:"Samba Vegan Shoes",
+        name:"AI Control",
         style:'Men Life Style',
         price: {
-            mrp: "Father of Manav",
+            mrp: "₹10599",
             discount: "50% 0FF",
             cost: "₹3,199"
         },
            category:["Spring Rolls","Thali","sweets"],
-     image:"https://img.freepik.com/free-photo/pleased-ginger-woman-shirt-holding-books-looking-away_171337-7447.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
-     tagline: "BYJU'S helped Manav pick up his learning pace in science",
-     rating:"class9|Banglore",
+           id:5,
+     image:"https://img.freepik.com/free-psd/empty-green-gold-cubes-podium-cosmetic-product-display-presentation-minimal-scene-3d-rendering_1258-123100.jpg?size=626&ext=jpg",
+     tagline: "Wrogn men solid black jeans",
+           rating:"4.3",
        },
        {
-        name:"Samba Vegan Shoes",
+        name:"QLED",
         style:'Men Life Style',
         price: {
-            mrp: "Father of Manav",
+            mrp: "₹10599",
             discount: "50% 0FF",
             cost: "₹3,199"
         },
            category:["Spring Rolls","RasGulla","sweets"],
-           tagline: "BYJU'S helped Manav pick up his learning pace in science",
-     image:"https://img.freepik.com/free-photo/young-smiling-student-woman-white-background_231208-2062.jpg?size=626&ext=jpg&ga=GA1.1.681071774.1670583833&semt=ais",
+           tagline: "Wrogn men solid black jeans",
+           id:6,
+     image:"https://img.freepik.com/premium-psd/copy-space-professional-camera_23-2148391695.jpg?size=626&ext=jpg",
 
-     rating:"class9|Banglore",
+           rating:"4.3",
        },
-    //    {
-    //     name:"Samba Vegan Shoes",
-    //     style:'Men Life Style',
-    //     price: {
-    //         mrp: "₹1,599",
-    //         discount: "50% 0FF",
-    //         cost: "₹3,199"
-    //     },
-    //        category:["Spring Rolls","Thali","sweets"],
+       {
+        name:"The free style",
+        style:'Men Life Style',
+        price: {
+            mrp: "₹10599",
+            discount: "50% 0FF",
+            cost: "₹3,199"
+        },
+           category:["Spring Rolls","Thali","sweets"],
 
-    //        tagline: "Best couch for you",
-    //       image:"https://m.media-amazon.com/images/I/71razUsFk9L._AC_SY200_.jpg",
-    //        rating:"4.3",
-    //    },
+           tagline: "Wrogn men solid black jeans",
+           id:7,
+          image:"https://img.freepik.com/free-photo/stage-light-with-red-background_1409-1803.jpg?size=626&ext=jpg",
+           rating:"4.3",
+       },
 
 ]
 
