@@ -1,0 +1,28 @@
+export const block2Data = {
+    data:[
+        {
+            id:1,
+            image:'https://img.freepik.com/premium-photo/makeup-brushes-with-pink-powder-haze_23-2148208956.jpg?size=626&ext=jpg'
+        },
+        {
+            id:2,
+            image:'https://img.freepik.com/free-photo/two-girls-are-doing-make-up-front-big-professional-mirror_231208-3557.jpg?size=626&ext=jpg'
+        },
+        {
+            id:3,
+            image:'https://img.freepik.com/premium-photo/beautiful-woman-with-perfect-make-up-manicure-wearing-jewellery_106029-55.jpg?size=626&ext=jpg'
+        },
+        {
+            id:4,
+            image:'https://img.freepik.com/free-vector/beauty-salon-stories-template-design_23-2148953613.jpg?size=626&ext=jpg'
+        },
+        {
+            id:5,
+            image:'https://img.freepik.com/free-psd/vertical-flyer-template-beauty-spa-with-woman-chamomile-flowers_23-2149001900.jpg?size=626&ext=jpg'
+        },
+        {
+            id:6,
+            image:'https://img.freepik.com/free-photo/beautiful-woman-face-with-fashion-green-make-up-jewelry-hand_186202-7081.jpg?size=626&ext=jpg'
+        },
+    ]
+}
