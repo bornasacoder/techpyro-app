@@ -129,21 +129,23 @@ export default function Block10(props) {
       };
 
       const data = [
-        {img:'https://img.freepik.com/free-photo/excited-gorgeous-female-explain-smartphone-feature-introduce-photographs-from-summer-vacation-smiling-joyfully-pointing-mobile-phone-screen-stand-white-background-promote-online-application_176420-56198.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Mobiles'},
-        
-        {img:'https://img.freepik.com/free-photo/young-woman-summer-clothes-listening-music-wearing-headphones-singing-along-favorite-song-dancing-earphones-standing-against-blue-background_1258-70434.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'headphones'},
-        {img:'https://img.freepik.com/free-photo/air-conditioner-mounted-white-wall_53876-128235.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'AC'},
+        {img:'https://img.freepik.com/free-photo/shoes_1203-8153.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Casual Shoes   '},
     
-        {img:'https://img.freepik.com/free-psd/laptop-blue-background-mock-up_1022-178.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Laptop'},
-        {img:'https://img.freepik.com/free-vector/home-interior-background-video-conferencing_23-2148627305.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'LED'},
-        {img:'https://img.freepik.com/free-photo/excited-gorgeous-female-explain-smartphone-feature-introduce-photographs-from-summer-vacation-smiling-joyfully-pointing-mobile-phone-screen-stand-white-background-promote-online-application_176420-56198.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Mobiles'},
+        {img:'https://img.freepik.com/free-photo/travel-beach-vibrant-red-colorful_1203-6068.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Slipper'},
+        {img:'https://img.freepik.com/free-photo/women-rsquo-s-white-high-heel-shoes-fashion_53876-106046.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Sandals'},
+        {img:'https://img.freepik.com/free-photo/pair-trainers_144627-3799.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Sport Shoes'},
+       
+      
+        {img:'https://img.freepik.com/free-photo/sneakers-shoes_1203-8036.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Loafers'},
+        {img:'https://img.freepik.com/free-photo/fashion-shoes-sneakers_1203-7529.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Sneakers'},
+    
         
       ]
   return (
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <SliderHeader sliderH='Electronic'/>
+        <SliderHeader sliderH='Footwear'/>
         <Slider {...settings}>
         { data.map((item)=>(
         <SliderItem data={item} />

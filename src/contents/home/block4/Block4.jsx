@@ -130,21 +130,21 @@ export default function Block3(props) {
       };
 
       const data = [
-        {img:'https://img.freepik.com/free-vector/broken-washing-machine-realistic-indoor-composition-with-clothes-washer-water-pouring-out-door_1284-33057.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais'},
-        {img:'https://img.freepik.com/free-psd/realistic-monitor-presentation_1310-18.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'PC'},
-        {img:'https://img.freepik.com/premium-photo/white-fan-with-purple-base-that-says-i-love-you_649314-4.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Cooler'},
-        {img:'https://img.freepik.com/free-photo/levitating-music-headphones-display_23-2149817602.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'headphone'},
-        {img:'https://img.freepik.com/free-vector/smart-watch-realistic-image-black_1284-11873.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Andriod Watch'},
-        
-        {img:'https://img.freepik.com/premium-vector/modern-realistic-frige-white-background_88188-342.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Refrigerator'},
-    
+        {img:'https://img.freepik.com/free-photo/pair-trainers_144627-3799.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Sport Shoes'},
+    {img:'https://img.freepik.com/premium-photo/mens-urban-style-sports-shoes-float-air-idea-style-convenience-practicality_594847-216.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Casual Shoes   '},
+
+    {img:'https://img.freepik.com/free-photo/red-flipflops-beach-sandals-isolated-white-background_1101-1999.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Slipper'},
+    {img:'https://img.freepik.com/free-photo/high-heel-shoes_1203-8671.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Sandals'},
+    {img:'https://img.freepik.com/free-photo/white-lather-loafer-mules-shoes-beige_53876-97143.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Loafers'},
+    {img:'https://img.freepik.com/free-psd/black-friday-super-sale-instagram-facebook-story-banner-template_106176-1618.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Sneakers'},
+
       ]
 
   return (
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <Header sliderH='Electronic'/>
+        <Header sliderH='Footwear'/>
         <Slider {...settings}>
         {data.map((item)=>(
         <Item data={item} />

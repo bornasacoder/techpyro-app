@@ -168,7 +168,7 @@ export default function Navbar() {
             <Menu/>
             </MenuButtons>
           <Typography variant="h1" fontSize="20px">
-          Electronic
+           Footwear
           </Typography>
           </Box>
            <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
@@ -222,21 +222,22 @@ export default function Navbar() {
     </NavBarTop>
 
     <NavBarBottom>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Mobile</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Pc</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Laptop</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Tablet</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>TV</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Washing Machine</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Earbuds</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Headphones</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Sounds</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Watches</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Inverter</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Chargers</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>AC</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Fan</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Cooler</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Sports Shoes</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Casual Shoes</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Formal Shoes</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Loafers
+      </Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Ethnic Footwear</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Sneakers</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Sandals</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Flip Flops</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Boots</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Moccasins</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Mules</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Ballet Flats</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Wedges</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Salwar Kameez Shoes</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Slippers</Typography>
 
     </NavBarBottom>
 

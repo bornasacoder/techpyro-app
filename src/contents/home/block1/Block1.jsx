@@ -115,26 +115,26 @@ const MainCarousel = () => {
     // <CarouselCard>
     <Box sx={{marginTop:{xs:'120px',md:'65px',lg:'50px'}}}>
     <Slider {...settings1}>
-
+   
     <Item>
-      <Img src='https://img.freepik.com/free-vector/air-conditioning-cold-effect-heat-effect_107791-13850.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-photo/blogger-filming-sneakers-review_274689-43046.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
-      <Item>
-        <Img src='https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph' />
+    <Item>
+        <Img src='https://img.freepik.com/free-psd/new-collection-fashion-sale-web-banner-template_120329-1507.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
         <Head>upto 40% off</Head>
       </Item>
-    <Item>
-      <Img src='https://img.freepik.com/free-vector/banner-online-offline-system_107791-2042.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais' />
-      <Head>upto 40% off</Head>
-    </Item>
-    <Item>
-      <Img src='https://img.freepik.com/premium-vector/electronic-store-with-couple-buy-vacuum-cleaner-assistant-checkout-packaging-man-looking-shelves-computers-tv-monitors-assortment_575670-808.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais' />
+   
+      <Item>
+      <Img src='https://img.freepik.com/premium-photo/fashion-male-sport-shoes-blue-background-stylish-man-sneakers-fitness-close-up_77190-1693.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
   
-  
-  
+    <Item>
+      <Img src='https://img.freepik.com/premium-photo/fashion-stylish-sneakers-with-flying-laces-running-sports-shoes-orange-background-close-up_179369-778.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
+      <Head>upto 40% off</Head>
+    </Item>
+    
   </Slider>
   </Box>
   // </CarouselCard>

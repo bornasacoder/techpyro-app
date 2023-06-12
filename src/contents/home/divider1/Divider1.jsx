@@ -42,7 +42,7 @@ export default function Divider1({image}) {
     <Container>
         <img style={{width:'100%', height:'100%'}} src={image} alt="card"/> 
         <ContainerInner >
-            <Typography sx={{textAlign:'center', fontSize:{md:'25px',sm:'20px',xs:'18px'}, fontWeight: 900, color:'#fff' }}>Electronic Trending</Typography>
+            <Typography sx={{textAlign:'center', fontSize:{md:'25px',sm:'20px',xs:'18px'}, fontWeight: 900, color:'#fff' }}>Footwear Trending</Typography>
             <Button endIcon={<East/>} sx={{ fontSize:{sm:'18px',}, fontWeight: 400,color:`${theme.colors.alpha.white[100]}`, background:`${theme.colors.gradients.orange1}`}}>View All</Button>
         </ContainerInner>   
     </Container>

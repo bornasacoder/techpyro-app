@@ -130,22 +130,22 @@ export default function Block9(props) {
       };
 
       const data = [
-        {img:'https://img.freepik.com/free-vector/household-appliances-realistic-composition_1284-65307.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'AC'},
-        {img:'https://img.freepik.com/free-photo/full-shot-smiley-woman-holding-tablet_23-2149395840.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Cooler'},
-        {img:'https://img.freepik.com/free-psd/realistic-computer-design_1310-689.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'PC'},
+        {img:'https://img.freepik.com/free-photo/high-heel-shoes_1203-8671.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Sandals'},
+        {img:'https://img.freepik.com/free-photo/white-lather-loafer-mules-shoes-beige_53876-97143.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Loafers'},
+        {img:'https://img.freepik.com/free-psd/black-friday-super-sale-instagram-facebook-story-banner-template_106176-1618.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Sneakers'},
     
-        {img:'https://img.freepik.com/free-photo/woman-sitting-washing-machine-with-basket-full-clothes_23-2149117084.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Washing Machine'},
-            {img:'https://img.freepik.com/free-photo/headphones-stereo-equipment-single-object-technology-generated-by-ai_188544-10146.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sphh',name:'Headphone'},
-        
-            {img:'https://img.freepik.com/premium-psd/smart-tv-mockup-isolated-3d-rendering_322208-226.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'LED TV'},
-         
+        {img:'https://img.freepik.com/free-photo/pair-trainers_144627-3799.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Sport Shoes'},
+    {img:'https://img.freepik.com/premium-photo/mens-urban-style-sports-shoes-float-air-idea-style-convenience-practicality_594847-216.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Casual Shoes   '},
+
+    {img:'https://img.freepik.com/free-photo/red-flipflops-beach-sandals-isolated-white-background_1101-1999.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Slipper'},
+  
       ]
 
   return (
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <Header sliderH='Electronic'/>
+        <Header sliderH='Footwear'/>
         <Slider {...settings}>
         {data.map((item)=>(
         <Item data={item} />
