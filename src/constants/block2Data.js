@@ -1,0 +1,28 @@
+export const block2Data = {
+    data:[
+        {
+            id:1,
+            image:'https://img.freepik.com/free-photo/doctor-helping-patient-during-rehabilitation_23-2150321625.jpg?size=626&ext=jpg'
+        },
+        {
+            id:2,
+            image:'https://img.freepik.com/free-photo/doctor-helping-patient-during-rehabilitation_23-2150321579.jpg?size=626&ext=jpg'
+        },
+        {
+            id:3,
+            image:'https://img.freepik.com/free-photo/doctors-operating-room-performing-rhinoplasty_23-2149352207.jpg?size=626&ext=jpg'
+        },
+        {
+            id:4,
+            image:'https://img.freepik.com/free-photo/3d-render-hand-holding-heart-with-pulse-line-beat_107791-17213.jpg?size=626&ext=jpg'
+        },
+        {
+            id:5,
+            image:'https://img.freepik.com/free-photo/empty-hospital-reception-counter-hallway-waiting-room-seats-medical-examination-appointment-with-physician-registration-desk-with-waiting-area-help-patients-with-disease-diagnosis_482257-51632.jpg?size=626&ext=jpg'
+        },
+        {
+            id:6,
+            image:'https://img.freepik.com/premium-photo/professional-doctors-operating-neurosurgery-modern-hospital-process_116317-25291.jpg?size=626&ext=jpg'
+        },
+    ]
+}
