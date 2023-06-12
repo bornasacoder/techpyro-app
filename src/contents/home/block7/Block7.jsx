@@ -129,21 +129,20 @@ export default function Block7(props) {
       };
 
       const data = [
-        {img:'https://img.freepik.com/free-photo/young-beautiful-smiling-female-trendy-summer-skirt-top-clothes-sexy-carefree-woman-posing-near-blue-wall-studio-positive-brunette-model-having-funcheerful-happy_158538-24924.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Skirts'},
-        {img:'https://img.freepik.com/free-photo/tylish-dark-haired-woman-summer-shorts-top-smiles-shows-peace-sign-pink-wall_197531-16704.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Shorts'},
-        {img:'https://img.freepik.com/free-photo/portrait-bearded-male-dressed-grey-jacket-hat-isolated-grey-background_613910-3150.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Jackets'},
+        {img:'https://img.freepik.com/free-photo/delivery-concept-handsome-african-american-delivery-man-carrying-package-box-grocery-food-drink-from-store-isolated-grey-studio-background-copy-space_1258-1232.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:' Vegetables'},
+        {img:'https://img.freepik.com/premium-photo/pan-with-bottle-oil-isolated-white_392895-344420.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Oil'},
     
-        {img:'https://img.freepik.com/free-photo/young-woman-with-shopping-bags-beautiful-dress_1303-17549.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Lehenga Choli'},
-        {img:'https://img.freepik.com/free-photo/portrait-handsome-smiling-stylish-young-man-model-dressed-red-checkered-shirt-fashion-man-posing_158538-4909.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Shirt'},
+        {img:'https://img.freepik.com/free-photo/common-food-that-can-cause-allergic-reactions-people_23-2149870586.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Milk Products'},
+        {img:'https://img.freepik.com/free-photo/set-various-bread-stone-surface_114579-40612.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Bread'},
+        {img:'https://img.freepik.com/free-photo/instant-noodles-table_1150-27247.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Noodles'},
+        {img:'https://img.freepik.com/free-photo/frozen-food-table-arrangement_23-2148969451.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Frozen Foods'},
     
-        {img:'https://img.freepik.com/free-photo/stack-clothes-white-background-closeup_93675-132644.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Jeans'},
-       
       ]
   return (
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <SliderHeader sliderH='Clothes'/>
+        <SliderHeader sliderH='Grocery'/>
         <Slider {...settings}>
         { data.map((item)=>(
         <SliderItem data={item} />

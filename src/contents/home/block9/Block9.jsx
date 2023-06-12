@@ -130,14 +130,14 @@ export default function Block9(props) {
       };
 
       const data = [
-        {img:'https://img.freepik.com/free-photo/cool-guy-good-mood-posing-blue-background-jumping_197531-26875.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Jeans'},
-        {img:'https://img.freepik.com/free-photo/portrait-serious-woman-wears-long-orange-skirt_197531-13162.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Skirts'},
+        {img:'https://img.freepik.com/free-vector/milk-products-template_1284-14600.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Milk Products'},
+        {img:'https://img.freepik.com/free-photo/various-homemade-bread-burlap-with-wheat-high-quality-photo_114579-38042.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Bread'},
+        {img:'https://img.freepik.com/free-photo/side-view-macaronis-as-bucatini-spaghetti-jars-with-salt-garlic-garlic-crusher-cloth-note-pad-wooden-surface-black-background-with-copy-space_141793-10913.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Noodles'},
        
-        {img:'https://img.freepik.com/free-photo/valentine-rsquo-s-day-apparel-couple-t-shirts-lips-theme_53876-105711.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'T-Shirts'},
-        {img:'https://img.freepik.com/free-photo/portrait-handsome-smiling-hipster-lumbersexual-businessman-model-wearing-casual-jeans-shirt-clothes_158538-17417.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Shirt'},
+        {img:'https://img.freepik.com/free-photo/basket-full-vegetables_1112-316.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:' Vegetables'},
+        {img:'https://img.freepik.com/free-vector/realistic-sesame-poster_1284-69965.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Oil'},
     
-        {img:'https://img.freepik.com/free-photo/beauty-fashion-brunette-model-girl-wearing-sunglasses-gray-wall_231208-3689.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Shorts'},
-        {img:'https://img.freepik.com/free-photo/confident-serious-handsome-man-wears-black-leather-jacket-gray-t-shirt-stylish-eyewear-looks-directly-into-camera-isolated-people-style-concept_176420-13362.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Jackets'},
+       {img:'https://img.freepik.com/free-photo/composition-with-frozen-fish-table_23-2148969396.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Frozen Foods'},
     
       ]
 
@@ -145,7 +145,7 @@ export default function Block9(props) {
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <Header sliderH='Clothes'/>
+        <Header sliderH='Grocery'/>
         <Slider {...settings}>
         {data.map((item)=>(
         <Item data={item} />

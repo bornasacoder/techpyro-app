@@ -117,21 +117,21 @@ const MainCarousel = () => {
     <Slider {...settings1}>
    
     <Item>
-      <Img src='https://img.freepik.com/free-photo/elegant-woolen-jacket-men-winter-fashion-generated-by-ai_188544-34301.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-photo/top-view-assortment-vegetables-paper-bag_23-2148853335.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
     <Item>
-        <Img src='https://img.freepik.com/free-photo/clothing-rack-with-floral-hawaiian-shirts-hangers-hat_23-2149366018.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
+        <Img src='https://img.freepik.com/free-photo/dried-food-products-sold-market_181624-60209.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
         <Head>upto 40% off</Head>
       </Item>
    
       <Item>
-      <Img src='https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448751.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-psd/healthy-food-banner-template-design_23-2148555636.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
   
     <Item>
-      <Img src='https://img.freepik.com/free-vector/various-color-checkered-cotton-shirts-folded-stack_1441-3074.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-psd/fresh-supermarket-template-design_23-2149623225.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
     

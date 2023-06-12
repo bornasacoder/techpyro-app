@@ -5,8 +5,8 @@ import Item from './Item';
 
 export default function Block8() {
   const data = [
-    {img:'https://img.freepik.com/free-psd/horizontal-banner-online-fashion-sale_23-2148585404.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Washing Machine'},
-    {img:'https://img.freepik.com/free-psd/summer-sale-70-discount_23-2148476960.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Headphone'},
+    {img:'https://img.freepik.com/free-psd/healthy-eating-lifestyle-banner-template_23-2149087274.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Washing Machine'},
+    {img:'https://img.freepik.com/free-psd/healthy-eating-lifestyle-banner-template_23-2149087275.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Headphone'},
 
   ]
   return (

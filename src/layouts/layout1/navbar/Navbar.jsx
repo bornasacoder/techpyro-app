@@ -168,7 +168,7 @@ export default function Navbar() {
             <Menu/>
             </MenuButtons>
           <Typography variant="h1" fontSize="20px">
-           Clothes
+          Grocery
           </Typography>
           </Box>
            <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
@@ -222,22 +222,17 @@ export default function Navbar() {
     </NavBarTop>
 
     <NavBarBottom>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Sarees</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Kurtis</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Lehenga Choli</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Palazzo Suits
+      <Typography sx={{color:'black',fontSize:'12px'}}>Rice</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Wheat and Wheat Flour</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Cooking Oil</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Sugar
       </Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Patiala Suits</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Sherwanis</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Kurta Pyjamas</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Shirts</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Jeans</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Shorts</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Ethnic Jackets</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Skirts</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Dupattas</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Tops and Tees</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Western Dresses</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Salt</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Milk and Dairy Products</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Bread and Bakery Products</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Fresh Fruits and Vegetables</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Pasta and Noodles</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Frozen Foods</Typography> 
 
     </NavBarBottom>
 
