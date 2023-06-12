@@ -38,7 +38,7 @@ export default function Content1() {
             width:{md:"60%",sm:"80%",xs:"100%"}
           }}
         >
-          TECHPYRO CAFE ITEMS
+          TECHPYRO CLOUTHS ITEMS
         </Typography>
       </Box>
       <Box
@@ -66,73 +66,73 @@ export default function Content1() {
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-vector/white-cup-hot-coffee-with-cinnamon-saucer-beans-wooden-table-realistic_1284-56783.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=sph"})
+  ),url(${"https://img.freepik.com/free-photo/attractive-stylish-woman-choosing-apparel-clothing-store_285396-4624.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Coffee</Item>
+            <Item>Tops</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/side-view-two-cups-coffee-cookies-cinnamon-limes-old-newspaper-dark-surface_140725-142669.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
+  ),url(${"https://img.freepik.com/free-photo/top-view-blue-buttons_23-2148528007.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Tea</Item>
+            <Item>Bottoms</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/assortment-pieces-cake_114579-28235.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
+  ),url(${"https://img.freepik.com/free-photo/fashion-set_1203-7559.jpg?w=740&t=st=1686568514~exp=1686569114~hmac=995ca2f67fa5ab0bc28d61279a2e0d0352d223b3469ebb19763f31aac32ca951"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Pastries</Item>
+            <Item>Accessories</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/side-view-chicken-roll-grilled-chicken-fillet-with-lettuce-greens-mayo-wrapped-tortilla-club-sandwich-table_141793-4848.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/premium-photo/row-jackets-are-hanging-rack-one-which-is-jacket-that-says-down-it_889227-23212.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Sandwiches and Wraps</Item>
+            <Item>Outerwear</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/top-view-fresh-vegetables-white-flower-wooden-hammer-delicious-vegan-salad-dark-color-background_179666-47261.jpg?w=900&t=st=1686567477~exp=1686568077~hmac=a27e438ca04598d9cb34c075f6e4366bbaa0ac519d1516625dfdb89ad9a2ace9"})
+  ),url(${"https://img.freepik.com/free-photo/football-composition-with-jersey_23-2147827778.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Salads</Item>
+            <Item>Activewear</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-vector/collection-four-bowls-with-hot-soup-soup-puree-with-greenery-rusks-decorations-isolated_1284-31751.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=sph"})
+  ),url(${"https://img.freepik.com/free-photo/swimsuit-yellow-background-isolated_1303-13537.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Soups</Item>
+            <Item>Swimwear</Item>
           </Grid>
         </Grid>
       </Box>
