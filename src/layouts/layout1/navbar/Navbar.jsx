@@ -168,7 +168,7 @@ export default function Navbar() {
             <Menu/>
             </MenuButtons>
           <Typography variant="h1" fontSize="20px">
-          Mall
+          Jewellery
           </Typography>
           </Box>
            <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
@@ -222,13 +222,18 @@ export default function Navbar() {
     </NavBarTop>
 
     <NavBarBottom>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Jewellery and Accessories</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Health and Wellness</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Books, Stationery, and Toys</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Home and Furnishings
+      <Typography sx={{color:'black',fontSize:'12px'}}>Gold Jewellery</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Diamond Jewellery</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Silver Jewellery </Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Kundan Jewellery
       </Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Beauty and Cosmetics</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Electronics and Appliances</Typography> 
+      <Typography sx={{color:'black',fontSize:'12px'}}>Temple Jewellery</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Pearl Jewellery</Typography> 
+      <Typography sx={{color:'black',fontSize:'12px'}}>Fashion Jewellery</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Antique Jewellery</Typography> 
+      <Typography sx={{color:'black',fontSize:'12px'}}>Traditional Ethnic Jewellery</Typography> 
+
+
 
     </NavBarBottom>
 

@@ -117,21 +117,21 @@ const MainCarousel = () => {
     <Slider {...settings1}>
    
     <Item>
-      <Img src='https://img.freepik.com/free-photo/young-couple-protection-mask-holding-multiple-paper-shopping-bag-walking-corridor-large-shopping-mall_1150-47177.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-photo/shiny-gemstone-necklace-reflects-elegance-glamour-generated-by-ai_188544-10583.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
     <Item>
-        <Img src='https://img.freepik.com/free-photo/asian-worker-arranging-mannequin-with-formal-suit-working-store-visual-with-fashionable-merchandise-employee-preparing-boutique-opening-waiting-customers-shopping-centre_482257-61880.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph' />
+        <Img src='https://img.freepik.com/free-photo/pair-gold-earrings-with-green-stones-black-background_1340-42887.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
         <Head>upto 40% off</Head>
       </Item>
    
       <Item>
-      <Img src='https://img.freepik.com/free-photo/shoppers-talking-center_1098-12640.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-photo/cool-girl-black-leather-jacket-taking-out-her-sunglasses-smiling_114579-32039.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais' />
       <Head>upto 40% off</Head>
     </Item>
   
     <Item>
-      <Img src='https://img.freepik.com/free-photo/shop-assistant-hypermarket-shows-new-model-gas-stove-young-couple-all-wearing-medical-masks_93675-134090.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-photo/beautiful-engagement-ring-with-diamonds_23-2149509236.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
     
