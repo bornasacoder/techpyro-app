@@ -129,21 +129,21 @@ export default function Block7(props) {
       };
 
       const data = [
-        {img:'https://img.freepik.com/free-photo/women-rsquo-s-white-high-heel-shoes-fashion_53876-106046.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Sandals'},
-        {img:'https://img.freepik.com/free-photo/sneakers-shoes_1203-8036.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Loafers'},
-        {img:'https://img.freepik.com/free-photo/fashion-shoes-sneakers_1203-7529.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Sneakers'},
+        {img:'https://img.freepik.com/free-photo/young-beautiful-smiling-female-trendy-summer-skirt-top-clothes-sexy-carefree-woman-posing-near-blue-wall-studio-positive-brunette-model-having-funcheerful-happy_158538-24924.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Skirts'},
+        {img:'https://img.freepik.com/free-photo/tylish-dark-haired-woman-summer-shorts-top-smiles-shows-peace-sign-pink-wall_197531-16704.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Shorts'},
+        {img:'https://img.freepik.com/free-photo/portrait-bearded-male-dressed-grey-jacket-hat-isolated-grey-background_613910-3150.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Jackets'},
     
-        {img:'https://img.freepik.com/free-photo/pair-trainers_144627-3799.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Sport Shoes'},
-        {img:'https://img.freepik.com/free-photo/shoes_1203-8153.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Casual Shoes   '},
+        {img:'https://img.freepik.com/free-photo/young-woman-with-shopping-bags-beautiful-dress_1303-17549.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Lehenga Choli'},
+        {img:'https://img.freepik.com/free-photo/portrait-handsome-smiling-stylish-young-man-model-dressed-red-checkered-shirt-fashion-man-posing_158538-4909.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Shirt'},
     
-        {img:'https://img.freepik.com/free-photo/travel-beach-vibrant-red-colorful_1203-6068.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Slipper'},
-        
+        {img:'https://img.freepik.com/free-photo/stack-clothes-white-background-closeup_93675-132644.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Jeans'},
+       
       ]
   return (
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <SliderHeader sliderH='Footwear'/>
+        <SliderHeader sliderH='Clothes'/>
         <Slider {...settings}>
         { data.map((item)=>(
         <SliderItem data={item} />

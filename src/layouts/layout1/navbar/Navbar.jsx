@@ -168,7 +168,7 @@ export default function Navbar() {
             <Menu/>
             </MenuButtons>
           <Typography variant="h1" fontSize="20px">
-           Footwear
+           Clothes
           </Typography>
           </Box>
            <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
@@ -222,22 +222,22 @@ export default function Navbar() {
     </NavBarTop>
 
     <NavBarBottom>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Sports Shoes</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Casual Shoes</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Formal Shoes</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Loafers
+      <Typography sx={{color:'black',fontSize:'12px'}}>Sarees</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Kurtis</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Lehenga Choli</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Palazzo Suits
       </Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Ethnic Footwear</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Sneakers</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Sandals</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Flip Flops</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Boots</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Moccasins</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Mules</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Ballet Flats</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Wedges</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Salwar Kameez Shoes</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Slippers</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Patiala Suits</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Sherwanis</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Kurta Pyjamas</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Shirts</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Jeans</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Shorts</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Ethnic Jackets</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Skirts</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Dupattas</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Tops and Tees</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Western Dresses</Typography>
 
     </NavBarBottom>
 

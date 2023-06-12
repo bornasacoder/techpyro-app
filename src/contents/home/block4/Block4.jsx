@@ -130,21 +130,21 @@ export default function Block3(props) {
       };
 
       const data = [
-        {img:'https://img.freepik.com/free-photo/pair-trainers_144627-3799.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Sport Shoes'},
-    {img:'https://img.freepik.com/premium-photo/mens-urban-style-sports-shoes-float-air-idea-style-convenience-practicality_594847-216.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Casual Shoes   '},
-
-    {img:'https://img.freepik.com/free-photo/red-flipflops-beach-sandals-isolated-white-background_1101-1999.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Slipper'},
-    {img:'https://img.freepik.com/free-photo/high-heel-shoes_1203-8671.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Sandals'},
-    {img:'https://img.freepik.com/free-photo/white-lather-loafer-mules-shoes-beige_53876-97143.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Loafers'},
-    {img:'https://img.freepik.com/free-psd/black-friday-super-sale-instagram-facebook-story-banner-template_106176-1618.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Sneakers'},
-
+        {img:'https://img.freepik.com/free-photo/young-beautiful-woman-looking-camera-trendy-girl-casual-summer-white-t-shirt-jeans-shorts-round-sunglasses-positive-female-shows-facial-emotions-funny-model-isolated-blue_158538-15829.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'T-Shirts'},
+        {img:'https://img.freepik.com/free-photo/elegant-young-handsome-man_1301-5868.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Shirt'},
+    
+        {img:'https://img.freepik.com/free-photo/cheerful-woman-jeans-hat-sunglasses-smiling-camera_171337-12136.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Jeans'},
+        {img:'https://img.freepik.com/free-photo/smiling-beautiful-elegant-woman-posing-camera_259150-58979.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Skirts'},
+        {img:'https://img.freepik.com/free-photo/full-length-young-slim-female-girl-denim-shorts-gray-studio-background_231208-7367.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Shorts'},
+        {img:'https://img.freepik.com/free-photo/confident-serious-handsome-man-wears-black-leather-jacket-gray-t-shirt-stylish-eyewear-looks-directly-into-camera-isolated-people-style-concept_176420-13362.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Jackets'},
+    
       ]
 
   return (
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <Header sliderH='Footwear'/>
+        <Header sliderH='Clothes'/>
         <Slider {...settings}>
         {data.map((item)=>(
         <Item data={item} />

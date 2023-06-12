@@ -117,21 +117,21 @@ const MainCarousel = () => {
     <Slider {...settings1}>
    
     <Item>
-      <Img src='https://img.freepik.com/free-photo/blogger-filming-sneakers-review_274689-43046.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-photo/elegant-woolen-jacket-men-winter-fashion-generated-by-ai_188544-34301.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
     <Item>
-        <Img src='https://img.freepik.com/free-psd/new-collection-fashion-sale-web-banner-template_120329-1507.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
+        <Img src='https://img.freepik.com/free-photo/clothing-rack-with-floral-hawaiian-shirts-hangers-hat_23-2149366018.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
         <Head>upto 40% off</Head>
       </Item>
    
       <Item>
-      <Img src='https://img.freepik.com/premium-photo/fashion-male-sport-shoes-blue-background-stylish-man-sneakers-fitness-close-up_77190-1693.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448751.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
   
     <Item>
-      <Img src='https://img.freepik.com/premium-photo/fashion-stylish-sneakers-with-flying-laces-running-sports-shoes-orange-background-close-up_179369-778.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-vector/various-color-checkered-cotton-shirts-folded-stack_1441-3074.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
     

@@ -130,13 +130,13 @@ export default function Block3(props) {
       };
 
       const data = [
-        {img:'https://img.freepik.com/free-photo/pair-trainers_144627-3799.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Sport Shoes'},
-        {img:'https://img.freepik.com/free-photo/shoes_1203-8153.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Casual Shoes   '},
+        {img:'https://img.freepik.com/free-photo/valentine-rsquo-s-day-apparel-couple-t-shirts-lips-theme_53876-105711.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'T-Shirts'},
+        {img:'https://img.freepik.com/free-photo/portrait-handsome-smiling-hipster-lumbersexual-businessman-model-wearing-casual-jeans-shirt-clothes_158538-17417.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Shirt'},
     
-        {img:'https://img.freepik.com/free-photo/travel-beach-vibrant-red-colorful_1203-6068.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Slipper'},
-        {img:'https://img.freepik.com/free-photo/women-rsquo-s-white-high-heel-shoes-fashion_53876-106046.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Sandals'},
-        {img:'https://img.freepik.com/free-photo/sneakers-shoes_1203-8036.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Loafers'},
-        {img:'https://img.freepik.com/free-photo/fashion-shoes-sneakers_1203-7529.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Sneakers'},
+        {img:'https://img.freepik.com/free-photo/cool-guy-good-mood-posing-blue-background-jumping_197531-26875.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Jeans'},
+        {img:'https://img.freepik.com/free-photo/portrait-serious-woman-wears-long-orange-skirt_197531-13162.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Skirts'},
+        {img:'https://img.freepik.com/free-photo/beauty-fashion-brunette-model-girl-wearing-sunglasses-gray-wall_231208-3689.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Shorts'},
+        {img:'https://img.freepik.com/free-photo/confident-serious-handsome-man-wears-black-leather-jacket-gray-t-shirt-stylish-eyewear-looks-directly-into-camera-isolated-people-style-concept_176420-13362.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Jackets'},
     
       ]
 
@@ -144,7 +144,7 @@ export default function Block3(props) {
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <Header sliderH='Footwear'/>
+        <Header sliderH='Clothes'/>
         <Slider {...settings}>
         {data.map((item)=>(
         <Item data={item} />
