@@ -3,57 +3,43 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { styled } from '@mui/styles';
-// import "./BigSlider.css"
-import SliderItem from '../../carousel/carousel2/sliderItem/SliderItem';
-import {  ArrowCircleLeftOutlined, ArrowCircleRightOutlined, ChevronLeftOutlined, ChevronRightOutlined, } from '@mui/icons-material';
-import { color } from '@mui/system';
+import SliderItem from './sliderItem/SliderItem';
+import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
 import { Box, Typography } from '@mui/material';
-import SliderEtem from './sliderItem/SliderEtem';
-const SliderContainer = styled('div')({
-width:"100%",
-height:"auto",
-// margin:'0px 100px',
-overflow:"hidden",
-// backgroundColor:'#FFFFFF',
-// border:'1px solid black',
-// boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-"@media (max-width: 1490px)": {
-  // margin:"2% "
 
+const SliderContainer = styled('div')({
+width:"99%",
+height:"auto",
+margin:"2% 0.3%",
+overflow:"hidden",
+boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+"@media (max-width: 1490px)": {
+ margin:"2% -1.5%"
 
 },
-"@media (max-width: 480px)": {
-    backgroundColor:'transparent',
-    width:'100%',
-   margin:'0px'
+"@media (max-width: 1200px)": {
+  width:"95%",
+  margin:"1% 1rem"
+ 
  },
 
 
 })
 const SliderInnerContainer = styled('div')({
   display: "flex",
-  backgroundColor:'transparent',
-  justifyContent:"center",
-  margin:'0px 100px',
-  backgroundColor:'#FFFFFF',
-  flexDirection:"column", 
-  // boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
- paddingLeft:'20px',
-  "@media (max-width: 480px)": {
-    backgroundColor:'white',
-   padding:'0px',
- margin:'0px'
- },
+  justifyContent:"space-between",
+  flexDirection:"column",
+  boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+  padding:"0px 40px"
 })
-
 
 
 const PreviousBtn = (props) =>{
   const {className,onClick} = props;
   
    return (
-         <div className={className} onClick={onClick}>
-          <ChevronLeftOutlined sx={{color:'black',zIndex:'10',fontSize:'2.5rem',border:'3px solid rgba(0,0,0,0.5)',borderRadius:'50px', backgroundColor:'#FFFFFF',marginLeft:'-5px'}} />
+         <div className={className}   onClick={onClick}>
+          <ChevronLeftOutlined style={{color:'black',zIndex:'10',fontSize:'2.5rem' }} />
          </div>  
    )
 }
@@ -61,24 +47,25 @@ const PreviousBtn = (props) =>{
 const NextBtn = (props) =>{
    const {className,onClick} = props;
    return (
-     <div  className={className} onClick={onClick}>
-       <ChevronRightOutlined sx={{color:'black',  zIndex:'10',fontSize:'2.5rem',border:'3px solid rgba(0,0,0,0.5)',borderRadius:'50px', backgroundColor:'#FFFFFF',marginRight:'300px'}} />
+     <div  className={className}  onClick={onClick}>
+       <ChevronRightOutlined style={{color:'black',  zIndex:'10',fontSize:'2.5rem'}} />
      </div>
    )
 }
 
 
 const Sliders = (props) => {
+  console.log(props.sliderData.category)
   
   const settings = {
     dots: false,
     arrows:true,
     infinite: true,
     speed: 500,
-    slidesToShow: 6,
-    slidesToScroll: 4,
+    slidesToShow: 4,
+    slidesToScroll: 1,
     autoplay: false,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 2000,
     cssEase: "linear",
     initialSlide:0,
     prevArrow:<PreviousBtn />,
@@ -87,7 +74,7 @@ const Sliders = (props) => {
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 5,
+            slidesToShow: 3,
             slidesToScroll: 1,
             speed: 300,
             arrows:true,
@@ -100,53 +87,52 @@ const Sliders = (props) => {
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
-            autoplay:true,
+            autoplay:false,
           },
         },
         {
           breakpoint: 770,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 3,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
-            autoplay:true,
+            autoplay:false,
           },
         },
         {
           breakpoint: 600,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 3,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
-            autoplay:true,
+            autoplay:false,
           },
         },
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 2.1,
+            slidesToShow: 4,
             slidesToScroll: 1,
             speed: 300,
             arrows:false,
-            // autoplay:true,
-            // dots: true,
+            autoplay:false,
           },
         },
     ]
   };
   return (
     <>
-     <Box sx={{display:'flex',padding:{xs:'10px',sm:'30px',md:'20px'},display:'flex',backgroundColor:'#FFFFFF',margin:{xs:'0px 10px',sm:'0px 50px',md:'0px 100px'}}}>
-       <Typography sx={{fontSize:{xs:'25px',sm:'30px',md:'20px'},fontWeight:'500',color:'black'}}>Best selling in home organisation</Typography>
-       
-       </Box>
     <SliderContainer>         
        <SliderInnerContainer>
+     <Box sx={{display:'flex',justifyContent:'space-between',}}>
+      <Typography variant='h3' sx={{fontSize: {xs:'15px',sm:'20px',md:'30px'},fontFamily:'inherit'}}>PIZZA</Typography>
+      <Typography variant='h3'sx={{fontSize: {xs:'15px',sm:'20px',md:'30px'},fontFamily:'inherit'}}>View More</Typography>
+     </Box>
     <Slider {...settings}>
-     { props.sliderData.map ((item)=>(
-      <SliderEtem posterLinks={item} />
+     { props.sliderData.data.map((item)=>(
+      <SliderItem border={props.border} posterLinks={item} />
       ))}
     </Slider>
       </SliderInnerContainer>  

@@ -1,0 +1,28 @@
+export const block2Data = {
+    data:[
+        {
+            id:1,
+            image:'https://img.freepik.com/free-photo/woman-driving-sunny-day_23-2148510649.jpg?size=626&ext=jpg'
+        },
+        {
+            id:2,
+            image:'https://img.freepik.com/premium-photo/smartphone-with-taxi-service-app-screen-black-background-table-office-environment-mobility-service-provider-worldwide_442713-4217.jpg?size=626&ext=jpg'
+        },
+        {
+            id:3,
+            image:'https://img.freepik.com/free-photo/brunette-businesswoman-inside-car_23-2148142610.jpg?size=626&ext=jpg'
+        },
+        {
+            id:4,
+            image:'https://img.freepik.com/free-photo/indian-businessman-backseat-working_496169-2754.jpg?size=626&ext=jpg'
+        },
+        {
+            id:5,
+            image:'https://img.freepik.com/free-photo/girl-laughs-sits-car_8353-9243.jpg?size=626&ext=jpg'
+        },
+        {
+            id:6,
+            image:'https://img.freepik.com/free-photo/portrait-young-female-taxi-driver-with-businessman-passenger-back-seat_58466-16275.jpg?size=626&ext=jpg'
+        },
+    ]
+}
