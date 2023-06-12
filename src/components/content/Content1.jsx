@@ -38,7 +38,7 @@ export default function Content1() {
             width:{md:"60%",sm:"80%",xs:"100%"}
           }}
         >
-          TECHPYRO JEWLLERY SHOP ITEMS
+          TECHPYRO SHOPPING MALL ITEMS
         </Typography>
       </Box>
       <Box
@@ -66,73 +66,74 @@ export default function Content1() {
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/shiny-jewelry-crystal-platinum-gold-gemstone-drops-generated-by-ai_188544-10734.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
+  ),url(${"https://img.freepik.com/free-photo/beautiful-second-hand-market_23-2149353670.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Necklaces</Item>
+            <Item>Clothing and Fashion</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/still-life-aesthetic-earrings_23-2149649128.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=sph"})
+  ),url(${"https://img.freepik.com/premium-photo/hand-holding-credit-card-smartphone-background-interior-home-appliances-electronics-store-cashless-payment-purchases-online-banking_189498-5979.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Earrings</Item>
+            <Item>Electronics and Technology</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-vector/golden-silver-wedding-rings-decorated-with-precious-stones-clipping-path-realistic-illustration_1284-60352.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=sph"})
+  ),url(${"https://img.freepik.com/premium-photo/set-make-up-cosmetics-generative-ai_123447-17460.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Rings</Item>
+            <Item>Beauty and Cosmetics</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/woman-s-arms-wearing-golden-jewelry_23-2149640599.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
+  ),url(${"https://img.freepik.com/free-photo/empty-living-room-interior-with-pc-background_482257-22023.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Bracelets</Item>
+            <Item>Home Furnishings and Décor</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/watch-black-box-bow-tie-lie-white-windowsill_8353-687.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
+  ),url(${"https://img.freepik.com/free-photo/jewelry-with-gems-showcase_1398-4326.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Watches</Item>
+            <Item>Jewelry and Accessories</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/golden-jewelry-store-window_1398-4127.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/premium-photo/car-delivering-shopping-cart-with-accessories-against-blackboard_113725-995.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Jewelry Sets</Item>
+            <Item>Books, Stationery, and Gifts
+            </Item>
           </Grid>
         </Grid>
       </Box>

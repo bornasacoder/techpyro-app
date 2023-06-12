@@ -188,7 +188,7 @@ export default function NavButton() {
           TECHPYRO
         </Typography>
         <Typography variant="div" fontSize="20px" paddingBottom="20px">
-          JEWLLERY SHOP
+         SHOPPING MALL
         </Typography>
       </Box>
       <MoreButton
