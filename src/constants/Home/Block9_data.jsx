@@ -1,0 +1,44 @@
+const Block9_data = [
+    {
+        heading:"NewYork",
+        number:"1,882",
+        image:"https://chisfis-nextjs.vercel.app/_next/image?url=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F64271%2Fqueen-of-liberty-statue-of-liberty-new-york-liberty-statue-64271.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D3%26h%3D750%26w%3D1260&w=640&q=75"
+    },
+    {
+        heading:"Singapore",
+        number:"8,288",
+        image:"https://chisfis-nextjs.vercel.app/_next/image?url=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F7740160%2Fpexels-photo-7740160.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D2%26h%3D750%26w%3D1260&w=640&q=75"
+    },
+    {
+        heading:"Paris",
+        number:"1,288",
+        image:"https://chisfis-nextjs.vercel.app/_next/image?url=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F739407%2Fpexels-photo-739407.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D2%26h%3D750%26w%3D1260&w=640&q=75"
+    },
+    {
+        heading:"London",
+        number:"112",
+        image:"https://chisfis-nextjs.vercel.app/_next/image?url=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F460672%2Fpexels-photo-460672.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D3%26h%3D750%26w%3D1260&w=640&q=75"
+    },
+    {
+        heading:"Tokyo",
+        number:"323",
+        image:"https://chisfis-nextjs.vercel.app/_next/image?url=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F4151484%2Fpexels-photo-4151484.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D3%26h%3D750%26w%3D1260&w=640&q=75"
+    },
+    {
+        heading:"Maldives",
+        number:"2,223",
+        image:"https://chisfis-nextjs.vercel.app/_next/image?url=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F3250613%2Fpexels-photo-3250613.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D2%26h%3D750%26w%3D1260&w=640&q=75"
+    },
+    {
+        heading:"NewYork",
+        number:"1,882",
+        image:"https://chisfis-nextjs.vercel.app/_next/image?url=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F64271%2Fqueen-of-liberty-statue-of-liberty-new-york-liberty-statue-64271.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D3%26h%3D750%26w%3D1260&w=640&q=75"
+    },
+    {
+        heading:"Singapore",
+        number:"8,288",
+        image:"https://chisfis-nextjs.vercel.app/_next/image?url=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F7740160%2Fpexels-photo-7740160.jpeg%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D2%26h%3D750%26w%3D1260&w=640&q=75"
+    }
+   
+]
+export default Block9_data;

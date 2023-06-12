@@ -1,0 +1,31 @@
+.slick-prev::before,
+.slick-next::before{
+    display:none;
+}
+/* .slick-next{
+width: 4vw;
+} */
+.slick-next{
+    z-index: 200;
+    top:0;
+    margin-right:30px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    
+    
+}
+.slick-prev{
+    margin-left: 25px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    z-index: 200;
+}
+.div-root-3{
+    width:'150px'
+}
+.div.div-root-166{
+    width:'150px'
+}
+.img.img-root-5{
+height:'250px';
+}

@@ -1,29 +1,31 @@
 {
-  "name": "doworkless-userapp",
+  "name": "my-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@mui/icons-material": "^5.10.16",
-    "@mui/lab": "^5.0.0-alpha.114",
-    "@mui/material": "^5.10.16",
-    "@mui/styles": "^5.10.16",
-    "@reduxjs/toolkit": "^1.9.1",
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.2",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "@mui/x-date-pickers": "^6.3.0",
+    "@mui/x-date-pickers-pro": "^6.3.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "aos": "^3.0.0-beta.6",
-    "infinite-react-carousel": "^1.2.11",
+    "date-fns": "^2.29.3",
+    "dayjs": "^1.11.7",
+    "formik": "^2.2.9",
     "react": "^18.2.0",
+    "react-date-range": "^1.4.0",
     "react-dom": "^18.2.0",
-    "react-elastic-carousel": "^0.11.5",
-    "react-material-ui-carousel": "^3.4.2",
-    "react-redux": "^8.0.5",
-    "react-router-dom": "^6.4.5",
+    "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
-    "styled-components": "^5.3.6",
-    "web-vitals": "^2.1.4"
+    "styled-components": "^5.3.10",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -48,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
   }
 }
