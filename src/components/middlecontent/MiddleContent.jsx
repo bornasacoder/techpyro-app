@@ -7,7 +7,7 @@ import { Box, Button, styled, Typography } from "@mui/material";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   padding: "68px 42px ",
-  background: `url(${"https://img.freepik.com/premium-photo/interior-supermarket-with-view-shelves-full-goods-groceries-display_466739-1058.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  background: `url(${"https://img.freepik.com/free-vector/realistic-gold-silver-jewelry-display-black-mannequins-stands-grey-surface_1284-9644.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
   center/cover no-repeat `,
   zIndex: "0",
 }));
@@ -36,7 +36,7 @@ export default function MiddleContent() {
             color:"#DBD6D1"
           }}
         >
-          WELCOME TO TECHPYRO GROCERY STORE
+          WELCOME TO TECHPYRO JEWLLERY SHOP
         </Typography>
         <Box
           sx={{
