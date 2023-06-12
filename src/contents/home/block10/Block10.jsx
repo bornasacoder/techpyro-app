@@ -129,20 +129,21 @@ export default function Block10(props) {
       };
 
       const data = [
-        {img:'https://img.freepik.com/free-photo/side-view-two-cups-coffee-cookies-cinnamon-limes-old-newspaper-dark-surface_140725-142669.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph',name:'Masala Tea'},
-        {img:'https://img.freepik.com/premium-photo/hot-masala-tea-is-poured-into-glass-glass-steam-comes-out-mug-gray-background_163994-236.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph',name:'Darjeeling Tea'},
+        {img:'https://img.freepik.com/free-photo/excited-gorgeous-female-explain-smartphone-feature-introduce-photographs-from-summer-vacation-smiling-joyfully-pointing-mobile-phone-screen-stand-white-background-promote-online-application_176420-56198.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Mobiles'},
+        
+        {img:'https://img.freepik.com/free-photo/young-woman-summer-clothes-listening-music-wearing-headphones-singing-along-favorite-song-dancing-earphones-standing-against-blue-background_1258-70434.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'headphones'},
+        {img:'https://img.freepik.com/free-photo/air-conditioner-mounted-white-wall_53876-128235.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'AC'},
     
-        {img:'https://img.freepik.com/premium-photo/tea-with-tea-glass-white-wood_44074-1444.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Green Tea'},
-        {img:'https://img.freepik.com/free-photo/glasses-with-lemonade-table_23-2148482456.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Lemon Tea'},
-        {img:'https://img.freepik.com/free-photo/cup-coffee-with-heart-drawn-foam_1286-70.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph',name:'Hot Coffee'},
-        {img:'https://img.freepik.com/free-photo/glass-foamy-cold-coffee-with-whipped-cream-chocolate-wooden-plate_114579-90914.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Cold Coffee'},
-    
+        {img:'https://img.freepik.com/free-psd/laptop-blue-background-mock-up_1022-178.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Laptop'},
+        {img:'https://img.freepik.com/free-vector/home-interior-background-video-conferencing_23-2148627305.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'LED'},
+        {img:'https://img.freepik.com/free-photo/excited-gorgeous-female-explain-smartphone-feature-introduce-photographs-from-summer-vacation-smiling-joyfully-pointing-mobile-phone-screen-stand-white-background-promote-online-application_176420-56198.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Mobiles'},
+        
       ]
   return (
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <SliderHeader sliderH='Tea & Cofee'/>
+        <SliderHeader sliderH='Electronic'/>
         <Slider {...settings}>
         { data.map((item)=>(
         <SliderItem data={item} />

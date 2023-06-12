@@ -5,14 +5,15 @@ import Item from './Item';
 
 export default function Block5() {
   const data = [
-    {img:'https://img.freepik.com/free-photo/side-view-two-cups-coffee-cookies-cinnamon-limes-old-newspaper-dark-surface_140725-142669.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=sph',name:'Masala Tea'},
-    {img:'https://img.freepik.com/premium-photo/hot-masala-tea-is-poured-into-glass-glass-steam-comes-out-mug-gray-background_163994-236.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph',name:'Darjeeling Tea'},
+    {img:'https://img.freepik.com/free-vector/household-appliances-realistic-composition_1284-65307.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'AC'},
+    {img:'https://img.freepik.com/free-photo/full-shot-smiley-woman-holding-tablet_23-2149395840.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Cooler'},
+    {img:'https://img.freepik.com/free-psd/realistic-computer-design_1310-689.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'PC'},
 
-    {img:'https://img.freepik.com/premium-photo/tea-with-tea-glass-white-wood_44074-1444.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Green Tea'},
-    {img:'https://img.freepik.com/free-photo/glasses-with-lemonade-table_23-2148482456.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Lemon Tea'},
-    {img:'https://img.freepik.com/free-photo/cup-coffee-with-heart-drawn-foam_1286-70.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph',name:'Hot Coffee'},
-    {img:'https://img.freepik.com/free-photo/glass-foamy-cold-coffee-with-whipped-cream-chocolate-wooden-plate_114579-90914.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Cold Coffee'},
-  
+    {img:'https://img.freepik.com/free-photo/woman-sitting-washing-machine-with-basket-full-clothes_23-2149117084.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Washing Machine'},
+        {img:'https://img.freepik.com/free-photo/headphones-stereo-equipment-single-object-technology-generated-by-ai_188544-10146.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sphh',name:'Headphone'},
+    
+        {img:'https://img.freepik.com/premium-psd/smart-tv-mockup-isolated-3d-rendering_322208-226.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'LED TV'},
+     
   ]
   return (
       <Box sx={{margin:'20px 20px 40px',display:'flex',flexDirection:'column'}}>

@@ -29,7 +29,7 @@ const Item = styled(Card)(({theme}) => ({
 const Img = styled("img")(({theme}) => ({
   objectFit: "cover",
   width:"100%",
-  height: "400px",
+  height: "500px",
   [theme.breakpoints.down('sm')]: {
     height: '150px!important',
   },
@@ -115,34 +115,26 @@ const MainCarousel = () => {
     // <CarouselCard>
     <Box sx={{marginTop:{xs:'120px',md:'65px',lg:'50px'}}}>
     <Slider {...settings1}>
+
+    <Item>
+      <Img src='https://img.freepik.com/free-vector/air-conditioning-cold-effect-heat-effect_107791-13850.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph' />
+      <Head>upto 40% off</Head>
+    </Item>
       <Item>
-        <Img src='https://img.freepik.com/premium-photo/cup-filled-with-coffee-beans-generative-ai_384720-1827.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph' />
+        <Img src='https://img.freepik.com/free-photo/modern-stationary-collection-arrangement_23-2149309643.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph' />
         <Head>upto 40% off</Head>
       </Item>
     <Item>
-      <Img src='https://images.pexels.com/photos/2836945/pexels-photo-2836945.jpeg?auto=compress&cs=tinysrgb&w=600' />
+      <Img src='https://img.freepik.com/free-vector/banner-online-offline-system_107791-2042.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais' />
       <Head>upto 40% off</Head>
     </Item>
     <Item>
-      <Img src='https://img.freepik.com/free-vector/realistic-coffee-time-background-with-coffee-cup_79603-1559.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/premium-vector/electronic-store-with-couple-buy-vacuum-cleaner-assistant-checkout-packaging-man-looking-shelves-computers-tv-monitors-assortment_575670-808.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais' />
       <Head>upto 40% off</Head>
     </Item>
-    <Item>
-      <Img src='https://img.freepik.com/free-psd/coffee-shop-banner-template_23-2148870902.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais' />
-      <Head>upto 40% off</Head>
-    </Item>
-    <Item>
-      <Img src='https://img.freepik.com/free-photo/coffee-bag-with-coffee-beans-around_1232-1358.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais' />
-      <Head>upto 40% off</Head>
-     </Item>
-    <Item> 
-      <Img src='https://img.freepik.com/free-vector/hand-drawn-coffee-label-template-design_23-2149824186.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais' />
-      <Head>upto 40% off</Head>
-    </Item>
-     <Item>
-      <Img src='https://img.freepik.com/free-photo/package-near-yellow-cup-sugar-bowl_23-2148180248.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais' />
-      <Head>upto 40% off</Head>
-    </Item>
+  
+  
+  
   </Slider>
   </Box>
   // </CarouselCard>

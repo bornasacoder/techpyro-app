@@ -129,19 +129,21 @@ export default function Block6(props) {
       };
 
       const data = [
-        {img:'https://img.freepik.com/free-photo/cup-hot-mint-tea_144627-34459.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Leamon Tea'},
-        {img:'https://img.freepik.com/free-photo/breakfast-with-coffee-fresh-croissants_2829-17547.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph',name:'Masala Tea'},
-        {img:'https://img.freepik.com/free-photo/high-angle-coffee-cup-with-cinnamon-sticks-copy-space_23-2148808590.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=sph',name:'Assam Tea'},
-        {img:'https://img.freepik.com/free-vector/iced-coffee-concept-illustration_114360-9714.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais',name:'Cold Coffee'},
-        {img:'https://img.freepik.com/free-vector/flat-paper-coffee-cup_23-2147741046.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais',name:'Hot Coffee'},
-        {img:'https://img.freepik.com/premium-photo/gulab-jamun-bowl-copper-antique-bowl-with-spoon-indian-dessert-sweet-dish_136354-7666.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.1.833918949.1682592323&semt=ais',name:'Gulab Jamun'},
+        {img:'https://img.freepik.com/free-photo/levitating-music-headphones-display_23-2149817602.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'headphone'},
+        {img:'https://img.freepik.com/free-vector/smart-watch-realistic-image-black_1284-11873.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Andriod Watch'},
         
+        {img:'https://img.freepik.com/premium-vector/modern-realistic-frige-white-background_88188-342.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Refrigerator'},
+    
+        {img:'https://img.freepik.com/free-vector/broken-washing-machine-realistic-indoor-composition-with-clothes-washer-water-pouring-out-door_1284-33057.jpg?size=626&ext=jpg&uid=R96333062&ga=GA1.2.833918949.1682592323&semt=ais'},
+        {img:'https://img.freepik.com/free-psd/realistic-monitor-presentation_1310-18.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'PC'},
+        {img:'https://img.freepik.com/premium-photo/white-fan-with-purple-base-that-says-i-love-you_649314-4.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Cooler'},
+      
       ]
   return (
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <SliderHeader sliderH='Tea & Cofee'/>
+        <SliderHeader sliderH='Electronic'/>
         <Slider {...settings}>
         { data.map((item)=>(
         <SliderItem data={item} />

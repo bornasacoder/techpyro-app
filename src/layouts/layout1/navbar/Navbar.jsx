@@ -168,7 +168,7 @@ export default function Navbar() {
             <Menu/>
             </MenuButtons>
           <Typography variant="h1" fontSize="20px">
-          Tea & Coffee
+          Electronic
           </Typography>
           </Box>
            <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
@@ -222,18 +222,21 @@ export default function Navbar() {
     </NavBarTop>
 
     <NavBarBottom>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Masala Chai</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Lemon Tea</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Darjeeling Tea</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Green Tea</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Assam Tea</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Hot Coffee</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Cold Coffee</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Filter Coffee</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>South Indian Filter Kaapi</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Cappuccino</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Indian Spiced Coffee</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Instant Coffee</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Mobile</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Pc</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Laptop</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Tablet</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>TV</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Washing Machine</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Earbuds</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Headphones</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Sounds</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Watches</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Inverter</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Chargers</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>AC</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Fan</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Cooler</Typography>
 
     </NavBarBottom>
 
