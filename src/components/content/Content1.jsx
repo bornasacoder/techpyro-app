@@ -38,7 +38,7 @@ export default function Content1() {
             width:{md:"60%",sm:"80%",xs:"100%"}
           }}
         >
-          TECHPYRO CLOUTHS ITEMS
+          TECHPYRO ELECTRONICS ITEMS
         </Typography>
       </Box>
       <Box
@@ -66,73 +66,73 @@ export default function Content1() {
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/attractive-stylish-woman-choosing-apparel-clothing-store_285396-4624.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-photo/television-houseplants-room-scene-generative-ai_188544-12145.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Tops</Item>
+            <Item>Televisions</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/top-view-blue-buttons_23-2148528007.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-photo/work-desk-with-computer-cup-with-pens-pencils-against-white-wall_181624-44978.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Bottoms</Item>
+            <Item>Computers</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/fashion-set_1203-7559.jpg?w=740&t=st=1686568514~exp=1686569114~hmac=995ca2f67fa5ab0bc28d61279a2e0d0352d223b3469ebb19763f31aac32ca951"})
+  ),url(${"https://img.freepik.com/free-psd/dark-mobile-device-mockup_149660-801.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Accessories</Item>
+            <Item>Smartphones</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/premium-photo/row-jackets-are-hanging-rack-one-which-is-jacket-that-says-down-it_889227-23212.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/premium-photo/dead-broken-tablet-character-technology-concept-3d-illustration-contains-clipping-path_1401-1716.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Outerwear</Item>
+            <Item>Tablets</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/football-composition-with-jersey_23-2147827778.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-vector/camera-accessory_1284-13130.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Activewear</Item>
+            <Item>Cameras</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/swimsuit-yellow-background-isolated_1303-13537.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-vector/smart-home-flat-style_23-2147842738.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Swimwear</Item>
+            <Item>Smart Home Devices</Item>
           </Grid>
         </Grid>
       </Box>
