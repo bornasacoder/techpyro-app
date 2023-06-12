@@ -5,14 +5,16 @@ import Item from './Item';
 
 export default function Block5() {
   const data = [
-    {img:'https://img.freepik.com/free-photo/basket-full-vegetables_1112-316.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:' Vegetables'},
-    {img:'https://img.freepik.com/free-vector/realistic-sesame-poster_1284-69965.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Oil'},
+    {img:'https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-shelf-near-dining-table_105762-2053.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Home and Furnishings'},
+    {img:'https://img.freepik.com/free-photo/different-cosmetics-types-scattered-pink-table_23-2148046897.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Cosmetics'},
+    {img:'https://img.freepik.com/free-vector/household-appliances-realistic-composition_1284-65307.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Electronics and Appliances'},
 
-    {img:'https://img.freepik.com/free-vector/milk-products-template_1284-14600.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Milk Products'},
-    {img:'https://img.freepik.com/free-photo/various-homemade-bread-burlap-with-wheat-high-quality-photo_114579-38042.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Bread'},
-    {img:'https://img.freepik.com/free-photo/side-view-macaronis-as-bucatini-spaghetti-jars-with-salt-garlic-garlic-crusher-cloth-note-pad-wooden-surface-black-background-with-copy-space_141793-10913.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Noodles'},
-    {img:'https://img.freepik.com/free-photo/composition-with-frozen-fish-table_23-2148969396.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Frozen Foods'},
+    {img:'https://img.freepik.com/free-photo/model-demonstrating-earrings-ring_7502-7042.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Jewellery'},
+    {img:'https://img.freepik.com/free-photo/stack-books-black-wooden-table_93675-135345.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Stationery'},
 
+
+    {img:'https://img.freepik.com/free-vector/christmas-toys-background-flat-design_23-2148350472.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Toys'},
+  
   ]
   return (
       <Box sx={{margin:'20px 20px 40px',display:'flex',flexDirection:'column'}}>

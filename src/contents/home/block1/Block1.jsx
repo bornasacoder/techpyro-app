@@ -117,21 +117,21 @@ const MainCarousel = () => {
     <Slider {...settings1}>
    
     <Item>
-      <Img src='https://img.freepik.com/free-photo/top-view-assortment-vegetables-paper-bag_23-2148853335.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-photo/young-couple-protection-mask-holding-multiple-paper-shopping-bag-walking-corridor-large-shopping-mall_1150-47177.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
     <Item>
-        <Img src='https://img.freepik.com/free-photo/dried-food-products-sold-market_181624-60209.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
+        <Img src='https://img.freepik.com/free-photo/asian-worker-arranging-mannequin-with-formal-suit-working-store-visual-with-fashionable-merchandise-employee-preparing-boutique-opening-waiting-customers-shopping-centre_482257-61880.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph' />
         <Head>upto 40% off</Head>
       </Item>
    
       <Item>
-      <Img src='https://img.freepik.com/free-psd/healthy-food-banner-template-design_23-2148555636.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-photo/shoppers-talking-center_1098-12640.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
   
     <Item>
-      <Img src='https://img.freepik.com/free-psd/fresh-supermarket-template-design_23-2149623225.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-photo/shop-assistant-hypermarket-shows-new-model-gas-stove-young-couple-all-wearing-medical-masks_93675-134090.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
     

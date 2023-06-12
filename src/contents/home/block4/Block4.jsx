@@ -130,13 +130,14 @@ export default function Block3(props) {
       };
 
       const data = [
-        {img:'https://img.freepik.com/premium-psd/vegetables-recyclable-paper-bag_75891-1240.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:' Vegetables'},
-        {img:'https://img.freepik.com/free-photo/soybean-oil-soybean-food-beverage-products-food-nutrition-concept_1150-26348.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Oil'},
+        {img:'https://img.freepik.com/free-photo/beautiful-luxury-necklace-jewelry-stand-neck_1339-7947.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Jewellery'},
+        {img:'https://img.freepik.com/free-photo/various-objects-shelf_1252-612.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Stationery'},
     
-        {img:'https://img.freepik.com/free-vector/milk-products-background_1284-15512.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Milk Products'},
-        {img:'https://img.freepik.com/free-photo/still-life-with-appetizing-bakery-food_23-2149299431.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Bread'},
-        {img:'https://img.freepik.com/free-photo/front-view-rotini-pasta-fork-dark-isolated-surface-free-space-food-photo_140725-62462.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Noodles'},
-        {img:'https://img.freepik.com/free-photo/frozen-food-table-arrangement_23-2148969451.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Frozen Foods'},
+    
+        {img:'https://img.freepik.com/free-photo/design-house-modern-villa-with-open-plan-living-private-bedroom-wing-large-terrace-with-privacy_1258-169741.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Home and Furnishings'},
+        {img:'https://img.freepik.com/free-vector/happy-children-playing-toys_1308-51657.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Toys'},
+        {img:'https://img.freepik.com/free-photo/creative-display-makeup-products-arrangement_23-2150063089.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Cosmetics'},
+        {img:'https://img.freepik.com/free-psd/minimal-dynamic-technology-poster-template_23-2149351222.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Electronics and Appliances'},
     
       ]
 
@@ -144,7 +145,7 @@ export default function Block3(props) {
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <Header sliderH='Grocery'/>
+        <Header sliderH='Mall'/>
         <Slider {...settings}>
         {data.map((item)=>(
         <Item data={item} />

@@ -129,20 +129,22 @@ export default function Block10(props) {
       };
 
       const data = [
-        {img:'https://img.freepik.com/premium-psd/vegetables-recyclable-paper-bag_75891-1240.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:' Vegetables'},
-        {img:'https://img.freepik.com/free-photo/soybean-oil-soybean-food-beverage-products-food-nutrition-concept_1150-26348.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Oil'},
-     {img:'https://img.freepik.com/free-photo/frozen-food-table-arrangement_23-2148969451.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Frozen Foods'},
-    
-        {img:'https://img.freepik.com/free-vector/milk-products-background_1284-15512.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Milk Products'},
-        {img:'https://img.freepik.com/free-photo/still-life-with-appetizing-bakery-food_23-2149299431.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Bread'},
-        {img:'https://img.freepik.com/free-photo/front-view-rotini-pasta-fork-dark-isolated-surface-free-space-food-photo_140725-62462.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Noodles'},
+        {img:'https://img.freepik.com/free-photo/3d-rendering-modern-dining-room-living-room-with-luxury-decor_105762-1934.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Home and Furnishings'},
+        {img:'https://img.freepik.com/free-psd/yellow-blue-toy-train-makeup_220664-3356.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Toys'},
+        {img:'https://img.freepik.com/free-photo/close-up-collection-make-up-beauty-products_23-2148620012.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Cosmetics'},
        
+        {img:'https://img.freepik.com/free-vector/realistic-gold-silver-jewelry-display-black-mannequins-stands-grey-surface_1284-9644.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Jewellery'},
+        {img:'https://img.freepik.com/free-photo/multi-colored-school-supplies-shopping-cart-gray-background-with-copy-space-text-concept-returning-school-new-school-year-shopping_73683-2218.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Stationery'},
+    
+    
+       {img:'https://img.freepik.com/free-vector/household-appliances-gift-realistic_1284-65309.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Electronics and Appliances'},
+    
       ]
   return (
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <SliderHeader sliderH='Grocery'/>
+        <SliderHeader sliderH='Mall'/>
         <Slider {...settings}>
         { data.map((item)=>(
         <SliderItem data={item} />

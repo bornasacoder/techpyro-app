@@ -168,7 +168,7 @@ export default function Navbar() {
             <Menu/>
             </MenuButtons>
           <Typography variant="h1" fontSize="20px">
-          Grocery
+          Mall
           </Typography>
           </Box>
            <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
@@ -222,17 +222,13 @@ export default function Navbar() {
     </NavBarTop>
 
     <NavBarBottom>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Rice</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Wheat and Wheat Flour</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Cooking Oil</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Sugar
+      <Typography sx={{color:'black',fontSize:'12px'}}>Jewellery and Accessories</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Health and Wellness</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Books, Stationery, and Toys</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Home and Furnishings
       </Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Salt</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Milk and Dairy Products</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Bread and Bakery Products</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Fresh Fruits and Vegetables</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Pasta and Noodles</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Frozen Foods</Typography> 
+      <Typography sx={{color:'black',fontSize:'12px'}}>Beauty and Cosmetics</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Electronics and Appliances</Typography> 
 
     </NavBarBottom>
 
