@@ -7,7 +7,7 @@ import { Box, Button, styled, Typography } from "@mui/material";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   padding: "68px 42px ",
-  background: `url(${"https://img.freepik.com/free-photo/female-hairdresser-styling-clients-hair_107420-94690.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
+  background: `url(${"https://img.freepik.com/premium-vector/vintage-coffee-shop-store-facade-with-storefront-large-window-columns-brick-wall_200075-289.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
   center/cover no-repeat `,
   zIndex: "0",
 }));
@@ -29,15 +29,14 @@ export default function MiddleContent() {
             fontWeight: 600,
             marginTop: "60px",
             fontSize: { md: "48px", sm: "35px", xs: "30px" },
-            fontWeight: "600",
             textAlign: "center",
             letterSpacing: "4px",
             padding: "32px 0px 28px",
             width: { md: "60%", sm: "80%", xs: "100%" },
-            color:"hotpink"
+            color:"#86483C"
           }}
         >
-          WELCOME TO TECHPYRO BEAUTIPLOUR
+          WELCOME TO TECHPYRO CAFE SHOP
         </Typography>
         <Box
           sx={{

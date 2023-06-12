@@ -182,13 +182,13 @@ export default function NavButton() {
         flexDirection="column"
         textAlign="center"
         padding="10px 0px 0px 0px"
-        color="hotpink"
+        color="#86483C"
       >
         <Typography variant="div" fontSize="30px" marginTop="5px">
           TECHPYRO
         </Typography>
         <Typography variant="div" fontSize="20px" paddingBottom="20px">
-          BEAUTIPLOUR
+          CAFE
         </Typography>
       </Box>
       <MoreButton
