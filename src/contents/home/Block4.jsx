@@ -1,68 +1,72 @@
-import { Button, Select, TextField, Typography, useTheme } from '@mui/material';
+import { Button, Typography } from '@mui/material';
 import { styled } from '@mui/styles';
 import { Box } from '@mui/system';
 import React from 'react'
 
 
-const Box2= styled(Box)(({ theme }) => ({
-    height:'680px',
+const Box2 = styled(Box)(({ theme }) => ({
     width:'100%',
-    backgroundImage: `url(${"/images/category/bgdimg5.webp"})`,
-    backgroundSize:'cover',
-    // backgroundAttachment:'fixed',
     display:'flex',
     justifyContent:'space-evenly',
     alignItems:'center',
-    gap:'150px',
-    // flexDirection:'column'
+    gap:'10px',
+    background:'#fff',
     [theme.breakpoints.down('sm')]: {
       width:'100%',
-      height:'900px',
       flexDirection:'column',
-      padding:'0px',
       justifyContent:'center',
-      gap:'50px'
+      gap:'30px',
+      padding:'0px',
     },
-    }
-  ));
+    
+    }));
 
 const Block4 = () => {
-    const theme = useTheme();
+    
   return (
-    <>
-         <Box sx={{display:'flex',flexDirection:'column',alignItems:'center',padding:{xs:'100px 30px',sm:'100px 50px',md:'100px'}}}>
-       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'25px'},fontWeight:'700'}}>Make an Reserve</Typography>
-       <Typography sx={{fontSize:{xs:'30px',sm:'35px',md:'40px'},fontWeight:'700'}}>Online Reservation</Typography>
+    <Box sx={{background:'#fff',marginTop:{xs:'-70px',sm:'-60px',md:''}}}>  
+         <Box sx={{display:'flex',flexDirection:'column',alignItems:'center',background:'#fff',padding:{xs:'90px 15px',sm:'100px 40px',md:'100px'}}}>
+            <Typography sx={{fontSize:{md:'45px',sm:'35px',xs:'25px'},fontWeight:'500',}}>Find Travel Perfection, with the Wisdom of Experts</Typography>
+            <Typography sx={{marginTop:'10px',fontSize:{md:'20px',xs:'16px'}}}>
+              Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl</Typography>
+            <Typography sx={{fontSize:{md:'20px',xs:'16px'}}}>Nulleget urna mattis consectetur purus sit amet fermentum</Typography>
+         </Box>
 
-       
-       </Box>
         <Box2>
-            
-           <Box sx={{width:{xs:'300px',sm:'400px',md:'450px'}}}>
-         
-          <Typography sx={{fontSize:{xs:'20px',sm:'30px',md:'35px'},color:`${theme.header.background}`,fontWeight:'700'}}>Reserve your seats to confirm if you come with your famoly</Typography>
-          <Typography sx={{color:`${theme.header.background}`}}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          </Typography>
-          <Typography sx={{color:`${theme.header.background}`}}>
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          </Typography>
-          <Typography sx={{color:`${theme.header.background}`}}>
-          veniam. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
-          </Typography>
-          </Box>
-          <Box sx={{backgroundColor:`${theme.header.background}`,width:{xs:'300px',sm:'400px',md:'480px'},height:'500px',display:'flex',justifyContent:'center',alignItems:'center',paddingBottom:{xs:'50px',sm:'70px',md:'0px'}}}>
-          <Box sx={{backgroundColor:`${theme.header.background}`,display:'flex',flexDirection:'column',width:'400px',gap:'10px'}}>
-            <TextField variant='outlined' label='Name'></TextField>
-            <TextField variant='outlined' label='Email id' sx={{borderRadius:'0px'}}></TextField>
-            <TextField variant='outlined' label='Phone no'></TextField>
-            <TextField variant='outlined' label='Date & Time'></TextField>
-            <Select label="Select Event"></Select>
-            <Button variant='contained' sx={{borderRadius:'0',marginTop:'0px',width:'200px'}}>Make Reservation</Button>
-          </Box>
-          </Box>
-       </Box2> 
-       </>
+           <Box sx={{display:'flex', flexDirection:'column' ,justifyContent:'center',alignItems:'center'}}>
+              <img style={{height:'250px',width:'250px',margin:'20px 0px'}}src="https://makejourneys.com/assets/images/web-image3.jpg" alt="" />
+              <Typography sx={{fontSize:{md:'20px',xs:'16px'}}}>We will give you a recommadations</Typography>
+              <Typography sx={{opacity:'0.5',fontSize:{md:'20px',xs:'16px'}}}>Once your are happy with our final plan</Typography>
+              <Typography sx={{opacity:'0.5',fontSize:{md:'20px',xs:'16px'}}}>We handle everything for you</Typography>
+            </Box>
+
+            <Box sx={{display:'flex', flexDirection:'column' ,justifyContent:'center',alignItems:'center'}}>
+              <img style={{height:'250px',width:'250px',margin:'20px 0px'}}src="https://makejourneys.com/assets/images/web-image3.jpg" alt="" />
+              <Typography sx={{fontSize:{md:'20px',xs:'16px'}}}>We will give you a recommadations</Typography>
+              <Typography sx={{opacity:'0.5',fontSize:{md:'20px',xs:'16px'}}}>Once your are happy with our final plan</Typography>
+              <Typography sx={{opacity:'0.5',fontSize:{md:'20px',xs:'16px'}}}>We handle everything for you</Typography>
+            </Box>
+
+            <Box sx={{display:'flex', flexDirection:'column' ,justifyContent:'center',alignItems:'center'}}>
+              <img style={{height:'250px',width:'250px',margin:'20px 0px'}}src="https://makejourneys.com/assets/images/web-image3.jpg" alt="" />
+              <Typography sx={{fontSize:{md:'20px',xs:'16px'}}}>We will give you a recommadations</Typography>
+              <Typography sx={{opacity:'0.5',fontSize:{md:'20px',xs:'16px'}}}>Once your are happy with our final plan</Typography>
+              <Typography sx={{opacity:'0.5',fontSize:{md:'20px',xs:'16px'}}}>We handle everything for you</Typography>
+            </Box>
+       </Box2 > 
+            <Box sx={{display:'flex',justifyContent:'center',marginTop:{md:'50px',sm:'30px',xs:'20px'}}}>
+              <Button sx={{color:'#fff',backgroundColor:'#FC5B62'}} variant="contained">Let's plan your trip</Button>
+            </Box>
+              <Box sx={{display:'flex',justifyContent:'center',margin:'50px 0px'}}>
+                <Typography sx={{fontSize:{md:'55px',sm:'30px',xs:'26px'},color:'#000000',fontFamily: 'Dancing Script',padding:{xs:' 0px 10px',sm:' 0px 10px'} }}>Book and Travel with Confidence</Typography>
+              </Box> 
+              <Box sx={{display:'flex', flexDirection:'column' ,justifyContent:'center',alignItems:'center',padding:{xs:'10px',sm:'10px'},marginTop:{xs:'-40px',sm:'20px',md:'5px'}}}>
+                  <Typography sx={{fontSize:{md:'20px',xs:'16px'}}}>We’re a travel operator in the industry, meanwhile, we are independent travelers like you too. We deeply know and care about your concerns regarding travel</Typography>
+                  <Typography sx={{fontSize:{md:'20px',xs:'16px'}}}>l abroad as there still some uncertainty outside the world. To provide you with updated news and professional advice, our travel specialists monitor and collect first-</Typography>
+                  <Typography sx={{fontSize:{md:'20px',xs:'16px'}}}>hand information about all of our destinations every day. And, we are now releasing our Book with Confidence and Travel with Confidence programs that we</Typography>
+                  <Typography sx={{fontSize:{md:'20px',xs:'16px'}}}>promise your trip will be in safe hands.</Typography>
+              </Box>
+      </Box>
   )
 }
 

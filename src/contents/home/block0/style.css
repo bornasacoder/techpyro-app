@@ -1,0 +1,39 @@
+.images{
+    background-image:url('https://makejourneys.com/assets/banner/1656053589278-banner.png'); 
+    background-size: cover;
+    background-origin:center;
+    height:500px;
+    width: 100%;
+   animation:showcase-animation 6s infinite alternate ease-in-out;
+    transition:all 5s;
+}
+@keyframes showcase-animation{
+    0%{
+        background-image:url('https://makejourneys.com/assets/banner/1656053589278-banner.png'); 
+    }
+ 
+    33%{
+        background-image: url('https://makejourneys.com/assets/banner/1656053596177-banner3.png');
+    }
+    66%{
+      background-image: url('https://makejourneys.com/assets/banner/1656053580569-banner1.png');
+    }
+    100%{
+      background-image: url('https://makejourneys.com/assets/banner/1656053623133-banner2.png');
+    }
+    
+}
+
+@media (max-width:600px){
+  .images{
+    height: 400px;
+  }
+}
+@media (max-width:400px){
+  .images{
+    height: 350px;
+  }
+}
+
+
+

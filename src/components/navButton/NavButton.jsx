@@ -52,57 +52,12 @@ const LoginButton = styled(Button)(({theme}) => ({
 }));
 
 export default function NavButton() {
-//   const [showLogin, setShowLogin] = useState("none");
-//   const [showMore, setShowMore] = useState("none");
-//   onMouseOver={() => setShowLogin("flex")} onMouseOut={() => setShowLogin("none")}
+
 
   return (
     <CustomButton>
-      {/* <Box  sx={{width:'50%', height: '64px',
-                alignItems: 'center',
-                cursor:'pointer',
-                display:'flex', "& Button:hover": { backgroundColor: "#fff" }, "&:hover .MuiBox-root": { display:'flex'}}}>
-        <LoginButton>
-          Login
-        </LoginButton>
-        <Box
-          sx={{
-            display: 'none',
-            flexDirection: "column",
-            width: "15%",
-            bgcolor: "background.paper",
-            position: "absolute",
-            color: "red",
-            margin: "275px 0 0 0",
-          }}
-        > */}
-          {/* <Box
-            sx={{
-              width: "100%",
-              height: "14px",
-              backgroundColor: "#FFFFFF",
-              clipPath: "polygon(50% 0, 46% 100%, 54% 100%)",
-              margin: "-13px 0 0 0",
-            }}
-          ></Box>
-          <List component="nav" aria-label="mailbox folders">
-            <ListItem button>
-              <ListItemText primary="Inbox" />
-            </ListItem>
-            <Divider />
-            <ListItem button divider>
-              <ListItemText primary="Drafts" />
-            </ListItem>
-            <ListItem button>
-              <ListItemText primary="Trash" />
-            </ListItem>
-            <Divider light />
-            <ListItem button>
-              <ListItemText primary="Spam" />
-            </ListItem>
-          </List>
-        </Box>
-      </Box> */}
+    
+     
       <MoreButton sx={{ cursor:'pointer',"&:hover .MuiBox-root": { display:'flex'}, "&:hover .MuiSvgIcon-root": { transform: 'rotate(180deg)'}}}>
         <Typography sx={{fontSize:'18px', fontFamily:'inherit'}}>Location</Typography>
         <Badge>

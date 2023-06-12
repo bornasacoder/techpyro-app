@@ -1,0 +1,28 @@
+export const block2Data = {
+    data:[
+        {
+            id:1,
+            image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShLFIKxlxYC7MAJyQPBT3M2eAxamkDHuyLgA&usqp=CAU'
+        },
+        {
+            id:2,
+            image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShLFIKxlxYC7MAJyQPBT3M2eAxamkDHuyLgA&usqp=CAU'
+        },
+        {
+            id:3,
+            image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShLFIKxlxYC7MAJyQPBT3M2eAxamkDHuyLgA&usqp=CAU'
+        },
+        {
+            id:4,
+            image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShLFIKxlxYC7MAJyQPBT3M2eAxamkDHuyLgA&usqp=CAU'
+        },
+        {
+            id:5,
+            image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShLFIKxlxYC7MAJyQPBT3M2eAxamkDHuyLgA&usqp=CAU'
+        },
+        {
+            id:6,
+            image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShLFIKxlxYC7MAJyQPBT3M2eAxamkDHuyLgA&usqp=CAU'
+        },
+    ]
+}
