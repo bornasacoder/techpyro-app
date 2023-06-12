@@ -68,7 +68,7 @@ const Footer = () => {
                   alignContent: "flex-start",
                 }}
               >
-                WELCOME TO CINNNAMON
+                WELCOME TO TECHPYRO
               </Typography>
             </Item>
             <Item>
@@ -86,13 +86,7 @@ const Footer = () => {
               <Typography
                 variant="h3"
                 sx={{
-                  // margin: "0px 0px 26px",
-                  // letterSpacing: "12px",
-                  // textAlign: "center",
                   alignItems: "center",
-                  // fontSize: { md: "48px", sm: "35px", xs: "30px" },
-                  // fontWeight: "650",
-                  // width: { md: "90%", sm: "80%", xs: "100%" },
                 }}
               >
                 OPENING HOURS

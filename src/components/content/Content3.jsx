@@ -74,7 +74,7 @@ export default function Content3() {
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"/images/category/splitmenu-demo-screen.jpg"})
+  ),url(${"https://img.freepik.com/free-vector/flat-design-minimal-bakery-landing-page_23-2149393590.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "300px",
               }}
@@ -130,7 +130,7 @@ export default function Content3() {
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"/images/category/onepage-demo-screen.jpg"})
+  ),url(${"https://img.freepik.com/free-vector/flat-design-food-landing-page_23-2149028216.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "300px",
               }}
@@ -253,7 +253,7 @@ export default function Content3() {
             // width: { md: "90%", sm: "80%", xs: "100%" },
           }}
         >
-         GET CINNAMON RESTAURANT
+         GET TECHPYRO BACKERY
         </Typography>
         </Box>
         <Typography variant="p" sx={{ textAlign:'center', fontSize:"18px" ,}}>

@@ -24,17 +24,13 @@ color:"#A4A6A7",
 //  marginRight:'120px',
  alignItems: 'center',
  zIndex:1,
- // position:sticky;
-
-  // zIndex: "0",
 }));
 
 const MoreButton = styled(Box)(({ theme }) => ({
   // width: '19%',
   height: "64px",
   display: "flex",
-  position: "relative",
-  justifyContent: "center",
+  justifyContent: "space-between",
   alignItems: "center",
   color:"#A4A6A7",
   fontWeight:"400",
@@ -46,76 +42,11 @@ const MoreButton = styled(Box)(({ theme }) => ({
   },
 }));
 
-// const LoginButton = styled(Button)(({theme}) => ({
-//     background: '#fff',
-//     border:"none",
-//     // width: '100%',
-//     textTransform: 'none',
-//     [theme.breakpoints.down('sm')]: {
-//       background: 'none',
-//       color: '#fff',
-//       left: '35px'
-//   },
-//     [theme.breakpoints.down('md')]: {
-//       background: 'none',
-//       color: '#fff',
-//   }
-// }));
-
 export default function NavButton() {
-  //   const [showLogin, setShowLogin] = useState("none");
-  //   const [showMore, setShowMore] = useState("none");
-  //   onMouseOver={() => setShowLogin("flex")} onMouseOut={() => setShowLogin("none")}
 
   return (
     <CustomButton sx={{marginRight:{md:"210px",sm:"180px",xs:"20px"}}}>
-      
-      {/* <Box  sx={{width:'50%', height: '64px',
-                alignItems: 'center',
-                cursor:'pointer',
-                display:'flex', "& Button:hover": { backgroundColor: "#fff" }, "&:hover .MuiBox-root": { display:'flex'}}}>
-        <LoginButton>
-          Login
-        </LoginButton>
-        <Box
-          sx={{
-            display: 'none',
-            flexDirection: "column",
-            width: "15%",
-            bgcolor: "background.paper",
-            position: "absolute",
-            color: "red",
-            margin: "275px 0 0 0",
-            zIndex:'100'
-          }}
-        >
-          <Box
-            sx={{
-              width: "100%",
-              height: "14px",
-              backgroundColor: "#FFFFFF",
-              clipPath: "polygon(50% 0, 46% 100%, 54% 100%)",
-              margin: "-13px 0 0 0",
-            }}
-          ></Box>
-          <List component="nav" aria-label="mailbox folders">
-            <ListItem button>
-              <ListItemText primary="Inbox" />
-            </ListItem>
-            <Divider />
-            <ListItem button divider>
-              <ListItemText primary="Drafts" />
-            </ListItem>
-            <ListItem button>
-              <ListItemText primary="Trash" />
-            </ListItem>
-            <Divider light />
-            <ListItem button>
-              <ListItemText primary="Spam" />
-            </ListItem>
-          </List>
-        </Box>
-      </Box> */}
+    
 
       <MoreButton
         sx={{
@@ -137,19 +68,7 @@ export default function NavButton() {
             // zIndex:'1000!important'
           }}
         >
-          {/* <Box
-            sx={{
-              width: "100%",
-              display:"flex",
-              flexDirection:"column",
-              height: "14px",
-              backgroundColor: "#FFFFFF",
-              clipPath: "polygon(50% 0, 46% 100%, 54% 100%)",
-              margin: "-13px 0 0 0",
-              // zIndex:"210"
-            }}
-            >
-              </Box> */}
+    
           <List component="nav" aria-label="mailbox folders">
             <ListItem button>
               <ListItemText primary="Inbox" />
@@ -275,12 +194,13 @@ export default function NavButton() {
         flexDirection="column"
         textAlign="center"
         padding="10px 0px 0px 0px"
+        color="ThreeDDarkShadow"
       >
         <Typography variant="div" fontSize="30px" marginTop="5px">
-          CINNAMON
+          TECHPYRO
         </Typography>
         <Typography variant="div" fontSize="20px" paddingBottom="20px">
-          RESTORENTS
+          BACKERY
         </Typography>
       </Box>
       <MoreButton

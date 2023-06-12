@@ -46,7 +46,7 @@ export default function Content2() {
             width:{md:"60%",sm:"80%",xs:"100%"}
           }}
         >
-          WHY CHOOSE CINNAMON THEME
+          WHY CHOOSE TECHPYRO THEME
         </Typography>
       </Box>
       <Box
@@ -55,7 +55,6 @@ export default function Content2() {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          // bgcolor: "#F4F4F4!important",
         }}
       >
         <Grid

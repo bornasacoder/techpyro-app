@@ -4,13 +4,6 @@ import styled from "styled-components";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   bgcolor: "#F4F4F4",
   padding: "68px 92px ",
-  // [theme.breakpoints.down("sm")]: {
-
-  //   // left:'50px',
-  //   padding: "68px 42px ",
-  // },
-  // display: "flex",
-  // justifyContent:"space-between",
   gap: 2,
 }));
 const Item = styled(Paper)(({ theme }) => ({
@@ -25,10 +18,6 @@ const Item = styled(Paper)(({ theme }) => ({
     opacity: "0.3",
     bgcolor:"black"
   },
-  width:{md:"60%!important",sm:"80%!important",xs:"100%!important"}
-  //   [theme.breakpoints.down("sm")]: {
-  //     width: "150px",
-  //   },
 }));
 export default function Content1() {
   return (
@@ -49,7 +38,7 @@ export default function Content1() {
             width:{md:"60%",sm:"80%",xs:"100%"}
           }}
         >
-          CINNAMON DEMOS
+          TECHPYRO BACKERY ITEMS
         </Typography>
       </Box>
       <Box
@@ -77,92 +66,74 @@ export default function Content1() {
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"/images/category/gridbg1.jpg"})
+  ),url(${"https://img.freepik.com/free-photo/bread-wooden-tray-red-white-cloth_1150-23896.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>SplitMenu</Item>
+            <Item>Bread</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"/images/category/gridbg2.jpg"})
+  ),url(${"https://img.freepik.com/free-photo/assortment-pieces-cake_114579-28235.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Left Menu</Item>
+            <Item>Pastries</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"/images/category/gridbg3.jpg"})
+  ),url(${"https://img.freepik.com/free-photo/joyful-birthday-celebration-with-delicious-chocolate-cake-generative-ai_188544-9589.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Center Menu</Item>
+            <Item>Cakes</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"/images/category/gridbg4.jpg"})
+  ),url(${"https://img.freepik.com/free-photo/chocolate-chip-cookie-white_93675-132144.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Boxed W/O Social Header</Item>
+            <Item>Cookies</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"/images/category/gridbg6.jpg"})
+  ),url(${"https://img.freepik.com/free-photo/chocolate-walnut-muffins-with-coffee-cup-with-walnuts-dark-surface_114579-5336.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>One Page</Item>
+            <Item>Muffins</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"/images/category/gridbg7.jpg"})
+  ),url(${"https://img.freepik.com/free-photo/egg-tart-wood_1150-12281.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Vidio Page</Item>
+            <Item>Pies and tarts</Item>
           </Grid>
-          {/* <Grid item xs={12} sm={6} md={4}>
-            <Item sx={{background:`linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"/images/category/gridbg8.jpg"})
-   center/cover no-repeat`,height:"200px"}}>Techpyro</Item>
-            <Item>4</Item>
-          </Grid> */}
-          {/* <Grid item xs={12} sm={6} md={4}>
-            <Item sx={{background:`linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"/images/category/gridbg9.jpg"})
-   center/cover no-repeat`,height:"200px"}}>Techpyro</Item>
-            <Item>4</Item>
-          </Grid> */}
-          {/* <Grid item xs={12} sm={6} md={4}>
-            <Item sx={{background:`linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"/images/category/gridbg5.jpg"})
-   center/cover no-repeat`,height:"200px"}}>Techpyro</Item>
-            <Item>4</Item>
-          </Grid> */}
         </Grid>
       </Box>
     </StyleToolbar>
