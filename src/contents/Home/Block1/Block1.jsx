@@ -33,7 +33,7 @@ const [showTab,setShowTab] = useState("stays");
                     <div className='lg:mt-[35px] mt-[10px] flex lg:space-x-6 px-3 w-[350px] lg:px-5 lg:w-[600px] lg:text-[20px] text-[19px] text-gray-600'>    
                         <h3>Accompanying us, you have a trip full of experiences. With Chisfis, booking accommodation, resort villas, hotels</h3>
                     </div>
-                    <Button variant="contained"   sx={{borderRadius:{md:"25px",xs:'35px'},height:{md:"55px",xs:"50px"},marginTop:"30px",backgroundColor:"#4F46E5",width:{md:"200px",xs:"180px"}}}>Start your search</Button>
+                    <Button variant="contained"   sx={{borderRadius:{md:"25px",xs:'35px'},height:{md:"55px",xs:"50px"},marginTop:"30px",backgroundColor:"#FFFF00",width:{md:"200px",xs:"180px"}}}>Start your search</Button>
                     <Box className='flex mt-[100px] space-x-11 ml-10 hover:text-black' sx={{display:{md:"flex",xs:"none"}}} >
                         <Button onClick={()=>handleClick("stays")} variant="text" sx={buttonBlock1}>Stays</Button>
                         <Button onClick={()=>handleClick("experience")} variant="text" sx={buttonBlock1}>Experiences</Button>
@@ -63,7 +63,7 @@ const [showTab,setShowTab] = useState("stays");
                             </div>
                         </div>
                         <div>
-                          <Button variant="contained"   sx={{borderRadius:"100%",backgroundColor:"#4F46E5",height:"4rem"}}><SearchIcon sx={{fontSize:"2rem"}} /></Button>
+                          <Button variant="contained"   sx={{borderRadius:"100%",backgroundColor:"#FFFF00",height:"4rem"}}><SearchIcon sx={{fontSize:"2rem"}} /></Button>
                         </div>
                     </Box>}
                     {showTab==="experience" &&   <Box sx={{width:"90%",display:{md:"flex",xs:"none"},justifyContent:"center",justifyItems:"center",height:"90px",position:"absolute",backgroundColor:"white",borderRadius:"50px 50px", padding: "10px",boxShadow: "5px 10px 10px #888888"}}>
@@ -89,7 +89,7 @@ const [showTab,setShowTab] = useState("stays");
                             </div>
                         </div>
                         <div>
-                          <Button variant="contained"   sx={{borderRadius:"100%",backgroundColor:"#4F46E5",height:"4rem"}}><SearchIcon sx={{fontSize:"2rem"}} /></Button>
+                          <Button variant="contained"   sx={{borderRadius:"100%",backgroundColor:"#FFFF00",height:"4rem"}}><SearchIcon sx={{fontSize:"2rem"}} /></Button>
                         </div>
                     </Box>}
                   {showTab==="cars" && <Box sx={{width:"90%",display:{md:"flex",xs:"none"},flexDirection:"column",justifyContent:"center",justifyItems:"center",height:"180px",position:"absolute",backgroundColor:"white",borderRadius:"25px 25px 50px 50px", padding: "10px",boxShadow: "5px 10px 10px #888888"}}>
@@ -122,7 +122,7 @@ const [showTab,setShowTab] = useState("stays");
                                     </div>
                               </div>
                               <div className='mt-2'>
-                                <Button variant="contained"   sx={{borderRadius:"100%",backgroundColor:"#4F46E5",height:"4rem"}}><SearchIcon sx={{fontSize:"2rem"}} /></Button>
+                                <Button variant="contained"   sx={{borderRadius:"100%",backgroundColor:"#FFFF00",height:"4rem"}}><SearchIcon sx={{fontSize:"2rem"}} /></Button>
                               </div>
 
                       </div>
@@ -159,14 +159,14 @@ const [showTab,setShowTab] = useState("stays");
                                     </div>
                               </div>
                               <div className='mt-2'>
-                                <Button variant="contained"   sx={{borderRadius:"100%",backgroundColor:"#4F46E5",height:"4rem"}}><SearchIcon sx={{fontSize:"2rem"}} /></Button>
+                                <Button variant="contained"   sx={{borderRadius:"100%",backgroundColor:"#FFFF00",height:"4rem"}}><SearchIcon sx={{fontSize:"2rem"}} /></Button>
                               </div>
 
                       </div>
                     </Box>}
                 </div>
                 <div className='md:mt-[200px] mt-[60px] lg:w-[680px] w-[335px]'>
-                        <img  src="https://chisfis-nextjs.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero-right.4859d624.png&w=2048&q=75" alt=""></img>
+                        <img  src="https://images.pexels.com/photos/5207636/pexels-photo-5207636.jpeg?auto=compress&cs=tinysrgb&w=600" className="h-[700px] w-[900px] rounded-2xl" alt=""></img>
                 </div>
                 
         </div>
