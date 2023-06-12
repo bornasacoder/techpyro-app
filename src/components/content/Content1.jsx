@@ -38,7 +38,7 @@ export default function Content1() {
             width:{md:"60%",sm:"80%",xs:"100%"}
           }}
         >
-          TECHPYRO BACKERY ITEMS
+          TECHPYRO BEAUTIPLOUR ITEMS
         </Typography>
       </Box>
       <Box
@@ -66,73 +66,73 @@ export default function Content1() {
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/bread-wooden-tray-red-white-cloth_1150-23896.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
+  ),url(${"https://img.freepik.com/free-photo/blonde-showing-brushes-makeup-salon_23-2148113342.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Bread</Item>
+            <Item>Makeup Brushes</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/assortment-pieces-cake_114579-28235.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
+  ),url(${"https://img.freepik.com/free-photo/close-up-hand-holding-brush_23-2148978131.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Pastries</Item>
+            <Item>Eyeshadow Palettes</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/joyful-birthday-celebration-with-delicious-chocolate-cake-generative-ai_188544-9589.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
+  ),url(${"https://img.freepik.com/free-photo/face-cosmetic-compact-makeup-powder-with-sponges-nail-polish-bottle-lipstick-table_23-2148031369.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Cakes</Item>
+            <Item>Lipsticks and Lip Glosses</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/chocolate-chip-cookie-white_93675-132144.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
+  ),url(${"https://img.freepik.com/free-photo/close-up-woman-s-cosmetics-used-makeup-powder-brush-lipstick-cream_23-2147970875.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Cookies</Item>
+            <Item>Foundations and Concealers</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/chocolate-walnut-muffins-with-coffee-cup-with-walnuts-dark-surface_114579-5336.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph"})
+  ),url(${"https://img.freepik.com/free-photo/close-up-view-barber-shop-accesories_23-2148506360.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Muffins</Item>
+            <Item>Makeup Setting Sprays</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/egg-tart-wood_1150-12281.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-photo/young-model-with-big-green-eyes-is-having-make-up-procedure_231208-3588.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Pies and tarts</Item>
+            <Item>Eyeliners and Mascara</Item>
           </Grid>
         </Grid>
       </Box>
