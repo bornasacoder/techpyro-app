@@ -38,7 +38,7 @@ export default function Content1() {
             width:{md:"60%",sm:"80%",xs:"100%"}
           }}
         >
-          TECHPYRO  SHOES STORE ITEMS
+          TECHPYRO  STUDIO ITEMS
         </Typography>
       </Box>
       <Box
@@ -66,73 +66,73 @@ export default function Content1() {
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-vector/running-sport-shoes-illustration_1284-17528.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-photo/empty-desk-with-podcast-equipment-record-live-talking-show-home-no-people-living-room-used-online-vlogging-broadcasting-conversation-with-microphone-sound-production_482257-43445.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Athletic Shoes</Item>
+            <Item>Recording Studio Items</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/brown-leather-shoes_74190-2610.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-photo/photographers-workplace-with-camera-lens-flat-lay_169016-21271.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Casual Shoes</Item>
+            <Item>Photography Studio Items</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-vector/shoes-realistic-set_1284-23172.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-photo/top-view-various-brushes-crayons_23-2148660992.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Dress Shoes</Item>
+            <Item>Art Studio Items</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/brown-flip-flops-summer-footwear-fashion_53876-106037.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=sph"})
+  ),url(${"https://img.freepik.com/free-photo/sound-engineer-working-studio-with-equipment_1157-47938.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Sandals</Item>
+            <Item>Studio monitors</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/leather-boots_1203-8146.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=sph"})
+  ),url(${"https://img.freepik.com/free-photo/beauty-influencer-setting-with-smartphones_23-2150336052.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Boots</Item>
+            <Item>Product photography equipment</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/close-up-builder-work-clothes-boots-close-up-part-body_169016-15216.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/premium-photo/photo-studio-bricks-wall-background-with-soft-box-light-armchair-photo-studio-with-modern-interior-lighting-equipment-3d-render_42071-2725.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Work Shoes
+            <Item>Studio props and furniture
             </Item>
           </Grid>
         </Grid>

@@ -74,7 +74,7 @@ export default function Content3() {
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-vector/sale-landing-page-template-with-photo_23-2148271372.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-psd/landing-page-with-female-podcaster-microphone_23-2148845609.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "300px",
               }}
@@ -130,7 +130,7 @@ export default function Content3() {
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/premium-psd/aceport-clean-sport-shoe-store-hero-image_637394-730.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-psd/landing-page-template-streaming-online-content_23-2148815149.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "300px",
               }}
