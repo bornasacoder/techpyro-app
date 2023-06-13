@@ -15,7 +15,7 @@ export default function Content8() {
         width="100%"
         height="500px"
         style={{ position: "absolute", zIndex: "-1", objectFit: "cover" }}
-        src="https://v2.cdnpk.net/videvo_files/video/premium/partners0321/large_watermarked/BB_81f80f1a-afcf-4a11-b96b-ea3c86cfec5b_FPpreview.mp4"
+        src="https://v5.cdnpk.net/videvo_files/video/premium/partners0133/large_watermarked/BB_f71477da-a065-410f-815b-eeaf069683dd_FPpreview.mp4"
         autoPlay
         loop
         muted
@@ -44,7 +44,7 @@ export default function Content8() {
                 // fontFamily: "Dancing Script",
               }}
             >
-              The Right Frozen foods 
+              The Right Fashion in jwellery
             </Typography>
           </Box>
           <br/>
