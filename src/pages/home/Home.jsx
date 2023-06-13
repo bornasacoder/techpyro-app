@@ -32,7 +32,9 @@ const Home = () => {
       <Content4 />
       <Content10 />
       <Content1 />
+
       <Content7 />
+      
       <Block1 />
       <Content8 />
       <Block3 />

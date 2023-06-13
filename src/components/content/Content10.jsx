@@ -63,7 +63,7 @@ export default function Content10() {
           //   xs={{xs:12,sm:6,md:4}}
         >
           <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-<Image src="https://img.freepik.com/free-photo/male-technician-examining-mother-board-with-digital-multimeter_23-2147922353.jpg?size=626&ext=jpg"/>
+<Image src="https://img.freepik.com/free-photo/closeup-shot-beautiful-handmade-shoes-workshop_181624-45883.jpg?size=626&ext=jpg"/>
       </Grid>
         <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
           <Typography fontSize="20px">FEATURED PRODUCT</Typography>
@@ -75,7 +75,7 @@ export default function Content10() {
               // textAlign:"center"
             }}
           >
-            A portable computer, 
+            A portable shoes, 
             <br />
             designed for ease of use and mobility
           </Typography>
@@ -118,7 +118,7 @@ export default function Content10() {
               // textAlign:"center"
             }}
           >
-           A portable computer
+           A portable shoes
             <br />
             designed for ease of use and mobility
           </Typography>
@@ -156,7 +156,7 @@ export default function Content10() {
         </Grid>
        
         <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-<Image src="https://img.freepik.com/premium-photo/old-electronic-devices-dark-background-concept-recycling-disposal-electronic-waste_76255-1714.jpg?size=626&ext=jpg"/>
+<Image src="https://img.freepik.com/premium-photo/white-sneakers-white-background_511031-2201.jpg?size=626&ext=jpg"/>
       </Grid>
         </Grid>
       </Box>

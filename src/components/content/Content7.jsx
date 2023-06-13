@@ -63,26 +63,9 @@ export default function Content7() {
           <Typography>Secs</Typography>
           </Box>
          
-          {/* <Button
-          endIcon={<ArrowForward/>}
-            sx={{
-              // border: "3px solid #000",
-              background: "white",
-              color: "#000",
-              borderRadius: "0px",
-              "&:hover": {
-                backgroundColor: "#000",
-                color: "#ffffff",
-              },
-              // display: { md: "block", sm: "none", xs: "none" },
-            }}
-          >
-            Join Now
-          </Button> */}
+         
         </Box>
-        {/* <Box data-aos="fade-right">
-          <Campaign sx={{ fontSize: "100px" }} />
-          </Box>  */}
+       
       </Box>
     </StyleToolbar>
   );

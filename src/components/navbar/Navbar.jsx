@@ -172,45 +172,11 @@ export default function Navbar() {
   return (
     // <Box>
     <NavBar>
-      {/* <Box display="flex" flexDirection="column"sx={{gap:{md:'5px',sm:'20px',xs:'60px'}}}>
-        <Content />
-        
-        {/* <MenuButtons/> */}
-      {/* <MenuButtons >
-          <Menu   sx={{color:"white"}}/>
-    </MenuButtons> */}
-
-      {/* </Box>  */}
+    
         <NavLeft>
-          <Image src="https://img.freepik.com/free-icon/net-contents_318-106508.jpg?size=626&ext=jpg" />
+          <Image src="https://img.freepik.com/free-icon/ankle-strap-heels_318-41347.jpg?size=626&ext=jpg" />
           <NavButton />
-          {/* <MenuButtons >
-          <Menu   sx={{color:"black"}}/>
-    </MenuButtons>
-
-          <Box sx={{ display: "flex", justifyContent: "center",fontSize:{md:"26px",sm:"22px",xs:"21px"} }}>
-          <Box  marginRight="5px" color="#7AA93C">
-            <Spa/>
-          </Box>
-          <Typography
-            variant="span"
-            sx={{  fontWeight: "400px" }}
-          >
-            Tech
-          </Typography>
-          <Typography
-            variant="span"
-            sx={{ fontWeight: "300px", color: "#7AA93C" }}
-          >
-            Pyro
-          </Typography>
-         
-        </Box>
-          <Box sx={{ display: { xs: "none", md: "flex" }, gap: "2" }}>
-            <GetApp fontSize="medium" />
-            <Typography component="h1">Get the App</Typography>
-          </Box> 
-          <NavButton /> */}
+        
         </NavLeft>
 
         <NavRight>
@@ -265,74 +231,12 @@ export default function Navbar() {
  <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
           <MenuButtons sx={{marginTop:{sm:"20px",sx:"20px"}}} />
         </Drawer>
-            {/* <PersonOutline sx={{fontSize:"30px"}}/>
-<FavoriteBorder sx={{fontSize:"30px",display:{md:"block",sm:"none",xs:"none"}}}/> */}
+    
           </Box>
-          {/* <Avatar
-            lt="Remy Sharp"
-            src="/images/category/logo.png"
-            sx={{
-              width: 56,
-              height: 56,
-              display: { md: "none", sm: "block", xs: "block" },
-              marginRight: { md: "10px", sm: "10px", xs: "20px" },
-            }}
-          />
-         <Button
-          variant="contained"
-          sx={{
-            color: "#fffff",
-            bgcolor: "#7AA93C",
-            padding: "5px 20px",
-            display: { xs: "none", md: "block", sm: "block" },
-          }}
-        >
-          Buy now
-        </Button>
-           <Button
-              variant="contained"
-              sx={{
-                color: "#fff",
-                bgcolor: "transparent",
-                border: "1px solid white",
-               
-                padding: "0px 10px",display:{xs:"none",md:"block",sm:"block"}
-              }}
-            >
-              Log in
-            </Button>  */}
+         
         </NavRight>
      
-      {/* <Box
-        sx={{
-          display: "flex",
-          justifyContent: "center",
-          textAlign: "center",
-          flexDirection: "column",
-          gap: "40px",
-        }}
-      >
-        <Typography  sx={{ fontSize: {md:"68px",sm:"50px",xs:"30px"}, fontFamily: "Dancing Script",fontWeight:"200px" }}>
-          You do not need a silver fork to eat <br /> good food
-        </Typography>
-        <Box display="flex" justifyContent="center">
-          <Button
-            sx={{
-              // border: "3px solid #000",
-              background: "red",
-              color: "white",
-              borderRadius: "0px",
-              "&:hover": {
-                backgroundColor: "#000",
-                color: "#ffffff",
-              },
-              // display: { md: "block", sm: "none", xs: "none" },
-            }}
-          >
-            READ MORE
-          </Button>
-        </Box>
-      </Box> */}
+      
     </NavBar>
     // </Box>
   );

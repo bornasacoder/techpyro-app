@@ -8,7 +8,7 @@ export const jogger = [
                },
                category:["Finger Chips","Samosa","Spring Rolls"],
                tagline: "Hummus and pita bread",
-               image:"https://images.pexels.com/photos/1087180/pexels-photo-1087180.jpeg?auto=compress&cs=tinysrgb&w=600",   
+               image:"https://img.freepik.com/free-photo/leather-boots_1203-8147.jpg?size=626&ext=jpg",   
                rating:"4.3",
         
    },
@@ -21,7 +21,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Onion rings",
-        image:"https://img.freepik.com/free-vector/espresso-coffee-cup-coffee-beans_79603-1038.jpg?size=626&ext=jpg ",
+        image:"https://img.freepik.com/free-photo/still-life-say-no-fast-fashion_23-2149669605.jpg?size=626&ext=jpg",
 
        rating:"4.3",
 
@@ -35,7 +35,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Homemade or Artisan Bakeries",
-    image:"https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=600 ",
+    image:"https://img.freepik.com/free-photo/shoes_1203-8155.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },
@@ -48,7 +48,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Mindful Ingredients",
-      image:"https://images.pexels.com/photos/62689/pexels-photo-62689.jpeg?auto=compress&cs=tinysrgb&w=600 ",
+      image:"https://img.freepik.com/free-photo/sports-girls-training-summer-park_1157-37284.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },
@@ -61,7 +61,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Healthier Filling Choices",
-      image:"https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=600 ",
+      image:"https://img.freepik.com/premium-photo/person-wearing-pair-brown-hiking-boots-stands-rock-front-sunset_303085-1261.jpg?size=626&ext=jpg ",
        rating:"4.3",
 
 },
@@ -74,7 +74,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Gluten-Free Options",
-      image:"https://images.pexels.com/photos/1298601/pexels-photo-1298601.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image:"https://img.freepik.com/free-photo/new-sneakers_93675-130032.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },
