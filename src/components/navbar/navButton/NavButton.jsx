@@ -107,19 +107,7 @@ export default function NavButton() {
             // zIndex:'1000!important'
           }}
         >
-          {/* <Box
-            sx={{
-              width: "100%",
-              display:"flex",
-              flexDirection:"column",
-              height: "14px",
-              backgroundColor: "#FFFFFF",
-              clipPath: "polygon(50% 0, 46% 100%, 54% 100%)",
-              margin: "-13px 0 0 0",
-              // zIndex:"210"
-            }}
-            >
-              </Box> */}
+          
           <List component="nav" aria-label="mailbox folders">
             <ListItem button>
               <ListItemText primary="Inbox" />
@@ -188,7 +176,7 @@ export default function NavButton() {
           TECHPYRO
         </Typography>
         <Typography variant="div" fontSize="20px" paddingBottom="20px">
-         MEDICAL STORE
+         RESTAURENT
         </Typography>
       </Box>
       <MoreButton

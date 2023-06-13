@@ -38,7 +38,7 @@ export default function Content1() {
             width:{md:"60%",sm:"80%",xs:"100%"}
           }}
         >
-          TECHPYRO  MEDICAL STORE ITEMS
+          TECHPYRO  RESTAURENT ITEMS
         </Typography>
       </Box>
       <Box
@@ -66,73 +66,73 @@ export default function Content1() {
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/open-first-aid-kit-white-background_23-2147874819.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-photo/dinner-table-with-fried-meat-dishes-sauces_181624-43898.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>First aid supplies</Item>
+            <Item>Appetizers</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/premium-photo/doctor-gives-recipe-patient_225683-827.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-photo/chopped-minced-chicken-mushroom-salad-with-colorful-bell-peppers-fresh-parsley_114579-1873.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Prescription and over-the-counter medications</Item>
+            <Item>Salads</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/gynecological-room-hospital_7502-8389.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/premium-photo/buffet-table-various-dishes-plates-traditional-peruvian-comfort-food-homemade-cuisine_637279-14.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Medical equipment</Item>
+            <Item>Main courses</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/beauty-product-still-life_23-2147817669.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-photo/side-view-vegetable-salad-with-cucumber-red-onion-bell-pepper-greens-black-pepper-plate_141793-5152.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Personal care products</Item>
+            <Item>Sides</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/high-angle-pill-foils-plastic-containers_23-2148533456.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-photo/beautiful-delicious-sweet-table-wedding-celebration_8353-642.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Medical consumables</Item>
+            <Item>Desserts</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-vector/medicine-items-illustration-set_74855-303.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-photo/cocktail-glasses_144627-34962.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Diagnostic tools
+            <Item>Beverages
             </Item>
           </Grid>
         </Grid>
