@@ -26,14 +26,14 @@ const [showTab,setShowTab] = useState("stays");
         
   };
   return (
-      <div className='relative w-[95%] flex justify-center mx-auto lg:h-[920px] h-auto flex-col lg:flex-row '>
-        <div className='flex md:flex-row flex-col justify-start w-full mx-auto '>
+      <div className='relative w-[95%] flex justify-center mx-auto lg:h-[920px] h-auto flex-col lg:flex-row bg-blue-100'>
+        <div className='flex md:flex-row  flex-col justify-start w-full mx-auto '>
                 <div className='md:mt-[95px] mt-[20px]' >
                     <h1 className='lg:text-[70px] text-[40px] px-5 lg:px-0 font-semibold'>Hotel, car & <br></br> experiences</h1>
                     <div className='lg:mt-[35px] mt-[10px] flex lg:space-x-6 px-3 w-[350px] lg:px-5 lg:w-[600px] lg:text-[20px] text-[19px] text-gray-600'>    
                         <h3>Accompanying us, you have a trip full of experiences. With Chisfis, booking accommodation, resort villas, hotels</h3>
                     </div>
-                    <Button variant="contained"   sx={{borderRadius:{md:"25px",xs:'35px'},height:{md:"55px",xs:"50px"},marginTop:"30px",backgroundColor:"#FFFF00",width:{md:"200px",xs:"180px"}}}>Start your search</Button>
+                    <Button variant="contained"   sx={{borderRadius:{md:"25px",xs:'35px'},height:{md:"55px",xs:"50px"},marginTop:"30px",backgroundColor:"",width:{md:"200px",xs:"180px"}}}>Start your search</Button>
                     <Box className='flex mt-[100px] space-x-11 ml-10 hover:text-black' sx={{display:{md:"flex",xs:"none"}}} >
                         <Button onClick={()=>handleClick("stays")} variant="text" sx={buttonBlock1}>Stays</Button>
                         <Button onClick={()=>handleClick("experience")} variant="text" sx={buttonBlock1}>Experiences</Button>
@@ -166,7 +166,7 @@ const [showTab,setShowTab] = useState("stays");
                     </Box>}
                 </div>
                 <div className='md:mt-[200px] mt-[60px] lg:w-[680px] w-[335px]'>
-                        <img  src="https://images.pexels.com/photos/5207636/pexels-photo-5207636.jpeg?auto=compress&cs=tinysrgb&w=600" className="h-[700px] w-[900px] rounded-2xl" alt=""></img>
+                        <img  src="https://img.freepik.com/premium-photo/studio-big-modern-film-studio-with-white-screen-3d-rendering_43151-52.jpg?size=626&ext=jpg&ga=GA1.2.1600733619.1686647879&semt=sph" className="h-[700px] w-[900px] rounded-2xl" alt=""></img>
                 </div>
                 
         </div>

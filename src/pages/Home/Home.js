@@ -24,8 +24,8 @@ import Block14 from '../../contents/Home/Block14/Block14';
 function Home() {
 
   return (
-    <div className='home'>
-        <Nav />
+    <div className='bg-blue-100'>
+        {/* <Nav /> */}
         <Block1 />
         <Block2 sliderData={Block2_images} />
         <Block3 />

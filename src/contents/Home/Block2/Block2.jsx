@@ -153,7 +153,7 @@ const Block2 = (props) => {
   return (
     <>
     <div className='flex flex-col justify-start w-[100%] items-start gap-4 mt-[100px] md:mt-0'>
-            <h1 className=' text-3xl font-bold md:text-5xl md:font-semibold '>Suggestions for discovery</h1>
+            <h1 className=' text-3xl font-bold md:text-5xl md:font-semibold '>Studios Place</h1>
             <p className='text-xl font-normal text-gray-400'>Popular places to stay that Chisfis recommends for you</p>
         </div>
     <SliderContainer sx={{width:"99%",overflowX:"none"}}>  

@@ -36,7 +36,7 @@ function Block8(props) {
   return (
     <div className='bg-[#FFF7ED] mt-[100px] md:h-[900px]'>
         <div className='flex flex-col justify-center w-[100%] items-center py-14'>
-            <h1 className='md:text-5xl text-3xl font-bold text-center'>Top 10 author of the month</h1>
+            <h1 className='md:text-5xl text-3xl font-bold text-center'>Top 10 Doctor of the month</h1>
             <p className='md:text-2xl text-lg text-gray-400'>Rating based on customer reviews</p>
         </div>
         <Box sx={{ flexGrow: 1 }}>
@@ -47,7 +47,7 @@ function Block8(props) {
                     <Item sx={{width:{xs:"300px"}}}>
                         <div><img src={item.image} alt=""  className='rounded-full w-20'/></div>
                         <div><h1 className='text-lg text-black font-semibold'>{item.name}</h1></div>
-                        <div><p className='text-gray-300 text-lg'>New York</p></div>
+                        {/* <div><p className='text-gray-300 text-lg'>New York</p></div> */}
                         <div className='flex justify-between gap-1  px-[18px] rounded-2xl py-[7px] bg-slate-100'><p className=''>4.9</p><StarIcon className='text-orange-600'></StarIcon></div>
                         
                     </Item>

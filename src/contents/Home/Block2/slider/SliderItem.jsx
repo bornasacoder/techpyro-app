@@ -110,7 +110,7 @@ const Image = styled("img")(({theme})=>({
         </ImageContainer>
         <div>
             <h4 className='text-lg font-semibold px-4'>{posterLinks.heading}</h4>
-            <p className='text-gray-500 px-4'>188,288 properties</p>
+            {/* <p className='text-gray-500 px-4'>188,288 properties</p> */}
         </div>
        </SliderContainer>
   )
