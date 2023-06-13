@@ -176,7 +176,7 @@ export default function NavButton() {
           TECHPYRO
         </Typography>
         <Typography variant="div" fontSize="20px" paddingBottom="20px">
-         STUDIO
+        TEA & COFEE 
         </Typography>
       </Box>
       <MoreButton
