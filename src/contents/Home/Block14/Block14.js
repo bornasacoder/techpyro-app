@@ -5,7 +5,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 function Block14() {
   return (
-    <div className='flex md:flex-row flex-col justify-between mt-[100px] h-[200px] mb-[100px]'>
+    <div className='flex md:flex-row flex-col justify-between mt-[100px] h-[400px] mb-[100px] bg-blue-100'>
     <div>
         <div className='flex md:flex-col flex-row md:justify-evenly justify-between md:mb-0 mb-2'>
             <div>

@@ -2,24 +2,24 @@
  const Block2_images = [
     {
         id:1,
-        img:"https://img.freepik.com/premium-photo/generative-ai-stage-with-lighting-spotlights-dark-room_634053-5941.jpg?size=626&ext=jpg&ga=GA1.2.1600733619.1686647879&semt=sph",
+        img:"https://img.freepik.com/free-photo/modern-studio-apartment-design-with-bedroom-living-space_1262-12375.jpg?size=626&ext=jpg&ga=GA1.1.1600733619.1686647879&semt=sph",
         // heading:"New York"
     },
     {
         id:2,
-        img:"https://img.freepik.com/premium-photo/empty-stage-with-lighting-equipment-stage-spotlight-shines-stage-3d-rendering_39972-795.jpg?size=626&ext=jpg&ga=GA1.2.1600733619.1686647879&semt=sph",
+        img:"https://images.pexels.com/photos/3659683/pexels-photo-3659683.jpeg?auto=compress&cs=tinysrgb&w=600",
         // heading:"Singapore"
     },
     {
-        id:3,img:"https://img.freepik.com/free-photo/cosmetics-product-advertising-stand-exhibition-wooden-podium-green-background-with-leaves-sha_1258-170357.jpg?size=626&ext=jpg&ga=GA1.2.1600733619.1686647879&semt=sph",
+        id:3,img:"https://img.freepik.com/free-photo/swimming-pool-beach-luxury-hotel-type-entertainment-complex-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer-turkey_146671-18726.jpg?size=626&ext=jpg&ga=GA1.2.1600733619.1686647879&semt=sph",
         // heading:"Paris"
     },
     {
-        id:4,img:"https://img.freepik.com/premium-photo/news-studio-room-design-aluminum-trim-gold-red-wall-backdrop-tv-shows_43151-2104.jpg?size=626&ext=jpg&ga=GA1.2.1600733619.1686647879&semt=sph",
+        id:4,img:"https://img.freepik.com/premium-photo/luxury-living-outdoor-space-interior-design-lavish-outside-garden-morning-generative-ai_825385-181.jpg?size=626&ext=jpg&ga=GA1.2.1600733619.1686647879&semt=sph",
         // heading:"London"
     },
     {
-        id:5,img:"https://img.freepik.com/free-photo/rubber-fig-gray-room_53876-88589.jpg?size=626&ext=jpg&ga=GA1.2.1600733619.1686647879&semt=sph",
+        id:5,img:"https://img.freepik.com/free-photo/sunset-pool_1203-3192.jpg?size=626&ext=jpg&ga=GA1.1.1600733619.1686647879&semt=sph",
         // heading:"Tokyo"
     },
     {
