@@ -7,7 +7,7 @@ import { Box, Button, styled, Typography } from "@mui/material";
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
   padding: "68px 42px ",
-  background: `url(${"https://as2.ftcdn.net/v2/jpg/00/90/93/97/1000_F_90939777_AREvg0n0SC0SZXOamWXfWyBretBCL0fL.jpg"})
+  background: `url(${"https://img.freepik.com/free-photo/contented-long-haired-woman-looking-contented-after-buying-goods-drugstore_259150-57998.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
   center/cover no-repeat `,
   zIndex: "0",
 }));
@@ -33,10 +33,10 @@ export default function MiddleContent() {
             letterSpacing: "4px",
             padding: "32px 0px 28px",
             width: { md: "60%", sm: "80%", xs: "100%" },
-            color:"YELLOW"
+            
           }}
         >
-          WELCOME TO TECHPYRO SHOPPING MALL
+          WELCOME TO TECHPYRO MEDICAL STORE
         </Typography>
         <Box
           sx={{

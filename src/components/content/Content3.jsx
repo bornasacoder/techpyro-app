@@ -74,7 +74,7 @@ export default function Content3() {
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-psd/special-sales-landing-page-template_23-2148975910.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-vector/gradient-nutritionist-job-landing-page_23-2150103302.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "300px",
               }}
@@ -130,7 +130,7 @@ export default function Content3() {
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-psd/flat-design-sale-template_23-2149834861.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/premium-vector/responsive-landing-page-with-illustration-doctor-handshaking-from-patient-with-medical-app-smart-phone-online-health-solution_1302-20668.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "300px",
               }}

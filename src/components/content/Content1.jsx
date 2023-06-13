@@ -38,7 +38,7 @@ export default function Content1() {
             width:{md:"60%",sm:"80%",xs:"100%"}
           }}
         >
-          TECHPYRO SHOPPING MALL ITEMS
+          TECHPYRO  MEDICAL STORE ITEMS
         </Typography>
       </Box>
       <Box
@@ -66,73 +66,73 @@ export default function Content1() {
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/beautiful-second-hand-market_23-2149353670.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-photo/open-first-aid-kit-white-background_23-2147874819.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Clothing and Fashion</Item>
+            <Item>First aid supplies</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/premium-photo/hand-holding-credit-card-smartphone-background-interior-home-appliances-electronics-store-cashless-payment-purchases-online-banking_189498-5979.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/premium-photo/doctor-gives-recipe-patient_225683-827.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Electronics and Technology</Item>
+            <Item>Prescription and over-the-counter medications</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/premium-photo/set-make-up-cosmetics-generative-ai_123447-17460.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-photo/gynecological-room-hospital_7502-8389.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Beauty and Cosmetics</Item>
+            <Item>Medical equipment</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/empty-living-room-interior-with-pc-background_482257-22023.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-photo/beauty-product-still-life_23-2147817669.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Home Furnishings and Décor</Item>
+            <Item>Personal care products</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/free-photo/jewelry-with-gems-showcase_1398-4326.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-photo/high-angle-pill-foils-plastic-containers_23-2148533456.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Jewelry and Accessories</Item>
+            <Item>Medical consumables</Item>
           </Grid>
           <Grid item xs={12} sm={6} md={4}>
             <Item
               sx={{
                 background: `linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)
-  ),url(${"https://img.freepik.com/premium-photo/car-delivering-shopping-cart-with-accessories-against-blackboard_113725-995.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
+  ),url(${"https://img.freepik.com/free-vector/medicine-items-illustration-set_74855-303.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais"})
    center/cover no-repeat`,
                 height: "200px",
               }}
             >
             </Item>
-            <Item>Books, Stationery, and Gifts
+            <Item>Diagnostic tools
             </Item>
           </Grid>
         </Grid>
