@@ -7,10 +7,10 @@ export const earbud= [
               cost: "6300"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Club C Extra Women Shoes",
+          tagline: "Club C Extra Women cloth",
           tagline1: "Airpod Product ides",
           new:"New",
-          image: "https://img.freepik.com/premium-photo/pair-black-sport-shoes-isolated-white-background_707345-52.jpg?size=626&ext=jpg ",
+          image: "https://img.freepik.com/premium-psd/logo-mockup-orange-fabric_35913-2408.jpg?size=626&ext=jpg ",
           rating:"4.3",
       },
       {
@@ -24,7 +24,7 @@ export const earbud= [
           tagline: "Reebok Classics Reverse Fleece Wide Leg Pants",
           tagline1: "Airpod Product kiebd",
           new:"New",
-          image: "https://img.freepik.com/premium-photo/boot-cliff-with-mountains-background_303085-1245.jpg?size=626&ext=jpg",
+          image: "https://img.freepik.com/free-photo/blogger-recording-video-from-home_23-2148538779.jpg?size=626&ext=jpg",
           rating:"4.3",
       },
       {
@@ -34,9 +34,9 @@ export const earbud= [
               discount: "201",
               cost: "9800"
           },
-         image: "https://img.freepik.com/premium-photo/pair-yellow-sneakers-with-word-bottom_771335-47464.jpg?size=626&ext=jpg",
+         image: "https://img.freepik.com/premium-psd/realistic-red-fabric-mockup_69464-1967.jpg?size=626&ext=jpg",
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Nano X2 TR Adventure Men's Training Shoes",
+          tagline: "Nano X2 TR Adventure Men's Training cloth",
           tagline1: "Birpod product unsde",
           new:"New",
           rating:"4.3",
@@ -49,10 +49,10 @@ export const earbud= [
               cost: "9800"
           },
           category:["Pizza","California Pizza","Detroit Pizza"],
-          tagline: "Nano X2 TR Adventure Men's Training Shoes",
+          tagline: "Nano X2 TR Adventure Men's Training cloth",
           tagline1: "New minia nidesd",
           new:"New",
-        image: "https://img.freepik.com/free-photo/pair-trainers_144627-3799.jpg?size=626&ext=jpg",
+        image: "https://img.freepik.com/free-psd/abstract-background-purple-desert_107441-12.jpg?size=626&ext=jpg",
           rating:"4.3",
       },
      

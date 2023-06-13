@@ -8,7 +8,7 @@ export const jogger = [
                },
                category:["Finger Chips","Samosa","Spring Rolls"],
                tagline: "Hummus and pita bread",
-               image:"https://img.freepik.com/free-photo/leather-boots_1203-8147.jpg?size=626&ext=jpg",   
+               image:"https://img.freepik.com/free-photo/photo-young-female-tailor-holding-purple-ribbon-looking-camera_144627-77935.jpg?size=626&ext=jpg",   
                rating:"4.3",
         
    },
@@ -21,7 +21,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Onion rings",
-        image:"https://img.freepik.com/free-photo/still-life-say-no-fast-fashion_23-2149669605.jpg?size=626&ext=jpg",
+        image:"https://img.freepik.com/free-photo/young-blogger-taking-clothing-measures_23-2148538781.jpg?size=626&ext=jpg",
 
        rating:"4.3",
 
@@ -35,7 +35,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Homemade or Artisan Bakeries",
-    image:"https://img.freepik.com/free-photo/shoes_1203-8155.jpg?size=626&ext=jpg",
+    image:"https://img.freepik.com/free-photo/young-blogger-posing-with-dummy-home_23-2148538782.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },
@@ -48,7 +48,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Mindful Ingredients",
-      image:"https://img.freepik.com/free-photo/sports-girls-training-summer-park_1157-37284.jpg?size=626&ext=jpg",
+      image:"https://img.freepik.com/premium-photo/fashion-clothes-online-concept-female-blogger-presenting-recommend-new-dress-live-streaming_1423-6063.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },
@@ -61,7 +61,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Healthier Filling Choices",
-      image:"https://img.freepik.com/premium-photo/person-wearing-pair-brown-hiking-boots-stands-rock-front-sunset_303085-1261.jpg?size=626&ext=jpg ",
+      image:"https://img.freepik.com/free-photo/success-entrepreneur-asian-young-woman-check-order-sell-clothes-smartphone-startup-small-business_74952-2336.jpg?size=626&ext=jpg ",
        rating:"4.3",
 
 },
@@ -74,7 +74,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Gluten-Free Options",
-      image:"https://img.freepik.com/free-photo/new-sneakers_93675-130032.jpg?size=626&ext=jpg",
+      image:"https://img.freepik.com/free-photo/young-female-designer-sewing-dress-shop_23-2147875018.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },

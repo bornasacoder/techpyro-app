@@ -15,7 +15,7 @@ export default function Content8() {
         width="100%"
         height="500px"
         style={{ position: "absolute", zIndex: "-1", objectFit: "cover" }}
-        src="https://v5.cdnpk.net/videvo_files/video/premium/partners0516/large_watermarked/BB_a75c38dc-c20a-422a-81e7-d6abc431231b_FPpreview.mp4"
+        src="https://v4.cdnpk.net/videvo_files/video/free/video0460/large_watermarked/_import_60cc36c8dca785.08529066_FPpreview.mp4"
         autoPlay
         loop
         muted
@@ -44,7 +44,7 @@ export default function Content8() {
                 // fontFamily: "Dancing Script",
               }}
             >
-              The Right pista cake
+              The Right summer cloth
             </Typography>
           </Box>
           <br/>

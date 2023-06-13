@@ -63,7 +63,7 @@ export default function Content1() {
       >
         <Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm: 1, md: 2 }}>
           <Grid item xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-            <Image src="https://img.freepik.com/premium-photo/wall-is-where-we-like-chill-out-closeup-shot-unidentifiable-group-university-students-sitting-together-wall-outside_590464-14775.jpg?size=626&ext=jpg" />
+            <Image src="https://img.freepik.com/free-photo/multi-color-fabric-texture-samples_1373-434.jpg?size=626&ext=jpg" />
           </Grid>
 
           <Grid item xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
@@ -82,28 +82,28 @@ export default function Content1() {
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <Bluetooth />
-              shoes
+              cloth
 
             </Typography>
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <Battery90 />
-              sleeper
+              summer cloths
             </Typography>
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <TouchApp />
-              sandle
+              winter cloths
             </Typography>
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <VolumeUp />
-              sports shoes
+              sports cloths
             </Typography>
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <Water />
-              causual shoe
+              causual cloths
             </Typography>
             <br />
             <Box>
