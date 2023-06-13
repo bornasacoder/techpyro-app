@@ -8,7 +8,7 @@ export const jogger = [
                },
                category:["Finger Chips","Samosa","Spring Rolls"],
                tagline: "Hummus and pita bread",
-               image:"https://img.freepik.com/premium-photo/royal-gold-jewellery-set_1396-371.jpg?size=626&ext=jpg",   
+               image:"https://img.freepik.com/free-vector/art-paint-room-studio-interior-with-easel-night_107791-20150.jpg?size=626&ext=jpg",   
                rating:"4.3",
         
    },
@@ -21,7 +21,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Onion rings",
-        image:"https://img.freepik.com/free-photo/shiny-gold-wedding-ring-with-diamond-gemstone-generated-by-ai_188544-37378.jpg?size=626&ext=jpg",
+        image:"https://img.freepik.com/free-vector/spotlights-realistic-composition-with-photo-shooting-studio-environment-chroma-key-cyclorama-surrounded-by-professional-spot-lights_1284-31592.jpg?size=626&ext=jpg",
 
        rating:"4.3",
 
@@ -35,7 +35,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Homemade or Artisan Bakeries",
-    image:"https://img.freepik.com/free-photo/wedding-preparation-beautiful-happy-bride-dresses-earrings-before-wedding_8353-5813.jpg?size=626&ext=jpg",
+    image:"https://img.freepik.com/free-vector/empty-room-night-with-large-glass-door-blue-curtains-yoga-mat-clean-floor_1441-2313.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },
@@ -48,7 +48,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Mindful Ingredients",
-      image:"https://img.freepik.com/premium-photo/indian-traditional-jewellery_57665-4103.jpg?size=626&ext=jpg",
+      image:"https://img.freepik.com/free-vector/studio-photographer-concept-illustration_114360-2306.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },
@@ -61,7 +61,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Healthier Filling Choices",
-      image:"https://img.freepik.com/premium-photo/glamorous-young-model-exuding-elegance-gold-generated-by-ai_188544-9973.jpg?size=626&ext=jpg ",
+      image:"https://img.freepik.com/free-vector/talk-show-studio-interior_1284-9411.jpg?size=626&ext=jpg ",
        rating:"4.3",
 
 },
@@ -74,7 +74,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Gluten-Free Options",
-      image:"https://img.freepik.com/free-photo/wedding-rings-solo-woden-table_8353-55.jpg?size=626&ext=jpg",
+      image:"https://img.freepik.com/free-vector/brick-wall-with-spot-lights-background_52683-42882.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },

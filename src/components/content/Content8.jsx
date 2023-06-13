@@ -15,7 +15,7 @@ export default function Content8() {
         width="100%"
         height="500px"
         style={{ position: "absolute", zIndex: "-1", objectFit: "cover" }}
-        src="https://v5.cdnpk.net/videvo_files/video/premium/partners0133/large_watermarked/BB_f71477da-a065-410f-815b-eeaf069683dd_FPpreview.mp4"
+        src="https://v4.cdnpk.net/videvo_files/video/free/video0464/large_watermarked/_import_6118b50751cce4.09919308_FPpreview.mp4"
         autoPlay
         loop
         muted
@@ -44,7 +44,7 @@ export default function Content8() {
                 // fontFamily: "Dancing Script",
               }}
             >
-              The Right Fashion in jwellery
+              The Right Fashion in studio
             </Typography>
           </Box>
           <br/>

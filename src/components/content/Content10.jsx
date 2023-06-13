@@ -63,7 +63,7 @@ export default function Content10() {
           //   xs={{xs:12,sm:6,md:4}}
         >
           <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-<Image src="https://img.freepik.com/free-photo/gold-necklace-with-red-orange-beads-black-object_1340-42822.jpg?size=626&ext=jpg"/>
+<Image src="https://img.freepik.com/free-vector/cameraman-shooting-cooking-tv-show-flat-vector-illustration-popular-chef-woman-preparing-food-studio-mixing-ingredients-talking-explaining-audience-how-cook-television-concept_74855-23989.jpg?size=626&ext=jpg"/>
       </Grid>
         <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
           <Typography fontSize="20px">FEATURED PRODUCT</Typography>
@@ -75,7 +75,7 @@ export default function Content10() {
               // textAlign:"center"
             }}
           >
-            A very good jwellery, 
+            A very good studio, 
             <br />
             designed for you please come one time here.
           </Typography>
@@ -118,7 +118,7 @@ export default function Content10() {
               // textAlign:"center"
             }}
           >
-           A good jwellery
+           A good studio
             <br />
             designed for you please come one time here.
           </Typography>
@@ -156,7 +156,7 @@ export default function Content10() {
         </Grid>
        
         <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-      <Image src="https://img.freepik.com/free-photo/shiny-gemstone-ring-glows-with-vibrant-yellow-diamond-generated-by-ai_188544-39073.jpg?size=626&ext=jpg"/>
+      <Image src="https://img.freepik.com/free-vector/realistic-news-studio-background_23-2149982947.jpg?size=626&ext=jpg"/>
       </Grid>
         </Grid>
       </Box>

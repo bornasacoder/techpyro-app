@@ -63,7 +63,7 @@ export default function Content1() {
       >
         <Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm: 1, md: 2 }}>
           <Grid item xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-            <Image src="https://img.freepik.com/free-photo/big-beautiful-jewel_144627-28858.jpg?size=626&ext=jpg" />
+            <Image src="https://img.freepik.com/free-vector/radio-hosts-dj-studio-presenters-man-woman_33099-2444.jpg?size=626&ext=jpg" />
           </Grid>
 
           <Grid item xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
@@ -82,28 +82,28 @@ export default function Content1() {
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <Bluetooth />
-              jwellery
+               Studio
 
             </Typography>
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <Battery90 />
-              Necklace
+              Studio lighting equipment
             </Typography>
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <TouchApp />
-              Pendant
+              Pop filter
             </Typography>
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <VolumeUp />
-              Bracelet
+              Tripod
             </Typography>
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <Water />
-              Huge offer
+              Camera
             </Typography>
             <br />
             <Box>
