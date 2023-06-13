@@ -6,13 +6,14 @@ import Item from './Item';
 export default function Block5() {
   const data = [
     
-    {img:'https://img.freepik.com/free-photo/picture-charming-magnetic-young-female-with-curly-black-hair_176532-7422.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Portrait'},
-    {img:'https://img.freepik.com/free-photo/full-shot-couple-announcing-pregnancy-with-smartphone_23-2150296845.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Baby and Maternity'},
-    {img:'https://img.freepik.com/free-photo/couple-dancing-ther-wedding_1157-93.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Event'},
+    {img:'https://img.freepik.com/free-photo/beautiful-shot-modern-house-kitchen-dining-room_181624-2870.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Kitchen'},
+    {img:'https://img.freepik.com/free-vector/modern-realistic-bathroom-interior-design_1284-19013.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Bathroom'},
+    {img:'https://img.freepik.com/free-photo/child-having-fun-during-playtime_23-2149382704.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Kids'},
 
-    {img:'https://img.freepik.com/free-photo/white-drone-hovering-bright-blue-sky_158595-3344.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Drone Camera'},
-    {img:'https://img.freepik.com/free-photo/young-stylish-sexy-woman-pink-luxury-dress-summer-fashion-trend-chic-style-sunglasses-blue-studio-background-taking-pictures-vintage-camera_285396-2949.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Wedding Photography    '},
-    {img:'https://img.freepik.com/free-photo/indian-photographer-with-camera-pastel-wall_496169-1588.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Fashion'},
+    {img:'https://img.freepik.com/free-photo/luxury-bedroom-hotel_1150-10836.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Bedroom'},
+    {img:'https://img.freepik.com/free-photo/3d-rendering-dining-set-modern-scandinavian-kitchen_105762-2095.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Dining Room '},
+    {img:'https://img.freepik.com/free-vector/office-interior-realistic-with-desk-armchair-winners-cups-cabinet-shelves_1284-62660.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Study and Office'},
+
 
 
   ]

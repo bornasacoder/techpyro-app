@@ -130,14 +130,14 @@ export default function Block3(props) {
       };
 
       const data = [
-        {img:'https://img.freepik.com/free-vector/photography-studio-with-black-background_23-2147562678.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Studio'},
-        {img:'https://img.freepik.com/free-vector/photo-session-isometric-with-young-woman-red-dress-posing-photographer-studio_1284-27714.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Photo Session '},
-        {img:'https://img.freepik.com/free-photo/photo-camera-balancing-with-yellow-background_23-2150271772.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Camera'},
+        {img:'https://img.freepik.com/free-psd/front-view-room-with-bed-modern-wooden-night-tables-mockup_176382-1965.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Bedroom'},
+        {img:'https://img.freepik.com/free-photo/restaurant-table-with-wooden-chairs-placed-hall-decorated-classical-style_140725-8460.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Dining Room '},
+        {img:'https://img.freepik.com/free-vector/teenager-workplace-interior-realistic_1284-25148.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Study and Office'},
     
     
-        {img:'https://img.freepik.com/free-photo/person-with-speaker-studio_140725-7926.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Studio Setup'},
-        {img:'https://img.freepik.com/free-photo/woman-posing-photo-chair_23-2148532604.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Croma'},
-        {img:'https://img.freepik.com/free-psd/photography-workshop-poster-template_23-2148668976.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Offer'},
+        {img:'https://img.freepik.com/free-photo/empty-modern-room-with-furniture_23-2149178334.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Kitchen'},
+        {img:'https://img.freepik.com/free-psd/modern-bath-room-furniture_176382-976.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Bathroom'},
+        {img:'https://img.freepik.com/free-photo/childrens-bed-nursery-cot-velvet-childrens-room_181624-43167.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Kids'},
     
       ]
 
@@ -145,7 +145,7 @@ export default function Block3(props) {
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <Header sliderH='Studio'/>
+        <Header sliderH='Furniture'/>
         <Slider {...settings}>
         {data.map((item)=>(
         <Item data={item} />

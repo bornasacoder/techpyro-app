@@ -117,21 +117,21 @@ const MainCarousel = () => {
     <Slider {...settings1}>
    
     <Item>
-      <Img src='https://img.freepik.com/free-psd/landing-page-photography-workshop-template_23-2148668971.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais' />
+      <Img src='https://img.freepik.com/free-photo/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_1258-152155.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
     <Item>
-        <Img src='https://img.freepik.com/free-photo/professional-indian-young-photographer-taking-photos-studio-with-leight_231208-3780.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais' />
+        <Img src='https://img.freepik.com/free-photo/living-room-with-couch-lamp-wall_1340-26675.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
         <Head>upto 40% off</Head>
       </Item>
    
       <Item>
-      <Img src='https://img.freepik.com/free-psd/photography-classes-landing-page_23-2148968298.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais' />
+      <Img src='https://img.freepik.com/free-photo/luxury-modern-style-bedroom-interior-hotel-bedroom-generative-ai-illustration_1258-151610.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
   
     <Item>
-      <Img src='https://img.freepik.com/free-vector/professional-photo-studio-interior-cartoon-vector-illustration_33099-1839.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais' />
+      <Img src='https://img.freepik.com/free-photo/chic-modern-luxury-aesthetics-style-living-room-blue-tone_53876-125839.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
     
