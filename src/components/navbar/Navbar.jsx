@@ -174,7 +174,7 @@ export default function Navbar() {
     <NavBar>
     
         <NavLeft>
-          <Image src="https://img.freepik.com/premium-psd/3d-wood-logo-effect-music-studio-modern-professional-template-psd_53876-154905.jpg?size=626&ext=jpg" />
+          <Image src="https://img.freepik.com/free-icon/armchair_318-201968.jpg?size=626&ext=jpg" />
           <NavButton />
         
         </NavLeft>

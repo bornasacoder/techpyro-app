@@ -26,7 +26,7 @@ const Content9 = () => {
           justifyContent: "center",
         }}
       >
-        <Image src="https://img.freepik.com/premium-psd/3d-wood-logo-effect-music-studio-modern-professional-template-psd_53876-154905.jpg?size=626&ext=jpg " />
+        <Image src="https://img.freepik.com/free-icon/armchair_318-201968.jpg?size=626&ext=jpg " />
       </Box>
       <Box
         sx={{

@@ -11,7 +11,7 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
   [theme.breakpoints.down("sm")]: {
     justifyContent: "center",
   },
-  background: `url(${"https://img.freepik.com/free-vector/talk-show-shooting-tv-studio-isometric-illustration_1284-27146.jpg?size=626&ext=jpg"})
+  background: `url(${"https://img.freepik.com/premium-photo/yellow-couch-with-green-wall-leaf-it_812649-692.jpg?size=626&ext=jpg"})
          center/cover no-repeat`,
   // [theme.breakpoints.down("md")]: {
   // padding: "68px 20px ",
@@ -31,7 +31,7 @@ export default function Content4() {
           variant="h1"
           sx={{color:"#FC6539", fontSize: { md: "58px", sm: "38px", xs: "28px" } }}
           data-aos="fade-left" >
-          A studio with advanced features ,
+          A furniture with advanced features ,
           <br />
           such as internet connectivity
         </Typography>

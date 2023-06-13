@@ -15,7 +15,7 @@ export default function Content8() {
         width="100%"
         height="500px"
         style={{ position: "absolute", zIndex: "-1", objectFit: "cover" }}
-        src="https://v4.cdnpk.net/videvo_files/video/free/video0464/large_watermarked/_import_6118b50751cce4.09919308_FPpreview.mp4"
+        src="https://v4.cdnpk.net/videvo_files/video/free/video0462/large_watermarked/_import_60ea7d4e703ec0.39022137_FPpreview.mp4"
         autoPlay
         loop
         muted
@@ -44,7 +44,7 @@ export default function Content8() {
                 // fontFamily: "Dancing Script",
               }}
             >
-              The Right Fashion in studio
+              The Right Fashion in furniture
             </Typography>
           </Box>
           <br/>

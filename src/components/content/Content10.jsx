@@ -63,7 +63,7 @@ export default function Content10() {
           //   xs={{xs:12,sm:6,md:4}}
         >
           <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-<Image src="https://img.freepik.com/free-vector/cameraman-shooting-cooking-tv-show-flat-vector-illustration-popular-chef-woman-preparing-food-studio-mixing-ingredients-talking-explaining-audience-how-cook-television-concept_74855-23989.jpg?size=626&ext=jpg"/>
+<Image src="https://img.freepik.com/free-photo/no-people-empty-desk-with-laptop-computer-apartment-use-modern-digital-technology-entertainment-nobody-home-office-with-interior-decorations-creative-indoors-style_482257-42172.jpg?size=626&ext=jpg"/>
       </Grid>
         <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
           <Typography fontSize="20px">FEATURED PRODUCT</Typography>
@@ -75,7 +75,7 @@ export default function Content10() {
               // textAlign:"center"
             }}
           >
-            A very good studio, 
+            A very good furniture, 
             <br />
             designed for you please come one time here.
           </Typography>
@@ -118,7 +118,7 @@ export default function Content10() {
               // textAlign:"center"
             }}
           >
-           A good studio
+           A good furniture
             <br />
             designed for you please come one time here.
           </Typography>
@@ -156,7 +156,7 @@ export default function Content10() {
         </Grid>
        
         <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-      <Image src="https://img.freepik.com/free-vector/realistic-news-studio-background_23-2149982947.jpg?size=626&ext=jpg"/>
+      <Image src="https://img.freepik.com/premium-photo/poster-room-uhd-8k-generative-ai_849906-8758.jpg?size=626&ext=jpg"/>
       </Grid>
         </Grid>
       </Box>

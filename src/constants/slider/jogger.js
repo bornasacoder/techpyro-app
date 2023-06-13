@@ -8,7 +8,7 @@ export const jogger = [
                },
                category:["Finger Chips","Samosa","Spring Rolls"],
                tagline: "Hummus and pita bread",
-               image:"https://img.freepik.com/free-vector/art-paint-room-studio-interior-with-easel-night_107791-20150.jpg?size=626&ext=jpg",   
+               image:"https://img.freepik.com/free-photo/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_1258-152152.jpg?size=626&ext=jpg",   
                rating:"4.3",
         
    },
@@ -21,7 +21,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Onion rings",
-        image:"https://img.freepik.com/free-vector/spotlights-realistic-composition-with-photo-shooting-studio-environment-chroma-key-cyclorama-surrounded-by-professional-spot-lights_1284-31592.jpg?size=626&ext=jpg",
+        image:"https://img.freepik.com/free-photo/chic-modern-luxury-aesthetics-style-living-room-gray-tone_53876-132806.jpg?size=626&ext=jpg",
 
        rating:"4.3",
 
@@ -35,7 +35,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Homemade or Artisan Bakeries",
-    image:"https://img.freepik.com/free-vector/empty-room-night-with-large-glass-door-blue-curtains-yoga-mat-clean-floor_1441-2313.jpg?size=626&ext=jpg",
+    image:"https://img.freepik.com/premium-photo/indulgent-living-contemporary-luxury-home-with-modern-interior-design_848676-875.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },
@@ -48,7 +48,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Mindful Ingredients",
-      image:"https://img.freepik.com/free-vector/studio-photographer-concept-illustration_114360-2306.jpg?size=626&ext=jpg",
+      image:"https://img.freepik.com/free-photo/scandinavian-living-room-interior-design-zoom-background_53876-143147.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },
@@ -61,7 +61,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Healthier Filling Choices",
-      image:"https://img.freepik.com/free-vector/talk-show-studio-interior_1284-9411.jpg?size=626&ext=jpg ",
+      image:"https://img.freepik.com/free-photo/living-room-with-couch-lamp-wall_1340-26675.jpg?size=626&ext=jpg ",
        rating:"4.3",
 
 },
@@ -74,7 +74,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Gluten-Free Options",
-      image:"https://img.freepik.com/free-vector/brick-wall-with-spot-lights-background_52683-42882.jpg?size=626&ext=jpg",
+      image:"https://img.freepik.com/free-photo/scandinavian-living-room-interior-design-zoom-background_53876-143147.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },

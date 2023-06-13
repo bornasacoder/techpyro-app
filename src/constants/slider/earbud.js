@@ -10,7 +10,7 @@ export const earbud= [
           tagline: "Club C Extra Women cloth",
           tagline1: "Airpod Product ides",
           new:"New",
-          image: "https://img.freepik.com/free-vector/music-studio-control-room-singer-booth_107791-1637.jpg?size=626&ext=jpg",
+          image: "https://img.freepik.com/premium-photo/tree-stump-side-table-with-hairpin-legs-design-modern-room-bright-color-generative-ai_881377-4179.jpg?size=626&ext=jpg",
           rating:"4.3",
       },
       {
@@ -24,7 +24,7 @@ export const earbud= [
           tagline: "Reebok Classics Reverse Fleece Wide Leg Pants",
           tagline1: "Airpod Product kiebd",
           new:"New",
-          image: "https://img.freepik.com/free-vector/professional-music-record-studio-room-interior_107791-18539.jpg?size=626&ext=jpg",
+          image: "https://img.freepik.com/premium-photo/coastal-boho-style-interior-wall-mockup-3d-render-bright-color-generative-ai_779468-11996.jpg?size=626&ext=jpg",
           rating:"4.3",
       },
       {
@@ -34,7 +34,7 @@ export const earbud= [
               discount: "201",
               cost: "9800"
           },
-         image: "https://img.freepik.com/free-vector/modern-sale-banner-with-abstract-shapes_1361-1641.jpg?size=626&ext=jpg",
+         image: "https://img.freepik.com/free-photo/bedroom-with-green-wall-plants_1340-32763.jpg?size=626&ext=jpg",
           category:["Pizza","California Pizza","Detroit Pizza"],
           tagline: "Nano X2 TR Adventure Men's Training cloth",
           tagline1: "Birpod product unsde",
@@ -52,7 +52,7 @@ export const earbud= [
           tagline: "Nano X2 TR Adventure Men's Training cloth",
           tagline1: "New minia nidesd",
           new:"New",
-        image: "https://img.freepik.com/free-vector/art-paint-room-studio-interior-with-easel-night_107791-20150.jpg?size=626&ext=jpg",
+        image: "https://img.freepik.com/free-photo/beautiful-scenery-with-lamp_23-2149036971.jpg?size=626&ext=jpg",
           rating:"4.3",
       },
      
