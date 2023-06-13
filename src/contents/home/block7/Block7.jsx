@@ -129,21 +129,19 @@ export default function Block7(props) {
       };
 
       const data = [
-        {img:'https://img.freepik.com/free-photo/very-sexy-woman-show-her-natural-look_144627-4624.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Hair Saloon'},
-        {img:'https://img.freepik.com/free-photo/woman-getting-massage-from-another-person_1286-20.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Ayurvedic Spa'},
-        {img:'https://img.freepik.com/free-photo/medium-shot-nutritionist-measuring-patient_23-2148302085.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Weight Loss Center'},
-    
-    
-        {img:'https://img.freepik.com/free-photo/rejuvenating-facial-treatment_158595-4602.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Skin Clinic    '},
-        {img:'https://img.freepik.com/free-photo/picture-happy-beautiful-woman-massage-salon_155003-2712.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Spa Center'},
-        {img:'https://img.freepik.com/free-photo/beautiful-face-young-woman-with-maroon-makeup-portrait-gorgeous-girl-with-vinous-lips_186202-7456.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Bridal Salon'},
+        {img:'https://img.freepik.com/free-photo/young-handsome-physician-medical-robe-with-stethoscope_1303-17813.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'General Physician'},
+        {img:'https://img.freepik.com/free-photo/young-doctor-is-using-stethoscope-listen-heartbeat-patient-shot-female-doctor-giving-male-patient-check-up_657921-875.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Cardiologist    '},
+        {img:'https://img.freepik.com/free-photo/this-pain-stomach-is-unbearable_329181-2191.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Gastroenterologist'},
+        {img:'https://img.freepik.com/free-photo/cosmetology-doctor-patien_624325-1648.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Dermatologist    '},
+        {img:'https://img.freepik.com/free-photo/little-girl-checking-up-her-sight-ophthalmology-center_1303-27493.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Ophthalmologist'},
+        {img:'https://img.freepik.com/free-photo/focused-doctor-working-his-desk_23-2147646746.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Ayurvedic Practitioner    '},
     
       ]
   return (
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <SliderHeader sliderH='Beauty Parlour'/>
+        <SliderHeader sliderH='Medical'/>
         <Slider {...settings}>
         { data.map((item)=>(
         <SliderItem data={item} />

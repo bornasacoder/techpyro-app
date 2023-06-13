@@ -117,21 +117,21 @@ const MainCarousel = () => {
     <Slider {...settings1}>
    
     <Item>
-      <Img src='https://img.freepik.com/free-psd/make-up-concept-banner-template_23-2148608281.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais' />
+      <Img src='https://img.freepik.com/free-vector/gradient-medical-landing-page-template_23-2149149349.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
     <Item>
-        <Img src='https://img.freepik.com/free-photo/two-attractive-joyful-models-with-stylish-look-having-fun-beauty-salon_197531-1286.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais' />
+        <Img src='https://img.freepik.com/free-vector/hospital-care-brochure-template_23-2150369338.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
         <Head>upto 40% off</Head>
       </Item>
    
       <Item>
-      <Img src='https://img.freepik.com/free-photo/woman-with-makeup-artist-choosing-color-eyeshadow_329181-1925.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais' />
+      <Img src='https://img.freepik.com/free-psd/medical-healthcare-poster-template_23-2148940481.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
   
     <Item>
-      <Img src='https://img.freepik.com/free-photo/portrait-beautiful-blond-woman-with-long-hair-makeup-brushes-near-attractive-face_158538-2243.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais' />
+      <Img src='https://img.freepik.com/free-photo/successful-medical-team_329181-9252.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
       <Head>upto 40% off</Head>
     </Item>
     

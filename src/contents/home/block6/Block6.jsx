@@ -130,13 +130,14 @@ export default function Block6(props) {
 
       const data = [
         
-        {img:'https://img.freepik.com/free-photo/woman-making-beauty-procedures-beauty-salon_1303-16720.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Skin Clinic    '},
-        {img:'https://img.freepik.com/free-psd/meditation-with-yoga-mat-poster-template_23-2149169347.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Spa Center'},
-        {img:'https://img.freepik.com/free-photo/young-beautiful-stylish-woman-wedding-dress_285396-7867.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Bridal Salon'},
+        {img:'https://img.freepik.com/free-photo/medium-shot-woman-getting-lip-fillers_23-2149341846.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Dermatologist    '},
+        {img:'https://img.freepik.com/free-photo/horizontal-shot-interested-curious-caucasian-girl-appointment-with-eye-care-specialist-wearing-phoropter-while-ophthalmologist-checking-her-vision-sitting-yellow-wall_176420-6730.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Ophthalmologist'},
+        {img:'https://img.freepik.com/free-photo/confident-doctor-with-clipboard_23-2147646712.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Ayurvedic Practitioner    '},
     
-        {img:'https://img.freepik.com/free-photo/portrait-beautiful-face-young-woman-with-long-brown-hair_186202-4331.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Hair Saloon'},
-        {img:'https://img.freepik.com/premium-photo/beautiful-spa-composition-with-candles-table-close-up_392895-341537.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Ayurvedic Spa'},
-        {img:'https://img.freepik.com/free-photo/smiling-woman-measuring-her-waist-line-with-tape-measure_329181-3566.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Weight Loss Center'},
+    
+        {img:'https://img.freepik.com/free-photo/attractive-female-doctor-standing-with-documents-hospital_1303-20688.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'General Physician'},
+        {img:'https://img.freepik.com/free-photo/portrait-beautiful-young-asian-woman-with-heart-pillow-shape_74190-13788.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Cardiologist    '},
+        {img:'https://img.freepik.com/free-photo/young-man-having-bellyache-checked-shirt-white-t-shirt-looking-exhausted_176474-84103.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Gastroenterologist'},
     
     
       ]
@@ -144,7 +145,7 @@ export default function Block6(props) {
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <SliderHeader sliderH='Beauty Parlour'/>
+        <SliderHeader sliderH='Medical'/>
         <Slider {...settings}>
         { data.map((item)=>(
         <SliderItem data={item} />

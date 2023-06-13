@@ -168,7 +168,7 @@ export default function Navbar() {
             <Menu/>
             </MenuButtons>
           <Typography variant="h1" fontSize="20px">
-          Beauty Parlour
+           Medical
           </Typography>
           </Box>
            <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
@@ -222,18 +222,14 @@ export default function Navbar() {
     </NavBarTop>
 
     <NavBarBottom>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Hair Salon</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Ayurvedic Spa</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Weight Loss Center</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Makeup Studio
+      <Typography sx={{color:'black',fontSize:'12px'}}>General Physician</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Cardiologist</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Gastroenterologist</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Dermatologist
       </Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Skin Clinic</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Men's Salon</Typography> 
-      <Typography sx={{color:'black',fontSize:'12px'}}>Spa and Wellness Center</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Bridal Salon</Typography>  
-
-
-
+      <Typography sx={{color:'black',fontSize:'12px'}}>Ophthalmologist</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Ayurvedic Practitioner</Typography> 
+      <Typography sx={{color:'black',fontSize:'12px'}}>Anesthesiologist</Typography> 
     </NavBarBottom>
 
     </NavBar>
