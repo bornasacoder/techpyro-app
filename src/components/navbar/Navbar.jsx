@@ -174,7 +174,7 @@ export default function Navbar() {
     <NavBar>
     
         <NavLeft>
-          <Image src="https://img.freepik.com/free-icon/man-pushing-shopping-cart_318-47133.jpg?size=626&ext=jpg" />
+          <Image src="https://img.freepik.com/free-icon/sale_318-676719.jpg?size=626&ext=jpg" />
           <NavButton />
         
         </NavLeft>
