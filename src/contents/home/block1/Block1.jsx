@@ -117,21 +117,21 @@ const MainCarousel = () => {
     <Slider {...settings1}>
    
     <Item>
-      <Img src='https://img.freepik.com/free-photo/shiny-gemstone-necklace-reflects-elegance-glamour-generated-by-ai_188544-10583.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-psd/landing-page-photography-workshop-template_23-2148668971.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais' />
       <Head>upto 40% off</Head>
     </Item>
     <Item>
-        <Img src='https://img.freepik.com/free-photo/pair-gold-earrings-with-green-stones-black-background_1340-42887.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
+        <Img src='https://img.freepik.com/free-photo/professional-indian-young-photographer-taking-photos-studio-with-leight_231208-3780.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais' />
         <Head>upto 40% off</Head>
       </Item>
    
       <Item>
-      <Img src='https://img.freepik.com/free-photo/cool-girl-black-leather-jacket-taking-out-her-sunglasses-smiling_114579-32039.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais' />
+      <Img src='https://img.freepik.com/free-psd/photography-classes-landing-page_23-2148968298.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais' />
       <Head>upto 40% off</Head>
     </Item>
   
     <Item>
-      <Img src='https://img.freepik.com/free-photo/beautiful-engagement-ring-with-diamonds_23-2149509236.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-vector/professional-photo-studio-interior-cartoon-vector-illustration_33099-1839.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais' />
       <Head>upto 40% off</Head>
     </Item>
     

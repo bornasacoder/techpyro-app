@@ -129,22 +129,22 @@ export default function Block6(props) {
       };
 
       const data = [
-        
-        {img:'https://img.freepik.com/free-photo/beautiful-luxury-necklace-jewelry-stand-neck_1339-7947.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Silver'},
-        {img:'https://img.freepik.com/free-photo/jewels-sparkle-golden-wedding-rings-lying-leather_8353-763.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Diamond'},
-        {img:'https://img.freepik.com/free-photo/collection-colorful-bracelets-with-word-maharani-side_188544-39288.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Traditional Ethnic Jewellery    '},
+        {img:'https://img.freepik.com/free-photo/person-with-speaker-studio_140725-7926.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Studio Setup'},
+        {img:'https://img.freepik.com/free-photo/woman-posing-photo-chair_23-2148532604.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Croma'},
+        {img:'https://img.freepik.com/free-psd/photography-workshop-poster-template_23-2148668976.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Offer'},
     
-        {img:'https://img.freepik.com/premium-photo/indian-traditional-jewellery_136354-6544.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Kundan Jewellery'},
-        {img:'https://img.freepik.com/free-vector/realistic-gold-silver-jewelry-display-black-mannequins-stands-grey-surface_1284-9644.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Jewellery'},
-        {img:'https://img.freepik.com/free-vector/realistic-pair-golden-wedding-rings_52683-13736.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Gold'},
+        {img:'https://img.freepik.com/free-vector/photography-studio-with-black-background_23-2147562678.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Studio'},
+        {img:'https://img.freepik.com/free-vector/photo-session-isometric-with-young-woman-red-dress-posing-photographer-studio_1284-27714.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Photo Session '},
+        {img:'https://img.freepik.com/free-photo/photo-camera-balancing-with-yellow-background_23-2150271772.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Camera'},
     
     
+       
       ]
   return (
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <SliderHeader sliderH='Jewellery'/>
+        <SliderHeader sliderH='Studio'/>
         <Slider {...settings}>
         { data.map((item)=>(
         <SliderItem data={item} />

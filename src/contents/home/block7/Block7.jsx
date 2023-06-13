@@ -129,24 +129,21 @@ export default function Block7(props) {
       };
 
       const data = [
-        {img:'https://img.freepik.com/free-photo/jewels-sparkle-golden-wedding-rings-lying-leather_8353-763.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Diamond'},
+        {img:'https://img.freepik.com/free-photo/young-female-product-photographer-studio_23-2148970230.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Photography'},
+    {img:'https://img.freepik.com/free-photo/beautiful-woman-long-red-dress-walks-around-city-with-her-husband_1157-13373.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Wedding Photography    '},
+    {img:'https://img.freepik.com/free-photo/model-getting-ready-photoshoot_23-2149305171.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Fashion'},
 
-        {img:'https://img.freepik.com/free-photo/model-demonstrating-earrings-ring_7502-7042.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Jewellery'},
-        {img:'https://img.freepik.com/premium-photo/indian-traditional-jewellery_136354-6544.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Kundan Jewellery'},
-       
-        {img:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400839.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Traditional Ethnic Jewellery    '},
-        {img:'https://img.freepik.com/free-vector/realistic-gold-silver-jewelry-display-black-mannequins-stands-grey-surface_1284-9644.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Jewellery'},
-        {img:'https://img.freepik.com/free-vector/realistic-pair-golden-wedding-rings_52683-13736.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Gold'},
-    
-    
-        {img:'https://img.freepik.com/free-photo/beautiful-luxury-necklace-jewelry-stand-neck_1339-7947.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Silver'},
-        
+
+    {img:'https://img.freepik.com/free-photo/picture-charming-magnetic-young-female-with-curly-black-hair_176532-7422.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Portrait'},
+    {img:'https://img.freepik.com/free-photo/young-pregnant-woman-relaxing-park-outdoors_1328-3362.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Baby and Maternity'},
+    {img:'https://img.freepik.com/free-photo/decorated-banquet-hall-with-served-round-table-with-hydrangea-centerpiece-chiavari-chairs_8353-10059.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Event'},
+
       ]
   return (
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <SliderHeader sliderH='Jewellery'/>
+        <SliderHeader sliderH='Studio'/>
         <Slider {...settings}>
         { data.map((item)=>(
         <SliderItem data={item} />

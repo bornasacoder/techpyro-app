@@ -5,17 +5,16 @@ import Item from './Item';
 
 export default function Block5() {
   const data = [
-    {img:'https://img.freepik.com/free-vector/realistic-gold-silver-jewelry-display-black-mannequins-stands-grey-surface_1284-9644.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Jewellery'},
-    {img:'https://img.freepik.com/free-vector/realistic-pair-golden-wedding-rings_52683-13736.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Gold'},
+    
+    {img:'https://img.freepik.com/free-photo/picture-charming-magnetic-young-female-with-curly-black-hair_176532-7422.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Portrait'},
+    {img:'https://img.freepik.com/free-photo/full-shot-couple-announcing-pregnancy-with-smartphone_23-2150296845.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Baby and Maternity'},
+    {img:'https://img.freepik.com/free-photo/couple-dancing-ther-wedding_1157-93.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Event'},
+
+    {img:'https://img.freepik.com/free-photo/white-drone-hovering-bright-blue-sky_158595-3344.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Drone Camera'},
+    {img:'https://img.freepik.com/free-photo/young-stylish-sexy-woman-pink-luxury-dress-summer-fashion-trend-chic-style-sunglasses-blue-studio-background-taking-pictures-vintage-camera_285396-2949.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Wedding Photography    '},
+    {img:'https://img.freepik.com/free-photo/indian-photographer-with-camera-pastel-wall_496169-1588.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Fashion'},
 
 
-    {img:'https://img.freepik.com/free-photo/young-indian-woman-wearing-sari_23-2149400839.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Traditional Ethnic Jewellery    '},
-        {img:'https://img.freepik.com/free-photo/model-demonstrating-earrings-ring_7502-7042.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Jewellery'},
-        {img:'https://img.freepik.com/premium-photo/indian-traditional-jewellery_136354-6544.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Kundan Jewellery'},
-      
-        {img:'https://img.freepik.com/free-photo/beautiful-luxury-necklace-jewelry-stand-neck_1339-7947.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Silver'},
-        {img:'https://img.freepik.com/free-photo/jewels-sparkle-golden-wedding-rings-lying-leather_8353-763.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Diamond'},
-        
   ]
   return (
       <Box sx={{margin:'20px 20px 40px',display:'flex',flexDirection:'column'}}>
