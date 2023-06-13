@@ -5,14 +5,14 @@ import Item from './Item';
 
 export default function Block1() {
   const data = [
-    {img:'https://img.freepik.com/free-photo/luxury-classic-modern-bedroom-suite-hotel_105762-1787.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Bedroom'},
-    {img:'https://img.freepik.com/free-photo/3d-rendering-scandinavian-vintage-modern-kitchen-with-dining-area_105762-2192.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Dining Room '},
-    {img:'https://img.freepik.com/free-vector/office-interior-colored-realistic-composition-room-fully-equipped-office-illustration_1284-61142.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Study and Office'},
+    {img:'https://img.freepik.com/free-photo/very-sexy-woman-show-her-natural-look_144627-4624.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Hair Saloon'},
+    {img:'https://img.freepik.com/free-photo/woman-getting-massage-from-another-person_1286-20.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Ayurvedic Spa'},
+    {img:'https://img.freepik.com/free-photo/medium-shot-nutritionist-measuring-patient_23-2148302085.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Weight Loss Center'},
 
 
-    {img:'https://img.freepik.com/free-photo/kitchen-interior-design-with-wooden-table_23-2148848661.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Kitchen'},
-    {img:'https://img.freepik.com/free-photo/retro-bathroom-authentic-interior-design_53876-111133.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Bathroom'},
-    {img:'https://img.freepik.com/free-photo/green-child-living-room-interior-with-copy-space_43614-882.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Kids'},
+    {img:'https://img.freepik.com/free-photo/rejuvenating-facial-treatment_158595-4602.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Skin Clinic    '},
+    {img:'https://img.freepik.com/free-photo/picture-happy-beautiful-woman-massage-salon_155003-2712.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Spa Center'},
+    {img:'https://img.freepik.com/free-photo/beautiful-face-young-woman-with-maroon-makeup-portrait-gorgeous-girl-with-vinous-lips_186202-7456.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Bridal Salon'},
 
   ]
   return (

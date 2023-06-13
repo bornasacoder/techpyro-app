@@ -130,13 +130,13 @@ export default function Block6(props) {
 
       const data = [
         
-        {img:'https://img.freepik.com/free-photo/empty-modern-room-with-furniture_23-2149178334.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Kitchen'},
-        {img:'https://img.freepik.com/free-psd/modern-bath-room-furniture_176382-976.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Bathroom'},
-        {img:'https://img.freepik.com/free-photo/childrens-bed-nursery-cot-velvet-childrens-room_181624-43167.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Kids'},
+        {img:'https://img.freepik.com/free-photo/woman-making-beauty-procedures-beauty-salon_1303-16720.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Skin Clinic    '},
+        {img:'https://img.freepik.com/free-psd/meditation-with-yoga-mat-poster-template_23-2149169347.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Spa Center'},
+        {img:'https://img.freepik.com/free-photo/young-beautiful-stylish-woman-wedding-dress_285396-7867.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Bridal Salon'},
     
-        {img:'https://img.freepik.com/free-psd/front-view-room-with-bed-modern-wooden-night-tables-mockup_176382-1965.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Bedroom'},
-        {img:'https://img.freepik.com/free-photo/restaurant-table-with-wooden-chairs-placed-hall-decorated-classical-style_140725-8460.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Dining Room '},
-        {img:'https://img.freepik.com/free-vector/teenager-workplace-interior-realistic_1284-25148.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Study and Office'},
+        {img:'https://img.freepik.com/free-photo/portrait-beautiful-face-young-woman-with-long-brown-hair_186202-4331.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Hair Saloon'},
+        {img:'https://img.freepik.com/premium-photo/beautiful-spa-composition-with-candles-table-close-up_392895-341537.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Ayurvedic Spa'},
+        {img:'https://img.freepik.com/free-photo/smiling-woman-measuring-her-waist-line-with-tape-measure_329181-3566.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Weight Loss Center'},
     
     
       ]
@@ -144,7 +144,7 @@ export default function Block6(props) {
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <SliderHeader sliderH='Furniture'/>
+        <SliderHeader sliderH='Beauty Parlour'/>
         <Slider {...settings}>
         { data.map((item)=>(
         <SliderItem data={item} />

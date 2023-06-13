@@ -130,14 +130,14 @@ export default function Block3(props) {
       };
 
       const data = [
-        {img:'https://img.freepik.com/free-photo/luxury-bedroom-hotel_1150-10836.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Bedroom'},
-        {img:'https://img.freepik.com/free-photo/3d-rendering-dining-set-modern-scandinavian-kitchen_105762-2095.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Dining Room '},
-        {img:'https://img.freepik.com/free-vector/office-interior-realistic-with-desk-armchair-winners-cups-cabinet-shelves_1284-62660.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Study and Office'},
+        {img:'https://img.freepik.com/free-photo/woman-washing-head-hairsalon_1157-27179.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Hair Saloon'},
+        {img:'https://img.freepik.com/free-photo/professional-masseur-applying-massage-oil-female-back-beauty-salon_186202-709.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Ayurvedic Spa'},
+        {img:'https://img.freepik.com/free-photo/medium-shot-nutritionist-measuring-patient_23-2148302085.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Weight Loss Center'},
     
     
-        {img:'https://img.freepik.com/free-photo/beautiful-shot-modern-house-kitchen-dining-room_181624-2870.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Kitchen'},
-        {img:'https://img.freepik.com/free-vector/modern-realistic-bathroom-interior-design_1284-19013.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Bathroom'},
-        {img:'https://img.freepik.com/free-photo/child-having-fun-during-playtime_23-2149382704.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Kids'},
+        {img:'https://img.freepik.com/free-photo/rejuvenating-facial-treatment_158595-4601.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Skin Clinic    '},
+        {img:'https://img.freepik.com/free-photo/young-woman-having-face-massage-relaxing-spa-salon_176420-7546.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Spa Center'},
+        {img:'https://img.freepik.com/free-photo/makeup-process-wedding-day_144627-37780.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Bridal Salon'},
     
       ]
 
@@ -145,7 +145,7 @@ export default function Block3(props) {
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <Header sliderH='Furniture'/>
+        <Header sliderH='Beauty Parlour'/>
         <Slider {...settings}>
         {data.map((item)=>(
         <Item data={item} />

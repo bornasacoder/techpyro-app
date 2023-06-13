@@ -168,7 +168,7 @@ export default function Navbar() {
             <Menu/>
             </MenuButtons>
           <Typography variant="h1" fontSize="20px">
-           Furniture
+          Beauty Parlour
           </Typography>
           </Box>
            <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
@@ -222,15 +222,15 @@ export default function Navbar() {
     </NavBarTop>
 
     <NavBarBottom>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Bedroom Furniture</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Dining Room Furniture</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Study and Office Furniture</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Outdoor Furniture
+      <Typography sx={{color:'black',fontSize:'12px'}}>Hair Salon</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Ayurvedic Spa</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Weight Loss Center</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Makeup Studio
       </Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Kitchen Furniture</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Bathroom Furniture</Typography> 
-      <Typography sx={{color:'black',fontSize:'12px'}}>Office Furniture</Typography>
-      <Typography sx={{color:'black',fontSize:'12px'}}>Kids' Furniture</Typography>  
+      <Typography sx={{color:'black',fontSize:'12px'}}>Skin Clinic</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Men's Salon</Typography> 
+      <Typography sx={{color:'black',fontSize:'12px'}}>Spa and Wellness Center</Typography>
+      <Typography sx={{color:'black',fontSize:'12px'}}>Bridal Salon</Typography>  
 
 
 

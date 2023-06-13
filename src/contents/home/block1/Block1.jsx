@@ -117,21 +117,21 @@ const MainCarousel = () => {
     <Slider {...settings1}>
    
     <Item>
-      <Img src='https://img.freepik.com/free-photo/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_1258-152155.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-psd/make-up-concept-banner-template_23-2148608281.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais' />
       <Head>upto 40% off</Head>
     </Item>
     <Item>
-        <Img src='https://img.freepik.com/free-photo/living-room-with-couch-lamp-wall_1340-26675.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
+        <Img src='https://img.freepik.com/free-photo/two-attractive-joyful-models-with-stylish-look-having-fun-beauty-salon_197531-1286.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais' />
         <Head>upto 40% off</Head>
       </Item>
    
       <Item>
-      <Img src='https://img.freepik.com/free-photo/luxury-modern-style-bedroom-interior-hotel-bedroom-generative-ai-illustration_1258-151610.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-photo/woman-with-makeup-artist-choosing-color-eyeshadow_329181-1925.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais' />
       <Head>upto 40% off</Head>
     </Item>
   
     <Item>
-      <Img src='https://img.freepik.com/free-photo/chic-modern-luxury-aesthetics-style-living-room-blue-tone_53876-125839.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph' />
+      <Img src='https://img.freepik.com/free-photo/portrait-beautiful-blond-woman-with-long-hair-makeup-brushes-near-attractive-face_158538-2243.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais' />
       <Head>upto 40% off</Head>
     </Item>
     
