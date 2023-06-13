@@ -8,7 +8,7 @@ export const jogger = [
                },
                category:["Finger Chips","Samosa","Spring Rolls"],
                tagline: "Hummus and pita bread",
-               image:"https://img.freepik.com/free-photo/female-hairdresser-using-hairbrush-hair-dryer_329181-1929.jpg?size=626&ext=jpg",   
+               image:"https://img.freepik.com/free-photo/top-view-paper-heart-with-heartbeat-stethoscope-heart-day_23-2148635245.jpg?size=626&ext=jpg",   
                rating:"4.3",
         
    },
@@ -21,7 +21,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Onion rings",
-        image:"https://img.freepik.com/free-photo/woman-washing-head-hairsalon_1157-27179.jpg?size=626&ext=jpg",
+        image:"https://img.freepik.com/free-photo/medical-stethoscope-with-paper-cut-family_23-2148488217.jpg?size=626&ext=jpg",
 
        rating:"4.3",
 
@@ -35,7 +35,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Homemade or Artisan Bakeries",
-    image:"https://img.freepik.com/free-psd/make-up-banner-template_23-2148663849.jpg?size=626&ext=jpg",
+    image:"https://img.freepik.com/premium-photo/covid-19-coronavirus-prevention-tips-use-people-stay-safe-from-infection_31965-13739.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },
@@ -48,7 +48,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Mindful Ingredients",
-      image:"https://img.freepik.com/free-psd/beauty-salon-banner-template-design_23-2148662568.jpg?size=626&ext=jpg",
+      image:"https://img.freepik.com/free-photo/top-view-world-heart-day-concept-with-stethoscope_23-2148630985.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },
@@ -61,7 +61,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Healthier Filling Choices",
-      image:"https://img.freepik.com/free-psd/make-up-concept-horizontal-banner-template_23-2148608282.jpg?w=1060&t=st=1686661369~exp=1686661969~hmac=ba12e54ffdc6f28e63363e7a2ee6e99a1f856949ed4d15f5df083f68c0407675 ",
+      image:"https://img.freepik.com/free-photo/top-view-frame-with-stethoscope_23-2148504583.jpg?size=626&ext=jpg ",
        rating:"4.3",
 
 },
@@ -74,7 +74,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Gluten-Free Options",
-      image:"https://img.freepik.com/premium-psd/beauty-center-social-media-instagram-post-template-design_569461-532.jpg?size=626&ext=jpg",
+      image:"https://img.freepik.com/premium-photo/world-health-day-stethoscope-pastel-blue-with-text_53476-5819.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },

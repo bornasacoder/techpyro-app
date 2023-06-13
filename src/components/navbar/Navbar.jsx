@@ -174,7 +174,7 @@ export default function Navbar() {
     <NavBar>
     
         <NavLeft>
-          <Image src="https://img.freepik.com/premium-photo/minimalist-hairdresser-with-bold-black-white-outlines_804788-5340.jpg?size=626&ext=jpg" />
+          <Image src="https://img.freepik.com/free-photo/medical-background-paper-cut-caduceus-medical-symbol-with-co_1232-1767.jpg?size=626&ext=jpg" />
           <NavButton />
         
         </NavLeft>

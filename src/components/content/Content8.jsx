@@ -15,7 +15,7 @@ export default function Content8() {
         width="100%"
         height="500px"
         style={{ position: "absolute", zIndex: "-1", objectFit: "cover" }}
-        src="https://v4.cdnpk.net/videvo_files/video/free/video0476/large_watermarked/_import_621889a3c53317.82956859_FPpreview.mp4"
+        src="https://v4.cdnpk.net/videvo_files/video/free/video0484/large_watermarked/_import_60f901d902f618.98538762_FPpreview.mp4"
         autoPlay
         loop
         muted
@@ -44,7 +44,7 @@ export default function Content8() {
                 // fontFamily: "Dancing Script",
               }}
             >
-              The Right Fashion in beauty parlaur
+              The Right Fashion in medical store
             </Typography>
           </Box>
           <br/>
@@ -88,9 +88,7 @@ export default function Content8() {
             Join Now
           </Button>
         </Box>
-        {/* <Box data-aos="fade-right">
-          <Campaign sx={{ fontSize: "100px" }} />
-          </Box>  */}
+        
       </Box>
     </StyleToolbar>
   );

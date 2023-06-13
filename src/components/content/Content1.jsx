@@ -63,7 +63,7 @@ export default function Content1() {
       >
         <Grid container rowSpacing={2} columnSpacing={{ xs: 1, sm: 1, md: 2 }}>
           <Grid item xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-            <Image src="https://img.freepik.com/free-photo/attractive-young-woman-beauty-salon_197531-1288.jpg?size=626&ext=jpg" />
+            <Image src="https://img.freepik.com/free-photo/family-shape-figure-with-heart-stethoscope_23-2148488215.jpg?size=626&ext=jpg" />
           </Grid>
 
           <Grid item xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
@@ -82,30 +82,30 @@ export default function Content1() {
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <Bluetooth />
-            Beauty parlaur
+             medical store
 
             </Typography>
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <Battery90 />
               
-            Hair Dryer
+              Surgical masks
             </Typography>
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <TouchApp />
-              Hair straightener
+              Bandages and wound dressings
 
             </Typography>
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <VolumeUp />
-              Hair clippers
+              First aid kits
             </Typography>
             <br />
             <Typography sx={{ fontSize:{md:"28px",sm:"24px",xs:"20px"} }}>
               <Water />
-              Salon chairs
+              Medical gloves
             </Typography>
             <br />
             <Box>

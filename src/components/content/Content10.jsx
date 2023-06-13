@@ -63,7 +63,7 @@ export default function Content10() {
           //   xs={{xs:12,sm:6,md:4}}
         >
           <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-<Image src="https://img.freepik.com/free-photo/very-sexy-woman-show-her-natural-look_144627-4624.jpg?size=626&ext=jpg"/>
+<Image src="https://img.freepik.com/free-photo/blank-white-paper-clipboard-near-stethoscope-injection-pen-spectacles-blue-desk_23-2148214005.jpg?size=626&ext=jpg"/>
       </Grid>
         <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
           <Typography fontSize="20px">FEATURED PRODUCT</Typography>
@@ -75,7 +75,7 @@ export default function Content10() {
               // textAlign:"center"
             }}
           >
-            A very good beauty parlaur, 
+            A very good medical store, 
             <br />
             designed for you please come one time here.
           </Typography>
@@ -118,7 +118,7 @@ export default function Content10() {
               // textAlign:"center"
             }}
           >
-           A good parlaur
+           A good medical store
             <br />
             designed for you please come one time here.
           </Typography>
@@ -156,7 +156,7 @@ export default function Content10() {
         </Grid>
        
         <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-      <Image src="https://img.freepik.com/premium-photo/beautiful-woman-with-evening-make-up_78203-1910.jpg?size=626&ext=jpg"/>
+      <Image src="https://img.freepik.com/free-photo/flat-lay-health-still-life-arrangement-with-copy-space_23-2148854063.jpg?size=626&ext=jpg"/>
       </Grid>
         </Grid>
       </Box>
