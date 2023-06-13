@@ -63,7 +63,7 @@ export default function Content10() {
           //   xs={{xs:12,sm:6,md:4}}
         >
           <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-<Image src="https://img.freepik.com/premium-photo/lines-folds-pastelcolored-fabric-created-with-generative-ai-technology_134032-290.jpg?size=626&ext=jpg"/>
+<Image src="https://img.freepik.com/free-photo/beautiful-tasty-appetizing-ingredients-spices-red-chilli-pepper-grocery-cooking-healthy-kitchen_1220-1676.jpg?size=626&ext=jpg"/>
       </Grid>
         <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
           <Typography fontSize="20px">FEATURED PRODUCT</Typography>
@@ -75,7 +75,7 @@ export default function Content10() {
               // textAlign:"center"
             }}
           >
-            A portable cloth, 
+            A portable grocery, 
             <br />
             designed for ease of use and mobility
           </Typography>
@@ -118,7 +118,7 @@ export default function Content10() {
               // textAlign:"center"
             }}
           >
-           A portable cloth
+           A portable grocery
             <br />
             designed for ease of use and mobility
           </Typography>
@@ -156,7 +156,7 @@ export default function Content10() {
         </Grid>
        
         <Grid xs={12} sm={6} md={6} sx={{ paddingTop:{md:"30px",sm:"30px",xs:"100px"}}}>
-<Image src="https://img.freepik.com/premium-photo/stack-colorful-blankets-market_889227-15271.jpg?size=626&ext=jpg"/>
+<Image src="https://img.freepik.com/premium-photo/shopping-cart-with-fresh-fruits-vegetables-couple-background_274679-41712.jpg?size=626&ext=jpg"/>
       </Grid>
         </Grid>
       </Box>

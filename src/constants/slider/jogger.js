@@ -8,7 +8,7 @@ export const jogger = [
                },
                category:["Finger Chips","Samosa","Spring Rolls"],
                tagline: "Hummus and pita bread",
-               image:"https://img.freepik.com/free-photo/photo-young-female-tailor-holding-purple-ribbon-looking-camera_144627-77935.jpg?size=626&ext=jpg",   
+               image:"https://img.freepik.com/premium-photo/red-shopping-basket-full-food-groceries_8087-1458.jpg?size=626&ext=jpg",   
                rating:"4.3",
         
    },
@@ -21,7 +21,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Onion rings",
-        image:"https://img.freepik.com/free-photo/young-blogger-taking-clothing-measures_23-2148538781.jpg?size=626&ext=jpg",
+        image:"https://img.freepik.com/free-photo/beautiful-tasty-appetizing-ingredients-spices-grocery-cooking-healthy-kitchen-blue-old-wooden-background-top-view_1220-1739.jpg?size=626&ext=jpg",
 
        rating:"4.3",
 
@@ -35,7 +35,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Homemade or Artisan Bakeries",
-    image:"https://img.freepik.com/free-photo/young-blogger-posing-with-dummy-home_23-2148538782.jpg?size=626&ext=jpg",
+    image:"https://img.freepik.com/premium-photo/shopping-bag-full-fresh-fruits-vegetables-with-assorted-ingredients_8087-2232.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },
@@ -48,7 +48,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Mindful Ingredients",
-      image:"https://img.freepik.com/premium-photo/fashion-clothes-online-concept-female-blogger-presenting-recommend-new-dress-live-streaming_1423-6063.jpg?size=626&ext=jpg",
+      image:"https://img.freepik.com/free-photo/abundant-harvest-fresh-juicy-organic-fruit-generated-by-ai_24640-80485.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },
@@ -61,7 +61,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Healthier Filling Choices",
-      image:"https://img.freepik.com/free-photo/success-entrepreneur-asian-young-woman-check-order-sell-clothes-smartphone-startup-small-business_74952-2336.jpg?size=626&ext=jpg ",
+      image:"https://img.freepik.com/free-photo/fresh-vegetables-rustic-wood-table-indoors-generated-by-ai_24640-80293.jpg?size=626&ext=jpg ",
        rating:"4.3",
 
 },
@@ -74,7 +74,7 @@ export const jogger = [
        },
        category:["Finger Chips","Samosa","Spring Rolls"],
        tagline: "Gluten-Free Options",
-      image:"https://img.freepik.com/free-photo/young-female-designer-sewing-dress-shop_23-2147875018.jpg?size=626&ext=jpg",
+      image:"https://img.freepik.com/premium-photo/donations-food-with-canned-food-table-background-donate-concept-close-up_93675-105355.jpg?size=626&ext=jpg",
        rating:"4.3",
 
 },
