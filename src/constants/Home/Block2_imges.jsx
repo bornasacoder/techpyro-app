@@ -2,24 +2,24 @@
  const Block2_images = [
     {
         id:1,
-        img:"https://img.freepik.com/free-photo/modern-studio-apartment-design-with-bedroom-living-space_1262-12375.jpg?size=626&ext=jpg&ga=GA1.1.1600733619.1686647879&semt=sph",
+        img:"https://img.freepik.com/free-vector/flat-hand-drawn-hospital-reception-scene_52683-55313.jpg?size=626&ext=jpg&ga=GA1.2.1600733619.1686647879&semt=sph",
         // heading:"New York"
     },
     {
         id:2,
-        img:"https://images.pexels.com/photos/3659683/pexels-photo-3659683.jpeg?auto=compress&cs=tinysrgb&w=600",
+        img:"https://img.freepik.com/free-vector/medical-care_24877-49075.jpg?size=626&ext=jpg&ga=GA1.2.1600733619.1686647879&semt=sph",
         // heading:"Singapore"
     },
     {
-        id:3,img:"https://img.freepik.com/free-photo/swimming-pool-beach-luxury-hotel-type-entertainment-complex-amara-dolce-vita-luxury-hotel-resort-tekirova-kemer-turkey_146671-18726.jpg?size=626&ext=jpg&ga=GA1.2.1600733619.1686647879&semt=sph",
+        id:3,img:"https://img.freepik.com/free-vector/nurse-helping-patient-concept-illustration_114360-14954.jpg?size=626&ext=jpg&ga=GA1.2.1600733619.1686647879&semt=sph",
         // heading:"Paris"
     },
     {
-        id:4,img:"https://img.freepik.com/premium-photo/luxury-living-outdoor-space-interior-design-lavish-outside-garden-morning-generative-ai_825385-181.jpg?size=626&ext=jpg&ga=GA1.2.1600733619.1686647879&semt=sph",
+        id:4,img:"https://img.freepik.com/free-vector/nurse-helping-patient-concept-illustration_114360-14954.jpg?size=626&ext=jpg&ga=GA1.2.1600733619.1686647879&semt=sph",
         // heading:"London"
     },
     {
-        id:5,img:"https://img.freepik.com/free-photo/sunset-pool_1203-3192.jpg?size=626&ext=jpg&ga=GA1.1.1600733619.1686647879&semt=sph",
+        id:5,img:"https://img.freepik.com/free-vector/hospital-room-with-bed-wheels-illustration_1262-16333.jpg?size=626&ext=jpg&ga=GA1.2.1600733619.1686647879&semt=sph",
         // heading:"Tokyo"
     },
     {

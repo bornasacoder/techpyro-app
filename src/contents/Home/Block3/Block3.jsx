@@ -3,8 +3,8 @@ import React from 'react'
 function Block3() {
   return (
     <div className='flex md:flex-row flex-col mt-32 justify-between '>
-        <div className='w-[90%] md:w-[60%] '>
-            <img src="https://chisfis-nextjs.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Four-features.6cf4c3d4.png&w=3840&q=75" alt="" />
+        <div className='w-[90%] md:w-[60%] ml-[50px] '>
+            <img src="https://img.freepik.com/free-vector/medical-care_24877-49075.jpg?size=626&ext=jpg&ga=GA1.2.1600733619.1686647879&semt=sph" className='rounded-[45%] ' alt="" />
         </div>
         <div className='md:mt-0 mt-5'>
             <p className='text-gray-600'>BENEFITS</p>

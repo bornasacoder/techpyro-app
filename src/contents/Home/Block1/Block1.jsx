@@ -26,7 +26,7 @@ const [showTab,setShowTab] = useState("stays");
         
   };
   return (
-      <div className='relative w-[95%] flex justify-center mx-auto lg:h-[920px] h-auto flex-col lg:flex-row bg-blue-100'>
+      <div className='relative w-[95%] flex justify-center mx-auto lg:h-[920px] h-auto flex-col lg:flex-row '>
         <div className='flex md:flex-row  flex-col justify-start w-full mx-auto '>
                 <div className='md:mt-[95px] mt-[20px]' >
                     <h1 className='lg:text-[70px] text-[40px] px-5 lg:px-0 font-semibold'>Hotel, car & <br></br> experiences</h1>
@@ -166,7 +166,7 @@ const [showTab,setShowTab] = useState("stays");
                     </Box>}
                 </div>
                 <div className='md:mt-[200px] mt-[60px] lg:w-[680px] w-[335px]'>
-                        <img  src="https://img.freepik.com/free-photo/glassclad-skyscrapers-central-mumbai-reflecting-sunset-hues-blue-hour_469504-15.jpg?size=626&ext=jpg&ga=GA1.1.1600733619.1686647879&semt=sph" className="h-[700px] w-[900px] rounded-2xl" alt=""></img>
+                        <img  src="https://img.freepik.com/free-vector/people-walking-sitting-hospital-building-city-clinic-glass-exterior-flat-vector-illustration-medical-help-emergency-architecture-healthcare-concept_74855-10130.jpg?size=626&ext=jpg&ga=GA1.2.1600733619.1686647879&semt=sph" className="h-[700px] w-[900px] rounded-2xl" alt=""></img>
                 </div>
                 
         </div>
