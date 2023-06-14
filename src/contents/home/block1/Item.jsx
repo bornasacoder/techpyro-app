@@ -48,9 +48,7 @@ export default function Item({data}) {
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the mussels,
-          if you like.
+        We are passionate about providing our customers with the finest coffee experience in town. Step into our cozy and inviting shop, where the aroma of freshly brewed coffee fills the air, creating a warm and welcoming atmosphere. 
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
