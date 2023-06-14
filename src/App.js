@@ -12,13 +12,13 @@ function App() {
 
   return (
     <>
-    <Navbar />
+  {/*<Navbar />*/}
     <Router>
       <Routes>
         <Route exact path="/" element={<Home/>} />
       </Routes>
     </Router>
-    <Footer />
+    {/*<Footer />*/}
     </>
   );
 }

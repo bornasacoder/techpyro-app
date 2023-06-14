@@ -3,10 +3,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { styled } from '@mui/styles';
-import SliderItem from './Item';
+import Item from './item/Item';
 import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
-import SliderHeader from './Header';
-import "./block10.css";
+import Header from './header/Header';
+import "./block2.css";
 
 const SliderContainer = styled('div')({
 width:"99%",
@@ -56,14 +56,15 @@ const NextBtn = (props) =>{
    )
 }
 
-export default function Block10(props) {
+export default function Block2(props) {
+
     const settings = {
         dots: false,
         arrows:true,
         infinite: false,
         speed: 500,
-        slidesToShow: 2.5,
-        slidesToScroll: 4,
+        slidesToShow: 4.5,
+        slidesToScroll: 3,
         autoplay: false,
         autoplaySpeed: 2000,
         cssEase: "linear",
@@ -74,8 +75,8 @@ export default function Block10(props) {
             {
               breakpoint: 1200,
               settings: {
-                slidesToShow: 2.5,
-                slidesToScroll: 4,
+                slidesToShow: 4.5,
+                slidesToScroll: 3,
                 speed: 300,
                 arrows:false,
               },
@@ -83,7 +84,7 @@ export default function Block10(props) {
              {
               breakpoint: 960,
               settings: {
-                slidesToShow: 2.5,
+                slidesToShow: 3.5,
                 slidesToScroll: 3,
                 speed: 300,
                 arrows:false,
@@ -92,7 +93,7 @@ export default function Block10(props) {
             {
               breakpoint: 800,
               settings: {
-                slidesToShow: 2.5,
+                slidesToShow: 3.5,
                 slidesToScroll: 2,
                 speed: 300,
                 arrows:false,
@@ -101,7 +102,7 @@ export default function Block10(props) {
             {
               breakpoint: 600,
               settings: {
-                slidesToShow: 1.5,
+                slidesToShow: 2.3,
                 slidesToScroll: 1,
                 speed: 300,
                 arrows:false,
@@ -128,23 +129,14 @@ export default function Block10(props) {
         ]
       };
 
-      const data = [
-        {img:'https://images.pexels.com/photos/372959/pexels-photo-372959.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-        {img:'https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-        {img:'https://images.pexels.com/photos/404178/pexels-photo-404178.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-        {img:'https://images.pexels.com/photos/2983100/pexels-photo-2983100.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-        {img:'https://images.pexels.com/photos/2287810/pexels-photo-2287810.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-        {img:'https://images.pexels.com/photos/7192144/pexels-photo-7192144.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
-    
-      ]
   return (
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <SliderHeader sliderH='Veg Pizza'/>
+        <Header sliderH={props.sliderData.category}/>
         <Slider {...settings}>
-        { data.map((item)=>(
-        <SliderItem data={item} />
+        { props.sliderData.data.map((item)=>(
+        <Item posterLinks={item} />
         ))}
         </Slider>
       </SliderInnerContainer>  

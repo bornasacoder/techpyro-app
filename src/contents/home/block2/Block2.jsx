@@ -5,12 +5,13 @@ import Item from './Item';
 
 export default function Block1() {
   const data = [
-    {img:'https://img.freepik.com/free-photo/young-handsome-physician-medical-robe-with-stethoscope_1303-17813.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'General Physician'},
-    {img:'https://img.freepik.com/free-photo/young-doctor-is-using-stethoscope-listen-heartbeat-patient-shot-female-doctor-giving-male-patient-check-up_657921-875.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Cardiologist    '},
-    {img:'https://img.freepik.com/free-photo/this-pain-stomach-is-unbearable_329181-2191.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Gastroenterologist'},
-    {img:'https://img.freepik.com/free-photo/cosmetology-doctor-patien_624325-1648.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Dermatologist    '},
-    {img:'https://img.freepik.com/free-photo/little-girl-checking-up-her-sight-ophthalmology-center_1303-27493.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Ophthalmologist'},
-    {img:'https://img.freepik.com/free-photo/focused-doctor-working-his-desk_23-2147646746.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Ayurvedic Practitioner    '},
+    {img:'https://images.pexels.com/photos/2909822/pexels-photo-2909822.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Pizza'},
+    {img:'https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Coke'},
+
+    {img:'https://images.pexels.com/photos/2271107/pexels-photo-2271107.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Burger'},
+    {img:'https://images.pexels.com/photos/1292294/pexels-photo-1292294.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Pepsi'},
+    {img:'https://images.pexels.com/photos/1583891/pexels-photo-1583891.jpeg?auto=compress&cs=tinysrgb&w=600',name:'French'},
+    {img:'https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Noodles'},
 
   ]
   return (

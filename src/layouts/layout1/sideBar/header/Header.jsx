@@ -1,4 +1,4 @@
-import { Button, Stack ,styled, useTheme} from '@mui/material'
+import { Button, Stack ,styled, Typography, useTheme} from '@mui/material'
 import React from 'react'
 import PersonIcon from '@mui/icons-material/Person';
 
@@ -13,11 +13,11 @@ export default function Header() {
   return (
     
     <Stack color="primary" sx={{flex:'1',width:'100%',flexDirection:'row',alignItems:'center',justifyContent:'space-evenly'}} >
-        <PersonIcon/>
-        <Button sx={{cursor:'none', color:`${theme.sidebar.textColor}`}}>
-            Login & Signup
-        </Button>
-        <Img src="/images/mainLogo/logo.png" alt="logo"/>
+       
+        <Typography sx={{color:'black',padding:'40px 0 20px', fontSize:'25px',fontWeight:'700'}}>
+           Your Basket
+        </Typography>
+       
     </Stack>
   )
 }

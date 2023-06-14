@@ -1,145 +1,43 @@
+import { Box, Grid, Typography } from '@mui/material'
 import React from 'react'
-// import Carousel from "react-material-ui-carousel"
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
-import {styled} from "@mui/styles"
-import "./block1.css";
-import {Card,Box } from '@mui/material';
-// import { FaChevronRight,FaChevronLeft } from 'react-icons/fa';
-import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
-
-const Item = styled(Card)(({theme}) => ({
-  width: '98%!important',
-  height: '400px',
-  boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
-  //margin:'35px 0px 20px 0px',
-  margin:'35px 15px 0!important' ,
-  // textAlign:'center',
-  [theme.breakpoints.down('sm')]: {
-    height: '200px!important',
-    margin:'16px 8px!important',
-},
-  [theme.breakpoints.down('md')]: {
-    height: '350px',
-    margin:'24px 12px!important',
-},
-}));
-const Img = styled("img")(({theme}) => ({
-  objectFit: "cover",
-  width:"100%",
-  height: "500px",
-  [theme.breakpoints.down('sm')]: {
-    height: '150px!important',
-  },
-  [theme.breakpoints.down('md')]: {
-    height: '300px',
-  },
-  
-}));
-const Head = styled("h3")({
-  display:'none',
-  fontSize: "16px",
-  fontWeight:"500",
-  paddingLeft:'15px',
-  paddingTop:'10px',
-  // textAlign:"center",
-  marginBottom:"5px",
-  "@media (max-width: 600px)": {
-     fontSize: "17px!important",
-     display:'block',
-     },
-  "@media (max-width: 980px)": {
-     fontSize: "20px",
-     display:'block',
-    },
-})
-
-const PreviousBtn = (props) =>{
-    
-  const {onClick} = props;
-   return (
-         <div className='carousel1-Slick-prev'  onClick={onClick}>
-          <ChevronLeftIcon className='iconLeft' style={{color:'white',zIndex:'2',fontSize:'2rem'}}/>
-         </div>  
-   )
-}
-
-const NextBtn = (props) =>{
-   const {onClick} = props;
-   return (
-     <div  className='carousel1-Slick-next'  onClick={onClick}>
-       <ChevronRightIcon className='iconRight' style={{color:'white',zIndex:'2',fontSize:'2rem'}} />
-     </div>
-   )
-}
+import Item from './Item';
 
 
-const MainCarousel = () => {
+export default function Block1() {
+  const data = [
+    {img:'https://images.pexels.com/photos/2271107/pexels-photo-2271107.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Burger'},
+    {img:'https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Coffee'},
+    {img:'https://images.pexels.com/photos/4085278/pexels-photo-4085278.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Coke'},
+    {img:'https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Chips'},
+    {img:'https://images.pexels.com/photos/19642/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600',name:'Mix Food'},
+    {img:'https://images.pexels.com/photos/14000427/pexels-photo-14000427.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+    {img:'https://images.pexels.com/photos/1028637/pexels-photo-1028637.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Burger'},
+    {img:'https://images.pexels.com/photos/2074130/pexels-photo-2074130.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+    {img:'https://images.pexels.com/photos/372959/pexels-photo-372959.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+    {img:'https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+    {img:'https://images.pexels.com/photos/404178/pexels-photo-404178.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+    {img:'https://images.pexels.com/photos/2983100/pexels-photo-2983100.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+    {img:'https://images.pexels.com/photos/2287810/pexels-photo-2287810.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+    {img:'https://images.pexels.com/photos/7192144/pexels-photo-7192144.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+    {img:'https://images.pexels.com/photos/3219547/pexels-photo-3219547.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Burger'},
+    {img:'https://images.pexels.com/photos/2498440/pexels-photo-2498440.jpeg?auto=compress&cs=tinysrgb&w=600',name:'French Fries'},
+    {img:'https://images.pexels.com/photos/4389660/pexels-photo-4389660.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Coka cola'},
+    {img:'https://images.pexels.com/photos/2456434/pexels-photo-2456434.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Noodles'},
+    {img:'https://images.pexels.com/photos/7890010/pexels-photo-7890010.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Vegetable'},
+    {img:'https://images.pexels.com/photos/14000427/pexels-photo-14000427.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
 
-  const settings1 = {
-    className: "center",
-    centerMode: true,
-    centerPadding: "60px",
-    dots: false,
-    arrows:true,
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 500,
-    autoplaySpeed: 2000,
-    cssEase: "linear",
-    prevArrow:<PreviousBtn />,
-    nextArrow:<NextBtn />,
-    responsive: [
-        {
-          breakpoint: 960,
-          settings: {
-            arrows:false
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            arrows:false,
-            centerPadding: "20px",
-          },
-        },
-    ] 
-    
-  };
 
+  ]
   return (
-    // <CarouselCard>
-    <Box sx={{marginTop:{xs:'120px',md:'65px',lg:'50px'}}}>
-    <Slider {...settings1}>
-   
-    <Item>
-      <Img src='https://img.freepik.com/free-vector/gradient-medical-landing-page-template_23-2149149349.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
-      <Head>upto 40% off</Head>
-    </Item>
-    <Item>
-        <Img src='https://img.freepik.com/free-vector/hospital-care-brochure-template_23-2150369338.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
-        <Head>upto 40% off</Head>
-      </Item>
-   
-      <Item>
-      <Img src='https://img.freepik.com/free-psd/medical-healthcare-poster-template_23-2148940481.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
-      <Head>upto 40% off</Head>
-    </Item>
-  
-    <Item>
-      <Img src='https://img.freepik.com/free-photo/successful-medical-team_329181-9252.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph' />
-      <Head>upto 40% off</Head>
-    </Item>
-    
-  </Slider>
-  </Box>
-  // </CarouselCard>
-
+      <Box sx={{margin:{xs:'140px 20px 40px',md:'120px 20px 40px'},display:'flex',flexDirection:'column'}}>
+        <Typography sx={{margin:{xs:'0 0 10px 10px',md:'0 0 30px 30px'},fontSize:{xs:'16px',md:'20px'},fontWeight:'500'}}>Explore Menu</Typography>
+        <Grid container spacing={2}>
+            {data.map((item, index) => (
+            <Grid item xs={12} sm={12} md={6} lg={6} key={index}>
+                <Item data={item}/>
+            </Grid>
+         ))}
+        </Grid>
+      </Box>
   )
 }
-
-export default MainCarousel

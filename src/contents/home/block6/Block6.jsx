@@ -129,23 +129,19 @@ export default function Block6(props) {
       };
 
       const data = [
-        
-        {img:'https://img.freepik.com/free-photo/medium-shot-woman-getting-lip-fillers_23-2149341846.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Dermatologist    '},
-        {img:'https://img.freepik.com/free-photo/horizontal-shot-interested-curious-caucasian-girl-appointment-with-eye-care-specialist-wearing-phoropter-while-ophthalmologist-checking-her-vision-sitting-yellow-wall_176420-6730.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Ophthalmologist'},
-        {img:'https://img.freepik.com/free-photo/confident-doctor-with-clipboard_23-2147646712.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Ayurvedic Practitioner    '},
-    
-    
-        {img:'https://img.freepik.com/free-photo/attractive-female-doctor-standing-with-documents-hospital_1303-20688.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'General Physician'},
-        {img:'https://img.freepik.com/free-photo/portrait-beautiful-young-asian-woman-with-heart-pillow-shape_74190-13788.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Cardiologist    '},
-        {img:'https://img.freepik.com/free-photo/young-man-having-bellyache-checked-shirt-white-t-shirt-looking-exhausted_176474-84103.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Gastroenterologist'},
-    
+        {img:'https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://images.pexels.com/photos/2425705/pexels-photo-2425705.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://images.pexels.com/photos/3686791/pexels-photo-3686791.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://images.pexels.com/photos/2983100/pexels-photo-2983100.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://images.pexels.com/photos/2287810/pexels-photo-2287810.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://images.pexels.com/photos/7192144/pexels-photo-7192144.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
     
       ]
   return (
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <SliderHeader sliderH='Medical'/>
+        <SliderHeader sliderH='Veg Pizza'/>
         <Slider {...settings}>
         { data.map((item)=>(
         <SliderItem data={item} />

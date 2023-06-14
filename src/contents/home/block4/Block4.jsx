@@ -130,14 +130,13 @@ export default function Block3(props) {
       };
 
       const data = [
-        {img:'https://img.freepik.com/free-photo/attractive-female-doctor-standing-with-documents-hospital_1303-20688.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'General Physician'},
-        {img:'https://img.freepik.com/free-photo/portrait-beautiful-young-asian-woman-with-heart-pillow-shape_74190-13788.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Cardiologist    '},
-        {img:'https://img.freepik.com/free-photo/young-man-having-bellyache-checked-shirt-white-t-shirt-looking-exhausted_176474-84103.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Gastroenterologist'},
-    
-    
-        {img:'https://img.freepik.com/free-photo/medium-shot-woman-getting-lip-fillers_23-2149341846.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Dermatologist    '},
-        {img:'https://img.freepik.com/free-photo/horizontal-shot-interested-curious-caucasian-girl-appointment-with-eye-care-specialist-wearing-phoropter-while-ophthalmologist-checking-her-vision-sitting-yellow-wall_176420-6730.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Ophthalmologist'},
-        {img:'https://img.freepik.com/free-photo/confident-doctor-with-clipboard_23-2147646712.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Ayurvedic Practitioner    '},
+        {img:'https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Burger'},
+        {img:'https://images.pexels.com/photos/2983100/pexels-photo-2983100.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Coke'},
+        {img:'https://images.pexels.com/photos/1721934/pexels-photo-1721934.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Cake'},
+        {img:'https://images.pexels.com/photos/3686792/pexels-photo-3686792.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Noodles'},
+        {img:'https://images.pexels.com/photos/116738/pexels-photo-116738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',name:'pasta'},
+        
+        {img:'https://images.pexels.com/photos/14000427/pexels-photo-14000427.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
     
       ]
 
@@ -145,7 +144,7 @@ export default function Block3(props) {
     <>
     <SliderContainer>         
       <SliderInnerContainer>
-        <Header sliderH='Medical'/>
+        <Header sliderH='pizza'/>
         <Slider {...settings}>
         {data.map((item)=>(
         <Item data={item} />

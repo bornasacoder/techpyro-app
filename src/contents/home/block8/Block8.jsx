@@ -5,8 +5,8 @@ import Item from './Item';
 
 export default function Block8() {
   const data = [
-    {img:'https://img.freepik.com/free-psd/medical-healthcare-poster-template_23-2148940481.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Washing Machine'},
-    {img:'https://img.freepik.com/free-vector/gradient-medical-instagram-post-template_23-2149105266.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Headphone'},
+    {img:'https://images.pexels.com/photos/1028637/pexels-photo-1028637.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Burger'},
+    {img:'https://images.pexels.com/photos/2074130/pexels-photo-2074130.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
 
   ]
   return (

@@ -7,7 +7,7 @@ export default function Footer() {
     background:'#5C6D82',
     display:'flex',
     gap:'40px',
-   
+    width:'70vw',
     fontFamily:' "Fakt Pro" "Helvetica Neue" Arial sans-serif',
     flexDirection:'row',
    padding:'100px 100px',
@@ -17,6 +17,7 @@ export default function Footer() {
     },
     [theme.breakpoints.down('md')]: {
      flexDirection:'column',
+     width:'100vw',
      padding:'50px 20px',
      gap:'50px'
     },
@@ -36,7 +37,7 @@ export default function Footer() {
         <CardBox >
   
           <Box sx={{ display:'flex',flex:'1',flexDirection:'column',gap:'30px',justifyContent:'center',alignItems:{xs:'flex-start'}}}>
-             <Typography  sx={{color:'#fff',fontSize:{xs:'25px'},fontWeight:{xs:'600'}}}>Medical</Typography>
+             <Typography  sx={{color:'#fff',fontSize:{xs:'25px'},fontWeight:{xs:'600'}}}>Bakery</Typography>
              <Typography sx={{color:'#fff',fontSize:{xs:'15px',opacity:'0.6'},fontWeight:{xs:'600'}}}>Built with ♥ in San Francisco and around the world.Onfleet, Inc. © 2023</Typography>
              <Typography  sx={{color:'#fff',fontSize:{xs:'15px'},fontWeight:{xs:'600'}}}>Sign up to receive news and announcements</Typography>
              <Box>
