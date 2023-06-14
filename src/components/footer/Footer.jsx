@@ -1,153 +1,257 @@
-import { Label } from "@mui/icons-material";
 import {
-  Box,
-  FormHelperText,
-  FormLabel,
-  Grid,
-  Input,
-  Paper,
-  styled,
-  Typography,
-} from "@mui/material";
+  Call,
+  FacebookTwoTone,
+  Instagram,
+  LinkedIn,
+  LocationOn,
+  Mail,
+  RssFeedSharp,
+  Twitter,
+  WhatsApp,
+  YouTube,
+  YoutubeSearchedForTwoTone,
+} from "@mui/icons-material";
+import { Button, InputBase, Typography } from "@mui/material";
+import { alpha, Box, styled } from "@mui/system";
+// import Head from 'next/head'
 import React from "react";
 const StyleToolbar = styled(Box)(({ theme }) => ({
-  // bgColor: "#F8F8F8",
-  // bgcolor: "#FFFFFF!important",
-  padding: "48px  42px",
-  display: "flex",
-  justifyContent: "space-around",
+  padding: "38px 58px",
+  backgroundColor: "#000",
   [theme.breakpoints.down("sm")]: {
-    display: "flex",
-    flexDirection: "column",
+   padding:"38px 20px"
   },
 }));
-const Item = styled(Paper)(({ theme }) => ({
-  borderRadius: "0px!important",
-  boxShadow: "none!important",
-  backgroundColor: "#F4F4F4!important",
-  // textAlign: "center",
-  alignContent: "flex-start",
-  padding: "10px 0px!important",
-  // fontSize: "14px",
+const Search = styled("div")(({ theme }) => ({
+  position: "relative",
+  borderRadius: theme.shape.borderRadius,
+  marginRight: theme.spacing(2),
+  backgroundColor: "#FFFFFF",
+  marginLeft: 0,
+  width: "250px",
+  padding: "6px 10px",
+}));
+
+const SearchIconWrapper = styled("div")(({ theme }) => ({
+  // padding: theme.spacing(0, 2),
+  height: "100%",
+  position: "absolute",
   display: "flex",
-  flexDirection: "column",
+  alignItems: "center",
+  justifyContent: "center",
+  right: "0px",
+  bottom: "0px",
+}));
+
+const StyledInputBase = styled(InputBase)(({ theme }) => ({
+  // color: 'inherit',
+  "& .MuiInputBase-input": {
+    width: "100%",
+    height: "100%",
+  },
 }));
 const Footer = () => {
   return (
     <StyleToolbar>
       <Box
         sx={{
-          width: "100%",
           display: "flex",
           justifyContent: "space-between",
-          //   alignItems: "center",
-          // textAlign: "center",
-          bgcolor: "#F4F4F4!important",
+          color: "#FFFFFF",
+          flexDirection: { md: "row", sm: "column", xs: "column" },
         }}
       >
-        <Grid
-          container
-          // rowSpacing={6}
-          spacing={12}
-          // rowGap={3}
-          sx={{
-            bgcolor: "#F4F4F4",
-            justifyContent: "space-between",
-            display: "flex",
-            // textAlign: "center",
-            // width: { md: "40%", sm: "80%", xs: "100%" },
-          }}
-        >
-          <Grid item xs={12} sm={6} md={4}>
-            <Item sx={{}}>
-              <Typography
-                variant="h3"
+        <Box>
+        <br/>
+          <Typography sx={{ color: "#CCCCCC", fontSize: "20px" }}>
+            Book Your Travel Hotel
+          </Typography>
+          <br />
+          <Typography
+            sx={{ display: "flex", alignItems: "center", gap: "10px" }}
+          >
+            <LocationOn sx={{ fontSize: "14px" }} /> Prem Nager,
+            Haridwar(Uttrakhand), India
+          </Typography>
+          <Typography
+            sx={{ display: "flex", alignItems: "center", gap: "10px" }}
+          >
+            <Call sx={{ fontSize: "14px" }} /> +91 9999999999
+          </Typography>
+          <Typography
+            sx={{ display: "flex", alignItems: "center", gap: "10px" }}
+          >
+            <Mail sx={{ fontSize: "14px" }} /> info@techpyro.com
+          </Typography>
+        </Box>
+        <Box>
+        <br/>
+          <Typography sx={{ fontSize: "18px", color: "#CCCCCC" }}>
+            Newsletter
+          </Typography>
+          <br />
+          <Search>
+            <StyledInputBase
+              placeholder="Your email address"
+              inputProps={{ "aria-label": "search" }}
+            />
+            <SearchIconWrapper>
+              <Button
                 sx={{
-                  display: "flex",
-                  letterSpacing: "3px",
-                  alignContent: "flex-start",
+                  backgroundColor: "#00BFA5",
+                  padding: "8px 5px",
+                  color: "#FFFFFF",
+                  "&:hover": {
+                    backgroundColor: "#000",
+                  },
                 }}
               >
-                WELCOME TO TECHPYRO
-              </Typography>
-            </Item>
-            <Item>
-              Fusce aliquam tincidunt hendrerit. Nunc tincidunt id velit sit
-              amet vestibulum. In venenatis tempus odio ut dictum. Curabitur ac
-              nisl molestie, facilisis nibh ac, facilisis ligula. Integer congue
-              malesuada eros congue varius. Sed malesuada dolor eget velit
-              euismod pretium. Etiam porttitor finibus pretium. Nam suscipit vel
-              ligula at dharetra.
-            </Item>
-            <Item sx={{}}></Item>
-          </Grid>
-          <Grid item xs={12} sm={6} md={4}>
-            <Item sx={{}}>
-              <Typography
-                variant="h3"
-                sx={{
-                  alignItems: "center",
-                }}
-              >
-                OPENING HOURS
-              </Typography>
-            </Item>
-            <Item>
-              {" "}
-              Fusce aliquam tincidunt hendrerit. Nunc tincidunt id velit sit
-              amet vestibulum. In venenatis tempus odio ut dictum curabitur ac
-              nisl molestie, facilisis nibh ac.
-            </Item>
-            <Item>
-              {" "}
-              <Typography variant="h4">LUNCH</Typography>
-            </Item>
-            <Box display="flex" justifyContent="space-around">
-              <Typography variant="span">Mon to Sun </Typography>
-              <Typography variant="span">12:00 to 15:00</Typography>
-            </Box>
-            <Item sx={{ fontsize: "18px" }}>
-              {" "}
-              <Typography variant="h4">DINNER</Typography>
-            </Item>
-            <Box display="flex" justifyContent="space-around">
-              <Typography variant="span">Mon to Thur </Typography>
-              <Typography variant="span"> 18:00 to 22:30</Typography>
-            </Box>
-            <Box display="flex" justifyContent="space-around">
-              <Typography variant="span">Fri & Sat </Typography>
-              <Typography variant="span"> 17:30 to 22:30</Typography>
-            </Box>
-            <Box display="flex" justifyContent="space-around">
-              <Typography variant="span">Sunday</Typography>
-              <Typography variant="span"> 18:00 to 21:30</Typography>
-            </Box>
-          </Grid>
-          <Grid item xs={12} sm={6} md={4}>
-            <Item sx={{}}>
-              <Typography
-                variant="h3"
-                sx={{
-                  display: "flex",
-                  letterSpacing: "3px",
-                  alignContent: "flex-start",
-                  // fontSize: { md: "48px", sm: "35px", xs: "30px" },
-                  // fontWeight: "650",
-                  // width: { md: "90%", sm: "80%", xs: "100%" },
-                }}
-              >
-                RESERVATION
-              </Typography>
-            </Item>
-            <Item>
-              Book online or give us a call on 020 3375 1515 between 9.30am–6pm
-              on weekdays, and between 12pm–5pm on weekends.
-            </Item>
-            <Item>
-             
-            </Item>
-          </Grid>
-        </Grid>
+                SIGN UP
+              </Button>
+            </SearchIconWrapper>
+          </Search>
+        </Box>
+        <Box>
+        <br/>
+          <Typography sx={{ fontSize: "18px", color: "#CCCCCC" }}>
+            Useful
+          </Typography>
+          <br />
+          <Typography sx={{ color: "#FFFFFF" }}>
+            Reservations: (1) – 555 – 555 – 555
+          </Typography>
+          <Typography sx={{ color: "#FFFFFF" }}>Check-in: 4 PM</Typography>
+          <Typography sx={{ color: "#FFFFFF" }}>Check-Out: 11 AM</Typography>
+        </Box>
+      </Box>
+      <br />
+      <br />
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "space-between",
+          color: "#FFFFFF",
+          flexDirection:{md:"row",sm:"column",xs:"column"}
+        }}
+      >
+        <Box>
+          <Typography sx={{ color: "#CCCCCC", fontSize: "20px" }}>
+            Follow us
+          </Typography>
+          <br />
+          <Box sx={{ display: "flex", gap: "10px" }}>
+            <FacebookTwoTone
+              sx={{
+                fontSize: "30px",
+                "&:hover": {
+                  color: "#00BFA5",
+                },
+              }}
+            />
+            <Twitter
+              sx={{
+                fontSize: "30px",
+                "&:hover": {
+                  color: "#00BFA5",
+                },
+              }}
+            />
+            <RssFeedSharp
+              sx={{
+                fontSize: "30px",
+                "&:hover": {
+                  color: "#00BFA5",
+                },
+              }}
+            />
+            <LinkedIn
+              sx={{
+                fontSize: "30px",
+                "&:hover": {
+                  color: "#00BFA5",
+                },
+              }}
+            />
+            <YouTube
+              sx={{
+                fontSize: "30px",
+                "&:hover": {
+                  color: "#00BFA5",
+                },
+              }}
+            />
+            <WhatsApp
+              sx={{
+                fontSize: "30px",
+                "&:hover": {
+                  color: "#00BFA5",
+                },
+              }}
+            />
+            <Instagram
+              sx={{
+                fontSize: "30px",
+                "&:hover": {
+                  color: "#00BFA5",
+                },
+              }}
+            />
+          </Box>
+        </Box>
+        <Box>
+          <br/>
+          <Typography sx={{ fontSize: "18px", color: "#CCCCCC" }}>
+            Awards
+          </Typography>
+          <br />
+          <Box sx={{ display: "flex", gap: "20px" }}>
+            <Typography
+              sx={{
+                background: `url("https://themes.themeenergy.com/bookyourtravel/hotel/wp-content/uploads/sites/10/2018/12/logo-1.png")center/cover no-repeat`,
+                height: "40px",
+                width: "175px",
+              }}
+            />
+            <Typography
+              sx={{
+                background: `url("https://themes.themeenergy.com/bookyourtravel/hotel/wp-content/uploads/sites/10/2018/12/logo-2.png")center/cover no-repeat`,
+                height: "40px",
+                width: "175px",
+              }}
+            />
+            <Typography
+              sx={{
+                background: `url("https://themes.themeenergy.com/bookyourtravel/hotel/wp-content/uploads/sites/10/2018/12/logo-3.png")center/cover no-repeat`,
+                height: "40px",
+                width: "150px",
+              }}
+            />
+            <Typography
+              sx={{
+                background: `url("https://themes.themeenergy.com/bookyourtravel/hotel/wp-content/uploads/sites/10/2018/12/logo-4.png")center/cover no-repeat`,
+                height: "40px",
+                width: "140px",
+              }}
+            />
+          </Box>
+        </Box>
+      </Box>
+      <br />
+      <br />
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "space-between",
+          color: "#FFFFFF",
+        }}
+      >
+        <Typography sx={{ fontSize: "12px" }}>
+          © Copyright 2023 - 2030 Techpyro.com
+        </Typography>
+        <Box sx={{ display: "flex", gap: {md:"20px",sm:"10px",xs:"0px"}, fontSize: "12px" }}>
+          <Typography sx={{ fontSize: "12px" }}>Terms of service </Typography>
+          <Typography sx={{ fontSize: "12px" }}>Privacy policy </Typography>
+        </Box>
       </Box>
     </StyleToolbar>
   );

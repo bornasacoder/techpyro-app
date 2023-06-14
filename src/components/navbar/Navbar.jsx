@@ -1,131 +1,68 @@
-import React, { useState } from "react";
-import SearchBar from "components/navbar/searchbar/SearchBar";
-import NavButton from "components/navbar/navButton/NavButton";
-// import NavImage from 'images/category/png-10.jpeg'
-import {
-  AppBar,
-  Box,
-  Toolbar,
-  styled,
-  IconButton,
-  Button,
-  Avatar,
-} from "@mui/material";
-
-import {
-  ShoppingCart,
-  Menu,
-  Padding,
-  GetApp,
-  Title,
-  ExpandMore,
-  ExpandLess,
-  Spa,
-  FacebookOutlined,
-  Twitter,
-  Instagram,
-  MenuBookRounded,
-  Phone,
-  MoreVert,
-} from "@mui/icons-material";
-// import MenuButtons from "./menuButtons/MenuButtons";
-import MainCarousel from "components/carousel/MainCarousel";
-import Content from "components/content/Content";
-
-const StyleToolbar = styled(Toolbar)(({ theme }) => ({
-  bgcolor: "#575B5C",
-  display: "flex",
-  justifyContent:"space-between",
-  gap: 2,
-}));
-const MenuButtons = styled(IconButton)(({ theme }) => ({
+import { Menu, Padding, SettingsOutlined } from '@mui/icons-material';
+import { Drawer, IconButton, styled, Typography } from '@mui/material'
+import { Box } from '@mui/system'
+import Link from 'next/link';
+import { useRouter } from 'next/router';
+import React, { useState } from 'react'
+import NavButton from '../NavButton';
+import MenuButtons from './MenuButtons';
+// import NavButton from '../NavButton';
+const StyleToolbar = styled(Box)(({theme})=>({
+    position:"sticky",
+    top:"0px",
+    backgroundColor:"#FFFFFF",
+    zIndex:"100"
+}))
+const MenuButton = styled(IconButton)(({ theme }) => ({
   display: "none",
   zIndex:"200",
-  color: theme.colors.alpha.white[100],
   [theme.breakpoints.down("md")]: {
-    display: "block",
-    right: "50px",
-
-  },
-}));
-
-const NavLeft = styled(Box)(({ theme }) => ({
-  // gap: "120px",
-  display: "flex",
-  flex:1,
-  // border:"2px solid black",
-  justifyContent:"space-between",
-  // alignItems: "center",
-  marginTop: "5px",
-  [theme.breakpoints.down("sm")]: {
-    height: "50px",
-    marginLeft: "15px",
-  },
-  [theme.breakpoints.down("md")]: {
-    height: "50px",
-    marginLeft: "90px",
-  },
-}));
-const NavRight = styled(Box)(({ theme }) => ({
-  display: "flex",
-flex:3,
-// flexDirection:"end",
-justifyContent:"flex-end",
-
-  // gap: "120px",
-  // border:"2px solid black",
-  alignItems: "center",
-  paddingRight: "20px",
-  marginTop: "10px",
-
-  [theme.breakpoints.down("sm")]: {
-    height: "50px",
-    gap: "15px",
-  },
-}));
-const NavBar = styled(AppBar)(({ theme }) => ({
-  background: "#ffffff",
-  color: theme.colors.alpha.black[100],
-  display: "flex",
-  justifyContent: "space-between",
-  flexDirection: "column",
-  paddingBottom: "15px",
-
-}));
-
-export default function Navbar() {
-  return (
-    <NavBar>
-      <StyleToolbar>
-      <NavLeft>
-      <MenuButtons >
-          <Menu   sx={{color:"black"}}/>
-    </MenuButtons>
-       </NavLeft>
-
-      <NavRight>
-      <NavButton />
-      <Button
-          sx={{
-            border: "3px solid #000",
-            background: "#ffffff",
-            color: "#000",
-            borderRadius: "0px",
-              "&:hover": {
-                backgroundColor: '#000',
-                color:"#ffffff",},
-                display:{md:"block",sm:"none",xs:"none"}
-            
-          }}
-        >
-          RESERVATION
-        </Button>
-        <Avatar lt="Remy Sharp" src="/images/category/logo.png" sx={{ width: 56, height: 56,display:{md:'none',sm:"block",xs:"block"},marginRight:{md:"10px",sm:"10px",xs:"20px"} }}/>
+    display: "flex",
+    justifyContent:'center',
+    marginRight:"0px!important",
   
-      </NavRight>
-      
-      </StyleToolbar>
-   
-    </NavBar>
-  );
+  },
+}));
+const Navbar = () => {
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => {
+    setOpen(true);
+  };
+  const handleClose = () => {
+    setOpen(false);
+  };
+  return (
+    <StyleToolbar>
+      <Box sx={{position:"relative"}}>
+<Box sx={{display:"flex",justifyContent:"space-between",padding:"18px 58px"}}>
+    <Box sx={{display:"flex",color:"#858585",alignItems:"center"}}>
+    <Typography sx={{fontSize:"10px"}}>CALL US:</Typography>
+    <Typography sx={{fontSize:"10px"}}>+91 9999999999</Typography>
+    </Box>
+    <Typography sx={{display:"flex",fontSize:"10px",color:"#858585",}}>EN  ES  RT  RU</Typography>
+</Box>
+<Box sx={{display:"flex",justifyContent:"center"}}>
+  <Link  href='/' style={{textDecoration:"none",color:"#000"}} >
+    <Typography sx={{fontSize:{md:"30px",sm:"28px",xs:"20px"},listStyle:"none"}}>BOOK YOUR TRAVEL HOTEL</Typography>
+    </Link>
+</Box>
+<br/>
+<Box sx={{ backgroundColor:"#EEEEEE",display:"flex"}}>
+<MenuButton onClick={handleOpen} >
+  <Menu sx={{fontSize:"30px", }}/>
+</MenuButton>
+<Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
+          <MenuButtons sx={{marginTop:{sm:"20px",sx:"20px"}}} setOpen={setOpen} />
+</Drawer>
+<NavButton/>
+</Box>
+<Box sx={{position:"absolute",bottom:"-30px",right:"0px",backgroundColor:"#FFFFFF",padding:"10px 10px",borderRadius:"10px 0px 0px 10px",zIndex:"100"}}>
+<SettingsOutlined sx={{fontSize:"30px"}}/>
+</Box>
+</Box>
+    </StyleToolbar>
+
+  )
 }
+
+export default Navbar
