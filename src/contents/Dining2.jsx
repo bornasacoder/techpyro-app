@@ -25,7 +25,7 @@ const Dining2 = () => {
       <Middle>
         <Box
           sx={{
-            background: `url("https://img.freepik.com/free-photo/medical-massage-leg-physiotherapy-center_1139-1212.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais") center/cover no-repeat`,
+            background: `url("https://img.freepik.com/free-photo/young-uber-driver-car-interior_23-2149149649.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
             height: "400px",
             flex: { md: "2", sm: "2" },
           }}
@@ -63,7 +63,7 @@ const Dining2 = () => {
         >
           <Typography sx={{ fontSize: "10px" }}>A PERFECT BEGINNING</Typography>
           <Typography sx={{ fontSize: "33px" }}>
-          Occupational Therapy Department
+          Time-Based Fare
           </Typography>
           <br />
           <br />
@@ -83,7 +83,7 @@ const Dining2 = () => {
         <Box
           sx={{
             flex: { md: "2", sm: "2" },
-            background: `url("https://img.freepik.com/free-photo/doctor-helping-patient-during-rehabilitation_23-2150321621.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais") center/cover no-repeat`,
+            background: `url("https://img.freepik.com/free-photo/woman-driving-her-taxi-cab-with-her-client-backseat_23-2149236747.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
             height: "400px",
           }}
         />
@@ -92,7 +92,7 @@ const Dining2 = () => {
         <Box
           sx={{
             flex: { md: "2", sm: "2" },
-            background: `url("https://img.freepik.com/free-photo/doctor-giving-high-five-with-little-patient-medical-office-healthcare-practitioner-physician-specialist-medicine-providing-health-care-services-consultation-diagnostic-treatment-hospital_482257-14544.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
+            background: `url("https://img.freepik.com/free-vector/taxi-app-concept_23-2148477756.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
             height: "400px",
           }}
         />
@@ -104,7 +104,7 @@ const Dining2 = () => {
         >
           <Typography sx={{ fontSize: "10px" }}>INTERNATIONAL</Typography>
           <Typography sx={{ fontSize: "33px" }}>
-          Speech Therapy Department
+          Flat Rate Fare
           </Typography>
           <br />
           <br />
@@ -132,7 +132,7 @@ const Dining2 = () => {
           <Typography sx={{ fontSize: "10px" }}>
             INDULGENCE AT ITS FINEST
           </Typography>
-          <Typography sx={{ fontSize: "33px" }}>Cardiac Rehabilitation Center</Typography>
+          <Typography sx={{ fontSize: "33px" }}>Additional Charges</Typography>
           <br />
           <br />
           <Typography>
@@ -151,7 +151,7 @@ const Dining2 = () => {
         <Box
           sx={{
             flex: { md: "2", sm: "2" },
-            background: `url("https://img.freepik.com/free-photo/female-assistant-holding-tablet-with-cardiovascular-system-illustration-explaining-heart-condition-retired-person-during-covid-19-pandemic-nurse-showing-cardiology-diagnosis-gadget_482257-43173.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
+            background: `url("https://img.freepik.com/free-photo/young-male-being-uber-driver-female-client_23-2149184232.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
             height: "400px",
           }}
         />

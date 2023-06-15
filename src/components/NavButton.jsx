@@ -49,7 +49,7 @@ import Link from "next/link";
         >
           <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ bgcolor:"#166164",color:"#fff",}}} >
           <Typography >
-         Room&Suites
+          Booking
           </Typography>
           <Badge><ExpandMoreIcon/></Badge>
           </Box>
@@ -135,7 +135,7 @@ import Link from "next/link";
           <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ bgcolor:"#166164",color:"#fff",}}} >
            
           <Typography  >
-          Rehabilitation Facilities
+          Fare Calculation
           </Typography>
           </Box>
           </Link>
@@ -150,7 +150,7 @@ import Link from "next/link";
         >
           <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ bgcolor:"#166164",color:"#fff",}}} >
           <Typography >
-          Laboratories
+           Licensed Drivers
           </Typography>
           <Badge><ExpandMoreIcon/></Badge>
           </Box>
@@ -193,7 +193,7 @@ import Link from "next/link";
           <Link href={"/spa"} style={{textDecoration:"none",color:"#000"}}>
           <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ bgcolor:"#166164",color:"#fff",}}} >
           <Typography >
-          Emergency Department
+          Vehicle Options 
           </Typography>
           </Box>
           </Link>
@@ -207,7 +207,7 @@ import Link from "next/link";
         >
           <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ bgcolor:"#166164",color:"#fff",}}} >
           <Typography >
-          The hospital
+          The cab
           </Typography>
           <Badge><ExpandMoreIcon/></Badge>
           </Box>

@@ -6,14 +6,14 @@ const StyleToolbar = styled(Box)(({ theme }) => ({
   display: "flex",
   padding: "58px 58px",
   backgroundColor: "#FFFFFF",
-  gap:"80px",
-  [theme.breakpoints.down('md')]:{
+  gap: "80px",
+  [theme.breakpoints.down("md")]: {
     padding: "58px 20px",
   },
-  [theme.breakpoints.down('sm')]:{
-    flexDirection:"column",
+  [theme.breakpoints.down("sm")]: {
+    flexDirection: "column",
     padding: "58px 10px",
-  }
+  },
 }));
 const Content2 = () => {
   return (
@@ -28,26 +28,29 @@ const Content2 = () => {
         <br />
         <br />
         <Typography sx={{}}>
-          Of brilliant syntheses a mote of dust suspended in a sunbeam across
-          the centuries a mote of dust suspended in a sunbeam network of
-          wormholes the sky calls to us and billions upon billions upon billions
-          upon billions upon billions upon billions upon billions. Courage of
-          our questions hearts of the stars at the edge of forever realm of the
-          galaxies not a sunrise but a galaxyrise the only home we’ve ever
-          known.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+          itaque qui excepturi, labore ut quaerat eum perspiciatis mollitia
+          assumenda eaque fuga eos, provident id architecto, delectus
+          distinctio? Omnis labore tempore quibusdam nobis? Fugit modi autem
+          nostrum error cum neque recusandae dolor atque quis! Tenetur nemo
+          dolorum in aspernatur mollitia. Beatae.
         </Typography>
       </Box>
-      <Box sx={{ flex: "1",backgroundColor:"#F5F5F5",padding:"20px 20px",textAlign:"center" }}>
-        <Typography sx={{fontStyle:"italic"}}>
-          “We just returned from a six night stay at the Hotel in Sunny Isles
-          Beach, Florida. The suite was large, clean and had a beautiful view
-          from every window. Staff is really friendly too.”
+      <Box
+        sx={{
+          flex: "1",
+          backgroundColor: "#F5F5F5",
+          padding: "20px 20px",
+          textAlign: "center",
+        }}
+      >
+        <Typography sx={{ fontStyle: "italic" }}>
+          “Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium
+          culpa ad repellat nostrum aliquid officiis cum, veritatis esse quod
+          accusantium? Voluptatum quas fugit facilis nobis vero labore dicta
+          officia odit!”
         </Typography>
-        <Image
-        src="/ta.png"
-        width={60}
-        height={60}
-        />
+        <Image src="/ta.png" width={60} height={60} />
       </Box>
     </StyleToolbar>
   );

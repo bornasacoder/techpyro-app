@@ -26,7 +26,7 @@ const Spa2 = () => {
         <Box
           sx={{
             flex: { md: "2", sm: "2" },
-            background: `url("https://img.freepik.com/premium-photo/emergency-medical-team-assisting-patient-transfers-stretchers-er_899027-2472.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph") center/cover no-repeat`,
+            background: `url("https://img.freepik.com/premium-photo/young-handicapped-man-driver-s-seat-his-car_179755-10569.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
             height: "400px",
           }}
         />
@@ -37,7 +37,7 @@ const Spa2 = () => {
           }}
         >
           <Typography sx={{ fontSize: "10px" }}>INTERNATIONAL</Typography>
-          <Typography sx={{ fontSize: "33px" }}>Triage</Typography>
+          <Typography sx={{ fontSize: "33px" }}>Wheelchair Accessible Vehicles</Typography>
           <br />
           <br />
           <Typography>
@@ -63,7 +63,7 @@ const Spa2 = () => {
         >
           <Typography sx={{ fontSize: "10px" }}>A PERFECT BEGINNING</Typography>
           <Typography sx={{ fontSize: "33px" }}>
-            Evaluation and Treatmen
+          Electric or Hybrid Vehicles
           </Typography>
           <br />
           <br />
@@ -83,7 +83,7 @@ const Spa2 = () => {
         <Box
           sx={{
             flex: { md: "2", sm: "2" },
-            background: `url("https://img.freepik.com/premium-photo/discussing-medical-issues-patient-discuss-with-doctors-her-medical-exam-hospital-doctors-talking-about-medical-issues_116317-19935.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
+            background: `url("https://img.freepik.com/free-photo/close-up-electric-car-france_23-2149169728.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais") center/cover no-repeat`,
             height: "400px",
           }}
         />
@@ -92,7 +92,7 @@ const Spa2 = () => {
         <Box
           sx={{
             flex: { md: "2", sm: "2" },
-            background: `url("https://img.freepik.com/free-photo/medical-assistant-doing-consultation-with-ill-patient-wearing-face-masks-hospital-ward-nurse-discussing-with-young-woman-about-healthcare-treatment-taking-notes-during-pandemic_482257-44614.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
+            background: `url("https://img.freepik.com/premium-photo/closeup-orange-dumper-truck-construction-area_508835-10596.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
             height: "400px",
           }}
         />
@@ -103,7 +103,7 @@ const Spa2 = () => {
           }}
         >
           <Typography sx={{ fontSize: "10px" }}>INTERNATIONAL</Typography>
-          <Typography sx={{ fontSize: "33px" }}>Stabilization</Typography>
+          <Typography sx={{ fontSize: "33px" }}>Specialty Vehicles</Typography>
           <br />
           <br />
           <Typography>
@@ -131,7 +131,7 @@ const Spa2 = () => {
             INDULGENCE AT ITS FINEST
           </Typography>
           <Typography sx={{ fontSize: "33px" }}>
-            Diagnostic Imaging and Laboratory Services
+          Luxury Cars
           </Typography>
           <br />
           <br />
@@ -151,7 +151,7 @@ const Spa2 = () => {
         <Box
           sx={{
             flex: { md: "2", sm: "2" },
-            background: `url("https://img.freepik.com/free-photo/senior-chemist-analysing-blood-sample-while-coworkers-discussing_482257-554.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
+            background: `url("https://img.freepik.com/free-photo/white-luxury-sport-sedan-car-standing-race-trace-front-side-view_114579-1161.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
             height: "400px",
           }}
         />

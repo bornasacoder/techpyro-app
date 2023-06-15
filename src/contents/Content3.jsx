@@ -29,7 +29,7 @@ const Content3 = () => {
           alignItems: "center",
         }}
       >
-        <Typography sx={{ fontSize: "33px" }}>Rooms & Suites</Typography>
+        <Typography sx={{ fontSize: "33px" }}>Vehicle Options</Typography>
         <br />
         <br />
         <Typography
@@ -38,10 +38,10 @@ const Content3 = () => {
             textAlign: "center",
           }}
         >
-          With a wide variety of luxurious Rooms & Suites there is something for
-          each taste. A very small stage in a vast cosmic arena bits of moving
-          fluff take root and flourish a mote of dust suspended in a sunbeam
-          rings.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+          corporis perspiciatis, dignissimos officia in molestiae, explicabo
+          optio impedit fuga quod beatae aspernatur. Repudiandae nesciunt
+          excepturi fugiat placeat animi consequuntur quo?
         </Typography>
       </Box>
       <br />
@@ -51,14 +51,14 @@ const Content3 = () => {
             <Item>
               <Box
                 sx={{
-                  background: `url("https://img.freepik.com/free-photo/interior-view-operating-room_1170-2254.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais") center`,
+                  background: `url("https://img.freepik.com/free-photo/red-luxury-sedan-road_114579-5079.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph") center`,
                   height: "250px",
                   width: "auto",
                 }}
               />
               <Box sx={{ padding: "10px 10px" }}>
                 <Typography sx={{ fontSize: "20px" }}>
-                  Intensive Care Unit (ICU)
+                Sedans
                 </Typography>
                 <br />
                 <Typography sx={{ borderBottom: "1px solid #CCCCCC" }} />
@@ -78,7 +78,7 @@ const Content3 = () => {
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Facilis cumque nesciunt saepe temporibus cupiditate fuga
                   maxime porro ex numquam laudantium, obcaecati, iste
-                  dignissimos et nisi 
+                  dignissimos et nisi
                 </Typography>
                 <br />
                 <Box>
@@ -125,14 +125,14 @@ const Content3 = () => {
             <Item>
               <Box
                 sx={{
-                  background: `url("https://img.freepik.com/free-photo/hospital-room-interior_181624-34428.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center`,
+                  background: `url("https://img.freepik.com/free-photo/blue-jeep-parking-public-zone_114579-4042.jpg?w=900&t=st=1686812630~exp=1686813230~hmac=491e778fab0185d954c49b0b6339ee7cf3f57df9f85dbec6a9ae800bc6766cd2") center`,
                   height: "250px",
                   width: "auto",
                 }}
               />
               <Box sx={{ padding: "10px 10px" }}>
                 <Typography sx={{ fontSize: "20px" }}>
-                  General Ward Room
+                SUVs (Sports Utility Vehicles)
                 </Typography>
                 <br />
                 <Typography sx={{ borderBottom: "1px solid #CCCCCC" }} />
@@ -199,14 +199,14 @@ const Content3 = () => {
             <Item>
               <Box
                 sx={{
-                  background: `url("https://img.freepik.com/free-photo/surgeons-interacting-with-each-other-operation-room_1170-2283.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center`,
+                  background: `url("https://img.freepik.com/free-photo/blue-sport-sedan-parked-yard_114579-5078.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center`,
                   height: "250px",
                   width: "auto",
                 }}
               />
               <Box sx={{ padding: "10px 10px" }}>
                 <Typography sx={{ fontSize: "20px" }}>
-                  Operating Room
+                Luxury Cars
                 </Typography>
                 <br />
                 <Typography sx={{ borderBottom: "1px solid #CCCCCC" }} />
@@ -226,7 +226,7 @@ const Content3 = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Quidem voluptatem aliquid doloremque porro temporibus aliquam
                   omnis maiores, recusandae tenetur optio et vel, eligendi
-                  beatae fugit minus ullam 
+                  beatae fugit minus ullam
                 </Typography>
                 <br />
                 <Box>
