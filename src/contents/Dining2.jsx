@@ -25,7 +25,7 @@ const Dining2 = () => {
       <Middle>
         <Box
           sx={{
-            background: `url("https://img.freepik.com/free-photo/young-uber-driver-car-interior_23-2149149649.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
+            background: `url("https://img.freepik.com/free-photo/cheerful-tourists-with-tablet-street_23-2147762285.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
             height: "400px",
             flex: { md: "2", sm: "2" },
           }}
@@ -37,7 +37,7 @@ const Dining2 = () => {
           }}
         >
           <Typography sx={{ fontSize: "10px" }}>INTERNATIONAL</Typography>
-          <Typography sx={{ fontSize: "33px" }}>Physical Therapy Department</Typography>
+          <Typography sx={{ fontSize: "33px" }}>Group Reservations</Typography>
           <br />
           <br />
           <Typography>
@@ -63,7 +63,7 @@ const Dining2 = () => {
         >
           <Typography sx={{ fontSize: "10px" }}>A PERFECT BEGINNING</Typography>
           <Typography sx={{ fontSize: "33px" }}>
-          Time-Based Fare
+          Customized Itineraries
           </Typography>
           <br />
           <br />
@@ -83,7 +83,7 @@ const Dining2 = () => {
         <Box
           sx={{
             flex: { md: "2", sm: "2" },
-            background: `url("https://img.freepik.com/free-photo/woman-driving-her-taxi-cab-with-her-client-backseat_23-2149236747.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
+            background: `url("https://img.freepik.com/free-photo/travel-trip-vacation-holiday-journey-tourism_53876-125078.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais") center/cover no-repeat`,
             height: "400px",
           }}
         />
@@ -92,7 +92,7 @@ const Dining2 = () => {
         <Box
           sx={{
             flex: { md: "2", sm: "2" },
-            background: `url("https://img.freepik.com/free-vector/taxi-app-concept_23-2148477756.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
+            background: `url("https://img.freepik.com/free-photo/full-shot-friends-taking-selfie_23-2148925843.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
             height: "400px",
           }}
         />
@@ -104,7 +104,7 @@ const Dining2 = () => {
         >
           <Typography sx={{ fontSize: "10px" }}>INTERNATIONAL</Typography>
           <Typography sx={{ fontSize: "33px" }}>
-          Flat Rate Fare
+          Accommodation Management
           </Typography>
           <br />
           <br />
@@ -132,7 +132,7 @@ const Dining2 = () => {
           <Typography sx={{ fontSize: "10px" }}>
             INDULGENCE AT ITS FINEST
           </Typography>
-          <Typography sx={{ fontSize: "33px" }}>Additional Charges</Typography>
+          <Typography sx={{ fontSize: "33px" }}>Transportation Arrangements</Typography>
           <br />
           <br />
           <Typography>
@@ -151,7 +151,7 @@ const Dining2 = () => {
         <Box
           sx={{
             flex: { md: "2", sm: "2" },
-            background: `url("https://img.freepik.com/free-photo/young-male-being-uber-driver-female-client_23-2149184232.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
+            background: `url("https://img.freepik.com/free-photo/young-adults-travelling-winter-time_23-2149211146.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
             height: "400px",
           }}
         />

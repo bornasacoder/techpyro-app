@@ -132,10 +132,10 @@ import Link from "next/link";
           }}
         >
            <Link href={"/dining"} style={{textDecoration:"none",color:"#000",}}>
-          <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ bgcolor:"#166164",color:"#fff",}}} >
+          <Box sx={{height:"60px",display:"flex",alignItems:"center",textAlign:'center',padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ bgcolor:"#166164",color:"#fff",}}} >
            
           <Typography  >
-          Fare Calculation
+          Group Travel Services
           </Typography>
           </Box>
           </Link>
@@ -148,9 +148,9 @@ import Link from "next/link";
             "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
           }}
         >
-          <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ bgcolor:"#166164",color:"#fff",}}} >
+          <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",textAlign:"center",borderRight:"1px solid #CCCCCC","&:hover":{ bgcolor:"#166164",color:"#fff",}}} >
           <Typography >
-           Licensed Drivers
+           Travel Concierge Services
           </Typography>
           <Badge><ExpandMoreIcon/></Badge>
           </Box>
@@ -191,9 +191,9 @@ import Link from "next/link";
           }}
         > 
           <Link href={"/spa"} style={{textDecoration:"none",color:"#000"}}>
-          <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ bgcolor:"#166164",color:"#fff",}}} >
+          <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC",textAlign:"center","&:hover":{ bgcolor:"#166164",color:"#fff",}}} >
           <Typography >
-          Vehicle Options 
+          Destination Information and Assistance
           </Typography>
           </Box>
           </Link>

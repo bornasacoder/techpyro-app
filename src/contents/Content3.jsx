@@ -29,7 +29,7 @@ const Content3 = () => {
           alignItems: "center",
         }}
       >
-        <Typography sx={{ fontSize: "33px" }}>Vehicle Options</Typography>
+        <Typography sx={{ fontSize: "33px" }}>Travel Options</Typography>
         <br />
         <br />
         <Typography
@@ -51,14 +51,14 @@ const Content3 = () => {
             <Item>
               <Box
                 sx={{
-                  background: `url("https://img.freepik.com/free-photo/red-luxury-sedan-road_114579-5079.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=sph") center`,
+                  background: `url("https://img.freepik.com/premium-photo/bus-parked-road_69593-7793.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais") center`,
                   height: "250px",
                   width: "auto",
                 }}
               />
               <Box sx={{ padding: "10px 10px" }}>
                 <Typography sx={{ fontSize: "20px" }}>
-                Sedans
+                Bus and Coach Travel
                 </Typography>
                 <br />
                 <Typography sx={{ borderBottom: "1px solid #CCCCCC" }} />
@@ -125,14 +125,14 @@ const Content3 = () => {
             <Item>
               <Box
                 sx={{
-                  background: `url("https://img.freepik.com/free-photo/blue-jeep-parking-public-zone_114579-4042.jpg?w=900&t=st=1686812630~exp=1686813230~hmac=491e778fab0185d954c49b0b6339ee7cf3f57df9f85dbec6a9ae800bc6766cd2") center`,
+                  background: `url("https://img.freepik.com/free-photo/large-luxurious-cruise-ship-sailing-sea-sunny-day-ai-generative_123827-23852.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais") center`,
                   height: "250px",
                   width: "auto",
                 }}
               />
               <Box sx={{ padding: "10px 10px" }}>
                 <Typography sx={{ fontSize: "20px" }}>
-                SUVs (Sports Utility Vehicles)
+                Cruise Travel
                 </Typography>
                 <br />
                 <Typography sx={{ borderBottom: "1px solid #CCCCCC" }} />
@@ -199,14 +199,14 @@ const Content3 = () => {
             <Item>
               <Box
                 sx={{
-                  background: `url("https://img.freepik.com/free-photo/blue-sport-sedan-parked-yard_114579-5078.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center`,
+                  background: `url("https://img.freepik.com/premium-photo/airplane-taking-off-from-airport_37416-74.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais") center`,
                   height: "250px",
                   width: "auto",
                 }}
               />
               <Box sx={{ padding: "10px 10px" }}>
                 <Typography sx={{ fontSize: "20px" }}>
-                Luxury Cars
+                Air Travel
                 </Typography>
                 <br />
                 <Typography sx={{ borderBottom: "1px solid #CCCCCC" }} />

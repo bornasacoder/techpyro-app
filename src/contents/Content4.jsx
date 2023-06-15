@@ -27,7 +27,7 @@ const Content4 = () => {
           <Typography sx={{ fontSize: "10px" }}>
             INDULGENCE AT ITS FINEST
           </Typography>
-          <Typography sx={{ fontSize: "33px" }}>Comfortable Seating</Typography>
+          <Typography sx={{ fontSize: "33px" }}>Flight and Hotel Reservations</Typography>
           <br />
           <br />
           <Typography>
@@ -54,7 +54,7 @@ const Content4 = () => {
         <Box
           sx={{
             flex:{md:"2",sm:"2",},
-            background: `url("https://img.freepik.com/free-photo/businesswoman-sitting-backseat-taxi_23-2149236711.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
+            background: `url("https://img.freepik.com/premium-photo/receptionist-giving-explanations-senior-man_53876-92486.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
             height: "400px",
             width:"100%"
           }}
@@ -64,7 +64,7 @@ const Content4 = () => {
         <Box
           sx={{
             flex:{md:"2",sm:"2"},
-            background: `url("https://img.freepik.com/premium-photo/air-ventilation-grille-fresh-air-is-coming-out_427248-584.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais") center/cover no-repeat`,
+            background: `url("https://img.freepik.com/free-photo/family-with-daughter-holding-passports-luggage-ready-travel_23-2149205280.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
             height: "400px",
             width:"100%"
           }}
@@ -73,7 +73,7 @@ const Content4 = () => {
           <Typography sx={{ fontSize: "10px" }}>
             BEST EMERGRNCY FACILITIES
           </Typography>
-          <Typography sx={{ fontSize: "33px" }}>Air Conditioning and Heating</Typography>
+          <Typography sx={{ fontSize: "33px" }}>Travel Insurance</Typography>
           <br />
           <br />
           <Typography>
@@ -103,7 +103,7 @@ const Content4 = () => {
           <Typography sx={{ fontSize: "10px" }}>
           INDULGENCE AT ITS FINEST
           </Typography>
-          <Typography sx={{ fontSize: "33px" }}>Audio and Entertainment Systems </Typography>
+          <Typography sx={{ fontSize: "33px" }}>Visa and Documentation Assistance </Typography>
           <br />
           <br />
           <Typography>
@@ -130,7 +130,7 @@ const Content4 = () => {
         <Box
           sx={{
             flex:{md:"2",sm:"2"},
-            background: `url("https://img.freepik.com/free-photo/car-dashboard-radio-closeup-woman-sets-up-radio-while-driving-car_231208-7684.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
+            background: `url("https://img.freepik.com/premium-photo/visa-application-form-travel_36325-116.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
             height: "400px",
             width:{md:"100%",sm:"100%",xs:"100%"}
           }}

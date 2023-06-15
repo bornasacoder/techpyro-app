@@ -26,7 +26,7 @@ const Spa2 = () => {
         <Box
           sx={{
             flex: { md: "2", sm: "2" },
-            background: `url("https://img.freepik.com/premium-photo/young-handicapped-man-driver-s-seat-his-car_179755-10569.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
+            background: `url("https://img.freepik.com/free-photo/friends-sitting-choosing-destination_23-2147654152.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
             height: "400px",
           }}
         />
@@ -37,7 +37,7 @@ const Spa2 = () => {
           }}
         >
           <Typography sx={{ fontSize: "10px" }}>INTERNATIONAL</Typography>
-          <Typography sx={{ fontSize: "33px" }}>Wheelchair Accessible Vehicles</Typography>
+          <Typography sx={{ fontSize: "33px" }}>Destination Guides</Typography>
           <br />
           <br />
           <Typography>
@@ -63,7 +63,7 @@ const Spa2 = () => {
         >
           <Typography sx={{ fontSize: "10px" }}>A PERFECT BEGINNING</Typography>
           <Typography sx={{ fontSize: "33px" }}>
-          Electric or Hybrid Vehicles
+          Travel Tips and Advice
           </Typography>
           <br />
           <br />
@@ -83,7 +83,7 @@ const Spa2 = () => {
         <Box
           sx={{
             flex: { md: "2", sm: "2" },
-            background: `url("https://img.freepik.com/free-photo/close-up-electric-car-france_23-2149169728.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais") center/cover no-repeat`,
+            background: `url("https://img.freepik.com/free-photo/top-view-travel-elements-collection_23-2148691134.jpg?w=900&t=st=1686816631~exp=1686817231~hmac=6726b82a73032ef91ae838cd5ea246b40d248e0a00a65a328e56fb0459ca7aec") center/cover no-repeat`,
             height: "400px",
           }}
         />
@@ -92,7 +92,7 @@ const Spa2 = () => {
         <Box
           sx={{
             flex: { md: "2", sm: "2" },
-            background: `url("https://img.freepik.com/premium-photo/closeup-orange-dumper-truck-construction-area_508835-10596.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
+            background: `url("https://img.freepik.com/free-photo/side-view-served-table-with-sushi-pineapple-shisha_141793-3883.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais") center/cover no-repeat`,
             height: "400px",
           }}
         />
@@ -103,7 +103,7 @@ const Spa2 = () => {
           }}
         >
           <Typography sx={{ fontSize: "10px" }}>INTERNATIONAL</Typography>
-          <Typography sx={{ fontSize: "33px" }}>Specialty Vehicles</Typography>
+          <Typography sx={{ fontSize: "33px" }}>Dining and Culinary Recommendations</Typography>
           <br />
           <br />
           <Typography>
@@ -131,7 +131,7 @@ const Spa2 = () => {
             INDULGENCE AT ITS FINEST
           </Typography>
           <Typography sx={{ fontSize: "33px" }}>
-          Luxury Cars
+          Sightseeing Recommendations
           </Typography>
           <br />
           <br />
@@ -151,7 +151,7 @@ const Spa2 = () => {
         <Box
           sx={{
             flex: { md: "2", sm: "2" },
-            background: `url("https://img.freepik.com/free-photo/white-luxury-sport-sedan-car-standing-race-trace-front-side-view_114579-1161.jpg?size=626&ext=jpg&ga=GA1.1.2042454013.1682690444&semt=ais") center/cover no-repeat`,
+            background: `url("https://img.freepik.com/premium-photo/receptionist-giving-explanations-senior-man_53876-92486.jpg?size=626&ext=jpg&ga=GA1.2.2042454013.1682690444&semt=ais") center/cover no-repeat`,
             height: "400px",
           }}
         />

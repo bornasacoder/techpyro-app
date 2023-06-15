@@ -48,32 +48,32 @@ const Dining1 = () => {
       >
         <Typography sx={{ display: "flex", alignItems: "center", gap: "20px" }}>
           <FiberManualRecord sx={{ fontSize: "10px" }} />
-          Fare Calculation
+          Group Reservations
         </Typography>
         <br />
         <Typography sx={{ display: "flex", alignItems: "center", gap: "20px" }}>
           <FiberManualRecord sx={{ fontSize: "10px" }} />
-          Time-Based Fare
+          Customized Itineraries
         </Typography>
         <br />
         <Typography sx={{ display: "flex", alignItems: "center", gap: "20px" }}>
           <FiberManualRecord sx={{ fontSize: "10px" }} />
-          Flat Rate Fare
+          Accommodation Management
         </Typography>
         <br />
         <Typography sx={{ display: "flex", alignItems: "center", gap: "20px" }}>
           <FiberManualRecord sx={{ fontSize: "10px" }} />
-          Surge Pricing
+          Transportation Arrangements
         </Typography>
         <br />
         <Typography sx={{ display: "flex", alignItems: "center", gap: "20px" }}>
           <FiberManualRecord sx={{ fontSize: "10px" }} />
-          Additional Charges
+          Group Discounts and Special Offers
         </Typography>
         <br />
         <Typography sx={{ display: "flex", alignItems: "center", gap: "20px" }}>
           <FiberManualRecord sx={{ fontSize: "10px" }} />
-          Booking Fee
+          On-site Support and Coordination
         </Typography>
       </Box>
     </StyleToolbar>
