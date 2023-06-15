@@ -43,7 +43,7 @@ const Navbar = () => {
 </Box>
 <Box sx={{display:"flex",justifyContent:"center"}}>
   <Link  href='/' style={{textDecoration:"none",color:"#000"}} >
-    <Typography sx={{fontSize:{md:"30px",sm:"28px",xs:"20px"},listStyle:"none"}}>BOOK YOUR TRAVEL HOTEL</Typography>
+    <Typography sx={{fontSize:{md:"30px",sm:"28px",xs:"20px"},listStyle:"none"}}>BOOK YOUR HEALTH HOSPITAL</Typography>
     </Link>
 </Box>
 <br/>

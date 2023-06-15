@@ -47,7 +47,7 @@ import Link from "next/link";
             "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
           }}
         >
-          <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ backgroundColor:"#000",color:"#fff",}}} >
+          <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ bgcolor:"#166164",color:"#fff",}}} >
           <Typography >
          Room&Suites
           </Typography>
@@ -57,7 +57,7 @@ import Link from "next/link";
             sx={{
               display: "none",
               flexDirection: "column",
-              bgcolor: "#000",
+              bgcolor:"#166164",
               position: "absolute",
               color: "#FFFFFF",
               margin: "250px 0 0 0px",
@@ -89,7 +89,7 @@ import Link from "next/link";
             "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
           }}
         >
-          <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ backgroundColor:"#000",color:"#fff",}}} >
+          <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ bgcolor:"#166164",color:"#fff",}}} >
           <Typography >
           Special offers
           </Typography>
@@ -99,7 +99,7 @@ import Link from "next/link";
             sx={{
               display: "none",
               flexDirection: "column",
-              bgcolor: "#000",
+              bgcolor:"#166164",
               position: "absolute",
               color: "#FFFFFF",
               margin: "250px 0 0 0px",
@@ -132,10 +132,10 @@ import Link from "next/link";
           }}
         >
            <Link href={"/dining"} style={{textDecoration:"none",color:"#000",}}>
-          <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ backgroundColor:"#000",color:"#fff",}}} >
+          <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ bgcolor:"#166164",color:"#fff",}}} >
            
           <Typography  >
-          Dining& Bars
+          Rehabilitation Facilities
           </Typography>
           </Box>
           </Link>
@@ -148,9 +148,9 @@ import Link from "next/link";
             "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
           }}
         >
-          <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ backgroundColor:"#000",color:"#fff",}}} >
+          <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ bgcolor:"#166164",color:"#fff",}}} >
           <Typography >
-          Meetings & Events
+          Laboratories
           </Typography>
           <Badge><ExpandMoreIcon/></Badge>
           </Box>
@@ -158,7 +158,7 @@ import Link from "next/link";
             sx={{
               display: "none",
               flexDirection: "column",
-              bgcolor: "#000",
+              bgcolor:"#166164",
               position: "absolute",
               color: "#FFFFFF",
               margin: "250px 0 0 0px",
@@ -191,9 +191,9 @@ import Link from "next/link";
           }}
         > 
           <Link href={"/spa"} style={{textDecoration:"none",color:"#000"}}>
-          <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ backgroundColor:"#000",color:"#fff",}}} >
+          <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ bgcolor:"#166164",color:"#fff",}}} >
           <Typography >
-          Wellness & SPA
+          Emergency Department
           </Typography>
           </Box>
           </Link>
@@ -205,9 +205,9 @@ import Link from "next/link";
             "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
           }}
         >
-          <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ backgroundColor:"#000",color:"#fff",}}} >
+          <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px",borderRight:"1px solid #CCCCCC","&:hover":{ bgcolor:"#166164",color:"#fff",}}} >
           <Typography >
-          The hotel
+          The hospital
           </Typography>
           <Badge><ExpandMoreIcon/></Badge>
           </Box>
@@ -215,7 +215,7 @@ import Link from "next/link";
             sx={{
               display: "none",
               flexDirection: "column",
-              bgcolor: "#000",
+              bgcolor:"#166164",
               position: "absolute",
               color: "#FFFFFF",
               margin: "250px 0 0 0px",
@@ -246,7 +246,7 @@ import Link from "next/link";
             "&:hover .MuiSvgIcon-root": { transform: "rotate(180deg)" },
           }}
         >
-          <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px","&:hover":{ backgroundColor:"#000",color:"#fff",}}} >
+          <Box sx={{height:"60px",display:"flex",alignItems:"center",padding:"0px 20px","&:hover":{ bgcolor:"#166164",color:"#fff",}}} >
           <Link href={"/contact"} style={{textDecoration:"none",color:"#000"}}>
           <Typography >
           Contact

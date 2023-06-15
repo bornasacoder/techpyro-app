@@ -16,7 +16,7 @@ position:"relative",
 const Content1 = () => {
   return (
     <StyleToolbar >
-<Video src='/hotel.mp4' autoPlay muted loop/>
+<Video src='https://player.vimeo.com/external/539208432.sd.mp4?s=331c60ec404279735cae85a7c2b262e90cdc4349&profile_id=164&oauth2_token_id=57447761' autoPlay muted loop/>
 <Box sx={{position:"absolute",bottom:{md:"130px",sm:"215px",xs:'400px'},right:"30px",padding:"20px 20px",color:"#FFFFFF",backgroundColor:"#000",}}>
     <Typography sx={{fontSize:{md:"30px",sm:"24px",xs:"20px"}}}>Save Up to 40%</Typography>
     <Typography sx={{fontSize:{md:"14px",sm:"12px",xs:"10px"}}}>Enjoy more when you book direct</Typography>
