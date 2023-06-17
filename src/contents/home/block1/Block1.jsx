@@ -5,22 +5,22 @@ import Item from './Item';
 
 export default function Block1() {
   const data = [
-    {img:'https://img.freepik.com/free-psd/photography-workshop-banner-template_23-2148668972.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Burger'},
-    {img:'https://img.freepik.com/free-photo/professional-camera-blurred_169016-10249.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Coffee'},
-    {img:'https://img.freepik.com/free-photo/front-view-hands-holding-camera_23-2148775851.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Coke'},
-    {img:'https://img.freepik.com/free-photo/young-asian-man-with-camera-isolated-white-background-photographer-concept_231208-3767.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Chips'},
-    {img:'https://img.freepik.com/free-photo/set-up-studio-shoot_53876-144951.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Mix Food'},
-    {img:'https://img.freepik.com/free-psd/landing-page-photo-studio-template_23-2148782162.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
-    {img:'https://img.freepik.com/free-vector/landing-page-template-photographer-career-hobby_23-2150306818.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Burger'},
-    {img:'https://img.freepik.com/free-vector/photo-studio-with-white-panel-spotlights_107791-1163.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
-    {img:'https://img.freepik.com/free-psd/photography-classes-landing-page_23-2148968298.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
-    {img:'https://img.freepik.com/free-psd/banner-photography-workshop-template_23-2148668974.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/indian-photographer-with-camera-pastel-wall_496169-1588.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/professional-indian-young-photographer-taking-photos-studio-with-leight_231208-3780.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/young-female-product-photographer-studio_23-2148970230.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
-    {img:'https://img.freepik.com/free-psd/photography-workshop-landing-page-template_23-2148668969.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/arrangement-professional-photographer-equipment_23-2149033291.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Burger'},
-    {img:'https://img.freepik.com/free-psd/photography-workshop-template-landing-page_23-2148668970.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'French Fries'},
+    {img:'https://img.freepik.com/free-photo/scandinavian-living-room-interior-design-zoom-background_53876-143147.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Burger'},
+    {img:'https://img.freepik.com/free-photo/mid-century-modern-living-room-interior-design-with-monstera-tree_53876-129804.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Coffee'},
+    {img:'https://img.freepik.com/free-photo/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg_1258-152155.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Coke'},
+    {img:'https://img.freepik.com/free-psd/realistic-modern-living-room-with-sofa-white-wall_176382-494.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Chips'},
+    {img:'https://img.freepik.com/free-photo/living-room-with-blue-couch-white-wall-with-painting-it_1340-23237.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Mix Food'},
+    {img:'https://img.freepik.com/free-photo/mid-century-modern-living-room-interior-design-with-monstera-tree_53876-129803.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/armchair-green-living-room-with-copy-space_43614-910.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Burger'},
+    {img:'https://img.freepik.com/free-psd/minimal-living-room-with-classic-sofa-carpet-interior-design-ideas_176382-1528.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/living-room-scandinavian-interior-design_53876-146865.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-psd/two-seater-gray-sofa-with-two-cushions-isolated_176382-98.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/chic-modern-luxury-aesthetics-style-living-room-gray-tone_53876-132806.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/wood-sideboard-green-living-room-with-copy-space_43614-916.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-psd/contemporary-living-room-mockup-psd-interior-design_53876-129130.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/nice-wooden-chair-with-comfy-cushions_181624-30169.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/gray-sofa-white-living-room-interior-with-copy-space-3d-rendering_43614-802.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Burger'},
+    {img:'https://img.freepik.com/free-photo/mock-up-poster-frame-boho-interior-background-wooden-living-room-design-scandinavian-style-genera_1258-151572.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'French Fries'},
     ]
   return (
       <Box sx={{margin:{xs:'140px 20px 40px',md:'120px 20px 40px'},display:'flex',flexDirection:'column'}}>
