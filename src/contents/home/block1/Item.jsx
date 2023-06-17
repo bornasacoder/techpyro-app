@@ -48,7 +48,7 @@ export default function Item({data}) {
       />
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-        We are passionate about providing our customers with the finest coffee experience in town. Step into our cozy and inviting shop, where the aroma of freshly brewed coffee fills the air, creating a warm and welcoming atmosphere. 
+        We are passionate about providing our customers with the finest shop experience in town. Step into our cozy and inviting shop, where the aroma of freshly brewed coffee fills the air, creating a warm and welcoming atmosphere. 
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
