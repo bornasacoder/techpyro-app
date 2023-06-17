@@ -178,7 +178,7 @@ export default function Navbar() {
             <LocalPizzaIcon/>
             </MenuButtons>
           <Typography variant="h1" fontSize="20px">
-            Coffee
+           Cafe
           </Typography>
           </Box>
            <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
@@ -232,10 +232,9 @@ export default function Navbar() {
     </NavBarTop>
 
     <NavBarBottom>
-      <Typography sx={{fontSize:'16px',fontWeight:'600',background:'#DD3739',color:'#ff',border:'.1px solid rgba(0,0,0,0.3)',borderTop:'0',borderBottom:'0',padding:{xs:'8px 10px',md:'15px 20px'}}}>Hot Coffee</Typography>
-      <Typography sx={{color:'black',fontSize:'16px',fontWeight:'600',border:'.1px solid rgba(0,0,0,0.3)',borderTop:'0',borderBottom:'0',borderLeft:'0',padding:{xs:'8px 10px',md:'15px 20px'}}}>Cold Coffee</Typography>
-      <Typography sx={{color:'black',fontSize:'16px',fontWeight:'600',border:'.1px solid rgba(0,0,0,0.3)',borderTop:'0',borderBottom:'0',borderLeft:'0',padding:{xs:'8px 10px',md:'15px 20px'}}}>Tea</Typography> 
-
+      <Typography sx={{fontSize:'16px',fontWeight:'600',background:'#DD3739',color:'#ff',border:'.1px solid rgba(0,0,0,0.3)',borderTop:'0',borderBottom:'0',padding:{xs:'8px 10px',md:'15px 20px'}}}>Organic</Typography>
+      <Typography sx={{color:'black',fontSize:'16px',fontWeight:'600',border:'.1px solid rgba(0,0,0,0.3)',borderTop:'0',borderBottom:'0',borderLeft:'0',padding:{xs:'8px 10px',md:'15px 20px'}}}>Breakfast</Typography>
+      <Typography sx={{color:'black',fontSize:'16px',fontWeight:'600',border:'.1px solid rgba(0,0,0,0.3)',borderTop:'0',borderBottom:'0',borderLeft:'0',padding:{xs:'8px 10px',md:'15px 20px'}}}>Juice</Typography> 
 
     </NavBarBottom>
 

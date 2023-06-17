@@ -5,13 +5,13 @@ import Item from './Item';
 
 export default function Block1() {
   const data = [
-    {img:'https://img.freepik.com/free-vector/white-cup-hot-coffee-with-cinnamon-saucer-beans-wooden-table-realistic_1284-56783.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Burger'},
-    {img:'https://img.freepik.com/free-photo/tool-used-coffee-machine-during-coffee-making-process_23-2150187533.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Coffee'},
-    {img:'https://img.freepik.com/free-vector/espresso-coffee-cup-coffee-beans_79603-1038.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Coke'},
-    {img:'https://img.freepik.com/free-photo/tool-used-coffee-machine-during-coffee-making-process_23-2150187534.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Chips'},
-    {img:'https://img.freepik.com/free-vector/realistic-coffee-time-background-with-coffee-cup_79603-1559.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Mix Food'},
-    {img:'https://img.freepik.com/free-photo/person-drinking-coffee-spacious-cafeteria_23-2150424046.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/side-view-two-cups-coffee-cookies-cinnamon-limes-old-newspaper-dark-surface_140725-142669.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Burger'},
+    {img:'https://img.freepik.com/free-photo/restaurant-interior_1127-3394.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Burger'},
+    {img:'https://img.freepik.com/free-photo/meat-burger-with-fries-glass-ayran_140725-6711.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Coffee'},
+    {img:'https://img.freepik.com/free-photo/fast-food-french-fries-with-sandwich-cafe_169016-2100.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Coke'},
+    {img:'https://img.freepik.com/free-photo/mini-burgers-french-fries-spices-cocktails-side-view_141793-1814.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Chips'},
+    {img:'https://img.freepik.com/free-photo/front-view-milkshake-with-whipped-cream-chocolate-icing-with-appetizers-salad-table_141793-2836.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Mix Food'},
+    {img:'https://img.freepik.com/free-photo/cup-coffee-with-heart-drawn-foam_1286-70.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/top-view-circular-food-frame_23-2148723455.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Burger'},
     {img:'https://img.freepik.com/free-photo/brown-splashes-out-drink-from-cup-tea-brown-wall_155003-2058.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Marita'},
     {img:'https://img.freepik.com/free-photo/heart-shaped-coffee-beans-cup-latte-wooden-table-generative-ai_191095-1859.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Marita'},
     {img:'https://img.freepik.com/free-photo/cup-aromatic-coffee-outdoors_1112-448.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Marita'},
