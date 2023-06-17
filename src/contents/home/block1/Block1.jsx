@@ -5,22 +5,22 @@ import Item from './Item';
 
 export default function Block1() {
   const data = [
-    {img:'https://img.freepik.com/free-photo/beautiful-face-young-woman-with-maroon-makeup-portrait-gorgeous-girl-with-vinous-lips_186202-7456.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Burger'},
-    {img:'https://img.freepik.com/free-psd/make-up-banner-template_23-2148663849.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Coffee'},
-    {img:'https://img.freepik.com/free-psd/make-up-concept-banner-template_23-2148608281.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Coke'},
-    {img:'https://img.freepik.com/free-psd/make-up-concept-banner-template_23-2148608281.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Chips'},
-    {img:'https://img.freepik.com/free-photo/two-attractive-joyful-models-with-stylish-look-having-fun-beauty-salon_197531-1286.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Mix Food'},
-    {img:'https://img.freepik.com/free-photo/beautician-with-brush-applies-white-moisturizing-mask-face-young-girl-client-spa-beauty-salon_343596-4247.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
-    {img:'https://img.freepik.com/free-psd/beauty-natural-cosmetics-social-media-post_23-2148894949.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Burger'},
-    {img:'https://img.freepik.com/free-photo/very-sexy-woman-show-her-natural-look_144627-4624.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/makeup-artist-applying-makeup-by-brush_329181-1926.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/woman-washing-head-hairsalon_1157-27179.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/portrait-smiling-owner-hairdresser-salon_329181-1953.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
-    {img:'https://img.freepik.com/free-vector/gradient-make-up-artist-social-media-post-template_23-2149355509.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
-    {img:'https://img.freepik.com/free-psd/make-up-concept-banner-template-style_23-2148608284.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/woman-with-makeup-artist-choosing-color-eyeshadow_329181-1925.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/attractive-young-woman-beauty-salon_197531-1288.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Burger'},
-    {img:'https://img.freepik.com/free-photo/portrait-beautiful-blond-woman-with-long-hair-makeup-brushes-near-attractive-face_158538-2243.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'French Fries'},
+    {img:'https://img.freepik.com/free-photo/young-handsome-physician-medical-robe-with-stethoscope_1303-17818.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Burger'},
+    {img:'https://img.freepik.com/free-vector/healthcare-background-with-medical-symbols-hexagonal-frame_1017-26363.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Coffee'},
+    {img:'https://img.freepik.com/free-photo/medical-banner-with-doctor-wearing-goggles_23-2149611193.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Coke'},
+    {img:'https://img.freepik.com/free-vector/gradient-medical-landing-page-template_23-2149149349.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Chips'},
+    {img:'https://img.freepik.com/free-photo/medicine-capsules-global-health-with-geometric-pattern-digital-remix_53876-126742.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Mix Food'},
+    {img:'https://img.freepik.com/free-photo/expressive-young-woman-posing-studio_176474-66963.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/flat-lay-health-still-life-arrangement-with-copy-space_23-2148854064.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Burger'},
+    {img:'https://img.freepik.com/free-photo/successful-medical-team_329181-9252.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/doctor-helping-patient-during-rehabilitation_23-2150321624.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/female-physician-showing-cardiology-diagnosis-digital-tablet-holding-gadget-with-cardiovascular-system-illustration-retired-man-heart-condition-disease-checkup-visit_482257-49291.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/medical-banner-with-doctor-wearing-equipment_23-2149611213.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/indian-doctor-receives-patient-tells-him-about-results-tests-medicine-health_496169-2765.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/male-doctor-doing-vaccination-little-boy-who-sitting-mother-s-lap_1157-51984.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-psd/alternative-medicine-background_23-2150408389.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-psd/medical-healthcare-poster-template_23-2148940481.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Burger'},
+    {img:'https://img.freepik.com/free-photo/handsome-male-dentist-with-female-assistant-standing-dentist-office_613910-21262.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'French Fries'},
     ]
   return (
       <Box sx={{margin:{xs:'140px 20px 40px',md:'120px 20px 40px'},display:'flex',flexDirection:'column'}}>
