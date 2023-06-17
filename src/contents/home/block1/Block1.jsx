@@ -5,22 +5,22 @@ import Item from './Item';
 
 export default function Block1() {
   const data = [
-    {img:'https://img.freepik.com/free-photo/elegant-woolen-jacket-men-winter-fashion-generated-by-ai_188544-34301.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Burger'},
-    {img:'https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448749.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Coffee'},
-    {img:'https://img.freepik.com/free-photo/clothing-rack-with-floral-hawaiian-shirts-hangers-hat_23-2149366018.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Coke'},
-    {img:'https://img.freepik.com/free-photo/shop-clothing-clothes-shop-hanger-modern-shop-boutique_1150-8886.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Chips'},
-    {img:'https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448751.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Mix Food'},
-    {img:'https://img.freepik.com/free-photo/portrait-handsome-smiling-stylish-young-man-model-dressed-red-checkered-shirt-fashion-man-posing_158538-4909.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/young-woman-with-black-hat-sunglasses-isolated-white-background_231208-2050.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Burger'},
-    {img:'https://img.freepik.com/free-photo/online-fashion-shopping-with-tablet_23-2150400622.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/green-front-sweater_125540-736.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
-    {img:'https://img.freepik.com/free-vector/sale-banner-with-product-description_1361-1333.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/woman-posing-with-stylish-footwear-summer-fashion-bag-long-legs-shopping_285396-489.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/boots-wooden-floor_1205-70.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/brown-woman-shoe-with-female-male-hands_155003-33390.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/young-woman-shopping-with-high-heels-shopping-center_1149-1969.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=sph',name:'Marita'},
-    {img:'https://img.freepik.com/free-vector/various-color-checkered-cotton-shirts-folded-stack_1441-3074.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Burger'},
-    {img:'https://img.freepik.com/free-photo/pink-sweater-front_125540-746.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'French Fries'},
+    {img:'https://img.freepik.com/free-photo/basket-full-vegetables_1112-316.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Burger'},
+    {img:'https://img.freepik.com/free-photo/top-view-assortment-vegetables-paper-bag_23-2148853335.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Coffee'},
+    {img:'https://img.freepik.com/free-photo/dried-food-products-sold-market_181624-60209.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Coke'},
+    {img:'https://img.freepik.com/free-vector/shopping-bag-basket-zero-waste-eco-composition-with-text-tag-discount-flying-products-trolley-cart-illustration_1284-61282.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Chips'},
+    {img:'https://img.freepik.com/free-photo/top-view-delicious-groceries-paper-bag_23-2149139455.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Mix Food'},
+    {img:'https://img.freepik.com/premium-photo/shopping-bag-full-fresh-fruits-vegetables-with-assorted-ingredients_8087-2232.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/superfoods-seeds-grains-vegan-vegetarian-eating-clean-eating_114579-3939.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Burger'},
+    {img:'https://img.freepik.com/free-vector/grocery-bags-set-plastic-paper-packages-supermarket-basket-with-food-packs-cans-bread-milk-products-flat-vector-illustrations-shopping-food-delivery-charity-concept_74855-10074.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/woman-s-hands-holding-fresh-ripe-organic-broccoli-salad-with-greens-vegetables-cotton-bag-weekend-farmer-s-market_169016-5707.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/delivery-concept-handsome-african-american-delivery-man-carrying-package-box-grocery-food-drink-from-store-isolated-grey-studio-background-copy-space_1258-1232.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/food-cart_1098-14618.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-vector/safe-food-delivery_23-2148573179.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-psd/fresh-supermarket-template-design_23-2149623225.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/brunette-chooses-food-lady-is-holding-shopping-cart-girl-white-shirt-supermarket_1157-42219.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/high-angle-indian-spices-arrangement_23-2148747644.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Burger'},
+    {img:'https://img.freepik.com/free-photo/top-view-vegetables-fruits-bag_23-2148949707.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'French Fries'},
     ]
   return (
       <Box sx={{margin:{xs:'140px 20px 40px',md:'120px 20px 40px'},display:'flex',flexDirection:'column'}}>
