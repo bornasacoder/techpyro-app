@@ -178,7 +178,7 @@ export default function Navbar() {
             <LocalPizzaIcon/>
             </MenuButtons>
           <Typography variant="h1" fontSize="20px">
-            Furniture
+          Beauty Parlour
           </Typography>
           </Box>
            <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
@@ -232,9 +232,9 @@ export default function Navbar() {
     </NavBarTop>
 
     <NavBarBottom>
-      <Typography sx={{fontSize:'16px',fontWeight:'600',background:'#DD3739',color:'#ff',border:'.1px solid rgba(0,0,0,0.3)',borderTop:'0',borderBottom:'0',padding:{xs:'8px 10px',md:'15px 20px'}}}>Bedroom</Typography>
-      <Typography sx={{color:'black',fontSize:'16px',fontWeight:'600',border:'.1px solid rgba(0,0,0,0.3)',borderTop:'0',borderBottom:'0',borderLeft:'0',padding:{xs:'8px 10px',md:'15px 20px'}}}>Washroom</Typography>
-      <Typography sx={{color:'black',fontSize:'16px',fontWeight:'600',border:'.1px solid rgba(0,0,0,0.3)',borderTop:'0',borderBottom:'0',borderLeft:'0',padding:{xs:'8px 10px',md:'15px 20px'}}}>Kitchen</Typography> 
+      <Typography sx={{fontSize:'16px',fontWeight:'600',background:'#DD3739',color:'#ff',border:'.1px solid rgba(0,0,0,0.3)',borderTop:'0',borderBottom:'0',padding:{xs:'8px 10px',md:'15px 20px'}}}>Hair Cutting</Typography>
+      <Typography sx={{color:'black',fontSize:'16px',fontWeight:'600',border:'.1px solid rgba(0,0,0,0.3)',borderTop:'0',borderBottom:'0',borderLeft:'0',padding:{xs:'8px 10px',md:'15px 20px'}}}>Makeup</Typography>
+      <Typography sx={{color:'black',fontSize:'16px',fontWeight:'600',border:'.1px solid rgba(0,0,0,0.3)',borderTop:'0',borderBottom:'0',borderLeft:'0',padding:{xs:'8px 10px',md:'15px 20px'}}}>Bridal</Typography> 
 
     </NavBarBottom>
 
