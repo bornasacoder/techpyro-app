@@ -5,22 +5,22 @@ import Item from './Item';
 
 export default function Block1() {
   const data = [
-    {img:'https://img.freepik.com/free-photo/basket-full-vegetables_1112-316.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Burger'},
-    {img:'https://img.freepik.com/free-photo/top-view-assortment-vegetables-paper-bag_23-2148853335.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Coffee'},
-    {img:'https://img.freepik.com/free-photo/dried-food-products-sold-market_181624-60209.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Coke'},
-    {img:'https://img.freepik.com/free-vector/shopping-bag-basket-zero-waste-eco-composition-with-text-tag-discount-flying-products-trolley-cart-illustration_1284-61282.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Chips'},
-    {img:'https://img.freepik.com/free-photo/top-view-delicious-groceries-paper-bag_23-2149139455.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Mix Food'},
-    {img:'https://img.freepik.com/premium-photo/shopping-bag-full-fresh-fruits-vegetables-with-assorted-ingredients_8087-2232.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/superfoods-seeds-grains-vegan-vegetarian-eating-clean-eating_114579-3939.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Burger'},
-    {img:'https://img.freepik.com/free-vector/grocery-bags-set-plastic-paper-packages-supermarket-basket-with-food-packs-cans-bread-milk-products-flat-vector-illustrations-shopping-food-delivery-charity-concept_74855-10074.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/woman-s-hands-holding-fresh-ripe-organic-broccoli-salad-with-greens-vegetables-cotton-bag-weekend-farmer-s-market_169016-5707.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/delivery-concept-handsome-african-american-delivery-man-carrying-package-box-grocery-food-drink-from-store-isolated-grey-studio-background-copy-space_1258-1232.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/food-cart_1098-14618.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
-    {img:'https://img.freepik.com/free-vector/safe-food-delivery_23-2148573179.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
-    {img:'https://img.freepik.com/free-psd/fresh-supermarket-template-design_23-2149623225.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/brunette-chooses-food-lady-is-holding-shopping-cart-girl-white-shirt-supermarket_1157-42219.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Marita'},
-    {img:'https://img.freepik.com/free-photo/high-angle-indian-spices-arrangement_23-2148747644.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'Burger'},
-    {img:'https://img.freepik.com/free-photo/top-view-vegetables-fruits-bag_23-2148949707.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=sph',name:'French Fries'},
+    {img:'https://img.freepik.com/free-photo/couple-looking-shop-window_1098-758.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Burger'},
+    {img:'https://img.freepik.com/free-photo/young-couple-protection-mask-holding-multiple-paper-shopping-bag-walking-corridor-large-shopping-mall_1150-47177.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Coffee'},
+    {img:'https://img.freepik.com/free-photo/this-is-same-shoes_329181-1769.jpg?size=626&ext=jpg&ga=GA1.2.833918949.1682592323&semt=ais',name:'Coke'},
+    {img:'https://img.freepik.com/free-photo/market_1205-448.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Chips'},
+    {img:'https://img.freepik.com/free-photo/shoppers-talking-center_1098-12640.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Mix Food'},
+    {img:'https://img.freepik.com/free-photo/weekend-shopping-center_1098-12634.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/two-beautiful-women-shopping-town_1303-16426.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Burger'},
+    {img:'https://img.freepik.com/free-vector/customers-fashion-shop-women-choosing-clothes-store-flat-vector-illustration-shopping-sale-retail-concept_74855-9836.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/mother-daughter-with-shopping-bag_1157-21280.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/couple-lover-activity-happiness-lifestyle_53876-13941.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/family-mall_1098-15029.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/female-friends-out-shopping-together_53876-25041.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
+    {img:'https://img.freepik.com/free-vector/advertising-flyer-two-mothers-with-prams-cartoon_81522-4317.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
+    {img:'https://img.freepik.com/free-vector/people-returning-malls-new-normal-scenes_52683-41108.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Marita'},
+    {img:'https://img.freepik.com/free-photo/mother-daughter-posing-near-boutique-with-shopping-bags_7502-4268.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'Burger'},
+    {img:'https://img.freepik.com/free-photo/cheery-little-girl-sitting-shopping-cart_171337-2374.jpg?size=626&ext=jpg&ga=GA1.1.833918949.1682592323&semt=ais',name:'French Fries'},
     ]
   return (
       <Box sx={{margin:{xs:'140px 20px 40px',md:'120px 20px 40px'},display:'flex',flexDirection:'column'}}>
