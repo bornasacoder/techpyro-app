@@ -1,28 +1,154 @@
-import { Box, Grid, Typography } from '@mui/material'
 import React from 'react'
-import Item from './Item';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import { styled } from '@mui/styles';
+import SliderItem from './Item';
+import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
+import SliderHeader from './Header';
+import "./block5.css";
+
+const SliderContainer = styled('div')({
+width:"99%",
+height:"auto",
+margin:"0 2px 10px 2px",
+overflow:"hidden",
+// boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+// "@media (max-width: 1490px)": {
+//  margin:"2% -1.5%"
+
+// },
+// "@media (max-width: 1200px)": {
+//   width:"95%",
+//   margin:"1% 1rem"
+ 
+//  },
+
+})
+const SliderInnerContainer = styled('div')(({ theme }) => ({
+  display: "flex",
+  justifyContent:"space-between",
+  flexDirection:"column",
+  boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+  padding:"0 10px 0 20px",
+  [theme.breakpoints.down('sm')]: {
+    padding:"0 0 0 4px",
+},
+}));
 
 
-export default function Block5() {
-  const data = [
-    {img:'https://images.pexels.com/photos/2271107/pexels-photo-2271107.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Burger'},
-    {img:'https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Coffee'},
-    {img:'https://images.pexels.com/photos/4085278/pexels-photo-4085278.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Coke'},
-    {img:'https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Chips'},
-    {img:'https://images.pexels.com/photos/19642/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600',name:'Mix Food'},
-    {img:'https://images.pexels.com/photos/14000427/pexels-photo-14000427.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+const PreviousBtn = (props) =>{
+  const {className,onClick} = props;
+  
+   return (
+         <div className={className}   onClick={onClick}>
+          <ChevronLeftOutlined style={{color:'black',zIndex:'10',fontSize:'2.5rem' }} />
+         </div>  
+   )
+}
 
-  ]
+const NextBtn = (props) =>{
+   const {className,onClick} = props;
+   return (
+     <div  className={className}  onClick={onClick}>
+       <ChevronRightOutlined style={{color:'black',  zIndex:'10',fontSize:'2.5rem'}} />
+     </div>
+   )
+}
+
+export default function Block5(props) {
+    const settings = {
+        dots: false,
+        arrows:true,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 5.5,
+        slidesToScroll: 4,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        cssEase: "linear",
+        initialSlide:0,
+        prevArrow:<PreviousBtn />,
+        nextArrow:<NextBtn />,
+          responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 5,
+                slidesToScroll: 4,
+                speed: 300,
+                arrows:false,
+              },
+            },
+             {
+              breakpoint: 960,
+              settings: {
+                slidesToShow: 4.5,
+                slidesToScroll: 3,
+                speed: 300,
+                arrows:false,
+              },
+            },
+            {
+              breakpoint: 800,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 2,
+                speed: 300,
+                arrows:false,
+              },
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2.3,
+                slidesToScroll: 1,
+                speed: 300,
+                arrows:false,
+              },
+            },
+            // {
+            //   breakpoint: 500,
+            //   settings: {
+            //     slidesToShow: 3,
+            //     slidesToScroll: 2,
+            //     speed: 300,
+            //     arrows:false,
+            //   },
+            // },
+            // {
+            //   breakpoint: 365,
+            //   settings: {
+            //     slidesToShow: 3,
+            //     slidesToScroll: 2,
+            //     speed: 300,
+            //     arrows:false,
+            //   },
+            // },
+        ]
+      };
+
+      const data = [
+        {img:'https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://images.pexels.com/photos/2425705/pexels-photo-2425705.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://images.pexels.com/photos/3686791/pexels-photo-3686791.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://images.pexels.com/photos/2983100/pexels-photo-2983100.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://images.pexels.com/photos/2287810/pexels-photo-2287810.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+        {img:'https://images.pexels.com/photos/7192144/pexels-photo-7192144.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+    
+      ]
   return (
-      <Box sx={{margin:'20px 20px 40px',display:'flex',flexDirection:'column'}}>
-        <Typography sx={{margin:{xs:'0 0 10px 10px',md:'0 0 30px 30px'},fontSize:{xs:'16px',md:'20px'},fontWeight:'500'}}>Explore Menu</Typography>
-        <Grid container spacing={2}>
-            {data.map((item, index) => (
-            <Grid item xs={12} sm={2} md={2} lg={4} key={index}>
-                <Item data={item}/>
-            </Grid>
-         ))}
-        </Grid>
-      </Box>
+    <>
+    <SliderContainer>         
+      <SliderInnerContainer>
+        <SliderHeader sliderH='Veg Pizza'/>
+        <Slider {...settings}>
+        { data.map((item)=>(
+        <SliderItem data={item} />
+        ))}
+        </Slider>
+      </SliderInnerContainer>  
+    </SliderContainer>
+    </>
   )
 }

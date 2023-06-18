@@ -5,6 +5,10 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import LocalPizzaIcon from '@mui/icons-material/LocalPizza';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import Siderbar from '../sideBar/Siderbar';
+import RestaurantIcon from '@mui/icons-material/Restaurant';
+import SearchIcon from '@mui/icons-material/Search';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 // import NavImage from 'images/category/png-10.jpeg'
 import {
   AppBar,
@@ -34,6 +38,7 @@ import {
   ExpandMore,
   ExpandLess,
 } from "@mui/icons-material";
+import zIndex from "@mui/material/styles/zIndex";
 // import MenuButtons from "./menuButtons/MenuButtons";
 
 const StyleToolbar = styled(Toolbar)(({ theme }) => ({
@@ -53,7 +58,7 @@ const StyleToolbar = styled(Toolbar)(({ theme }) => ({
 }));
 const MenuButtons = styled(IconButton)(({theme})=>({
  
-  color:theme.colors.alpha.black[100],
+  color:'#fff',
 /*  [theme.breakpoints.down('md')]:{
     display:'block',
     left:'12px'
@@ -92,19 +97,20 @@ const NavRight = styled(Box)(({ theme }) => ({
 }));
 
 
-const NavBarTop = styled(Box)(({ theme }) => ({
+const NavBar = styled(Box)(({ theme }) => ({
   // background: theme.header.background,
-  background:"#ffff",
+  background:"#000",
   color: theme.colors.alpha.black[100],
   // height: "450px",
   display: "flex",
   justifyContent: "space-between",
   flexDirection:"row",
  // alignItems:"center",
-  color: "#000",
+  color: "#fff",
   width:'100%',
-  padding:'0px 20px',
-  
+  padding:'20px 20px',
+  position:'fixed',
+  zIndex:'1000',
   [theme.breakpoints.down("md")]: {
    flexDirection:'row',
    alignItems:'flex-start',
@@ -113,41 +119,9 @@ const NavBarTop = styled(Box)(({ theme }) => ({
   },
 }));
 
-const NavBarBottom = styled(Box)(({ theme }) => ({
-  // background: theme.header.background,
-  background:"#fff",
-  color: '#000',
-  // height: "450px",
-  display: "flex",
-  flexDirection:"row",
-  alignItems:"center",
-  gap:'0px',
-  color: "#fff",
-   width:'100%',
-   boxShadow:'0 1px 5px rgba(104,104,104,0.8)',
-   padding:'0px 0px 0px 20px',
-   [theme.breakpoints.down("md")]: {
-      display:'flex'
-   },
-}));
 
-const NavBar = styled(Box)(({ theme }) => ({
-  // background: theme.header.background,
-  background:"#fff",
-  zIndex:'1000',
-  color: theme.colors.alpha.black[100],
-  // height: "450px",
-  width:'100%',
-  display: "flex",
-  justifyContent: "flex-start",
-  flexDirection:"column",
-  alignItems:"flex-start",
-  position:'fixed',
-  width:'70vw',
-  [theme.breakpoints.down("md")]: {
-    width:'100vw'
- },
-}));
+
+
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -169,74 +143,55 @@ export default function Navbar() {
   // };
   return (
     <NavBar>
-    <NavBarTop>
+   
       {/* <StyleToolbar> */}
         <NavLeft>
          
-          <Box  sx={{display:"flex", justifyContent:"center", alignItems:"center",gap:'5px'}} >
+         <Box sx={{display:'flex',gap:'40px',alignItems:'center',justifyContent:'center'}}>
+
+          <Box  sx={{display:"flex", justifyContent:"center", alignItems:"center",gap:'3px'}} >
           <MenuButtons sx={{display:{xs:'flex',md:'flex'}}} onClick={handleOpen}>
-            <LocalPizzaIcon/>
+            <RestaurantIcon sx={{color:'#fff'}}/>
             </MenuButtons>
           <Typography variant="h1" fontSize="20px">
-         Medical
+          Bakery
           </Typography>
+          </Box>
+
+          <Box sx={{display:{xs:'none',md:'flex'},alignItems:'center',justifyContent:'center',gap:'25px'}}>
+            <Typography sx={{fontWeight:'400',fontSize:'16px'}}>Burger</Typography>
+            <Typography sx={{fontWeight:'400',fontSize:'16px'}}>Pizza</Typography>
+            <Typography sx={{fontWeight:'400',fontSize:'16px'}}>Cake</Typography>
+            <Typography sx={{fontWeight:'400',fontSize:'16px'}}>Noodles</Typography>
+            <Typography sx={{fontWeight:'400',fontSize:'16px'}}>Coke</Typography>
+            <Typography sx={{fontWeight:'400',fontSize:'16px'}}>Pepsi</Typography>
+
+          </Box>
+
           </Box>
            <Drawer open={open} onClose={handleClose} sx={{ position: "absolute", }}>
           <Siderbar />
         </Drawer>
-          
-          {/* <List
-      sx={{ width: '100%', maxWidth: 100,color:"#000", marginTop:'20px'}}
-     >
-      <ListItemButton onClick={handleClick}>
-        <ListItemText>Product</ListItemText>
-        {open ? <ExpandLess /> : <ExpandMore />}
-      </ListItemButton>
-      <Collapse in={open} timeout="auto" unmountOnExit>
-        <List component="div" color="#000">
-            <ListItemText></ListItemText>
-            <ListItemText>Features</ListItemText>
-            <ListItemText>Features</ListItemText>
-            <ListItemText>Features</ListItemText>
-            <ListItemText>Features</ListItemText>
-        </List>
-      </Collapse>
-    </List> */}
-          {/* <Box sx={{ display: { xs: "none", md: "flex" }, gap: "2" }}>
-            <GetApp fontSize="medium" />
-            <Typography component="h1">Get the App</Typography>
-          </Box> */}
-          {/* <NavButton /> */}
         </NavLeft>
        
           <NavRight>
-          <MenuButtons  onClick={handleOpen}>
-            <ShoppingBasketIcon sx={{display:{xs:'flex',md:'none'}}} />
-            </MenuButtons>
-          <Box sx={{display:{xs:'none',md:'flex'},gap:'10px',background:'#fff',padding:'10px'}}>
-        <LocationOnIcon sx={{opacity:'0.5'}} />
-        <Typography >Bhairav Mandir coloney,haridwar</Typography>
+         
+          <Box sx={{display:{xs:'none',md:'flex'},gap:'10px',background:'black',boxShadow:'0 1px 5px rgba(104,104,104,0.8)',padding:'5px 10px'}}>
+        <SearchIcon sx={{fontSize:'30px'}} />
+        <input type='text' style={{background:'#000',height:'30px',color:'#fff',border:'none',fontSize:'16px',outline:'none'}} placeholder="Search Taz.com"/>
         </Box>
-          <Box sx={{alignItems:'center',justifyContent:'center',gap:'10px',display:{xs:'none',md:'flex'}}}>
-            <Box>
-            <AccountCircleIcon sx={{fontSize:'30px',opacity:'0.5'}} />
-            </Box>
-            <Box >
-              <Typography sx={{fontSize:'10px'}}>MY ACCOUNT</Typography>
-              <Typography sx={{fontSize:'8px',opacity:'.8'}}>Login | Signup</Typography>
-            </Box>
-         </Box> 
+          
+          <FavoriteBorderIcon />
+          <ShoppingBasketIcon  />
+          <PersonOutlineIcon />
+          <MenuButtons  onClick={handleOpen}>
+            <Menu sx={{display:{xs:'flex',md:'none'}}} />
+            </MenuButtons>
            </NavRight>
    
       {/* </StyleToolbar> */}
-    </NavBarTop>
-
-    <NavBarBottom>
-      <Typography sx={{fontSize:'16px',fontWeight:'600',background:'#DD3739',color:'#ff',border:'.1px solid rgba(0,0,0,0.3)',borderTop:'0',borderBottom:'0',padding:{xs:'8px 10px',md:'15px 20px'}}}>Medicine</Typography>
-      <Typography sx={{color:'black',fontSize:'16px',fontWeight:'600',border:'.1px solid rgba(0,0,0,0.3)',borderTop:'0',borderBottom:'0',borderLeft:'0',padding:{xs:'8px 10px',md:'15px 20px'}}}>Orthopedics</Typography>
-      <Typography sx={{color:'black',fontSize:'16px',fontWeight:'600',border:'.1px solid rgba(0,0,0,0.3)',borderTop:'0',borderBottom:'0',borderLeft:'0',padding:{xs:'8px 10px',md:'15px 20px'}}}>Cardiology</Typography> 
-
-    </NavBarBottom>
+   
+   
 
     </NavBar>
   );

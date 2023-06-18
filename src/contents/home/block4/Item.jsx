@@ -55,6 +55,7 @@ const Head = styled("h3")({
     fontWeight:"500",
     paddingLeft:'15px',
     paddingTop:'10px',
+    background:'#A19FAB',
     // textAlign:"center",
     paddingBottom:"10px",
     "@media (max-width: 600px)": {
@@ -82,7 +83,7 @@ export default function Item({data}) {
     <SliderContainer>
         <ImageContainer>
             <Image src={data.img} />
-            <Head>{data.name}</Head>
+            <Head >{data.name}</Head>
           
         </ImageContainer>
     </SliderContainer>

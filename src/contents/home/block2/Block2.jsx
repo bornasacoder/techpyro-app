@@ -1,29 +1,156 @@
-import { Box, Grid, Typography } from '@mui/material'
 import React from 'react'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import { styled } from '@mui/styles';
 import Item from './Item';
+import { ChevronLeftOutlined, ChevronRightOutlined } from '@mui/icons-material';
+import Header from './Header';
+import "./block2.css";
+
+const SliderContainer = styled('div')({
+width:"99%",
+height:"auto",
+margin:"0 2px 10px 2px",
+overflow:"hidden",
+// boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+// "@media (max-width: 1490px)": {
+//  margin:"2% -1.5%"
+
+// },
+// "@media (max-width: 1200px)": {
+//   width:"95%",
+//   margin:"1% 1rem"
+ 
+//  },
+
+})
+const SliderInnerContainer = styled('div')(({ theme }) => ({
+  display: "flex",
+  justifyContent:"space-between",
+  flexDirection:"column",
+  boxShadow: "0 1px 5px rgba(104, 104, 104, 0.8)",
+  padding:"0 10px 0 20px",
+  [theme.breakpoints.down('sm')]: {
+    padding:"0 0 0 4px",
+},
+}));
 
 
-export default function Block1() {
-  const data = [
-    {img:'https://images.pexels.com/photos/2909822/pexels-photo-2909822.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Pizza'},
-    {img:'https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Coke'},
+const PreviousBtn = (props) =>{
+  const {className,onClick} = props;
+  
+   return (
+         <div className={className}   onClick={onClick}>
+          <ChevronLeftOutlined style={{color:'black',zIndex:'10',fontSize:'2.5rem' }} />
+         </div>  
+   )
+}
 
-    {img:'https://images.pexels.com/photos/2271107/pexels-photo-2271107.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Burger'},
-    {img:'https://images.pexels.com/photos/1292294/pexels-photo-1292294.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Pepsi'},
-    {img:'https://images.pexels.com/photos/1583891/pexels-photo-1583891.jpeg?auto=compress&cs=tinysrgb&w=600',name:'French'},
-    {img:'https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Noodles'},
+const NextBtn = (props) =>{
+   const {className,onClick} = props;
+   return (
+     <div  className={className}  onClick={onClick}>
+       <ChevronRightOutlined style={{color:'black',  zIndex:'10',fontSize:'2.5rem'}} />
+     </div>
+   )
+}
 
-  ]
+export default function Block2(props) {
+
+    const settings = {
+        dots: false,
+        arrows:true,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 2.5,
+        slidesToScroll: 3,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        cssEase: "linear",
+        initialSlide:0,
+        prevArrow:<PreviousBtn />,
+        nextArrow:<NextBtn />,
+          responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 2.5,
+                slidesToScroll: 3,
+                speed: 300,
+                arrows:false,
+              },
+            },
+             {
+              breakpoint: 960,
+              settings: {
+                slidesToShow: 2.5,
+                slidesToScroll: 3,
+                speed: 300,
+                arrows:false,
+              },
+            },
+            {
+              breakpoint: 800,
+              settings: {
+                slidesToShow: 2.5,
+                slidesToScroll: 2,
+                speed: 300,
+                arrows:false,
+              },
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1.3,
+                slidesToScroll: 1,
+                speed: 300,
+                arrows:false,
+              },
+            },
+            // {
+            //   breakpoint: 500,
+            //   settings: {
+            //     slidesToShow: 3,
+            //     slidesToScroll: 2,
+            //     speed: 300,
+            //     arrows:false,
+            //   },
+            // },
+            // {
+            //   breakpoint: 365,
+            //   settings: {
+            //     slidesToShow: 3,
+            //     slidesToScroll: 2,
+            //     speed: 300,
+            //     arrows:false,
+            //   },
+            // },
+        ]
+      };
+
+      const data = [
+        {img:'https://images.pexels.com/photos/3219547/pexels-photo-3219547.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Burger'},
+        {img:'https://images.pexels.com/photos/2498440/pexels-photo-2498440.jpeg?auto=compress&cs=tinysrgb&w=600',name:'French Fries'},
+        {img:'https://images.pexels.com/photos/4389660/pexels-photo-4389660.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Coka cola'},
+        {img:'https://images.pexels.com/photos/2456434/pexels-photo-2456434.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Noodles'},
+        {img:'https://images.pexels.com/photos/7890010/pexels-photo-7890010.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Vegetable'},
+        {img:'https://images.pexels.com/photos/14000427/pexels-photo-14000427.jpeg?auto=compress&cs=tinysrgb&w=600',name:'Marita'},
+    
+      ]
+
   return (
-      <Box sx={{margin:{md:'0px 0 40px',xs:'0px 0 20px'},display:'flex',flexDirection:'column'}}>
-        <Typography sx={{margin:{xs:'0 0 10px 10px',md:'0 0 30px 30px'},fontSize:{xs:'16px',md:'20px'},fontWeight:'500'}}>Explore Menu</Typography>
-        <Grid container spacing={2}>
-            {data.map((item, index) => (
-            <Grid item xs={4} sm={2} md={2} lg={2} key={index}>
-                <Item data={item}/>
-            </Grid>
-         ))}
-        </Grid>
-      </Box>
+    <>
+    <SliderContainer>         
+      <SliderInnerContainer>
+        <Header sliderH='pizza'/>
+        <Slider {...settings}>
+        {data.map((item)=>(
+        <Item data={item} />
+        ))}
+        </Slider>
+      </SliderInnerContainer>  
+    </SliderContainer>
+    </>
   )
 }
