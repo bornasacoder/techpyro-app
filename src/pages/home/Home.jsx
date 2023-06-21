@@ -1,8 +1,8 @@
 
 import React from 'react';
 import {Card,Box } from '@mui/material';
-import Navbar from 'layouts/layout1/navbar/Navbar';
-import Siderbar from 'layouts/layout1/sideBar/Siderbar';
+import Navbar from '../../layouts/layout1/navbar/Navbar';
+import Siderbar from '../../layouts/layout1/sideBar/Siderbar';
 import Footer from '../../components/footer/Footer'; 
 import Block1 from '../../contents/home/block1/Block1'; 
 
