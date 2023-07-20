@@ -1,18 +1,41 @@
-import { Box, Grid } from '@mui/material'
-import React from 'react'
-import { CardLinks } from '../../../constants/Constant'
-import Item from './card/Item'
+import React, { Component } from 'react'
+import Block16Items from './Block16Items';
 
-export default function Block16() {
-  return (
-    <Box sx={{margin:'20px'}}>
-        <Grid container spacing={2}>
-            {Array.from(Array(2)).map((item, index) => (
-            <Grid item xs={12} sm={6} md={6} lg={6} key={index}>
-                <Item CardLinks={CardLinks}/>
-            </Grid>
-         ))}
-        </Grid>
-      </Box>
-  )
+export default class Block16 extends Component {
+  article = [
+    { 
+      "url":"https://images.bewakoof.com/uploads/grid/app/new-mid-banner-summer-boxers-1688391388.jpg"
+    },
+    { 
+      "url":"	https://images.bewakoof.com/uploads/grid/app/new-mid-banner-2022-tops-1689577911.jpg"
+    },
+    { 
+      "url":"https://images.bewakoof.com/uploads/grid/app/new-mid-banner-bftees-1689742322.jpg"
+    },
+    { 
+      "url":"https://images.bewakoof.com/uploads/grid/app/plus-size-common-1683622044.jpg"
+    }
+   ]
+
+   constructor(){
+    super();
+    this.state={
+      article : this.article
+    }
+   }
+  render() {
+    return (
+      <>
+      <h2 style={{display:"flex",justifyContent:"center",color:"black",margin:"10px"}}>OUR BEST PICS</h2>
+      <div style={{display:"flex",height:"865px",width:"100%",flexWrap:"wrap",backgroundColor:"white"}}>
+        
+        {this.state.article.map((element)=>{
+           return(
+            <Block16Items imageUrl= {element.url}/>
+           )
+        })}
+      </div>
+      </>
+    )
+  }
 }

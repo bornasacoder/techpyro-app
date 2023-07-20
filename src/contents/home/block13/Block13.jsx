@@ -1,18 +1,17 @@
-import { Box, Grid } from '@mui/material'
-import React from 'react'
-import { CardLinks } from '../../../constants/Constant'
-import Item from './card/Item'
+import React, { Component } from 'react'
 
-export default function Block4() {
-  return (
-    <Box sx={{margin:'20px'}}>
-        <Grid container spacing={2}>
-            {Array.from(Array(6)).map((item, index) => (
-            <Grid item xs={12} sm={6} md={4} lg={4} key={index}>
-                <Item CardLinks={CardLinks}/>
-            </Grid>
-         ))}
-        </Grid>
-      </Box>
-  )
+export class Block13 extends Component {
+  render() {
+    return (
+      <div>
+        <h4 style={{    justifyContent: "center",
+    display: "flex",
+    fontSize : "20px",
+    margin: "10px auto 0px"
+      }}>TOP ACCESSORIES</h4>
+      </div>
+    )
+  }
 }
+
+export default Block13

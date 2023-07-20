@@ -1,18 +1,66 @@
-import { Box, Grid } from '@mui/material'
-import React from 'react'
-import { CardLinks } from '../../../constants/Constant'
-import Item from './card/Item'
+import React, { Component } from 'react'
+import Block7Items from './Block7Items';
 
-export default function Block7() {
-  return (
-    <Box sx={{margin:'20px'}}>
-        <Grid container spacing={2}>
-            {Array.from(Array(2)).map((item, index) => (
-            <Grid item xs={12} sm={6} md={6} lg={6} key={index}>
-                <Item CardLinks={CardLinks}/>
-            </Grid>
-         ))}
-        </Grid>
-      </Box>
-  )
+export default class Block7 extends Component {
+
+  article =[
+    {
+     "url":"https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-men-sshirts-1686063036.jpg"
+    },
+    {
+     "url":"https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-men-sshirts-1686063036.jpg"
+    },
+    {
+     "url":"https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-men-sshirts-1686063036.jpg"
+    },
+    {
+     "url":"https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-men-sshirts-1686063036.jpg"
+    },
+    {
+     "url":"https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-men-sshirts-1686063036.jpg"
+    },
+    {
+     "url":"https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-men-sshirts-1686063036.jpg"
+    },
+    {
+     "url":"https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-men-sshirts-1686063036.jpg"
+    },
+    {
+     "url":"https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-men-sshirts-1686063036.jpg"
+    },
+    {
+     "url":"https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-men-sshirts-1686063036.jpg"
+    },
+    {
+     "url":"https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-men-sshirts-1686063036.jpg"
+    },
+    {
+     "url":"https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-men-sshirts-1686063036.jpg"
+    },
+    {
+     "url":"https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-men-sshirts-1686063036.jpg"
+    },
+    
+]
+constructor(){
+ super();
+ this.state = {
+     article: this.article
+ }
+ }
+  render() {
+    return (
+      <div className="container2" style={{width:"100%",}}>
+      <div className="imageWithLinks" style={{display:"flex",width:"100%",height:"745px",margin:"5px auto",flexWrap:"wrap",}}>
+        {this.state.article.map((element)=>{
+          return(
+          <Block7Items imageUrl={element.url}/>
+          )
+        })}
+       </div>
+       </div>
+    )
+  }
 }
+
+
