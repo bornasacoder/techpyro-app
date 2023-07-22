@@ -1,5 +1,5 @@
 
-// import Home from "./pages/home/Home";
+ import Home from "./pages/home/Home";
 
 // import Products from "./pages/category/products/Products";
 // import Product from "./pages/category/product/Product";
@@ -35,34 +35,24 @@ import Block15 from "./contents/home/block15/Block15";
 import Block16 from "./contents/home/block16/Block16";
 import Block17 from "./contents/home/Block17/Block17";
 import Footer from "./contents/home/Footer/Footer";
+import Men from "./pages/men/Men";
 
 function App() {
   return (
     <>
     
-    <Navbar/>
-    <Block1/>
-    <Block2/>
-    <Block3/>
-    <Block4/>
-    <Block5/>
-    <Block6/>
-    <Block7/>
-    <Block9/>
-    <Block8/>
-    <Block10/>
-    <Block11/>
-    <Block12/>
-    <Block13/>
-    <Block14/>
-    <Block15/>
-    <Block16/>
-    <Block17/>
-    <Footer/>
+    
+    
+   
 
     <Router>
       <Routes>
-        {/* <Route exact path="/" element={<Home/>} />
+        {
+          <>
+        <Route exact path="/men-clothing" element={<Men/>} />
+        <Route exact path="/" element={<Home/>} />
+        </>
+         /*
         <Route exact path="/websites" element={<Category/>} />
         <Route exact path="/products" element={<Products/>} />
         <Route exact path="/product" element={<Product/>} />

@@ -11,13 +11,17 @@ const Navbar = () => {
       <Box sx={{ flexGrow: 1 , position:"fixed"}}>
         <AppBar sx={{bgcolor:"whitesmoke" }}>
           <Toolbar sx={{    margin:"-15px 0px"}}>
-            <Typography component="div" >
-              <img src="	https://images.bewakoof.com/web/ic-desktop-bwkf-trademark-logo.svg" alt="" style={{width:"147px",height:"20px",margin:"4px 20px 4px 138px"}}/>
+            
+            <Typography component="div" href="/" >
+            <a href="/" style={{textDecoration:"none",color:"black"}}><img   src="	https://images.bewakoof.com/web/ic-desktop-bwkf-trademark-logo.svg" alt="" style={{width:"147px",height:"20px",margin:"4px 20px 4px 138px"}}/></a>
+              
             </Typography>
-            <Typography color="black" fontSize="13px" padding="0 11px" marginLeft={"30px"}>MEN </Typography>
-            <Typography color="black" fontSize="13px" padding="0 11px">WOMEN </Typography>
-            <Typography color="black" fontSize="13px" padding="0 11px">MOBILE COVERS</Typography>
-           
+            <Typography color="black" fontSize="13px" padding="0 11px" marginLeft={"30px"}>
+              <a href="/men-clothing" style={{textDecoration:"none",color:"black"}}>MEN</a> </Typography>
+            <Typography color="black" fontSize="13px" padding="0 11px" marginLeft={"30px"}>
+              <a href="" style={{textDecoration:"none",color:"black"}}>WOMEN</a> </Typography>
+            <Typography color="black" fontSize="13px" padding="0 11px" marginLeft={"30px"}>
+              <a href="" style={{textDecoration:"none",color:"black"}}>MOBILE COVER</a> </Typography>
             <input type="text" value="" placeholder='Search by product , category or collection' style={{height: "40px",
                 display: 'block',
                 borderRadius: "5px",
