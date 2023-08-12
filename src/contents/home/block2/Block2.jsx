@@ -1,8 +1,8 @@
 import React from 'react'
 import { Component } from 'react'
 import { useState } from 'react'
-import Block2Items from './block2Items'
-  
+import Block2Items from './Items/block2Items'
+import './block2.css'
   export default class Block2 extends Component {
     article =[
          {
@@ -38,7 +38,7 @@ import Block2Items from './block2Items'
       }
     render() {
       return (
-        <div className="container2" style={{width:"1170px",height:"264px", margin:"0px auto"}}>
+        <div className="container2" style={{width:"100%", margin:"0px auto",overflow:"hidden"}}>
         <div className="imageWithLinks" style={{display:"flex"}}>
           {this.state.article.map((element)=>{
             return(

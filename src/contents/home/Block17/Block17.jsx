@@ -21,7 +21,7 @@ export default class Block17 extends Component {
       <div style={{margin:"3vh 0",backgroundColor:"white"}}>
         {this.state.article.map((element)=>{
             return(
-                <img src={element.url} alt=""  style={{width:"100%",margin:"1vh 0"}}/>
+                <img src={element.url} alt=""  style={{width:"100%",margin:"0"}}/>
             )
         })}
         

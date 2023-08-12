@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Block16Items from './Block16Items';
+import Block16Items from './Items/Block16Items';
 
 export default class Block16 extends Component {
   article = [
@@ -27,7 +27,7 @@ export default class Block16 extends Component {
     return (
       <>
       <h2 style={{display:"flex",justifyContent:"center",color:"black",margin:"10px"}}>OUR BEST PICS</h2>
-      <div style={{display:"flex",height:"865px",width:"100%",flexWrap:"wrap",backgroundColor:"white"}}>
+      <div style={{display:"flex",width:"100%",flexWrap:"wrap",backgroundColor:"white",justifyContent:"center"}}>
         
         {this.state.article.map((element)=>{
            return(

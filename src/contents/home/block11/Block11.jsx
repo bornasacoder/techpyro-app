@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Block11Items from './Block11Items';
+import Block11Items from './Items/Block11Items';
 export default class Block11 extends Component {
 
   article =[
@@ -32,8 +32,8 @@ constructor(){
 }
   render() {
     return (
-      <div className="container2" style={{width:"100%",}}>
-      <div className="imageWithLinks" style={{display:"flex",width:"100%",height:"325px",margin:"5px auto",flexWrap:"wrap",}}>
+      <div className="container11" style={{width:"100%",}}>
+      <div className="imageWithLinks" style={{display:"flex",width:"100%",margin:"5px",flexWrap:"wrap",height:"100%"}}>
         {this.state.article.map((element)=>{
           return(
           <Block11Items imageUrl={element.url}/>

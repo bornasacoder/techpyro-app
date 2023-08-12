@@ -3,6 +3,7 @@ import Filters from '../../contents/product/block1/Filters/Filters'
 import Allprocucts from '../../contents/product/block1/AllProducts/Allprocucts'
 import ArrowDropDownSharpIcon from '@mui/icons-material/ArrowDropDownSharp';
 import Navbar from '../../components/Navbar/Navbar';
+import './men.css'
 
 export default class Men extends Component {
     article =[
@@ -42,33 +43,33 @@ export default class Men extends Component {
         super();
         this.state={
             article : this.article
-        }
+       }
     }
   render() {
     return (
       <>
             <Navbar/>
 
-        <div className='OuterMostContainer' style={{margin:" 0 180px", color:"black",marginTop:"62px"}}>
-        <div className="ForhomeButton" style={{margin:"12px 0 "}}>
+        <div className='OuterMostContainers' style={{ color:"black",margin:"0 auto"}}>
+        <div className="ForhomeButton" style={{margin:"12px 10%"}}>
             <a href="/" style={{textDecoration:"none", color:"black",padding:"0 15px"}}>Home</a>/  Men Clothing
         </div>
-        <div className="Header" >
+        <div className="Header" style={{margin:"0 10%"}} >
             <h1>Men Clothing</h1>
         </div>
-        <div className="main" style={{display:"flex"}}>
+        <div className="main" style={{display:"flex",margin:"0 auto",justifyContent:"center"}}>
         <Filters/>
         <div style={{display:"flex", flexDirection:"column"}}>
-        <div className="sortby" style={{display:"flex",padding:"12px 0",color: "rgba(45,45,45,.5)",fontWeight:"bold", float:"right",padding:"16px 15px 24px", marginLeft:"auto"}}>
-          SORT BY   <span style={{color:"black" ,margin:"0 10px"}}>Popular <ArrowDropDownSharpIcon style={{margin:"0 0 0 6px", fontSize:"16px"}}/></span>
+          <div className="sortby" style={{padding:"12px 0",color: "rgba(45,45,45,.5)",fontWeight:"bold", float:"right",padding:"16px 15px 24px", marginLeft:"auto"}}>
+            SORT BY   <span style={{color:"black" ,margin:"0 10px"}}>Popular <ArrowDropDownSharpIcon style={{margin:"0 0 0 6px", fontSize:"16px"}}/></span>
         </div>
-      <div className="Products" style={{width:"850px",display:"flex",justifyContent:"space-between",flexWrap:"wrap"}}>
-        {this.state.article.map((element)=>{
-            return(
-            <Allprocucts imageUrl={element.imageurl} Description={element.description} Price={element.price}/>
-            )
-        })}
-        </div>
+          <div className="Products" style={{display:"flex",justifyContent:"space-between",flexWrap:"wrap"}}>
+            {this.state.article.map((element)=>{
+                return(
+                <Allprocucts imageUrl={element.imageurl} Description={element.description} Price={element.price}/>
+                )
+            })}
+            </div>
         </div>
       </div>
         

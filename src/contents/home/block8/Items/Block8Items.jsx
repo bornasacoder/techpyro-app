@@ -5,8 +5,8 @@ export class Block8Items extends Component {
     let {imageUrl} = this.props
     return (
 
-        <div style={{height:"445px", width:"49vw",padding:"0 15px"}}>
-            <img src={imageUrl} alt=""  style={{Width:"100%", }}/>
+        <div style={{width:"49%",padding:"0 7.5px"}}>
+            <img src={imageUrl} alt=""  style={{width:"100%", }}/>
            
         </div>
       

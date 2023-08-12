@@ -26,12 +26,12 @@ export default class Home extends Component {
         <Navbar/>
         <Block1/>
         <Block2/>
-        <Block3/>
         <Block4/>
         <Block5/>
+        <Block3/>
         <Block6/>
-        <Block7/>
-        <Block9/>
+       <Block7/>
+       <Block9/>
         <Block8/>
         <Block10/>
         <Block11/>
@@ -39,9 +39,9 @@ export default class Home extends Component {
         <Block13/>
         <Block14/>
         <Block15/>
-        <Block16/>
+       <Block16/>
         <Block17/>
-        <Footer/>
+         <Footer/>
       </div>
     )
   }

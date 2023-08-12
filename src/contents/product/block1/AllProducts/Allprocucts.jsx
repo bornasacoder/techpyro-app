@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
-import ArrowDropDownSharpIcon from '@mui/icons-material/ArrowDropDownSharp';
+import './allProduct.css'
 
 export class Allprocucts extends Component {
 
@@ -9,9 +9,9 @@ export class Allprocucts extends Component {
     let {imageUrl,Description,Price}= this.props
     return (
       <>
-        <div className="SingleProduct"  style={{width:"282px",padding:"0 8px" ,marginBottom:"20px"}}>
-            <div className="img" style={{width:"266px"}}>
-              <img src={imageUrl} alt=""  style={{width:"100%"}}/>
+        <div className="SingleProduct"  style={{padding:"0 8px"}}>
+            <div className="img" style={{overflow:"hidden"}}>
+              <img src={imageUrl} alt=""  style={{width:"100%",}}/>
             </div>
             <div className="Bewakoof" style={{display:"flex", width:"100%"}}>
               <div className="logo" >

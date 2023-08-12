@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Block15Items from './Block15Items'
+import Block15Items from './Items/Block15Items'
 
 export default class Block15 extends Component {
   article=[
@@ -29,7 +29,7 @@ export default class Block15 extends Component {
   render() {
     return (
       <div style={{ backgroundImage:"url("+("https://images.bewakoof.com/web/bg-web-mc-land-page.svg")+")",
-      backgroundRepeat:"no-repeat",height:"590px",width:"100%",backgroundSize:"cover"
+      backgroundRepeat:"no-repeat",width:"100%",backgroundSize:"cover"
       }}>
         <h3 style={{display:"flex", justifyContent:"center",margin:"20px auto 30px"}}>BESTSELLER</h3>
         <div className="cards" style={{display:"flex",justifyContent:"center"}}>

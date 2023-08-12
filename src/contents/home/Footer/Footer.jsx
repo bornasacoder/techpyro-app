@@ -4,13 +4,14 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import AppleIcon from '@mui/icons-material/Apple';
+import './footer.css'
 export default class Footer extends Component {
  
  
   render() {
     return (
       <div style={{backgroundColor:"black", color:"white",width:"100%"}}>
-        <div style={{margin:"0 180px",padding:"75px 0"}}>
+        <div className="forMarginSet" style={{padding:"75px 0"}}>
           <div className="logo">
             <h1>
               <a href="/" style={{textDecoration:"none", color:"yellow",margin:"0"}}>Bewakoof</a>
@@ -56,7 +57,7 @@ export default class Footer extends Component {
                   </ul>
                 </div>
 
-                <div className="CONNECT WITH US">
+                <div className="CONNECT_WITH_US">
                   <h4>CONNECT WITH US</h4>
                   <ul style={{listStyleType:"none",padding:"0"}}>
                    <li>
@@ -73,7 +74,7 @@ export default class Footer extends Component {
                   </ul>
                 </div>
                 
-                <div className="KEEP UP TO DATE">
+                <div className="KEEP_UP_TO_DATE">
                   <h4>KEEP UP TO DATE</h4>
                   <ul style={{listStyleType:"none",padding:"0"}}>
                     <form action="">

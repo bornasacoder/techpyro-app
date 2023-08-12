@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Block12Items from './Block12Items';
+import Block12Items from './Items/Block12Items';
 export default class Block12 extends Component {
 
   article = [
@@ -23,7 +23,7 @@ export default class Block12 extends Component {
   }
   render() {
     return (
-      <div className='container' style={{display:"flex",overflow:"hidden",height:"505px",marginTop:"50px",marginBottom:"15px"}}>
+      <div className='container' style={{display:"flex",overflow:"hidden",height:"33%"}}>
     {this.state.article.map((element)=>{
        return(
         <Block12Items imageUrl={element.url}/>

@@ -1,0 +1,13 @@
+
+    .imagesl{
+        height:100%;
+        width:32.4vw; 
+        margin:auto 5px
+    }
+    @media (max-width:1450px) {
+        .imagesl{
+            width:32.4vw; margin:0 5px;
+            height: 100%;
+        }
+    }
+

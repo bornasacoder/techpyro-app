@@ -1,0 +1,37 @@
+.OuterMostContainer{
+    width: 1170px;
+}
+.leftside{
+    width:70%;
+}
+li{
+    flex-basis: 33%;
+}
+@media (max-width:1200px) {
+    .OuterMostContainer{
+        width: 970px;
+    }
+    
+}
+@media (max-width:966px) {
+    .OuterMostContainer{
+        width: 100%;
+    }
+    .underline{
+        display: none;
+    }
+    
+}
+@media (max-width:720px) {
+    .rightside{
+        display: none;
+    }
+    .leftside{
+        width:100%;
+    }
+}
+@media (max-width:440px) {
+    li{
+        flex-basis: 50%;
+    }
+}

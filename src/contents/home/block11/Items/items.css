@@ -1,0 +1,29 @@
+
+@media (max-width:1443px) {
+    .img2{
+        width: 16%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
+@media (max-width:1220px) {
+    .img2{
+        width: 32%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
+@media (max-width:900px) {
+    .img2{
+        width: 33%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
+@media (max-width:730px) {
+    .img2{
+        width: 45%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+}

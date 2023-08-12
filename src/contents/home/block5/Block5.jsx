@@ -6,9 +6,9 @@ import React from 'react'
 export default function Block5() {
   return (
    <>
-   <div className="container5">
-    <div className="fullImage" style={{display:"flex",margin:"0 auto"}}>
-    <div className="left" style={{width:"50%"}}>
+   <div className="container5" style={{margin:"0"}}>
+    <div className="fullImage" style={{display:"flex",margin:"0"}}>
+    <div className="left" style={{width:"50%",marginRight:"-0.5px"}}>
       <img src="https://images.bewakoof.com/uploads/grid/app/Revised-DOTW-Split-banner-Desktop-Men-1689156828.jpg" alt="" style={{width:"100%"}} />
     </div>
     <div className="right" style={{width:"50%"}}>

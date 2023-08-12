@@ -1,0 +1,10 @@
+.images{
+    width:32.4vw; 
+    margin:auto 5px
+}
+@media (max-width:1450px) {
+    .images{
+        width:32.4vw; margin:0 5px;
+        height: 100%;
+    }
+}

@@ -1,0 +1,8 @@
+.container2{
+    height:236px
+}
+@media (max-width:900px) {
+    .container2{
+        height:226px
+    }
+}

@@ -1,0 +1,22 @@
+.sortby{
+    display: flex;
+}
+.Products{
+    width:850px;
+}
+
+@media (max-width:966px) {
+    .ForhomeButton{
+        display: none;
+    }
+    .sortby{
+        display: none;
+    }
+    .Header{
+        display: flex;
+        justify-content: center;
+    }
+    .Products{
+        width:100%;
+    }
+}

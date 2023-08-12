@@ -1,0 +1,11 @@
+
+.container15{
+    margin:0 10px;
+}
+
+@media (max-width:450px) {
+    .container15{
+        margin: 0 5px;
+    }
+    
+}

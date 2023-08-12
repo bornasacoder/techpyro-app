@@ -1,0 +1,56 @@
+.men_women_mobilecover{
+    color: black;
+    font-size: 13px;
+    padding: 0 11px;
+    margin-left: 19px;
+}
+.OnlyLogo{
+    display: none;
+}
+.MenuLogo{
+    display: none;
+}
+.men_women_mobilecover_container{
+    min-width: 487px;
+}
+#searchbutton{
+    display: none;
+}
+
+@media (max-width:1068px) {
+    .men_women_mobilecover{
+        display: none;
+    }
+    .Navcontainer{
+        width: 100%;
+    }
+    .OnlyLogo{
+        display: flex;
+        margin: 13px 0;
+        float: left;
+    }
+    .MenuLogo{
+        display: flex;
+        margin: 13px;
+        float: left;
+    }
+    .logoImage{
+        display: none;
+    }
+    .men_women_mobilecover_container{
+        min-width: 2px;
+        width: 90%;
+    }
+    .searchBar{
+        display: none;
+    }
+    .seperator{
+        display: none;
+    }
+    #LoginButton{
+        display: none;
+    }
+    #searchbutton{
+        display: flex;
+    }
+}

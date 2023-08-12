@@ -1,0 +1,17 @@
+.SingleProduct{
+    width:282px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:966px) {
+    .SingleProduct{
+        width:30%;
+        margin: 0 0;
+    }
+}
+@media (max-width:700px) {
+    .SingleProduct{
+        width:50%;
+        
+    }
+}

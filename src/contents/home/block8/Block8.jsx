@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Block8Items from './Block8Items'
+import Block8Items from './Items/Block8Items'
 
 export default class Block8 extends Component {
 
@@ -26,7 +26,7 @@ export default class Block8 extends Component {
    }
   render() {
     return (
-      <div style={{display:"flex",height:"865px",width:"100%",flexWrap:"wrap"}}>
+      <div style={{display:"flex",width:"100%",flexWrap:"wrap",justifyContent:"center"}}>
         {this.state.article.map((element)=>{
            return(
             <Block8Items imageUrl ={element.url} />
