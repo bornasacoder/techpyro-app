@@ -1,7 +1,7 @@
 
 import React,{useState} from 'react';
 import SearchBar from '../searchbar/SearchBar'
-import NavButton from 'components/navButton/NavButton'
+import NavButton from '../navButton/NavButton'
 import {
     AppBar,
     Box,
@@ -27,7 +27,7 @@ import {
 
 import { AccountCircle, ArrowDropDownCircle, AutoStories, Bungalow, Call, EastOutlined, Facebook, FavoriteBorder, GridView, Help, Home, HomeOutlined, Instagram, LinkedIn, LocalCarWashOutlined, LocationCityRounded, LocationCitySharp, LocationOn, Menu, PercentRounded, PercentTwoTone, Person2Outlined, Person3Outlined,  Search,  SearchOffOutlined,  ShoppingBag, ShoppingCart, Twitter, Window} from '@mui/icons-material';
 
-import MenuButtons from 'components/menuButtons/MenuButtons';
+import MenuButtons from '../menuButtons/MenuButtons';
 import { Link } from 'react-router-dom';
 
 
