@@ -1,10 +1,7 @@
 import * as React from 'react';
 import {Card, CardMedia, Typography, Box,useTheme,styled, Button} from '@mui/material';
 import { CalendarMonth, ChatBubbleOutlineRounded, Coffee, DinnerDining, EastOutlined, FavoriteBorder, Liquor, Mood, Person2Outlined, RiceBowlTwoTone, Star, StarHalf } from '@mui/icons-material';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-AOS.init();
+
 
 
 export default function Block7() {
