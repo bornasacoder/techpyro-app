@@ -18,9 +18,8 @@ jobs:
           username: ${{ secrets.USERNAME }}
           port: ${{ secrets.PORT }}
           key: ${{ secrets.SSHKEY }}
-        script: |
-  cd /var/www/techpyro-app
-  git config --global --add safe.directory /var/www/techpyro-app
-  git pull origin $(git rev-parse --abbrev-ref HEAD)
-  chmod +x ./.scripts/deploy.sh
-  ./.scripts/deploy.sh
+          script: |
+            git config --global --add safe.directory /var/www/techpyro-app
+            cd /var/www/techpyro-app
+            chmod +x ./.scripts/deploy.sh
+            ./.scripts/deploy.sh
