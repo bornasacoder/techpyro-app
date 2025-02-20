@@ -1,15 +1,11 @@
 name: Deploy
 
-# Trigger the workflow on push and
-# pull request events on the master branch
 on:
   push:
     branches: ["edu7_vk8102"]
   pull_request:
     branches: ["edu7_vk8102"]
 
-# Authenticate to the the server via ssh
-# and run our deployment script
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -22,4 +18,8 @@ jobs:
           username: ${{ secrets.USERNAME }}
           port: ${{ secrets.PORT }}
           key: ${{ secrets.SSHKEY }}
-          script: "cd /var/www/techpyro-app && ./.scripts/deploy.sh"
+          script: |
+            git config --global --add safe.directory /var/www/techpyro-app
+            cd /var/www/techpyro-app
+            chmod +x ./.scripts/deploy.sh
+            ./.scripts/deploy.sh
