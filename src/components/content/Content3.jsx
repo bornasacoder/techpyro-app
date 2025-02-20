@@ -23,8 +23,8 @@ export default function Content3() {
         <Typography
         sx={{fontSize:'30px',textAlign:"center"}}
         >
-         We collaborate with 
-         <Span  > 275+ leading universities and companies</Span>
+         Ashish singh
+         <Span  > the power of india </Span>
         </Typography>
       <br/>
         <br/>
