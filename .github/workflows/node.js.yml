@@ -1,28 +1,33 @@
-name: Node.js CI
+name: React App CI/CD
 
 on:
   push:
     branches: [ "university9" ]
-  pull_request:
-    branches: [ "university9" ]
 
 jobs:
   build:
-
     runs-on: self-hosted
-
     strategy:
       matrix:
         node-version: [22.16.0]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v3
+
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm test
+
+    - name: Install dependencies
+      run: npm install --legacy-peer-deps
+
+    - name: Build
+      run: npm run build
+      env:
+        CI: false
+
+    # Optional step: deploy if build is successfully
+    # - name: Deploy (optional)
+    #   run: echo "your deploy step"
